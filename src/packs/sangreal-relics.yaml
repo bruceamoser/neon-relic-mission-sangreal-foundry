@@ -1,3 +1,153 @@
 # Mission: Sangreal — Relics & Equipment (Item pack)
 # Items: artifact, relicSheet, weapon, gear
 # Source: docs/mission-sangreal-design-guide.md §4, §7–§8
+---
+
+- _id: sangreal-relic-phials
+  name: 'The Twelve Phials of Gethsemane'
+  type: artifact
+  system:
+    tier: 3
+    corruptionCost: 3
+    artifactDie:
+      current: d20
+      starting: d20
+    activationCondition: >
+      Introduction into open tissue or mucous membranes (CT1). The vector activates on
+      contact — ingestion, injection, or blood-to-wound exposure. Handling an unsealed
+      phial without protection is a containment breach.
+    effect: >
+      <p><strong>Human ingestion.</strong> The subject gains +3 STR, +3 AGI, +2 Armor
+      Rating, severe photophobia (2 Physical Damage per round in direct sunlight), and an
+      insatiable hunger for living human blood (Willpower/Discipline checks required to
+      resist attacking wounded targets).</p>
+      <p><strong>Vampiric ingestion.</strong> The subject must pass an Endure check against
+      Difficulty 5. Failure triggers rapid biological decay — physical cells age centuries
+      in seconds, reducing the body to calcified ash in three combat rounds. Success purges
+      all supernatural traits, leaving a dying mortal subject suffering systemic organ
+      failure.</p>
+    fractureCondition: >
+      On a Gear Die 1 while handling the case under stress, roll the
+      <em>Phial Fracture (d6)</em> table in the Relic Tables pack.
+    emission:
+      type: pulse
+      radius: '100 m'
+      trigger: 'Proximity to wounded, anemic, or terminally ill individuals'
+      corruptionAmount: 1
+      isSuppressed: false
+    containmentProfile:
+      type: 'Sovereign Bio-Vector'
+      isContained: false
+      truths:
+        triggerCondition: >
+          CT1 — Contact with open tissue or mucous membranes. Uninfected humans convert
+          within six shifts (24 hours); active vampires burn to ash in minutes.
+        appetite: >
+          CT2 — Within 100 meters, unshielded phials psychically pull the sick and wounded
+          toward consumption while accelerating their cellular decay.
+        quiescenceCondition: >
+          CT3 — Absolute darkness, lead-antimony foil below 4°C, wrapped in unbleached
+          linen soaked in gall, wine vinegar, and myrrh. Daylight causes the fluid to boil
+          and combust into white ash.
+    activePressure: false
+    decay:
+      value: 0
+      enabled: false
+    replicable: false
+    loreIdentified: false
+    description: >
+      <p>A 1964 brushed-steel diplomatic attaché case lined with lead-antimony foil and
+      secured by dual mechanical combination deadbolts. The interior holds a molded blue
+      velvet rack of twelve cylindrical, thick-walled Roman glass phials, each sealed with
+      imperial red beeswax and inscribed with cursive Aramaic characters. Every phial holds
+      50 ml of dark, un-coagulated arterial blood.</p>
+      <p>The craftsmanship is late Roman; the contents are not. The fluid has never
+      coagulated, never cooled below body temperature, and never stopped reacting to the
+      living.</p>
+
+- _id: sangreal-vc16-phials
+  name: 'VC-16 — Twelve Phials of Gethsemane'
+  type: relicSheet
+  system:
+    relicName: 'The Twelve Phials of Gethsemane'
+    tier: 3
+    category: object
+    riskTag: 'Sovereign Bio-Vector'
+    corruptionCost: 3
+    artifactDie: d20
+    emissionType: 'Pulse — 100 m hematological field'
+    mundaneAppearance: >
+      A locked 1964 steel attaché case. Heavy for its size. Warm to the touch near the
+      hinges. The brass combination dials carry no manufacturer's mark.
+    surfaceRead: >
+      <p><strong>Orthodox exterior.</strong> Twelve sealed communion ampoules dating to
+      the late Roman period, held in Vatican custody and certified by the Holy See as
+      generating zero bio-contamination and zero occult hazard. Diplomatic property;
+      sealed under pontifical treaty.</p>
+    operationalRead: >
+      <p><strong>Forensic anomaly.</strong> The blood is un-coagulated after nearly two
+      millennia and reads as oxygenated arterial fluid. The case lining is lead-antimony,
+      not leather or felt. Photographic analysis of the theft shows the case casts an
+      opaque, pitch-black shadow. Around the sick and wounded, the phials exert a
+      measurable psychic pull and accelerate cellular decay.</p>
+    coldArchiveRead: >
+      <p><strong>Subversive synthesis.</strong> The suppressed index of the Secret Archives
+      does not catalog the phials as relics of devotion. Vault IX held them as an
+      instrument of deterrence: the bloodline of an immune carrier whose biology unmakes
+      the curse others call immortality. Rome never venerated the Sangreal. It stockpiled
+      it.</p>
+    activationCondition: >
+      Contact with open tissue or mucous membranes. The vector does not negotiate: it
+      rewrites what it touches. Ingestion by an uninfected human forces mutagenic
+      conversion within six shifts; ingestion by an active vampire breaks necrotic stasis
+      and ages the body to ash in minutes (Endure Difficulty 5 negates, leaving a dying
+      mortal).
+    mechanicalEffect: >
+      <p>See the artifact item <strong>The Twelve Phials of Gethsemane</strong> for the
+      full mechanical profile: +3 STR / +3 AGI / +2 AR and blood-hunger for converted
+      humans; fatal senescence for vampires. Exposure to direct sunlight destroys a phial's
+      contents (white ash) — and ruptures the glass catastrophically.</p>
+    fractureCondition: >
+      Fracture on Gear Die 1s while the case is handled under pressure — roll the
+      <em>Phial Fracture (d6)</em> table: hairline stress, vapor leak, catastrophic
+      rupture, or resonance detonation.
+    containmentProfile: >
+      Keep sealed in darkness, wrapped in gall/vinegar/myrrh-soaked linen, inside
+      lead-antimony foil below 4°C. Never open in daylight. Never handle unshielded near
+      the injured. If a phial breaks: clear the area, suppress sunlight, and expect
+      reanimation in the dark.
+    containmentTruths:
+      - id: CT1
+        description: 'Contact with open tissue or mucous membranes converts humans within six shifts and destroys vampires in minutes.'
+        checked: false
+      - id: CT2
+        description: 'Within 100 m, unshielded phials psychically pull the sick toward consumption and accelerate their decay.'
+        checked: false
+      - id: CT3
+        description: 'Absolute darkness, lead-antimony foil below 4°C, unbleached linen soaked in gall, wine vinegar, and myrrh. Daylight burns it to ash.'
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+    relicImage: ''
+    daNotes: >
+      <p>The case's centerpiece and the campaign's moral fulcrum. Rome calls it a
+      deterrent; Amsterdam calls it an execution order; the truth is that it is a cure no
+      one dares use. Guard the pacing: the relic should feel seductive to the desperate and
+      monstrous to the principled. The fracture table is the pressure valve for every
+      careless handoff.</p>
+    caseId: SANGREAL-87-091
+    description: >
+      <p>VC-16 relic sheet for the mission's central artifact. DA eyes only.</p>
