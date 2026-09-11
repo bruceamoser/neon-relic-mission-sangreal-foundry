@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Dossier silhouette — Monsignor Matteo Corvi">
+  <rect width="400" height="400" fill="#e9e0c8"/>
+  <rect x="10" y="10" width="380" height="380" fill="none" stroke="#1c1a17" stroke-width="2" opacity="0.55"/>
+  <path d="M10 44 V10 H44" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <path d="M390 356 V390 H356" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <g transform="rotate(-6 334 40)">
+    <rect x="294" y="26" width="80" height="28" rx="3" fill="none" stroke="#7a1f1f" stroke-width="3" opacity="0.55"/>
+    <text x="334" y="45" font-family="monospace" font-size="13" fill="#7a1f1f" text-anchor="middle" opacity="0.65">DA ONLY</text>
+  </g>
+  <!-- shoulders / cassock -->
+  <path d="M52 400 C70 316 122 288 200 288 C278 288 330 316 348 400 Z" fill="#1c1a17"/>
+  <!-- clerical collar -->
+  <path d="M176 300 L200 336 L224 300 L210 292 L200 300 L190 292 Z" fill="#e9e0c8"/>
+  <!-- neck + head -->
+  <rect x="186" y="248" width="28" height="48" fill="#1c1a17"/>
+  <ellipse cx="200" cy="206" rx="62" ry="74" fill="#1c1a17"/>
+  <!-- biretta -->
+  <rect x="134" y="104" width="132" height="36" rx="8" fill="#1c1a17"/>
+  <rect x="150" y="92" width="100" height="16" rx="8" fill="#1c1a17"/>
+  <path d="M200 92 V80" stroke="#1c1a17" stroke-width="4"/>
+  <!-- spectacles -->
+  <circle cx="176" cy="212" r="18" fill="none" stroke="#e9e0c8" stroke-width="4"/>
+  <circle cx="224" cy="212" r="18" fill="none" stroke="#e9e0c8" stroke-width="4"/>
+  <path d="M194 212 H206" stroke="#e9e0c8" stroke-width="4"/>
+  <!-- brow + mouth -->
+  <path d="M162 186 Q176 178 190 186" fill="none" stroke="#e9e0c8" stroke-width="3"/>
+  <path d="M210 186 Q224 178 238 186" fill="none" stroke="#e9e0c8" stroke-width="3"/>
+  <path d="M186 250 Q200 244 214 250" fill="none" stroke="#e9e0c8" stroke-width="3"/>
+</svg>

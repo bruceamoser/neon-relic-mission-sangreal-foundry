@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Dossier silhouette — Kurt Hausmann, the Feral Banker">
+  <rect width="400" height="400" fill="#e9e0c8"/>
+  <rect x="10" y="10" width="380" height="380" fill="none" stroke="#1c1a17" stroke-width="2" opacity="0.55"/>
+  <path d="M10 44 V10 H44" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <path d="M390 356 V390 H356" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <g transform="rotate(-6 334 40)">
+    <rect x="290" y="26" width="86" height="28" rx="3" fill="none" stroke="#7a1f1f" stroke-width="3" opacity="0.6"/>
+    <text x="333" y="45" font-family="monospace" font-size="12" fill="#7a1f1f" text-anchor="middle" opacity="0.7">CONTAGION</text>
+  </g>
+  <!-- hunched shoulders -->
+  <path d="M40 400 C60 306 118 282 200 282 C282 282 340 306 360 400 Z" fill="#1c1a17"/>
+  <!-- torn collar -->
+  <path d="M174 300 L192 330 L200 316 L208 330 L226 300 L210 294 L200 300 L190 294 Z" fill="#e9e0c8" opacity="0.9"/>
+  <!-- neck + gaunt head -->
+  <rect x="188" y="240" width="24" height="52" fill="#1c1a17"/>
+  <path d="M144 200 C144 138 168 106 200 106 C232 106 256 138 256 200 C256 248 232 278 200 278 C168 278 144 248 144 200 Z" fill="#1c1a17"/>
+  <!-- wild hair -->
+  <path d="M138 168 L120 140 L146 148 L140 116 L166 132 L166 100 L192 118 L200 84 L210 118 L236 100 L236 132 L262 116 L256 148 L282 140 L262 168 C262 132 238 112 200 112 C162 112 138 132 138 168 Z" fill="#12100e"/>
+  <!-- hollow cheeks -->
+  <path d="M162 224 C170 246 178 252 186 252" fill="none" stroke="#e9e0c8" stroke-width="3" opacity="0.8"/>
+  <path d="M238 224 C230 246 222 252 214 252" fill="none" stroke="#e9e0c8" stroke-width="3" opacity="0.8"/>
+  <!-- red eyes -->
+  <ellipse cx="180" cy="204" rx="9" ry="7" fill="#7a1f1f"/>
+  <ellipse cx="220" cy="204" rx="9" ry="7" fill="#7a1f1f"/>
+  <circle cx="180" cy="204" r="3" fill="#e9e0c8" opacity="0.85"/>
+  <circle cx="220" cy="204" r="3" fill="#e9e0c8" opacity="0.85"/>
+  <!-- bared teeth -->
+  <path d="M184 252 L190 258 L196 252 L202 258 L208 252 L214 258" fill="none" stroke="#e9e0c8" stroke-width="3"/>
+</svg>

@@ -6,6 +6,7 @@
 - _id: sangreal-relic-phials
   name: 'The Twelve Phials of Gethsemane'
   type: artifact
+  img: modules/neon-relic-mission-sangreal/assets/art/relic-phials.svg
   system:
     tier: 3
     corruptionCost: 3
@@ -141,7 +142,7 @@
       - id: ''
         description: ''
         checked: false
-    relicImage: ''
+    relicImage: modules/neon-relic-mission-sangreal/assets/art/relic-phials.svg
     daNotes: >
       <p>The case's centerpiece and the campaign's moral fulcrum. Rome calls it a
       deterrent; Amsterdam calls it an execution order; the truth is that it is a cure no
@@ -155,6 +156,7 @@
 - _id: sangreal-relic-lodestone
   name: 'The Lodestone of St. Jude'
   type: artifact
+  img: modules/neon-relic-mission-sangreal/assets/art/relic-lodestone.svg
   system:
     tier: 1
     corruptionCost: 1
@@ -207,6 +209,7 @@
 - _id: sangreal-relic-veronica
   name: "The Veil of Veronica's Thread"
   type: artifact
+  img: modules/neon-relic-mission-sangreal/assets/art/relic-veronica.svg
   system:
     tier: 1
     corruptionCost: 1
@@ -314,7 +317,7 @@
       - id: ''
         description: ''
         checked: false
-    relicImage: ''
+    relicImage: modules/neon-relic-mission-sangreal/assets/art/relic-lodestone.svg
     daNotes: >
       <p>The breach tool and the proof of premeditation. The residue in the vault's copper
       conduits (I1) is the strongest physical evidence in the Rome cluster — let careful
@@ -387,7 +390,7 @@
       - id: ''
         description: ''
         checked: false
-    relicImage: ''
+    relicImage: modules/neon-relic-mission-sangreal/assets/art/relic-veronica.svg
     daNotes: >
       <p>Claudia's escape hatch and the engine of the Turin betrayal. When it fires at L5,
       the cell loses the case and their transport line — play the five minutes of absence

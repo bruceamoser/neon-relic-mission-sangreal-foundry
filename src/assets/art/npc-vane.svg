@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Dossier silhouette — Sister Claudia Vane">
+  <rect width="400" height="400" fill="#e9e0c8"/>
+  <rect x="10" y="10" width="380" height="380" fill="none" stroke="#1c1a17" stroke-width="2" opacity="0.55"/>
+  <path d="M10 44 V10 H44" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <path d="M390 356 V390 H356" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <g transform="rotate(-6 334 40)">
+    <rect x="294" y="26" width="80" height="28" rx="3" fill="none" stroke="#7a1f1f" stroke-width="3" opacity="0.55"/>
+    <text x="334" y="45" font-family="monospace" font-size="13" fill="#7a1f1f" text-anchor="middle" opacity="0.65">DA ONLY</text>
+  </g>
+  <!-- veil fall -->
+  <path d="M96 400 C104 300 130 236 200 236 C270 236 296 300 304 400 Z" fill="#12100e"/>
+  <!-- shoulders -->
+  <path d="M64 400 C82 322 128 296 200 296 C272 296 318 322 336 400 Z" fill="#1c1a17"/>
+  <!-- collar -->
+  <path d="M182 306 L200 334 L218 306 L208 300 L200 306 L192 300 Z" fill="#e9e0c8"/>
+  <!-- head + wimple frame -->
+  <ellipse cx="200" cy="204" rx="58" ry="70" fill="#1c1a17"/>
+  <path d="M138 210 C134 148 160 118 200 118 C240 118 266 148 262 210 C262 176 240 158 200 158 C160 158 138 176 138 210 Z" fill="#12100e"/>
+  <!-- face opening highlight -->
+  <ellipse cx="200" cy="212" rx="38" ry="46" fill="none" stroke="#e9e0c8" stroke-width="3" opacity="0.5"/>
+  <!-- calm features -->
+  <path d="M180 204 Q188 198 196 204" fill="none" stroke="#e9e0c8" stroke-width="3"/>
+  <path d="M204 204 Q212 198 220 204" fill="none" stroke="#e9e0c8" stroke-width="3"/>
+  <path d="M190 240 Q200 244 210 240" fill="none" stroke="#e9e0c8" stroke-width="3"/>
+  <!-- rosary hint -->
+  <path d="M188 340 Q200 356 212 340" fill="none" stroke="#e9e0c8" stroke-width="3"/>
+</svg>

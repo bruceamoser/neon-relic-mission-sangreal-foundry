@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Dossier silhouette — Dr. Elizabeth Graf">
+  <rect width="400" height="400" fill="#e9e0c8"/>
+  <rect x="10" y="10" width="380" height="380" fill="none" stroke="#1c1a17" stroke-width="2" opacity="0.55"/>
+  <path d="M10 44 V10 H44" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <path d="M390 356 V390 H356" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <g transform="rotate(-6 334 40)">
+    <rect x="294" y="26" width="80" height="28" rx="3" fill="none" stroke="#7a1f1f" stroke-width="3" opacity="0.55"/>
+    <text x="334" y="45" font-family="monospace" font-size="13" fill="#7a1f1f" text-anchor="middle" opacity="0.65">DA ONLY</text>
+  </g>
+  <!-- lab coat shoulders -->
+  <path d="M56 400 C74 318 124 290 200 290 C276 290 326 318 344 400 Z" fill="#1c1a17"/>
+  <path d="M178 300 L200 356 L222 300 L206 294 Z" fill="#e9e0c8"/>
+  <path d="M188 360 H212 V372 H188 Z" fill="#e9e0c8" opacity="0.8"/>
+  <!-- neck + head -->
+  <rect x="188" y="244" width="24" height="50" fill="#1c1a17"/>
+  <ellipse cx="200" cy="202" rx="58" ry="70" fill="#1c1a17"/>
+  <!-- bob hair -->
+  <path d="M138 206 C132 138 162 108 200 108 C238 108 268 138 262 206 C262 168 240 150 200 150 C160 150 138 168 138 206 Z" fill="#12100e"/>
+  <path d="M138 206 C136 244 142 262 150 272 L150 216 Z" fill="#12100e"/>
+  <path d="M262 206 C264 244 258 262 250 272 L250 216 Z" fill="#12100e"/>
+  <!-- glasses -->
+  <circle cx="178" cy="212" r="16" fill="none" stroke="#e9e0c8" stroke-width="4"/>
+  <circle cx="222" cy="212" r="16" fill="none" stroke="#e9e0c8" stroke-width="4"/>
+  <path d="M194 212 H206" stroke="#e9e0c8" stroke-width="4"/>
+  <!-- worried mouth -->
+  <path d="M186 250 Q200 242 214 250" fill="none" stroke="#e9e0c8" stroke-width="3"/>
+</svg>
