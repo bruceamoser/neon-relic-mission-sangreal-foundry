@@ -157,3 +157,121 @@
     informationCardUuids: []
     organizationUuids: []
     locationUuids: []
+
+- _id: sangreal-l5
+  name: 'L5 — Lingotto Fiat Assembly Complex (Turin)'
+  type: location
+  system:
+    locationId: L5
+    caseId: SANGREAL-87-091
+    availability: clue
+    availabilityCondition: 'Requires the wiretap tape (I8).'
+    description: >
+      <p><strong>Architectural forensics.</strong> Giacomo Mattè-Trucco's industrial
+      plant, stretching a third of a mile with concrete spiral ramps and a rooftop test
+      track. Rain cascades through broken skylights into abandoned assembly halls.
+      Monsignor Corvi has barricaded himself in an overhead glass supervisor's booth
+      fifty feet above the factory floor, holding the steel attaché case.</p>
+      <p><strong>Dramatis personae.</strong> Monsignor Matteo Corvi — exhausted,
+      feverish, at the end of his flight. Sister Claudia Vane — to Corvi's back,
+      diplomatically, exactly where she wants to be.</p>
+      <p><strong>Available information.</strong> Peaceful negotiation with Corvi yields
+      I10, I11, and I12. Securing the attaché grants physical possession of the primary
+      relic.</p>
+    positiveResult: >
+      <p>Corvi talks: the vector mechanics (I10), the resonance field (I11), and his own
+      translation of the Gospel of the Twelve (I12). If the cell demonstrates independent
+      custodial credentials and cites Ebionite theology, he surrenders the case to them —
+      and the room goes quiet enough to hear Claudia's thread snap.</p>
+    negativeResult: >
+      <p><strong>The Betrayal Set-Piece.</strong> Once Corvi surrenders the briefcase,
+      Claudia snaps The Veil of Veronica's Thread. A blinding phosphorus flash forces an
+      Endure check against flash-blindness; Claudia vanishes with the case and the agents'
+      transport line. Failure to reconstruct her escape route costs 2 shifts and advances
+      Track O2 to Milestone M3.</p>
+    milestoneChanges: >
+      <p><strong>O2 M3.</strong> After the green-light is executed, the Talamasca no
+      longer needs the cell: Claudia's movements become untraceable without physical
+      evidence (toll stubs, teleprinter logs, Corvi's papers). <strong>O1 M2.</strong>
+      L'Entità watches the plant through binoculars from the Fiat access road; a wide
+      public incident here triggers the sanitization sweep early.</p>
+    npcUuids: []
+    informationCardUuids: []
+    organizationUuids: []
+    locationUuids: []
+
+- _id: sangreal-l6
+  name: 'L6 — The Fortified Retreat of San Nazzaro (Novara)'
+  type: location
+  system:
+    locationId: L6
+    caseId: SANGREAL-87-091
+    availability: clue
+    availabilityCondition: 'Requires tracking Claudia — toll stubs, teleprinter logs, or Corvi''s papers.'
+    description: >
+      <p><strong>Architectural forensics.</strong> An eleventh-century fortified brick
+      abbey along the Sesia river plains near Novara. The perimeter features defensive
+      moats and brick walls. The heavy oak carriage doors have been broken inward, their
+      iron hinges torn from the masonry. A single kerosene lantern illuminates the
+      stone-flagged dining hall.</p>
+      <p><strong>Dramatis personae.</strong> Sister Claudia Vane — corpse, pinned to the
+      dining table. Her killers are already airborne.</p>
+      <p><strong>Available information.</strong> Autopsy of Claudia yields I13. Searching
+      her satchel yields I14. Checking the telegraph desk yields I15.</p>
+    positiveResult: >
+      <p>Full forensics: the slaughter scene (I13), the Registry 16 telex (I14), and the
+      Cessna 421 clearance (I15). The cell learns — too late — what it was really carrying
+      and where it went.</p>
+    negativeResult: >
+      <p>Spending more than 1 shift here brings military police from the nearby
+      Novara-Cameri air base, initiating an armed standoff and costing 2 shifts. Evidence
+      left behind is impounded; some of it will never be seen again.</p>
+    milestoneChanges: >
+      <p><strong>O2 M3.</strong> The Elder Cleansing Strike has already happened; arriving
+      after this milestone means the body is cold, the telex ash is cold, and the tarmac
+      window is minutes wide. <strong>O1 M2.</strong> L'Entità's cleanup teams arrive
+      behind the vampires to burn the abbey records — the two factions colliding in the
+      same building is the case's loudest possible alarm.</p>
+    npcUuids: []
+    informationCardUuids: []
+    organizationUuids: []
+    locationUuids: []
+
+- _id: sangreal-l7
+  name: 'L7 — Palace of the Congregation for the Doctrine of the Faith (Vatican City)'
+  type: location
+  system:
+    locationId: L7
+    caseId: SANGREAL-87-091
+    availability: contact
+    availabilityCondition: 'Requires confronting Cardinal Sabbatini with evidence from L6 (corpse, telex, flight manifest).'
+    description: >
+      <p><strong>Architectural forensics.</strong> The headquarters of the Inquisition,
+      situated outside the southern colonnade of St. Peter's. The Council Chamber features
+      Renaissance ceiling frescoes depicting the defeat of heresy, walnut paneling, and
+      green banker lamps illuminating classified dossiers.</p>
+      <p><strong>Dramatis personae.</strong> Cardinal Enrico Sabbatini — Prefect, and no
+      longer pretending otherwise. Father Ghiberti — summoned, terrified, useful.</p>
+      <p><strong>Available information.</strong> Confronting Sabbatini with Claudia's
+      corpse, the telex, and the flight manifest unlocks the containment protocols (I16).
+      Searching Claudia's convent room yields I17.</p>
+    positiveResult: >
+      <p><strong>Operational Resolution.</strong> Sabbatini admits the Church's historic
+      deterrence strategy and signs the Concordat Requisition Order, providing diplomatic
+      cover, weapons clearances, and funding for Mission 2: Recover the Sangreal. The
+      Covenant exits the case with a mandate and a debt.</p>
+    negativeResult: >
+      <p>Displays of force or moralizing in the Council Chamber provoke an imperious
+      dismissal (His Eminence's difficulty is 4). Without the L6 evidence, Sabbatini
+      offers nothing but condolences and a limousine. L'Entità closes its doors and the
+      Concordat funding never materializes.</p>
+    milestoneChanges: >
+      <p><strong>O1 M3.</strong> The Holy Crusade: by the time the cell reaches the
+      Council Chamber, the Swiss Guard squad detailed to sanitize them is already in the
+      antechamber. Sabbatini either calls it off — or it executes. <strong>O2 M3.</strong>
+      Amsterdam sends a formal, bland note of condolence for "our missing sister",
+      dead-ending diplomatic recourse.</p>
+    npcUuids: []
+    informationCardUuids: []
+    organizationUuids: []
+    locationUuids: []
