@@ -397,3 +397,84 @@
     caseId: SANGREAL-87-091
     description: >
       <p>VC-16 relic sheet for the Talamasca extraction device. DA eyes only.</p>
+
+- _id: sangreal-kit-revolver32
+  name: 'Revolver (.32)'
+  type: weapon
+  system:
+    description: >
+      Monsignor Corvi's antique five-round revolver, kept loaded with .32 rounds older
+      than most of his students. Reliable as a machine, useless in the Prefect's shaking
+      hands — his -2 firearms penalty lives on his NPC sheet, not on the weapon.
+    damage: 1
+    range: short
+    skill: firearms
+    targetAttribute: agi
+    gearBonus:
+      value: 1
+      max: 1
+    encumbrance: 1
+    worn: true
+    cl: 1
+    ammoDie:
+      current: d6
+      starting: d6
+    traits:
+      reliable: true
+
+- _id: sangreal-kit-beretta70
+  name: 'Beretta 70'
+  type: weapon
+  system:
+    description: >
+      Compact Italian semi-automatic in .32 ACP, eight-round magazine, carried
+      concealed in a rosary-brown shoulder rig. Sister Claudia's sidearm is clean,
+      well-oiled, and has never been fired inside church property — that anyone can
+      prove.
+    damage: 2
+    range: short
+    skill: firearms
+    targetAttribute: agi
+    gearBonus:
+      value: 2
+      max: 2
+    encumbrance: 1
+    worn: true
+    cl: 2
+    ammoDie:
+      current: d8
+      starting: d8
+    traits:
+      reliable: true
+
+- _id: sangreal-kit-uvfloodlight
+  name: 'Ultraviolet Floodlight'
+  type: gear
+  system:
+    description: >
+      Industrial portable UV flood lamp on a folding stand — the kind used to cure
+      printing inks and inspect hotel carpets. Casts a hard blue-white wash that
+      scorches photosensitive predators and leaves afterimages on undeveloped film.
+      Heavy, loud to start, and thirsty for D-cell batteries.
+    gearBonus:
+      value: 1
+      max: 1
+    encumbrance: 2
+    worn: true
+    cl: 2
+    skillBonus: investigate
+    isBroken: false
+
+- _id: sangreal-kit-phosphorusflare
+  name: 'Phosphorus Flare'
+  type: consumable
+  system:
+    description: >
+      Military-grade phosphorus flare. Burns sun-bright for one scene and leaves no
+      shadow worth hiding in — repels photophobic targets, or ruins everyone's night
+      vision indoors. Distinct from a standard signal flare: hotter, whiter, and far
+      less polite in enclosed spaces.
+    consumableType: supply
+    currentDie: d6
+    startingDie: d6
+    cl: 2
