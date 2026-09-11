@@ -169,3 +169,81 @@
       <p>Director's master reference for Operation File <strong>SANGREAL-87-091</strong>.
       DA eyes only — contains both twists, both faction tracks, and the full milestone
       schedule.</p>
+
+- _id: sangreal-player-brief
+  name: 'Operation File SANGREAL-87-091 — Player Dossier'
+  type: playerCaseBrief
+  system:
+    caseId: SANGREAL-87-091
+    caseName: 'Mission: Sangreal'
+    region: 'Region 04 — Western Europe / Italian-Swiss Corridor'
+    classification: RESTRICTED
+    situationSummary: >
+      <p>At 04:00 hours yesterday, the Holy Alliance — the diplomatic and security office
+      of the Holy See — requisitioned emergency Covenant field recovery aid under the terms
+      of the St. John Custodial Concordat.</p>
+      <p>Subterranean Vault IX, located beneath the Campo Santo Teutonico in Vatican City,
+      was breached. A customized brushed-steel diplomatic attaché case, manufactured in 1964
+      and reinforced with lead-antimony shielding, was removed.</p>
+      <p>The Holy See formally certifies that the attaché contains twelve sealed communion
+      ampoules dating to the late Roman period, and guarantees the following:</p>
+      <ul>
+      <li>The artifact generates zero bio-contamination risk.</li>
+      <li>The artifact poses zero occult memetic or psychic radiation hazard.</li>
+      <li>The artifact must remain sealed; field testing or opening the container is
+      strictly prohibited under pontifical treaty.</li>
+      <li>Full legal and operational custody must be remanded to Church authorities
+      immediately upon recovery.</li>
+      </ul>
+    primaryObjective: >
+      <p><strong>Primary:</strong> Locate and secure the 1964 steel attaché case and its
+      contents intact.</p>
+    secondaryObjective: >
+      <p><strong>Secondary:</strong> Identify the individual who breached Vault IX and
+      determine how its electromagnetic mooring systems were bypassed.</p>
+    knownOrganizations: >
+      <p><strong>The Holy Alliance.</strong> The diplomatic and security office of the Holy
+      See. Your contracting authority for this operation; handles the case as a diplomatic
+      matter and expects discretion.</p>
+    initialContacts:
+      - name: 'Cardinal Enrico Sabbatini'
+        role: 'Contracting authority — Congregation for the Doctrine of the Faith'
+        knownInfo: 'Signed the emergency requisition. Your point of authority for the case; treats it as a diplomatic incident, not an occult one.'
+      - name: 'Sister Claudia Vane'
+        role: 'Ecclesiastical liaison'
+        knownInfo: 'Must accompany all inquiries on church property. Holds diplomatic transit papers, pontifical seals, and local banking clearances.'
+      - name: 'Father Ghiberti'
+        role: 'Curial archivist — Subterranean Vault IX'
+        knownInfo: 'Nervous, precise. Knows the vault inventory and its custodial history better than anyone alive.'
+      - name: 'Vatican Gendarme Duty Officer'
+        role: 'Campo Santo Teutonico gate detail'
+        knownInfo: 'Controls access to the German Cemetery entrance and logs every descent to the vault level.'
+      - name: 'Covenant Logistics Officer'
+        role: 'Recovery Division — Region 04 desk'
+        knownInfo: 'Your supply line for field gear, vehicles, and safehouses across the Italian-Swiss corridor.'
+      - name: 'Wayfinder Remote-Sensing Analyst'
+        role: 'Covenant HQ — monitoring wing'
+        knownInfo: 'Holds the last stable readings from Vault IX; can task follow-up analysis through a request packet.'
+    startingLeads: >
+      <p><strong>Vault IX</strong> — the Campo Santo Teutonico entrance beneath St. Peter's.
+      <strong>Monsignor Corvi's private quarters</strong> — the Palazzo del Sant'Uffizio,
+      where the Prefect of the Secret Archives lived and worked. A 16mm surveillance reel
+      from the Porta Sant'Anna gate may exist if anyone thinks to ask the Swiss Guard.</p>
+    timelinePressure: >
+      <p>Secular authorities have not been alerted. The Covenant has a narrow operational
+      window before Italian Carabinieri and Swiss border guards detect irregular cross-border
+      travel.</p>
+    constraints: >
+      <ul>
+      <li>Sister Claudia Vane must accompany the field cell during all inquiries conducted
+      within church properties and ecclesiastical jurisdictions.</li>
+      <li>The attaché must remain sealed — no field testing, no opening, under pontifical
+      treaty.</li>
+      <li>Custody of the attaché remands to Church authorities immediately upon recovery.</li>
+      <li>No secular law enforcement, international media, or hostile criminal syndicates
+      may obtain custody of the container.</li>
+      </ul>
+    description: >
+      <p>Player-facing dossier for Operation File <strong>SANGREAL-87-091</strong>.
+      Issue to the cell at the start of the case. Contains no spoilers beyond the Holy
+      See's official certifications and guarantees.</p>
