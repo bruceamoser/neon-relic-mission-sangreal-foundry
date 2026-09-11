@@ -1,3 +1,19 @@
 # Mission: Sangreal — Relic Tables (RollTable pack)
 # Tables: phial fracture table
 # Source: docs/mission-sangreal-design-guide.md §4
+---
+
+- _id: sangreal-table-fracture
+  name: 'Phial Fracture (d6)'
+  type: rollTable
+  system:
+    formula: 1d6
+    entries:
+      - range: [1, 2]
+        result: 'Hairline Stress — a copper odor permeates a 100-meter radius; domestic and predatory animals enter a violent frenzy.'
+      - range: [3, 4]
+        result: 'Vapor Leak — aerosolized micro-breach. All breathing humans within Short range must pass an Endure check (Diff 2) or contract hematological fever (+1 Corruption, -1 STR).'
+      - range: [5, 5]
+        result: 'Catastrophic Rupture — in sunlight the fluid detonates into a 20-meter phosphorus flash (Damage 4). In darkness, dead tissue within Short range reanimates into feral ghouls for 1d6 hours.'
+      - range: [6, 6]
+        result: 'Resonance Detonation — the remaining phials boil, warping the lead container and triggering a psychic pulse that alerts every supernatural entity within 500 kilometers.'
