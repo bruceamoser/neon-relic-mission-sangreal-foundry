@@ -360,3 +360,68 @@
     goal: 'Take the vessels to the Carpathian facility and burn the cure.'
     positiveResult: 'Killed or turned: the Novara timeline breaks — Mission 2 becomes a recovery instead of a chase.'
     negativeResult: 'Reaches the aircraft. Ten phials leave Italy and the campaign detonates.'
+
+- _id: sangreal-mob-feralghouls
+  name: 'Feral Ghouls'
+  type: mob
+  system:
+    memberCount: 3
+    memberHP: 3
+    bestPool: 6
+    templateNPC: 'Feral Ghoul'
+    description: >
+      <p><strong>Origin.</strong> When a phial fractures in darkness (Phial Fracture
+      table, result 5), dead tissue within Short range reanimates. The husks last 1d6
+      hours — long enough to be someone's problem — and move in twitching, jointless
+      lunges toward warmth and blood.</p>
+      <p><strong>Behavior.</strong> Mindless, predatory, and attracted to open wounds.
+      They do not flee fire, but they recoil from the phosphorus-bright light that killed
+      them once already: focused UV and direct sunlight scorch them at the same rate as
+      the vector's living cousins (2 unsoakable Physical per round).</p>
+      <p><strong>Mob rules.</strong> Treat the pack as a single shared-pool opponent
+      (3 members, Best Pool 6, +2 bonus dice). Every member destroyed reduces the pool;
+      the last one standing still lunges.</p>
+
+- _id: sangreal-npc-basarab-elder
+  name: 'Basarab Elder'
+  type: npc
+  system:
+    tier: 4
+    description: >
+      <h3>Psychological Profile</h3>
+      <p>The retrieval pack's leader, and the reason the Novara strike was over in
+      minutes. Ancient, patient, physically overwhelming — it has outlived dynasties and
+      treats the Covenant as a curiosity it may inspect once the cure is ash. It does not
+      monologue; it does not need to.</p>
+      <h3>Tactical Profile</h3>
+      <p>STR 5, AGI 4, WIT 5, EMP 3; Armor Rating 3 (half damage from ballistics unless
+      the brainstem is targeted); Fear Rating 3. Moves unscented and silent. Direct
+      sunlight inflicts 3 unsoakable Physical per round; it will never be caught in it
+      willingly.</p>
+      <h3>The Cure</h3>
+      <p><strong>CT1 is the elder's only exit.</strong> A single drop of phial blood in
+      an open wound ends it: Endure Difficulty 5, and on failure centuries of senescence
+      arrive at once, leaving calcified ash and a settlement's worth of questions. It
+      knows this. It will not touch the vessels — which is exactly why Mission 2 depends
+      on the agents finding a way to make it.</p>
+    attributes:
+      str: 5
+      agi: 4
+      wit: 5
+      emp: 3
+    skills:
+      brawl: 5
+      sneak: 4
+      command: 4
+      firearms: 3
+      lore: 3
+    armorRating: 3
+    fearRating: 3
+    disposition: 5
+    corruptionStage: 3
+    tags:
+      - sangreal
+    secret: 'It remembers the crucifixion as a business dispute — and the cure as a debt it intends to burn.'
+    goal: 'Deliver ten intact phials to the Carpathian furnace and end the only threat to its line.'
+    positiveResult: 'Destroyed or cured: the Basarab line loses its head and Mission 2 becomes salvage.'
+    negativeResult: 'It reaches the Carpathians unopposed — and the feral lineage erupts across Northern Italy.'
