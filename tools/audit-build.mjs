@@ -29,7 +29,7 @@ const SRC_PACKS = path.join(ROOT, 'src', 'packs');
 
 /** Expected top-level document counts per pack (children excluded). */
 const EXPECTED_DOCS = {
-  'sangreal-briefs': 2,
+  'sangreal-briefs': 3,
   'sangreal-npcs': 11,
   'sangreal-clues': 17,
   'sangreal-sites': 9,
