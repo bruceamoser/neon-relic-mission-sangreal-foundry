@@ -99,17 +99,17 @@
       campaign, and the Covenant is left holding the blame for a fire it did not start.</p>
     relicMilestones:
       - day: 10
-        description: 'M1 — The Anemic Pulse: the 50 m hematological field activates; local clinic blood bags spoil; unshielded proximity begins to pull the sick.'
+        description: 'M1 — The Zurich Hand-Off: the attaché surfaces in Zurich. Corvi cuts the seal in a Bahnhofstrasse bank vault and hands Kurt Hausmann the first phial — one vessel gone, and the case is open.'
       - day: 8
-        description: 'M2 — The Frenzy Call: Hausmann breaches isolation in Zurich; animal panic flares across the district.'
+        description: 'M2 — The Case Leaves Zurich: Hausmann''s feral break seals the district; Corvi walks the attaché out of the city in the confusion. No custody signatures again until Turin.'
       - day: 6
-        description: 'M3 — Cellular Purge: unshielded handling demands Endure checks against Corruption; scavengers feed and mutate.'
+        description: 'M3 — The Second Sale: the case opens on the Lingotto floor; the Turin intermediary buys the second phial. Two vessels gone, and strangers are handling it now.'
       - day: 4
-        description: 'M4 — Ash Combustion: a broken test droplet detonates in daylight; the Carabinieri are alerted and the media window cracks.'
+        description: 'M4 — The Daylight Breach: a droplet from the open case spills during handling and ignites in daylight; the Carabinieri flood the site. The case has been seen.'
       - day: 2
-        description: 'M5 — Sovereign Scent: the vampire retrieval cell locks onto the Novara retreat house.'
+        description: 'M5 — The Novara Slaughter: the retrieval pack hits Claudia''s safehouse, forces the attaché, and walks out with ten phials. The case is spent; the cure is in vampire hands.'
       - day: 1
-        description: 'Terminal Window: the Cessna 421 spools its engines on the Novara-Cameri tarmac — ten phials poised to leave Italy.'
+        description: 'M6 — The Empty Case: the phials are loaded aboard the Cessna 421 on the Novara tarmac. Wheels-up ends the operation and leaves the emptied case behind.'
     daNotes: >
       <h3>The Clock</h3>
       <p>Fourteen days, fifty-six shifts (Morning, Day, Evening, Night). Column 14 starts the
@@ -119,27 +119,25 @@
       <p>Advances when the cell causes public disturbances, damages church property, or
       challenges clerical authority.</p>
       <ul>
-      <li><strong>7 — Frontier Cloak:</strong> L'Entità activates its network in the Italian
-      Ministry of the Interior. Swiss–Italian crossings fall under paramilitary surveillance;
-      overland movement needs forged passports or an extra shift.</li>
-      <li><strong>4 — Sanitization Sweep:</strong> Vatican operatives clean up the Privatklinik
-      Sonnenberg. Dr. Graf is targeted for liquidation; oncology records are incinerated if not
-      already secured.</li>
-      <li><strong>1 — Holy Crusade:</strong> Sabbatini concludes the cell has uncovered the
-      biological truth. A plainclothes Swiss Guard tactical squad with phosphorus grenades
-      intercepts to sanitize the operation.</li>
+      <li><strong>7 — Frontier Cloak:</strong> L'Entità locks the Swiss–Italian frontier.
+      Crossings fall under paramilitary watch; overland travel takes forged papers or an
+      extra shift.</li>
+      <li><strong>4 — Sanitization Sweep:</strong> Vatican operatives scrub the Privatklinik
+      Sonnenberg. Dr. Graf is marked for liquidation; unsecured oncology records burn.</li>
+      <li><strong>1 — Holy Crusade:</strong> Sabbatini decides the cell has seen too much.
+      A plainclothes Swiss Guard squad armed with phosphorus grenades moves to sanitize
+      the operation.</li>
       </ul>
       <h3>Track O2 — The Order of the Talamasca (12 squares)</h3>
       <p>Advances as Claudia transmits progress reports or as the cell accesses preternatural
       nodes.</p>
       <ul>
-      <li><strong>9 — Signal Intercept:</strong> Amsterdam listening posts decrypt Swiss PTT
-      telex traffic and map the Covenant's path, feeding encrypted updates to Claudia.</li>
-      <li><strong>6 — Extraction Green-Light:</strong> Claudia is authorized to execute field
-      theft of the steel attaché the moment Corvi is isolated.</li>
-      <li><strong>2 — Elder Cleansing Strike:</strong> the hidden vampire retrieval pack finds
-      the Novara safehouse and executes Claudia to keep the cure from ever being turned against
-      their bloodlines.</li>
+      <li><strong>9 — Signal Intercept:</strong> Amsterdam decrypts the Covenant's Swiss PTT
+      telex traffic and feeds Claudia their route.</li>
+      <li><strong>6 — Extraction Green-Light:</strong> Claudia is cleared to steal the attaché
+      the moment Corvi is isolated.</li>
+      <li><strong>2 — Elder Cleansing Strike:</strong> the retrieval pack finds the Novara
+      safehouse and executes Claudia to keep the cure from their bloodlines.</li>
       </ul>
       <h3>Escalation Schedule (quick reference)</h3>
       <table>
@@ -148,16 +146,16 @@
       <tr><td>13</td><td>Cold Transit</td><td>Corvi negotiates Swiss bank escrow in Geneva.</td></tr>
       <tr><td>12</td><td>Border Crossing</td><td>Vault IX clue fallback available at Covenant HQ.</td></tr>
       <tr><td>11</td><td>Escrow Release</td><td>Corvi completes the first sale; travel to Zurich begins.</td></tr>
-      <tr><td>10</td><td>Active Vector</td><td>M1 — The Anemic Pulse.</td></tr>
+      <tr><td>10</td><td>Active Vector</td><td>M1 — The Zurich Hand-Off: the seal is cut for the first sale.</td></tr>
       <tr><td>9</td><td>Scent Detected</td><td>Talamasca intercept team tracks Geneva wire transfers.</td></tr>
-      <tr><td>8</td><td>Predatory Frenzy</td><td>M2 — The Frenzy Call.</td></tr>
+      <tr><td>8</td><td>Predatory Frenzy</td><td>M2 — The Case Leaves Zurich: custody goes dark until Turin.</td></tr>
       <tr><td>7</td><td>Intercept Phase</td><td>O1 border checkpoints along the Italian frontier.</td></tr>
-      <tr><td>6</td><td>Marrow Strain</td><td>M3 — Cellular Purge.</td></tr>
+      <tr><td>6</td><td>Marrow Strain</td><td>M3 — The Second Sale: the case is opened at the Lingotto works.</td></tr>
       <tr><td>5</td><td>Industrial Drop</td><td>Corvi retreats to the Lingotto assembly works in Turin.</td></tr>
-      <tr><td>4</td><td>Ash Flash</td><td>M4 — Ash Combustion; Carabinieri alerted.</td></tr>
+      <tr><td>4</td><td>Ash Flash</td><td>M4 — The Daylight Breach: a spill ignites in daylight; Carabinieri alerted.</td></tr>
       <tr><td>3</td><td>The Trap Springs</td><td>Claudia receives the extraction green-light from Amsterdam.</td></tr>
-      <tr><td>2</td><td>Elder Pursuit</td><td>M5 — Sovereign Scent.</td></tr>
-      <tr><td>1</td><td>Terminal Window</td><td>Cessna 421 spools engines on the Novara tarmac.</td></tr>
+      <tr><td>2</td><td>Elder Pursuit</td><td>M5 — The Novara Slaughter: the case is forced; ten phials taken.</td></tr>
+      <tr><td>1</td><td>Terminal Window</td><td>M6 — The Empty Case: the phials leave aboard the Cessna; the case is left behind.</td></tr>
       </table>
       <h3>Pacing & Fallbacks</h3>
       <p>Information Cards carry headquarters fallback days (I1–I17); when the cell stalls,
@@ -262,17 +260,17 @@
     shiftsFilled: []
     relicMilestones:
       - day: 10
-        description: 'M1 — The Anemic Pulse: the 50 m hematological field activates; local clinic blood bags spoil; unshielded proximity begins to pull the sick.'
+        description: 'M1 — The Zurich Hand-Off: the attaché surfaces in Zurich. Corvi cuts the seal in a Bahnhofstrasse bank vault and hands Kurt Hausmann the first phial — one vessel gone, and the case is open.'
       - day: 8
-        description: 'M2 — The Frenzy Call: Hausmann breaches isolation in Zurich; animal panic flares across the district.'
+        description: 'M2 — The Case Leaves Zurich: Hausmann''s feral break seals the district; Corvi walks the attaché out of the city in the confusion. No custody signatures again until Turin.'
       - day: 6
-        description: 'M3 — Cellular Purge: unshielded handling demands Endure checks against Corruption; scavengers feed and mutate.'
+        description: 'M3 — The Second Sale: the case opens on the Lingotto floor; the Turin intermediary buys the second phial. Two vessels gone, and strangers are handling it now.'
       - day: 4
-        description: 'M4 — Ash Combustion: a broken test droplet detonates in daylight; the Carabinieri are alerted and the media window cracks.'
+        description: 'M4 — The Daylight Breach: a droplet from the open case spills during handling and ignites in daylight; the Carabinieri flood the site. The case has been seen.'
       - day: 2
-        description: 'M5 — Sovereign Scent: the vampire retrieval cell locks onto the Novara retreat house.'
+        description: 'M5 — The Novara Slaughter: the retrieval pack hits Claudia''s safehouse, forces the attaché, and walks out with ten phials. The case is spent; the cure is in vampire hands.'
       - day: 1
-        description: 'Terminal Window: the Cessna 421 spools its engines on the Novara-Cameri tarmac — ten phials poised to leave Italy.'
+        description: 'M6 — The Empty Case: the phials are loaded aboard the Cessna 421 on the Novara tarmac. Wheels-up ends the operation and leaves the emptied case behind.'
     organizations:
       - id: O1
         name: 'The Holy Alliance (L''Entità)'
@@ -283,13 +281,13 @@
         milestones:
           - day: 7
             label: O1M1
-            description: 'Frontier Cloak — L''Entità activates its network in the Italian Ministry of the Interior. Swiss–Italian crossings fall under paramilitary surveillance; overland movement needs forged passports or an extra shift.'
+            description: 'Frontier Cloak — L''Entità locks the Swiss–Italian frontier. Crossings fall under paramilitary watch; overland travel takes forged papers or an extra shift.'
           - day: 4
             label: O1M2
-            description: 'Sanitization Sweep — Vatican operatives clean up the Privatklinik Sonnenberg. Dr. Graf is targeted for liquidation; oncology records are incinerated if not already secured.'
+            description: 'Sanitization Sweep — Vatican operatives scrub the Privatklinik Sonnenberg. Dr. Graf is marked for liquidation; unsecured oncology records burn.'
           - day: 1
             label: O1M3
-            description: 'Holy Crusade — Sabbatini concludes the cell has uncovered the biological truth. A plainclothes Swiss Guard tactical squad with phosphorus grenades intercepts to sanitize the operation.'
+            description: 'Holy Crusade — Sabbatini decides the cell has seen too much. A plainclothes Swiss Guard squad armed with phosphorus grenades moves to sanitize the operation.'
       - id: O2
         name: 'The Order of the Talamasca (Registry 16)'
         value: 0
@@ -299,13 +297,13 @@
         milestones:
           - day: 9
             label: O2M1
-            description: 'Signal Intercept — Amsterdam listening posts decrypt Swiss PTT telex traffic and map the Covenant''s path, feeding encrypted updates to Claudia.'
+            description: 'Signal Intercept — Amsterdam decrypts the Covenant''s Swiss PTT telex traffic and feeds Claudia their route.'
           - day: 6
             label: O2M2
-            description: 'Extraction Green-Light — Claudia is authorized to execute field theft of the steel attaché the moment Corvi is isolated.'
+            description: 'Extraction Green-Light — Claudia is cleared to steal the attaché the moment Corvi is isolated.'
           - day: 2
             label: O2M3
-            description: 'Elder Cleansing Strike — the hidden vampire retrieval pack finds the Novara safehouse and executes Claudia to keep the cure from ever being turned against their bloodlines.'
+            description: 'Elder Cleansing Strike — the retrieval pack finds the Novara safehouse and executes Claudia to keep the cure from their bloodlines.'
     informationCardSlugs: [sangreal-ic01, sangreal-ic02, sangreal-ic03, sangreal-ic04, sangreal-ic05, sangreal-ic06, sangreal-ic07, sangreal-ic08, sangreal-ic09, sangreal-ic10, sangreal-ic11, sangreal-ic12, sangreal-ic13, sangreal-ic14, sangreal-ic15, sangreal-ic16, sangreal-ic17]
 
 - _id: sangreal-information-web
