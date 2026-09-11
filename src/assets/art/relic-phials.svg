@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Relic plate — The Twelve Phials of Gethsemane">
+  <rect width="400" height="400" fill="#e9e0c8"/>
+  <rect x="10" y="10" width="380" height="380" fill="none" stroke="#1c1a17" stroke-width="2" opacity="0.55"/>
+  <path d="M10 44 V10 H44" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <path d="M390 356 V390 H356" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <g transform="rotate(-6 334 40)">
+    <rect x="288" y="26" width="88" height="28" rx="3" fill="none" stroke="#7a1f1f" stroke-width="3" opacity="0.6"/>
+    <text x="332" y="45" font-family="monospace" font-size="12" fill="#7a1f1f" text-anchor="middle" opacity="0.7">TIER 3</text>
+  </g>
+  <!-- open attaché case: lid -->
+  <path d="M84 96 L316 88 L322 190 L78 198 Z" fill="#d9cfb4" stroke="#1c1a17" stroke-width="4"/>
+  <path d="M84 96 L316 88 L310 76 L90 84 Z" fill="#c9bfa3" stroke="#1c1a17" stroke-width="3"/>
+  <!-- case body -->
+  <path d="M78 198 L322 190 L322 322 L78 328 Z" fill="#d9cfb4" stroke="#1c1a17" stroke-width="4"/>
+  <!-- hinges -->
+  <circle cx="110" cy="196" r="6" fill="#1c1a17"/>
+  <circle cx="290" cy="190" r="6" fill="#1c1a17"/>
+  <!-- latches -->
+  <rect x="182" y="196" width="36" height="10" rx="3" fill="#1c1a17"/>
+  <rect x="182" y="318" width="36" height="10" rx="3" fill="#1c1a17"/>
+  <!-- foam rack -->
+  <rect x="98" y="212" width="204" height="98" rx="6" fill="#b8ad8e" stroke="#1c1a17" stroke-width="3"/>
+  <!-- 12 phials: two rows of six -->
+  <g fill="#7a1f1f" stroke="#1c1a17" stroke-width="2.5">
+    <rect x="108" y="222" width="24" height="34" rx="8"/>
+    <rect x="140" y="222" width="24" height="34" rx="8"/>
+    <rect x="172" y="222" width="24" height="34" rx="8"/>
+    <rect x="204" y="222" width="24" height="34" rx="8"/>
+    <rect x="236" y="222" width="24" height="34" rx="8"/>
+    <rect x="268" y="222" width="24" height="34" rx="8"/>
+    <rect x="108" y="266" width="24" height="34" rx="8"/>
+    <rect x="140" y="266" width="24" height="34" rx="8"/>
+    <rect x="172" y="266" width="24" height="34" rx="8"/>
+    <rect x="204" y="266" width="24" height="34" rx="8"/>
+    <rect x="236" y="266" width="24" height="34" rx="8"/>
+    <rect x="268" y="266" width="24" height="34" rx="8"/>
+  </g>
+  <g fill="#e9e0c8">
+    <rect x="110" y="218" width="20" height="7" rx="3"/>
+    <rect x="142" y="218" width="20" height="7" rx="3"/>
+    <rect x="174" y="218" width="20" height="7" rx="3"/>
+    <rect x="206" y="218" width="20" height="7" rx="3"/>
+    <rect x="238" y="218" width="20" height="7" rx="3"/>
+    <rect x="270" y="218" width="20" height="7" rx="3"/>
+    <rect x="110" y="262" width="20" height="7" rx="3"/>
+    <rect x="142" y="262" width="20" height="7" rx="3"/>
+    <rect x="174" y="262" width="20" height="7" rx="3"/>
+    <rect x="206" y="262" width="20" height="7" rx="3"/>
+    <rect x="238" y="262" width="20" height="7" rx="3"/>
+    <rect x="270" y="262" width="20" height="7" rx="3"/>
+  </g>
+  <!-- handle -->
+  <path d="M178 328 C178 348 222 348 222 328" fill="none" stroke="#1c1a17" stroke-width="5"/>
+</svg>

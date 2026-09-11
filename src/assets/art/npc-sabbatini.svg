@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Dossier silhouette — Cardinal Enrico Sabbatini">
+  <rect width="400" height="400" fill="#e9e0c8"/>
+  <rect x="10" y="10" width="380" height="380" fill="none" stroke="#1c1a17" stroke-width="2" opacity="0.55"/>
+  <path d="M10 44 V10 H44" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <path d="M390 356 V390 H356" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <g transform="rotate(-6 334 40)">
+    <rect x="294" y="26" width="80" height="28" rx="3" fill="none" stroke="#7a1f1f" stroke-width="3" opacity="0.55"/>
+    <text x="334" y="45" font-family="monospace" font-size="13" fill="#7a1f1f" text-anchor="middle" opacity="0.65">DA ONLY</text>
+  </g>
+  <!-- shoulders -->
+  <path d="M44 400 C64 310 120 284 200 284 C280 284 336 310 356 400 Z" fill="#1c1a17"/>
+  <!-- high collar -->
+  <path d="M162 296 L200 344 L238 296 L226 288 L200 318 L174 288 Z" fill="#e9e0c8"/>
+  <!-- pectoral cross -->
+  <path d="M196 324 H204 V336 H216 V344 H204 V372 H196 V344 H184 V336 H196 Z" fill="#e9e0c8"/>
+  <!-- neck + head -->
+  <rect x="188" y="244" width="24" height="48" fill="#1c1a17"/>
+  <ellipse cx="200" cy="200" rx="56" ry="72" fill="#1c1a17"/>
+  <!-- biretta -->
+  <rect x="140" y="98" width="120" height="34" rx="6" fill="#1c1a17"/>
+  <rect x="154" y="86" width="92" height="14" rx="7" fill="#1c1a17"/>
+  <!-- stern brow + eyes -->
+  <path d="M162 184 L192 192" stroke="#e9e0c8" stroke-width="4"/>
+  <path d="M238 184 L208 192" stroke="#e9e0c8" stroke-width="4"/>
+  <path d="M170 206 Q180 202 190 206" fill="none" stroke="#e9e0c8" stroke-width="3"/>
+  <path d="M210 206 Q220 202 230 206" fill="none" stroke="#e9e0c8" stroke-width="3"/>
+  <path d="M186 246 L214 246" stroke="#e9e0c8" stroke-width="3"/>
+</svg>

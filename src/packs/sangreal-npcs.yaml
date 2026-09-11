@@ -6,6 +6,10 @@
 - _id: sangreal-npc-corvi
   name: 'Monsignor Matteo Corvi'
   type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-corvi.svg
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-corvi.svg
   system:
     tier: 2
     description: >
@@ -46,6 +50,10 @@
 - _id: sangreal-npc-vane
   name: 'Sister Claudia Vane'
   type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-vane.svg
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-vane.svg
   system:
     tier: 3
     description: >
@@ -89,6 +97,10 @@
 - _id: sangreal-npc-sabbatini
   name: 'Cardinal Enrico Sabbatini'
   type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-sabbatini.svg
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-sabbatini.svg
   system:
     tier: 3
     description: >
@@ -129,6 +141,10 @@
 - _id: sangreal-npc-graf
   name: 'Dr. Elizabeth Graf'
   type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-graf.svg
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-graf.svg
   system:
     tier: 1
     description: >
@@ -166,6 +182,10 @@
 - _id: sangreal-npc-hausmann
   name: 'Kurt Hausmann (The Feral Banker)'
   type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann.svg
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann.svg
   system:
     tier: 4
     description: >
@@ -385,6 +405,10 @@
 - _id: sangreal-npc-basarab-elder
   name: 'Basarab Elder'
   type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-elder.svg
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-elder.svg
   system:
     tier: 4
     description: >

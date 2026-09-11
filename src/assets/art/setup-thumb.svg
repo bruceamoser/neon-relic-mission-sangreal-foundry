@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="Mission Sangreal module artwork">
+  <rect width="640" height="360" fill="#1a0f0d"/>
+  <!-- dossier folder -->
+  <path d="M120 84 L520 84 L544 110 L544 300 L96 300 L96 110 Z" fill="#e9e0c8"/>
+  <path d="M96 110 L188 110 L202 84 L96 84 Z" fill="#d9cfb4"/>
+  <!-- red stamp -->
+  <g transform="rotate(-8 470 130)">
+    <rect x="396" y="106" width="150" height="50" rx="4" fill="none" stroke="#7a1f1f" stroke-width="5"/>
+    <text x="471" y="139" font-family="monospace" font-size="24" fill="#7a1f1f" text-anchor="middle" font-weight="bold">CLASSIFIED</text>
+  </g>
+  <!-- typed label -->
+  <text x="130" y="170" font-family="monospace" font-size="30" fill="#1c1a17" font-weight="bold">SANGREAL-87-091</text>
+  <text x="130" y="202" font-family="monospace" font-size="17" fill="#1c1a17">THE TWELVE PHIALS OF GETHSEMANE</text>
+  <line x1="130" y1="218" x2="480" y2="218" stroke="#1c1a17" stroke-width="2" opacity="0.5"/>
+  <!-- phial glyph -->
+  <g transform="translate(140 232) scale(0.62)">
+    <rect x="0" y="0" width="26" height="58" rx="9" fill="#7a1f1f" stroke="#1c1a17" stroke-width="3"/>
+    <rect x="34" y="8" width="26" height="50" rx="9" fill="#7a1f1f" stroke="#1c1a17" stroke-width="3"/>
+    <rect x="68" y="16" width="26" height="42" rx="9" fill="#7a1f1f" stroke="#1c1a17" stroke-width="3"/>
+    <rect x="102" y="24" width="26" height="34" rx="9" fill="#7a1f1f" stroke="#1c1a17" stroke-width="3"/>
+  </g>
+  <!-- eye-ouroboros mark -->
+  <g transform="translate(492 258)">
+    <circle cx="0" cy="0" r="34" fill="none" stroke="#7a1f1f" stroke-width="5"/>
+    <ellipse cx="0" cy="0" rx="16" ry="9" fill="none" stroke="#7a1f1f" stroke-width="4"/>
+    <circle cx="0" cy="0" r="4" fill="#7a1f1f"/>
+    <path d="M-34 0 C-48 -10 -44 -30 -30 -38" fill="none" stroke="#7a1f1f" stroke-width="5"/>
+  </g>
+  <!-- period line -->
+  <text x="130" y="282" font-family="monospace" font-size="13" fill="#1c1a17" opacity="0.75">REGION 04 - ITALIAN-SWISS CORRIDOR - DA EYES ONLY</text>
+</svg>
