@@ -33,41 +33,74 @@ function redact(text) {
   return out === text ? null : out;
 }
 
-Hooks.once('ready', async () => {
-  if (!game.user.isGM) return;
-  if (game.world.getFlag(MODULE_ID, PATCH_FLAG)) return;
+/**
+ * One-shot world patch: rewrite the pre-redaction brief/handout sentences in
+ * imported documents. Individual failures are captured, never abort the run.
+ * @returns {Promise<object>} Diagnostic report.
+ */
+async function runBriefRedaction() {
+  const diagnostics = { items: 0, actorItems: 0, pages: 0, errors: [] };
 
-  let count = 0;
-
-  const patchItems = async items => {
+  const patchItems = async (items, key) => {
     for (const item of items) {
-      const updates = {};
-      for (const [key, value] of Object.entries(item.system ?? {})) {
-        const next = redact(value);
-        if (next !== null) updates[`system.${key}`] = next;
-      }
-      if (Object.keys(updates).length) {
-        await item.update(updates);
-        count++;
+      try {
+        const updates = {};
+        for (const [field, value] of Object.entries(item.system ?? {})) {
+          const next = redact(value);
+          if (next !== null) updates[`system.${field}`] = next;
+        }
+        if (Object.keys(updates).length) {
+          await item.update(updates);
+          diagnostics[key]++;
+        }
+      } catch (err) {
+        diagnostics.errors.push(`${key}:${item?.name ?? item?.id}: ${err?.message ?? err}`);
       }
     }
   };
 
-  await patchItems(game.items ?? []);
-  for (const actor of game.actors ?? []) await patchItems(actor.items);
+  await patchItems(game.items ?? [], 'items');
+  for (const actor of game.actors ?? []) await patchItems(actor.items, 'actorItems');
 
-  const pageUpdates = [];
   for (const journal of game.journal ?? []) {
     for (const page of journal.pages) {
-      const next = redact(page.text?.content);
-      if (next !== null) pageUpdates.push(page.update({ 'text.content': next }));
+      try {
+        const next = redact(page.text?.content);
+        if (next === null) continue;
+        await page.update({ 'text.content': next });
+        diagnostics.pages++;
+      } catch (err) {
+        diagnostics.errors.push(
+          `page:${journal?.name ?? journal?.id}/${page?.name ?? page?.id}: ${err?.message ?? err}`,
+        );
+      }
     }
   }
-  await Promise.all(pageUpdates);
-  count += pageUpdates.length;
 
-  await game.world.setFlag(MODULE_ID, PATCH_FLAG, true);
-  if (count) console.log(`${MODULE_ID} | brief redaction patched ${count} document(s)`);
+  diagnostics.timestamp = new Date().toISOString();
+  console.log(`${MODULE_ID} | brief redaction`, diagnostics);
+  return diagnostics;
+}
+
+Hooks.once('ready', async () => {
+  if (!game.user.isGM) return;
+  if (game.world.getFlag(MODULE_ID, PATCH_FLAG)) return;
+  const diagnostics = await runBriefRedaction();
+  // Client-side ground truth, readable afterwards from world.json flags.
+  diagnostics.client = {
+    systemVersion: game.system?.version ?? null,
+    moduleVersion: game.modules?.get(MODULE_ID)?.version ?? null,
+    esmodules: game.modules?.get(MODULE_ID)?.esmodules ?? null,
+    menuRegistered: !!game.settings?.menus?.get(`${MODULE_ID}.installer`),
+    caseBoardTypeLabel: 'caseBoard' in (CONFIG.Item?.typeLabels ?? {}),
+    itemTypeLabels: Object.keys(CONFIG.Item?.typeLabels ?? {}).join(','),
+  };
+  try {
+    await game.world.setFlag(MODULE_ID, PATCH_FLAG, true);
+    await game.world.setFlag(MODULE_ID, 'briefRedactionDiagnostics', diagnostics);
+  } catch (err) {
+    console.error(`${MODULE_ID} | failed to stamp redaction flag`, err);
+  }
 });
 
 /* -------------------------------------------- */
@@ -75,18 +108,37 @@ Hooks.once('ready', async () => {
 /* -------------------------------------------- */
 
 /**
- * All packs shipped by this module, in display order.
- * @type {string[]}
+ * Import plan: pack → destination subfolder under the shared root.
+ * Folders are created per document collection (Items, Actors, Journals, Tables).
+ * @type {Array<{pack: string, folder: string|null}>}
  */
-const INSTALL_PACKS = [
-  'sangreal-briefs',
-  'sangreal-npcs',
-  'sangreal-clues',
-  'sangreal-sites',
-  'sangreal-relics',
-  'sangreal-tables',
-  'sangreal-journals',
+const INSTALL_PLAN = [
+  { pack: 'sangreal-briefs', folder: 'Briefs & Board' },
+  { pack: 'sangreal-npcs', folder: 'NPCs' },
+  { pack: 'sangreal-clues', folder: 'Clues' },
+  { pack: 'sangreal-sites', folder: 'Sites' },
+  { pack: 'sangreal-relics', folder: 'Relics' },
+  { pack: 'sangreal-tables', folder: null },
+  { pack: 'sangreal-journals', folder: null },
 ];
+
+const ROOT_FOLDER_NAME = 'Mission: Sangreal';
+
+/**
+ * Find or create a folder in a document collection.
+ * @param {string} name
+ * @param {string} type - Collection type (Item, Actor, JournalEntry, RollTable).
+ * @param {string|null} [parentId]
+ * @returns {Promise<string>} The folder id.
+ */
+async function ensureFolder(name, type, parentId = null) {
+  const existing = game.folders.find(
+    f => f.type === type && f.name === name && (f.folder?.id ?? null) === parentId,
+  );
+  if (existing) return existing.id;
+  const folder = await Folder.create({ name, type, folder: parentId, sorting: 'a' });
+  return folder.id;
+}
 
 /**
  * Import or refresh every module pack into the world.
@@ -104,11 +156,20 @@ async function installContent() {
   let updated = 0;
   let failed = 0;
 
-  for (const packName of INSTALL_PACKS) {
+  for (const { pack: packName, folder: subfolderName } of INSTALL_PLAN) {
     const pack = game.packs.get(`${MODULE_ID}.${packName}`);
     if (!pack) {
       console.warn(`${MODULE_ID} | installer: pack ${packName} not found, skipping`);
       continue;
+    }
+
+    // Resolve the destination folder structure for this pack's collection
+    let folderId = null;
+    try {
+      const rootId = await ensureFolder(ROOT_FOLDER_NAME, pack.metadata.type);
+      folderId = subfolderName ? await ensureFolder(subfolderName, pack.metadata.type, rootId) : rootId;
+    } catch (err) {
+      console.warn(`${MODULE_ID} | installer: folder setup failed for ${packName}`, err);
     }
 
     let docs;
@@ -122,6 +183,7 @@ async function installContent() {
 
     for (const doc of docs) {
       const data = doc.toObject();
+      if (folderId) data.folder = folderId;
       const collection = game.collections.get(doc.documentName);
       const existing = collection?.get(doc.id);
       try {
@@ -166,6 +228,7 @@ class SangrealInstaller extends foundry.applications.api.DialogV2 {
       <ul>
         <li>Documents already in this world with matching IDs are <strong>overwritten</strong> with the current pack versions.</li>
         <li>New documents are added, keeping their pack IDs.</li>
+        <li>Content is organised into a <strong>Mission: Sangreal</strong> folder with per-category subfolders (Briefs &amp; Board, NPCs, Clues, Sites, Relics) — existing documents are moved there too.</li>
         <li>Safe to re-run after module updates — no duplicates are created.</li>
       </ul>
       <p>Content: briefs, case board, NPCs, clues, sites, relics, tables, and journals.</p>`,
@@ -187,16 +250,23 @@ class SangrealInstaller extends foundry.applications.api.DialogV2 {
 }
 
 Hooks.once('init', () => {
-  game.settings.registerMenu(MODULE_ID, 'installer', {
-    name: 'Content Installer',
-    label: 'Import / Update Content',
-    hint: 'Import Mission: Sangreal compendium content into this world. Existing documents are overwritten by ID; new documents are added. Run after updating the module.',
-    icon: 'fa-solid fa-file-import',
-    type: SangrealInstaller,
-    restricted: true,
-  });
+  try {
+    game.settings.registerMenu(MODULE_ID, 'installer', {
+      name: 'Content Installer',
+      label: 'Import / Update Content',
+      hint: 'Import Mission: Sangreal compendium content into this world. Existing documents are overwritten by ID; new documents are added. Run after updating the module.',
+      icon: 'fa-solid fa-file-import',
+      type: SangrealInstaller,
+      restricted: true,
+    });
+    console.log(`${MODULE_ID} | content installer menu registered`);
+  } catch (err) {
+    console.error(`${MODULE_ID} | failed to register content installer menu`, err);
+  }
 
-  // Console/macro escape hatch: game.modules.get('neon-relic-mission-sangreal').api.installContent()
+  // Console/macro escape hatch:
+  //   game.modules.get('neon-relic-mission-sangreal').api.installContent()
+  //   game.modules.get('neon-relic-mission-sangreal').api.runBriefRedaction()
   const module = game.modules.get(MODULE_ID);
-  if (module) module.api = { installContent };
+  if (module) module.api = { installContent, runBriefRedaction };
 });
