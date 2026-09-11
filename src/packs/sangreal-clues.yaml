@@ -1,3 +1,142 @@
 # Mission: Sangreal — Information Cards (Item pack)
 # Items: informationCard (I1–I17)
 # Source: docs/mission-sangreal-design-guide.md §6
+---
+
+- _id: sangreal-ic01
+  name: 'I1 — The Burnt Electromagnet Relay'
+  type: informationCard
+  system:
+    cardId: I-1
+    cardType: supportingIntel
+    content: >
+      <p>The industrial electromagnet cradle anchored to the vault floor did not fail
+      from a blown breaker. The copper induction coils melted from the inside out under
+      total magnetic saturation. Vitrified within the copper slag is a fine residue:
+      elemental sulfur, pulverized lapis lazuli, and crystalline Judaean silver.</p>
+      <p><em>Found at: L1 — Subterranean Vault IX. Known by: Father Ghiberti.</em></p>
+    hqFallback: 12
+    daNotes: >
+      <p>Confirms an occult artifact was used rather than mechanical tools. The chemical
+      profile matches the Lodestone of St. Jude, cataloged in the Secret Archives'
+      suppressed index.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic02
+  name: 'I2 — CCTV Reel #87-04'
+  type: informationCard
+  system:
+    cardId: I-2
+    cardType: supportingIntel
+    content: >
+      <p>A 16mm black-and-white surveillance film from the Porta Sant'Anna gate
+      (03:14 AM). Monsignor Corvi leaves on foot carrying a heavy attaché case.
+      Photographic enlargement reveals two details: in the puddle reflections, Corvi
+      casts a faint shadow, but the briefcase casts an opaque, pitch-black shadow.
+      Protruding from Corvi's coat is a green railway pass: "EC 30 (Romulus) —
+      Carrozza 4, Posto 18 — Roma Termini a Genève Cornavin."</p>
+      <p><em>Found at: L1 — Subterranean Vault IX / L2 — Corvi's Quarters. Known by:
+      the gate detail; Sister Claudia Vane diverts attention unless confronted.</em></p>
+    hqFallback: 11
+    daNotes: >
+      <p>The dense shadow indicates lead-antimony foil lining. The boarding pass unlocks
+      Location L3 (Geneva Private Depository).</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic03
+  name: 'I3 — The Excised Codex Register'
+  type: informationCard
+  system:
+    cardId: I-3
+    cardType: supportingIntel
+    content: >
+      <p>The mahogany card catalog drawer in the Archivio Segreto. The index card for
+      shelf-mark "MS-Vat-Heb-418" has been excised with a scalpel. In its place sits a
+      red charge card inscribed in Latin cursive: "Extractum per Breve Apostolicum —
+      Anno Domini 1582 — Ad Capsam XII-SANG-00."</p>
+      <p><em>Found at: L1 — Subterranean Vault IX. Known by: Father Ghiberti.</em></p>
+    hqFallback: 13
+    daNotes: >
+      <p>Connects Corvi's historical research to the attaché's contents ("XII-SANG"),
+      proving the theft was premeditated — this was never a crime of opportunity.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic04
+  name: 'I4 — The Polybius Vulgate Cipher'
+  type: informationCard
+  system:
+    cardId: I-4
+    cardType: supportingIntel
+    content: >
+      <p>A slip of 17th-century rag paper hidden within a 1592 Clementine Vulgate Bible
+      on Corvi's desk, resting at the Gospel of John, Chapter 6. The paper contains
+      Latin numerals arranged in coordinate pairs: IV-I I-V III-II I-I IV-IV I-I /
+      IV-V I-II IV-III / II-I I-I IV-V IV-III III-II I-I III-III III-III / IV-I IV-IV
+      II-IV IV-IV I-II / I-III.</p>
+      <p><em>Found at: L2 — Monsignor Corvi's Private Quarters. Requires a physical
+      search.</em></p>
+    hqFallback: 10
+    daNotes: >
+      <p>Decodes via a 5x5 Latin alphabet Polybius Square (merging I/J and U/V) into:
+      "GENEVA / UBS / HAUSMANN / 4409 / C". Unlocks Location L3 and identifies
+      Kurt Hausmann.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic05
+  name: "I5 — The Watcher's Hallmark"
+  type: informationCard
+  system:
+    cardId: I-5
+    cardType: supportingIntel
+    content: >
+      <p>Sister Claudia lays out a diocesan road map of Northern Italy. In the
+      lower-right margin of the leather map casing, an embossed stamp is pressed into
+      the hide: an open eye enclosed within an ouroboros (a serpent eating its own
+      tail), flanked by the tiny initials "T.O.W."</p>
+      <p><em>Found at: L1 — carried by Sister Claudia Vane. No fallback — requires
+      field deduction.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p>The insignia of The Talamasca ("The Order of the Watchers"). If questioned,
+      Claudia claims it is an archival seal from a Bolognese bookbinder. Left
+      unremarked, it is the thread that unravels her.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic06
+  name: 'I6 — The Escrow Transfer Slip'
+  type: informationCard
+  system:
+    cardId: I-6
+    cardType: supportingIntel
+    content: >
+      <p>A carbon-leaf escrow receipt from locker 4409-C at Union de Banques Suisses,
+      confirming a telegraphic transfer of 500,000 Swiss Francs from "Kurt Hausmann,
+      Sonnenberg Privatklinik, Zurich" to an ecclesiastical escrow account in Vaduz.
+      The transaction memo reads: "Acquisition of Primary Specimen (1 of 12) —
+      Experimental Oncology Protocol."</p>
+      <p><em>Found at: L3 — Union de Banques Suisses, Geneva. Known by:
+      Jean-Paul Mercier.</em></p>
+    hqFallback: 9
+    daNotes: >
+      <p>Confirms the sale of the first phial and unlocks Location L4 (Privatklinik
+      Sonnenberg, Zurich). "Experimental Oncology Protocol" is the cover story Graf
+      was told.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
