@@ -154,7 +154,7 @@ At 04:00 hours yesterday, the Holy Alliance (the diplomatic and security office 
 
 A customized brushed-steel diplomatic attaché case, manufactured in 1964 and reinforced with lead-antimony shielding, was removed1.
 
-The Holy See formally certifies that the attaché contains twelve sealed communion ampoules dating to the late Roman period.
+The Holy See refuses to describe the attaché's contents; no further information will be provided. The single detail on record: a tarnished brass sign below the electromagnetic mooring plinth where the case was stored reads one word — SANGREAL.
 
 The Holy See guarantees:
 
