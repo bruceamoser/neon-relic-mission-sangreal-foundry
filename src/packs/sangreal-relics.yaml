@@ -151,3 +151,249 @@
     caseId: SANGREAL-87-091
     description: >
       <p>VC-16 relic sheet for the mission's central artifact. DA eyes only.</p>
+
+- _id: sangreal-relic-lodestone
+  name: 'The Lodestone of St. Jude'
+  type: artifact
+  system:
+    tier: 1
+    corruptionCost: 1
+    artifactDie:
+      current: d6
+      starting: d6
+    activationCondition: >
+      The user coats the stone in saliva and fresh arterial blood — inflicting 1 STR
+      damage or 1 Stress — while reciting an apostolic prayer.
+    effect: >
+      <p>Generates a 5-meter <em>Null-Induction Sphere</em> for 60 seconds. All
+      electronic potential, electromagnetic attraction, and battery discharge cease
+      entirely; industrial electromagnets fail, alarm circuits burn out, and tape
+      recorders go silent. Mechanical locks remain mechanical.</p>
+    fractureCondition: >
+      Fracture on Gear Die 1s while active — the sphere collapses in a burst of static
+      and the stone crumbles to magnetite sand.
+    emission:
+      type: burst
+      radius: '5 m'
+      trigger: 'Activation'
+      corruptionAmount: 0
+      isSuppressed: false
+    containmentProfile:
+      type: 'Minor Relic'
+      isContained: true
+      truths:
+        triggerCondition: >
+          Activation requires blood and recitation; the Sphere suppresses electromagnetic
+          phenomena within 5 meters for 60 seconds.
+        appetite: >
+          The stone draws warmth from the hand that holds it; repeated use leaves fingers
+          numb and blood cold.
+        quiescenceCondition: >
+          Wrapped in silk and stored away from ferrous metals. It will drag loose keys,
+          pins, and wire toward itself in a pocket.
+    activePressure: false
+    decay:
+      value: 0
+      enabled: false
+    replicable: false
+    loreIdentified: false
+    description: >
+      <p>A thumb-sized nodule of natural magnetite banded with tarnished first-century
+      Judaean silver wire. The wire is hand-twisted, not cast — the work of a provincial
+      silversmith, and older than any workshop mark it once carried.</p>
+      <p>The stone is the reason Vault IX ever held the phials. Corvi used it to kill the
+      electromagnetic mooring and walk the case out of the vault.</p>
+
+- _id: sangreal-relic-veronica
+  name: "The Veil of Veronica's Thread"
+  type: artifact
+  system:
+    tier: 1
+    corruptionCost: 1
+    artifactDie:
+      current: d4
+      starting: d4
+    activationCondition: >
+      Snap the thread between thumb and forefinger while whispering the Latin
+      <em>Nunc Dimittis</em>. The thread is single-use; it burns to white ash on
+      activation.
+    effect: >
+      <p>Produces an instantaneous blinding flash of phosphorus light (Endure check or
+      suffer flash-blindness for 2 rounds) accompanied by a 5-minute temporal and sensory
+      displacement. The user vanishes from sight, sound, and electronic surveillance,
+      leaving zero scent trails or physical tracks.</p>
+    fractureCondition: >
+      Fracture on Gear Die 1s — the flash consumes the thread without displacing the
+      user, marking their last position in light-dazzled long exposure.
+    emission:
+      type: burst
+      radius: 'Line of sight'
+      trigger: 'Thread snapped'
+      corruptionAmount: 0
+      isSuppressed: false
+    containmentProfile:
+      type: 'Single-Use Relic'
+      isContained: true
+      truths:
+        triggerCondition: >
+          Single activation: snap + whisper. Effect lasts five minutes before the user
+          snaps back into sensory reality.
+        appetite: >
+          The thread smells faintly of sweat and grave cloth each time it is examined.
+        quiescenceCondition: >
+          One use only. After burning, nothing remains but white ash and a needle.
+    activePressure: false
+    decay:
+      value: 0
+      enabled: false
+    replicable: false
+    loreIdentified: false
+    description: >
+      <p>A three-inch frayed linen thread dyed pale ochre, threaded through an unadorned
+      silver sewing needle. Sister Claudia keeps it hidden inside her wooden rosary
+      beads, where it looks like a repair no one bothered to finish.</p>
+
+- _id: sangreal-vc16-lodestone
+  name: 'VC-16 — Lodestone of St. Jude'
+  type: relicSheet
+  system:
+    relicName: 'The Lodestone of St. Jude'
+    tier: 1
+    category: object
+    riskTag: 'Minor Relic'
+    corruptionCost: 1
+    artifactDie: d6
+    emissionType: 'Burst — 5 m null-induction sphere'
+    mundaneAppearance: 'A thumb-sized black stone on a loop of tarnished silver wire. Easy to mistake for a fishing weight or a coin purse charm.'
+    surfaceRead: >
+      <p>A pilgrim's curio — magnetite and silver wire, first-century Judaean work. Of
+      interest to antiquarians, not to physicists.</p>
+    operationalRead: >
+      <p>Forensic residue at Vault IX links it to the breach: copper induction coils
+      melted from the inside out under total magnetic saturation, with sulfur, lapis
+      lazuli, and crystalline Judaean silver vitrified in the slag.</p>
+    coldArchiveRead: >
+      <p>The Secret Archives' suppressed index lists the Lodestone as a "mooring key" —
+      the only object authorized to approach Vault IX's electromagnetic plinth. Corvi
+      requested the index card for it nine days before the theft.</p>
+    activationCondition: >
+      Blood and prayer. The user takes 1 STR damage or 1 Stress to coat the stone, then
+      recites. The sphere lasts 60 seconds.
+    mechanicalEffect: >
+      <p>All electronic potential, electromagnetic attraction, and battery discharge cease
+      inside 5 meters. Industrial electromagnets fail, alarm circuits burn out, tape
+      recorders go silent, radios die. Mechanical systems are unaffected.</p>
+    fractureCondition: >
+      Rolling a Gear Die 1 while the sphere is active collapses it in a burst of static;
+      the stone crumbles to magnetite sand.
+    containmentProfile: >
+      Wrap in silk; keep away from ferrous metals, magnetic media, and pacemaker wearers.
+      It will pull at keys, pins, and wire through cloth.
+    containmentTruths:
+      - id: CT1
+        description: 'Requires blood (1 STR or 1 Stress) and an apostolic prayer to activate.'
+        checked: false
+      - id: CT2
+        description: 'The stone draws warmth from the holder; repeated use numbs the fingers.'
+        checked: false
+      - id: CT3
+        description: 'Stored in silk, away from ferrous metals — otherwise it drags loose hardware toward itself.'
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+    relicImage: ''
+    daNotes: >
+      <p>The breach tool and the proof of premeditation. The residue in the vault's copper
+      conduits (I1) is the strongest physical evidence in the Rome cluster — let careful
+      players earn it. If the cell recovers the Lodestone itself, it becomes a tactical
+      answer to electronic security for the rest of the case.</p>
+    caseId: SANGREAL-87-091
+    description: >
+      <p>VC-16 relic sheet for the vault-breach artifact. DA eyes only.</p>
+
+- _id: sangreal-vc16-veronica
+  name: "VC-16 — The Veil of Veronica's Thread"
+  type: relicSheet
+  system:
+    relicName: "The Veil of Veronica's Thread"
+    tier: 1
+    category: object
+    riskTag: 'Single-Use Relic'
+    corruptionCost: 1
+    artifactDie: d4
+    emissionType: 'Burst — phosphorus flash + 5-minute displacement'
+    mundaneAppearance: 'A frayed ochre thread on an unadorned silver needle, tucked inside wooden rosary beads like an unfinished repair.'
+    surfaceRead: >
+      <p>A sewing repair. Utterly unremarkable, even under inspection by someone who does
+      not know to look inside the beads.</p>
+    operationalRead: >
+      <p>Post-flash forensic sites show phosphorus residue with no accelerant, no heat
+      bloom, and no tracks leaving the point of disappearance. Tape and film near an
+      activation read as blank or fully overexposed.</p>
+    coldArchiveRead: >
+      <p>Listed in the suppressed index as a "Veronica type" single-use displacement
+      device — cloister-made, originally for extracting confessors from hostile
+      jurisdictions. The Talamasca has acquired three in eighty years. This is the
+      fourth.</p>
+    activationCondition: >
+      Snap the thread while whispering <em>Nunc Dimittis</em>. Single use; burns to white
+      ash.
+    mechanicalEffect: >
+      <p>Instant phosphorus flash — everyone with line of sight must pass an Endure check
+      or suffer flash-blindness for 2 rounds. The user vanishes from sight, sound, and
+      electronic surveillance for 5 minutes, leaving no scent or tracks. They reappear
+      wherever they stopped walking.</p>
+    fractureCondition: >
+      Gear Die 1 — the flash fires but the displacement fails. The user is blind, marked,
+      and standing exactly where they were.
+    containmentProfile: >
+      Handle only when ready to burn it. There is no way to test the thread without
+      consuming it, and no way to track a displaced user once it is spent.
+    containmentTruths:
+      - id: CT1
+        description: 'Single activation: snap and whisper. The thread burns to ash.'
+        checked: false
+      - id: CT2
+        description: 'The thread smells of sweat and grave cloth; prolonged handling distresses animals.'
+        checked: false
+      - id: CT3
+        description: 'No recovery after use. The needle remains; the thread is gone.'
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+      - id: ''
+        description: ''
+        checked: false
+    relicImage: ''
+    daNotes: >
+      <p>Claudia's escape hatch and the engine of the Turin betrayal. When it fires at L5,
+      the cell loses the case and their transport line — play the five minutes of absence
+      as a cold, quiet horror rather than a chase. The thread does not fail Claudia; it
+      simply runs out at Novara, where the Basarab pack does not need to track her at all.
+      They were already waiting.</p>
+    caseId: SANGREAL-87-091
+    description: >
+      <p>VC-16 relic sheet for the Talamasca extraction device. DA eyes only.</p>
