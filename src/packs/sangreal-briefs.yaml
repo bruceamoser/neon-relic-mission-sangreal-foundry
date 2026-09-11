@@ -249,4 +249,62 @@
     description: >
       <p>Player-facing dossier for Operation File <strong>SANGREAL-87-091</strong>.
       Issue to the cell at the start of the case. Contains no spoilers beyond the Holy
-      See's official certifications and guarantees.</p>
+      See's official guarantees.</p>
+
+- _id: sangreal-case-board
+  name: 'SANGREAL-87-091 — Case Board'
+  type: caseBoard
+  system:
+    caseId: SANGREAL-87-091
+    caseName: 'Mission: Sangreal'
+    region: 'Region 04 — Western Europe / Italian-Swiss Corridor'
+    currentDay: 14
+    shiftsFilled: []
+    relicMilestones:
+      - day: 10
+        description: 'M1 — The Anemic Pulse: the 50 m hematological field activates; local clinic blood bags spoil; unshielded proximity begins to pull the sick.'
+      - day: 8
+        description: 'M2 — The Frenzy Call: Hausmann breaches isolation in Zurich; animal panic flares across the district.'
+      - day: 6
+        description: 'M3 — Cellular Purge: unshielded handling demands Endure checks against Corruption; scavengers feed and mutate.'
+      - day: 4
+        description: 'M4 — Ash Combustion: a broken test droplet detonates in daylight; the Carabinieri are alerted and the media window cracks.'
+      - day: 2
+        description: 'M5 — Sovereign Scent: the vampire retrieval cell locks onto the Novara retreat house.'
+      - day: 1
+        description: 'Terminal Window: the Cessna 421 spools its engines on the Novara-Cameri tarmac — ten phials poised to leave Italy.'
+    organizations:
+      - id: O1
+        name: 'The Holy Alliance (L''Entità)'
+        value: 0
+        active: true
+        dormant: false
+        squaresConsumed: []
+        milestones:
+          - day: 7
+            label: O1M1
+            description: 'Frontier Cloak — L''Entità activates its network in the Italian Ministry of the Interior. Swiss–Italian crossings fall under paramilitary surveillance; overland movement needs forged passports or an extra shift.'
+          - day: 4
+            label: O1M2
+            description: 'Sanitization Sweep — Vatican operatives clean up the Privatklinik Sonnenberg. Dr. Graf is targeted for liquidation; oncology records are incinerated if not already secured.'
+          - day: 1
+            label: O1M3
+            description: 'Holy Crusade — Sabbatini concludes the cell has uncovered the biological truth. A plainclothes Swiss Guard tactical squad with phosphorus grenades intercepts to sanitize the operation.'
+      - id: O2
+        name: 'The Order of the Talamasca (Registry 16)'
+        value: 0
+        active: true
+        dormant: false
+        squaresConsumed: []
+        milestones:
+          - day: 9
+            label: O2M1
+            description: 'Signal Intercept — Amsterdam listening posts decrypt Swiss PTT telex traffic and map the Covenant''s path, feeding encrypted updates to Claudia.'
+          - day: 6
+            label: O2M2
+            description: 'Extraction Green-Light — Claudia is authorized to execute field theft of the steel attaché the moment Corvi is isolated.'
+          - day: 2
+            label: O2M3
+            description: 'Elder Cleansing Strike — the hidden vampire retrieval pack finds the Novara safehouse and executes Claudia to keep the cure from ever being turned against their bloodlines.'
+    informationCardSlugs: [sangreal-ic01, sangreal-ic02, sangreal-ic03, sangreal-ic04, sangreal-ic05, sangreal-ic06, sangreal-ic07, sangreal-ic08, sangreal-ic09, sangreal-ic10, sangreal-ic11, sangreal-ic12, sangreal-ic13, sangreal-ic14, sangreal-ic15, sangreal-ic16, sangreal-ic17]
+    infoCardUuids: []
