@@ -36,6 +36,7 @@ export const ITEM_TYPES = new Set([
   'organization',
   'relicSheet',
   'caseBoard',
+  'informationWeb',
 ]);
 
 /** Actor sub-types provided by the neon-relic system. */
