@@ -44,16 +44,28 @@ const EXPECTED_CHILDREN = {
   'sangreal-journals': { prefix: '!journal.pages!', count: 15 },
 };
 
+/** Cross-reference UUID array fields produced from authoring slug fields. */
+const LINK_FIELDS = [
+  'npcUuids',
+  'locationUuids',
+  'organizationUuids',
+  'informationCardUuids',
+  'foundAtUuids',
+  'knownByUuids',
+  'startingKnowledgeUuids',
+  'gainedKnowledgeUuids',
+];
+
 const errors = [];
 const notes = [];
 
-/** Read all top-level keys of a LevelDB pack. */
-async function packKeys(packPath) {
+/** Read all entries of a LevelDB pack as [key, value] pairs. */
+async function packEntries(packPath) {
   const db = new ClassicLevel(packPath, { keyEncoding: 'utf8', valueEncoding: 'json' });
-  const keys = [];
-  for await (const [key] of db.iterator()) keys.push(key);
+  const entries = [];
+  for await (const [key, value] of db.iterator()) entries.push([key, value]);
   await db.close();
-  return keys.sort();
+  return entries.sort((a, b) => a[0].localeCompare(b[0]));
 }
 
 async function audit() {
@@ -67,14 +79,17 @@ async function audit() {
     notes.push(`pack sync: ${declaredPaths.length} declared packs all present`);
   }
 
-  // 2 + 3. Per-pack counts and key formats.
+  // 2 + 3. Per-pack counts, key formats, and cross-links.
+  let linkCount = 0;
+  const badLinks = [];
   for (const [pack, expected] of Object.entries(EXPECTED_DOCS)) {
     const packPath = path.join(PACKS_DIR, pack);
     if (!(await fs.pathExists(packPath))) {
       errors.push(`${pack}: missing compiled pack directory`);
       continue;
     }
-    const keys = await packKeys(packPath);
+    const entries = await packEntries(packPath);
+    const keys = entries.map(([key]) => key);
     const top = keys.filter((k) => !k.slice(1).includes('.'));
     if (top.length !== expected) {
       errors.push(`${pack}: expected ${expected} documents, found ${top.length}`);
@@ -96,7 +111,27 @@ async function audit() {
       const ok = /^!(items|actors|journal|journal\.pages|tables|tables\.results|macros)!/u.test(key);
       if (!ok) errors.push(`${pack}: unexpected key format "${key}"`);
     }
+
+    // Cross-link integrity: no unresolved authoring fields, UUIDs point inside this module.
+    for (const [key, value] of entries) {
+      if (!(key.startsWith('!items!') || key.startsWith('!actors!'))) continue;
+      const sys = value?.system ?? {};
+      for (const [field, v] of Object.entries(sys)) {
+        if (field.endsWith('Slugs')) badLinks.push(`${key}: unresolved authoring field "${field}"`);
+        if (!LINK_FIELDS.includes(field)) continue;
+        if (!Array.isArray(v)) continue;
+        linkCount += v.length;
+        for (const uuid of v) {
+          if (typeof uuid !== 'string' || !uuid.startsWith(`Compendium.${manifest.id}.`)) {
+            badLinks.push(`${key}.${field}: bad uuid "${uuid}"`);
+          }
+        }
+      }
+    }
   }
+  if (badLinks.length) errors.push(...badLinks.slice(0, 10));
+  if (linkCount < 40) errors.push(`cross-links: expected at least 40 populated UUIDs, found ${linkCount}`);
+  else notes.push(`cross-links: ${linkCount} UUIDs populated and well-formed`);
 
   // 4. Coverage sweep over source YAML.
   const sourceText = (

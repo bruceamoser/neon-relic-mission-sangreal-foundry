@@ -86,6 +86,80 @@ export function toFoundryId(slug) {
   return id;
 }
 
+/**
+ * Build a compendium UUID for a document.
+ * @param {string} moduleId
+ * @param {string} packName
+ * @param {'Item'|'Actor'} docType
+ * @param {string} id
+ * @returns {string}
+ */
+export function packModuleUuid(moduleId, packName, docType, id) {
+  return `Compendium.${moduleId}.${packName}.${docType}.${id}`;
+}
+
+/* ------------------------------------------ */
+/*  Cross-reference registry                  */
+/* ------------------------------------------ */
+
+/**
+ * Build the slug → compendium UUID registry for every referenceable document
+ * across all packs (Items and Actors).
+ * @param {Array<{packName: string, documents: Array<object>}>} packDocs
+ * @param {string} moduleId - Foundry module id (from module.json).
+ * @returns {Map<string, {packName: string, docType: 'Item'|'Actor', id: string, uuid: string}>}
+ */
+export function buildReferenceRegistry(packDocs, moduleId) {
+  const registry = new Map();
+  for (const { packName, documents } of packDocs) {
+    for (const doc of documents) {
+      const docType = ITEM_TYPES.has(doc.type) ? 'Item' : ACTOR_TYPES.has(doc.type) ? 'Actor' : null;
+      if (!docType || !doc._id) continue;
+      const id = toFoundryId(doc._id);
+      registry.set(doc._id, { packName, docType, id, uuid: packModuleUuid(moduleId, packName, docType, id) });
+    }
+  }
+  return registry;
+}
+
+/** Authoring slug field → compiled UUID array field. */
+export const SLUG_TO_UUID_FIELD = {
+  npcSlugs: 'npcUuids',
+  locationSlugs: 'locationUuids',
+  organizationSlugs: 'organizationUuids',
+  informationCardSlugs: 'informationCardUuids',
+  foundAtSlugs: 'foundAtUuids',
+  knownBySlugs: 'knownByUuids',
+  startingKnowledgeSlugs: 'startingKnowledgeUuids',
+  gainedKnowledgeSlugs: 'gainedKnowledgeUuids',
+};
+
+/**
+ * Resolve authoring slug fields into compiled compendium UUID arrays.
+ * Unknown slugs fail the build (deterministic authoring guard).
+ * @param {object} doc - YAML source document.
+ * @param {Map<string, object>|null} registry
+ * @returns {object} system data with slug fields replaced by UUID arrays.
+ */
+function resolveCrossReferences(doc, registry) {
+  const system = structuredClone(doc.system ?? {});
+  for (const [slugField, uuidField] of Object.entries(SLUG_TO_UUID_FIELD)) {
+    const slugs = system[slugField];
+    if (slugs === undefined) continue;
+    if (!Array.isArray(slugs)) throw new Error(`${doc._id}: "${slugField}" must be an array of slug strings`);
+    if (!registry) throw new Error(`${doc._id}: "${slugField}" present but no reference registry was supplied`);
+    const uuids = slugs.map((slug) => {
+      const ref = registry.get(slug);
+      if (!ref) throw new Error(`${doc._id}: unresolved slug "${slug}" in ${slugField}`);
+      return ref.uuid;
+    });
+    const existing = Array.isArray(system[uuidField]) ? system[uuidField] : [];
+    system[uuidField] = [...new Set([...existing, ...uuids])];
+    delete system[slugField];
+  }
+  return system;
+}
+
 /* ------------------------------------------ */
 /*  Document transform                        */
 /* ------------------------------------------ */
@@ -94,11 +168,15 @@ export function toFoundryId(slug) {
  * Transform a YAML source document into Foundry-native LevelDB entries.
  * Returns an array of { key, data } entries. Journals and roll tables emit
  * additional entries for pages/results (Foundry V14 requirement).
+ * Authoring slug fields (`npcSlugs`, `foundAtSlugs`, …) are resolved into
+ * compiled compendium UUID arrays via the reference registry.
  * @param {object} doc - Parsed YAML document.
+ * @param {{registry?: Map<string, object>|null}} [options]
  * @returns {Array<{key: string, data: object}>|null} Entries, or null if the type is unknown.
  */
-export function transformDocument(doc) {
+export function transformDocument(doc, { registry = null } = {}) {
   const id = toFoundryId(doc._id);
+  const system = resolveCrossReferences(doc, registry);
 
   if (ITEM_TYPES.has(doc.type)) {
     return [
@@ -109,7 +187,7 @@ export function transformDocument(doc) {
           name: doc.name,
           type: doc.type,
           img: doc.img || ITEM_DEFAULT_ICONS[doc.type] || '',
-          system: doc.system || {},
+          system,
           effects: doc.effects || [],
           flags: doc.flags || {},
           folder: doc.folder || null,
@@ -130,7 +208,7 @@ export function transformDocument(doc) {
           name: doc.name,
           type: doc.type,
           img: doc.img || '',
-          system: doc.system || {},
+          system,
           items: doc.items || [],
           effects: doc.effects || [],
           flags: doc.flags || {},

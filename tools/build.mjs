@@ -21,7 +21,7 @@ import YAML from 'js-yaml';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { ClassicLevel } from 'classic-level';
-import { transformDocument } from './lib/pack-lib.mjs';
+import { buildReferenceRegistry, transformDocument } from './lib/pack-lib.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC_PACKS = path.join(ROOT, 'src', 'packs');
@@ -62,18 +62,27 @@ async function buildPacks() {
   const files = (await fs.readdir(SRC_PACKS)).filter((f) => f.endsWith('.yaml') || f.endsWith('.yml'));
   if (files.length === 0) return;
 
-  const outputDir = path.join(DIST, 'packs');
-  await fs.ensureDir(outputDir);
-
+  // Pass 1: load every source file so cross-references can resolve across packs.
+  const packDocs = [];
   for (const file of files) {
     const raw = await fs.readFile(path.join(SRC_PACKS, file), 'utf8');
     const documents = YAML.load(raw);
+    const packName = file.replace(/\.(yaml|yml)$/, '');
     if (!Array.isArray(documents) || documents.length === 0) {
       console.log(`${LOG_TAG} | ${file}: no documents yet, skipping`);
       continue;
     }
+    packDocs.push({ file, packName, documents });
+  }
 
-    const packName = file.replace(/\.(yaml|yml)$/, '');
+  // Pass 2: build the slug → compendium UUID registry, then compile each pack.
+  const manifest = await fs.readJSON(path.join(STATIC_DIR, 'module.json'));
+  const registry = buildReferenceRegistry(packDocs, manifest.id);
+
+  const outputDir = path.join(DIST, 'packs');
+  await fs.ensureDir(outputDir);
+
+  for (const { file, packName, documents } of packDocs) {
     const packPath = path.join(outputDir, packName);
 
     // Clean and create LevelDB directory.
@@ -82,7 +91,7 @@ async function buildPacks() {
 
     let count = 0;
     for (const doc of documents) {
-      const entries = transformDocument(doc);
+      const entries = transformDocument(doc, { registry });
       if (!entries) {
         console.warn(`${LOG_TAG} | unknown type "${doc.type}" in ${file}, skipping`);
         continue;

@@ -9,6 +9,9 @@
   system:
     cardId: I-1
     cardType: supportingIntel
+    foundAtSlugs: [sangreal-l1]
+    knownBySlugs: [sangreal-npc-ghiberti]
+    npcSlugs: [sangreal-npc-ghiberti]
     content: >
       <p>The industrial electromagnet cradle anchored to the vault floor did not fail
       from a blown breaker. The copper induction coils melted from the inside out under
@@ -31,6 +34,8 @@
   system:
     cardId: I-2
     cardType: supportingIntel
+    foundAtSlugs: [sangreal-l1, sangreal-l2]
+    npcSlugs: [sangreal-npc-vane]
     content: >
       <p>A 16mm black-and-white surveillance film from the Porta Sant'Anna gate
       (03:14 AM). Monsignor Corvi leaves on foot carrying a heavy attaché case.
@@ -55,6 +60,9 @@
   system:
     cardId: I-3
     cardType: supportingIntel
+    foundAtSlugs: [sangreal-l1]
+    knownBySlugs: [sangreal-npc-ghiberti]
+    npcSlugs: [sangreal-npc-ghiberti]
     content: >
       <p>The mahogany card catalog drawer in the Archivio Segreto. The index card for
       shelf-mark "MS-Vat-Heb-418" has been excised with a scalpel. In its place sits a
@@ -76,6 +84,7 @@
   system:
     cardId: I-4
     cardType: supportingIntel
+    foundAtSlugs: [sangreal-l2]
     content: >
       <p>A slip of 17th-century rag paper hidden within a 1592 Clementine Vulgate Bible
       on Corvi's desk, resting at the Gospel of John, Chapter 6. The paper contains
@@ -100,6 +109,9 @@
   system:
     cardId: I-5
     cardType: supportingIntel
+    foundAtSlugs: [sangreal-l1]
+    knownBySlugs: [sangreal-npc-vane]
+    npcSlugs: [sangreal-npc-vane]
     content: >
       <p>Sister Claudia lays out a diocesan road map of Northern Italy. In the
       lower-right margin of the leather map casing, an embossed stamp is pressed into
@@ -123,6 +135,9 @@
   system:
     cardId: I-6
     cardType: supportingIntel
+    foundAtSlugs: [sangreal-l3]
+    knownBySlugs: [sangreal-npc-mercier]
+    npcSlugs: [sangreal-npc-mercier]
     content: >
       <p>A carbon-leaf escrow receipt from locker 4409-C at Union de Banques Suisses,
       confirming a telegraphic transfer of 500,000 Swiss Francs from "Kurt Hausmann,
@@ -147,6 +162,9 @@
   system:
     cardId: I-7
     cardType: supportingIntel
+    foundAtSlugs: [sangreal-l3, sangreal-l4]
+    knownBySlugs: [sangreal-npc-graf]
+    npcSlugs: [sangreal-npc-graf, sangreal-npc-hausmann]
     content: >
       <p>Clinical dossier for Kurt Hausmann, age 62, admitted with end-stage metastatic
       lymphoma. Four days prior, Hausmann received an undocumented intravenous
@@ -172,6 +190,7 @@
   system:
     cardId: I-8
     cardType: supportingIntel
+    foundAtSlugs: [sangreal-l3, sangreal-l4]
     content: >
       <p>A reel-to-reel audio tape of a wiretapped public payphone call from Zurich to
       Turin. Corvi states: "The Zurich test was an abomination! Hausmann has lost all
@@ -197,6 +216,9 @@
   system:
     cardId: I-9
     cardType: supportingIntel
+    foundAtSlugs: [sangreal-l4]
+    knownBySlugs: [sangreal-npc-graf]
+    npcSlugs: [sangreal-npc-graf]
     content: >
       <p>Histopathology notes and microscopic polaroids: "The introduced fluid did not
       merge with Hausmann's cellular biology. The foreign hematological vector attacked
@@ -221,6 +243,9 @@
   system:
     cardId: I-10
     cardType: containmentTruth
+    foundAtSlugs: [sangreal-l4, sangreal-l5]
+    knownBySlugs: [sangreal-npc-corvi, sangreal-npc-graf]
+    npcSlugs: [sangreal-npc-corvi, sangreal-npc-graf]
     content: >
       <p>The vector triggers upon contact with open tissue or mucous membranes. In an
       uninfected human host, it forces rapid mutagenic adaptation, causing full
@@ -244,6 +269,9 @@
   system:
     cardId: I-11
     cardType: containmentTruth
+    foundAtSlugs: [sangreal-l4, sangreal-l5]
+    knownBySlugs: [sangreal-npc-corvi]
+    npcSlugs: [sangreal-npc-corvi]
     content: >
       <p>The phials actively hunger for mortal trauma. Within 100 meters, individuals
       suffering from anemia, terminal illness, or lacerations experience an intense
@@ -266,6 +294,9 @@
   system:
     cardId: I-12
     cardType: supportingIntel
+    foundAtSlugs: [sangreal-l5]
+    knownBySlugs: [sangreal-npc-corvi]
+    npcSlugs: [sangreal-npc-corvi]
     content: >
       <p>Corvi's notebook containing his translation of the 2nd-century <em>Gospel of
       the Twelve</em> (Codex Ebionita, MS-Vat-Heb-418): "And the Lord gave unto the
@@ -289,6 +320,8 @@
   system:
     cardId: I-13
     cardType: supportingIntel
+    foundAtSlugs: [sangreal-l6]
+    npcSlugs: [sangreal-npc-vane]
     content: >
       <p>Forensics at the retreat house: Sister Claudia Vane lies across the table, her
       carotid artery torn open by elongated dental punctures with an inter-canine
@@ -314,6 +347,8 @@
   system:
     cardId: I-14
     cardType: supportingIntel
+    foundAtSlugs: [sangreal-l6]
+    npcSlugs: [sangreal-npc-vane]
     content: >
       <p>A charred telex strip recovered from the safehouse stove: "FROM: TALAMASCA
       MOTHERHOUSE AMSTERDAM // REGISTRY 16. TO: OPERATIVE CLAUDIA VANE. DIRECTIVE:
@@ -339,6 +374,7 @@
   system:
     cardId: I-15
     cardType: supportingIntel
+    foundAtSlugs: [sangreal-l6]
     content: >
       <p>Flight clearance from Novara-Cameri military airfield: Cessna 421 Golden Eagle,
       registration YR-BAS, owner Basarab Holdings S.A. (Bucharest). Flight plan filed for
@@ -361,6 +397,9 @@
   system:
     cardId: I-16
     cardType: containmentTruth
+    foundAtSlugs: [sangreal-l2, sangreal-l7]
+    knownBySlugs: [sangreal-npc-sabbatini, sangreal-npc-ghiberti]
+    npcSlugs: [sangreal-npc-sabbatini, sangreal-npc-ghiberti]
     content: >
       <p>Latin containment protocol: The phials must remain in absolute darkness, wrapped
       in unbleached flax linens soaked in wine vinegar, gall, and myrrh, sealed in
@@ -384,6 +423,9 @@
   system:
     cardId: I-17
     cardType: supportingIntel
+    foundAtSlugs: [sangreal-l7]
+    knownBySlugs: [sangreal-npc-sabbatini]
+    npcSlugs: [sangreal-npc-sabbatini]
     content: >
       <p>A tin dispatch box under the floorboards in Claudia's convent room: microfiche
       rolls detailing ancient aristocratic dynasties in Transylvania and Wallachia,
