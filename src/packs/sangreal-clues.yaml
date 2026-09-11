@@ -23,7 +23,6 @@
       <p>Confirms an occult artifact was used rather than mechanical tools. The chemical
       profile matches the Lodestone of St. Jude, cataloged in the Secret Archives'
       suppressed index.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -49,7 +48,6 @@
     daNotes: >
       <p>The dense shadow indicates lead-antimony foil lining. The boarding pass unlocks
       Location L3 (Geneva Private Depository).</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -73,7 +71,6 @@
     daNotes: >
       <p>Connects Corvi's historical research to the attaché's contents ("XII-SANG"),
       proving the theft was premeditated — this was never a crime of opportunity.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -98,7 +95,6 @@
       <p>Decodes via a 5x5 Latin alphabet Polybius Square (merging I/J and U/V) into:
       "GENEVA / UBS / HAUSMANN / 4409 / C". Unlocks Location L3 and identifies
       Kurt Hausmann.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -124,7 +120,6 @@
       <p>The insignia of The Talamasca ("The Order of the Watchers"). If questioned,
       Claudia claims it is an archival seal from a Bolognese bookbinder. Left
       unremarked, it is the thread that unravels her.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -151,7 +146,6 @@
       <p>Confirms the sale of the first phial and unlocks Location L4 (Privatklinik
       Sonnenberg, Zurich). "Experimental Oncology Protocol" is the cover story Graf
       was told.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -179,7 +173,6 @@
       <p><strong>The False Twist.</strong> Drives players to conclude Jesus was the
       First Vampire, and communion transmits an unholy condition. Let them believe it —
       the histopathology in I9 and the Ebionite text in I12 are the way back out.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -205,7 +198,6 @@
       <p>Unlocks Location L5 (Lingotto Fiat Assembly Complex, Turin) and confirms Corvi
       still controls eleven phials. The "cultured voice" belongs to the intermediary
       who will later be replaced by the Basarab pack on the wire.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -232,7 +224,6 @@
       <p>Challenges the False Twist, revealing the blood as an apex biological carrier
       that causes predatory mutation only because human marrow lacks the regulatory
       mechanisms to process it.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -258,7 +249,6 @@
     daNotes: >
       <p>Core mechanical containment truth. Explains why the vampire bloodlines fear the
       relic more than the Covenant or the Church ever could.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -283,7 +273,6 @@
       <p>Explains Hausmann's rapid decline and imposes stress penalties on wounded
       investigators. Any agent carrying the case while injured should feel the pull —
       play it as intrusive thought, not compulsion.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -309,7 +298,6 @@
       <p>The final theological revelation: Christ was an immune progenitor who
       synthesized a cure for the vampire parasite. Once the cell reads this alongside
       I9, the Paradigm Inversion lands for good.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -336,7 +324,6 @@
       <p>Proves Claudia was murdered by an ancient vampire strike team. The ash-crumbled
       fingers prove an attacker touched the spilled tenth phial and dissolved. Ten intact
       phials remain — and one is gone forever.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -363,7 +350,6 @@
       leadership is desperate to burn the cure to protect vampire elders. "Protect the
       bloodline" is the sentence that ends the Covenant's remaining trust in the
       Motherhouse.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -386,7 +372,6 @@
       <p>The launchpad for Mission 2: Recover the Sangreal — ten phials have crossed
       into Eastern Europe by the time the cell reaches the tarmac. Hold the departure
       time sacred: forty minutes early is still too late.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -412,7 +397,6 @@
       <p>Mechanical instructions for safe transport without triggering an explosive
       fracture. The Vatican has been practicing this protocol for four centuries; the
       Covenant has hours to learn it.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -440,7 +424,6 @@
       <p>Post-case resolution material. Confirms the political context: the Church used
       the cure as a deterrent against European vampire families. Sabbatini will only
       discuss it once the Novara evidence is on his desk.</p>
-    revealed: false
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
