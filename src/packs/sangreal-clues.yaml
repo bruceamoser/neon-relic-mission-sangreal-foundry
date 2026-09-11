@@ -282,3 +282,123 @@
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
+
+- _id: sangreal-ic13
+  name: 'I13 — The Novara Slaughter'
+  type: informationCard
+  system:
+    cardId: I-13
+    cardType: supportingIntel
+    content: >
+      <p>Forensics at the retreat house: Sister Claudia Vane lies across the table, her
+      carotid artery torn open by elongated dental punctures with an inter-canine
+      breadth exceeding human anatomy, completely exsanguinated. On the floor sits a
+      broken phial soaked into the terracotta tiles, beside two severed human metacarpals
+      turned to calcified white ash from accelerated biological decay. The attaché case
+      is gone.</p>
+      <p><em>Found at: L6 — The Fortified Retreat of San Nazzaro. Requires forensic
+      search.</em></p>
+    hqFallback: 2
+    daNotes: >
+      <p>Proves Claudia was murdered by an ancient vampire strike team. The ash-crumbled
+      fingers prove an attacker touched the spilled tenth phial and dissolved. Ten intact
+      phials remain — and one is gone forever.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic14
+  name: 'I14 — Telex Dispatch: Registry 16'
+  type: informationCard
+  system:
+    cardId: I-14
+    cardType: supportingIntel
+    content: >
+      <p>A charred telex strip recovered from the safehouse stove: "FROM: TALAMASCA
+      MOTHERHOUSE AMSTERDAM // REGISTRY 16. TO: OPERATIVE CLAUDIA VANE. DIRECTIVE:
+      SECURE SPECIMEN XII AT ALL COSTS. DEPLOY VERONICA THREAD FOR EXTRACTION. PROCEED
+      TO NOVARA AIRSTRIP FOR RENDEZVOUS 'BASARAB'. DO NOT BREACH SEALS. SPECIMEN MUST BE
+      FLOWN TO CARPATHIAN FACILITY FOR INCINERATION. PROTECT THE BLOODLINE."</p>
+      <p><em>Found at: L6 — The Fortified Retreat of San Nazzaro. Known by: Sister
+      Claudia Vane (deceased).</em></p>
+    hqFallback: 1
+    daNotes: >
+      <p>Confirms Claudia's role as a Talamasca mole and reveals that the Order's
+      leadership is desperate to burn the cure to protect vampire elders. "Protect the
+      bloodline" is the sentence that ends the Covenant's remaining trust in the
+      Motherhouse.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic15
+  name: 'I15 — Flight Clearance: YR-BAS'
+  type: informationCard
+  system:
+    cardId: I-15
+    cardType: supportingIntel
+    content: >
+      <p>Flight clearance from Novara-Cameri military airfield: Cessna 421 Golden Eagle,
+      registration YR-BAS, owner Basarab Holdings S.A. (Bucharest). Flight plan filed for
+      Cluj-Napoca International Airport, Romania. Cargo: "Ecclesiastical Medical
+      Supplies — Ten Consignment Units." Departure: 01:15 hours tonight.</p>
+      <p><em>Found at: L6 — dispatch desk, Fortified Retreat of San Nazzaro.</em></p>
+    hqFallback: 1
+    daNotes: >
+      <p>The launchpad for Mission 2: Recover the Sangreal — ten phials have crossed
+      into Eastern Europe by the time the cell reaches the tarmac. Hold the departure
+      time sacred: forty minutes early is still too late.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic16
+  name: 'I16 — The Quiescence Formula (CT3)'
+  type: informationCard
+  system:
+    cardId: I-16
+    cardType: containmentTruth
+    content: >
+      <p>Latin containment protocol: The phials must remain in absolute darkness, wrapped
+      in unbleached flax linens soaked in wine vinegar, gall, and myrrh, sealed in
+      lead-antimony foil below 4°C. Direct sunlight causes the fluid to boil and combust
+      into white ash.</p>
+      <p><em>Found at: L2 — Corvi's Quarters / L7 — CDF Offices. Known by: Cardinal
+      Enrico Sabbatini and Father Ghiberti.</em></p>
+    hqFallback: 3
+    daNotes: >
+      <p>Mechanical instructions for safe transport without triggering an explosive
+      fracture. The Vatican has been practicing this protocol for four centuries; the
+      Covenant has hours to learn it.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic17
+  name: 'I17 — The Basarab Extortion File'
+  type: informationCard
+  system:
+    cardId: I-17
+    cardType: supportingIntel
+    content: >
+      <p>A tin dispatch box under the floorboards in Claudia's convent room: microfiche
+      rolls detailing ancient aristocratic dynasties in Transylvania and Wallachia,
+      paired with private Vatican memos confirming centuries of blackmail. A memorandum
+      from Sabbatini reads: "We hold the Gethsemane vessels as an iron nail driven into
+      their heads. So long as Rome holds the Cure that brings them death, they dare not
+      cross the threshold of the Tiber."</p>
+      <p><em>Found at: L7 — Claudia's convent quarters, Palace of the Congregation for
+      the Doctrine of the Faith. Known by: Cardinal Enrico Sabbatini.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p>Post-case resolution material. Confirms the political context: the Church used
+      the cure as a deterrent against European vampire families. Sabbatini will only
+      discuss it once the Novara evidence is on his desk.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
