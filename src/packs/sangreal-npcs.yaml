@@ -206,3 +206,157 @@
     goal: 'Feed. Hide from the light. Feed again.'
     positiveResult: 'Subdued or destroyed: the Sonnenberg ward is secured and the medical sequence recovered.'
     negativeResult: 'Escapes into the Zurichberg forest — a new predator loose above a city of four hundred thousand.'
+
+- _id: sangreal-npc-ghiberti
+  name: 'Father Ghiberti'
+  type: npc
+  system:
+    tier: 1
+    description: >
+      <h3>Psychological Profile</h3>
+      <p>Nervous Curial archivist and keeper of the Vault IX register. Precise to the
+      point of ritual, and currently terrified: he knows the register was doctored in the
+      weeks before the theft and cannot prove by whom. He wants this inquiry to end
+      before it reaches his desk.</p>
+      <h3>Social Mechanics</h3>
+      <p>Anxious / Cooperative (Difficulty 2). Reassurance and respect for the archive
+      open him up; pressure makes him hide behind procedure. He is the doorway to I1, I3,
+      and I16 — and to the fact that Corvi requested the Lodestone's index card nine days
+      before the breach.</p>
+      <h3>Combat Profile</h3>
+      <p>Non-combatant. Will not fight. Will absolutely relock a door behind himself.</p>
+    attributes:
+      str: 2
+      agi: 2
+      wit: 4
+      emp: 3
+    skills:
+      lore: 4
+      investigate: 3
+    armorRating: 0
+    fearRating: 1
+    disposition: 2
+    corruptionStage: 0
+    tags:
+      - sangreal
+    secret: 'The vault register has two pages missing — removed before the theft, not after.'
+    goal: 'Survive the inquiry without being blamed for the breach.'
+    positiveResult: 'Speaks freely: I1 and I3, and permission for a supervised vault inspection.'
+    negativeResult: 'Retreats into procedure; the register is "under review" for the rest of the case.'
+
+- _id: sangreal-npc-mercier
+  name: 'Jean-Paul Mercier'
+  type: npc
+  system:
+    tier: 1
+    description: >
+      <h3>Psychological Profile</h3>
+      <p>Senior vault clerk at Union de Banques Suisses, Geneva. Immaculate suit, manicured
+      hands, and the specific pallor of a man who has read transaction memos he was never
+      supposed to understand. He has a family, a mortgage on the Rue du Rhône, and no
+      appetite for martyrdom on behalf of clients he despises.</p>
+      <h3>Social Mechanics</h3>
+      <p>Anxious / Bribable (Difficulty 2). Money works; so does a credible threat of
+      Swiss banking regulators. Violence closes him completely — and trips the silent
+      alarm under his desk.</p>
+      <h3>Combat Profile</h3>
+      <p>Non-combatant. One punch will produce a lawsuit, not a fight.</p>
+    attributes:
+      str: 1
+      agi: 2
+      wit: 3
+      emp: 2
+    skills:
+      lore: 3
+      investigate: 2
+    armorRating: 0
+    fearRating: 0
+    disposition: 2
+    corruptionStage: 0
+    tags:
+      - sangreal
+    secret: 'He kept a carbon of the transfer memo — the only copy outside the bank archive.'
+    goal: 'Keep his job, his pension, and his kneecaps.'
+    positiveResult: 'Yields I6 and booth 4409-C access; unlocks the Zurich corridor.'
+    negativeResult: 'Calls bank security; the locker is resealed under judicial order.'
+
+- _id: sangreal-npc-entita-operative
+  name: "L'Entità Sanitization Operative"
+  type: npc
+  system:
+    tier: 4
+    description: >
+      <h3>Psychological Profile</h3>
+      <p>Plainclothes Swiss Guard commando, detailed to <em>L'Entità</em> for operations
+      the Vatican will never acknowledge. Professional, silent, clinical. Calls the
+      Covenant cell "the consultants" and treats their deaths as administrative
+      housekeeping.</p>
+      <h3>Combat Profile</h3>
+      <p>Equipped with a compact submachine gun, phosphorus grenades, and concealed
+      body armor (AR 2). Operates in a three-officer team with practiced crossfire
+      discipline. They are not here to arrest anyone.</p>
+      <h3>Director Notes</h3>
+      <p>Deploys at O1 Milestone 3 (Holy Crusade). The sanctimony is the point: they
+      believe they are protecting the world from the truth. Give the cell one warning
+      — in impeccable German — before the first grenade.</p>
+    attributes:
+      str: 3
+      agi: 4
+      wit: 3
+      emp: 1
+    skills:
+      firearms: 4
+      brawl: 3
+      sneak: 3
+      command: 2
+    armorRating: 2
+    fearRating: 0
+    disposition: 5
+    corruptionStage: 0
+    tags:
+      - sangreal
+    secret: 'Under orders to sanitize any witnesses — including clergy.'
+    goal: 'Recover or destroy the phials. Leave no trace that the Vatican was involved.'
+    positiveResult: 'Repelled: the squad withdraws to report the cell to L''Entità as a confirmed liability.'
+    negativeResult: 'The cell is captured, debriefed, and quietly discredited.'
+
+- _id: sangreal-npc-basarab-operative
+  name: 'Basarab Retrieval Operative'
+  type: npc
+  system:
+    tier: 4
+    description: >
+      <h3>Psychological Profile</h3>
+      <p>An ancient vampire of the Basarab retrieval pack — not feral, not starving, and
+      entirely certain of its own superiority. It speaks three dead languages and treats
+      mortals the way old money treats furniture. It has waited four centuries for a
+      reason to visit Italy; this is the errand that finally mattered.</p>
+      <h3>Tactical Profile</h3>
+      <p>Controlled predator: STR 4, AGI 4, WIT 4, EMP 2; Armor Rating 2 (half damage
+      from ballistics unless the brainstem is targeted); Fear Rating 3. Moves silently on
+      vertical surfaces. Suffers no agitation in darkness and no resistance to fire.</p>
+      <h3>The One Fear</h3>
+      <p><strong>CT1.</strong> Contact with phial blood is final death — necrotic stasis
+      breaks and centuries of senescence arrive in seconds, leaving calcified ash. This
+      is why the pack executes Claudia and takes the case by hand at a distance, and why
+      one operative's dropped guard at Novara left two fingers on the tiles.</p>
+    attributes:
+      str: 4
+      agi: 4
+      wit: 4
+      emp: 2
+    skills:
+      brawl: 4
+      sneak: 3
+      command: 2
+      firearms: 2
+    armorRating: 2
+    fearRating: 3
+    disposition: 5
+    corruptionStage: 3
+    tags:
+      - sangreal
+    secret: 'The cure is the only thing their bloodline has ever feared — and they will incinerate it to stay unafraid.'
+    goal: 'Take the vessels to the Carpathian facility and burn the cure.'
+    positiveResult: 'Killed or turned: the Novara timeline breaks — Mission 2 becomes a recovery instead of a chase.'
+    negativeResult: 'Reaches the aircraft. Ten phials leave Italy and the campaign detonates.'
