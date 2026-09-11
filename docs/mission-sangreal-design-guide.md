@@ -225,16 +225,16 @@ The scenario is governed by an operational clock of 14 Days (56 Shifts: Morning,
 | **Day 13** | Cold Transit | Shifts 5–8 | Dormant | Corvi negotiates Swiss bank escrow in Geneva1. |
 | **Day 12** | Border Crossing | Shifts 9–12 | Dormant | Vault IX clue fallback available at Covenant HQ1. |
 | **Day 11** | Escrow Release | Shifts 13–16 | Dormant | Corvi completes first sale; travel to Zurich initiated1. |
-| **Day 10** | Active Vector | Shifts 17–20 | **M1: The Anemic Pulse** | 50m hematological field activates; local clinic blood bags spoil1. |
+| **Day 10** | Active Vector | Shifts 17–20 | **M1: The Zurich Hand-Off** | The attaché surfaces in Zurich; Corvi cuts the seal for the first sale to Hausmann1. |
 | **Day 9** | Scent Detected | Shifts 21–24 | Escalating | Talamasca intercept team tracks Geneva wire transfers1. |
-| **Day 8** | Predatory Frenzy | Shifts 25–28 | **M2: The Frenzy Call** | Hausmann breaches isolation in Zurich; animal panic flares1. |
+| **Day 8** | Predatory Frenzy | Shifts 25–28 | **M2: The Case Leaves Zurich** | Hausmann breaches isolation; the case is walked out of the city — no custody signatures until Turin1. |
 | **Day 7** | Intercept Phase | Shifts 29–32 | Escalating | O1 border checkpoints established along Italian frontier1. |
-| **Day 6** | Marrow Strain | Shifts 33–36 | **M3: Cellular Purge** | Unshielded handling requires Endure checks vs. Corruption1. |
+| **Day 6** | Marrow Strain | Shifts 33–36 | **M3: The Second Sale** | The case opens on the Lingotto floor; the Turin intermediary takes the second phial1. |
 | **Day 5** | Industrial Drop | Shifts 37–40 | Escalating | Corvi retreats to Fiat Lingotto assembly works in Turin1. |
-| **Day 4** | Ash Flash | Shifts 41–44 | **M4: Ash Combustion** | Broken test droplet detonates in daylight; Carabinieri alerted1. |
+| **Day 4** | Ash Flash | Shifts 41–44 | **M4: The Daylight Breach** | A droplet from the open case ignites in daylight; the Carabinieri flood the site1. |
 | **Day 3** | The Trap Springs | Shifts 45–48 | Escalating | Sister Claudia receives extraction green-light from Amsterdam1. |
-| **Day 2** | Elder Pursuit | Shifts 49–52 | **M5: Sovereign Scent** | Vampire retrieval cell locks onto Novara retreat house1. |
-| **Day 1** | Terminal Window | Shifts 53–56 | Escalating | Cessna 421 spools engines on military tarmac1. |
+| **Day 2** | Elder Pursuit | Shifts 49–52 | **M5: The Novara Slaughter** | The retrieval pack forces the case at the Novara safehouse and takes ten phials1. |
+| **Day 1** | Terminal Window | Shifts 53–56 | **M6: The Empty Case** | Phials loaded aboard the Cessna 421; the emptied case is left on the tarmac1. |
 | **Catastrophe** | Campaign Rupture | Post-Shift 56 | **Catastrophe Triggered** | Blood flown to Transylvania; feral lineage erupts across Italy1. |
 
 ### **Faction Tracks and Institutional Milestones (organization-reference.html)**
@@ -245,17 +245,17 @@ The scenario is governed by an operational clock of 14 Days (56 Shifts: Morning,
 
 The Holy Alliance track begins at 10 countdown squares, advancing when the cell causes public disturbances, damages church property, or challenges clerical authority1:
 
-* O1M1 (Square 7 — Frontier Cloak): *L'Entità* activates its network within the Italian Ministry of the Interior1. Border crossings between Switzerland and Italy are placed under paramilitary surveillance; agents moving overland must produce forged passports or spend an additional operational shift bypassing checkpoints1.  
-* O1M2 (Square 4 — Sanitization Sweep): Vatican containment operatives execute a clean-up operation at the Privatklinik Sonnenberg1. Dr. Elizabeth Graf is targeted for liquidation, and all oncology records are incinerated if investigators have not secured them1.  
-* O1M3 (Square 1 — Holy Crusade / Crisis): Cardinal Sabbatini concludes the Covenant cell has uncovered the biological truth1. An armed tactical squad of plainclothes Swiss Guard commandos deploying phosphorus grenades intercepts the team to sanitize the operation1.
+* O1M1 (Square 7 — Frontier Cloak): *L'Entità* locks the Swiss–Italian frontier1. Crossings fall under paramilitary watch; overland travel takes forged papers or an extra shift.
+* O1M2 (Square 4 — Sanitization Sweep): Vatican operatives scrub the Privatklinik Sonnenberg1. Dr. Elizabeth Graf is marked for liquidation; unsecured oncology records burn.
+* O1M3 (Square 1 — Holy Crusade / Crisis): Cardinal Sabbatini decides the cell has seen too much1. A plainclothes Swiss Guard squad armed with phosphorus grenades moves to sanitize the operation.
 
 #### **Track O2: The Order of the Talamasca (Registry 16 / Amsterdam)**
 
 The Talamasca track begins at 12 countdown squares, advancing as Sister Claudia transmits progress reports or as the cell accesses preternatural nodes1:
 
-* O2M1 (Square 9 — Signal Intercept): Listening posts in Amsterdam decrypt Swiss PTT telex transmissions1. The Talamasca maps the Covenant’s operational path, feeding encrypted updates to Sister Claudia1.  
-* O2M2 (Square 6 — Extraction Green-Light): Claudia receives coded authorization to execute field theft of the steel attaché as soon as Monsignor Corvi is isolated1.  
-* O2M3 (Square 2 — Elder Cleansing Strike / Crisis): The hidden Vampire Elder retrieval pack locates the Novara safehouse, executing Claudia to ensure the cure cannot be turned against their bloodlines1.
+* O2M1 (Square 9 — Signal Intercept): Amsterdam decrypts the Covenant’s Swiss PTT telex traffic and feeds Claudia their route1.  
+* O2M2 (Square 6 — Extraction Green-Light): Claudia is cleared to steal the steel attaché the moment Monsignor Corvi is isolated1.  
+* O2M3 (Square 2 — Elder Cleansing Strike / Crisis): The retrieval pack finds the Novara safehouse and executes Claudia to keep the cure from their bloodlines1.
 
 ## **6\. Information Registry and Cryptographic Clues (information-cards.html)**
 

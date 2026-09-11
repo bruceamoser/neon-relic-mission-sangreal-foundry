@@ -82,11 +82,28 @@ async function runBriefRedaction() {
   return diagnostics;
 }
 
+Hooks.once('init', () => {
+  // NOTE: game.world does not implement getFlag/setFlag in Foundry v14, so the
+  // one-shot markers live as hidden world settings instead.
+  game.settings.register(MODULE_ID, PATCH_FLAG, {
+    scope: 'world',
+    config: false,
+    type: Boolean,
+    default: false,
+  });
+  game.settings.register(MODULE_ID, 'briefRedactionDiagnostics', {
+    scope: 'world',
+    config: false,
+    type: Object,
+    default: {},
+  });
+});
+
 Hooks.once('ready', async () => {
   if (!game.user.isGM) return;
-  if (game.world.getFlag(MODULE_ID, PATCH_FLAG)) return;
+  if (game.settings.get(MODULE_ID, PATCH_FLAG)) return;
   const diagnostics = await runBriefRedaction();
-  // Client-side ground truth, readable afterwards from world.json flags.
+  // Client-side ground truth, readable afterwards from the world settings store.
   diagnostics.client = {
     systemVersion: game.system?.version ?? null,
     moduleVersion: game.modules?.get(MODULE_ID)?.version ?? null,
@@ -96,8 +113,8 @@ Hooks.once('ready', async () => {
     itemTypeLabels: Object.keys(CONFIG.Item?.typeLabels ?? {}).join(','),
   };
   try {
-    await game.world.setFlag(MODULE_ID, PATCH_FLAG, true);
-    await game.world.setFlag(MODULE_ID, 'briefRedactionDiagnostics', diagnostics);
+    await game.settings.set(MODULE_ID, 'briefRedactionDiagnostics', diagnostics);
+    await game.settings.set(MODULE_ID, PATCH_FLAG, true);
   } catch (err) {
     console.error(`${MODULE_ID} | failed to stamp redaction flag`, err);
   }
