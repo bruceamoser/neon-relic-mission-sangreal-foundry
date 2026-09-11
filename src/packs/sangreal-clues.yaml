@@ -140,3 +140,145 @@
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
+
+- _id: sangreal-ic07
+  name: 'I7 — Patient File 09-Hausmann'
+  type: informationCard
+  system:
+    cardId: I-7
+    cardType: supportingIntel
+    content: >
+      <p>Clinical dossier for Kurt Hausmann, age 62, admitted with end-stage metastatic
+      lymphoma. Four days prior, Hausmann received an undocumented intravenous
+      injection. Within forty-eight hours, all tumors went into remission.
+      Concurrently, the patient developed core hypothermia (28.2°C), unreactive dilated
+      pupils, severe cutaneous burns upon exposure to fluorescent lighting, and an
+      insatiable craving for human plasma.</p>
+      <p><em>Found at: L3 — Geneva / L4 — Privatklinik Sonnenberg. Known by:
+      Dr. Elizabeth Graf.</em></p>
+    hqFallback: 8
+    daNotes: >
+      <p><strong>The False Twist.</strong> Drives players to conclude Jesus was the
+      First Vampire, and communion transmits an unholy condition. Let them believe it —
+      the histopathology in I9 and the Ebionite text in I12 are the way back out.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic08
+  name: 'I8 — The Swiss PTT Intercept Tape'
+  type: informationCard
+  system:
+    cardId: I-8
+    cardType: supportingIntel
+    content: >
+      <p>A reel-to-reel audio tape of a wiretapped public payphone call from Zurich to
+      Turin. Corvi states: "The Zurich test was an abomination! Hausmann has lost all
+      humanity; he screams for marrow in the dark! You assured me the blood brought
+      redemption, not this hellish thirst!" A calm, cultured voice responds: "Bring the
+      remaining eleven vessels across the border to the Lingotto works in Turin. My
+      house will pay triple. Do not let Rome's butchers reach you."</p>
+      <p><em>Found at: L3 — Geneva / L4 — Zurich. Recovered from a telephone
+      switchboard; no individual source.</em></p>
+    hqFallback: 7
+    daNotes: >
+      <p>Unlocks Location L5 (Lingotto Fiat Assembly Complex, Turin) and confirms Corvi
+      still controls eleven phials. The "cultured voice" belongs to the intermediary
+      who will later be replaced by the Basarab pack on the wire.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic09
+  name: 'I9 — Histopathology Log: Marrow Graft'
+  type: informationCard
+  system:
+    cardId: I-9
+    cardType: supportingIntel
+    content: >
+      <p>Histopathology notes and microscopic polaroids: "The introduced fluid did not
+      merge with Hausmann's cellular biology. The foreign hematological vector attacked
+      existing bone marrow like an aggressive, invasive graft, forcing an instantaneous
+      genetic re-sequencing of somatic tissue into a predatory physiology. This fluid is
+      not an infection; it is a universal biological vector carrying an un-mutated
+      progenitor strain that ordinary human biology cannot safely regulate."</p>
+      <p><em>Found at: L4 — Privatklinik Sonnenberg. Known by: Dr. Elizabeth Graf.</em></p>
+    hqFallback: 6
+    daNotes: >
+      <p>Challenges the False Twist, revealing the blood as an apex biological carrier
+      that causes predatory mutation only because human marrow lacks the regulatory
+      mechanisms to process it.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic10
+  name: 'I10 — The Vector Mechanics (CT1)'
+  type: informationCard
+  system:
+    cardId: I-10
+    cardType: containmentTruth
+    content: >
+      <p>The vector triggers upon contact with open tissue or mucous membranes. In an
+      uninfected human host, it forces rapid mutagenic adaptation, causing full
+      predatory conversion within six shifts (24 hours). In an active vampire, the
+      vector acts as a cellular purge, breaking necrotic stasis and forcing centuries of
+      biological senescence to manifest in seconds, reducing the subject to ash.</p>
+      <p><em>Found at: L4 — Zurich / L5 — Turin. Known by: Monsignor Corvi and
+      Dr. Elizabeth Graf.</em></p>
+    hqFallback: 5
+    daNotes: >
+      <p>Core mechanical containment truth. Explains why the vampire bloodlines fear the
+      relic more than the Covenant or the Church ever could.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic11
+  name: 'I11 — The Resonance Field (CT2)'
+  type: informationCard
+  system:
+    cardId: I-11
+    cardType: containmentTruth
+    content: >
+      <p>The phials actively hunger for mortal trauma. Within 100 meters, individuals
+      suffering from anemia, terminal illness, or lacerations experience an intense
+      psychic compulsion to open a phial and drink. The proximity of the case
+      accelerates cellular decay in injured subjects to provoke this consumption.</p>
+      <p><em>Found at: L4 — Zurich / L5 — Turin. Known by: Monsignor Corvi.</em></p>
+    hqFallback: 4
+    daNotes: >
+      <p>Explains Hausmann's rapid decline and imposes stress penalties on wounded
+      investigators. Any agent carrying the case while injured should feel the pull —
+      play it as intrusive thought, not compulsion.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic12
+  name: 'I12 — The Ebionite Palimpsest'
+  type: informationCard
+  system:
+    cardId: I-12
+    cardType: supportingIntel
+    content: >
+      <p>Corvi's notebook containing his translation of the 2nd-century <em>Gospel of
+      the Twelve</em> (Codex Ebionita, MS-Vat-Heb-418): "And the Lord gave unto the
+      predators of the dark His cup, saying: 'Drink ye all of this; for this is my blood
+      of the new covenant, poured out for many for the unmaking of your curse, that you
+      may die the death of men and sleep in the dust like the sons of Adam.'"</p>
+      <p><em>Found at: L5 — Lingotto Assembly Works. Known by: Monsignor Corvi.</em></p>
+    hqFallback: 4
+    daNotes: >
+      <p>The final theological revelation: Christ was an immune progenitor who
+      synthesized a cure for the vampire parasite. Once the cell reads this alongside
+      I9, the Paradigm Inversion lands for good.</p>
+    revealed: false
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
