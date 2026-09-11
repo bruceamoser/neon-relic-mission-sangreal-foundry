@@ -72,3 +72,139 @@
             <li>Between sessions: no resets needed; the clock persists. After the case, reset per-case-file talents via the system's session tools.</li>
           </ul>
           <p><em>Mission 2: Recover the Sangreal begins at the Novara-Cameri tarmac. See the bridge journal.</em></p>
+
+- _id: sangreal-journal-handouts
+  name: 'Mission: Sangreal — Handouts'
+  type: journalEntry
+  pages:
+    - name: 'Dossier Extract'
+      type: text
+      text:
+        content: |
+          <h2>Operation File SANGREAL-87-091</h2>
+          <p><strong>Security Clearance:</strong> Restricted (CL 1+ Field Personnel) — <strong>Theater:</strong> Region 04</p>
+          <p>The Holy See has requisitioned Covenant recovery aid under the St. John Custodial Concordat. Subterranean Vault IX was breached; a 1964 steel diplomatic attaché was removed. The Church certifies the attaché holds twelve sealed communion ampoules of late Roman origin, and guarantees: <em>zero bio-contamination risk, zero occult hazard, container stays sealed, custody returns to the Church on recovery.</em></p>
+          <p><strong>Primary:</strong> Secure the attaché intact. <strong>Secondary:</strong> Identify the breacher and how the vault mooring was bypassed.</p>
+          <p><em>Hand this to the players at the start of the case. It contains only the official cover story.</em></p>
+    - name: 'EC 30 Railway Pass'
+      type: text
+      text:
+        content: |
+          <div style="border:2px solid #333; padding:12px; font-family:monospace; max-width:420px;">
+          <p style="margin:0; text-align:center; font-weight:bold;">FERROVIE DELLO STATO</p>
+          <p style="margin:0; text-align:center; font-size:0.85em;">BIGLIETTO DI VIAGGIO — VAGONE LETTI</p>
+          <hr>
+          <p style="margin:0;">Treno: <strong>EC 30 (Romulus)</strong></p>
+          <p style="margin:0;">Carrozza: <strong>4</strong> &nbsp;&nbsp; Posto: <strong>18</strong></p>
+          <p style="margin:0;">Da: <strong>Roma Termini</strong> &nbsp;→&nbsp; A: <strong>Genève Cornavin</strong></p>
+          <p style="margin:0;">Classe: 1 &nbsp;&nbsp; Data: 09/87</p>
+          <p style="margin:0;">Passeggero: M. Corvi</p>
+          </div>
+    - name: 'Polybius Cipher Slip'
+      type: text
+      text:
+        content: |
+          <p><em>A slip of rag paper, hand-lettered in sepia ink. Recovered from a 1592 Clementine Vulgate, at the Gospel of John, Chapter 6.</em></p>
+          <pre style="font-size:1.1em; letter-spacing:0.15em; border:1px solid #999; padding:10px; max-width:520px;">
+          IV-I I-V III-II I-I IV-IV I-I
+          IV-V I-II IV-III
+          II-I I-I IV-V IV-III III-II I-I III-III III-III
+          IV-I IV-IV II-IV IV-IV I-II
+          I-III
+          </pre>
+          <p><em>DA note: decodes via the 5x5 Latin Polybius square (I/J and U/V merged) into GENEVA / UBS / HAUSMANN / 4409 / C. Do not interpret for the players.</em></p>
+    - name: 'Escrow Transfer Receipt'
+      type: text
+      text:
+        content: |
+          <div style="border:1px solid #666; padding:12px; font-family:serif; max-width:560px;">
+          <p style="margin:0;"><strong>UNION DE BANQUES SUISSES — GENÈVE</strong></p>
+          <p style="margin:0;">Reçu de séquestre — copie carbone</p>
+          <hr>
+          <p style="margin:0;">Coffre: <strong>4409-C</strong></p>
+          <p style="margin:0;">Virement télégraphique: <strong>CHF 500,000</strong></p>
+          <p style="margin:0;">De: Kurt Hausmann, Sonnenberg Privatklinik, Zurich</p>
+          <p style="margin:0;">À: compte ecclésiastique, Vaduz</p>
+          <p style="margin:0;">Référence: <em>Acquisition of Primary Specimen (1 of 12) — Experimental Oncology Protocol</em></p>
+          </div>
+    - name: 'PTT Intercept Transcript'
+      type: text
+      text:
+        content: |
+          <div style="font-family:monospace; border:1px solid #333; padding:12px; max-width:640px;">
+          <p style="margin:0; text-align:center;"><strong>SWISS PTT — WIRETAP TRANSCRIPT (EXCERPT)</strong></p>
+          <p style="margin:0;">LINE: Zurich → Turin (public payphone) &nbsp; DURATION: 2m 41s</p>
+          <hr>
+          <p><strong>CORVI:</strong> "The Zurich test was an abomination! Hausmann has lost all humanity; he screams for marrow in the dark! You assured me the blood brought redemption, not this hellish thirst!"</p>
+          <p><strong>CULTURED VOICE:</strong> "Bring the remaining eleven vessels across the border to the Lingotto works in Turin. My house will pay triple. Do not let Rome's butchers reach you."</p>
+          </div>
+    - name: 'Registry 16 Telex Strip'
+      type: text
+      text:
+        content: |
+          <div style="font-family:monospace; border:1px dashed #333; padding:12px; max-width:640px; background:#f8f4e8;">
+          <p style="margin:0;">---CHARRED STRIP---</p>
+          <p style="margin:0;">FROM: TALAMASCA MOTHERHOUSE AMSTERDAM // REGISTRY 16.</p>
+          <p style="margin:0;">TO: OPERATIVE CLAUDIA VANE.</p>
+          <p style="margin:0;">DIRECTIVE: SECURE SPECIMEN XII AT ALL COSTS. DEPLOY VERONICA THREAD FOR EXTRACTION. PROCEED TO NOVARA AIRSTRIP FOR RENDEZVOUS 'BASARAB'. DO NOT BREACH SEALS. SPECIMEN MUST BE FLOWN TO CARPATHIAN FACILITY FOR INCINERATION. PROTECT THE BLOODLINE.</p>
+          </div>
+    - name: 'Flight Clearance YR-BAS'
+      type: text
+      text:
+        content: |
+          <div style="font-family:monospace; border:1px solid #333; padding:12px; max-width:600px;">
+          <p style="margin:0;"><strong>NOVARA-CAMERI MILITARY AIRFIELD — FLIGHT CLEARANCE</strong></p>
+          <hr>
+          <p style="margin:0;">Aircraft: <strong>Cessna 421 Golden Eagle</strong></p>
+          <p style="margin:0;">Registration: <strong>YR-BAS</strong></p>
+          <p style="margin:0;">Owner: Basarab Holdings S.A. (Bucharest)</p>
+          <p style="margin:0;">Route: Cluj-Napoca International Airport, Romania</p>
+          <p style="margin:0;">Cargo: "Ecclesiastical Medical Supplies — Ten Consignment Units"</p>
+          <p style="margin:0;">Departure: <strong>01:15 hours, tonight</strong></p>
+          </div>
+    - name: 'Player Notes'
+      type: text
+      text:
+        content: |
+          <h2>Player Notes</h2>
+          <p>Use this page for the cell's own timeline, shift log, and scrap-paper deductions. The DA should keep this handout visible during play.</p>
+
+- _id: sangreal-journal-bridge
+  name: 'The Tarmac at Novara-Cameri — Mission 2 Bridge'
+  type: journalEntry
+  pages:
+    - name: 'The Tarmac'
+      type: text
+      text:
+        content: |
+          <h2>The Tarmac at Novara-Cameri</h2>
+          <p>When the cell follows the flight manifest to the Novara-Cameri military airfield, they find an abandoned hangar. Rain beats against discarded fueling lines. The Cessna 421 Golden Eagle departed forty minutes earlier, climbing through storm clouds over the Alps into Eastern European airspace. Radar contact was lost as the aircraft crossed into Romanian territory under a falsified commercial corridor.</p>
+          <p>Ten intact phials of the <em>Twelve Phials of Gethsemane</em> remain in the hands of an ancient vampire retrieval cell belonging to the Basarab dynasty — a foundational Wallachian bloodline that has influenced European statecraft for centuries.</p>
+          <p>The shattered tenth phial at the Novara safehouse revealed their motive: the blood of Christ is an immediate biological execution order for active vampires. They do not seek to drink it; they intend to transport it to a private sanatorium in the Carpathian Mountains and incinerate every droplet in an industrial furnace, extinguishing their only natural predator forever.</p>
+    - name: 'The Concordat Requisition'
+      type: text
+      text:
+        content: |
+          <h2>The Concordat Requisition</h2>
+          <p>Returning to Rome, the agents enter the Palace of the Holy Office. The pretenses of the Holy See have collapsed. Cardinal Sabbatini stands before the open rain-streaked windows overlooking St. Peter's Basilica.</p>
+          <blockquote>
+          <p>"You have seen the ash upon the floor at Novara," the Cardinal states, placing a pouch of diplomatic passports upon the table. "You understand what lies within that steel case. For two thousand years, Rome has told the world that the blood was shed for their salvation. We never revealed whose death it was intended to buy."</p>
+          </blockquote>
+          <p>He signs and pushes forward the official <strong>Concordat Requisition Order</strong>:</p>
+          <blockquote>
+          <p>"The Basarab house believes they have won. They believe they can incinerate the Blood of Golgotha and rule the shadows of Europe without fear of the grave. The Holy See cannot deploy military divisions across the Iron Curtain. But your Covenant recognizes no borders. Requisition whatever equipment you require from our sub-vaults. Fly to Cluj-Napoca. Track that aircraft into the mountains. Recover the Sangreal... or ensure that every monster in that house drinks from the cup."</p>
+          </blockquote>
+          <p><em>Grant the cell the Concordat Requisition Order as a written prop: diplomatic cover, weapons clearances, and Church funding for the next mission.</em></p>
+    - name: 'Mission 2: Recover the Sangreal'
+      type: text
+      text:
+        content: |
+          <h2>Mission 2: Recover the Sangreal</h2>
+          <p>The campaign shifts into <strong>Mission 2: Recover the Sangreal</strong>, transitioning from the urban investigative corridors of Western Europe into the Cold War espionage, fortified mountain keeps, and ancestral horrors of the Carpathian wilderness.</p>
+          <ul>
+            <li><strong>Theater:</strong> Romania — Cluj-Napoca, the Apuseni foothills, and a private Basarab sanatorium.</li>
+            <li><strong>Opposition:</strong> the Basarab Elder and its retrieval pack (see Cast &amp; Antagonists), plus whatever mortal authorities the dynasty owns.</li>
+            <li><strong>Assets:</strong> the Concordat Requisition (diplomatic cover, weapons clearances, funding), the Lodestone of St. Jude if recovered, and the Covenant's own capabilities.</li>
+            <li><strong>Stakes:</strong> ten phials. The cure is the only weapon that can end vampire elders — and the only thing they fear. Recover it, use it, or burn it: the choice belongs to the cell.</li>
+          </ul>
+          <p><em>DA note: Mission 2 is a future module. This page exists to land the campaign cliffhanger — end the session on the empty tarmac and the rain.</em></p>
