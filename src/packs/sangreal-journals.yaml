@@ -1,3 +1,74 @@
 # Mission: Sangreal — Mission Journals (JournalEntry pack)
 # Journals: Start Here orientation, player handouts, Mission 2 bridge
 # Source: docs/mission-sangreal-design-guide.md §1–§5, §10
+---
+
+- _id: sangreal-journal-start
+  name: 'Mission: Sangreal — Start Here'
+  type: journalEntry
+  pages:
+    - name: 'Overview'
+      type: text
+      text:
+        content: |
+          <h2>Mission: Sangreal</h2>
+          <p><strong>Operation File SANGREAL-87-091 — Region 04 (Western Europe / Italian-Swiss Corridor)</strong></p>
+          <p>A stolen Vatican attaché case. Twelve phials of arterial blood that should not exist. Seven operational nodes across Rome, Geneva, Zurich, Turin, and Novara — and two institutions that want the contents for opposite reasons.</p>
+          <p><strong>This module contains:</strong></p>
+          <ul>
+            <li>Case Briefs: the DA master reference (VC-17) and the player dossier (VC-18).</li>
+            <li>Cast &amp; Antagonists: ten NPC stat blocks plus a mob profile.</li>
+            <li>Information Cards: seventeen clues, evidence items, and containment truths.</li>
+            <li>Locations &amp; Factions: seven node locations and two organization countdown tracks.</li>
+            <li>Relics &amp; Equipment: three relics (artifact profiles + VC-16 sheets) and four mission kit items.</li>
+            <li>Relic Tables: the phial fracture table (d6).</li>
+            <li>Mission Journals: this orientation, the player handouts, and the Mission 2 bridge.</li>
+          </ul>
+          <p><strong>⚠ DA eyes only.</strong> This journal, the DA brief, the VC-16 relic sheets, and the organization items contain spoilers for both twists. Do not share them with players.</p>
+    - name: 'How to Run'
+      type: text
+      text:
+        content: |
+          <h2>How to Run</h2>
+          <h3>The clock</h3>
+          <p>Fourteen days, four shifts each (Morning, Day, Evening, Night) — fifty-six shifts from opening to catastrophe. The board counts down: Day 14 starts the case, Day 1 is the terminal window. Relic milestones fire when the last quadrant of their keyed day is filled; the full schedule lives in the DA Case Brief.</p>
+          <h3>The two-stage twist</h3>
+          <ol>
+            <li><strong>False Revelation (Zurich):</strong> Hausmann is a walking hunger. Let the players conclude that communion was an unholy feast and Christ was the First Vampire.</li>
+            <li><strong>Paradigm Inversion (Turin / Novara):</strong> the histopathology (I9), the Ebionite palimpsest (I12), and the ash-crumbled fingers at Novara prove the blood is a cure — and its hunters are the ones afraid of it.</li>
+          </ol>
+          <h3>Faction tracks</h3>
+          <p>O1 (Holy Alliance, 10 squares) and O2 (Talamasca, 12 squares) both advance on triggers listed in their organization items. Their milestone text explains what changes in the world; advance them openly, describe them atmospherically.</p>
+          <h3>Pacing</h3>
+          <p>Every Information Card carries a headquarters fallback day. When the cell stalls, a Covenant packet delivers the fallback at the listed day. The case should reach Zurich by Day 8–6 and Turin by Day 5–4 if the pressure is working.</p>
+    - name: 'Compendium Map'
+      type: text
+      text:
+        content: |
+          <h2>Compendium Map</h2>
+          <table>
+            <tr><th>Pack</th><th>Contents</th><th>Recommended import order</th></tr>
+            <tr><td>Case Briefs</td><td>DA Case Brief, Player Case Brief</td><td>1</td></tr>
+            <tr><td>Locations &amp; Factions</td><td>L1–L7, O1–O2</td><td>2</td></tr>
+            <tr><td>Cast &amp; Antagonists</td><td>NPCs, mobs</td><td>3</td></tr>
+            <tr><td>Information Cards</td><td>I1–I17</td><td>4</td></tr>
+            <tr><td>Relics &amp; Equipment</td><td>Artifacts, VC-16 sheets, kit</td><td>5</td></tr>
+            <tr><td>Relic Tables</td><td>Phial fracture (d6)</td><td>6</td></tr>
+            <tr><td>Mission Journals</td><td>Start Here, Handouts, Mission 2 bridge</td><td>7</td></tr>
+          </table>
+          <p>Items link to each other through the drop-zones on their sheets (NPCs to organizations and locations, info cards to locations). Pre-linked UUIDs ship in a later polish pass; drag-drop works immediately.</p>
+    - name: 'Setup Checklist'
+      type: text
+      text:
+        content: |
+          <h2>Setup Checklist</h2>
+          <ul>
+            <li>Import all seven packs into your world (order above).</li>
+            <li>Set the case clock to Day 14, Shift 1 — Morning.</li>
+            <li>Start the cell at L1 (Vault IX) with Sister Claudia Vane attached; both L1 and L2 are open starting nodes.</li>
+            <li>Corvi is already in Geneva with the attaché; I2/I4 unlock L3 when earned.</li>
+            <li>Keep the fracture table open in a chat tab — any Gear Die 1 while handling the case earns a roll.</li>
+            <li>Track O1/O2 countdowns on the organization items (or on paper) as the DA brief milestones fire.</li>
+            <li>Between sessions: no resets needed; the clock persists. After the case, reset per-case-file talents via the system's session tools.</li>
+          </ul>
+          <p><em>Mission 2: Recover the Sangreal begins at the Novara-Cameri tarmac. See the bridge journal.</em></p>
