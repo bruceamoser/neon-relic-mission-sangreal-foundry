@@ -275,3 +275,94 @@
     informationCardUuids: []
     organizationUuids: []
     locationUuids: []
+
+- _id: sangreal-org-alliance
+  name: "O1 — The Holy Alliance (L'Entità)"
+  type: organization
+  system:
+    organizationId: O1
+    caseId: SANGREAL-87-091
+    isActive: true
+    isDormant: false
+    description: >
+      <h3>Public Identity</h3>
+      <p>Pontifical diplomacy, doctrinal oversight, historical preservation. The Holy
+      See's oldest continuous intelligence apparatus, formalized in the twentieth century
+      as <em>L'Entità</em> and operating under the motto <em>Cum Cruce et Gladio</em>
+      ("With Cross and Sword").</p>
+      <h3>Clandestine Core</h3>
+      <p>Covert wet-work, geopolitical intelligence, and occult quarantine. The Church
+      suppresses preternatural artifacts out of geopolitical necessity, not religious
+      puritanism. Vault IX was never a devotional shrine: it was a biological deterrent
+      held against the aristocratic vampire dynasties of Eastern Europe.</p>
+      <h3>Countdown Track — 10 squares</h3>
+      <p>Advances when the cell causes public disturbances, damages church property, or
+      challenges clerical authority. (Track this countdown here and on the DA brief;
+      the Operations Board app does not read item-based case files.)</p>
+      <ul>
+      <li><strong>7 — Frontier Cloak (M1):</strong> L'Entità activates its network inside
+      the Italian Ministry of the Interior. Swiss-Italian border crossings fall under
+      paramilitary surveillance; overland movement requires forged passports or costs an
+      additional operational shift.</li>
+      <li><strong>4 — Sanitization Sweep (M2):</strong> Vatican containment operatives
+      clean up the Privatklinik Sonnenberg. Dr. Elizabeth Graf is targeted for liquidation
+      and all oncology records are incinerated if the investigators have not secured
+      them.</li>
+      <li><strong>1 — Holy Crusade (M3):</strong> Cardinal Sabbatini concludes the
+      Covenant cell has uncovered the biological truth. An armed tactical squad of
+      plainclothes Swiss Guard commandos deploying phosphorus grenades intercepts the team
+      to sanitize the operation.</li>
+      </ul>
+      <h3>Strategic Goal</h3>
+      <p>Unconditional recovery of the Twelve Phials, total public suppression of the
+      breach, and retention of the cure as an institutional deterrent. The Covenant is a
+      tool to be hired, manipulated, and discarded if it uncovers the truth.</p>
+    npcUuids: []
+    locationUuids: []
+
+- _id: sangreal-org-talamasca
+  name: 'O2 — The Order of the Talamasca (Registry 16)'
+  type: organization
+  system:
+    organizationId: O2
+    caseId: SANGREAL-87-091
+    isActive: true
+    isDormant: false
+    description: >
+      <h3>Public Identity</h3>
+      <p>A secular historical foundation and antiquarian library — the "psychic
+      detectives" and chroniclers of the preternatural world. Autonomous Motherhouses in
+      London, Amsterdam, and Rome, with secondary archival libraries worldwide. Field
+      researchers carry unembellished business cards inscribed with the motto:
+      <em>"We watch, and we are always there."</em></p>
+      <h3>Clandestine Core — Registry 16</h3>
+      <p>The Amsterdam Motherhouse's covert operational arm: sensitive intelligence
+      collection, recovery of hazardous artifacts, and preemptive neutralization of
+      existential threats to preternatural survival. Its mortal operatives are conditioned
+      to believe the Order is a benign scholarly body; its hidden elders include ancient
+      vampire bloodlines that retain control over executive policy.</p>
+      <p>Sister Claudia Vane — trained in paleography and counter-surveillance, embedded
+      in the Vatican's Congregation for the Doctrine of the Faith — is one of its operatives.
+      She believes the phials contain a primordial demonic contagion. She does not know
+      her true superiors are executing a counter-measure to destroy the only substance on
+      Earth capable of purging their immortality.</p>
+      <h3>Countdown Track — 12 squares</h3>
+      <p>Advances as Claudia transmits progress reports or as the cell accesses
+      preternatural nodes. (Track this countdown here and on the DA brief.)</p>
+      <ul>
+      <li><strong>9 — Signal Intercept (M1):</strong> Listening posts in Amsterdam decrypt
+      Swiss PTT telex transmissions. The Talamasca maps the Covenant's operational path,
+      feeding encrypted updates to Claudia.</li>
+      <li><strong>6 — Extraction Green-Light (M2):</strong> Claudia receives coded
+      authorization to execute field theft of the steel attaché as soon as Monsignor Corvi
+      is isolated. The trigger moment is L5.</li>
+      <li><strong>2 — Elder Cleansing Strike (M3):</strong> The hidden vampire retrieval
+      pack locates the Novara safehouse, executes Claudia to ensure the cure cannot be
+      turned against their bloodlines, and takes the case to the airstrip.</li>
+      </ul>
+      <h3>Strategic Goal</h3>
+      <p>Interception of the Twelve Phials via double agent, extraction to Eastern Europe,
+      and permanent industrial incineration of the cure. Protect the bloodline — at any
+      cost to mortal lives.</p>
+    npcUuids: []
+    locationUuids: []
