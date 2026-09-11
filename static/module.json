@@ -1,0 +1,100 @@
+{
+  "id": "neon-relic-mission-sangreal",
+  "title": "Mission: Sangreal",
+  "description": "<p><strong>The Twelve Phials of Gethsemane</strong> &mdash; a complete investigation case file for <em>Neon Relic</em>.</p><p>A stolen Vatican attach&eacute;. Seven operational nodes across Rome, Geneva, Zurich, Turin, and Novara. Two faction tracks, seventeen information cards, three relics, and the bridge to <em>Mission 2: Recover the Sangreal</em>.</p><p>Requires the <strong>neon-relic</strong> game system.</p>",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": 14,
+    "verified": 14
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "neon-relic",
+        "type": "system",
+        "manifest": "https://github.com/bruceamoser/foundry-neon-relic-system/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "0.9.3"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "sangreal-briefs",
+      "label": "Case Briefs",
+      "path": "packs/sangreal-briefs",
+      "type": "Item",
+      "system": "neon-relic"
+    },
+    {
+      "name": "sangreal-npcs",
+      "label": "Cast & Antagonists",
+      "path": "packs/sangreal-npcs",
+      "type": "Actor",
+      "system": "neon-relic"
+    },
+    {
+      "name": "sangreal-clues",
+      "label": "Information Cards",
+      "path": "packs/sangreal-clues",
+      "type": "Item",
+      "system": "neon-relic"
+    },
+    {
+      "name": "sangreal-sites",
+      "label": "Locations & Factions",
+      "path": "packs/sangreal-sites",
+      "type": "Item",
+      "system": "neon-relic"
+    },
+    {
+      "name": "sangreal-relics",
+      "label": "Relics & Equipment",
+      "path": "packs/sangreal-relics",
+      "type": "Item",
+      "system": "neon-relic"
+    },
+    {
+      "name": "sangreal-tables",
+      "label": "Relic Tables",
+      "path": "packs/sangreal-tables",
+      "type": "RollTable",
+      "system": "neon-relic"
+    },
+    {
+      "name": "sangreal-journals",
+      "label": "Mission Journals",
+      "path": "packs/sangreal-journals",
+      "type": "JournalEntry",
+      "system": "neon-relic"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Mission: Sangreal",
+      "sorting": "m",
+      "color": "#6b1d1d",
+      "packs": [
+        "sangreal-briefs",
+        "sangreal-npcs",
+        "sangreal-clues",
+        "sangreal-sites",
+        "sangreal-relics",
+        "sangreal-tables",
+        "sangreal-journals"
+      ]
+    }
+  ],
+  "manifest": "https://github.com/bruceamoser/neon-relic-mission-sangreal-foundry/releases/latest/download/module.json",
+  "download": "https://github.com/bruceamoser/neon-relic-mission-sangreal-foundry/releases/latest/download/neon-relic-mission-sangreal.zip",
+  "authors": [
+    {
+      "name": "Bruce"
+    }
+  ],
+  "url": "https://github.com/bruceamoser/neon-relic-mission-sangreal-foundry",
+  "bugs": "https://github.com/bruceamoser/neon-relic-mission-sangreal-foundry/issues",
+  "changelog": "https://github.com/bruceamoser/neon-relic-mission-sangreal-foundry/releases",
+  "flags": {}
+}

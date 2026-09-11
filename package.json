@@ -1,0 +1,36 @@
+{
+  "name": "neon-relic-mission-sangreal",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Foundry VTT v14 content module for Neon Relic — Mission: Sangreal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruceamoser/neon-relic-mission-sangreal-foundry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bruceamoser/neon-relic-mission-sangreal-foundry/issues"
+  },
+  "homepage": "https://github.com/bruceamoser/neon-relic-mission-sangreal-foundry#readme",
+  "keywords": [
+    "Neon Relic",
+    "Foundry",
+    "Foundry VTT",
+    "Year Zero Engine",
+    "TTRPG"
+  ],
+  "author": "Bruce",
+  "license": "MIT",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "clean": "node tools/build.mjs --clean",
+    "validate": "node tools/validate-packs.mjs"
+  },
+  "devDependencies": {
+    "classic-level": "^3.0.0",
+    "fs-extra": "^11.2.0",
+    "js-yaml": "^4.1.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
