@@ -1,3 +1,159 @@
 # Mission: Sangreal — Locations & Factions (Item pack)
 # Items: location (L1–L7), organization (O1–O2)
 # Source: docs/mission-sangreal-design-guide.md §5, §7
+---
+
+- _id: sangreal-l1
+  name: 'L1 — Subterranean Vault IX (Vatican City)'
+  type: location
+  system:
+    locationId: L1
+    caseId: SANGREAL-87-091
+    availability: open
+    availabilityCondition: ''
+    description: >
+      <p><strong>Architectural forensics.</strong> Located forty feet beneath the Campo
+      Santo Teutonico, reached via a private hydraulic lift concealed behind the Longinus
+      Crossing Pier inside St. Peter's Basilica. The vault is an octagonal chamber of
+      ancient Roman brick faced with modern lead sheeting, cooled to 2°C by industrial
+      refrigeration lines. In the center sits an altar of Swedish black granite, flanked
+      by melted copper conduits and scorched masonry. The chamber smells of ozone, cold
+      incense, and dried blood.</p>
+      <p><strong>Dramatis personae.</strong> Father Ghiberti — nervous Curial archivist,
+      keeper of the vault register. Sister Claudia Vane — helpful liaison, present by
+      treaty right.</p>
+      <p><strong>Available information.</strong> Physical inspection of the altar yields
+      I1. Examining the security consoles yields I2. Searching the archival catalog
+      reveals I3. Observing Claudia's gear yields I5.</p>
+    positiveResult: >
+      <p>With Claudia's escort, the cell walks the vault floor legitimately: the melted
+      induction cradle (I1), the security console tape (I2), the excised catalog card
+      (I3), and the first glimpse of the Watcher's hallmark (I5) are all recoverable
+      without alerting Curial security.</p>
+    negativeResult: >
+      <p>Accessing the vault without alerting Curial security requires successful
+      Subterfuge or Bureaucracy rolls. Failure advances Track O1 by 1 square — the
+      gendarmerie posts a written irregular-access notice by morning.</p>
+    milestoneChanges: >
+      <p><strong>O1 M1.</strong> The vault is resealed under L'Entità supervision; further
+      access requires forged pontifical documentation. <strong>O1 M2.</strong> The
+      register is confiscated and Ghiberti is reassigned. <strong>O1 M3.</strong>
+      The chamber is emptied and sanitized — any evidence not already secured is gone.</p>
+    npcUuids: []
+    informationCardUuids: []
+    organizationUuids: []
+    locationUuids: []
+
+- _id: sangreal-l2
+  name: "L2 — Monsignor Corvi's Private Quarters (Rome)"
+  type: location
+  system:
+    locationId: L2
+    caseId: SANGREAL-87-091
+    availability: open
+    availabilityCondition: ''
+    description: >
+      <p><strong>Architectural forensics.</strong> A baroque third-floor apartment in the
+      Palace of the Holy Office. Thousands of leather-bound patristic volumes line the
+      walls. Drawers have been pulled out and searched with academic precision — nothing
+      taken, everything displaced. Behind an oil painting of Saint Sebastian sits an open
+      wall safe, its mechanical combination lock drilled cleanly.</p>
+      <p><strong>Dramatis personae.</strong> Two Vatican gendarmes guard the corridor;
+      they admit the team only under Sister Claudia's diplomatic escort.</p>
+      <p><strong>Available information.</strong> Searching the Clementine Vulgate yields
+      I4. Inspecting the safe yields I16. Blotter impressions on the desk provide a
+      duplicate of I2.</p>
+    positiveResult: >
+      <p>A patient search (Research undertaking) finds the Polybius cipher slip (I4), the
+      containment protocol notes (I16), and the agent's own copy of the surveillance
+      timeline (duplicate I2). Corvi's handwriting on the desk blotter is legible under
+      raking light.</p>
+    negativeResult: >
+      <p>Spending more than 1 shift here without silencing the guards alerts the Holy
+      Alliance, advancing Track O1 by 1 square. A heavy-handed search destroys the
+      blotter impressions and the cipher slip's hiding place.</p>
+    milestoneChanges: >
+      <p><strong>O1 M1.</strong> The apartment is sealed pending "archival inventory" —
+      entry thereafter requires a formal writ. <strong>O1 M2.</strong> L'Entità
+      sanitizes the apartment overnight; the safe is removed wall and all.</p>
+    npcUuids: []
+    informationCardUuids: []
+    organizationUuids: []
+    locationUuids: []
+
+- _id: sangreal-l3
+  name: 'L3 — Union de Banques Suisses (Geneva)'
+  type: location
+  system:
+    locationId: L3
+    caseId: SANGREAL-87-091
+    availability: clue
+    availabilityCondition: 'Requires the EC 30 boarding pass (I2) or the decoded Polybius cipher (I4).'
+    description: >
+      <p><strong>Architectural forensics.</strong> A neoclassical banking house on the
+      Rue du Rhône, clad in gray alpine granite. The subterranean vault features
+      three-foot-thick chrome doors and private wood-paneled viewing booths where
+      high-net-worth clients transact business anonymously.</p>
+      <p><strong>Dramatis personae.</strong> Jean-Paul Mercier — senior vault clerk,
+      immaculate suit, visibly anxious. He has read the transaction memos and wants very
+      much not to have.</p>
+      <p><strong>Available information.</strong> Interrogating or bribing Mercier yields
+      I6. Searching booth 4409-C records yields I7 and I8.</p>
+    positiveResult: >
+      <p>Mercier surrenders the escrow slip under pressure or payment (I6). The booth
+      records hand over the clinical file reference (I7) and the wiretap reel log (I8).
+      The Geneva corridor opens: Zurich is now on the board.</p>
+    negativeResult: >
+      <p>Hostile action or triggering the silent bank alarms summons Swiss police within
+      10 minutes, consuming 1 shift in legal delays and advancing Track O1 by 1 square.
+      The locker's contents are resealed under judicial order.</p>
+    milestoneChanges: >
+      <p><strong>O2 M1.</strong> Amsterdam has already mapped the Geneva transfers;
+      arriving after this milestone means Claudia's updates to her handler are current
+      and the bank's staff have been quietly warned about "Covenant interest".
+      <strong>O1 M1.</strong> Swiss federal police begin comparing manifests with
+      Italian border entries.</p>
+    npcUuids: []
+    informationCardUuids: []
+    organizationUuids: []
+    locationUuids: []
+
+- _id: sangreal-l4
+  name: 'L4 — Privatklinik Sonnenberg (Zurich)'
+  type: location
+  system:
+    locationId: L4
+    caseId: SANGREAL-87-091
+    availability: clue
+    availabilityCondition: 'Requires the escrow transfer slip (I6) or the clinical file (I7).'
+    description: >
+      <p><strong>Architectural forensics.</strong> A modernist clinical facility of white
+      concrete and glass in the forests of the Zurichberg. The third-floor experimental
+      oncology ward is blacked out: windows are taped with heavy black polyethylene
+      sheeting, and fluorescent lights are smashed. The air smells of bleach, decaying
+      flesh, and fresh blood.</p>
+      <p><strong>Dramatis personae.</strong> Dr. Elizabeth Graf — traumatized
+      pathologist hiding in a surgical theater, determined to destroy her own research.
+      Kurt Hausmann — The Feral Banker, stalking the ceiling conduits above the ward.</p>
+      <p><strong>Available information.</strong> Rescuing Dr. Graf yields I7, I9, and
+      I10. Searching the laboratory freezers yields I11.</p>
+    positiveResult: >
+      <p>Calming Graf (first aid, light discipline, or psychiatric intervention) secures
+      the full medical sequence: patient file (I7), histopathology log (I9), and the CT1
+      vector mechanics (I10). The lab freezers give up the resonance field records (I11).
+      This is where the False Revelation is meant to land.</p>
+    negativeResult: >
+      <p>Kurt Hausmann hunts from the shadows. He is repelled by flares and ultraviolet
+      torches but cannot be reasoned with. Gunfire or loud combat brings Swiss tactical
+      police, costing 2 shifts and advancing Tracks O1 and O2 by 2 squares each. A
+      panicked Graf destroys her slides unless someone takes the time to steady her.</p>
+    milestoneChanges: >
+      <p><strong>O1 M2.</strong> The Sanitization Sweep arrives: Graf is targeted for
+      liquidation and all oncology records are incinerated if the cell has not already
+      secured them. <strong>O2 M1.</strong> Talamasca cleaners have swept the ward of
+      Claudia's traces — the intercept reel log is the only remaining lead to the
+      wiretap.</p>
+    npcUuids: []
+    informationCardUuids: []
+    organizationUuids: []
+    locationUuids: []
