@@ -2,7 +2,7 @@
 
 **Date:** 2026-09-11
 **Foundry:** 14.367 (local, Linux)
-**System:** neon-relic 0.9.3
+**System:** neon-relic 0.9.4
 **Module:** neon-relic-mission-sangreal 0.1.0 (deployed via `tools/push-local.sh --link`)
 
 ## Verified
@@ -13,7 +13,7 @@
 | Manifest parsed (id, title, version) | ✅ `Mission: Sangreal` 0.1.0 |
 | All 7 compendium packs registered | ✅ briefs, npcs, clues, sites, relics, tables, journals |
 | `Mission: Sangreal` pack folder parsed (name, sorting, color) | ✅ |
-| System dependency (`relationships.systems` → neon-relic ≥ 0.9.3) parsed | ✅ system 0.9.3 present |
+| System dependency (`relationships.systems` → neon-relic ≥ 0.9.4) parsed | ✅ system 0.9.4 present |
 | Module-related console errors | ✅ none (only a headless viewport-size warning unrelated to the module) |
 | Pack LevelDB layout (via `npm run audit`) | ✅ 53 documents, 72 keys, v14 journal-page/table-result entries, deterministic across builds |
 

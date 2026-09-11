@@ -14,7 +14,7 @@
         "type": "system",
         "manifest": "https://github.com/bruceamoser/foundry-neon-relic-system/releases/latest/download/system.json",
         "compatibility": {
-          "minimum": "0.9.3"
+          "minimum": "0.9.4"
         }
       }
     ]
