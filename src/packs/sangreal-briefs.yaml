@@ -1,0 +1,171 @@
+# Mission: Sangreal — Case Briefs (Item pack)
+# Items: daCaseBrief (VC-17), playerCaseBrief (VC-18)
+# Source: docs/mission-sangreal-design-guide.md §3
+---
+
+- _id: sangreal-da-brief
+  name: 'SANGREAL-87-091 — DA Case Brief'
+  type: daCaseBrief
+  system:
+    caseId: SANGREAL-87-091
+    caseName: 'Mission: Sangreal'
+    relicTier: 3
+    region: 'Region 04 — Western Europe / Italian-Swiss Corridor'
+    mysteryStatement: >
+      <p>A stolen Vatican diplomatic attaché containing twelve sealed phials of progenitor
+      arterial fluid is being brokered across Western Europe under false clerical assurances
+      of zero biological risk, while an embedded double agent guides the Covenant cell toward
+      a manufactured vampire outbreak — obscuring the truth that the blood is an apex
+      biological vector capable of either creating feral predators or permanently purging
+      immortal bloodlines.</p>
+    realSituation: >
+      <p><strong>Monsignor Matteo Corvi</strong>, Prefect of the Secret Archives, spent two
+      decades studying suppressed Second Temple and early Christian manuscripts. He discovered
+      that the <em>Twelve Phials of Gethsemane</em> kept in Vault IX were not instruments of
+      divine salvation, but the physical bloodline of an immune carrier whose cellular biology
+      cures vampirism.</p>
+      <p>Terrified that Curial hardliners planned to weaponize the fluid, Corvi used the
+      <em>Lodestone of St. Jude</em> to disable the electromagnetic vault plinth and fled Rome.
+      He brokered two phials to finance his travel to an Alpine monastery: one to
+      <strong>Kurt Hausmann</strong> in Zurich, and another to an intermediary in Turin.</p>
+      <p><strong>Cardinal Enrico Sabbatini</strong> engaged the Verdant Covenant to recover the
+      case under diplomatic secrecy, attaching <strong>Sister Claudia Vane</strong> as a
+      liaison. Claudia is a deep-cover operative for Registry 16 of the Talamasca Motherhouse
+      in Amsterdam.</p>
+      <p>The Talamasca's secret vampire leadership ordered Claudia to use the Covenant to
+      locate Corvi, seize the attaché case, and bring it to a rendezvous in Novara for air
+      transit to the Carpathians, where the cure will be incinerated.</p>
+      <p><strong>The two-stage inversion.</strong> <em>False Revelation:</em> in Zurich, the
+      cell discovers Hausmann has transformed into an aggressive, photophobic predator, prompting
+      them to conclude that communion was an unholy feast and Christ was the First Vampire.
+      <em>Paradigm Shift:</em> histopathology slides from Zurich, apocryphal fragments recovered
+      from Corvi, and ash-crumbled ancient bones found at the Novara murder scene reveal the
+      truth — the blood turns healthy humans into predatory carriers, but acts as a fatal cure
+      for active vampires.</p>
+      <p>During the recovery in Turin, Claudia activates <em>The Veil of Veronica's Thread</em>,
+      blinding the cell and escaping with the attaché. The cell tracks her to a fortified
+      safehouse in Novara, where an ancient vampire strike team has slaughtered her, taken ten
+      intact phials, and boarded a private flight for Romania — initiating
+      <em>Mission 2: Recover the Sangreal</em>.</p>
+    primaryObjective: >
+      <p>Locate and secure the 1964 steel attaché case and its contents intact before either
+      faction does — and prevent any phial from being opened or lost.</p>
+    secondaryObjective: >
+      <p>Identify the individual who breached Vault IX and determine how its electromagnetic
+      mooring systems were bypassed. Establish, without tipping either faction, who the liaison
+      actually serves.</p>
+    containmentTrigger: >
+      <p><strong>CT1 — Trigger.</strong> Introduction into open tissue or mucous membranes.
+      Uninfected humans experience mutagenic fever and predatory conversion within six shifts
+      (24 hours). In active vampires, it halts necrotic stasis and triggers immediate cellular
+      aging, turning them to ash in minutes.</p>
+    containmentAppetite: >
+      <p><strong>CT2 — Appetite.</strong> Cellular desperation and systemic anemia. Within
+      100 meters, unshielded phials emit a psychic pull that accelerates organ failure and
+      hemorrhaging in sick individuals, compelling them to consume the fluid.</p>
+    containmentQuiescence: >
+      <p><strong>CT3 — Quiescence.</strong> Storage in darkness within lead-antimony foil below
+      4°C, wrapped in unbleached linen soaked in gall, wine vinegar, and myrrh. Exposure to
+      ambient daylight causes the fluid to violently boil and combust into white ash.</p>
+    keyActors: >
+      <ul>
+      <li><strong>O1 — The Holy Alliance (L'Entità).</strong> Vatican foreign intelligence.
+      Seeks unconditional recovery, total public suppression, and retention of the cure as an
+      institutional deterrent. Pragmatic, coercive, always watching the cell.</li>
+      <li><strong>O2 — The Order of the Talamasca (Registry 16, Amsterdam).</strong> The
+      embedded threat. Seeks interception of the attaché, extraction to Eastern Europe, and
+      permanent incineration of the cure to protect its vampire bloodlines.</li>
+      <li><strong>Monsignor Matteo Corvi</strong> — rogue archivist; a terrified whistleblower
+      trying to bury an existential bio-relic, not to sell it.</li>
+      <li><strong>Sister Claudia Vane</strong> — Vatican liaison and deep-cover Talamasca
+      operative. The cell's guide, and their betrayer.</li>
+      <li><strong>Kurt Hausmann</strong> — the Feral Banker. The False Revelation made flesh;
+      the proof that human marrow cannot regulate the vector.</li>
+      <li><strong>Dr. Elizabeth Graf</strong> — civilian pathologist at Privatklinik Sonnenberg;
+      key medical witness and the source of the histopathology that cracks the false twist.</li>
+      <li><strong>Cardinal Enrico Sabbatini</strong> — Prefect of the Congregation for the
+      Doctrine of the Faith and chief director of L'Entità. Hired the Covenant; knows more than
+      he admits.</li>
+      </ul>
+    bestCaseResolution: >
+      <p>The cell recovers the attaché intact, contains or destroys the escaped vectors under
+      CT1–CT3, exposes the Talamasca infiltration, and forces the Holy Alliance into open
+      cooperation. The cure ends the case in Covenant custody — or neutralized — rather than in
+      the hands of either faction.</p>
+    worstCaseResolution: >
+      <p>The phials reach the tarmac. Ten intact vessels leave Italy for the Carpathians, where
+      an ancient bloodline incinerates the only substance capable of unmaking them. Feral
+      carriers multiply across Northern Italy, the Holy Alliance launches a sanitization
+      campaign, and the Covenant is left holding the blame for a fire it did not start.</p>
+    relicMilestones:
+      - day: 10
+        description: 'M1 — The Anemic Pulse: the 50 m hematological field activates; local clinic blood bags spoil; unshielded proximity begins to pull the sick.'
+      - day: 8
+        description: 'M2 — The Frenzy Call: Hausmann breaches isolation in Zurich; animal panic flares across the district.'
+      - day: 6
+        description: 'M3 — Cellular Purge: unshielded handling demands Endure checks against Corruption; scavengers feed and mutate.'
+      - day: 4
+        description: 'M4 — Ash Combustion: a broken test droplet detonates in daylight; the Carabinieri are alerted and the media window cracks.'
+      - day: 2
+        description: 'M5 — Sovereign Scent: the vampire retrieval cell locks onto the Novara retreat house.'
+      - day: 1
+        description: 'Terminal Window: the Cessna 421 spools its engines on the Novara-Cameri tarmac — ten phials poised to leave Italy.'
+    daNotes: >
+      <h3>The Clock</h3>
+      <p>Fourteen days, fifty-six shifts (Morning, Day, Evening, Night). Column 14 starts the
+      case; column 1 is catastrophe. Relic milestones fire when the last shift quadrant of the
+      keyed day is filled. The DA translates board state into atmosphere — never numbers.</p>
+      <h3>Track O1 — The Holy Alliance (10 squares)</h3>
+      <p>Advances when the cell causes public disturbances, damages church property, or
+      challenges clerical authority.</p>
+      <ul>
+      <li><strong>7 — Frontier Cloak:</strong> L'Entità activates its network in the Italian
+      Ministry of the Interior. Swiss–Italian crossings fall under paramilitary surveillance;
+      overland movement needs forged passports or an extra shift.</li>
+      <li><strong>4 — Sanitization Sweep:</strong> Vatican operatives clean up the Privatklinik
+      Sonnenberg. Dr. Graf is targeted for liquidation; oncology records are incinerated if not
+      already secured.</li>
+      <li><strong>1 — Holy Crusade:</strong> Sabbatini concludes the cell has uncovered the
+      biological truth. A plainclothes Swiss Guard tactical squad with phosphorus grenades
+      intercepts to sanitize the operation.</li>
+      </ul>
+      <h3>Track O2 — The Order of the Talamasca (12 squares)</h3>
+      <p>Advances as Claudia transmits progress reports or as the cell accesses preternatural
+      nodes.</p>
+      <ul>
+      <li><strong>9 — Signal Intercept:</strong> Amsterdam listening posts decrypt Swiss PTT
+      telex traffic and map the Covenant's path, feeding encrypted updates to Claudia.</li>
+      <li><strong>6 — Extraction Green-Light:</strong> Claudia is authorized to execute field
+      theft of the steel attaché the moment Corvi is isolated.</li>
+      <li><strong>2 — Elder Cleansing Strike:</strong> the hidden vampire retrieval pack finds
+      the Novara safehouse and executes Claudia to keep the cure from ever being turned against
+      their bloodlines.</li>
+      </ul>
+      <h3>Escalation Schedule (quick reference)</h3>
+      <table>
+      <tr><th>Day</th><th>Phase</th><th>Event</th></tr>
+      <tr><td>14</td><td>Archival Breach</td><td>Investigation opens in Rome; Swiss border crossings open.</td></tr>
+      <tr><td>13</td><td>Cold Transit</td><td>Corvi negotiates Swiss bank escrow in Geneva.</td></tr>
+      <tr><td>12</td><td>Border Crossing</td><td>Vault IX clue fallback available at Covenant HQ.</td></tr>
+      <tr><td>11</td><td>Escrow Release</td><td>Corvi completes the first sale; travel to Zurich begins.</td></tr>
+      <tr><td>10</td><td>Active Vector</td><td>M1 — The Anemic Pulse.</td></tr>
+      <tr><td>9</td><td>Scent Detected</td><td>Talamasca intercept team tracks Geneva wire transfers.</td></tr>
+      <tr><td>8</td><td>Predatory Frenzy</td><td>M2 — The Frenzy Call.</td></tr>
+      <tr><td>7</td><td>Intercept Phase</td><td>O1 border checkpoints along the Italian frontier.</td></tr>
+      <tr><td>6</td><td>Marrow Strain</td><td>M3 — Cellular Purge.</td></tr>
+      <tr><td>5</td><td>Industrial Drop</td><td>Corvi retreats to the Lingotto assembly works in Turin.</td></tr>
+      <tr><td>4</td><td>Ash Flash</td><td>M4 — Ash Combustion; Carabinieri alerted.</td></tr>
+      <tr><td>3</td><td>The Trap Springs</td><td>Claudia receives the extraction green-light from Amsterdam.</td></tr>
+      <tr><td>2</td><td>Elder Pursuit</td><td>M5 — Sovereign Scent.</td></tr>
+      <tr><td>1</td><td>Terminal Window</td><td>Cessna 421 spools engines on the Novara tarmac.</td></tr>
+      </table>
+      <h3>Pacing & Fallbacks</h3>
+      <p>Information Cards carry headquarters fallback days (I1–I17); when the cell stalls,
+      deliver a card's fallback at the listed day via a Covenant packet. Keep the two twists
+      separated: the False Revelation should land in Zurich, the Paradigm Inversion no earlier
+      than the histopathology slides and the Novara ash. Claudia's betrayal fires at L5 once
+      Corvi surrenders the case — she does not wait for a better moment.</p>
+    description: >
+      <p>Director's master reference for Operation File <strong>SANGREAL-87-091</strong>.
+      DA eyes only — contains both twists, both faction tracks, and the full milestone
+      schedule.</p>
