@@ -208,3 +208,314 @@
             <li><strong>Stakes:</strong> ten phials. The cure is the only weapon that can end vampire elders — and the only thing they fear. Recover it, use it, or burn it: the choice belongs to the cell.</li>
           </ul>
           <p><em>DA note: Mission 2 is a future module. This page exists to land the campaign cliffhanger — end the session on the empty tarmac and the rain.</em></p>
+
+- _id: sangreal-journal-walkthrough
+  name: 'SANGREAL-87-091 — DA Walkthrough'
+  type: journalEntry
+  pages:
+    - name: 'How to Use This Walkthrough'
+      type: text
+      text:
+        content: |
+          <h2>DA Walkthrough — Mission: Sangreal</h2>
+          <p><strong>DA eyes only.</strong> This is the full day-by-day script skeleton of the case: where the cell should be, who they meet, what every person and place can give them, and the easter eggs hidden in the artwork for each information card. It assumes the board runs Day 14 down to Day 1 and that the escalation schedule in the DA Case Brief is live.</p>
+          <h3>The three acts</h3>
+          <ul>
+            <li><strong>Act I — Rome (Days 14–11):</strong> the investigation opens at Vault IX and Corvi's quarters; the Geneva thread surfaces; the trail leaves Italy.</li>
+            <li><strong>Act II — Geneva &amp; Zurich (Days 11–7):</strong> the escrow, the first sale, the Sonnenberg clinic — the False Revelation lands here.</li>
+            <li><strong>Act III — Turin &amp; Novara (Days 6–1):</strong> the Lingotto, the daylight breach, Claudia's betrayal, the slaughter, the empty tarmac — the Paradigm Inversion lands here.</li>
+          </ul>
+          <h3>How to read the day entries</h3>
+          <ul>
+            <li><strong>World:</strong> what happens off camera that day (milestones, faction tracks, person tracks). Deliver these as second-hand news — a courier report, a police band, a rumor.</li>
+            <li><strong>Where the cell goes:</strong> the stations that matter that day.</li>
+            <li><strong>Who they meet:</strong> the people present, and what each one can be pressed for.</li>
+            <li><strong>What they can learn:</strong> the information cards realistically available that day, how they are retrieved, and the <em>egg:</em> call-outs — details hidden in that card's artwork to draw the players' attention to.</li>
+            <li><strong>Fallbacks:</strong> the headquarters packet days. If the cell stalls, the Covenant courier delivers that card at HQ on the listed day. Never let a single failed roll gate the case: anything found by searching costs at most 1 shift.</li>
+          </ul>
+          <h3>The images</h3>
+          <p>All forty-five information cards carry finished artwork, as do every NPC, relic, and the landing scene. Open the card to see the image; the egg call-outs in this walkthrough reference specific details visible in the art (a ring, a reflection, a timestamp, a second wine glass). Players who study the art should feel rewarded — flag them with a passive roll or a nudge when someone lingers.</p>
+          <h3>Spoiler discipline</h3>
+          <table>
+            <tr><th>Twist</th><th>May land from</th><th>Evidence</th></tr>
+            <tr><td>False Revelation — the blood is an unholy feast</td><td>Day 10 (Zurich)</td><td>I7, I11, I27–I31 (the feral banker)</td></tr>
+            <tr><td>Paradigm Inversion — the blood is a cure</td><td>Day 6, firmly Day 2</td><td>I9, I12, I32, I38 (histology, palimpsest, ash fingers)</td></tr>
+          </table>
+          <h3>Pressure valves</h3>
+          <p>If the cell is ahead of the clock, advance the off-camera tracks a day early — let them overhear a police band mention Sonnenberg, or find the Watcher's newspaper twice. If the cell is behind, hold person tracks and shift fallback packets forward by one day. The milestones themselves never move: the hand-off happens Day 10, the case leaves Zurich Day 8, the second sale Day 6, the breach Day 4, the slaughter Day 2, wheels-up Day 1.</p>
+
+    - name: 'Days 14–13 — Rome: The Empty Plinth'
+      type: text
+      text:
+        content: |
+          <h2>Days 14–13 — Rome: The Empty Plinth</h2>
+          <p><strong>World:</strong> the case opens. The breach at Vault IX already happened — the cell arrives after the fact. Off camera, Monsignor Corvi crosses into Switzerland at Chiasso with the attaché and checks into a Geneva pension under his own name (P1), and a grey raincoat reads the same newspaper in three cities this week (P7).</p>
+          <p><strong>Where the cell goes:</strong> L1 (Subterranean Vault IX) for the forensic sweep; L2 (Corvi's Private Quarters) once the search is authorized; Covenant HQ channels for records and remote sensing.</p>
+          <p><strong>Who they meet:</strong></p>
+          <ul>
+            <li><strong>Father Ghiberti</strong> — Archivist of the Secret Archives. Reluctant, precise, terrified of consequences. Can be pressed for the suppressed index (I36), the codex register (I3), and eventually the 1964 workshop file (I43). He will not volunteer the 1582 brief connection until L5 evidence forces it.</li>
+            <li><strong>Vatican Gendarme Duty Officer</strong> — Keeper of the gate ledger and the security reel. The ledger is the key to I18: the night of the breach shows two entries.</li>
+            <li><strong>Covenant Logistics Officer</strong> — The cell's lifeline. Delivers fallback packets, arranges transport papers, and can be asked to move any card's delivery forward by one day once per act.</li>
+            <li><strong>Wayfinder Remote-Sensing Analyst</strong> — Works the magnetometer trace. Confirms the second descent independently if asked whether the vault "was disturbed twice" — corroborates I18 without gendarme pressure.</li>
+          </ul>
+          <p><strong>What they can learn (Day 14):</strong></p>
+          <ul>
+            <li><strong>I1 — The Burnt Electromagnet Relay</strong> (L1, forensic sweep, 1 shift). Egg: sulfurous residue glitters inside the slag; the mooring plinth is scorched <em>from beneath</em> — the failure came up through the cradle, not down from the room. Confirms an occult artifact was used, and names the method: the vault was never opened, it was <em>coaxed</em>.</li>
+            <li><strong>I2 — CCTV Reel #87-04</strong> (L1, duty officer). Egg: in the puddle beside Corvi the <em>case</em> throws an opaque pitch-black shadow while Corvi himself casts only a faint one; a green railway pass juts from his coat; at the frame's far left a nun's veil catches the lamp light forty metres behind him — a witness no report mentions.</li>
+            <li><strong>I19 — The Name Below the Plinth</strong> (L1, close inspection — no roll). Egg: a case-shaped scratch outline in the granite beneath the empty plinth proves the case was repeatedly seated and removed — it was opened in situ more than once; the brass SANGREAL plaque predates the 1964 case entirely.</li>
+            <li><strong>I3 — The Excised Codex Register</strong> (L1 via Ghiberti). Egg: the excised stub shows shelf-mark MS-Vat-Heb-418, and the red card reads <em>Extractum per Breve Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00</em>. The red card has no dust: someone re-filed it recently. Forward-links I35.</li>
+            <li><strong>I5 — The Casing Hallmark</strong> (L1 or L2, paperwork trail; <em>no fallback — must be earned</em>). Egg: three locations circled faintly in pencil — Geneva, Zurich, Turin — the operational clock plotted before the cell had a case file; a second fainter impression beside the stamp shows it has been used many times.</li>
+            <li><strong>I18 — Second Descent</strong> (L1 reel or gendarme ledger; the analyst can corroborate). Egg: on the descending figure's hand, a signet ring carrying an eye-in-ouroboros device; the lift indicator behind shows the platform already called from below — someone was inside the vault when Corvi left. The clock reads 04:02.</li>
+          </ul>
+          <p><strong>Day 13 — the quarters open:</strong> with the search authorized, L2 yields:</p>
+          <ul>
+            <li><strong>I4 — The Polybius Vulgate Cipher</strong> (L2 desk). Egg: the blotter's mirror-writing reads GENEVA and 4409 in reverse — two cipher answers already on the desk; a Roma Termini ticket corner pokes out beneath the blotter (his departure, and I26's destination).</li>
+            <li><strong>I22 — The Archive, 1962</strong> (L2 drawer). Egg: the older prelate beside young Corvi wears the same ouroboros-eye ring as the Watcher (I18); the folder between them is labelled XII-SANG; the red grease-pencil X across the prelate's face is recent — someone alive wanted this face forgotten.</li>
+          </ul>
+          <p><strong>Fallbacks:</strong> I3 delivers Day 13; I1, I18, I19 deliver Day 12 if the cell has stalled.</p>
+          <p><strong>Closing image of the act:</strong> when the players leave Rome, show I26's platform and I21's passport stamp side by side if they have them — the two timestamps are the case's first hard proof the thief had help.</p>
+
+    - name: 'Days 12–11 — Rome Deep & The Geneva Thread'
+      type: text
+      text:
+        content: |
+          <h2>Days 12–11 — Rome Deep &amp; The Geneva Thread</h2>
+          <p><strong>World:</strong> Day 11 is escrow release — Corvi signs locker 4409-C into escrow and rides the EC 30 to Zurich, first class, the case on his knees (P1). The cell should be finishing Rome or already moving north; Geneva is the next station, and the Talamasca are learning to read the Covenant's mail.</p>
+          <p><strong>Where the cell goes:</strong> L2 wrap-up; then L3 (Union de Banques Suisses, Geneva). The analyst can pin Geneva from the blotter's mirror-writing (I4) and the Gendarme ledger's second entry.</p>
+          <p><strong>Who they meet:</strong></p>
+          <ul>
+            <li><strong>Ghiberti (second interview)</strong> — with the workshop photographs (I43) and the quiescence formula (I16) in hand, he admits the case was built to hold something the Church would not describe.</li>
+            <li><strong>HQ liaisons via packet</strong> — this is the natural week for the first courier delivery if the cell is stalled.</li>
+          </ul>
+          <p><strong>What they can learn (Rome wrap-up):</strong></p>
+          <ul>
+            <li><strong>I20 — The Clean Drill</strong> (L2, room search). Egg: the safe's dial was drilled precisely at the spindle — professional work — with fine bright swarf; carpet scuffs show someone knelt in the same spot twice, weeks apart; a woman's compact mirror lies half-shadowed under the desk edge. The compact is Claudia's: she searched this room before the Covenant arrived.</li>
+            <li><strong>I21 — Diplomatic Passport</strong> (L2, desk effects). Egg: the Chiasso stamp is timed two hours after the gate film (I2); a second hand has written <em>accompagné</em> in the margin — the border guards logged a companion every report omits; the ID photo is from the same session as the 1962 archive print (I22).</li>
+            <li><strong>I36 — Suppressed Index Card</strong> (L1/L2, via Ghiberti). Egg: the handling note reads <em>corrosive to ferrous circuitry — by order of the Prefect</em>: the Lodestone was officially known as the one thing that disables the vault's electromagnets, and the order came from inside the building it robbed.</li>
+            <li><strong>I43 — The Case, 1964</strong> (L1 workshop file, via Ghiberti). Egg: the brass plaque was stamped <em>before</em> the case was finished — the name came first, the container after; the pinned workshop order reads <em>XII phials — Gethsemane lot — destroyed if opened</em>; the workshop supervisor is the same prelate whose face was X'd out in I22.</li>
+            <li><strong>I16 — The Quiescence Formula (CT3)</strong> (L2 kit or, if missed, L7). Egg: the kit photographed in I32 — linen, gall, vinegar, myrrh — is already present in a Swiss clinic three days before the cell gets there. Rome's containment protocol is in play in Zurich: someone in the Church knew where the phials were going. This is the mechanical recipe for moving or neutralizing the blood.</li>
+          </ul>
+          <p><strong>What they can learn (Geneva, L3):</strong></p>
+          <ul>
+            <li><strong>I6 — The Escrow Transfer Slip</strong> (L3, bank records or Mercier's desk). Egg: the memo line reads <em>Acquisition of Primary Specimen (1 of 12) — Experimental Oncology Protocol</em>; a small pencilled tick sits beside the "1 of 12" — the clerk understood exactly what he was moving; the fold line shows it lived in a jacket.</li>
+            <li><strong>I23 — Night Deposit</strong> (L3, security office). Egg: the Watcher's reflection sits in the polished marble, newspaper and all; the bank cloth was placed under the case before it touched the counter — Mercier knows this item is not normal luggage; the wall calendar reads 17 September 1987, anchoring every other timestamp.</li>
+            <li><strong>I24 — Bank Staff Record</strong> (L3, personnel files). Egg: the vault-access stamp explains why the buyer chose Mercier — the only clerk with both access and debt; the carbon edge under the card shows CHF 500,000 and box 4409-C: he photographed the transfer himself and kept a copy (I6).</li>
+            <li><strong>I25 — The Ledger Page</strong> (L3 vault desk). Egg: K. Hausmann accessed the box twice before the sale completed — he wanted more than one phial and was refused; beneath the correction fluid, a struck-through entry reads <em>VANE, C.</em> at 02:10: Claudia visited the vault in person and Mercier was paid to erase it. This is the first hard evidence of her independence.</li>
+            <li><strong>I26 — The 06:40 to Geneva</strong> (L3 prints or purchased). Egg: the Watcher boards three carriages back (same raincoat, same newspaper); the destination board reads EC 30 ROMULUS, matching I2's pass; the porter's trolley label — VATICAN COURIER — proves the case traveled with diplomatic cover, arranged from inside.</li>
+            <li><strong>I7 — Patient File 09-Hausmann</strong> (L3 forwarded / L4). Egg: the intake photo's gold wristwatch and the clinic logo are the thread-ends — the watch reappears on the feral predator (I27–I30), and the logo reappears on the escrow letterhead (I6): the same institution banked the money that injected him.</li>
+            <li><strong>I8 — The Swiss PTT Intercept Tape</strong> (L3). Egg: a second tape box carries the same neat hand as the red charge card in I3 — someone was copying calls before the Covenant arrived; the transcript's final line circles a Turin extension number, unlocking L5.</li>
+          </ul>
+          <p><strong>Fallbacks:</strong> I6, I21, I23 deliver Day 9; I22 delivers Day 11; I4 and I20 deliver Day 10; I24, I25, I7 deliver Day 8; I8, I26 deliver Day 7.</p>
+
+    - name: 'Days 10–9 — Zurich: The First Sale'
+      type: text
+      text:
+        content: |
+          <h2>Days 10–9 — Zurich: The First Sale</h2>
+          <p><strong>World:</strong> Day 10 — M1, the hand-off: the attaché surfaces in Zurich, Corvi cuts the seal in a Bahnhofstrasse vault, and Kurt Hausmann receives the first phial. That same night, at 02:00, the injection enters him (P3). Day 9 — the Talamasca decrypt the Covenant's Swiss PTT traffic (O2); Graf files the histopathology under a dead trial code and hides one slide (P4); the Turin Intermediary takes the second buyer's deposit in an envelope bearing a Wallachian dragon crest (P5); the Basarab pack enters Italy on a freight express and settles under the Lingotto without moving (P6); the Watcher photographs Bahnhofstrasse from a café (P7).</p>
+          <p><strong>Where the cell goes:</strong> L4 (Privatklinik Sonnenberg, Zurich). The clinic is a fortress of paperwork; the cell should enter as auditors, as visiting clergy, or through Graf.</p>
+          <p><strong>Who they meet:</strong></p>
+          <ul>
+            <li><strong>Dr. Elizabeth Graf</strong> — oncology lead. Frightened of who paid for the study; she has the histology (I9), the filtration charts (I10), the freezer room (I11), and eventually the burnt test (I32). Handle her carefully — O1M2 marks her for liquidation on Day 4.</li>
+            <li><strong>Kurt Hausmann</strong> — before the break he is lucid, radiant, wrong: tumors gone, temperature falling, and he no longer sleeps. He cannot explain where the "protocol" came from, only that it was paid for by a Church account.</li>
+            <li><strong>Clinic night staff</strong> — the first witnesses to come. Establish them on Day 10 so their disappearance on Day 8 lands.</li>
+          </ul>
+          <p><strong>What they can learn:</strong></p>
+          <ul>
+            <li><strong>I27 — Intake Photograph, 09-H</strong> (L4 wall or records). Egg: the gold wristwatch on his admission photo is the same watch later photographed on the feral predator — the visual argument that the thing on the ceiling was once a man; play the two images together.</li>
+            <li><strong>I9 — Histopathology Log: Marrow Graft</strong> (L4, Graf). Egg: the filament structures belong to no known tissue; her annotation reads <em>foreign graft — not infection</em>; a second polaroid's edge intrudes at the frame — she took more than one and kept one for herself.</li>
+            <li><strong>I10 — The Vector Mechanics (CT1)</strong> (L4/L5 laboratory material). Egg: the batch numbers tie the clinical trail to the phial count (1 of 12); the charts give <em>six shifts</em> as the conversion window — the same clock the case board counts.</li>
+            <li><strong>I11 — The Resonance Field (CT2)</strong> (L4 freezer). Egg: the blood bags nearest the tray are spoiled, one swollen past bursting — proximity decay, caught mid-experiment; the chart's last line reads <em>subject 09-H attempted to drink from the sharps bin, 02:40</em>; the thermometer sits exactly at the quiescence threshold from I16.</li>
+            <li><strong>I28 — Photophobia Test 02:40</strong> (L4, Graf's clinical photos). Egg: the burns outline a strip light's footprint precisely; his pupils do not react to the flash; the IV batch tag reads XII-1/12; the light switch behind him has been taped over by staff who learned what light does to him.</li>
+            <li><strong>I29 — The Injection Log</strong> (L4, Graf's study). Egg: the sponsor's Vaduz trust account is the same account as I6's escrow — the money that bought the phial also paid the clinic; room 3.14 echoes the vault timestamp 03:14 (I2) as a deliberate numeric refrain.</li>
+            <li><strong>I30 — Ward 3, Corridor Camera</strong> (L4, security room). Egg: the ceiling silhouette at the top of frame is the whole argument — this is not human violence and not a patient loose in the hall; the spill trail from the mop bucket stops under a service duct, showing he left through the ventilation; the clock reads 02:40.</li>
+            <li><strong>I31 — Sonnenberg, Observed</strong> (L4, perimeter night shift). Egg: the parked sedan is SCV 47 — the same Vatican-plated Lancia that will appear at Lingotto (I33) and in I42; the newspaper under the long-lens camera is the Watcher's; one blacked-out window's tape has been pulled <em>inward</em> — from inside.</li>
+            <li><strong>I12 — The Ebionite Palimpsest</strong> (L4 desk or L5). Egg: the underlayer is the actual Gospel of the Twelve, overwritten; Corvi's margin holds one Latin line — <em>sanguis remedium, non sacramentum</em> (blood is remedy, not sacrament); a Hotel Bristol, Geneva matchbook sits on the bench: his trail, pinned to a table. This card begins the Paradigm Inversion — hold it if the table has not seen I9 yet.</li>
+          </ul>
+          <p><strong>Fallbacks:</strong> I4/I20 (Day 10); I27 delivers Day 8; I28, I29, I31, I9, I36 deliver Day 6; I30, I32, I10, I35 deliver Day 5; I11, I12 deliver Day 4.</p>
+          <p><strong>Set-piece:</strong> end Day 10's session on the hand-off reconstruction — seal cut, phial passed, room empty — and let the players think the clock is still losing. Day 9 is theirs to work the clinic.</p>
+
+    - name: 'Days 8–7 — Zurich Collapse & The Corridor'
+      type: text
+      text:
+        content: |
+          <h2>Days 8–7 — Zurich Collapse &amp; The Corridor</h2>
+          <p><strong>World:</strong> Day 8 — M2: Hausmann wakes changed; the third floor's night staff are missing by morning; Corvi walks the attaché out of the city in the confusion and takes the coast road south (P1). Custody goes dark until Turin. Day 7 — O1M1, L'Entità locks the Swiss–Italian frontier: crossings fall under paramilitary watch; Graf sits with matches and the research log and puts them away (P4).</p>
+          <p><strong>Where the cell goes:</strong> the break scene at L4 (or its aftermath, if they slept through it), then the frontier — overland with forged papers or an extra shift; O1M1 makes every crossing a scene now.</p>
+          <p><strong>Who they meet:</strong></p>
+          <ul>
+            <li><strong>Dr. Graf, cornered</strong> — she has not slept. Give her the choice the players will remember: stay and testify, run with them, or burn the ward. O1M2 arrives Day 4 regardless.</li>
+            <li><strong>Swiss police detectives</strong> — taking statements in the wrong language. Use them to dump the I30 facts into the official record if the cell missed the security room.</li>
+            <li><strong>L'Entità watchers</strong> — a man in grey who never introduces himself at the checkpoint; SCV 47 idles at the border café from now until Turin.</li>
+          </ul>
+          <p><strong>What they can learn:</strong></p>
+          <ul>
+            <li><strong>I30 / I31 catch-ups:</strong> if the cell did not earn them on Days 10–9, the break makes both unavoidable — the corridor tape (I30) and the perimeter photographs (I31) fall to the first investigators on scene.</li>
+            <li><strong>I32 — Daylight Test: Combustion</strong> (L4 pathology lab, 1 shift). Egg: the white ash in the fume hood is the same material as the calcified fingers that will end the case (I38); the linen, gall, vinegar, and myrrh on the bench are the quiescence kit of I16 — already installed in a Swiss clinic; the log's 07:12 stamp is twenty minutes after sunrise. This is CT3 in physical form.</li>
+            <li><strong>I35 — Breve Apostolicum, 1582</strong> (L2 or L5 research kit). Egg: its shelf-mark ties it to the excised card in I3; the papal seal was cracked and repaired with red wax — the 1582 custodians broke protocol and hid it — and the marginalia name the case itself: XII-SANG-00.</li>
+          </ul>
+          <p><strong>Fallbacks:</strong> I8, I26 deliver Day 7; I31, I28, I29, I9, I36 deliver Day 6.</p>
+          <p><strong>Pressure note:</strong> advance the checkpoints sharply here. If the cell lets the frontier cost them more than a day, hold the Turin material until Day 5 and let the players feel the case cooling.</p>
+
+    - name: 'Days 6–5 — Turin: The Lingotto'
+      type: text
+      text:
+        content: |
+          <h2>Days 6–5 — Turin: The Lingotto</h2>
+          <p><strong>World:</strong> Day 6 — M3: the case opens on the Lingotto floor and the Turin Intermediary buys the second phial, raising his offer to triple for the remaining eleven (P5); the Talamasca green-light Claudia to steal the case the moment Corvi is isolated (O2, P2) — she repacks her kit in order and argues to move on Lingotto tonight. Day 5 — Corvi retreats to the Lingotto supervisor's booth (P1 sequence); Hausmann is hunted into the Zurichberg forest edge, learning to stay out of the light (P3).</p>
+          <p><strong>Where the cell goes:</strong> L5 — the Lingotto Fiat Assembly Complex: the rooftop test track, the flooded assembly hall, the supervisor's booth, the service tunnels beneath.</p>
+          <p><strong>Who they meet:</strong></p>
+          <ul>
+            <li><strong>Monsignor Corvi</strong> — barricaded in the glass booth with the case, praying in Latin, refusing food — a man waiting to be found by the right people. He will negotiate now: he wants Rome to know what the cure actually is before it leaves Europe.</li>
+            <li><strong>Sister Claudia Vane</strong> — still attached to the cell, still immaculate. She argues hard to move on Lingotto "tonight" — this is the players' chance to catch what the DA knows. Reward any scrutiny of her kit now: see I37.</li>
+            <li><strong>The Turin Intermediary</strong> — if the cell flushes him out: a broker, not a believer. He can give the second buyer's crest (P5) and, under pressure, the rendezvous plan in outline.</li>
+          </ul>
+          <p><strong>What they can learn:</strong></p>
+          <ul>
+            <li><strong>I33 — Lingotto, Rooftop, Rain</strong> (L5 approach prints or P7 negatives). Egg: Vane stands precisely between Corvi and the booth's only door — she has already decided the room's geometry; a second case-sized rectangle lies beside the attaché (his papers — the decoy that buys a second); the Lancia below is SCV 47.</li>
+            <li><strong>I34 — Assembly Hall, Camera 6</strong> (L5 control room, still spooling). Egg: the case's deadbolt is taped over — field repair on a cracked latch (he bought a second lock in Turin, P1); in the puddles the lights reflect but Corvi casts no shadow: the relic's active state has changed since the altar photograph (I2 at L1).</li>
+            <li><strong>I35 — Breve Apostolicum, 1582</strong> (if missed in Rome). As above — the seal was opened after sealing and repaired to hide it.</li>
+            <li><strong>I36 — Suppressed Index Card</strong> (if missed in Rome/L2). As above — the Lodestone's order came from inside the building it robbed.</li>
+            <li><strong>I37 — The Empty Needle</strong> (L5, searching Vane's kit — or L6, as evidence). Egg: the split bead is a clean, deliberate cut; the ochre fibres inside are what remains of the Veronica Thread's sheath; the scorch on the bead's outside is fresh — the thread was snapped <em>recently and near here</em>. This is the single best early-warning prop in the mission: if the players find it in Turin, they can pre-empt the betrayal entirely. Do not protect Claudia.</li>
+          </ul>
+          <p><strong>Fallbacks:</strong> I30, I32, I10, I35 deliver Day 5; I11, I12, I33, I34, I37 deliver Day 4 (in practice, these land as the raid goes wrong).</p>
+          <p><strong>Set-piece:</strong> stage the rooftop parley in the rain — Corvi at the glass, Vane silent at the door, the cell deciding whether to take the case by force. Whatever they choose, the board keeps ticking: M4 fires next session.</p>
+
+    - name: 'Days 4–3 — The Trap Springs'
+      type: text
+      text:
+        content: |
+          <h2>Days 4–3 — The Trap Springs</h2>
+          <p><strong>World:</strong> Day 4 — M4: the daylight breach. A droplet from the open case spills during handling on the Lingotto floor and ignites — a flash visible across the district. The Carabinieri flood the site; the case has been seen. Sister Claudia Vane snaps the Veronica Thread on the factory floor during the fire and takes the attaché: by the time the flash clears she is out of the building and the cell's transport is gone (P2M3). Corvi, barricaded in the supervisor's booth since that same day, is left without it — waiting to be found, but only by the right people (P1M4). In Zurich, men in grey coats arrive at Sonnenberg to "collect the study"; Dr. Graf barricades herself in Theatre 2 with the slides (P4M3, O1M4). Day 3 — the trap springs: Claudia receives the extraction green-light from Amsterdam and drives alone to Novara, waiting in the abbey for the airstrip rendezvous (P2M4); the Turin Intermediary sells the rendezvous address to the Basarab pack and takes the night train to Milan with his fee (P5M3); a priest in the Novara diocese reports three parishioners who never blink — by evening the abbey's lamps go out one at a time (P6M2).</p>
+          <p><strong>Where the cell goes:</strong> the smoking Lingotto — the flash, the Carabinieri, the missing case and the missing nun — then the trail south: toll stubs, teleprinter logs, and Corvi's own papers all point to Novara (L6 only exists once the cell is tracking Claudia). If Graf was left behind, Zurich pulls the cell back one last time: the sanitization sweep is a live scene, not a rumor.</p>
+          <p><strong>Who they meet:</strong></p>
+          <ul>
+            <li><strong>The Carabinieri</strong> — wrong questions, jurisdiction fights, and a fire chief who cannot explain what burned a hole through steel plate. The cell must work a crime scene without presenting the Covenant; every hour spent here is an hour Claudia gains on the road.</li>
+            <li><strong>Sister Claudia Vane</strong> — gone, if the theft is clean. If the cell corners her before Novara, play the confrontation as a chase and a monologue, not an interrogation: she is calm, professional, and has been beyond argument for a year.</li>
+            <li><strong>Monsignor Corvi</strong> — if rescued from his own barricade, he has nothing left to trade but the truth, and he wants an audience for it: what the cure actually is, and why he did none of this for money.</li>
+            <li><strong>The Turin Intermediary</strong> — flushed out of his café, he gives up what costs him nothing: the buyer's Wallachian crest, the pack's profile, the rendezvous in outline. The address he keeps — he has already sold it once today.</li>
+            <li><strong>Dr. Graf (if Zurich)</strong> — the extract-or-leave dilemma behind a chained theatre door: the men in grey coats will not introduce themselves, and they are not police.</li>
+          </ul>
+          <p><strong>What they can learn:</strong></p>
+          <ul>
+            <li><strong>I37 — The Empty Needle</strong> (if the kit was never searched). Egg: the split bead is a clean, deliberate cut; the ochre fibres inside are the Veronica Thread's sheath; the scorch is fresh — the thread was snapped <em>recently and near here</em>. On Day 4 the word "here" has become the crime scene itself.</li>
+            <li><strong>I33 / I34 catch-ups</strong> — if missed on Days 6–5, both surface in the fire's aftermath; the "no shadow" frame in I34 reads differently now, after the daylight flash: the case is fully awake.</li>
+            <li><strong>I41 — The Green Lamp</strong> (Day 3 HQ packet; L7 if the cell is in Rome). Egg: the open dossier is stamped REGISTRY 16 — AMSTERDAM — Sabbatini already has the Talamasca file the cell is still assembling; the waiting silhouette wears the operative's grey coat (I42); three more standing figures gather in the window's reflections — the sanitization squad is in the antechamber.</li>
+          </ul>
+          <p><strong>Fallbacks:</strong> I33, I34, I37 deliver Day 4; I41 delivers Day 3.</p>
+          <p><strong>Set-piece:</strong> stage the Lingotto fire as a catastrophe the cell cannot prevent, only triage — what to save, whom to drag out, which evidence burns. End the session on the empty mooring where the case was last seen, the Carabinieri cordon's lights swinging through the rain, and one nun's absence nobody can yet explain. The theft should never feel arbitrary: the evidence was on the table since Geneva (I5, I14, I25). Cells that found it earned this; cells that didn't are paying tuition.</p>
+
+    - name: 'Days 2–1 — San Nazzaro: The Slaughter & The Tarmac'
+      type: text
+      text:
+        content: |
+          <h2>Days 2–1 — San Nazzaro: The Slaughter & The Tarmac</h2>
+          <p><strong>World:</strong> Day 2 — M5: the retrieval pack hits the fortified retreat. Ten phials change hands and the eleventh shatters — a single drop burns two of their fingers to white ash (P6M3). The pack executes Claudia to keep the cure from their bloodlines (O2M3). The Watcher reaches Novara before the pack and leaves before the police, adding one pencil line to the gatehouse ledger: <em>second descent, 04:02</em> (P7M3). Day 1 — M6: the consignments are loaded aboard the Cessna 421; the Elder stands at the fence line and looks directly at the watchers (P6M4). Wheels-up at 01:15 ends the operation and leaves the emptied case behind. The Turin Intermediary wires congratulations to Bucharest and closes the account (P5M4).</p>
+          <p><strong>Where the cell goes:</strong> L6 — the Fortified Retreat of San Nazzaro along the Sesia: the torn carriage doors, the stone-flagged dining hall, the gatehouse ledger, the telegraph desk, the service hangar, the dispatch office — and then the airfield perimeter, where the case's story ends.</p>
+          <p><strong>Who they meet:</strong></p>
+          <ul>
+            <li><strong>Sister Claudia Vane</strong> — dead on her own table, pinned like a specimen. Render the body and the room with total quiet: after fourteen days of tracking her, this is the mission's emotional floor, and the players should have the moment without DA commentary.</li>
+            <li><strong>The local priest</strong> — the day's only living witness: three parishioners who never blink, confessed to him and then gone. If the cell arrives after dark, he is the one who says the abbey's lamps "went out one at a time."</li>
+            <li><strong>Carabinieri / air-base military police</strong> — the clock is the enemy: past the first shift, Novara-Cameri empties onto the road and the scene becomes an armed standoff — 2 shifts lost, evidence impounded, some of it never seen again.</li>
+            <li><strong>L'Entità cleanup teams</strong> — arriving behind the vampires to burn the abbey's records. Two factions colliding in the same building is the case's loudest possible alarm; if the cell sparks it, they stop being watchers and become targets.</li>
+            <li><strong>The Grey Watcher</strong> — never met, if he is doing his job: a damp newspaper, a fresh pencil line in the ledger, and a plain card left where the cell will find it — <em>We watch, and we are always there.</em> If the cell catches him, his negatives are the case file's missing photographs (the unshot frames behind I18, I26, I31, I33).</li>
+          </ul>
+          <p><strong>What they can learn — the final forensics:</strong></p>
+          <ul>
+            <li><strong>I13 — The Novara Slaughter</strong> (autopsy of Claudia). Egg: two severed metacarpals gone to white calcified ash — one still shows a legible whorl ridge; a broken phial soaked into the tiles; the attaché gone but its leather carry-strap cut on the table edge; <em>an unused second wine glass</em> at the head of the table — she was waiting for someone, and it was not the pack. Secondary asset: show <em>i13-carotid-detail.webp</em> via Image Popout when the wounds are measured with calipers.</li>
+            <li><strong>I14 — Telex Dispatch: Registry 16</strong> (her satchel / telegraph desk). Egg: the legible fragment orders the specimen flown to a Carpathian facility — PROTECT THE BLOODLINE; the perforation pattern is Amsterdam's machine; a second melted strip preserves one unburned line: <em>RENDEZVOUS "BASARAB"</em> — the word that names the aircraft's owner.</li>
+            <li><strong>I15 — Flight Clearance: YR-BAS</strong> (telegraph desk). Egg: the owner line reads Basarab Holdings S.A. (Bucharest); the cargo line reads "Ecclesiastical Medical Supplies — Ten Consignment Units"; departure 01:15; the cancelled form beneath means the flight waited — not a diversion, a plan.</li>
+            <li><strong>I38 — Two Fingers, Calcified</strong> (full forensics, 1 shift). Egg: radial fracture lines — the bone aged a century in seconds, CT1's signature, identical to the crucible ash in I32; a surviving whorl ridge is a printable partial to pursue into Mission 2; the melted ring fused into the ash carries the Basarab dragon crest — one of the pack touched the spill and died for it.</li>
+            <li><strong>I40 — Her Effects, Laid Out</strong> (her satchel, 1 shift). Egg: the Talamasca card is the last nail — after I5, I14, and I25 it is incontrovertible; the toll stub is time-stamped ninety minutes before death — she drove straight here from Turin; a ring of grey animal hair is wound around the Beretta's trigger guard: something checked her weapon before she could reach it.</li>
+            <li><strong>I44 — Consignment Markings</strong> (service hangar). Egg: the chalk tally reads 10/12 — two phials were unaccounted for before the aircraft left Europe (one sold, I6; one broken, I13); under the fresh Basarab stencil, ghosted through the paint, an older mark reads VATICAN MUSEUMS — STOREROOM 9: the crate carrying the cure out of Italy was itself Vatican property.</li>
+            <li><strong>I45 — Airfield Briefing Sheet</strong> (dispatch desk, or Wayfinder packet). Egg: the crossed-out second aircraft is decoy traffic — the cell that chases it loses the forty minutes that matter; the handwritten confirmation is dated the same night as the flight clearance (I15): the plan was locked before the slaughter, not after.</li>
+            <li><strong>I39 — Tarmac, 01:15</strong> (perimeter fence, the cost of the last hours). Egg: the tail reads YR-BAS; the crate carries the dragon crest; the Elder looking down the lens is not a mistake — the pack knows the Covenant is watching and has stopped caring.</li>
+            <li><strong>I42 — L'Entità Team, 1987</strong> (Day 2 HQ packet, or recovered prints). Egg: the watch-checking operative wears an issue Vatican gendarme wristwatch — the same procurement chain as the gate detail in I18; the car is SCV 47, the recurring tail (I31, I33); the cylinder at the third man's belt matches the phosphorus canister in the operative's file portrait — by the time this roll is developed, the squad is already armed.</li>
+          </ul>
+          <p><strong>Fallbacks:</strong> I38, I42, I44 deliver Day 2; I39, I45 deliver Day 1. If the cell arrives late, the priest, the ledger, and the photographs still deliver every card — the story survives without a single roll.</p>
+          <p><strong>Set-piece:</strong> the tarmac. Rain on the perimeter fence, props turning, a crate that once belonged to the Vatican Museum, and an ancient thing in a long coat that turns and looks at the cell like it owns the night. Whatever happens next — intervention, documentation, or helpless watching — the canonical image is I39: one photograph, then the lights lift, and the case is over. If the cell blundered through the abbey instead, close on the military police cordon and let the cost be counted in shifts and impounded evidence: the mission ends either way, only its price differs.</p>
+
+    - name: 'Epilogue — The Accounting & The Road to Mission 2'
+      type: text
+      text:
+        content: |
+          <h2>Epilogue — The Accounting & The Road to Mission 2</h2>
+          <p><strong>The case as it closes:</strong> the mission ends on the empty tarmac with the emptied attaché left behind — the phials are gone, the cure is in vampire hands, and the Covenant is left holding the blame for a fire it did not start. Play the aftermath through three lenses:</p>
+          <ul>
+            <li><strong>If the phials left (canonical):</strong> feral carriers multiply across Northern Italy as the vector's market spreads; the Holy Alliance launches its sanitization campaign; the Covenant's report becomes a political weapon in the wrong hands. The board's worst-case resolution is now the world's problem — Mission 2's problem.</li>
+            <li><strong>If the cell stopped the flight:</strong> the Covenant holds ten vessels of a cure it finally understands. The ethical question lands on the players, not the DA: use the cure as a weapon (Sabbatini's "iron nail" argument, I17), study it, or destroy it. Whatever they choose, the Order of the Talamasca knows the cure exists — and so does the Prefect.</li>
+            <li><strong>Partial outcomes:</strong> one canister, one witness, one photograph. Any fraction of the cargo is enough for Mission 2; the cell should leave the table with exactly one unanswered question.</li>
+          </ul>
+          <p><strong>The Rome accounting (L7):</strong> if the cell brings the file back to the Palace of the Congregation, stage the green-lamp meeting — Sabbatini at his desk, a dossier already stamped REGISTRY 16 — AMSTERDAM, negotiating as a statesman rather than answering as a suspect. The Church's position has not changed since 1582: the cure exists to be held, not used — a nail driven into the bloodline's head. Retrieve on the way in or out:</p>
+          <ul>
+            <li><strong>I41 — The Green Lamp</strong> (L7 approach surveillance). Egg: the reflections show three more standing figures — and this time they are in the room with the cell.</li>
+            <li><strong>I42 — L'Entità Team, 1987</strong> (recovered prints). Egg: SCV 47 at the kerb again — the car that has been in every city the case has visited — and a phosphorus canister on a belt.</li>
+            <li><strong>I17 — The Basarab Extortion File</strong> (if it surfaced at HQ). Egg: on the box lid's underside, an ouroboros-eye has been scorched into the tin — someone else has read this file. Let the players ask who.</li>
+          </ul>
+          <p><strong>What becomes of the cast:</strong></p>
+          <ul>
+            <li><strong>Monsignor Corvi</strong> — if he lives, he gets what he wanted: Rome on record, knowing what the cure actually is. Whether that saves or damns him is the cell's report to write.</li>
+            <li><strong>Sister Claudia Vane</strong> — the burial debate: Talamasca agent, Covenant operative, or a woman whose handwriting never trembled once in a year of deceiving everyone she met. Her last message home is with Amsterdam now.</li>
+            <li><strong>Dr. Graf</strong> — the liquidation order stands. If the cell left her behind, O1M4's fallout arrives in the epilogue: a burned clinic wing and a name to be answered for.</li>
+            <li><strong>Kurt Hausmann</strong> — still out there, a hunter who has learned to stay out of the light. The feral banker does not appear in the epilogue unless the DA wants a haunting: livestock, disturbed graves, and cold cases along the forest edge.</li>
+            <li><strong>The Grey Watcher</strong> — leaves the card and the negatives, unmasked and unaccounted for. He is the campaign's promise that someone has been reading the same files all along.</li>
+            <li><strong>The Turin Intermediary</strong> — wires congratulations to Bucharest and closes the account. Profit, not pride, was always the point.</li>
+          </ul>
+          <p><strong>The hand-off:</strong> end the session on the empty tarmac and the rain — then hand the table the Concordat Requisition (its own journal page) and the road to Romania: Cluj-Napoca, the Apuseni foothills, a private Basarab sanatorium, and ten phials that must never be used. The board's remaining days belong to Mission 2.</p>
+          <p><strong>DA checklist:</strong> log the final board state — which milestones fired, which tracks advanced; record which cards the cell found on-site versus via fallback packets; note every unanswered question the players voiced — each one is a Mission 2 thread. File the case.</p>
+
+    - name: 'Image Egg Index — All 45 Cards'
+      type: text
+      text:
+        content: |
+          <h2>Image Egg Index — All 45 Cards</h2>
+          <p>Quick reference for the DA: every information card and the hidden details in its artwork. Cards whose <em>fallback</em> day is mentioned in the day entries above can be delivered via HQ packet if the cell misses them on-site — the image is the reward either way. When a player examines a card's art, answer with the egg, not the summary.</p>
+          <table>
+            <tr><th>Card</th><th>Egg in the art</th></tr>
+            <tr><td><strong>I1 — The Burnt Electromagnet Relay</strong></td><td>Sulfurous residue in the slag; the plinth is scorched from <em>beneath</em> — the failure came up through the cradle.</td></tr>
+            <tr><td><strong>I2 — CCTV Reel #87-04</strong></td><td>Corvi casts a faint shadow but the case throws opaque black; a nun's veil at the frame edge, forty metres behind, in no report.</td></tr>
+            <tr><td><strong>I3 — The Excised Codex Register</strong></td><td>Shelf-mark MS-Vat-Heb-418; the red card (1582, XII-SANG-00) has no dust — it was placed recently.</td></tr>
+            <tr><td><strong>I4 — The Polybius Vulgate Cipher</strong></td><td>The blotter's mirror-writing already reads GENEVA and 4409; a Roma Termini ticket beneath it.</td></tr>
+            <tr><td><strong>I5 — The Watcher's Hallmark</strong></td><td>Three cities circled in pencil before the case existed; the stamp's second impression shows long use.</td></tr>
+            <tr><td><strong>I6 — The Escrow Transfer Slip</strong></td><td>"1 of 12" with a clerk's pencilled tick; the fold where it lived in a jacket.</td></tr>
+            <tr><td><strong>I7 — Patient File 09-Hausmann</strong></td><td>The gold wristwatch and clinic logo are thread-ends to the feral predator and the escrow letterhead.</td></tr>
+            <tr><td><strong>I8 — The Swiss PTT Intercept Tape</strong></td><td>A second tape box in the same neat hand as I3's red card; the final line circles a Turin extension.</td></tr>
+            <tr><td><strong>I9 — Histopathology Log</strong></td><td>"Foreign graft — not infection"; a second polaroid intrudes — she kept one.</td></tr>
+            <tr><td><strong>I10 — The Vector Mechanics (CT1)</strong></td><td>Batch numbers tie to 1 of 12; "six shifts" conversion window — the same clock the board counts down.</td></tr>
+            <tr><td><strong>I11 — The Resonance Field (CT2)</strong></td><td>A blood bag swollen past bursting — proximity decay; the 02:40 sharps-bin line; the thermometer at I16's quiescence threshold.</td></tr>
+            <tr><td><strong>I12 — The Ebionite Palimpsest</strong></td><td>The underlayer is the actual Gospel of the Twelve; <em>sanguis remedium, non sacramentum</em>; a Hotel Bristol matchbook pins his trail.</td></tr>
+            <tr><td><strong>I13 — The Novara Slaughter</strong></td><td>White calcified metacarpals, one with a legible whorl; a broken phial in the tiles; the carry-strap cut; the unused second wine glass. Popout asset shows the carotid detail.</td></tr>
+            <tr><td><strong>I14 — Telex Dispatch: Registry 16</strong></td><td>PROTECT THE BLOODLINE; Amsterdam perforations; one unburned line survives the melt: RENDEZVOUS "BASARAB".</td></tr>
+            <tr><td><strong>I15 — Flight Clearance: YR-BAS</strong></td><td>Basarab Holdings; "Ten Consignment Units"; 01:15; the cancelled form beneath means the flight waited.</td></tr>
+            <tr><td><strong>I16 — The Quiescence Formula (CT3)</strong></td><td>The kit in the photograph is already installed in Zurich — Rome's protocol precedes the crime.</td></tr>
+            <tr><td><strong>I17 — The Basarab Extortion File</strong></td><td>The "iron nail" memo; an ouroboros-eye scorched into the tin's underside — someone else has read this file.</td></tr>
+            <tr><td><strong>I18 — Second Descent</strong></td><td>The ouroboros-eye signet on the descending hand; the lift already called from below; 04:02 matches P7's pencil line.</td></tr>
+            <tr><td><strong>I19 — The Name Below the Plinth</strong></td><td>The case's scrape outline: opened in situ more than once; the plaque predates the 1964 case.</td></tr>
+            <tr><td><strong>I20 — The Clean Drill</strong></td><td>Professional swarf, not panic; the kneel used twice; Claudia's compact — she searched the room first.</td></tr>
+            <tr><td><strong>I21 — Diplomatic Passport</strong></td><td>Chiasso stamp two hours after the gate film; <em>accompagné</em> — a companion the reports omit; same tie as 1962.</td></tr>
+            <tr><td><strong>I22 — The Archive, 1962</strong></td><td>The mentor's ouroboros-eye ring; the XII-SANG folder between them; a red X recent enough to still matter.</td></tr>
+            <tr><td><strong>I23 — Night Deposit</strong></td><td>The Watcher's reflection in the marble; the bank cloth under the case; the calendar reads 17 September 1987.</td></tr>
+            <tr><td><strong>I24 — Bank Staff Record</strong></td><td>The access stamp that explains why Mercier was chosen; the transfer carbon (CHF 500,000, 4409-C) he copied for himself.</td></tr>
+            <tr><td><strong>I25 — The Ledger Page</strong></td><td>Hausmann tried to buy more than one phial; under the correction fluid: "Vane, C." at 02:10.</td></tr>
+            <tr><td><strong>I26 — The 06:40 to Geneva</strong></td><td>Same raincoat, same newspaper; EC 30 ROMULUS; the Vatican courier label on the luggage trolley.</td></tr>
+            <tr><td><strong>I27 — Intake Photograph, 09-H</strong></td><td>The gold watch returns on the feral predator; the clinic logo matches the escrow letterhead.</td></tr>
+            <tr><td><strong>I28 — Photophobia Test 02:40</strong></td><td>The XII-1/12 batch tag; the light switch taped over; the nurse's withdrawing hand.</td></tr>
+            <tr><td><strong>I29 — The Injection Log</strong></td><td>Vaduz trust account equals the escrow account in I6; room 3.14 rhymes with the vault's 03:14.</td></tr>
+            <tr><td><strong>I30 — Ward 3, Corridor Camera</strong></td><td>The ceiling silhouette; the spill trail ends under a service duct — ventilation, not doors; 02:40.</td></tr>
+            <tr><td><strong>I31 — Sonnenberg, Observed</strong></td><td>SCV 47 beneath the clinic; the Watcher's newspaper under the camera; one window taped from the inside.</td></tr>
+            <tr><td><strong>I32 — Daylight Test: Combustion</strong></td><td>The ash matches the Novara fingers; the quiescence kit already on the bench; 07:12 — twenty minutes after sunrise.</td></tr>
+            <tr><td><strong>I33 — Lingotto, Rooftop, Rain</strong></td><td>Vane between Corvi and the booth's only door; the second case-sized rectangle (his papers); SCV 47 below.</td></tr>
+            <tr><td><strong>I34 — Assembly Hall, Camera 6</strong></td><td>The deadbolt taped — the case has been forced or dropped; Corvi casts no shadow in the puddles.</td></tr>
+            <tr><td><strong>I35 — Breve Apostolicum, 1582</strong></td><td>The shelf-mark ties to I3; the seal was cracked, opened, and repaired; the marginalia name XII-SANG-00.</td></tr>
+            <tr><td><strong>I36 — Suppressed Index Card</strong></td><td>"Corrosive to ferrous circuitry" is the whole plan; the handling order came from the Prefect's office.</td></tr>
+            <tr><td><strong>I37 — The Empty Needle</strong></td><td>A clean, deliberate cut; ochre sheath fibres inside; the scorch is fresh — snapped recently and near here.</td></tr>
+            <tr><td><strong>I38 — Two Fingers, Calcified</strong></td><td>Fracture lines match I32's crucible ash; a printable whorl partial; the dragon-crest ring melted into the ash.</td></tr>
+            <tr><td><strong>I39 — Tarmac, 01:15</strong></td><td>Tail reads YR-BAS; the crate carries the dragon crest; the Elder looks down the lens — the pack has stopped caring.</td></tr>
+            <tr><td><strong>I40 — Her Effects, Laid Out</strong></td><td>The Talamasca card; the toll stub ninety minutes before death; grey animal hair around the trigger guard.</td></tr>
+            <tr><td><strong>I41 — The Green Lamp</strong></td><td>REGISTRY 16 — AMSTERDAM already on Sabbatini's desk; the operative's grey coat; three figures in the reflections.</td></tr>
+            <tr><td><strong>I42 — L'Entità Team, 1987</strong></td><td>A Vatican gendarme wristwatch; SCV 47 at the kerb; the phosphorus canister on the third man's belt.</td></tr>
+            <tr><td><strong>I43 — The Case, 1964</strong></td><td>The plaque was stamped before the case was built; "destroyed if opened"; the supervisor is I22's prelate.</td></tr>
+            <tr><td><strong>I44 — Consignment Markings</strong></td><td>Chalk tally 10/12; VATICAN MUSEUMS — STOREROOM 9 ghosted beneath the fresh paint.</td></tr>
+            <tr><td><strong>I45 — Airfield Briefing Sheet</strong></td><td>The crossed-out decoy aircraft; the handwritten confirmation dated the same night as the clearance in I15.</td></tr>
+          </table>
+          <p><em>DA note: the egg index is deliberately shallow — one sentence per card. The full readings (retrieval, what the image shows, and how to use it) live in each card's own DA notes on the Information Web.</em></p>

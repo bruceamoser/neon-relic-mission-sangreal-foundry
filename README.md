@@ -25,6 +25,7 @@ A stolen Vatican attaché carrying the Twelve Phials of Gethsemane is brokered a
 | NPCs | Corvi, Claudia Vane, Hausmann, Dr. Graf, Sabbatini, Ghiberti, and more — 16 illustrated actors |
 | Sites | Vatican Vault IX, Geneva depository, Sonnenberg clinic, Lingotto works, Novara safehouse |
 | Relics | The attaché, the Lodestone of St. Jude, the Veil of Veronica's Thread |
+| Journals | Player field notes, the Mission 2 teaser, and the **DA Walkthrough** — the full day-by-day run of the case (who the party meets, what every person and place yields, and the easter eggs hidden in all 45 card images) |
 | Scene | *Sangreal Landing* — module title/landing scene with landing-page behavior |
 
 ## Development
