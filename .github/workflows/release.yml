@@ -74,18 +74,28 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TAG="${{ github.event.release.tag_name || steps.version.outputs.tag }}"
-          ZIP="./${{ steps.id.outputs.id }}.zip"
+          ZIP_NAME="${{ steps.id.outputs.id }}.zip"
+          ZIP="./${ZIP_NAME}"
           MANIFEST="./dist/${{ env.TYPE }}.json"
-          for attempt in 1 2 3; do
-            echo "Upload attempt $attempt for $TAG"
-            if gh release upload "$TAG" "$ZIP" "$MANIFEST" --clobber; then
-              echo "Upload succeeded on attempt $attempt"
-              exit 0
-            fi
-            sleep 15
-          done
-          echo "Upload failed after 3 attempts" >&2
-          exit 1
+          existing="$(gh release view "$TAG" --json assets -q '.assets[].name' || true)"
+          upload() {
+            for attempt in 1 2 3; do
+              echo "Upload attempt $attempt: $1"
+              if gh release upload "$TAG" "$1" --clobber; then
+                return 0
+              fi
+              sleep 15
+            done
+            return 1
+          }
+          if printf '%s\n' "$existing" | grep -qx "$ZIP_NAME"; then
+            echo "Zip '$ZIP_NAME' is already attached — skipping large-asset upload."
+          else
+            echo "Zip '$ZIP_NAME' missing — attaching from CI build."
+            upload "$ZIP" || { echo "Zip upload failed after 3 attempts" >&2; exit 1; }
+          fi
+          upload "$MANIFEST" || { echo "Manifest upload failed after 3 attempts" >&2; exit 1; }
+          echo "Artifacts verified for $TAG"
 
       - name: 📋 Summary
         run: |
