@@ -159,6 +159,19 @@ function resolveCrossReferences(doc, registry) {
     system[uuidField] = [...new Set([...existing, ...uuids])];
     delete system[slugField];
   }
+
+  // Nested organization tracks on the case board may reference an Item or
+  // Actor by authoring slug (`orgSlug`) — resolve to a compendium UUID.
+  const orgs = system.organizations;
+  if (Array.isArray(orgs)) {
+    for (const org of orgs) {
+      if (!org || typeof org !== 'object' || org.orgSlug === undefined) continue;
+      const ref = registry?.get(org.orgSlug);
+      if (!ref) throw new Error(`${doc._id}: unresolved orgSlug "${org.orgSlug}"`);
+      org.orgUuid = ref.uuid;
+      delete org.orgSlug;
+    }
+  }
   return system;
 }
 
@@ -341,6 +354,43 @@ export function transformDocument(doc, { registry = null } = {}) {
     }
 
     return entries;
+  }
+
+  if (doc.type === 'scene' || doc.type === 'Scene') {
+    /** @type {object} */
+    const scene = {
+      _id: id,
+      name: doc.name,
+      navName: doc.navName || '',
+      navigation: doc.navigation ?? true,
+      navOrder: doc.navOrder ?? 0,
+      active: false,
+      initial: doc.initial ?? false,
+      background: {
+        src: doc.background?.src || '',
+        tint: doc.background?.tint || '#ffffff',
+        alpha: doc.background?.alpha ?? 1,
+        scaleX: doc.background?.scaleX ?? 1,
+        scaleY: doc.background?.scaleY ?? 1,
+      },
+      width: doc.width || 1920,
+      height: doc.height || 1080,
+      padding: doc.padding ?? 0,
+      thumb: doc.thumb || doc.background?.src || '',
+      globalLight: doc.globalLight ?? true,
+      darkness: doc.darkness ?? 0,
+      darknessLevel: doc.darknessLevel ?? doc.darkness ?? 0,
+      tokenVision: doc.tokenVision ?? false,
+      grid: { type: doc.grid?.type ?? 0, size: doc.grid?.size ?? 100 },
+      flags: doc.flags || {},
+      folder: doc.folder || null,
+      sort: doc.sort || 0,
+      ownership: doc.ownership || { default: 0 },
+      _stats: doc._stats || {},
+    };
+    if (doc.fog) scene.fog = doc.fog;
+    if (doc.environment) scene.environment = doc.environment;
+    return [{ key: `!scenes!${id}`, data: scene }];
   }
 
   return null;

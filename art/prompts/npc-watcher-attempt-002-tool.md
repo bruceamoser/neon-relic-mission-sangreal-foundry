@@ -1,0 +1,2 @@
+Use case: precise-object-edit. Image 1 is the edit target. Remove ONLY the car in the right background, replacing its footprint with the existing cobblestone street and softly blurred pedestrians. No vehicle or license plate. Preserve the man, exact face, grey raincoat, gold serpent-eye signet, hands, newspaper, cafe table, cup and Roman background.
+Preserve original dimensions and analog photographic texture. Create exactly ONE standalone image. No panels or comparison views.

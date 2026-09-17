@@ -20,6 +20,8 @@ import { ACTOR_TYPES, ITEM_TYPES } from './lib/pack-lib.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC_PACKS = path.join(ROOT, 'src', 'packs');
+const SRC_ASSETS = path.join(ROOT, 'src');
+const MODULE_ASSET_PREFIX = 'modules/neon-relic-mission-sangreal/';
 
 /* ------------------------------------------ */
 /*  Enums (mirrors neon-relic data models)    */
@@ -60,6 +62,26 @@ const UUID_ARRAY_FIELDS = [
 
 const isStringArray = (v) => Array.isArray(v) && v.every((x) => typeof x === 'string');
 const isInt = (v) => Number.isInteger(v);
+
+/**
+ * Verify that a module-relative asset path exists in `src/assets`.
+ * Paths pointing outside the module (system/core icons) are ignored.
+ * @param {unknown} p
+ * @param {string} label
+ * @param {string[]} errors
+ * @param {{optional?: boolean}} [options]
+ */
+function checkImageRef(p, label, errors, { optional = true } = {}) {
+  if (typeof p !== 'string' || p.trim() === '') {
+    if (!optional) errors.push(`${label}: missing image path`);
+    return;
+  }
+  if (!p.startsWith(MODULE_ASSET_PREFIX)) return;
+  const rel = p.slice(MODULE_ASSET_PREFIX.length);
+  if (!fs.existsSync(path.join(SRC_ASSETS, rel))) {
+    errors.push(`${label}: image not found in src/assets → ${rel}`);
+  }
+}
 
 /* ------------------------------------------ */
 /*  Per-document validation                   */
@@ -131,6 +153,7 @@ function validateDocument(doc, errors) {
         errors.push(`${label}: system.${field} must be an array of strings`);
       }
     }
+    checkImageRef(doc.img, label, errors);
     return;
   }
 
@@ -141,6 +164,8 @@ function validateDocument(doc, errors) {
       checkRange(sys.disposition, 'npc.disposition', label, errors, { optional: true });
     }
     if (doc.type === 'mob') checkRange(sys.memberCount, 'mob.memberCount', label, errors, { optional: true });
+    checkImageRef(doc.img, label, errors);
+    checkImageRef(doc.prototypeToken?.texture?.src, `${label}: prototypeToken`, errors);
     return;
   }
 
@@ -179,6 +204,14 @@ function validateDocument(doc, errors) {
       }
       if (typeof e?.result !== 'string' || e.result.trim() === '') errors.push(`${label}: entries[${i}] missing "result"`);
     });
+    return;
+  }
+
+  // --- Scenes -----------------------------------------------------------
+  if (doc.type === 'scene' || doc.type === 'Scene') {
+    checkImageRef(doc.background?.src, `${label}: background`, errors, { optional: false });
+    if (doc.width !== undefined && !isInt(doc.width)) errors.push(`${label}: scene.width must be an integer`);
+    if (doc.height !== undefined && !isInt(doc.height)) errors.push(`${label}: scene.height must be an integer`);
     return;
   }
 

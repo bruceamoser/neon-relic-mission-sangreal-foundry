@@ -1,0 +1,98 @@
+asset: N07
+attempt: 1
+stage: visual
+image: art/work/N07/attempt-001.png
+image_sha256: e5b7351dd74888fdc41781d4723833a8f9f9f3c72173b2fe49e3614dc1282e9b
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T20:10:06.405089+00:00'
+eggs:
+  N07-E1:
+    status: PASS
+    notes: Card motto reads We watch, and we are always there.
+  N07-E2:
+    status: PASS
+    notes: TORINO–NOVARA toll stub shows 22:15, ninety minutes before approved assumed death at 23:45.
+  N07-E3:
+    status: PASS
+    notes: Grey hair wound around trigger guard is visible.
+  N07-E4:
+    status: PASS
+    notes: Serpent-around-eye motif printed on card.
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  identity:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  props:
+    status: FAIL
+    notes: Unrequested railway pass and UBS key tag introduce additional clues; remove.
+  motifs:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  period:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  medium:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  hands:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  faces:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers,
+      transit folio, keys, toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+exact_text: {}
+overall: NEEDS_EDIT
+notes:
+- 'Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers, transit folio, keys,
+  toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+- Unrequested railway pass and UBS key tag introduce additional clues; remove.

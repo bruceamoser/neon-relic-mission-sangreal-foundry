@@ -1,0 +1,88 @@
+asset: relic-veronica
+attempt: 1
+stage: final
+image: art/work/relic-veronica/attempt-001.png
+image_sha256: e735f84a8778849dc56a8b9703e4301581aeca583203a937c3fc7d8ff2b9e761
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T19:50:26.311962+00:00'
+eggs:
+  relic-veronica-E1:
+    status: PASS
+    notes: Thread visibly narrowed and frayed with residual connecting fibers; needle eye holds thread.
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  identity:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  props:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  motifs:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  period:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  medium:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  aspect_ratio:
+    status: PASS
+    notes: (1122, 1402); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  hands:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  faces:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close
+      light.'
+exact_text: {}
+overall: APPROVED
+notes:
+- Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close light.

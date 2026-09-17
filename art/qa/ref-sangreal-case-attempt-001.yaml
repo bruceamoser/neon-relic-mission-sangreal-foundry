@@ -1,0 +1,72 @@
+asset: ref-sangreal-case
+attempt: 1
+stage: visual
+image: art/work/ref-sangreal-case/attempt-001.png
+image_sha256: 126ca1d056e19f2f1f6e0d048eb836abe80fded90b5989b8cbf36f10f0b067da
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T16:46:01.435738+00:00'
+eggs:
+  ref-sangreal-case-E1:
+    status: AMBIGUOUS
+    notes: Case, dual mechanical combination locks, leather handle and tarnished plaque visible; exact SANGREAL
+      lettering awaits separate composite.
+checks:
+  composition:
+    status: PASS
+    notes: One closed case on a wooden evidence table, ruler and marker at lower edge; no panels.
+  identity:
+    status: PASS
+    notes: Internal prop reference; no person depicted.
+  props:
+    status: PASS
+    notes: Brushed metal shell, two distinct combination locks and worn leather handle/strap visible.
+  motifs:
+    status: PASS
+    notes: Small tarnished brass plaque with four corner fixings, intentionally blank before compositing.
+  period:
+    status: PASS
+    notes: Analog evidence presentation with old wooden furniture and mechanical luggage hardware; no post-1987
+      objects visible.
+  medium:
+    status: PASS
+    notes: Direct flash, muted tobacco/olive tones, scratched surfaces and visible grain.
+  aspect_ratio:
+    status: PASS
+    notes: 1536 by 1024; exact 3:2 and 1024 short edge.
+  clue_visibility:
+    status: PASS
+    notes: Both locks and blank plaque are unobstructed.
+  anatomy:
+    status: PASS
+    notes: No people or anatomical subject.
+  hands:
+    status: PASS
+    notes: No hands depicted.
+  faces:
+    status: PASS
+    notes: No faces depicted.
+  duplicates:
+    status: PASS
+    notes: One case, one ruler, one marker; paired locks are intentional.
+  modern_objects:
+    status: PASS
+    notes: No digital devices, modern vehicle or modern lighting fixtures visible.
+  unintended_text:
+    status: PASS
+    notes: Only evidence marker numeral and small ruler/lock marks; plaque blank as requested.
+  vehicle_geometry:
+    status: PASS
+    notes: No vehicle depicted.
+  symbol_geometry:
+    status: PASS
+    notes: No heraldic symbol required; rectangular plaque and fasteners plausible.
+  numbers:
+    status: PASS
+    notes: Marker 1 is legible; no gameplay-critical numeric text required.
+  object_geometry:
+    status: PASS
+    notes: Case edges, lid seam, handle and corner hardware connect plausibly.
+exact_text: {}
+overall: APPROVED
+notes: []

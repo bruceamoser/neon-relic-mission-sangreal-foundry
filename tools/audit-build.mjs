@@ -30,12 +30,13 @@ const SRC_PACKS = path.join(ROOT, 'src', 'packs');
 /** Expected top-level document counts per pack (children excluded). */
 const EXPECTED_DOCS = {
   'sangreal-briefs': 4,
-  'sangreal-npcs': 11,
-  'sangreal-clues': 17,
+  'sangreal-npcs': 16,
+  'sangreal-clues': 45,
   'sangreal-sites': 9,
   'sangreal-relics': 10,
   'sangreal-tables': 1,
   'sangreal-journals': 3,
+  'sangreal-scenes': 1,
 };
 
 /** Expected child-entry counts (journal pages, table results). */
@@ -108,7 +109,7 @@ async function audit() {
     }
 
     for (const key of keys) {
-      const ok = /^!(items|actors|journal|journal\.pages|tables|tables\.results|macros)!/u.test(key);
+      const ok = /^!(items|actors|journal|journal\.pages|tables|tables\.results|macros|scenes)!/u.test(key);
       if (!ok) errors.push(`${pack}: unexpected key format "${key}"`);
     }
 

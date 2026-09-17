@@ -1,0 +1,115 @@
+asset: R08
+attempt: 1
+stage: visual
+image: art/work/R08/attempt-001.png
+image_sha256: 49b706e122449e60c2ae48b07597f557215d87132a5a53f50bec7b77d6eda60c
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:17:35.124463+00:00'
+eggs:
+  R08-E1:
+    status: AMBIGUOUS
+    notes: CHIASSO and 06:14 deferred.
+  R08-E2:
+    status: AMBIGUOUS
+    notes: Handwriting present; acute accent to finish exact accompagné.
+  R08-E3:
+    status: PASS
+    notes: Age/session interpreted under Bruce resolution; tie is continuity reference for R09.
+checks:
+  composition:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  identity:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  props:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  motifs:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  period:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  medium:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  aspect_ratio:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  clue_visibility:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  anatomy:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  hands:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  faces:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  duplicates:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  modern_objects:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  unintended_text:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  vehicle_geometry:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  symbol_geometry:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  numbers:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+  object_geometry:
+    status: PASS
+    notes: Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank
+      data fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has
+      paired narrow pale diagonal stripes.
+exact_text: {}
+overall: APPROVED
+notes:
+- Vertical aged passport with frontal Corvi portrait matching face at 58, plain backdrop, flat flash, blank data
+  fields and admission stamp center. Marginal handwritten accompagne needs final acute accent. Tie has paired narrow
+  pale diagonal stripes.

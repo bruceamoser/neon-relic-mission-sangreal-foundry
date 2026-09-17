@@ -1,0 +1,99 @@
+asset: Z06
+attempt: 1
+stage: final
+image: art/composite/Z06-attempt-001.webp
+image_sha256: 10273759ec57cb3d2fbea1f290c983811f4b35a3a7a10d27b85e6c4b5dfc8827
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T13:24:46.352097+00:00'
+eggs:
+  Z06-E1:
+    status: PASS
+    notes: Lancia carries SCV 47.
+  Z06-E2:
+    status: PASS
+    notes: Thermos, camera, and newspaper occupy the foreground dash.
+  Z06-E3:
+    status: PASS
+    notes: Third-floor tape has one inward black gap.
+checks:
+  composition:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  identity:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  props:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  motifs:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  period:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  medium:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  aspect_ratio:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  clue_visibility:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  anatomy:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  hands:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  faces:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  duplicates:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  modern_objects:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  unintended_text:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  vehicle_geometry:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  symbol_geometry:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  numbers:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+  object_geometry:
+    status: PASS
+    notes: Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos,
+      long lens, and newspaper; the third-floor sheeting has one inward gap.
+exact_text:
+  SCV 47:
+    status: PASS
+    notes: All canonical wording is visibly present on the final composite and bound to its physical surface.
+overall: APPROVED
+notes:
+- Final telephoto stakeout image inspected. The grey Lancia plate reads SCV 47; the dash contains the thermos, long
+  lens, and newspaper; the third-floor sheeting has one inward gap.

@@ -1,0 +1,17 @@
+_id: sangreal-ic19
+name: I19 — The Name Below the Plinth
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i19-plinth-sign-macro.webp
+system:
+  cardId: I-19
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l1
+  content: <p>extreme close-up of the tarnished brass sign bolted below the empty plinth — one word, `SANGREAL`
+    — with screw holes and green verdigris.</p>
+  hqFallback: 12
+  daNotes: <p>the plinth face is scratched by a case-shaped outline beneath the sign&#x27;s lower screw, a scrap
+    of lead-antimony foil is trapped — the case that sat here had been opened *in situ* before the theft.</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

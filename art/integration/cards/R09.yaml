@@ -1,0 +1,17 @@
+_id: sangreal-ic22
+name: I22 — The Archive, 1962
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i22-corvi-1962.webp
+system:
+  cardId: I-22
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l2
+  content: <p>B/W archival photo — a much younger Corvi beside an older prelate at the Secret Archives, both in
+    cassocks, both holding catalog cards.</p>
+  hqFallback: 12
+  daNotes: <p>the older prelate wears the ouroboros-eye ring (the lineage of watchers inside the Vatican) on the
+    table between them lies a folder marked `XII-SANG` someone has drawn a red X over the prelate&#x27;s face since.</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

@@ -1,0 +1,19 @@
+_id: sangreal-ic44
+name: I44 — Consignment Markings
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i44-basarab-crate.webp
+system:
+  cardId: I-44
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l6
+  content: '<p>the metal cargo crate photographed after a partial unload: stencil marks, chalk manifest numbers,
+    customs ties.</p>'
+  hqFallback: 12
+  daNotes: '<p>the crate carries the dragon-wolf stencil and `BASARAB HOLDINGS S.A.` stencilled letters the chalk
+    tally reads `10/12` — two phials unaccounted for before the aircraft even leaves Europe a customs tie is intact
+    but a second, older mark beneath the stencil shows through: `VATICAN MUSEUMS — storeroom 9` — the crate was
+    in the Vatican before it was in Romania. Recurring Egg-H: white calcified ash visible in sealed crate refuse.</p>'
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

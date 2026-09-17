@@ -1,0 +1,96 @@
+asset: T06
+attempt: 1
+stage: final
+image: art/work/T06/attempt-001.png
+image_sha256: edf5751c33d7f7487e5615b3607dc0c0b2eabba1f39d0ab09c88ac40014fb268
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T16:54:45.851718+00:00'
+eggs:
+  T06-E1:
+    status: PASS
+    notes: Bead halves show a deliberate clean cut.
+  T06-E2:
+    status: PASS
+    notes: Ochre fibers bridge the empty cavity.
+  T06-E3:
+    status: PASS
+    notes: Narrow dark scorch line follows outer bead surface.
+checks:
+  composition:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  identity:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  props:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  motifs:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  period:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  medium:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  aspect_ratio:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  clue_visibility:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  anatomy:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  hands:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  faces:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  duplicates:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  modern_objects:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  unintended_text:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  vehicle_geometry:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  symbol_geometry:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  numbers:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+  object_geometry:
+    status: PASS
+    notes: Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale
+      unit to cm and removed production ID from evidence tag.
+exact_text: {}
+overall: APPROVED
+notes:
+- Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale unit to
+  cm and removed production ID from evidence tag.

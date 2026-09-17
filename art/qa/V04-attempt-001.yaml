@@ -1,0 +1,95 @@
+asset: V04
+attempt: 1
+stage: visual
+image: art/work/V04/attempt-001.png
+image_sha256: e984cd38757ff55461d60e19dd642aa4f8c82fca70219c3b22dce2280c1d88d6
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T20:10:10.100791+00:00'
+eggs:
+  V04-E1:
+    status: PASS
+    notes: SANGREAL already engraved on separate brass plaque on workbench.
+  V04-E2:
+    status: PASS
+    notes: Pinned order reads XII phials — Gethsemane lot — destroyed if opened.
+  V04-E3:
+    status: PASS
+    notes: Supervisor matches older right-hand prelate of R09, slightly older; no red X carried into workshop photograph.
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  identity:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  props:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  motifs:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  period:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  medium:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  hands:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  faces:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+exact_text: {}
+overall: APPROVED
+notes:
+- '1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises; separate brass
+  plaque and pinned order have readable physical lettering.'

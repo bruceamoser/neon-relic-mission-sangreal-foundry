@@ -1,0 +1,102 @@
+asset: Z07
+attempt: 1
+stage: final
+image: art/composite/Z07-attempt-001.webp
+image_sha256: d4879e7cfd00b9046f448547f7614e4f0888fb8b1112093c19f087266cd24528
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T13:24:47.272876+00:00'
+eggs:
+  Z07-E1:
+    status: PASS
+    notes: Nearest blood bags are spoiled and one ruptured dark.
+  Z07-E2:
+    status: PASS
+    notes: Chart records the subject 09-H sharps-bin incident at 02:40.
+  Z07-E3:
+    status: PASS
+    notes: Chart and thermometer establish 4 °C.
+checks:
+  composition:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  identity:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  props:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  motifs:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  period:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  medium:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  aspect_ratio:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  clue_visibility:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  anatomy:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  hands:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  faces:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  duplicates:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  modern_objects:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  unintended_text:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  vehicle_geometry:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  symbol_geometry:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  numbers:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+  object_geometry:
+    status: PASS
+    notes: Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial;
+      the wall chart records the 09-H sharps-bin incident at 02:40 and 4 °C.
+exact_text:
+  subject 09-H attempted to drink from the sharps bin, 02:40:
+    status: PASS
+    notes: All canonical wording is visibly present on the final composite and bound to its physical surface.
+  4 °C:
+    status: PASS
+    notes: All canonical wording is visibly present on the final composite and bound to its physical surface.
+overall: APPROVED
+notes:
+- Final cold-room evidence image inspected. Spoiled and ruptured blood bags surround the canonical phial; the wall
+  chart records the 09-H sharps-bin incident at 02:40 and 4 °C.

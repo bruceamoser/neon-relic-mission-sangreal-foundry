@@ -1,0 +1,112 @@
+asset: G02
+attempt: 1
+stage: visual
+image: art/work/G02/attempt-001.png
+image_sha256: 3af0ca9f3f6f1712341565291672c2b9285235c3f5d261c2e5feeae08bda6387
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T12:41:17.813813+00:00'
+eggs:
+  G02-E1:
+    status: AMBIGUOUS
+    notes: Carbon transfer surface present; CHF 500,000 and 4409-C deferred.
+  G02-E2:
+    status: AMBIGUOUS
+    notes: Authorization box present; exact French stamp deferred.
+checks:
+  composition:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  identity:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  props:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  motifs:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  period:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  medium:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  aspect_ratio:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  clue_visibility:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  anatomy:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  hands:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  faces:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  duplicates:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  modern_objects:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  unintended_text:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  vehicle_geometry:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  symbol_geometry:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  numbers:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+  object_geometry:
+    status: PASS
+    notes: Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted
+      flat-flash portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate
+      half-visible telegraphic transfer has two broad lines for exact carbon text. Exact wording deferred.
+exact_text: {}
+overall: APPROVED
+notes:
+- Top-down period employee record on worn leather blotter. Mercier identity matches reference in a pasted flat-flash
+  portrait. Thumbprint is coherent; record fields and large authorization box are clean. Separate half-visible telegraphic
+  transfer has two broad lines for exact carbon text. Exact wording deferred.

@@ -1,0 +1,19 @@
+_id: sangreal-ic31
+name: I31 — Sonnenberg, Observed
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i31-sonnenberg-stakeout.webp
+system:
+  cardId: I-31
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l4
+  content: '<p>night telephoto from the tree line: the white modernist clinic, one floor blacked out; observation
+    post in the foreground.</p>'
+  hqFallback: 12
+  daNotes: '<p>a grey Lancia with white Vatican plates `SCV 47` parked on the access road — the Holy Alliance is
+    already watching the clinic on the dash of the stakeout car in the foreground, a thermos and a camera with a
+    newspaper folded under it — the Watcher&#x27;s newspaper third-floor window: a single black gap where the tape
+    has been pulled inward.</p>'
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

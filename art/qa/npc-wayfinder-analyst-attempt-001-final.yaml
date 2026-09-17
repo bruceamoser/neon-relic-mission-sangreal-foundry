@@ -1,0 +1,112 @@
+asset: npc-wayfinder-analyst
+attempt: 1
+stage: final
+image: art/composite/npc-wayfinder-analyst-attempt-001.webp
+image_sha256: 9953b69fed35db116483c6721f541020a3b60662d14f771f1adcc88d01642ee7
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:40:46.962816+00:00'
+eggs:
+  npc-wayfinder-analyst-E1:
+    status: PASS
+    notes: Desk printout reads VAULT IX — LAST STABLE READING.
+checks:
+  composition:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  identity:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  props:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  motifs:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  period:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  medium:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  aspect_ratio:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  clue_visibility:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  anatomy:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  hands:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  faces:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  duplicates:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  modern_objects:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  unintended_text:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  vehicle_geometry:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  symbol_geometry:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  numbers:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+  object_geometry:
+    status: PASS
+    notes: Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
+      desk printout has perspective-matched clue line with additional optical softness matching foreground camera
+      focus; readable at full resolution.
+exact_text:
+  VAULT IX — LAST STABLE READING:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+overall: APPROVED
+notes:
+- Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground desk
+  printout has perspective-matched clue line with additional optical softness matching foreground camera focus;
+  readable at full resolution.

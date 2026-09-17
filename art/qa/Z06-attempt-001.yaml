@@ -1,0 +1,115 @@
+asset: Z06
+attempt: 1
+stage: visual
+image: art/work/Z06/attempt-001.png
+image_sha256: 2ac5a6ab942d41eb10a1265028e5c8cfc880bcd86b801516109a8391809259c2
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T13:17:49.732364+00:00'
+eggs:
+  Z06-E1:
+    status: PASS
+    notes: The grey Lancia is parked on the access road with a blank white diplomatic plate.
+  Z06-E2:
+    status: PASS
+    notes: Thermos, long-lens camera, and folded newspaper sit on the stakeout-car dashboard.
+  Z06-E3:
+    status: PASS
+    notes: A single triangular black-sheet gap is pulled inward on the third floor.
+checks:
+  composition:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  identity:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  props:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  motifs:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  period:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  medium:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  aspect_ratio:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  clue_visibility:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  anatomy:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  hands:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  faces:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  duplicates:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  modern_objects:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  unintended_text:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  vehicle_geometry:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  symbol_geometry:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  numbers:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+  object_geometry:
+    status: PASS
+    notes: Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+      third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper,
+      window intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.
+exact_text: {}
+overall: APPROVED
+notes:
+- Night telephoto stakeout photograph inspected at original resolution. The white modernist clinic, blacked-out
+  third floor, single inward gap, grey period Lancia, dashboard thermos, long-lens camera, folded newspaper, window
+  intrusion, rain, haze, and pushed-film grain are coherent. The rear plate is clean for SCV 47.

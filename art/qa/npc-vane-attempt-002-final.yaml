@@ -1,0 +1,72 @@
+asset: npc-vane
+attempt: 2
+stage: final
+image: art/work/npc-vane/attempt-002.png
+image_sha256: a7b236f98838dc183d722892825980fc8380bfb6b67871909e7760b1ba1b9623
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T17:09:55.612963+00:00'
+eggs:
+  npc-vane-E1:
+    status: PASS
+    notes: A visibly hollow replacement bead hangs in the wooden belt rosary.
+checks:
+  composition:
+    status: PASS
+    notes: Single portrait in vault corridor, folded hands on leather folio and belt rosary visible.
+  identity:
+    status: PASS
+    notes: All hair is now covered by the plain black veil. Same pale-grey eyes, composed still face and canonical
+      black-and-grey dress.
+  props:
+    status: PASS
+    notes: Silver throat cross, black-and-grey dress, slim leather folio, wooden rosary with hollow replacement
+      holder.
+  motifs:
+    status: PASS
+    notes: No additional recurring symbol required beyond the stated props.
+  period:
+    status: PASS
+    notes: Analog materials and equipment; no post-1987 item apparent.
+  medium:
+    status: PASS
+    notes: Cold overhead fluorescent corridor light, muted film tones and vignette.
+  aspect_ratio:
+    status: PASS
+    notes: Image dimensions match the requested ratio and exceed 1024 on the short edge.
+  clue_visibility:
+    status: PASS
+    notes: Empty aperture of replacement rosary bead is visible; faint scar crosses her right knuckles.
+  anatomy:
+    status: PASS
+    notes: Shoulders, arms and body proportions coherent.
+  hands:
+    status: PASS
+    notes: Folded hands have coherent digits and visible right-knuckle scar.
+  faces:
+    status: PASS
+    notes: Natural facial proportions and pale-grey eyes; steady gaze.
+  duplicates:
+    status: PASS
+    notes: Single principal scene; repeated component objects are intentional.
+  modern_objects:
+    status: PASS
+    notes: No smartphone, digital camera, flat screen or contemporary fixture visible.
+  unintended_text:
+    status: PASS
+    notes: No additional gameplay clue wording introduced.
+  vehicle_geometry:
+    status: PASS
+    notes: No vehicle depicted.
+  symbol_geometry:
+    status: PASS
+    notes: No malformed symbol apparent.
+  numbers:
+    status: PASS
+    notes: Incidental evidence markings only; exact gameplay strings are checked separately.
+  object_geometry:
+    status: PASS
+    notes: Rosary hangs from belt and folded hands sit naturally on the folio.
+exact_text: {}
+overall: APPROVED
+notes: []

@@ -1,0 +1,115 @@
+asset: R07
+attempt: 1
+stage: visual
+image: art/work/R07/attempt-001.png
+image_sha256: 9f64008faa40a10efaead78b6ea07f80c332c4d759002ca5654e4c7f1f3a2959
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:17:34.247596+00:00'
+eggs:
+  R07-E1:
+    status: PASS
+    notes: Bright fine swarf visible on safe shelves.
+  R07-E2:
+    status: PASS
+    notes: Two scuff clusters on skirting and floor beneath safe.
+  R07-E3:
+    status: PASS
+    notes: Small open compact mirror partly shadowed under desk edge.
+checks:
+  composition:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  identity:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  props:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  motifs:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  period:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  medium:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  aspect_ratio:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  clue_visibility:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  anatomy:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  hands:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  faces:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  duplicates:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  modern_objects:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  unintended_text:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  vehicle_geometry:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  symbol_geometry:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  numbers:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+  object_geometry:
+    status: PASS
+    notes: Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
+      filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
+      open compact under desk edge. No people or modern objects.
+exact_text: {}
+overall: APPROVED
+notes:
+- Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright filings
+  on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet; open
+  compact under desk edge. No people or modern objects.

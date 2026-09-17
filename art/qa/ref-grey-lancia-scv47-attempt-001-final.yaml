@@ -1,0 +1,75 @@
+asset: ref-grey-lancia-scv47
+attempt: 1
+stage: final
+image: art/composite/ref-grey-lancia-scv47-attempt-001.webp
+image_sha256: c44edbdcc0c554ffa9bfd4899fa3d3b4307c3273910a38fad37b17c338842691
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T16:56:46.494510+00:00'
+eggs:
+  ref-grey-lancia-scv47-E1:
+    status: PASS
+    notes: One grey period four-door sedan with white diplomatic plate reading SCV 47.
+checks:
+  composition:
+    status: PASS
+    notes: One grey four-door period sedan in a Vatican street; single front three-quarter view.
+  identity:
+    status: PASS
+    notes: Vehicle design reference; no named character depicted.
+  props:
+    status: PASS
+    notes: Grey period sedan, chrome grille and bumpers, circular headlights, mechanical mirrors, blank white front
+      plate.
+  motifs:
+    status: PASS
+    notes: Finished reference preserves the required prop design and now carries the exact composited wording.
+  period:
+    status: PASS
+    notes: Period sedan and old street architecture, no modern fittings apparent.
+  medium:
+    status: PASS
+    notes: Muted film tones, direct flash, worn surfaces and grain visible.
+  aspect_ratio:
+    status: PASS
+    notes: 1536 by 1024; exact 3:2 and 1024 short edge.
+  clue_visibility:
+    status: PASS
+    notes: Four-door body and front plate clearly visible.
+  anatomy:
+    status: PASS
+    notes: No foreground human anatomical subject.
+  hands:
+    status: PASS
+    notes: No foreground hands depicted.
+  faces:
+    status: PASS
+    notes: No foreground face requiring identity matching.
+  duplicates:
+    status: PASS
+    notes: One foreground reference car; background traffic is part of the street setting.
+  modern_objects:
+    status: PASS
+    notes: No digital devices, modern vehicle or modern lighting fixtures visible.
+  unintended_text:
+    status: PASS
+    notes: Required wording appears on the intended surface; no additional gameplay clue text introduced.
+  vehicle_geometry:
+    status: PASS
+    notes: Wheels, grille, lamps, doors and windows align coherently; no warped bodywork apparent.
+  symbol_geometry:
+    status: PASS
+    notes: Small grille emblem appears coherent; no heraldic crest required.
+  numbers:
+    status: PASS
+    notes: The required letters and numbers match the manifest; incidental evidence scale remains unchanged.
+  object_geometry:
+    status: PASS
+    notes: Car rests on pavement with consistent wheels and reflections.
+exact_text:
+  SCV 47:
+    status: PASS
+    notes: 'Visually checked exact wording: SCV 47. Readable within its intended surface; punctuation and characters
+      match the required string.'
+overall: APPROVED
+notes: []

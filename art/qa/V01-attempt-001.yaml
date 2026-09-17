@@ -1,0 +1,95 @@
+asset: V01
+attempt: 1
+stage: visual
+image: art/work/V01/attempt-001.png
+image_sha256: 6c917f52a89f2957f0932b31b5a47da4c1f08f24f0a5b3da47e8c3cba69818e4
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T19:48:47.676373+00:00'
+eggs:
+  V01-E1:
+    status: PASS
+    notes: Required Gethsemane memo sentence readable over two typewritten lines.
+  V01-E2:
+    status: PASS
+    notes: Held translucent registry film shows table and dragon-wolf with cross.
+  V01-E3:
+    status: PASS
+    notes: Inside tin lid shows serpent encircling open eye.
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  identity:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  props:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  motifs:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  period:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  medium:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  hands:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  faces:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and
+      scorched lid motif. Memo text follows page perspective.'
+exact_text: {}
+overall: APPROVED
+notes:
+- Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and scorched lid motif.
+  Memo text follows page perspective.

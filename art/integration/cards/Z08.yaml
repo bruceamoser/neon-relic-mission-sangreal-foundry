@@ -1,0 +1,19 @@
+_id: sangreal-ic32
+name: I32 — Daylight Test — Combustion
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i32-daylight-test.webp
+system:
+  cardId: I-32
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l4
+  content: <p>a concrete fume hood with a fused glass crucible and a scorch burst pattern of white ash; the sash
+    is drawn.</p>
+  hqFallback: 12
+  daNotes: <p>the crucible&#x27;s glass has boiled and collapsed; the ash is literally white and fine the log card
+    in the hood reads `DAYLIGHT TEST 07:12 — COMPLETE COMBUSTION` (composite) beside the hood, a box of unbleached
+    linen strips and a jar labelled `GALL / VINEGAR / MYRRH` — the Vatican&#x27;s own quiescence kit, already present
+    in a Swiss clinic.</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

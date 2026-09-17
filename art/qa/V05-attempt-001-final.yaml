@@ -1,0 +1,112 @@
+asset: V05
+attempt: 1
+stage: final
+image: art/composite/V05-attempt-001.webp
+image_sha256: 95c142106b3632a9b5f5458cb37a1a108f8519774b77415ce3bc0e4a479613d4
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T19:50:21.709672+00:00'
+eggs:
+  V05-E1:
+    status: PASS
+    notes: BASARAB HOLDINGS S.A. and dragon-wolf stencil are readable.
+  V05-E2:
+    status: PASS
+    notes: Hand-chalked tally reads 10/12.
+  V05-E3:
+    status: PASS
+    notes: Intact customs tie at right latch; older VATICAN MUSEUMS / storeroom 9 appears below, linebreak replacing
+      dash.
+  V05-E4:
+    status: PASS
+    notes: White crumbly calcified ash is visible in the opened refuse packing at lower right beside the sealed
+      main crate.
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  identity:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  props:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  motifs:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  period:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  medium:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  hands:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  faces:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering
+      faintly visible under worn paint.'
+exact_text:
+  BASARAB HOLDINGS S.A.:
+    status: PASS
+    notes: 'Visually read in scene material: BASARAB HOLDINGS S.A.. Natural line breaks, capitalization and dash-length
+      variants retained where noted.'
+  10/12:
+    status: PASS
+    notes: 'Visually read in scene material: 10/12. Natural line breaks, capitalization and dash-length variants
+      retained where noted.'
+  VATICAN MUSEUMS — storeroom 9:
+    status: PASS
+    notes: 'Visually read in scene material: VATICAN MUSEUMS — storeroom 9. Natural line breaks, capitalization
+      and dash-length variants retained where noted.'
+overall: APPROVED
+notes:
+- Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering faintly visible
+  under worn paint.

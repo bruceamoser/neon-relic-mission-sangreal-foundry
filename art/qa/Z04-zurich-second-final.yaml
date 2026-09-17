@@ -1,0 +1,105 @@
+asset: Z04
+attempt: 1
+stage: final
+image: art/composite/revisions/zurich-second-pass/Z04.webp
+image_sha256: 50da5e2619388307130499c4b2da4a29963a60878a8cfea391e6042ae09a9720
+inspected_visually: true
+reviewer: Bruce and Codex
+inspected_at: '2026-09-17T16:40:37.680893+00:00'
+eggs:
+  Z04-E1:
+    status: PASS
+    notes: Drug field reads PROGENITOR VECTOR — BATCH XII-1/12.
+  Z04-E2:
+    status: PASS
+    notes: Sponsor line names Sonnenberg Privatklinik, Zürich and the Vaduz trust account.
+  Z04-E3:
+    status: PASS
+    notes: Room number 3.14 is handwritten beside the chart fields.
+checks:
+  composition:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  identity:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  props:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  motifs:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  period:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  medium:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  aspect_ratio:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  clue_visibility:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  anatomy:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  hands:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  faces:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  duplicates:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  modern_objects:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  unintended_text:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  vehicle_geometry:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  symbol_geometry:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  numbers:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+  object_geometry:
+    status: PASS
+    notes: Final injection log inspected. The drug and batch line, Sonnenberg/Vaduz sponsor line, and handwritten
+      3.14 are fully legible and integrated with the aged chart.
+exact_text:
+  PROGENITOR VECTOR — BATCH XII-1/12:
+    status: PASS
+    notes: Visually present in second pass; Z08 ingredient separators use approved line breaks.
+  Sonnenberg Privatklinik, Zürich — Trust Account (Vaduz):
+    status: PASS
+    notes: Visually present in second pass; Z08 ingredient separators use approved line breaks.
+  '3.14':
+    status: PASS
+    notes: Visually present in second pass; Z08 ingredient separators use approved line breaks.
+overall: APPROVED
+notes:
+- 'Bruce approved second pass: look sgood continue. Z08 ingredient separators accepted as line breaks rather than
+  slashes.'

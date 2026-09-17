@@ -1,0 +1,112 @@
+asset: R02
+attempt: 1
+stage: visual
+image: art/work/R02/attempt-001.png
+image_sha256: 26b55787c7753a41b39dd71deb80d938b17ebda9dfbb3b850311713c7c89af3e
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:17:34.144789+00:00'
+eggs:
+  R02-E1:
+    status: PASS
+    notes: Eye ring on rail hand matches reference.
+  R02-E2:
+    status: PASS
+    notes: Down arrow and low indicator show platform called below.
+checks:
+  composition:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  identity:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  props:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  motifs:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  period:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  medium:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  aspect_ratio:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  clue_visibility:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  anatomy:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  hands:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  faces:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  duplicates:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  modern_objects:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  unintended_text:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  numbers:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+  object_geometry:
+    status: PASS
+    notes: 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+      coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+      deferred.'
+exact_text: {}
+overall: APPROVED
+notes:
+- 'Single high-angle grainy monochrome vestibule frame: back of balding raincoat man, hidden face, anatomically
+  coherent rail hand with visible eye signet; period gate and downward indicator with low-position light. Timestamp
+  deferred.'

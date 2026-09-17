@@ -1,0 +1,90 @@
+asset: npc-gendarme-officer
+attempt: 1
+stage: visual
+image: art/work/npc-gendarme-officer/attempt-001.png
+image_sha256: 9e4ff0c01eebd7f83b08e7e66faed80632182b117994f4c2858a1db4b964e5e7
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:24:00.779345+00:00'
+eggs:
+  npc-gendarme-officer-E1:
+    status: AMBIGUOUS
+    notes: Second log entry time deferred to separate composition.
+checks:
+  composition:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  identity:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  props:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  motifs:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  period:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  medium:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  aspect_ratio:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  clue_visibility:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  anatomy:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  hands:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  faces:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  duplicates:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  modern_objects:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  unintended_text:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  vehicle_geometry:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  symbol_geometry:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  numbers:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+  object_geometry:
+    status: PASS
+    notes: Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook
+      in Vatican gatehouse. Natural resting and writing hands, daylight, 4:5.
+exact_text: {}
+overall: APPROVED
+notes:
+- Weary middle-aged officer in navy peaked cap and uniform, white gloves/brass buttons/chain, open logbook in Vatican
+  gatehouse. Natural resting and writing hands, daylight, 4:5.

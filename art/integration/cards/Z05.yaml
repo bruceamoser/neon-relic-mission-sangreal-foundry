@@ -1,0 +1,18 @@
+_id: sangreal-ic30
+name: I30 — Ward 3 — Corridor Camera
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i30-ward-hallway-cctv.webp
+system:
+  cardId: I-30
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l4
+  content: '<p>the third-floor ward corridor: windows taped with black polyethylene, smashed fluorescents, wheelchair
+    overturned.</p>'
+  hqFallback: 12
+  daNotes: <p>on the ceiling, at the top edge of frame, an impossible silhouette holds position against gravity
+    — Hausmann watching the clock shows 02:40 a mop bucket has been kicked across the floor in a spray pattern that
+    points, unnervingly, down.</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

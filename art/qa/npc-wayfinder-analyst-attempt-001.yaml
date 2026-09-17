@@ -1,0 +1,109 @@
+asset: npc-wayfinder-analyst
+attempt: 1
+stage: visual
+image: art/work/npc-wayfinder-analyst/attempt-001.png
+image_sha256: f8329bf66a01f88928aacc7280381c1951665292ce1d5d23257420b98f6f9eb9
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:24:00.793880+00:00'
+eggs:
+  npc-wayfinder-analyst-E1:
+    status: AMBIGUOUS
+    notes: Printout available on desk; exact reading header deferred to separate composition.
+checks:
+  composition:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  identity:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  props:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  motifs:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  period:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  medium:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  aspect_ratio:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  clue_visibility:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  anatomy:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  hands:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  faces:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  duplicates:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  modern_objects:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  unintended_text:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  vehicle_geometry:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  symbol_geometry:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  numbers:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+  object_geometry:
+    status: PASS
+    notes: Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck
+      as character block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands
+      and face; period CRTs allowed.
+exact_text: {}
+overall: APPROVED
+notes:
+- Older grey-haired analyst in shirtsleeves/loosened tie and reading glasses, headphones worn around neck as character
+  block specifies. Reels, CRT oscilloscopes and tungsten lamp, paper on desk, 4:5. Coherent hands and face; period
+  CRTs allowed.

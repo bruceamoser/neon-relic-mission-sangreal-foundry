@@ -1,0 +1,17 @@
+_id: sangreal-ic18
+name: I18 — Second Descent
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i18-cctv-second-descent-0402.webp
+system:
+  cardId: I-18
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l1
+  content: <p>the private hydraulic lift vestibule behind the Longinus Crossing Pier, 04:02 AM. An empty frame except
+    for a single figure at the stair head, face lost in shadow, one hand on the rail.</p>
+  hqFallback: 12
+  daNotes: <p>the figure&#x27;s hand bears a signet ring with an eye device (the Watcher/Talamasca went down after
+    Corvi) the lift indicator shows the platform called from below — someone else was already inside.</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

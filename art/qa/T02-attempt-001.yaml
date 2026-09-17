@@ -1,0 +1,97 @@
+asset: T02
+attempt: 1
+stage: visual
+image: art/work/T02/attempt-001.png
+image_sha256: e3c2a3435ccc7fa09158d85373976dc2e600c3c5396fa02398c8f8fd0977deef
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T16:54:40.594096+00:00'
+eggs:
+  T02-E1:
+    status: AMBIGUOUS
+    notes: Tape is visible at the left case lock; the required hairline fracture is not sufficiently resolved to
+      verify.
+  T02-E2:
+    status: PASS
+    notes: Worn FIAT stencils wrap around drums at left.
+  T02-E3:
+    status: PASS
+    notes: Floor reflections show ceiling lights without a clear reflected human figure.
+checks:
+  composition:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  identity:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  props:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  motifs:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  period:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  medium:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  aspect_ratio:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  clue_visibility:
+    status: AMBIGUOUS
+    notes: Tape is visible at the left case lock; the required hairline fracture is not sufficiently resolved to
+      verify.
+  anatomy:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  hands:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  faces:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  duplicates:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  modern_objects:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  unintended_text:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  vehicle_geometry:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  symbol_geometry:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  numbers:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+  object_geometry:
+    status: PASS
+    notes: Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock
+      fracture remains ambiguous at this distance.
+exact_text: {}
+overall: NEEDS_EDIT
+notes:
+- Grainy monochrome factory CCTV, camera 6, grey cleric and steel case; removed invented timestamp. Lock fracture
+  remains ambiguous at this distance.

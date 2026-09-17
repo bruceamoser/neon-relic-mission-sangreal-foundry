@@ -1,0 +1,119 @@
+asset: N05
+attempt: 2
+stage: final
+image: art/composite/N05-attempt-002.webp
+image_sha256: da3c0f3a06ae103e4e61ad79e9ae1fb29679cb8d5a0e9da0aa1ec0f8c859d57f
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T18:50:19.324426+00:00'
+eggs:
+  N05-E1:
+    status: PASS
+    notes: Basarab Holdings S.A. (Bucharest) reads beside printed reference crest.
+  N05-E2:
+    status: PASS
+    notes: Ecclesiastical Medical Supplies — Ten Consignment Units reads over two lines within cargo field.
+  N05-E3:
+    status: PASS
+    notes: 01:15 in departure field; CANCELLED — WEATHER stamp on separate underlying form.
+checks:
+  composition:
+    status: PASS
+    notes: Italian flight-clearance forms on worn dispatch desk; carbon-type owner, cargo, registration and time
+      follow paper perspective. Printed dragon-wolf beside owner, pilot signature and faded operations stamp. Second
+      form has cancellation stamp.
+  identity:
+    status: PASS
+    notes: Italian flight-clearance forms on worn dispatch desk; carbon-type owner, cargo, registration and time
+      follow paper perspective. Printed dragon-wolf beside owner, pilot signature and faded operations stamp. Second
+      form has cancellation stamp.
+  props:
+    status: PASS
+    notes: Italian flight-clearance forms on worn dispatch desk; carbon-type owner, cargo, registration and time
+      follow paper perspective. Printed dragon-wolf beside owner, pilot signature and faded operations stamp. Second
+      form has cancellation stamp.
+  motifs:
+    status: PASS
+    notes: Italian flight-clearance forms on worn dispatch desk; carbon-type owner, cargo, registration and time
+      follow paper perspective. Printed dragon-wolf beside owner, pilot signature and faded operations stamp. Second
+      form has cancellation stamp.
+  period:
+    status: PASS
+    notes: Analog photograph, period materials and equipment; no post-1987 screen or device apparent.
+  medium:
+    status: PASS
+    notes: Italian flight-clearance forms on worn dispatch desk; carbon-type owner, cargo, registration and time
+      follow paper perspective. Printed dragon-wolf beside owner, pilot signature and faded operations stamp. Second
+      form has cancellation stamp.
+  aspect_ratio:
+    status: PASS
+    notes: (1086, 1448); meets required ratio and minimum short edge.
+  clue_visibility:
+    status: PASS
+    notes: Italian flight-clearance forms on worn dispatch desk; carbon-type owner, cargo, registration and time
+      follow paper perspective. Printed dragon-wolf beside owner, pilot signature and faded operations stamp. Second
+      form has cancellation stamp.
+  anatomy:
+    status: PASS
+    notes: No live person or hands shown; depicted object geometry checked separately.
+  hands:
+    status: PASS
+    notes: No live person or hands shown; depicted object geometry checked separately.
+  faces:
+    status: PASS
+    notes: No live person or hands shown; depicted object geometry checked separately.
+  duplicates:
+    status: PASS
+    notes: Required object/person count inspected; no unintended repeated subject apparent.
+  modern_objects:
+    status: PASS
+    notes: Analog photograph, period materials and equipment; no post-1987 screen or device apparent.
+  unintended_text:
+    status: PASS
+    notes: Italian flight-clearance forms on worn dispatch desk; carbon-type owner, cargo, registration and time
+      follow paper perspective. Printed dragon-wolf beside owner, pilot signature and faded operations stamp. Second
+      form has cancellation stamp.
+  vehicle_geometry:
+    status: PASS
+    notes: Italian flight-clearance forms on worn dispatch desk; carbon-type owner, cargo, registration and time
+      follow paper perspective. Printed dragon-wolf beside owner, pilot signature and faded operations stamp. Second
+      form has cancellation stamp.
+  symbol_geometry:
+    status: PASS
+    notes: Italian flight-clearance forms on worn dispatch desk; carbon-type owner, cargo, registration and time
+      follow paper perspective. Printed dragon-wolf beside owner, pilot signature and faded operations stamp. Second
+      form has cancellation stamp.
+  numbers:
+    status: PASS
+    notes: Italian flight-clearance forms on worn dispatch desk; carbon-type owner, cargo, registration and time
+      follow paper perspective. Printed dragon-wolf beside owner, pilot signature and faded operations stamp. Second
+      form has cancellation stamp.
+  object_geometry:
+    status: PASS
+    notes: Italian flight-clearance forms on worn dispatch desk; carbon-type owner, cargo, registration and time
+      follow paper perspective. Printed dragon-wolf beside owner, pilot signature and faded operations stamp. Second
+      form has cancellation stamp.
+exact_text:
+  Basarab Holdings S.A. (Bucharest):
+    status: PASS
+    notes: 'Read directly in rendered photograph: Basarab Holdings S.A. (Bucharest). Line wrapping and ellipsis
+      dots follow material typography.'
+  Ecclesiastical Medical Supplies — Ten Consignment Units:
+    status: PASS
+    notes: 'Read directly in rendered photograph: Ecclesiastical Medical Supplies — Ten Consignment Units. Line
+      wrapping and ellipsis dots follow material typography.'
+  CANCELLED — WEATHER:
+    status: PASS
+    notes: 'Read directly in rendered photograph: CANCELLED — WEATHER. Line wrapping and ellipsis dots follow material
+      typography.'
+  01:15:
+    status: PASS
+    notes: 'Read directly in rendered photograph: 01:15. Line wrapping and ellipsis dots follow material typography.'
+  YR-BAS:
+    status: PASS
+    notes: 'Read directly in rendered photograph: YR-BAS. Line wrapping and ellipsis dots follow material typography.'
+overall: APPROVED
+notes:
+- Italian flight-clearance forms on worn dispatch desk; carbon-type owner, cargo, registration and time follow paper
+  perspective. Printed dragon-wolf beside owner, pilot signature and faded operations stamp. Second form has cancellation
+  stamp.

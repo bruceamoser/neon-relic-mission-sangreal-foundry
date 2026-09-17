@@ -1,0 +1,24 @@
+# Mission: Sangreal — Scenes (Scene pack)
+# The module landing page: the splash scene for the case file.
+---
+
+- _id: sangreal-landing
+  name: 'Mission: Sangreal — Landing Page'
+  type: scene
+  navName: 'Sangreal'
+  navigation: true
+  initial: true
+  background:
+    src: modules/neon-relic-mission-sangreal/assets/art/sangreal-landing.webp
+  width: 1672
+  height: 941
+  padding: 0
+  globalLight: true
+  darkness: 0
+  tokenVision: false
+  grid:
+    type: 0
+    size: 100
+  flags:
+    neon-relic-mission-sangreal:
+      landingPage: true

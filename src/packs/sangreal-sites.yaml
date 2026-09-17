@@ -9,7 +9,7 @@
   system:
     locationId: L1
     caseId: SANGREAL-87-091
-    informationCardSlugs: [sangreal-ic01, sangreal-ic02, sangreal-ic03, sangreal-ic05]
+    informationCardSlugs: [sangreal-ic01, sangreal-ic02, sangreal-ic03, sangreal-ic05, sangreal-ic18, sangreal-ic19, sangreal-ic43]
     npcSlugs: [sangreal-npc-ghiberti, sangreal-npc-vane]
     availability: open
     availabilityCondition: ''
@@ -54,7 +54,7 @@
   system:
     locationId: L2
     caseId: SANGREAL-87-091
-    informationCardSlugs: [sangreal-ic02, sangreal-ic04, sangreal-ic16]
+    informationCardSlugs: [sangreal-ic02, sangreal-ic04, sangreal-ic16, sangreal-ic20, sangreal-ic21, sangreal-ic22]
     availability: open
     availabilityCondition: ''
     description: >
@@ -92,7 +92,7 @@
   system:
     locationId: L3
     caseId: SANGREAL-87-091
-    informationCardSlugs: [sangreal-ic06, sangreal-ic07, sangreal-ic08]
+    informationCardSlugs: [sangreal-ic06, sangreal-ic07, sangreal-ic08, sangreal-ic23, sangreal-ic24, sangreal-ic25, sangreal-ic26]
     npcSlugs: [sangreal-npc-mercier]
     availability: clue
     availabilityCondition: 'Requires the EC 30 boarding pass (I2) or the decoded Polybius cipher (I4).'
@@ -131,7 +131,7 @@
   system:
     locationId: L4
     caseId: SANGREAL-87-091
-    informationCardSlugs: [sangreal-ic07, sangreal-ic09, sangreal-ic10, sangreal-ic11]
+    informationCardSlugs: [sangreal-ic07, sangreal-ic09, sangreal-ic10, sangreal-ic11, sangreal-ic27, sangreal-ic28, sangreal-ic29, sangreal-ic30, sangreal-ic31, sangreal-ic32]
     npcSlugs: [sangreal-npc-graf, sangreal-npc-hausmann]
     availability: clue
     availabilityCondition: 'Requires the escrow transfer slip (I6) or the clinical file (I7).'
@@ -173,7 +173,7 @@
   system:
     locationId: L5
     caseId: SANGREAL-87-091
-    informationCardSlugs: [sangreal-ic10, sangreal-ic11, sangreal-ic12]
+    informationCardSlugs: [sangreal-ic10, sangreal-ic11, sangreal-ic12, sangreal-ic33, sangreal-ic34, sangreal-ic35, sangreal-ic36, sangreal-ic37]
     npcSlugs: [sangreal-npc-corvi, sangreal-npc-vane]
     availability: clue
     availabilityCondition: 'Requires the wiretap tape (I8).'
@@ -217,7 +217,7 @@
   system:
     locationId: L6
     caseId: SANGREAL-87-091
-    informationCardSlugs: [sangreal-ic13, sangreal-ic14, sangreal-ic15]
+    informationCardSlugs: [sangreal-ic13, sangreal-ic14, sangreal-ic15, sangreal-ic38, sangreal-ic39, sangreal-ic40, sangreal-ic44, sangreal-ic45]
     npcSlugs: [sangreal-npc-vane]
     availability: clue
     availabilityCondition: 'Requires tracking Claudia — toll stubs, teleprinter logs, or Corvi''s papers.'
@@ -256,7 +256,7 @@
   system:
     locationId: L7
     caseId: SANGREAL-87-091
-    informationCardSlugs: [sangreal-ic16, sangreal-ic17]
+    informationCardSlugs: [sangreal-ic16, sangreal-ic17, sangreal-ic41, sangreal-ic42]
     npcSlugs: [sangreal-npc-sabbatini, sangreal-npc-ghiberti]
     availability: contact
     availabilityCondition: 'Requires confronting Cardinal Sabbatini with evidence from L6 (corpse, telex, flight manifest).'

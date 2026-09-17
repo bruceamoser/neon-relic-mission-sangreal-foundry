@@ -1,0 +1,104 @@
+asset: N01
+attempt: 1
+stage: visual
+image: art/work/N01/attempt-001.png
+image_sha256: af7f590e737e19b149f6fd20a74d512cf7dc19e8ffb58de561f771034440d1f5
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T19:51:49.548493+00:00'
+eggs:
+  N01-E1:
+    status: PASS
+    notes: Two white calcified remnants visible, one with ridge texture.
+  N01-E2:
+    status: PASS
+    notes: Broken phial and dark spilled fluid visible on tiles.
+  N01-E3:
+    status: PASS
+    notes: Case absent, leather strap on table edge. Frayed edge explicitly accepted by user; clean-cut criterion
+      waived.
+  N01-E4:
+    status: PASS
+    notes: Second unused glass visible at table end.
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  identity:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  props:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  motifs:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  period:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  medium:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  hands:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  faces:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: User accepted existing abbey evidence photograph as final with frayed strap exception. All
+      other reviewed clues preserved.'
+exact_text: {}
+overall: APPROVED
+notes:
+- User accepted existing abbey evidence photograph as final with frayed strap exception. All other reviewed clues
+  preserved.
+accepted_exception:
+  at: '2026-09-17T19:51:49.543216+00:00'
+  reviewer: User
+  evidence: Yes, include it as-is
+  scope: Accept slightly frayed strap edge in existing N01 as final; no claim of a successful correction.

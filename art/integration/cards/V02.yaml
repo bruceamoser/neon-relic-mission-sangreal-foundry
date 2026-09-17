@@ -1,0 +1,18 @@
+_id: sangreal-ic41
+name: I41 — The Green Lamp
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i41-council-chamber.webp
+system:
+  cardId: I-41
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l7
+  content: '<p>telephoto across the Piazza to the CDF Council Chamber window at night: Sabbatini at his desk under
+    a green banker&#x27;s lamp, a dossier open; frescoes above.</p>'
+  hqFallback: 12
+  daNotes: '<p>the dossier&#x27;s cover is stamped `REGISTRY 16 — AMSTERDAM` a second silhouette waits — standing,
+    hands clasped, at the edge of the lamplight: the L&#x27;Entità operative the window transom catches a reflection
+    of three more standing figures — it is already too late.</p>'
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

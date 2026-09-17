@@ -1,0 +1,99 @@
+asset: V02
+attempt: 1
+stage: final
+image: art/composite/V02-attempt-001.webp
+image_sha256: fa5c385020b03d539176a108d1fe819c5e7e2e2bd4b14f7de461e2234d1ade94
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T19:48:50.298951+00:00'
+eggs:
+  V02-E1:
+    status: PASS
+    notes: REGISTRY 16 and AMSTERDAM visible on dossier; line break substitutes for dash.
+  V02-E2:
+    status: PASS
+    notes: Standing operative at left has clasped gloved hands.
+  V02-E3:
+    status: PASS
+    notes: Exactly three further standing silhouettes are visible in upper transom.
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  identity:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  props:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  motifs:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  period:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  medium:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  hands:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  faces:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: Window-framed night surveillance with Sabbatini seated under green lamp and standing operative,
+      plus three faint upper-glass figures.'
+exact_text:
+  REGISTRY 16 — AMSTERDAM:
+    status: PASS
+    notes: 'Visually read in scene material: REGISTRY 16 — AMSTERDAM. Natural line breaks, capitalization and dash-length
+      variants retained where noted.'
+overall: APPROVED
+notes:
+- Window-framed night surveillance with Sabbatini seated under green lamp and standing operative, plus three faint
+  upper-glass figures.

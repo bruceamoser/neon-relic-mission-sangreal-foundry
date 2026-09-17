@@ -1,0 +1,93 @@
+asset: npc-graf
+attempt: 1
+stage: final
+image: art/composite/npc-graf-attempt-001.webp
+image_sha256: af19a3b6c73fb24091191258d55a653deb733d823dd51986c407281e9e7f2c95
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:40:43.218380+00:00'
+eggs:
+  npc-graf-E1:
+    status: PASS
+    notes: Slide-box label reads 09-H MARROW in hand-drawn pen strokes.
+checks:
+  composition:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  identity:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  props:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  motifs:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  period:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  medium:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  aspect_ratio:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  clue_visibility:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  anatomy:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  hands:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  faces:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  duplicates:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  modern_objects:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  unintended_text:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  vehicle_geometry:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  symbol_geometry:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  numbers:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+  object_geometry:
+    status: PASS
+    notes: Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward.
+      Handwritten uneven label sits within paper and avoids fingers. Both hands and face coherent.
+exact_text:
+  09-H MARROW:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+overall: APPROVED
+notes:
+- Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward. Handwritten
+  uneven label sits within paper and avoids fingers. Both hands and face coherent.

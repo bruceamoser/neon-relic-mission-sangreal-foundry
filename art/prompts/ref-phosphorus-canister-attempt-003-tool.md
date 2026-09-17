@@ -1,0 +1,2 @@
+Use case: precise-object-edit. Image 1 is the edit target. Remove ONLY the tiny malformed digits and CM letters from the evidence ruler at bottom left. Keep the ruler strip, its edge, black/white blocks and measurement ticks. Leave all other image content unchanged: black unlabelled cylinder, red band, clip, wool overcoat, vest and wall.
+Preserve original dimensions and analog photographic texture. Create exactly ONE standalone image. No panels or comparison views.

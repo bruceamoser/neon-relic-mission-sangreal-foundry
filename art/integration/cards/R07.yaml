@@ -1,0 +1,18 @@
+_id: sangreal-ic20
+name: I20 — The Clean Drill
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i20-corvi-safe-drilled.webp
+system:
+  cardId: I-20
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l2
+  content: <p>the open wall safe behind the Saint Sebastian painting, combination dial drilled precisely at the
+    spindle; drawers searched but nothing taken.</p>
+  hqFallback: 12
+  daNotes: <p>the drill swarf is fine and bright — a professional tool, not a panic job a second set of scuff marks
+    on the skirting shows someone knelt here recently and recently again a woman&#x27;s compact mirror left under
+    the desk edge (Vane searched here before the cell did).</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

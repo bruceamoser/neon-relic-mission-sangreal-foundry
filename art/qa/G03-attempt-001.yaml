@@ -1,0 +1,76 @@
+asset: G03
+attempt: 1
+stage: visual
+image: art/work/G03/attempt-001.png
+image_sha256: 2e5d020e9b40c4f81ed66393668843a959a249c3e382a90ef5bf05ff0fbfe1cf
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T17:05:34.068456+00:00'
+eggs:
+  G03-E1:
+    status: AMBIGUOUS
+    notes: Memo line is blank; exact Acquisition wording will be composited.
+  G03-E2:
+    status: AMBIGUOUS
+    notes: Pencil tick is present; final text must position 1 of 12 beside it.
+  G03-E3:
+    status: PASS
+    notes: Upper-right paper corner is folded back over the carbon sheet.
+checks:
+  composition:
+    status: PASS
+    notes: One carbon-leaf receipt on leather blotter with fountain pen and lamp edge.
+  identity:
+    status: PASS
+    notes: No known human character appears in this image.
+  props:
+    status: PASS
+    notes: Purple carbon rules and heading, corner fold and pencil tick at memo margin.
+  motifs:
+    status: FAIL
+    notes: Small Sonnenberg clinic emblem required for continuity is absent beside the remitter region.
+  period:
+    status: PASS
+    notes: Analog materials and equipment; no post-1987 item apparent.
+  medium:
+    status: PASS
+    notes: Faded purple carbon type and rules on aged paper, warm desk illumination and grain.
+  aspect_ratio:
+    status: PASS
+    notes: Image dimensions match the requested ratio and exceed 1024 on the short edge.
+  clue_visibility:
+    status: PASS
+    notes: Folded upper corner and pencil tick visible; blank fields permit later exact clue wording.
+  anatomy:
+    status: PASS
+    notes: No human body requiring anatomical review.
+  hands:
+    status: PASS
+    notes: No human hands depicted.
+  faces:
+    status: PASS
+    notes: No human face depicted.
+  duplicates:
+    status: PASS
+    notes: Single principal scene; repeated component objects are intentional.
+  modern_objects:
+    status: PASS
+    notes: No smartphone, digital camera, flat screen or contemporary fixture visible.
+  unintended_text:
+    status: PASS
+    notes: Existing bank heading must be cleared for separate exact lettering; other minor form labels are incidental.
+  vehicle_geometry:
+    status: PASS
+    notes: No vehicle depicted.
+  symbol_geometry:
+    status: PASS
+    notes: No malformed symbol apparent.
+  numbers:
+    status: PASS
+    notes: Incidental evidence markings only; exact gameplay strings are checked separately.
+  object_geometry:
+    status: PASS
+    notes: Paper fold, stacked carbon sheet, blotter and pen have coherent geometry.
+exact_text: {}
+overall: NEEDS_EDIT
+notes: []

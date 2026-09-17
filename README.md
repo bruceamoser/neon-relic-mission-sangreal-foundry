@@ -2,7 +2,7 @@
 
 Foundry VTT v14 content module for **Neon Relic** — *Mission: Sangreal*.
 
-A stolen Vatican attaché carrying the Twelve Phials of Gethsemane is brokered across Western Europe while an embedded double agent steers the Covenant toward a manufactured vampire outbreak. This module ships the complete investigation: DA case brief and player dossier, case board, information web (17 linked information cards), NPC cards, locations, relics, journals, and roll tables.
+A stolen Vatican attaché carrying the Twelve Phials of Gethsemane is brokered across Western Europe while an embedded double agent steers the Covenant toward a manufactured vampire outbreak. This module ships the complete investigation: DA case brief and player dossier, case board, information web (45 linked information cards), NPC cards, locations, relics, journals, roll tables, and a landing scene.
 
 ## Install in Foundry VTT
 
@@ -14,17 +14,18 @@ A stolen Vatican attaché carrying the Twelve Phials of Gethsemane is brokered a
 
    `https://github.com/bruceamoser/neon-relic-mission-sangreal-foundry/releases/latest/download/module.json`
 
-3. Enable the module in your world, then open **Configure Settings → Module Settings → Mission: Sangreal → Content Installer** and run it. Content is imported (and kept up to date) in a `Mission: Sangreal` folder tree: *Briefs & Board*, *NPCs*, *Clues*, *Sites*, *Relics*.
+3. Enable the module in your world, then open **Configure Settings → Module Settings → Mission: Sangreal → Content Installer** and run it. Content is imported (and kept up to date) in a `Mission: Sangreal` folder tree: *Briefs & Board*, *NPCs*, *Clues*, *Sites*, *Relics*. The landing scene is added to the Scenes directory and activated automatically if the world has no active scene.
 
 ## Content overview
 
 | Content | Details |
 | --- | --- |
-| Briefs & board | DA Case Brief (VC-17), Player Dossier, Case Board (14-day countdown, faction tracks, case-journey relic milestones), Information Web |
-| Information cards | I1–I17 with found-at / known-by cross-links and reveal state |
-| NPCs | Corvi, Claudia Vane, Hausmann, Dr. Graf, Sabbatini, Ghiberti, and more |
+| Briefs & board | DA Case Brief (VC-17), Player Dossier, Case Board (14-day countdown, 2 faction tracks + 7 off-camera person tracks, case-journey relic milestones), Information Web |
+| Information cards | I1–I45 with art, found-at / known-by cross-links, reveal state, and DA notes covering retrieval, image reading, and hidden clues |
+| NPCs | Corvi, Claudia Vane, Hausmann, Dr. Graf, Sabbatini, Ghiberti, and more — 16 illustrated actors |
 | Sites | Vatican Vault IX, Geneva depository, Sonnenberg clinic, Lingotto works, Novara safehouse |
 | Relics | The attaché, the Lodestone of St. Jude, the Veil of Veronica's Thread |
+| Scene | *Sangreal Landing* — module title/landing scene with landing-page behavior |
 
 ## Development
 

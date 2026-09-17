@@ -6,7 +6,7 @@
 - _id: sangreal-relic-phials
   name: 'The Twelve Phials of Gethsemane'
   type: artifact
-  img: modules/neon-relic-mission-sangreal/assets/art/relic-phials.svg
+  img: modules/neon-relic-mission-sangreal/assets/art/relic-phials.webp
   system:
     tier: 3
     corruptionCost: 3
@@ -158,7 +158,7 @@
 - _id: sangreal-relic-lodestone
   name: 'The Lodestone of St. Jude'
   type: artifact
-  img: modules/neon-relic-mission-sangreal/assets/art/relic-lodestone.svg
+  img: modules/neon-relic-mission-sangreal/assets/art/relic-lodestone.webp
   system:
     tier: 1
     corruptionCost: 1
@@ -211,7 +211,7 @@
 - _id: sangreal-relic-veronica
   name: "The Veil of Veronica's Thread"
   type: artifact
-  img: modules/neon-relic-mission-sangreal/assets/art/relic-veronica.svg
+  img: modules/neon-relic-mission-sangreal/assets/art/relic-veronica.webp
   system:
     tier: 1
     corruptionCost: 1

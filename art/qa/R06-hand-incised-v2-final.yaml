@@ -1,0 +1,89 @@
+asset: R06
+revision: hand-incised-v2
+stage: final
+image: art/composite/revisions/R06-hand-incised-v2.webp
+image_sha256: e9a55da450e695ac7109b8b08cb0fc539df29e66561d33abf62fe2559112e433
+inspected_visually: true
+reviewer: Bruce and Codex visual inspection
+inspected_at: '2026-09-16T21:46:11.054545+00:00'
+eggs:
+  R06-E1:
+    status: PASS
+    notes: Polybius numeral grid remains visible on the rag slip.
+  R06-E2:
+    status: PASS
+    notes: Reversed GENEVA and 4409 are shallow, irregular incisions revealed by raking light.
+  R06-E3:
+    status: PASS
+    notes: Roma Termini remains visible on the ticket corner.
+checks:
+  composition:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  identity:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  props:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  motifs:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  period:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  medium:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  aspect_ratio:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  clue_visibility:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  anatomy:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  hands:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  faces:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  duplicates:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  modern_objects:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  unintended_text:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  vehicle_geometry:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  symbol_geometry:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  numbers:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+  object_geometry:
+    status: PASS
+    notes: Approved revision preserves composition, period scene, props, clue surfaces and photographic treatment.
+exact_text:
+  GENEVA:
+    status: PASS
+    notes: Exact clue retained and visually checked in the approved revision.
+  '4409':
+    status: PASS
+    notes: Exact clue retained and visually checked in the approved revision.
+  IV-I I-V III-II …:
+    status: PASS
+    notes: Exact clue retained and visually checked in the approved revision.
+  Roma Termini:
+    status: PASS
+    notes: Exact clue retained and visually checked in the approved revision.
+overall: APPROVED
+notes:
+- 'Bruce: ‘i love the revision, keep it and I approve the others as well’.'

@@ -1,0 +1,89 @@
+asset: ref-phosphorus-canister
+attempt: 2
+stage: visual
+image: art/work/ref-phosphorus-canister/attempt-002.png
+image_sha256: caf8c4be12686f8ab47b6c021744285d4c452fba1c3dd00cfeaaa250fc3a75e5
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:24:00.735503+00:00'
+eggs:
+  ref-phosphorus-canister-E1:
+    status: PASS
+    notes: Black cylinder clipped against grey wool overcoat opening with vest below.
+checks:
+  composition:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  identity:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  props:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  motifs:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  period:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  medium:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  aspect_ratio:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  clue_visibility:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  anatomy:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  hands:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  faces:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  duplicates:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  modern_objects:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  unintended_text:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  vehicle_geometry:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  symbol_geometry:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+  numbers:
+    status: FAIL
+    notes: Ruler digits malformed; replace digits with unnumbered ticks.
+  object_geometry:
+    status: PASS
+    notes: Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still
+      has nonsensical repeated digits.
+exact_text: {}
+overall: NEEDS_EDIT
+notes:
+- Cylinder clean of letters and car removed, clipped canister and grey overcoat/vest preserved. Ruler still has
+  nonsensical repeated digits.

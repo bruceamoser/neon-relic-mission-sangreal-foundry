@@ -1,0 +1,18 @@
+_id: sangreal-ic28
+name: I28 — Photophobia Test 02:40
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i28-hausmann-burns.webp
+system:
+  cardId: I-28
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l4
+  content: <p>documentation photo of Hausmann&#x27;s forearm and face under a fluorescent bank — mottled first-degree
+    burns where the light fell; his pupils fully dilated, no reaction.</p>
+  hqFallback: 12
+  daNotes: '<p>the IV insertion site is ringed in inflammation with a batch tag still taped to his arm: `XII-1 /
+    12` (composite) a nurse&#x27;s hand at frame edge withdraws — nobody wants to stay in the room the light switch
+    is taped over.</p>'
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

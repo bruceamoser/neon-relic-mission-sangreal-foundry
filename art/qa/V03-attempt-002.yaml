@@ -1,0 +1,95 @@
+asset: V03
+attempt: 2
+stage: visual
+image: art/work/V03/attempt-002.png
+image_sha256: bf82f5df6cd7b170d57f7f18c7505db68765d4323c4d6f20260ea70c1cea0a7e
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T19:48:51.475873+00:00'
+eggs:
+  V03-E1:
+    status: PASS
+    notes: Nearest raised watch has tiny crossed-key papal motif on pale dial.
+  V03-E2:
+    status: PASS
+    notes: White front plate reads SCV 47 on grey Lancia.
+  V03-E3:
+    status: PASS
+    notes: Black cylindrical canister with pull ring is visible at operative waist.
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  identity:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  props:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  motifs:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  period:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  medium:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  hands:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  faces:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia,
+      visible watch and canister.'
+exact_text: {}
+overall: APPROVED
+notes:
+- 'Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia, visible watch and
+  canister.'

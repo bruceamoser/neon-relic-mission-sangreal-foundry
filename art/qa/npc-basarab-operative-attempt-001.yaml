@@ -1,0 +1,90 @@
+asset: npc-basarab-operative
+attempt: 1
+stage: visual
+image: art/work/npc-basarab-operative/attempt-001.png
+image_sha256: 8c9670338d1bdb8d2b8c6241d6f6423abbfa02c4e98c05769d22c7558ca9867a
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:24:00.688905+00:00'
+eggs:
+  npc-basarab-operative-E1:
+    status: FAIL
+    notes: Correct right glove and cover thumb; expose only index and middle fingers.
+checks:
+  composition:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  identity:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  props:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  motifs:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  period:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  medium:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  aspect_ratio:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  clue_visibility:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  anatomy:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  hands:
+    status: FAIL
+    notes: Exposed thumb as well as two fingertips, with hand on viewer right; need exactly two uncovered fingers
+      on anatomical right glove.
+  faces:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  duplicates:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  modern_objects:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  unintended_text:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  vehicle_geometry:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  symbol_geometry:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  numbers:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+  object_geometry:
+    status: PASS
+    notes: Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove
+      defect does not clearly meet exact requirement.
+exact_text: {}
+overall: NEEDS_EDIT
+notes:
+- Androgynous pale-olive figure with collar-length dark hair and high black coat beside sole candle; glove defect
+  does not clearly meet exact requirement.

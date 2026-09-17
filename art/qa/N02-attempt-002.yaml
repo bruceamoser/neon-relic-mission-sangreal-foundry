@@ -1,0 +1,113 @@
+asset: N02
+attempt: 2
+stage: visual
+image: art/work/N02/attempt-002.png
+image_sha256: d7e7714e950341ad22ae2402615e3ca2ce87fca83dfeb71f7e8fcea425f75b73
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T20:10:04.417195+00:00'
+eggs:
+  N02-E1:
+    status: PASS
+    notes: Elongated paired marks and analog measuring tool shown; adjacent handwritten readout is 62 mm.
+  N02-E2:
+    status: PASS
+    notes: Fine parallel scratches on wood are visible at left beneath head.
+  N02-E3:
+    status: PASS
+    notes: Wisp of grey fur caught against collar at lower left.
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  identity:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  props:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  motifs:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  period:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  medium:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  hands:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  faces:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper,
+      grey fibers and scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale
+      runs in ascending tens; photograph is not a precision calibration diagram.'
+exact_text: {}
+overall: APPROVED
+notes:
+- Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper, grey fibers and scratched
+  wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale runs in ascending tens; photograph
+  is not a precision calibration diagram.

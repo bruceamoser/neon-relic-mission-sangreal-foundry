@@ -1,0 +1,89 @@
+asset: npc-watcher
+attempt: 1
+stage: visual
+image: art/work/npc-watcher/attempt-001.png
+image_sha256: 89c31225995fe956cbffcc1c8c88ceb9706325e26d5479e073c3b3a775b5e174
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:24:00.702481+00:00'
+eggs:
+  npc-watcher-E1:
+    status: PASS
+    notes: Ring is sole distinctive personal feature; plain clothing and face.
+checks:
+  composition:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  identity:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  props:
+    status: FAIL
+    notes: Remove unreferenced SCV 47 car from background.
+  motifs:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  period:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  medium:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  aspect_ratio:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  clue_visibility:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  anatomy:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  hands:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  faces:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  duplicates:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  modern_objects:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  unintended_text:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  vehicle_geometry:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  symbol_geometry:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  numbers:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+  object_geometry:
+    status: PASS
+    notes: Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference.
+      Unrequested SCV 47 car appears in background.
+exact_text: {}
+overall: NEEDS_EDIT
+notes:
+- Plain balding raincoated man reads newspaper at cafe; small eye-serpent gold ring matches reference. Unrequested
+  SCV 47 car appears in background.

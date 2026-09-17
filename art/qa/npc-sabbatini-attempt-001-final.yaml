@@ -1,0 +1,111 @@
+asset: npc-sabbatini
+attempt: 1
+stage: final
+image: art/composite/npc-sabbatini-attempt-001.webp
+image_sha256: dd85f9614eaf2f73c6ee1e9ae3e4ee09626e30bf10595a9f024da1286b8afbc5
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:40:42.238454+00:00'
+eggs:
+  npc-sabbatini-E1:
+    status: PASS
+    notes: Dossier beneath hand reads REGISTRY 16 — AMSTERDAM across two lines.
+checks:
+  composition:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  identity:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  props:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  motifs:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  period:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  medium:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  aspect_ratio:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  clue_visibility:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  anatomy:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  hands:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  faces:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  duplicates:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  modern_objects:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  unintended_text:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  vehicle_geometry:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  symbol_geometry:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  numbers:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+  object_geometry:
+    status: PASS
+    notes: Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over
+      dossier beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full
+      portrait inspected.
+exact_text:
+  REGISTRY 16 — AMSTERDAM:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+overall: APPROVED
+notes:
+- Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over dossier
+  beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full portrait inspected.

@@ -1,0 +1,108 @@
+asset: npc-turin-intermediary
+attempt: 1
+stage: visual
+image: art/work/npc-turin-intermediary/attempt-001.png
+image_sha256: ce64d4aa5dba2a54a543fc3b76296cfe9a4a8a93e057df0aef106df52767f7d0
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:23:59.742190+00:00'
+eggs:
+  npc-turin-intermediary-E1:
+    status: PASS
+    notes: Small Basarab crest cufflink visible at raised wrist, matching gold signet motif.
+checks:
+  composition:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  identity:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  props:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  motifs:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  period:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  medium:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  aspect_ratio:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  clue_visibility:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  anatomy:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  hands:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  faces:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  duplicates:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  modern_objects:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  unintended_text:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  vehicle_geometry:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  symbol_geometry:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  numbers:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+  object_geometry:
+    status: PASS
+    notes: Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy
+      skylight over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period
+      vehicles.
+exact_text: {}
+overall: APPROVED
+notes:
+- Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy skylight
+  over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period vehicles.

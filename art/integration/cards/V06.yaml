@@ -1,0 +1,18 @@
+_id: sangreal-ic45
+name: I45 — Airfield Briefing Sheet
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i45-novara-aerial.webp
+system:
+  cardId: I-45
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l6
+  content: <p>low-altitude aerial of Novara-Cameri airfield at dawn, printed as a reconnaissance briefing sheet
+    with grease-pencil annotations.</p>
+  hqFallback: 12
+  daNotes: '<p>a single parked Cessna circled in red grease pencil a second aircraft crossed out beside the service
+    hangar — the decoy traffic a tailing cell would chase the sheet&#x27;s margin carries the printed classification
+    `COVENANT WAYFINDER — RECON 18-IX` and a handwritten note: `wheels up 01:15 confirmed`.</p>'
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

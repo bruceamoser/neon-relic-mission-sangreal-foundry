@@ -1,0 +1,16 @@
+_id: sangreal-ic21
+name: I21 — Diplomatic Passport
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i21-corvi-passport.webp
+system:
+  cardId: I-21
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l2
+  content: <p>Corvi&#x27;s Vatican diplomatic passport ID page, photo + typewritten fields, a border stamp page.</p>
+  hqFallback: 12
+  daNotes: '<p>admission stamp for `CHIASSO` timed two hours after the gate CCTV a handwritten marginal note in
+    another pen: `accompagné` — he was not alone the passport photo is the same session as R09 — same tie.</p>'
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

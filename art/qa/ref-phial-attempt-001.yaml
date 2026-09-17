@@ -1,0 +1,87 @@
+asset: ref-phial
+attempt: 1
+stage: visual
+image: art/work/ref-phial/attempt-001.png
+image_sha256: d2edc31cf59755c8e88368b6e6516ef576a98308b189c8c4effa12caa8415048
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:05:17.962711+00:00'
+eggs:
+  ref-phial-E1:
+    status: AMBIGUOUS
+    notes: Main glass phial is suitable but scratch script and scale need clean reference treatment.
+checks:
+  composition:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+  identity:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+  props:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+  motifs:
+    status: FAIL
+    notes: Eye seal not specified for phial; remove it.
+  period:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+  medium:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+  aspect_ratio:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+  clue_visibility:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+  anatomy:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+  hands:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+  faces:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+  duplicates:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+  modern_objects:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+  unintended_text:
+    status: FAIL
+    notes: Remove generated SANGREAL and UBS label background props.
+  vehicle_geometry:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+  symbol_geometry:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+  numbers:
+    status: FAIL
+    notes: Ruler has repeated/out-of-order digits.
+  object_geometry:
+    status: PASS
+    notes: Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce
+      unsupported motif associations. Ruler digits malformed.
+exact_text: {}
+overall: NEEDS_EDIT
+notes:
+- Thick aged glass, dark fluid and red wax are suitable, but unrequested case, tag and eye seals introduce unsupported
+  motif associations. Ruler digits malformed.

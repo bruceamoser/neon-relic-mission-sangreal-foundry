@@ -1,0 +1,111 @@
+asset: N04
+attempt: 1
+stage: final
+image: art/composite/N04-attempt-001.webp
+image_sha256: e922cd761d2a2992b1fa23790689c0a400b0c3540192c8bb8a80b232fdb54417
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T18:50:17.644073+00:00'
+eggs:
+  N04-E1:
+    status: PASS
+    notes: SPECIMEN MUST BE FLOWN TO CARPATHIAN FACILITY and PROTECT THE BLOODLINE read across curled strip, with
+      ellipses.
+  N04-E2:
+    status: PASS
+    notes: Punched holes visible along upper edge. No reference machine pattern is supplied for exact comparative
+      identification.
+  N04-E3:
+    status: PASS
+    notes: Separate melted wax-paper corner reads RENDEZVOUS 'BASARAB' …
+checks:
+  composition:
+    status: PASS
+    notes: Curled charred telex with material-following type and a separate wax-paper remnant. Both required messages
+      are readable. Perforations are visible; exact correspondence to an Amsterdam machine cannot be authenticated
+      without a supplied reference pattern.
+  identity:
+    status: PASS
+    notes: Curled charred telex with material-following type and a separate wax-paper remnant. Both required messages
+      are readable. Perforations are visible; exact correspondence to an Amsterdam machine cannot be authenticated
+      without a supplied reference pattern.
+  props:
+    status: PASS
+    notes: Curled charred telex with material-following type and a separate wax-paper remnant. Both required messages
+      are readable. Perforations are visible; exact correspondence to an Amsterdam machine cannot be authenticated
+      without a supplied reference pattern.
+  motifs:
+    status: PASS
+    notes: Curled charred telex with material-following type and a separate wax-paper remnant. Both required messages
+      are readable. Perforations are visible; exact correspondence to an Amsterdam machine cannot be authenticated
+      without a supplied reference pattern.
+  period:
+    status: PASS
+    notes: Analog photograph, period materials and equipment; no post-1987 screen or device apparent.
+  medium:
+    status: PASS
+    notes: Curled charred telex with material-following type and a separate wax-paper remnant. Both required messages
+      are readable. Perforations are visible; exact correspondence to an Amsterdam machine cannot be authenticated
+      without a supplied reference pattern.
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); meets required ratio and minimum short edge.
+  clue_visibility:
+    status: PASS
+    notes: Curled charred telex with material-following type and a separate wax-paper remnant. Both required messages
+      are readable. Perforations are visible; exact correspondence to an Amsterdam machine cannot be authenticated
+      without a supplied reference pattern.
+  anatomy:
+    status: PASS
+    notes: No live person or hands shown; depicted object geometry checked separately.
+  hands:
+    status: PASS
+    notes: No live person or hands shown; depicted object geometry checked separately.
+  faces:
+    status: PASS
+    notes: No live person or hands shown; depicted object geometry checked separately.
+  duplicates:
+    status: PASS
+    notes: Required object/person count inspected; no unintended repeated subject apparent.
+  modern_objects:
+    status: PASS
+    notes: Analog photograph, period materials and equipment; no post-1987 screen or device apparent.
+  unintended_text:
+    status: PASS
+    notes: Curled charred telex with material-following type and a separate wax-paper remnant. Both required messages
+      are readable. Perforations are visible; exact correspondence to an Amsterdam machine cannot be authenticated
+      without a supplied reference pattern.
+  vehicle_geometry:
+    status: PASS
+    notes: Curled charred telex with material-following type and a separate wax-paper remnant. Both required messages
+      are readable. Perforations are visible; exact correspondence to an Amsterdam machine cannot be authenticated
+      without a supplied reference pattern.
+  symbol_geometry:
+    status: PASS
+    notes: Curled charred telex with material-following type and a separate wax-paper remnant. Both required messages
+      are readable. Perforations are visible; exact correspondence to an Amsterdam machine cannot be authenticated
+      without a supplied reference pattern.
+  numbers:
+    status: PASS
+    notes: Curled charred telex with material-following type and a separate wax-paper remnant. Both required messages
+      are readable. Perforations are visible; exact correspondence to an Amsterdam machine cannot be authenticated
+      without a supplied reference pattern.
+  object_geometry:
+    status: PASS
+    notes: Curled charred telex with material-following type and a separate wax-paper remnant. Both required messages
+      are readable. Perforations are visible; exact correspondence to an Amsterdam machine cannot be authenticated
+      without a supplied reference pattern.
+exact_text:
+  …SPECIMEN MUST BE FLOWN TO CARPATHIAN FACILITY… PROTECT THE BLOODLINE:
+    status: PASS
+    notes: 'Read directly in rendered photograph: …SPECIMEN MUST BE FLOWN TO CARPATHIAN FACILITY… PROTECT THE BLOODLINE.
+      Line wrapping and ellipsis dots follow material typography.'
+  RENDEZVOUS 'BASARAB' …:
+    status: PASS
+    notes: 'Read directly in rendered photograph: RENDEZVOUS ''BASARAB'' …. Line wrapping and ellipsis dots follow
+      material typography.'
+overall: APPROVED
+notes:
+- Curled charred telex with material-following type and a separate wax-paper remnant. Both required messages are
+  readable. Perforations are visible; exact correspondence to an Amsterdam machine cannot be authenticated without
+  a supplied reference pattern.

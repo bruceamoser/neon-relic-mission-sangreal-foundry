@@ -1,0 +1,96 @@
+asset: R05
+attempt: 1
+stage: visual
+image: art/work/R05/attempt-001.png
+image_sha256: fc55fb98dbda435ff5cb4547bd77a9a7355468b32e55600d4cb25ae3940f99ab
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:17:34.205984+00:00'
+eggs:
+  R05-E1:
+    status: AMBIGUOUS
+    notes: Shelf-mark deferred to exposed stub.
+  R05-E2:
+    status: AMBIGUOUS
+    notes: Latin charge text deferred.
+  R05-E3:
+    status: PASS
+    notes: Red card clean against dusty surrounding card edges.
+checks:
+  composition:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  identity:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  props:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  motifs:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  period:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  medium:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  aspect_ratio:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  clue_visibility:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  anatomy:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  hands:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  faces:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  duplicates:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  modern_objects:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  unintended_text:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  vehicle_geometry:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  symbol_geometry:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  numbers:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+  object_geometry:
+    status: PASS
+    notes: Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub,
+      clean red replacement card. Exact lettering deferred.
+exact_text: {}
+overall: APPROVED
+notes:
+- Single open mahogany catalog drawer, dusty old cards, cut-away front card leaving exposed pale stub, clean red
+  replacement card. Exact lettering deferred.

@@ -1,0 +1,93 @@
+asset: npc-feral-ghoul
+attempt: 1
+stage: final
+image: art/composite/npc-feral-ghoul-attempt-001.webp
+image_sha256: 2eab78086b210d07074fc3f6342384c51f66fe8dbc2d4a068d198ad5ccba8b2d
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:40:44.196532+00:00'
+eggs:
+  npc-feral-ghoul-E1:
+    status: PASS
+    notes: Wrist tag reads SONNENBERG — UNCLAIMED.
+checks:
+  composition:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  identity:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  props:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  motifs:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  period:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  medium:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  aspect_ratio:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  clue_visibility:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  anatomy:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  hands:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  faces:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  duplicates:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  modern_objects:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  unintended_text:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  vehicle_geometry:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  symbol_geometry:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  numbers:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+  object_geometry:
+    status: PASS
+    notes: Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist
+      tag and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+exact_text:
+  SONNENBERG — UNCLAIMED:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+overall: APPROVED
+notes:
+- Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist tag and
+  bracelet remain attached and visible. Rotated two-line type stays inside tag edges.

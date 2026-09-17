@@ -1,0 +1,113 @@
+asset: Z02
+attempt: 1
+stage: visual
+image: art/work/Z02/attempt-001.png
+image_sha256: 643ca8e171d2de017b066751a301cffff970a5e1882ed078ee16711c8b9f862c
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T13:10:06.869407+00:00'
+eggs:
+  Z02-E1:
+    status: PASS
+    notes: The IV insertion site is reddened and carries a clean blank batch tag for exact compositing.
+  Z02-E2:
+    status: PASS
+    notes: A nurse's hand withdraws at the frame edge.
+  Z02-E3:
+    status: PASS
+    notes: The wall light switch is covered by crossed medical tape.
+checks:
+  composition:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  identity:
+    status: FAIL
+    notes: 'Needs correction: preserve visible sclera and a narrow iris rim around very large nonreactive black
+      pupils.'
+  props:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  motifs:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  period:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  medium:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  aspect_ratio:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  clue_visibility:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  anatomy:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  hands:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  faces:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  duplicates:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  modern_objects:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  unintended_text:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  vehicle_geometry:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  symbol_geometry:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  numbers:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+  object_geometry:
+    status: PASS
+    notes: The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch,
+      and mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated
+      pupils.
+exact_text: {}
+overall: NEEDS_REGENERATION
+notes:
+- The clinical photograph includes the inflamed tagged IV site, withdrawing nurse hand, taped light switch, and
+  mild light-pattern redness, but renders the entire visible eyes solid black rather than clinically dilated pupils.

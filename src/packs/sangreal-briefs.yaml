@@ -139,6 +139,12 @@
       <li><strong>2 — Elder Cleansing Strike:</strong> the retrieval pack finds the Novara
       safehouse and executes Claudia to keep the cure from their bloodlines.</li>
       </ul>
+      <h3>Off-Camera Tracks (persons)</h3>
+      <p>P1–P7 are individuals acting as self-organizations: Corvi, Vane, Hausmann, Graf,
+      the Turin Intermediary, the Basarab pack, and the Watcher. Their milestone cells fire
+      when their day is reached — deliver them as second-hand events (a courier's report,
+      a police band, a photograph, a priest's rumor), never as scenes the cell witnesses.
+      The board is the DA's view of who is where, and when.</p>
       <h3>Escalation Schedule (quick reference)</h3>
       <table>
       <tr><th>Day</th><th>Phase</th><th>Event</th></tr>
@@ -274,6 +280,7 @@
     organizations:
       - id: O1
         name: 'The Holy Alliance (L''Entità)'
+        orgSlug: sangreal-org-alliance
         value: 0
         active: true
         dormant: false
@@ -290,6 +297,7 @@
             description: 'Holy Crusade — Sabbatini decides the cell has seen too much. A plainclothes Swiss Guard squad armed with phosphorus grenades moves to sanitize the operation.'
       - id: O2
         name: 'The Order of the Talamasca (Registry 16)'
+        orgSlug: sangreal-org-talamasca
         value: 0
         active: true
         dormant: false
@@ -304,10 +312,143 @@
           - day: 2
             label: O2M3
             description: 'Elder Cleansing Strike — the retrieval pack finds the Novara safehouse and executes Claudia to keep the cure from their bloodlines.'
-    informationCardSlugs: [sangreal-ic01, sangreal-ic02, sangreal-ic03, sangreal-ic04, sangreal-ic05, sangreal-ic06, sangreal-ic07, sangreal-ic08, sangreal-ic09, sangreal-ic10, sangreal-ic11, sangreal-ic12, sangreal-ic13, sangreal-ic14, sangreal-ic15, sangreal-ic16, sangreal-ic17]
+      # ── Off-camera tracks — single persons acting as self-organizations ──
+      # These rows show what people are doing away from the table: movements,
+      # hand-offs, betrayals and deaths. Play cells as second-hand news.
+      - id: P1
+        name: 'Monsignor Matteo Corvi'
+        orgSlug: sangreal-npc-corvi
+        value: 0
+        active: true
+        dormant: false
+        squaresConsumed: []
+        milestones:
+          - day: 13
+            label: P1M1
+            description: 'Crosses into Switzerland at Chiasso with the attaché and checks into a Geneva pension under his own name — a man who wants to be found by the right people.'
+          - day: 11
+            label: P1M2
+            description: 'Signs locker 4409-C into escrow and rides the EC 30 to Zurich, first class, the case on his knees.'
+          - day: 8
+            label: P1M3
+            description: 'Leaves Zurich the morning after Hausmann''s break and takes the coast road south; in Turin he buys a second deadbolt lock for the case.'
+          - day: 4
+            label: P1M4
+            description: 'Barricades himself in the Lingotto supervisor''s booth, refuses food, and prays in Latin over the case — waiting to be found, but only by the right people.'
+      - id: P2
+        name: 'Sister Claudia Vane'
+        orgSlug: sangreal-npc-vane
+        value: 0
+        active: true
+        dormant: false
+        squaresConsumed: []
+        milestones:
+          - day: 12
+            label: P2M1
+            description: 'Second progress packet to Amsterdam goes out in the Vatican diplomatic pouch. Observers note her handwriting has not trembled once in a year.'
+          - day: 6
+            label: P2M2
+            description: 'Green-light received from Registry 16. She repacks her kit in order — rosary, pistol, transit folio — and argues to move on Lingotto tonight.'
+          - day: 4
+            label: P2M3
+            description: 'Snaps the Veronica Thread on the factory floor during the fire and takes the case. By the time the flash clears she is out of the building and the cell''s transport is gone.'
+          - day: 3
+            label: P2M4
+            description: 'Drives to Novara alone and waits in the abbey for the airstrip rendezvous, composing one last message home.'
+      - id: P3
+        name: 'Kurt Hausmann (The Feral Banker)'
+        orgSlug: sangreal-npc-hausmann
+        value: 0
+        active: true
+        dormant: false
+        squaresConsumed: []
+        milestones:
+          - day: 10
+            label: P3M1
+            description: 'Receives the injection at Sonnenberg — the first phial of Gethsemane enters a mortal man at 02:00.'
+          - day: 8
+            label: P3M2
+            description: 'Wakes changed: the tumors are gone, his core temperature is 28°C, and the third floor''s night staff are missing by morning. He stops using words.'
+          - day: 5
+            label: P3M3
+            description: 'Hunted into the Zurichberg forest edge — livestock missing, graves disturbed, and the hunter has learned to stay out of the light.'
+      - id: P4
+        name: 'Dr. Elizabeth Graf'
+        orgSlug: sangreal-npc-graf
+        value: 0
+        active: true
+        dormant: false
+        squaresConsumed: []
+        milestones:
+          - day: 9
+            label: P4M1
+            description: 'Files the histopathology under a dead trial code and hides one slide inside her coat. She is already afraid of who paid for the study.'
+          - day: 7
+            label: P4M2
+            description: 'Sits with a box of matches and the research log for an hour — and puts the matches away. It would take the whole wing with it.'
+          - day: 4
+            label: P4M3
+            description: 'Barricades herself in Theatre 2 with the slides when men in grey coats arrive to ''collect the study''. None of them introduce themselves.'
+      - id: P5
+        name: 'The Turin Intermediary'
+        orgSlug: sangreal-npc-turin-intermediary
+        value: 0
+        active: true
+        dormant: false
+        squaresConsumed: []
+        milestones:
+          - day: 9
+            label: P5M1
+            description: 'Takes the second buyer''s deposit by courier — the envelope bears a Wallachian dragon crest he chooses not to notice.'
+          - day: 6
+            label: P5M2
+            description: 'Buys the second phial on the Lingotto floor and raises his offer to triple for the remaining eleven vessels.'
+          - day: 3
+            label: P5M3
+            description: 'Sells the Novara rendezvous address to the Basarab pack and takes the night train to Milan with his fee.'
+          - day: 1
+            label: P5M4
+            description: 'Wires congratulations to Bucharest and closes the account. Profit, not pride, was always the point.'
+      - id: P6
+        name: 'The Basarab Retrieval Pack'
+        orgSlug: sangreal-npc-basarab-elder
+        value: 0
+        active: true
+        dormant: false
+        squaresConsumed: []
+        milestones:
+          - day: 9
+            label: P6M1
+            description: 'The pack enters Italy on a freight express and settles into the service tunnels beneath the Lingotto. They wait without moving.'
+          - day: 3
+            label: P6M2
+            description: 'A priest in the Novara diocese reports three parishioners who never blink. By evening the abbey''s lamps go out one at a time.'
+          - day: 2
+            label: P6M3
+            description: 'The strike takes minutes: ten phials change hands and the eleventh shatters — a single drop burns two of their fingers to white ash.'
+          - day: 1
+            label: P6M4
+            description: 'The consignments are loaded aboard YR-BAS. The Elder stands at the fence line and looks directly at the watchers.'
+      - id: P7
+        name: 'The Grey Watcher'
+        orgSlug: sangreal-npc-watcher
+        value: 0
+        active: true
+        dormant: false
+        squaresConsumed: []
+        milestones:
+          - day: 13
+            label: P7M1
+            description: 'A grey raincoat reads the same newspaper in three cities this week, always one carriage behind the case.'
+          - day: 10
+            label: P7M2
+            description: 'Photographs the Bahnhofstrasse from a café across the road while the case changes hands; his negatives are the only ones nobody will ever find.'
+          - day: 2
+            label: P7M3
+            description: 'Reaches Novara before the pack and leaves before the police, adding one pencil line to the gatehouse ledger: "second descent, 04:02."'
 
 - _id: sangreal-information-web
   name: 'SANGREAL-87-091 — Information Web'
   type: informationWeb
   system:
-    informationCardSlugs: [sangreal-ic01, sangreal-ic02, sangreal-ic03, sangreal-ic04, sangreal-ic05, sangreal-ic06, sangreal-ic07, sangreal-ic08, sangreal-ic09, sangreal-ic10, sangreal-ic11, sangreal-ic12, sangreal-ic13, sangreal-ic14, sangreal-ic15, sangreal-ic16, sangreal-ic17]
+    informationCardSlugs: [sangreal-ic01, sangreal-ic02, sangreal-ic03, sangreal-ic04, sangreal-ic05, sangreal-ic06, sangreal-ic07, sangreal-ic08, sangreal-ic09, sangreal-ic10, sangreal-ic11, sangreal-ic12, sangreal-ic13, sangreal-ic14, sangreal-ic15, sangreal-ic16, sangreal-ic17, sangreal-ic18, sangreal-ic19, sangreal-ic20, sangreal-ic21, sangreal-ic22, sangreal-ic23, sangreal-ic24, sangreal-ic25, sangreal-ic26, sangreal-ic27, sangreal-ic28, sangreal-ic29, sangreal-ic30, sangreal-ic31, sangreal-ic32, sangreal-ic33, sangreal-ic34, sangreal-ic35, sangreal-ic36, sangreal-ic37, sangreal-ic38, sangreal-ic39, sangreal-ic40, sangreal-ic41, sangreal-ic42, sangreal-ic43, sangreal-ic44, sangreal-ic45]

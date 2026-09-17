@@ -1,0 +1,90 @@
+asset: ref-phosphorus-canister
+attempt: 3
+stage: visual
+image: art/work/ref-phosphorus-canister/attempt-003.png
+image_sha256: 0340e27e8b9f30d99aec115e98d542cf1957fdd6cf780bcf441f2bde1652d1ed
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:29:33.040797+00:00'
+eggs:
+  ref-phosphorus-canister-E1:
+    status: PASS
+    notes: Black cylinder clipped at overcoat opening, tactical vest beneath, no diagram or face.
+checks:
+  composition:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  identity:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  props:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  motifs:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  period:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  medium:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  aspect_ratio:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  clue_visibility:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  anatomy:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  hands:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  faces:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  duplicates:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  modern_objects:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  unintended_text:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  vehicle_geometry:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  symbol_geometry:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  numbers:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+  object_geometry:
+    status: PASS
+    notes: One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face,
+      label or car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.
+exact_text: {}
+overall: APPROVED
+notes:
+- One worn black cylinder with red band, metal clip against grey wool overcoat and olive vest. No face, label or
+  car. Evidence ruler now unnumbered, period metal/fabric props, 3:2 flash photo.

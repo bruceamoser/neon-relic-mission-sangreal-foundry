@@ -1,0 +1,75 @@
+asset: ref-green-railway-pass
+attempt: 1
+stage: final
+image: art/composite/ref-green-railway-pass-attempt-001.webp
+image_sha256: 6418ddf4df35dd250d3cec2d206946f23dd3c56bc07ac4f0db2bfc0f638e17b1
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T16:56:48.050458+00:00'
+eggs:
+  ref-green-railway-pass-E1:
+    status: PASS
+    notes: Green Italian State Railways pass with exact EC 30 (Romulus) — Roma Termini → Genève Cornavin route.
+checks:
+  composition:
+    status: PASS
+    notes: One green pass laid flat over dark wood, with separate evidence ruler below.
+  identity:
+    status: PASS
+    notes: Internal prop reference; no person.
+  props:
+    status: PASS
+    notes: Worn green card, period Italian State Railways heading and central blank route field.
+  motifs:
+    status: PASS
+    notes: Finished reference preserves the required prop design and now carries the exact composited wording.
+  period:
+    status: PASS
+    notes: Worn wood, paper, cord or metal as appropriate to this reference; no post-1987 object visible.
+  medium:
+    status: PASS
+    notes: Muted film tones, direct flash, worn surfaces and grain visible.
+  aspect_ratio:
+    status: PASS
+    notes: 1536 by 1024; exact 3:2 and 1024 short edge.
+  clue_visibility:
+    status: PASS
+    notes: Large clean central field allows the complete required route to be readable.
+  anatomy:
+    status: PASS
+    notes: No foreground human anatomical subject.
+  hands:
+    status: PASS
+    notes: No foreground hands depicted.
+  faces:
+    status: PASS
+    notes: No foreground face requiring identity matching.
+  duplicates:
+    status: PASS
+    notes: One reference subject; repeated beads or printed scale ticks are intentional, with no duplicated principal
+      prop.
+  modern_objects:
+    status: PASS
+    notes: No digital devices, modern vehicle or modern lighting fixtures visible.
+  unintended_text:
+    status: PASS
+    notes: Required wording appears on the intended surface; no additional gameplay clue text introduced.
+  vehicle_geometry:
+    status: PASS
+    notes: No real vehicle depicted; any small printed illustration is a document motif.
+  symbol_geometry:
+    status: PASS
+    notes: Railway mark and locomotive illustration print coherently on the card.
+  numbers:
+    status: PASS
+    notes: The required letters and numbers match the manifest; incidental evidence scale remains unchanged.
+  object_geometry:
+    status: PASS
+    notes: Flat card edges and worn rounded corners are coherent.
+exact_text:
+  EC 30 (Romulus) — Roma Termini → Genève Cornavin:
+    status: PASS
+    notes: 'Visually checked exact wording: EC 30 (Romulus) — Roma Termini → Genève Cornavin. Readable within its
+      intended surface; punctuation and characters match the required string.'
+overall: APPROVED
+notes: []

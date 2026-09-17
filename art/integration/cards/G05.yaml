@@ -1,0 +1,17 @@
+_id: sangreal-ic26
+name: I26 — The 06:40 to Geneva
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i26-cornavin-platform.webp
+system:
+  cardId: I-26
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l3
+  content: <p>telephoto stakeout photo — the Cornavin platform, Corvi climbing aboard with the attaché; steam and
+    departure boards.</p>
+  hqFallback: 12
+  daNotes: <p>a figure a carriage behind in a grey raincoat, same newspaper the carriage board reads `EC 30 ROMULUS`
+    a porter&#x27;s trolley carries a pasteboard label `VATICAN COURIER`.</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

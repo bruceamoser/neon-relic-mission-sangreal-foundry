@@ -1,0 +1,115 @@
+asset: Z01
+attempt: 2
+stage: visual
+image: art/work/Z01/attempt-002.png
+image_sha256: 85dc1fe2fe3721ae962214007728aceca1a98423560b0b376abc77cf13c02860
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T13:17:49.642353+00:00'
+eggs:
+  Z01-E1:
+    status: PASS
+    notes: Blank handheld intake board is correctly positioned for 09-H compositing.
+  Z01-E2:
+    status: PASS
+    notes: Hausmann's gold wristwatch is clearly visible.
+  Z01-E3:
+    status: PASS
+    notes: The IV bag at frame right bears the canonical Sonnenberg logo.
+checks:
+  composition:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  identity:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  props:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  motifs:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  period:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  medium:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  aspect_ratio:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  clue_visibility:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  anatomy:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  hands:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  faces:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  duplicates:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  modern_objects:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  unintended_text:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  vehicle_geometry:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  symbol_geometry:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  numbers:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+  object_geometry:
+    status: PASS
+    notes: Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity,
+      gaunt but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo
+      IV bag. The institutional flash and aged print remain coherent.
+exact_text: {}
+overall: APPROVED
+notes:
+- Corrected pre-treatment intake photograph inspected at original resolution. Hausmann retains his identity, gaunt
+  but composed appearance, ordinary human eyes, hospital gown, gold watch, blank ID board, and Sonnenberg-logo IV
+  bag. The institutional flash and aged print remain coherent.

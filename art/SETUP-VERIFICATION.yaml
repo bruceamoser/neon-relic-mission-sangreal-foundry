@@ -1,0 +1,37 @@
+scope: Setup only; no production images generated, graded, approved or integrated.
+checks:
+  npm run build: PASS
+  npm run validate: 'PASS: 7 pack files, 55 documents'
+  npm run audit: 'PASS: 127 cross-linked UUIDs, 35 coverage checks'
+  npm run art:manifest: 'PASS: 72 unique jobs with complete source coverage'
+  npm run art:test: 'PASS: 31 tests'
+module_content: src/packs and existing src/assets/art unchanged; original SVGs preserved.
+counts:
+  source_images: 62
+  npc: 16
+  optional_relics: 3
+  intel: 43
+  internal_references: 10
+  total_jobs: 72
+  existing_card_replacements: 14
+  new_card_images: 28
+  additional_I13_detail: 1
+  text_source_jobs: 48
+  text_internal_jobs: 4
+calibration:
+- npc-corvi
+- R01
+- R03
+- G03
+- Z03
+- T01
+source_questions:
+- R08
+- R09
+- V04
+- G06
+- N02
+- N07
+- relic-lodestone
+notes: Synthetic test images exist only in temporary test directories and are not
+  production artwork. Human review checkpoints remain pending.

@@ -1,0 +1,99 @@
+asset: Z02
+attempt: 2
+stage: final
+image: art/composite/Z02-attempt-002.webp
+image_sha256: 2fd45473e5e7446404c7e37dfd4f874547f6fba5ea44d485d760bc06265f9dce
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T13:24:43.593120+00:00'
+eggs:
+  Z02-E1:
+    status: PASS
+    notes: Inflamed IV site carries XII-1 / 12.
+  Z02-E2:
+    status: PASS
+    notes: Nurse hand withdraws at frame edge.
+  Z02-E3:
+    status: PASS
+    notes: Light switch is taped over.
+checks:
+  composition:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  identity:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  props:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  motifs:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  period:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  medium:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  aspect_ratio:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  clue_visibility:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  anatomy:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  hands:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  faces:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  duplicates:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  modern_objects:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  unintended_text:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  vehicle_geometry:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  symbol_geometry:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  numbers:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+  object_geometry:
+    status: PASS
+    notes: Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible
+      sclera; the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.
+exact_text:
+  XII-1 / 12:
+    status: PASS
+    notes: All canonical wording is visibly present on the final composite and bound to its physical surface.
+overall: APPROVED
+notes:
+- Final photophobia documentation image inspected. Hausmann has extremely dilated black pupils with visible sclera;
+  the IV tag reads XII-1 / 12, the nurse withdraws, and the light switch is taped over.

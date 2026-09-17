@@ -1,0 +1,96 @@
+asset: T04
+attempt: 1
+stage: visual
+image: art/work/T04/attempt-001.png
+image_sha256: 823c1bf15740bcf07148923b56422c9668436500aebbc0d73df328a1303b0b25
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T16:54:42.399639+00:00'
+eggs:
+  T04-E1:
+    status: PASS
+    notes: MS-Vat-Heb-418 appears at upper left.
+  T04-E2:
+    status: PASS
+    notes: Hanging lead seal has branching cracks and a repaired patch at upper right.
+  T04-E3:
+    status: PASS
+    notes: CAPSAM XII-SANG-00 appears at upper right.
+checks:
+  composition:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  identity:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  props:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  motifs:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  period:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  medium:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  aspect_ratio:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  clue_visibility:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  anatomy:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  hands:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  faces:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  duplicates:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  modern_objects:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  unintended_text:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  vehicle_geometry:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  symbol_geometry:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  numbers:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+  object_geometry:
+    status: PASS
+    notes: Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured
+      repaired hanging seal. Shelf mark capitalization follows the source.
+exact_text: {}
+overall: APPROVED
+notes:
+- Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured repaired
+  hanging seal. Shelf mark capitalization follows the source.

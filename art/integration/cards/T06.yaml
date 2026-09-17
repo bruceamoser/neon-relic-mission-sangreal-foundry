@@ -1,0 +1,17 @@
+_id: sangreal-ic37
+name: I37 — The Empty Needle
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i37-rosary-open.webp
+system:
+  cardId: I-37
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l5
+  content: <p>forensic macro of Claudia&#x27;s wooden rosary, one bead split open along its grain; the needle is
+    gone; frayed ochre thread fibers remain inside.</p>
+  hqFallback: 12
+  daNotes: <p>the split is a clean, deliberate cut — she opened it herself ochre linen fibers in the cavity a fine
+    line of phosphorus burn on the bead&#x27;s outer surface — the Thread was snapped not long ago, and near here.</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

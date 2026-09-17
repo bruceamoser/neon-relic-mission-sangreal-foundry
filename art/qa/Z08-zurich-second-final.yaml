@@ -1,0 +1,102 @@
+asset: Z08
+attempt: 1
+stage: final
+image: art/composite/revisions/zurich-second-pass/Z08.webp
+image_sha256: a38d0f4f23182f4011cf586645ad107539683cbbfe530b5a53b545ac4f79f6ff
+inspected_visually: true
+reviewer: Bruce and Codex
+inspected_at: '2026-09-17T16:40:40.965172+00:00'
+eggs:
+  Z08-E1:
+    status: PASS
+    notes: Crucible glass is fused amid fine white ash.
+  Z08-E2:
+    status: PASS
+    notes: Log card reads DAYLIGHT TEST 07:12 — COMPLETE COMBUSTION.
+  Z08-E3:
+    status: PASS
+    notes: Linen and jar labelled GALL / VINEGAR / MYRRH form the quiescence kit.
+checks:
+  composition:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  identity:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  props:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  motifs:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  period:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  medium:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  aspect_ratio:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  clue_visibility:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  anatomy:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  hands:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  faces:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  duplicates:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  modern_objects:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  unintended_text:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  vehicle_geometry:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  symbol_geometry:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  numbers:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+  object_geometry:
+    status: PASS
+    notes: Final fume-hood evidence image inspected. The collapsed crucible and white ash remain clear; the log
+      card records the daylight test and the kit jar reads GALL / VINEGAR / MYRRH.
+exact_text:
+  DAYLIGHT TEST 07:12 — COMPLETE COMBUSTION:
+    status: PASS
+    notes: Visually present in second pass; Z08 ingredient separators use approved line breaks.
+  GALL / VINEGAR / MYRRH:
+    status: PASS
+    notes: Visually present in second pass; Z08 ingredient separators use approved line breaks.
+overall: APPROVED
+notes:
+- 'Bruce approved second pass: look sgood continue. Z08 ingredient separators accepted as line breaks rather than
+  slashes.'

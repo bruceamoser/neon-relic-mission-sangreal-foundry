@@ -1,0 +1,107 @@
+asset: T02
+attempt: 3
+stage: final
+image: art/composite/T02-attempt-003.webp
+image_sha256: d5d40d3942fc46458da964da42daebf9b3b547ae3b4751c226312a8dace2a354
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T19:50:28.138543+00:00'
+eggs:
+  T02-E1:
+    status: PASS
+    notes: Brass left lock has visible fine dark fracture and fresh tape beside it.
+  T02-E2:
+    status: PASS
+    notes: FIAT stencils on drums at left remain readable.
+  T02-E3:
+    status: PASS
+    notes: Visible puddles reflect ceiling lights, without reflected Corvi silhouette.
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  identity:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  props:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  motifs:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  period:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  medium:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  aspect_ratio:
+    status: PASS
+    notes: (1448, 1086); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  hands:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  faces:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting.
+      Lock inspected enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+exact_text:
+  '6':
+    status: PASS
+    notes: 'Visually read in scene material: 6. Natural line breaks, capitalization and dash-length variants retained
+      where noted.'
+  Fiat:
+    status: PASS
+    notes: 'Visually read in scene material: Fiat. Natural line breaks, capitalization and dash-length variants
+      retained where noted.'
+  SANGREAL:
+    status: PASS
+    notes: 'Visually read in scene material: SANGREAL. Natural line breaks, capitalization and dash-length variants
+      retained where noted.'
+overall: APPROVED
+notes:
+- 'Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting. Lock inspected enlarged:
+  narrow branching fracture in brass beside tape; steel shell intact.'

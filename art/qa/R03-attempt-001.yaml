@@ -1,0 +1,75 @@
+asset: R03
+attempt: 1
+stage: visual
+image: art/work/R03/attempt-001.png
+image_sha256: a3b67b13a5d63b9d793f4b6c5a472a518ddfa66622f62f1ff0e292dc5e64e628
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T17:05:32.973505+00:00'
+eggs:
+  R03-E1:
+    status: PASS
+    notes: Yellowish glittering residue appears within and around the damaged copper coils.
+  R03-E2:
+    status: PASS
+    notes: Empty center of the induction cradle/mooring surface is blackened distinctly darker than the surrounding
+      speckled granite.
+checks:
+  composition:
+    status: PASS
+    notes: Single octagonal vault view with induction cradle on black granite altar, lead wall panels and exposed
+      brick.
+  identity:
+    status: PASS
+    notes: No known human character appears in this image.
+  props:
+    status: PASS
+    notes: Warped copper coils, scorched dark central mooring surface, ruler and marker 3 visible.
+  motifs:
+    status: PASS
+    notes: No additional recurring symbol required beyond the stated props.
+  period:
+    status: PASS
+    notes: Analog materials and equipment; no post-1987 item apparent.
+  medium:
+    status: PASS
+    notes: Harsh flash with cool blue-green cast, wet lead reflections, grain and falloff.
+  aspect_ratio:
+    status: PASS
+    notes: Image dimensions match the requested ratio and exceed 1024 on the short edge.
+  clue_visibility:
+    status: PASS
+    notes: Yellow sulfurous flecks visible among copper slag; central empty mooring area is distinctly darker.
+  anatomy:
+    status: PASS
+    notes: No human body requiring anatomical review.
+  hands:
+    status: PASS
+    notes: No human hands depicted.
+  faces:
+    status: PASS
+    notes: No human face depicted.
+  duplicates:
+    status: PASS
+    notes: Single principal scene; repeated component objects are intentional.
+  modern_objects:
+    status: PASS
+    notes: No smartphone, digital camera, flat screen or contemporary fixture visible.
+  unintended_text:
+    status: PASS
+    notes: No additional gameplay clue wording introduced.
+  vehicle_geometry:
+    status: PASS
+    notes: No vehicle depicted.
+  symbol_geometry:
+    status: PASS
+    notes: No malformed symbol apparent.
+  numbers:
+    status: PASS
+    notes: Incidental evidence markings only; exact gameplay strings are checked separately.
+  object_geometry:
+    status: PASS
+    notes: Damaged coil hardware is intentionally irregular; altar facets and walls connect plausibly.
+exact_text: {}
+overall: APPROVED
+notes: []

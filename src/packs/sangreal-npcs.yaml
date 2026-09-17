@@ -6,10 +6,10 @@
 - _id: sangreal-npc-corvi
   name: 'Monsignor Matteo Corvi'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-corvi.svg
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-corvi.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-corvi.svg
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-corvi.webp
   system:
     tier: 2
     description: >
@@ -50,10 +50,10 @@
 - _id: sangreal-npc-vane
   name: 'Sister Claudia Vane'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-vane.svg
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-vane.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-vane.svg
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-vane.webp
   system:
     tier: 3
     description: >
@@ -97,10 +97,10 @@
 - _id: sangreal-npc-sabbatini
   name: 'Cardinal Enrico Sabbatini'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-sabbatini.svg
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-sabbatini.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-sabbatini.svg
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-sabbatini.webp
   system:
     tier: 3
     description: >
@@ -141,10 +141,10 @@
 - _id: sangreal-npc-graf
   name: 'Dr. Elizabeth Graf'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-graf.svg
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-graf.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-graf.svg
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-graf.webp
   system:
     tier: 1
     description: >
@@ -182,10 +182,10 @@
 - _id: sangreal-npc-hausmann
   name: 'Kurt Hausmann (The Feral Banker)'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann.svg
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann.svg
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann.webp
   system:
     tier: 4
     description: >
@@ -230,6 +230,10 @@
 - _id: sangreal-npc-ghiberti
   name: 'Father Ghiberti'
   type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-ghiberti.webp
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-ghiberti.webp
   system:
     tier: 1
     description: >
@@ -267,6 +271,10 @@
 - _id: sangreal-npc-mercier
   name: 'Jean-Paul Mercier'
   type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-mercier.webp
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-mercier.webp
   system:
     tier: 1
     description: >
@@ -303,6 +311,10 @@
 - _id: sangreal-npc-entita-operative
   name: "L'Entità Sanitization Operative"
   type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-entita-operative.webp
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-entita-operative.webp
   system:
     tier: 4
     description: >
@@ -343,6 +355,10 @@
 - _id: sangreal-npc-basarab-operative
   name: 'Basarab Retrieval Operative'
   type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-operative.webp
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-operative.webp
   system:
     tier: 4
     description: >
@@ -384,6 +400,10 @@
 - _id: sangreal-mob-feralghouls
   name: 'Feral Ghouls'
   type: mob
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-feral-ghoul.webp
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-feral-ghoul.webp
   system:
     memberCount: 3
     memberHP: 3
@@ -405,10 +425,10 @@
 - _id: sangreal-npc-basarab-elder
   name: 'Basarab Elder'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-elder.svg
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-elder.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-elder.svg
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-elder.webp
   system:
     tier: 4
     description: >
@@ -449,3 +469,208 @@
     goal: 'Deliver ten intact phials to the Carpathian furnace and end the only threat to its line.'
     positiveResult: 'Destroyed or cured: the Basarab line loses its head and Mission 2 becomes salvage.'
     negativeResult: 'It reaches the Carpathians unopposed — and the feral lineage erupts across Northern Italy.'
+
+- _id: sangreal-npc-gendarme-officer
+  name: 'Vatican Gendarme Duty Officer'
+  type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-gendarme-officer.webp
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-gendarme-officer.webp
+  system:
+    tier: 1
+    description: >
+      <h3>Psychological Profile</h3>
+      <p>Sergeant of the Campo Santo Teutonico gate detail — twelve years on the same
+      stool, two metres from the logbook. He is not corrupt; he is tired. The night of
+      the theft is the first night in years when something did not fit the log.</p>
+      <h3>Social Mechanics</h3>
+      <p>Guarded / Procedure-bound (Difficulty 2). Respect for the log, an offered
+      cigarette, and a promise that the inquiry is aimed at the thieves — not the guard —
+      open him. Rank-pulling and threats close him for the rest of the case.</p>
+      <h3>Combat Profile</h3>
+      <p>Non-combatant in practice. Sidearm on the belt, never drawn inside the cemetery
+      in living memory.</p>
+    attributes:
+      str: 2
+      agi: 2
+      wit: 3
+      emp: 3
+    skills:
+      investigate: 2
+      command: 1
+    armorRating: 0
+    fearRating: 1
+    disposition: 2
+    corruptionStage: 0
+    tags:
+      - sangreal
+    secret: 'He logged a second entry at 04:02 — a figure in a raincoat with no name — and said nothing. The last guard who reported an irregularity was reassigned to the warehouse apostolate.'
+    goal: 'Finish the shift, keep the log tidy, avoid becoming the story.'
+    positiveResult: 'Shows the gate log: two descents that night — Corvi at 03:14, an unnamed visitor at 04:02.'
+    negativeResult: 'Repeats only the official version and points the cell at the Swiss Guard archive like everyone else does.'
+
+- _id: sangreal-npc-logistics-officer
+  name: 'Covenant Logistics Officer'
+  type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-logistics-officer.webp
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-logistics-officer.webp
+  system:
+    tier: 1
+    description: >
+      <h3>Psychological Profile</h3>
+      <p>Region 04 desk officer — safehouses, vehicles, courier manifests, and a room
+      full of maps. Unshakeable, overworked, allergic to drama. She has moved agents
+      through two coups and one conclave and considers this case merely "busy".</p>
+      <h3>Social Mechanics</h3>
+      <p>Cooperative / Practical (Difficulty 1). A clear request packet and a straight
+      answer about the case's risk level get results. Vagueness gets her default answer:
+      a two-shift delay and a lecture on requisition discipline.</p>
+      <h3>Combat Profile</h3>
+      <p>Non-combatant. The thermos is not a metaphor.</p>
+    attributes:
+      str: 2
+      agi: 2
+      wit: 3
+      emp: 3
+    skills:
+      command: 2
+      investigate: 1
+    armorRating: 0
+    fearRating: 0
+    disposition: 1
+    corruptionStage: 0
+    tags:
+      - sangreal
+    secret: 'One of her trusted Geneva couriers is a Talamasca stringer who believes he is working for a historical foundation.'
+    goal: 'Keep the corridor moving and every agent accounted for on paper.'
+    positiveResult: 'Expedites one request packet (gear, vehicle swap, or safehouse) in record time.'
+    negativeResult: 'The request "goes to committee" — arriving two shifts later than promised.'
+
+- _id: sangreal-npc-wayfinder-analyst
+  name: 'Wayfinder Remote-Sensing Analyst'
+  type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-wayfinder-analyst.webp
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-wayfinder-analyst.webp
+  system:
+    tier: 1
+    description: >
+      <h3>Psychological Profile</h3>
+      <p>A signals-room lifer who reads magnetometers the way other men read newspapers.
+      Precise, dry, and quietly appalled by what the Vault IX readings keep telling him.
+      He does not leave his room; there is no need to.</p>
+      <h3>Social Mechanics</h3>
+      <p>Cooperative / Technical (Difficulty 2). Ask the right question — "was there more
+      than one descent that night?" — and he answers it. Ask for "everything" and he sends
+      sixty pages and a reading list.</p>
+      <h3>Combat Profile</h3>
+      <p>Non-combatant. Owns no weapon and would be a hazard with one.</p>
+    attributes:
+      str: 1
+      agi: 2
+      wit: 4
+      emp: 2
+    skills:
+      investigate: 3
+      lore: 2
+    armorRating: 0
+    fearRating: 0
+    disposition: 1
+    corruptionStage: 0
+    tags:
+      - sangreal
+    secret: 'The last stable Vault IX reading shows two descents that night — and a second magnetic signature that is neither the Lodestone nor the case.'
+    goal: 'Understand the anomaly without ever standing near it.'
+    positiveResult: 'Confirms the 04:02 descent and flags the unidentified second signature (the Watcher''s device).'
+    negativeResult: 'Buries the cell in telemetry, interference plots, and a per-diem form they will never get signed.'
+
+- _id: sangreal-npc-turin-intermediary
+  name: 'The Turin Intermediary'
+  type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-turin-intermediary.webp
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-turin-intermediary.webp
+  system:
+    tier: 3
+    description: >
+      <h3>Psychological Profile</h3>
+      <p>Immaculate, late fifties, never photographed head-on. The "cultured voice" on
+      the PTT intercept: collector, broker, and — as of this case — a man who has already
+      promised the same briefcase to two buyers, one of whom does not haggle. He treats
+      the Covenant as potential inventory. He has never raised his voice in his life.</p>
+      <h3>Social Mechanics</h3>
+      <p>Deceptive / Commercial (Difficulty 3). He buys and sells real information
+      (meeting times, the Lingotto floor plan) and lies by omission as a matter of
+      hygiene. Only hard proof of the Basarab involvement cracks the mask.</p>
+      <h3>Combat Profile</h3>
+      <p>Non-combatant; two bodyguards wait outside every room he is in.</p>
+    attributes:
+      str: 2
+      agi: 2
+      wit: 4
+      emp: 3
+    skills:
+      manipulate: 3
+      investigate: 1
+    armorRating: 0
+    fearRating: 1
+    disposition: 4
+    corruptionStage: 0
+    tags:
+      - sangreal
+    secret: 'He sold the Novara rendezvous to the Basarab pack six weeks before the slaughter — the dragon crest on his cufflink was theirs.'
+    goal: 'Own the remaining eleven vessels, or profit from whoever does.'
+    positiveResult: 'Names the Lingotto meeting and the purchase price; leaks the "remaining eleven" inventory.'
+    negativeResult: 'Vanishes to Milan; the case loses its only mortal thread to the Novara rendezvous.'
+
+- _id: sangreal-npc-watcher
+  name: 'The Grey Watcher'
+  type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-watcher.webp
+  prototypeToken:
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-watcher.webp
+  system:
+    tier: 2
+    description: >
+      <h3>Psychological Profile</h3>
+      <p>There is nothing memorable about him. That is the entire skill. He reads
+      newspapers in the rooms where the case changes hands, rides the same carriages,
+      parks one street over, and writes all of it down. He is Talamasca — older than
+      Registry 16, quieter than Claudia, and on no organizational chart.</p>
+      <h3>Social Mechanics</h3>
+      <p>Unreadable / Evasive (Difficulty 4). He does not lie; he simply is not the person
+      the cell is looking for, and says so with perfect politeness. Cornered with evidence,
+      he trades one verifiable fact and walks.</p>
+      <h3>Combat Profile</h3>
+      <p>Non-combatant. Four decades of fieldwork survived by never being in the room when
+      it happens.</p>
+      <h3>Director Notes</h3>
+      <p>The Watcher is the case's recurring easter egg: he appears in the background of
+      the intel photographs (G01, G05, Z06, and any street scene the cell photographs).
+      Reward players who notice him with a real advantage — he has the only independent
+      photographic record of the case, including the 04:02 descent (I18).</p>
+    attributes:
+      str: 2
+      agi: 3
+      wit: 4
+      emp: 3
+    skills:
+      investigate: 4
+      sneak: 3
+      lore: 3
+    armorRating: 0
+    fearRating: 0
+    disposition: 3
+    corruptionStage: 0
+    tags:
+      - sangreal
+    secret: 'He kept the only independent photographic record of the case — ten years of negatives, including the vault''s second descent.'
+    goal: 'Observe. Record. Remain a footnote.'
+    positiveResult: 'If caught, leaves a plain card — "We watch, and we are always there." — and one useful, verifiable fact.'
+    negativeResult: 'Continues to appear in every surveillance photograph the cell takes, smiling very slightly.'

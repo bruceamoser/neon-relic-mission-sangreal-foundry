@@ -1,0 +1,96 @@
+asset: R06
+attempt: 1
+stage: visual
+image: art/work/R06/attempt-001.png
+image_sha256: b6c379d1b01d92204ddb4162f9f720808faab01b70c6d4cfd8cb0c45c004aee9
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:17:34.230839+00:00'
+eggs:
+  R06-E1:
+    status: AMBIGUOUS
+    notes: Numeral grid deferred.
+  R06-E2:
+    status: AMBIGUOUS
+    notes: Mirror impressions deferred.
+  R06-E3:
+    status: AMBIGUOUS
+    notes: Ticket corner visible; Roma Termini deferred.
+checks:
+  composition:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  identity:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  props:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  motifs:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  period:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  medium:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  aspect_ratio:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  clue_visibility:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  anatomy:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  hands:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  faces:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  duplicates:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  modern_objects:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  unintended_text:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  vehicle_geometry:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  symbol_geometry:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  numbers:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+  object_geometry:
+    status: PASS
+    notes: Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and
+      ticket corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
+exact_text: {}
+overall: APPROVED
+notes:
+- Warm raking light across worn leather desk blotter, open old Bible with IOANNES VI header, rag slip and ticket
+  corner emerging from beneath blotter. Exact numeral and reversed ink clues deferred.
