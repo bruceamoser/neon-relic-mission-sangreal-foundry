@@ -1,0 +1,127 @@
+asset: G04
+attempt: 1
+stage: final
+image: art/composite/G04-attempt-001.webp
+image_sha256: 261f382835007e6d58a654669894f5840f0aa4a428aa99afba8e971d0de7457d
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T12:47:00.159722+00:00'
+eggs:
+  G04-E1:
+    status: PASS
+    notes: Ledger page 4409 is visibly double-circled in blue pencil.
+  G04-E2:
+    status: PASS
+    notes: K. HAUSMANN appears twice immediately before the corrected VANE, C. line.
+  G04-E3:
+    status: PASS
+    notes: VANE, C. and 02:10 remain readable through and beside the correction fluid.
+checks:
+  composition:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  identity:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  props:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  motifs:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  period:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  medium:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  aspect_ratio:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  clue_visibility:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  anatomy:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  hands:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  faces:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  duplicates:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  modern_objects:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  unintended_text:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  vehicle_geometry:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  symbol_geometry:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  numbers:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+  object_geometry:
+    status: PASS
+    notes: Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+      The handwriting is irregular and the correction fluid remains visually dominant.
+exact_text:
+  K. HAUSMANN:
+    status: PASS
+    notes: 4409, both K. HAUSMANN entries, VANE, C., and 02:10 are visibly present on the final ledger page.
+  VANE, C.:
+    status: PASS
+    notes: 4409, both K. HAUSMANN entries, VANE, C., and 02:10 are visibly present on the final ledger page.
+  '4409':
+    status: PASS
+    notes: 4409, both K. HAUSMANN entries, VANE, C., and 02:10 are visibly present on the final ledger page.
+  02:10:
+    status: PASS
+    notes: 4409, both K. HAUSMANN entries, VANE, C., and 02:10 are visibly present on the final ledger page.
+overall: APPROVED
+notes:
+- Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct. 4409
+  remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10. The handwriting
+  is irregular and the correction fluid remains visually dominant.

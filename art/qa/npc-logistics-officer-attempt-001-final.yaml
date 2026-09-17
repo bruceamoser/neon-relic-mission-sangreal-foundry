@@ -1,0 +1,118 @@
+asset: npc-logistics-officer
+attempt: 1
+stage: final
+image: art/composite/npc-logistics-officer-attempt-001.webp
+image_sha256: 1bb781aff1e6d111b8e2ead2aa0d2442713c37be94eb2a380341e4dba5795b13
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:40:46.050838+00:00'
+eggs:
+  npc-logistics-officer-E1:
+    status: PASS
+    notes: Three ringed labels read Geneva, Zurich and Turin.
+checks:
+  composition:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  identity:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  props:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  motifs:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  period:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  medium:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  aspect_ratio:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  clue_visibility:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  anatomy:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  hands:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  faces:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  duplicates:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  modern_objects:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  unintended_text:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  vehicle_geometry:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  symbol_geometry:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  numbers:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+  object_geometry:
+    status: PASS
+    notes: Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three
+      red circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture
+      visible through type.
+exact_text:
+  Geneva:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+  Zurich:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+  Turin:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+overall: APPROVED
+notes:
+- Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three red circles
+  on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture visible through
+  type.

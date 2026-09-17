@@ -1,0 +1,12 @@
+{
+  "tool": "built-in ImageGen",
+  "source": "/home/bruce/.codex/generated_images/01a0ab08-f79b-7402-8e45-dabd25d77131/exec-15e2c497-a9e9-40d7-8ceb-361ab53b9a63.png",
+  "output": "src/assets/art/sangreal-landing.webp",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "sha256": "307a124a9da1e667fd1c364949933c7e1228183ef49d99e8f256b3f02e3e2230",
+  "visual_review": "Title and classification text legible; period dossier style; large blank Field Team panel; no mission clues or story objects.",
+  "scene_runtime_tested": false
+}

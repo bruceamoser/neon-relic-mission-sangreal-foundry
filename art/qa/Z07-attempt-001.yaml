@@ -1,0 +1,115 @@
+asset: Z07
+attempt: 1
+stage: visual
+image: art/work/Z07/attempt-001.png
+image_sha256: 237ec0be8d17c2eb515c290b0dded7ee80a5dc942a0c4cdae713779675673887
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T13:17:49.752813+00:00'
+eggs:
+  Z07-E1:
+    status: PASS
+    notes: Blood bags nearest the phial are visibly spoiled and one has ruptured dark.
+  Z07-E2:
+    status: PASS
+    notes: The wall chart provides a natural surface for the subject 09-H incident note.
+  Z07-E3:
+    status: PASS
+    notes: The analog thermometer reads approximately 4 °C; the exact value will be reinforced in compositing.
+checks:
+  composition:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  identity:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  props:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  motifs:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  period:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  medium:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  aspect_ratio:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  clue_visibility:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  anatomy:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  hands:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  faces:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  duplicates:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  modern_objects:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  unintended_text:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  vehicle_geometry:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  symbol_geometry:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  numbers:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+  object_geometry:
+    status: PASS
+    notes: Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded
+      on a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for
+      the clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.
+exact_text: {}
+overall: APPROVED
+notes:
+- Cold-room evidence photograph inspected at original resolution. The canonical red-wax phial sits unshielded on
+  a steel rack; nearby blood bags are discolored and one has ruptured dark. The wall chart is available for the
+  clinical note and the analog thermometer visibly sits at approximately 4 degrees Celsius.

@@ -1,0 +1,109 @@
+asset: npc-entita-operative
+attempt: 1
+stage: final
+image: art/work/npc-entita-operative/attempt-001.png
+image_sha256: ae3ef244f0c343fac5da7a544b235142e91031e8baefe64399d579f8f2ac2259
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:40:40.340858+00:00'
+eggs:
+  npc-entita-operative-E1:
+    status: PASS
+    notes: Phosphorus cylinder visibly clipped beneath open coat.
+checks:
+  composition:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  identity:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  props:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  motifs:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  period:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  medium:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  aspect_ratio:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  clue_visibility:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  anatomy:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  hands:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  faces:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  duplicates:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  modern_objects:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  unintended_text:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  numbers:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+  object_geometry:
+    status: PASS
+    notes: 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over
+      olive vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match
+      the viewed prop reference. No extraneous clue text or duplicated anatomy.'
+exact_text: {}
+overall: APPROVED
+notes:
+- 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over olive
+  vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match the viewed
+  prop reference. No extraneous clue text or duplicated anatomy.'

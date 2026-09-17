@@ -126,7 +126,7 @@ Hooks.once('ready', async () => {
 
 /**
  * Import plan: pack → destination subfolder under the shared root.
- * Folders are created per document collection (Items, Actors, Journals, Tables).
+ * Folders are created per document collection (Items, Actors, Journals, Tables, Scenes).
  * @type {Array<{pack: string, folder: string|null}>}
  */
 const INSTALL_PLAN = [
@@ -135,6 +135,7 @@ const INSTALL_PLAN = [
   { pack: 'sangreal-clues', folder: 'Clues' },
   { pack: 'sangreal-sites', folder: 'Sites' },
   { pack: 'sangreal-relics', folder: 'Relics' },
+  { pack: 'sangreal-scenes', folder: null },
   { pack: 'sangreal-tables', folder: null },
   { pack: 'sangreal-journals', folder: null },
 ];
@@ -220,6 +221,18 @@ async function installContent() {
     }
   }
 
+  // Bring up the module landing page when the world has no active scene yet.
+  if (!game.scenes.active) {
+    const landing = game.scenes.find(s => s.getFlag(MODULE_ID, 'landingPage'));
+    if (landing) {
+      try {
+        await landing.activate();
+      } catch (err) {
+        console.warn(`${MODULE_ID} | installer: could not activate landing scene`, err);
+      }
+    }
+  }
+
   notification?.remove?.();
   const summary = `Mission: Sangreal — content ready (${created} new, ${updated} updated${
     failed ? `, ${failed} failed` : ''
@@ -246,9 +259,10 @@ class SangrealInstaller extends foundry.applications.api.DialogV2 {
         <li>Documents already in this world with matching IDs are <strong>overwritten</strong> with the current pack versions.</li>
         <li>New documents are added, keeping their pack IDs.</li>
         <li>Content is organised into a <strong>Mission: Sangreal</strong> folder with per-category subfolders (Briefs &amp; Board, NPCs, Clues, Sites, Relics) — existing documents are moved there too.</li>
+        <li>The module <strong>landing scene</strong> is imported, and activated automatically when the world has no active scene.</li>
         <li>Safe to re-run after module updates — no duplicates are created.</li>
       </ul>
-      <p>Content: briefs, case board, NPCs, clues, sites, relics, tables, and journals.</p>`,
+      <p>Content: briefs, case board, NPCs, clues, sites, relics, tables, journals, and the landing scene.</p>`,
     buttons: [
       {
         action: 'install',

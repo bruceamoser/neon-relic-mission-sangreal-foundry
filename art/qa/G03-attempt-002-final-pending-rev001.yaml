@@ -1,0 +1,94 @@
+asset: G03
+attempt: 2
+stage: final
+image: art/composite/G03-attempt-002.webp
+image_sha256: a214001ae9ef9d854550bbbc7a41b08f0b53f585c15b4dc077283973fc117111
+inspected_visually: false
+reviewer: null
+inspected_at: null
+eggs:
+  G03-E1:
+    status: AMBIGUOUS
+    notes: ''
+  G03-E2:
+    status: AMBIGUOUS
+    notes: ''
+  G03-E3:
+    status: AMBIGUOUS
+    notes: ''
+checks:
+  composition:
+    status: AMBIGUOUS
+    notes: ''
+  identity:
+    status: AMBIGUOUS
+    notes: ''
+  props:
+    status: AMBIGUOUS
+    notes: ''
+  motifs:
+    status: AMBIGUOUS
+    notes: ''
+  period:
+    status: AMBIGUOUS
+    notes: ''
+  medium:
+    status: AMBIGUOUS
+    notes: ''
+  aspect_ratio:
+    status: AMBIGUOUS
+    notes: ''
+  clue_visibility:
+    status: AMBIGUOUS
+    notes: ''
+  anatomy:
+    status: AMBIGUOUS
+    notes: ''
+  hands:
+    status: AMBIGUOUS
+    notes: ''
+  faces:
+    status: AMBIGUOUS
+    notes: ''
+  duplicates:
+    status: AMBIGUOUS
+    notes: ''
+  modern_objects:
+    status: AMBIGUOUS
+    notes: ''
+  unintended_text:
+    status: AMBIGUOUS
+    notes: ''
+  vehicle_geometry:
+    status: AMBIGUOUS
+    notes: ''
+  symbol_geometry:
+    status: AMBIGUOUS
+    notes: ''
+  numbers:
+    status: AMBIGUOUS
+    notes: ''
+  object_geometry:
+    status: AMBIGUOUS
+    notes: ''
+exact_text:
+  4409-C:
+    status: AMBIGUOUS
+    notes: ''
+  Acquisition of Primary Specimen (1 of 12) — Experimental Oncology Protocol:
+    status: AMBIGUOUS
+    notes: ''
+  CHF 500,000:
+    status: AMBIGUOUS
+    notes: ''
+  Sonnenberg Privatklinik:
+    status: AMBIGUOUS
+    notes: ''
+  Vaduz:
+    status: AMBIGUOUS
+    notes: ''
+  Union de Banques Suisses:
+    status: AMBIGUOUS
+    notes: ''
+overall: QA_FAILED
+notes: []

@@ -1,0 +1,96 @@
+asset: Z01
+attempt: 1
+stage: visual
+image: art/work/Z01/attempt-001.png
+image_sha256: c872ba960f59a5fcd36cc76ea1d03c506b1c7b08f73debbf0c77474a2e8ac37c
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T13:10:06.448550+00:00'
+eggs:
+  Z01-E1:
+    status: PASS
+    notes: A clean ID board is present for the later 09-H composite.
+  Z01-E2:
+    status: PASS
+    notes: The canonical gold wristwatch is clearly visible.
+  Z01-E3:
+    status: PASS
+    notes: The Sonnenberg logo appears on the IV bag in the frame corner.
+checks:
+  composition:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  identity:
+    status: FAIL
+    notes: 'Rejected: Z01 is explicitly before treatment, so Hausmann must have ordinary human eyes rather than
+      the transformed solid-black pupils.'
+  props:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  motifs:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  period:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  medium:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  aspect_ratio:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  clue_visibility:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  anatomy:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  hands:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  faces:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  duplicates:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  modern_objects:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  unintended_text:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  vehicle_geometry:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  symbol_geometry:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  numbers:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+  object_geometry:
+    status: PASS
+    notes: The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo
+      IV bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.
+exact_text: {}
+overall: NEEDS_REGENERATION
+notes:
+- The generated intake photograph preserves Hausmann's face, gown, gold watch, blank ID board, and clinic-logo IV
+  bag, but incorrectly gives pre-treatment Hausmann the solid-black transformed eyes.

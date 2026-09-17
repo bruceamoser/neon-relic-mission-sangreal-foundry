@@ -1,0 +1,32 @@
+# R03 — The Burnt Electromagnet Relay
+
+Use case: historical-scene
+
+Global style: 1987 analog documentary photography, shot on film, no electronics or modern objects, historically accurate period detail, natural imperfections, dust and scratches, muted 1980s color palette of tobacco browns, olive, faded red and cold fluorescent green, high detail, photorealistic
+
+Avoid: modern smartphones, digital cameras, LCD screens, LED lighting, modern cars, contemporary fashion, plastic, clean studio lighting, HDR, oversaturated colors, Instagram filter, text watermark, signature, cartoon, illustration, anime, 3D render, AI artifacts, extra fingers, warped hands, shiny skin, perfectly symmetric teeth
+
+Medium: 35mm color negative, on-camera flash, harsh falloff into darkness, evidence ruler and marker card in frame, slight overexposure on close surfaces, film grain, institutional evidence documentation
+
+Aspect ratio: 3:2. Minimum short edge 1024 px, prefer 1536–2048 px.
+
+Period interpretation: period CRTs, film cameras, fluorescent tubes and analog equipment explicitly requested by the asset are permitted. No post-1987 electronics or objects.
+
+Reference inputs (identity/prop references, never panels or inserted pictures):
+
+Asset prompt (verbatim): 35mm evidence photograph of a subterranean octagonal vault, melted copper induction coils on a black granite altar, scorch marks on ancient Roman brick, condensation on lead-sheeted walls, evidence ruler and marker card in frame, harsh on-camera flash into darkness, cold blue-green cast, film grain.
+
+Scene requirements: the octagonal vault chamber; the melted copper induction cradle on its black granite altar, scorch marks on the ancient brick, lead-sheeted walls beaded with condensation.
+
+Mandatory visible Eggs:
+
+- R03-E1: a glitter of sulfurous residue inside the copper slag
+
+- R03-E2: the empty mooring plinth is darker than the surrounding granite — scorched from beneath.
+
+Restrained forensic horror; no gratuitous gore. Priority: correct clues, continuity, period, medium, composition, mood, decoration.
+
+Create exactly ONE standalone image.
+This is not a contact sheet.
+Do not create multiple panels, alternate views, variations, comparison images, or inset images.
+All requested details must exist naturally within the same single photograph.

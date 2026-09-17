@@ -1,0 +1,131 @@
+asset: G01
+attempt: 1
+stage: final
+image: art/composite/G01-attempt-001.webp
+image_sha256: 38c7efe983e53ea71191f21281358b99afdce2683e6918a2ee4ee025ec499152
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T12:46:58.154536+00:00'
+eggs:
+  G01-E1:
+    status: PASS
+    notes: The grey-raincoated Watcher sits at frame left with a newspaper, and his reflection is visible in the
+      marble floor.
+  G01-E2:
+    status: PASS
+    notes: The Sangreal case rests on the dark bank cloth Mercier positioned on the counter.
+  G01-E3:
+    status: PASS
+    notes: The wall calendar visibly reads 17 SEPTEMBER 1987.
+  G01-E4:
+    status: PASS
+    notes: The grey Lancia arrives beyond the glass, with SCV 47 legible on its white plate.
+checks:
+  composition:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  identity:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  props:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  motifs:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  period:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  medium:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  aspect_ratio:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  clue_visibility:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  anatomy:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  hands:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  faces:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  duplicates:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  modern_objects:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  unintended_text:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  vehicle_geometry:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  symbol_geometry:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  numbers:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+  object_geometry:
+    status: PASS
+    notes: Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+exact_text:
+  '22:41':
+    status: PASS
+    notes: 22:41, 17 SEPTEMBER 1987, SANGREAL, and SCV 47 are visibly present on the final composite.
+  17 September 1987:
+    status: PASS
+    notes: 22:41, 17 SEPTEMBER 1987, SANGREAL, and SCV 47 are visibly present on the final composite.
+  SANGREAL:
+    status: PASS
+    notes: 22:41, 17 SEPTEMBER 1987, SANGREAL, and SCV 47 are visibly present on the final composite.
+  SCV 47:
+    status: PASS
+    notes: 22:41, 17 SEPTEMBER 1987, SANGREAL, and SCV 47 are visibly present on the final composite.
+overall: APPROVED
+notes:
+- Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia, wet-floor
+  reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case label, and vehicle
+  plate sit within the photographed surfaces and inherit monochrome grain.

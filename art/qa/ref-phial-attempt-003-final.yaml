@@ -1,0 +1,109 @@
+asset: ref-phial
+attempt: 3
+stage: final
+image: art/work/ref-phial/attempt-003.png
+image_sha256: b8809571653ce5f7e07331dfc24be55bea05d3b6e70423a43b01964094f78e4b
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:29:32.114527+00:00'
+eggs:
+  ref-phial-E1:
+    status: PASS
+    notes: Thick antique phial with dark liquid, red beeswax and cursive scratch marks; no invented readable clue.
+checks:
+  composition:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  identity:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  props:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  motifs:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  period:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  medium:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  aspect_ratio:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  clue_visibility:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  anatomy:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  hands:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  faces:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  duplicates:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  modern_objects:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  unintended_text:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  vehicle_geometry:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  symbol_geometry:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  numbers:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+  object_geometry:
+    status: PASS
+    notes: Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive
+      marks, unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale
+      visually plausible for small blood phial; exact volume cannot be measured from photo.
+exact_text: {}
+overall: APPROVED
+notes:
+- Single thick iridescent Roman-glass phial, dark liquid meniscus, plain red wax seal, scratch-like cursive marks,
+  unnumbered ruler and marker. No extraneous props or eye imprint. 3:2 macro evidence photograph, scale visually
+  plausible for small blood phial; exact volume cannot be measured from photo.

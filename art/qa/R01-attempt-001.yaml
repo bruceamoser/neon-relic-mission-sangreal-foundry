@@ -1,0 +1,82 @@
+asset: R01
+attempt: 1
+stage: visual
+image: art/work/R01/attempt-001.png
+image_sha256: d8a543479872ced977bb66b62e38739d7ef3468253ee06b00eae31a83c924d92
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T17:14:42.126008+00:00'
+eggs:
+  R01-E1:
+    status: FAIL
+    notes: Corvi shadow is dark and prominent; needs to become faint while the case shadow remains pitch-black.
+  R01-E2:
+    status: AMBIGUOUS
+    notes: Small card visible on chest but pocket-protrusion is not clear; move its bottom edge into a coat pocket.
+  R01-E3:
+    status: AMBIGUOUS
+    notes: Veiled Vane is far left and distant, but fully inside the frame instead of partially outside.
+  R01-E4:
+    status: AMBIGUOUS
+    notes: Exact 03:14 17-IX-87 timestamp awaits separate composite.
+checks:
+  composition:
+    status: PASS
+    notes: One high-mounted gate-camera view, main cleric under the arch and distant nun at far-left edge.
+  identity:
+    status: PASS
+    notes: Corvi has recognizable gaunt face, thinning combed hair and clerical coat; distant Vane has matching
+      plain veil and folded posture.
+  props:
+    status: PASS
+    notes: Steel case carried at side; small rectangular pass on coat; wet cobblestones and gate lamp.
+  motifs:
+    status: FAIL
+    notes: Corvi casts a large dark shadow, so the required faint-versus-pitch-black contrast is not established.
+  period:
+    status: PASS
+    notes: Analog materials and equipment; no post-1987 item apparent.
+  medium:
+    status: PASS
+    notes: Black-and-white surveillance-like grain, high camera and timestamp strip.
+  aspect_ratio:
+    status: PASS
+    notes: Image dimensions match the requested ratio and exceed 1024 on the short edge.
+  clue_visibility:
+    status: FAIL
+    notes: Case and Corvi shadows are similarly dark; pass placement looks flat against coat rather than protruding
+      from pocket.
+  anatomy:
+    status: PASS
+    notes: Walking limbs and body posture coherent.
+  hands:
+    status: PASS
+    notes: Case-carrying hand and hanging hand are plausible at this scale.
+  faces:
+    status: PASS
+    notes: Main face coherent; distant face appropriately reduced.
+  duplicates:
+    status: PASS
+    notes: One Corvi and one Vane; no duplicate people.
+  modern_objects:
+    status: PASS
+    notes: No smartphone, digital camera, flat screen or contemporary fixture visible.
+  unintended_text:
+    status: PASS
+    notes: Timestamp strip contains stray colon and dash marks, to be cleared during exact timestamp compositing.
+  vehicle_geometry:
+    status: PASS
+    notes: No vehicle depicted.
+  symbol_geometry:
+    status: PASS
+    notes: No malformed symbol apparent.
+  numbers:
+    status: PASS
+    notes: Required timestamp not yet added.
+  object_geometry:
+    status: PASS
+    notes: Gate, cobbles and carried case geometries are coherent.
+exact_text: {}
+overall: NEEDS_EDIT
+notes:
+- Preserve the strong gate composition; correct only shadow contrast, pass insertion and edge placement of Vane.

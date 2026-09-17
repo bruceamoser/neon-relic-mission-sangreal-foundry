@@ -1,0 +1,93 @@
+asset: R10
+attempt: 1
+stage: visual
+image: art/work/R10/attempt-001.png
+image_sha256: 3964651770c8cb5b6302193afa32bb219f89ead32fcd2029314da7408a5a33b2
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:17:35.105896+00:00'
+eggs:
+  R10-E1:
+    status: PASS
+    notes: Three cities circled using local names.
+  R10-E2:
+    status: PASS
+    notes: Second faint emboss partly crossed by casing seam.
+checks:
+  composition:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  identity:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  props:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  motifs:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  period:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  medium:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  aspect_ratio:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  clue_visibility:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  anatomy:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  hands:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  faces:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  duplicates:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  modern_objects:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  unintended_text:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  vehicle_geometry:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  symbol_geometry:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  numbers:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+  object_geometry:
+    status: PASS
+    notes: Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical
+      leather case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.
+exact_text: {}
+overall: APPROVED
+notes:
+- Warm lamp-lit partially unrolled map with pencil circles at Genève, Zürich and Torino; worn cylindrical leather
+  case with main eye-serpent emboss and fainter second impression crossed by stitching. T.O.W. deferred.

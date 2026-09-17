@@ -1,0 +1,115 @@
+asset: Z04
+attempt: 1
+stage: visual
+image: art/work/Z04/attempt-001.png
+image_sha256: 58c51984a53273e190fa3730eb951a87a85ae14216005cf777d4bf6e5a681414
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T13:17:49.692092+00:00'
+eggs:
+  Z04-E1:
+    status: PASS
+    notes: A clean drug-administration row is available for the canonical drug and batch line.
+  Z04-E2:
+    status: PASS
+    notes: A clean sponsor line is available for the Sonnenberg and Vaduz account wording.
+  Z04-E3:
+    status: PASS
+    notes: Open margin space permits the handwritten room number 3.14.
+checks:
+  composition:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  identity:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  props:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  motifs:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  period:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  medium:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  aspect_ratio:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  clue_visibility:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  anatomy:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  hands:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  faces:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  duplicates:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  modern_objects:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  unintended_text:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  vehicle_geometry:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  symbol_geometry:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  numbers:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+  object_geometry:
+    status: PASS
+    notes: Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log
+      grid, witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible
+      surfaces for the required typewriting and handwriting.
+exact_text: {}
+overall: APPROVED
+notes:
+- Top-down 1987 Sonnenberg clinical chart inspected at original resolution. Period stationery, injection-log grid,
+  witness and doctor fields, coffee ring, clip marks, syringe tray, and blank sponsor line provide credible surfaces
+  for the required typewriting and handwriting.

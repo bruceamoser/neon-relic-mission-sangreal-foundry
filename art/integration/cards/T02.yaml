@@ -1,0 +1,18 @@
+_id: sangreal-ic34
+name: I34 — Assembly Hall Camera 6
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i34-lingotto-floor-cctv.webp
+system:
+  cardId: I-34
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l5
+  content: <p>the flooded assembly hall CCTV — Corvi crossing the floor with the attaché, water pouring through
+    broken skylights.</p>
+  hqFallback: 12
+  daNotes: <p>a hairline crack in the case&#x27;s deadbolt, dressed with fresh tape — the case has been under stress
+    oil drum stencils behind him read in faded Fiat livery the puddles reflect only the lights, not Corvi&#x27;s
+    shadow — a subtle, deniable occult tell (DA&#x27;s choice when to reveal).</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

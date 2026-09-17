@@ -1,0 +1,144 @@
+asset: R08
+attempt: 1
+stage: final
+image: art/composite/R08-attempt-001.webp
+image_sha256: bb477d7de144dccf3c0d723c59e369e5faebb5fbdc8ba6611720ba091cc7a8c4
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:23:13.805215+00:00'
+eggs:
+  R08-E1:
+    status: PASS
+    notes: CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+  R08-E2:
+    status: PASS
+    notes: Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged.
+  R08-E3:
+    status: PASS
+    notes: Present-day Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session
+      resolution.
+checks:
+  composition:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  identity:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  props:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  motifs:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  period:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  medium:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  aspect_ratio:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  clue_visibility:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  anatomy:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  hands:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  faces:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  duplicates:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  modern_objects:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  unintended_text:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  vehicle_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  symbol_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  numbers:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+  object_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14.
+      Original marginal handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day
+      Corvi 58, dark paired-stripe tie matched to corrected R09 under approved different-session resolution.
+exact_text:
+  CHIASSO:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+  accompagné:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+  06:14:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+overall: APPROVED
+notes:
+- Final full image and clue surfaces visually inspected. Composition, reference identity, period props and photographic
+  medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14. Original marginal
+  handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day Corvi 58, dark paired-stripe
+  tie matched to corrected R09 under approved different-session resolution.

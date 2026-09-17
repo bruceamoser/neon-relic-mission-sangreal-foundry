@@ -1,0 +1,83 @@
+asset: R01
+attempt: 4
+stage: final
+image: art/composite/R01-attempt-004.webp
+image_sha256: 8745d40e488a24cb59cf1f403892cfc5be681f733dc24ab119e7235df6e42ec2
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T17:57:53.019356+00:00'
+eggs:
+  R01-E1:
+    status: PASS
+    notes: Faint Corvi shadow and pitch-black case shadow on wet cobbles.
+  R01-E2:
+    status: PASS
+    notes: Paper upper edge protrudes above a dark fabric welt; lower paper is occluded. Verified enlarged pocket
+      detail.
+  R01-E3:
+    status: PASS
+    notes: Veiled Vane remains partly cut off at far left.
+  R01-E4:
+    status: PASS
+    notes: Separately composited 03:14 17-IX-87 is readable with analog dot raster.
+checks:
+  composition:
+    status: PASS
+    notes: One high-angle gate camera frame; walking Corvi and case remain centered, nun cropped at left.
+  identity:
+    status: PASS
+    notes: Corvi thinning combed grey hair and gaunt face retained; Vane retains veil and position.
+  props:
+    status: PASS
+    notes: Steel case, leather strap and period clerical coat remain intact.
+  motifs:
+    status: PASS
+    notes: Case shadow pitch black while human shadow faint; no clue removed.
+  period:
+    status: PASS
+    notes: Stone gate, analog frame and period wardrobe; no post-1987 object visible.
+  medium:
+    status: PASS
+    notes: Monochrome surveillance frame with coarse film texture and optical softness.
+  aspect_ratio:
+    status: PASS
+    notes: 1448 by 1086, exactly 4:3; short edge exceeds 1024.
+  clue_visibility:
+    status: PASS
+    notes: Case shadow and left-edge Vane clearly visible; ticket inspected at enlargement.
+  anatomy:
+    status: PASS
+    notes: Walking posture, arms and legs coherent.
+  hands:
+    status: PASS
+    notes: Case-gripping hand remains coherent at surveillance distance.
+  faces:
+    status: PASS
+    notes: Corvi face coherent at intended distance; no facial edit in manual pass.
+  duplicates:
+    status: PASS
+    notes: One case and one walking Corvi, with one nun at far left.
+  modern_objects:
+    status: PASS
+    notes: No modern phones, vehicles or electronic devices visible.
+  unintended_text:
+    status: PASS
+    notes: No extra readable clue text; timestamp handled separately.
+  vehicle_geometry:
+    status: PASS
+    notes: No vehicle in scene; no vehicle defect.
+  symbol_geometry:
+    status: PASS
+    notes: Gate papal relief unchanged; no newly introduced symbol.
+  numbers:
+    status: PASS
+    notes: Timestamp is the only exact readable numeric clue.
+  object_geometry:
+    status: PASS
+    notes: Gate, case, cobbles and building retain plausible geometry.
+exact_text:
+  03:14 17-IX-87:
+    status: PASS
+    notes: Read 03:14 17-IX-87 in separate controlled glyph composite.
+overall: APPROVED
+notes: []

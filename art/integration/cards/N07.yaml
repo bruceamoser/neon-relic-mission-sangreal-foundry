@@ -1,0 +1,19 @@
+_id: sangreal-ic40
+name: I40 — Her Effects, Laid Out
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i40-claudia-kit.webp
+system:
+  cardId: I-40
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l6
+  content: '<p>the evidence table: Claudia&#x27;s belongings laid in a grid — rosary, Beretta 70, diplomatic papers,
+    transit folio, key ring.</p>'
+  hqFallback: 12
+  daNotes: '<p>the Talamasca card among her papers — plain paper, the motto `We watch, and we are always there`
+    (composite) a toll stub from the Turin–Novara autostrada, time-stamped ninety minutes before death a small ring
+    of grey animal hair wound around the Beretta&#x27;s trigger guard — the pack checked her weapon before she could
+    reach it. Recurring Egg-C: ouroboros-eye on the Talamasca card.</p>'
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

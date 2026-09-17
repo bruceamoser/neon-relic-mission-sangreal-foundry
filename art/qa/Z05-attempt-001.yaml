@@ -1,0 +1,134 @@
+asset: Z05
+attempt: 1
+stage: visual
+image: art/work/Z05/attempt-001.png
+image_sha256: 50d35b7f2543b1a5a4d0e87d865f195046866558d29b04dcce0a3f018a3de660
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T13:17:49.711027+00:00'
+eggs:
+  Z05-E1:
+    status: PASS
+    notes: Hausmann's silhouette clings to the ceiling at the top edge against gravity.
+  Z05-E2:
+    status: PASS
+    notes: The wall clock shows approximately 02:40; exact 02:40 will be composited as the camera timestamp.
+  Z05-E3:
+    status: PASS
+    notes: The kicked mop bucket creates a spray pattern that points down the corridor.
+checks:
+  composition:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  identity:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  props:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  motifs:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  period:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  medium:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  aspect_ratio:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  clue_visibility:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  anatomy:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  hands:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  faces:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  duplicates:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  modern_objects:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  unintended_text:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  vehicle_geometry:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  symbol_geometry:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  numbers:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+  object_geometry:
+    status: PASS
+    notes: High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out
+      windows, damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and
+      Hausmann's impossible ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will
+      receive an exact burned-in timestamp.
+exact_text: {}
+overall: APPROVED
+notes:
+- High-mounted black-and-white hospital surveillance frame inspected at original resolution. Blacked-out windows,
+  damaged fluorescents, overturned wheelchair, kicked bucket, downward-directed spill pattern, and Hausmann's impossible
+  ceiling silhouette are all clear. The analog clock reads approximately 02:40 and will receive an exact burned-in
+  timestamp.

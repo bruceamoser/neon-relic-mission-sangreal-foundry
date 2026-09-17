@@ -1,0 +1,201 @@
+global_primer: 1987 analog documentary photography, shot on film, no electronics or modern objects, historically
+  accurate period detail, natural imperfections, dust and scratches, muted 1980s color palette of tobacco browns,
+  olive, faded red and cold fluorescent green, high detail, photorealistic
+negative_prompt: modern smartphones, digital cameras, LCD screens, LED lighting, modern cars, contemporary fashion,
+  plastic, clean studio lighting, HDR, oversaturated colors, Instagram filter, text watermark, signature, cartoon,
+  illustration, anime, 3D render, AI artifacts, extra fingers, warped hands, shiny skin, perfectly symmetric teeth
+medium_recipes:
+  cctv_16mm: black-and-white 16mm surveillance film frame, heavy silver grain, high contrast, slight motion blur,
+    slight lens vignette, wall-clock timestamp burned into the corner, camera mounted high looking down, grainy
+    photocopy of a single film frame
+  evidence_35mm: 35mm color negative, on-camera flash, harsh falloff into darkness, evidence ruler and marker card
+    in frame, slight overexposure on close surfaces, film grain, institutional evidence documentation
+  polaroid_sx70: SX-70 Polaroid, white instant-photo border with chemical staining along the edge, muted crushed
+    colors, slight focus softness, held slightly askew when photographed
+  passport_id: passport-style frontal headshot, flat direct flash, slightly overexposed, plain institutional backdrop,
+    1980s passport photograph pasted onto a document, visible paper texture
+  archival_bw: archival black-and-white photograph, 1950s–60s press grain, slight vignette, emulsion scratches,
+    white border with handwritten archive notation on the sleeve
+  photocopy_carbon: top-down photograph of a photocopied or carbon-copied typed document on a desk, visible grime
+    and fingerprints, weak contrast, occasional typewriter strike-throughs, stray staple holes, leave a clean area
+    of paper for composited text
+  telephoto_stakeout: surveillance photograph shot through a 400mm telephoto lens from a parked car, atmospheric
+    haze, foreground window-frame edge intruding, slight handheld motion, grain pushed one stop
+  aerial_recon: low-altitude aerial photograph from a light aircraft, slightly tilted horizon, haze, airfield with
+    period hangars, printed as a reconnaissance briefing sheet with annotation marks
+  documentary_portrait: Photographic environmental portrait; honor the asset-specific setting and illumination,
+    4:5, keep the face and eyes usable for Foundry square crops without excluding mandatory props.
+characters:
+  corvi: Italian man, 58, tall and gaunt, thinning grey hair combed back, deep-set dark eyes with bruised hollows,
+    grey stubble, slightly hunched from exhaustion and low fever, black clerical simar with red piping and white
+    collar, wire-rimmed reading glasses on a cord, ink-stained fingers, a worn leather strap across his chest, faint
+    sweat sheen; carries an antique .32 revolver rarely visible
+  vane: woman, early 30s, composed and perfectly still, pale grey eyes that never widen, dark chestnut hair completely
+    hidden under a plain black veil, modest black-and-grey religious dress, small silver cross at the throat, plain
+    wooden rosary at the belt, immaculate practical shoes, hands usually folded; a faint scar on her right knuckles;
+    carries a slim leather document folio
+  sabbatini: Italian cardinal, 64, silver hair slicked back, heavy jaw, hooded pale eyes, black cassock with scarlet
+    piping and scarlet fascia, pectoral cross, gold signet ring, imperious stillness, half his face lit by a green
+    banker's lamp
+  graf: Swiss-German woman, 41, blonde hair loosely tied back, sharp cheekbones, deep exhaustion shadows, white
+    lab coat over blue surgical scrubs, reading glasses pushed up into her hair, a slide box clutched in both hands,
+    hands faintly trembling
+  hausmann:
+    before: Swiss man, 62, formerly heavyset now gaunt from illness, thinning grey hair, expensive charcoal suit
+      and silk tie, gold watch, banker's soft hands
+    after: same man transformed — pale grey waxy skin with mottled fluorescent burns on face and hands, fully dilated
+      black pupils with no reaction to light, patches of missing hair, blood-crusted mouth and fingers, torn collar,
+      immaculately tailored suit now filthy, posture wrong — utterly still, or a predatory crouch
+  ghiberti: Italian priest, 55, thin and nervous, round wire glasses taped at one hinge, dusty black cassock, an
+    archive cardigan underneath, clutching a cardboard file folder against his chest, mid-flinch smile
+  mercier: Swiss-French man, 44, immaculate charcoal three-piece suit, manicured nails, thinning hair combed flat,
+    gold dress watch, polite tight smile, faint sweat at the temples, carries a leather document tray
+  entita-operative: Swiss man, 38, military build, cropped dark hair, colourless eyes, grey wool overcoat over a
+    concealed tactical vest, black leather gloves, compact submachine gun carried low and out of sight, a phosphorus
+    grenade canister clipped to the vest, completely impassive face
+  basarab-operative: ageless vampire presenting as late 30s, androgynous and exact, pale olive skin, black eyes
+    with a faint red catchlight only in darkness, black hair to the collar, high-collared black wool coat over dark
+    1980s clothing, kidskin gloves, unnaturally still — appears in one asset standing on a vertical wall
+  basarab-elder: vampire elder presenting as late 60s, aristocratic, aquiline nose, swept-back grey-white hair,
+    deep facial lines, long black wool greatcoat with a high collar, signet ring bearing a small dragon-wolf crest,
+    regarding the viewer with mild, patient curiosity, lit by candlelight only
+  feral-ghoul: reanimated human husk, charred grey skin split like old leather, slack jaw, clouded eyes, one arm
+    hanging at an impossible jointless angle, hospital bracelet still on the wrist, moving mid-lunge
+  gendarme-officer: Vatican gendarme, 45, navy uniform with white gloves and brass buttons, peaked cap, weary clerk's
+    face, brass clipboard chain
+  logistics-officer: woman, 52, field jacket over a turtleneck, short cropped grey hair, a clipboard and a thermos,
+    windburnt practical face
+  wayfinder-analyst: man, 60, shirtsleeves and loosened tie, headphones around his neck, reading glasses, a reel-to-reel
+    machine behind him, myopic intensity
+  watcher: utterly forgettable man, 45, grey gabardine raincoat, plain face, thinning hair, reading a folded newspaper,
+    gold signet ring with a serpent-and-eye device barely visible; he appears in the background of surveillance
+    photos in Rome, Geneva, Zurich and Turin
+  turin-intermediary: Italian man, 50s, elegant camel overcoat and silk scarf, leather gloves, a paper-banded cigar,
+    face always half-turned from camera or in shadow — identifiable only by the coat, the cigar, and a ring of grey
+    hair
+motifs_source: '(use exactly these — they are the clue language)
+
+
+  - **The Ouroboros-Eye** — a serpent eating its tail encircling an open eye; embossed in leather, stamped on a
+  card, cast in a signet ring, enameled as a lapel pin. (Talamasca / The Order of the Watchers.)
+
+  - **The SANGREAL brass sign** — small, tarnished, one word in stamped capitals, screw holes in the corners.
+
+  - **Green railway pass** — Italian State Railways, route `EC 30 (Romulus) — Roma Termini → Genève Cornavin`.
+
+  - **Locker key tag** — brass, stamped `UBS 4409-C`.
+
+  - **The Basarab crest** — a stylized dragon-wolf with a cross in its jaws (Wallachian noble arms), always small:
+  a signet ring, a crate stencil, a tail-fin decal.
+
+  - **Vatican diplomatic plates** — white plate, black `SCV` prefix.
+
+  - **The Twelve Phials case** — 1964 brushed-steel attaché, dual combination deadbolts, small brass plaque; interior
+  (when shown) molded blue velvet, twelve thick Roman-glass phials sealed in red beeswax, filled with dark un-coagulated
+  blood.
+
+  - **The grey Lancia Flavia 2000** — Vatican diplomatic plates `SCV 47`; it follows the cell from city to city.
+
+
+  ---'
+continuity_source: '> These recur across the whole set. Note them in the DA''s notes and let players discover them.
+
+
+  | Coding | Motif | Appears in | Meaning |
+
+  | --- | --- | --- | --- |
+
+  | **Egg-A** | The grey Lancia Flavia, Vatican plates `SCV 47` | Z06, V03 (identity), plus parked cameos: G01 (arriving),
+  T01 (access road) | L''Entità is tailing the cell the entire case — the sanitization squad already had eyes on
+  every scene |
+
+  | **Egg-B** | The Grey Watcher (raincoat, newspaper, ouroboros-eye ring) | G01 (reflection), G05 (platform), Z06
+  (car dash), plus any street scene as cameo | The Talamasca has its own eyes on the phials — independent of Claudia
+  |
+
+  | **Egg-C** | The ouroboros-eye (serpent + eye) | R10 (map casing), R09 (ring), N07 (card in effects), V01 (box
+  lid), G06 (transcript hand) | The Order of the Watchers connects the mentor, the mole, and the memo — a 25-year
+  thread |
+
+  | **Egg-D** | The green railway pass `EC 30 Romulus` | R01 (coat pocket), G05 (carriage board) | Confirms Corvi''s
+  route and re-verifies the timeline |
+
+  | **Egg-E** | Timestamps `03:14 / 04:02` | R01, R02, G01''s calendar, Z04''s room number `3.14` | A second visitor
+  descended to the vault; the numbers recur as a quiet refrain |
+
+  | **Egg-F** | Basarab dragon-wolf crest | N03 (melted ring), N05 (form crest), N06 (crate stencil + Elder), V05
+  (crate), Turin intermediary''s cufflink (npc-*) | The threads connect Novara, the aircraft and Mission 2 — and
+  the intermediary was bought long before the cell knew |
+
+  | **Egg-G** | Phial arithmetic: `12 → 11 → 10` | relic-phials (11 in rack), Z02 batch `XII-1/12`, N01 (broken
+  + missing), V05 chalk `10/12` | The count is the clock: players can reconstruct the whole chain of custody |
+
+  | **Egg-H** | White calcified ash | Z08 (combustion test), N01/N03 (fingers), V05 (sealed crate refuse) | The
+  cure''s finality — the vector reaches vampires, not just corpse-husks |
+
+  | **Egg-I** | The empty wine glass / two glasses at Novara | N01 | Someone was with her before the pack, or the
+  pack paused — a DA-facing ambiguity that seeds Mission 2 |
+
+
+  ---'
+clue_index_source: '(what each hidden detail proves)
+
+
+  | Asset | Hidden clue | Proves |
+
+  | --- | --- | --- |
+
+  | R01 | Pitch-black case shadow in the puddle | Lead-antimony shielding — the case is a containment vessel, not
+  a diplomatic bag |
+
+  | R02 | Second descent at 04:02 | Someone followed Corvi into the vault; the breach was assisted |
+
+  | R04 | Foil scrap under the SANGREAL sign | The case was opened in the vault before it was stolen |
+
+  | R05 | Fresh red card among dusty catalogs | The register was doctored recently — inside job |
+
+  | R06 | Blotter mirror-writing `GENEVA 4409` | Corvi''s coordinates — unlocks L3 without the cipher |
+
+  | R07 | Ladies'' compact under the desk | Vane searched Corvi''s rooms before the Covenant did |
+
+  | R09 | Ouroboros ring on the mentor | The Order has been inside the Vatican for decades |
+
+  | R10 | Faint second impression in the leather | The stamp is not decorative, it is an operating mark |
+
+  | G01 | Watcher''s reflection | Independent surveillance of the phials — the Talamasca''s own eyes |
+
+  | G04 | Correction fluid over `VANE, C.` | Vane accessed locker 4409-C herself; her ledger entry was scrubbed
+  |
+
+  | Z02 | Batch tag `XII-1/12` | The injection is traceable to the first phial — the chain of custody starts here
+  |
+
+  | Z04 | Sponsor account matches the escrow | The clinic''s "trust" is the same money — Vatican-connected laundering
+  |
+
+  | Z05 | Silhouette on the ceiling | Hausmann''s disorder is vertical and predatory — not human violence |
+
+  | Z08 | Gall/vinegar/myrrh kit in a Swiss clinic | The Church''s quiescence protocol is already in play — Rome
+  knew about Zurich |
+
+  | T03 | `sanguis remedium, non sacramentum` | Corvi understood the truth — the "blood is a cure" inversion |
+
+  | T05 | "Corrosive to ferrous circuitry" | The Lodestone was ordered against the vault specifically — premeditation
+  |
+
+  | T06 | Frayed thread, snapped | The Veil of Veronica''s Thread has been spent — Claudia''s escape kit is empty
+  |
+
+  | N03 | Melted dragon-crest ring | A vampire touched the spilled phial and died — CT1 kills their kind |
+
+  | N06 | The Elder facing the camera | They know they are being watched — and do not care |
+
+  | N07 | Grey animal hair on the trigger guard | A predator handled her weapon before she could |
+
+  | V05 | `VATICAN MUSEUMS — storeroom 9` under the stencil | The crate moved through the Vatican first — the rip
+  goes deeper than Novara |
+
+  | V06 | Second aircraft crossed out | The airfield has decoy traffic — chasing it costs the 40-minute window |
+
+
+  ---'

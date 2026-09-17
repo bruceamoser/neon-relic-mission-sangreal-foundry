@@ -1,0 +1,19 @@
+_id: sangreal-ic36
+name: I36 — Suppressed Index Card
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i36-lodestone-index.webp
+system:
+  cardId: I-36
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l5
+  content: <p>the Secret Archives index card for the Lodestone of St. Jude, with a 1930s catalog photograph of the
+    nodule attached.</p>
+  hqFallback: 12
+  daNotes: '<p>the card is stamped `SUPPRESSED — CONS. DOCT. FIDEI` in big red letters the catalog photo&#x27;s
+    scale bar, at macro, shows the nodule is thumb-sized — the same object sold into the theft a handling note:
+    `corrosive to ferrous circuitry — by order of the Prefect` — the Church knew what it could do to the vault&#x27;s
+    electromagnets.</p>'
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

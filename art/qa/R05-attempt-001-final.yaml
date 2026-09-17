@@ -1,0 +1,140 @@
+asset: R05
+attempt: 1
+stage: final
+image: art/composite/R05-attempt-001.webp
+image_sha256: 511b7fecffb883d200b768dedd86c8c24b4405bbc310f0d39cf0270af9520aaf
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:23:12.077710+00:00'
+eggs:
+  R05-E1:
+    status: PASS
+    notes: MS-Vat-Heb-418 read on exposed stub.
+  R05-E2:
+    status: PASS
+    notes: Red card reads Extractum per Breve Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive
+      lines.
+  R05-E3:
+    status: PASS
+    notes: Clean red card contrasts dusty surrounding cards.
+checks:
+  composition:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  identity:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  props:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  motifs:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  period:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  medium:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  aspect_ratio:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  clue_visibility:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  anatomy:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  hands:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  faces:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  duplicates:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  modern_objects:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  unintended_text:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  vehicle_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  symbol_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  numbers:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+  object_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve
+      Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty
+      surrounding cards.
+exact_text:
+  MS-Vat-Heb-418:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+  Extractum per Breve Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+overall: APPROVED
+notes:
+- Final full image and clue surfaces visually inspected. Composition, reference identity, period props and photographic
+  medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve Apostolicum — Anno Domini
+  1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty surrounding cards.

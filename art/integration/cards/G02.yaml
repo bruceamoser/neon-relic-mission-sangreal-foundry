@@ -1,0 +1,16 @@
+_id: sangreal-ic24
+name: I24 — Bank Staff Record
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i24-mercier-staff-id.webp
+system:
+  cardId: I-24
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l3
+  content: '<p>Mercier&#x27;s employee ID card laid on a desk blotter: photo, thumbprint, typed details.</p>'
+  hqFallback: 12
+  daNotes: '<p>on the blotter beside it, the carbon of a telegraphic transfer half-visible: `CHF 500,000` and `4409-C`
+    the ID is stamped `AUTORISÉ — COFFRES` — his access is exactly why he was approached.</p>'
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

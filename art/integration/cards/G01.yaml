@@ -1,0 +1,19 @@
+_id: sangreal-ic23
+name: I23 — Night Deposit
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i23-ubs-lobby-cctv.webp
+system:
+  cardId: I-23
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l3
+  content: <p>bank lobby CCTV, 22:41 — Corvi at the counter with the attaché, Mercier attending; two reflections
+    in the polished marble.</p>
+  hqFallback: 12
+  daNotes: '<p>in the marble reflection a grey raincoated man sits in the waiting chairs, newspaper on his knee
+    — the Watcher the case on the counter sits on a bank cloth that Mercier has positioned precisely — he knows
+    what it is worth a wall calendar reads 17 September 1987. Recurring Egg-A: grey Lancia Flavia 2000, white Vatican
+    plates SCV 47, arriving cameo.</p>'
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

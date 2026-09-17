@@ -1,0 +1,109 @@
+asset: npc-ghiberti
+attempt: 1
+stage: final
+image: art/work/npc-ghiberti/attempt-001.png
+image_sha256: a97290518618b480536479b12f340703818e5efff8687dc2ddadebe64330a337
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:23:56.838637+00:00'
+eggs:
+  npc-ghiberti-E1:
+    status: PASS
+    notes: Torn card corner on floor beside his feet/hem.
+checks:
+  composition:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  identity:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  props:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  motifs:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  period:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  medium:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  aspect_ratio:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  clue_visibility:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  anatomy:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  hands:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  faces:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  duplicates:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  modern_objects:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  unintended_text:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  vehicle_geometry:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  symbol_geometry:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  numbers:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+  object_geometry:
+    status: PASS
+    notes: Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at
+      open mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
+      anatomy and period archive.
+exact_text: {}
+overall: APPROVED
+notes:
+- Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at open mahogany
+  drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible anatomy and period
+  archive.

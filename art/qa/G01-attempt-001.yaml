@@ -1,0 +1,137 @@
+asset: G01
+attempt: 1
+stage: visual
+image: art/work/G01/attempt-001.png
+image_sha256: 8ddfc7ba12fce89f116fc9173e73cc645663ee66014d4ba6386007671da2fe88
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T12:41:17.783908+00:00'
+eggs:
+  G01-E1:
+    status: PASS
+    notes: Watcher seated with newspaper and repeated in polished-floor reflection.
+  G01-E2:
+    status: PASS
+    notes: Mercier has deliberately centered the case on a folded bank cloth.
+  G01-E3:
+    status: AMBIGUOUS
+    notes: Calendar surface present; exact date deferred.
+  G01-E4:
+    status: PASS
+    notes: Approved grey Lancia appears arriving beyond the entrance; plate surface is visible for exact composite.
+checks:
+  composition:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  identity:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  props:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  motifs:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  period:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  medium:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  aspect_ratio:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  clue_visibility:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  anatomy:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  hands:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  faces:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  duplicates:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  modern_objects:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  unintended_text:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  vehicle_geometry:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  symbol_geometry:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  numbers:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+  object_geometry:
+    status: PASS
+    notes: Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at
+      the counter; closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears
+      directly and as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white
+      plate. Wall clock and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.
+exact_text: {}
+overall: APPROVED
+notes:
+- Single high-mounted monochrome bank surveillance frame. Corvi and Mercier match approved identities at the counter;
+  closed steel case rests squarely on a dark bank cloth. The seated Watcher with newspaper appears directly and
+  as a clear marble reflection. Grey Lancia arrives through the glass entrance with a blank white plate. Wall clock
+  and blank calendar are visible. Exact timestamp, date, case plaque and plate text are deferred.

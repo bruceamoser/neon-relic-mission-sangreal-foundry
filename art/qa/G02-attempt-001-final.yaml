@@ -1,0 +1,121 @@
+asset: G02
+attempt: 1
+stage: final
+image: art/composite/G02-attempt-001.webp
+image_sha256: b31ec4b3997a7a175d5d3a01335cf3106aa39367d95c8d6d814df471df0195f9
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T12:46:59.222908+00:00'
+eggs:
+  G02-E1:
+    status: PASS
+    notes: The authorization field reads AUTORISÉ — COFFRES on Mercier's record.
+  G02-E2:
+    status: PASS
+    notes: The telegram copy carries CHF 500,000 and beneficiary 4409-C.
+checks:
+  composition:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  identity:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  props:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  motifs:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  period:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  medium:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  aspect_ratio:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  clue_visibility:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  anatomy:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  hands:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  faces:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  duplicates:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  modern_objects:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  unintended_text:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  vehicle_geometry:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  symbol_geometry:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  numbers:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+  object_geometry:
+    status: PASS
+    notes: Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS
+      paperwork, carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes
+      with broken carbon-transfer edges and variable density.
+exact_text:
+  CHF 500,000:
+    status: PASS
+    notes: AUTORISÉ — COFFRES, CHF 500,000, and 4409-C are visibly present and legible on their respective documents.
+  4409-C:
+    status: PASS
+    notes: AUTORISÉ — COFFRES, CHF 500,000, and 4409-C are visibly present and legible on their respective documents.
+  AUTORISÉ — COFFRES:
+    status: PASS
+    notes: AUTORISÉ — COFFRES, CHF 500,000, and 4409-C are visibly present and legible on their respective documents.
+overall: APPROVED
+notes:
+- Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS paperwork,
+  carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes with broken
+  carbon-transfer edges and variable density.

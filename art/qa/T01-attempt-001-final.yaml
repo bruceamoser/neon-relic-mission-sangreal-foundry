@@ -1,0 +1,84 @@
+asset: T01
+attempt: 1
+stage: final
+image: art/composite/T01-attempt-001.webp
+image_sha256: 1d9e9e438fc63e211bfea40aee9a0ce3c6891d3610fa5968fef18caeceecbc28
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T17:23:29.554275+00:00'
+eggs:
+  T01-E1:
+    status: PASS
+    notes: Corvi is at the glass on the left; Vane stands behind him between his position and the only visible door
+      on the right.
+  T01-E2:
+    status: PASS
+    notes: Grey period Lancia sits below the booth on the access level with both windshield wipers raised.
+  T01-E3:
+    status: PASS
+    notes: Broken skylight in foreground; the steel attaché and a separate brown suitcase are clearly side by side
+      in the booth.
+checks:
+  composition:
+    status: PASS
+    notes: 'One rainy telephoto scene: lit rooftop booth at left, curving test track, broken skylights and grey
+      car on lower access level.'
+  identity:
+    status: PASS
+    notes: Gaunt grey-haired cleric and veiled woman match the locked silhouettes; Vane stands between him and the
+      right-hand booth exit.
+  props:
+    status: PASS
+    notes: Steel attaché and second brown suitcase both visible inside booth; grey Lancia with both wipers raised.
+  motifs:
+    status: PASS
+    notes: Locked case and Lancia silhouettes retained; readable SCV 47 plate will receive separate exact-text composite.
+  period:
+    status: PASS
+    notes: Analog materials and equipment; no post-1987 item apparent.
+  medium:
+    status: PASS
+    notes: Long-lens scene through rain-streaked foreground, compressed perspective, dusk haze and muted film grain.
+  aspect_ratio:
+    status: PASS
+    notes: Image dimensions match the requested ratio and exceed 1024 on the short edge.
+  clue_visibility:
+    status: PASS
+    notes: Both figures, two cases, raised wipers and broken skylight are discernible.
+  anatomy:
+    status: PASS
+    notes: Two standing/leaning human figures with coherent proportions.
+  hands:
+    status: PASS
+    notes: Small partially occluded hands show no obvious extra digits.
+  faces:
+    status: PASS
+    notes: Faces are distant silhouettes; no obvious identity reversal or distortion.
+  duplicates:
+    status: PASS
+    notes: Two people and two distinct cases are explicitly required; one foreground Lancia.
+  modern_objects:
+    status: PASS
+    notes: No smartphone, digital camera, flat screen or contemporary fixture visible.
+  unintended_text:
+    status: PASS
+    notes: Only small SCV 47 registration appears; no added caption or inset.
+  vehicle_geometry:
+    status: PASS
+    notes: Four-door sedan, paired circular lamps, wheels and raised wipers are coherent.
+  symbol_geometry:
+    status: PASS
+    notes: No malformed symbol apparent.
+  numbers:
+    status: PASS
+    notes: SCV 47 has been separately composited and reads correctly within the plate.
+  object_geometry:
+    status: PASS
+    notes: Booth glass, door, rooftop curves and lower roadway align plausibly.
+exact_text:
+  SCV 47:
+    status: PASS
+    notes: 'Visually verified required characters and wording: SCV 47. Legible in the intended field, without overlap
+      or clipping.'
+overall: APPROVED
+notes: []

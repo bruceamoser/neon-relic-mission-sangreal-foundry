@@ -1,0 +1,124 @@
+asset: G05
+attempt: 1
+stage: final
+image: art/composite/G05-attempt-001.webp
+image_sha256: 686e43166208dbc7eff9d1ef0e8ef18c5f837379031655458503568c3c60ddec
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T12:47:01.005914+00:00'
+eggs:
+  G05-E1:
+    status: PASS
+    notes: The destination board reads EC 30 ROMULUS.
+  G05-E2:
+    status: PASS
+    notes: The luggage trolley card reads VATICAN COURIER.
+  G05-E3:
+    status: PASS
+    notes: The Sangreal case remains identifiable and the Watcher follows in the background.
+checks:
+  composition:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  identity:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  props:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  motifs:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  period:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  medium:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  aspect_ratio:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  clue_visibility:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  anatomy:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  hands:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  faces:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  duplicates:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  modern_objects:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  unintended_text:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  vehicle_geometry:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  symbol_geometry:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  numbers:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+  object_geometry:
+    status: PASS
+    notes: Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal
+      case while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling
+      stock remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+exact_text:
+  EC 30 ROMULUS:
+    status: PASS
+    notes: EC 30 ROMULUS, VATICAN COURIER, and SANGREAL are visibly present on the final composite.
+  VATICAN COURIER:
+    status: PASS
+    notes: EC 30 ROMULUS, VATICAN COURIER, and SANGREAL are visibly present on the final composite.
+  SANGREAL:
+    status: PASS
+    notes: EC 30 ROMULUS, VATICAN COURIER, and SANGREAL are visibly present on the final composite.
+overall: APPROVED
+notes:
+- Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal case while
+  the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling stock remain
+  coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.

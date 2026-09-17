@@ -1,0 +1,19 @@
+_id: sangreal-ic33
+name: I33 — Lingotto, Rooftop, Rain
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i33-lingotto-rooftop.webp
+system:
+  cardId: I-33
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l5
+  content: '<p>telephoto at dusk through rain: the famous rooftop test track on the long plant, one glass supervisor&#x27;s
+    booth lit high above the assembly floor; two figures inside.</p>'
+  hqFallback: 12
+  daNotes: <p>the two silhouettes — Corvi at the booth glass and Vane positioned precisely between him and the only
+    exit below, on the access road, a grey Lancia parked with its wipers up the rain has broken a skylight and inside
+    the booth window a **second** suitcase-sized case is visible beside the attaché (his papers, doubling the decoy
+    tension).</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

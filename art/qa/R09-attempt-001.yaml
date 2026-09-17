@@ -1,0 +1,95 @@
+asset: R09
+attempt: 1
+stage: visual
+image: art/work/R09/attempt-001.png
+image_sha256: c2c53a925386316b1fd47ce547274f81b0722b88f7423081d8b665c5107a771c
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:17:35.142260+00:00'
+eggs:
+  R09-E1:
+    status: PASS
+    notes: Eye-serpent ring on prelate card hand.
+  R09-E2:
+    status: AMBIGUOUS
+    notes: Folder XII-SANG text deferred.
+  R09-E3:
+    status: PASS
+    notes: Red pencil X crosses older prelate face.
+checks:
+  composition:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  identity:
+    status: FAIL
+    notes: Tie stripe pattern differs from R08; match paired narrow pale diagonal stripes.
+  props:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  motifs:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  period:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  medium:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  aspect_ratio:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  clue_visibility:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  anatomy:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  hands:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  faces:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  duplicates:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  modern_objects:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  unintended_text:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  vehicle_geometry:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  symbol_geometry:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  numbers:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+  object_geometry:
+    status: PASS
+    notes: Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red
+      grease X. Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.
+exact_text: {}
+overall: NEEDS_EDIT
+notes:
+- Archival photo shows younger Corvi and older prelate, both holding cards, eye ring, blank folder, red grease X.
+  Corvi tie has single broad stripes rather than paired thin stripes in passport; correction needed.

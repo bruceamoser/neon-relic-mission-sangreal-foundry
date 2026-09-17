@@ -1,0 +1,99 @@
+asset: Z01
+attempt: 2
+stage: final
+image: art/composite/revisions/zurich-second-pass/Z01.webp
+image_sha256: 8afcb0398474f9e0e10fc58f81e2415a8485d98d350906840f169335de6989ed
+inspected_visually: true
+reviewer: Bruce and Codex
+inspected_at: '2026-09-17T16:40:35.173456+00:00'
+eggs:
+  Z01-E1:
+    status: PASS
+    notes: Slate reads 09-H.
+  Z01-E2:
+    status: PASS
+    notes: Gold wristwatch is visible.
+  Z01-E3:
+    status: PASS
+    notes: Sonnenberg logo is visible on the IV bag.
+checks:
+  composition:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  identity:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  props:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  motifs:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  period:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  medium:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  aspect_ratio:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  clue_visibility:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  anatomy:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  hands:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  faces:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  duplicates:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  modern_objects:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  unintended_text:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  vehicle_geometry:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  symbol_geometry:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  numbers:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+  object_geometry:
+    status: PASS
+    notes: Final pre-treatment intake image inspected. Hausmann has ordinary human eyes, the same gold watch, a
+      worn slate reading 09-H, and the Sonnenberg logo on the IV bag.
+exact_text:
+  09-H:
+    status: PASS
+    notes: Visually present in second pass; Z08 ingredient separators use approved line breaks.
+overall: APPROVED
+notes:
+- 'Bruce approved second pass: look sgood continue. Z08 ingredient separators accepted as line breaks rather than
+  slashes.'

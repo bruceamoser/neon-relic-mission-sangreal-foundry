@@ -1,0 +1,103 @@
+asset: V06
+attempt: 1
+stage: final
+image: art/composite/V06-attempt-001.webp
+image_sha256: db8f154399789af0898912fe17d3e5fcdc905e3ec25000855bc38eae276b6833
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T19:50:23.495461+00:00'
+eggs:
+  V06-E1:
+    status: PASS
+    notes: Single parked aircraft inside red grease-pencil circle.
+  V06-E2:
+    status: PASS
+    notes: Second aircraft beside service hangar marked with red X.
+  V06-E3:
+    status: PASS
+    notes: Classification COVENANT WAYFINDER — RECON 18-IX and handwritten wheels up 01:15 confirmed both readable;
+      dash appears short.
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  identity:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  props:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  motifs:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  period:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  medium:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  hands:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  faces:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct
+      annotated aircraft.'
+exact_text:
+  COVENANT WAYFINDER — RECON 18-IX:
+    status: PASS
+    notes: 'Visually read in scene material: COVENANT WAYFINDER — RECON 18-IX. Natural line breaks, capitalization
+      and dash-length variants retained where noted.'
+  wheels up 01:15 confirmed:
+    status: PASS
+    notes: 'Visually read in scene material: wheels up 01:15 confirmed. Natural line breaks, capitalization and
+      dash-length variants retained where noted.'
+overall: APPROVED
+notes:
+- Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct annotated aircraft.

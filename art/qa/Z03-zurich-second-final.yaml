@@ -1,0 +1,85 @@
+asset: Z03
+attempt: 1
+stage: final
+image: art/composite/revisions/zurich-second-pass/Z03.webp
+image_sha256: 8bc461009f51f072dc4a01cdb261606ee440015ed21d7ab09bcc40731e1c6013
+inspected_visually: true
+reviewer: Bruce and Codex
+inspected_at: '2026-09-17T16:40:36.830517+00:00'
+eggs:
+  Z03-E1:
+    status: PASS
+    notes: Dark branching filament bundles visibly traverse the marrow-cell field.
+  Z03-E2:
+    status: PASS
+    notes: The exact phrase foreign graft — not infection is legible in blue-black cursive on the lower Polaroid
+      border.
+  Z03-E3:
+    status: PASS
+    notes: A second Polaroid edge intrudes naturally along the right side.
+checks:
+  composition:
+    status: PASS
+    notes: One main square SX-70-style Polaroid on a lab bench with a second print edge intruding at right.
+  identity:
+    status: PASS
+    notes: No known human character appears in this image.
+  props:
+    status: PASS
+    notes: Marrow microscopy field, stained white photo border and period lab glassware.
+  motifs:
+    status: PASS
+    notes: No additional recurring symbol required beyond the stated props.
+  period:
+    status: PASS
+    notes: Analog materials and equipment; no post-1987 item apparent.
+  medium:
+    status: PASS
+    notes: Muted pink/purple field with soft focus, chemical stains, dust and instant-print border.
+  aspect_ratio:
+    status: PASS
+    notes: Image dimensions match the requested ratio and exceed 1024 on the short edge.
+  clue_visibility:
+    status: PASS
+    notes: Filaments, annotation and second-photo edge are all visible.
+  anatomy:
+    status: PASS
+    notes: No human body requiring anatomical review.
+  hands:
+    status: PASS
+    notes: No human hands depicted.
+  faces:
+    status: PASS
+    notes: No human face depicted.
+  duplicates:
+    status: PASS
+    notes: Single principal scene; repeated component objects are intentional.
+  modern_objects:
+    status: PASS
+    notes: No smartphone, digital camera, flat screen or contemporary fixture visible.
+  unintended_text:
+    status: PASS
+    notes: Incidental lab-bottle formalin label and partial notebook writing; no substitute for the required clue
+      annotation.
+  vehicle_geometry:
+    status: PASS
+    notes: No vehicle depicted.
+  symbol_geometry:
+    status: PASS
+    notes: No malformed symbol apparent.
+  numbers:
+    status: PASS
+    notes: Incidental evidence markings only; exact gameplay strings are checked separately.
+  object_geometry:
+    status: PASS
+    notes: Photo borders, bench and partial second print overlap plausibly.
+exact_text:
+  foreign graft — not infection:
+    status: PASS
+    notes: Visually present in second pass; Z08 ingredient separators use approved line breaks.
+overall: APPROVED
+notes:
+- 'Bruce approved second pass: look sgood continue. Z08 ingredient separators accepted as line breaks rather than
+  slashes.'
+revision: text-v2
+human_review: PENDING

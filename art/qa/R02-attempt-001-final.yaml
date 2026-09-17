@@ -1,0 +1,114 @@
+asset: R02
+attempt: 1
+stage: final
+image: art/composite/R02-attempt-001.webp
+image_sha256: 050da88e5eff05c113ccc9e99a892f606a7577a058836c6e740a01a71d85253f
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:23:10.385802+00:00'
+eggs:
+  R02-E1:
+    status: PASS
+    notes: Eye signet remains visible on rail hand.
+  R02-E2:
+    status: PASS
+    notes: Down arrow and low platform indicator remain visible.
+checks:
+  composition:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  identity:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  props:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  motifs:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  period:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  medium:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  aspect_ratio:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  clue_visibility:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  anatomy:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  hands:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  faces:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  duplicates:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  modern_objects:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  unintended_text:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  vehicle_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  symbol_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  numbers:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+  object_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator
+      remain visible.
+exact_text:
+  04:02:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+overall: APPROVED
+notes:
+- Final full image and clue surfaces visually inspected. Composition, reference identity, period props and photographic
+  medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator remain visible.

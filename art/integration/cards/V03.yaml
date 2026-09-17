@@ -1,0 +1,18 @@
+_id: sangreal-ic42
+name: I42 — L'Entità Team, Surveillance Frame
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i42-entita-team-1987.webp
+system:
+  cardId: I-42
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l7
+  content: <p>grainy surveillance photo of three plainclothes operatives from a neighbouring rooftop, mid-scene
+    in Rome — one checking a wristwatch, one at a car&#x27;s wing mirror, one mid-air over a wall.</p>
+  hqFallback: 12
+  daNotes: <p>the operative checking the watch wears a Vatican gendarme&#x27;s issue watch — small papal crest on
+    the dial their car is the grey Lancia `SCV 47` — the recurring tail one carries a black cylinder at his belt
+    far too casually — the phosphorus grenade canister, same silhouette as the vignette in Z06.</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

@@ -1,0 +1,90 @@
+asset: npc-feral-ghoul
+attempt: 1
+stage: visual
+image: art/work/npc-feral-ghoul/attempt-001.png
+image_sha256: 451d180e1afbc16c1d1cb69b713009dad66a09c723e071fd0c6569010090d513
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:24:00.748849+00:00'
+eggs:
+  npc-feral-ghoul-E1:
+    status: AMBIGUOUS
+    notes: Wrist tag present; exact label deferred to separate composition.
+checks:
+  composition:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  identity:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  props:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  motifs:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  period:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  medium:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  aspect_ratio:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  clue_visibility:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  anatomy:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  hands:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  faces:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  duplicates:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  modern_objects:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  unintended_text:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  vehicle_geometry:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  symbol_geometry:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  numbers:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+  object_geometry:
+    status: PASS
+    notes: Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking
+      hanging arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.
+exact_text: {}
+overall: APPROVED
+notes:
+- Charred grey leathery husk lunges from mortuary alcove; clouded eyes, slack jaw, long jointless-looking hanging
+  arm and hospital bracelet, blank tag tied to wrist. Harsh flash, 4:5, no unintended extra limb.

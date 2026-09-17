@@ -1,0 +1,93 @@
+asset: npc-mercier
+attempt: 1
+stage: final
+image: art/composite/npc-mercier-attempt-001.webp
+image_sha256: ba1e1f711c9f431d657130d9602040c350951fc1113365949739beb39d33129e
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:40:47.908898+00:00'
+eggs:
+  npc-mercier-E1:
+    status: PASS
+    notes: Pocket carbon copy reads UBS 4409-C.
+checks:
+  composition:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  identity:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  props:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  motifs:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  period:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  medium:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  aspect_ratio:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  clue_visibility:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  anatomy:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  hands:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  faces:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  duplicates:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  modern_objects:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  unintended_text:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  vehicle_geometry:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  symbol_geometry:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  numbers:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+  object_geometry:
+    status: PASS
+    notes: Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
+      copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+exact_text:
+  UBS 4409-C:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+overall: APPROVED
+notes:
+- Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon copy
+  emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.

@@ -1,0 +1,109 @@
+asset: N01
+attempt: 1
+stage: visual
+image: art/work/N01/attempt-001.png
+image_sha256: af7f590e737e19b149f6fd20a74d512cf7dc19e8ffb58de561f771034440d1f5
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T18:50:15.964869+00:00'
+eggs:
+  N01-E1:
+    status: PASS
+    notes: Two chalk-white remnants are visible; partial ridge texture is small at scene scale.
+  N01-E2:
+    status: PASS
+    notes: Broken thick glass phial and dark spilled liquid lie on tiles.
+  N01-E3:
+    status: FAIL
+    notes: Strap end is frayed rather than cleanly cut; edit rejected by tool safety system, request ID 6ef83a53-0853-490a-bc68-9787e672c88f.
+  N01-E4:
+    status: PASS
+    notes: Two wine glasses visible, one unused.
+checks:
+  composition:
+    status: PASS
+    notes: Abbey flash photograph preserves Vane identity, folded arms, single lantern, broken doors, two pale calcified
+      remnants, broken phial, wine glasses and absent case. Strap end remains frayed rather than cleanly cut. Targeted
+      edit was rejected by image tool safety system (violence); no replacement output.
+  identity:
+    status: PASS
+    notes: Abbey flash photograph preserves Vane identity, folded arms, single lantern, broken doors, two pale calcified
+      remnants, broken phial, wine glasses and absent case. Strap end remains frayed rather than cleanly cut. Targeted
+      edit was rejected by image tool safety system (violence); no replacement output.
+  props:
+    status: FAIL
+    notes: Strap end is frayed rather than cleanly cut; edit rejected by tool safety system, request ID 6ef83a53-0853-490a-bc68-9787e672c88f.
+  motifs:
+    status: PASS
+    notes: Abbey flash photograph preserves Vane identity, folded arms, single lantern, broken doors, two pale calcified
+      remnants, broken phial, wine glasses and absent case. Strap end remains frayed rather than cleanly cut. Targeted
+      edit was rejected by image tool safety system (violence); no replacement output.
+  period:
+    status: PASS
+    notes: Analog photograph, period materials and equipment; no post-1987 screen or device apparent.
+  medium:
+    status: PASS
+    notes: Abbey flash photograph preserves Vane identity, folded arms, single lantern, broken doors, two pale calcified
+      remnants, broken phial, wine glasses and absent case. Strap end remains frayed rather than cleanly cut. Targeted
+      edit was rejected by image tool safety system (violence); no replacement output.
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); meets required ratio and minimum short edge.
+  clue_visibility:
+    status: PASS
+    notes: Abbey flash photograph preserves Vane identity, folded arms, single lantern, broken doors, two pale calcified
+      remnants, broken phial, wine glasses and absent case. Strap end remains frayed rather than cleanly cut. Targeted
+      edit was rejected by image tool safety system (violence); no replacement output.
+  anatomy:
+    status: PASS
+    notes: Abbey flash photograph preserves Vane identity, folded arms, single lantern, broken doors, two pale calcified
+      remnants, broken phial, wine glasses and absent case. Strap end remains frayed rather than cleanly cut. Targeted
+      edit was rejected by image tool safety system (violence); no replacement output.
+  hands:
+    status: PASS
+    notes: Abbey flash photograph preserves Vane identity, folded arms, single lantern, broken doors, two pale calcified
+      remnants, broken phial, wine glasses and absent case. Strap end remains frayed rather than cleanly cut. Targeted
+      edit was rejected by image tool safety system (violence); no replacement output.
+  faces:
+    status: PASS
+    notes: Abbey flash photograph preserves Vane identity, folded arms, single lantern, broken doors, two pale calcified
+      remnants, broken phial, wine glasses and absent case. Strap end remains frayed rather than cleanly cut. Targeted
+      edit was rejected by image tool safety system (violence); no replacement output.
+  duplicates:
+    status: PASS
+    notes: Required object/person count inspected; no unintended repeated subject apparent.
+  modern_objects:
+    status: PASS
+    notes: Analog photograph, period materials and equipment; no post-1987 screen or device apparent.
+  unintended_text:
+    status: PASS
+    notes: Abbey flash photograph preserves Vane identity, folded arms, single lantern, broken doors, two pale calcified
+      remnants, broken phial, wine glasses and absent case. Strap end remains frayed rather than cleanly cut. Targeted
+      edit was rejected by image tool safety system (violence); no replacement output.
+  vehicle_geometry:
+    status: PASS
+    notes: Abbey flash photograph preserves Vane identity, folded arms, single lantern, broken doors, two pale calcified
+      remnants, broken phial, wine glasses and absent case. Strap end remains frayed rather than cleanly cut. Targeted
+      edit was rejected by image tool safety system (violence); no replacement output.
+  symbol_geometry:
+    status: PASS
+    notes: Abbey flash photograph preserves Vane identity, folded arms, single lantern, broken doors, two pale calcified
+      remnants, broken phial, wine glasses and absent case. Strap end remains frayed rather than cleanly cut. Targeted
+      edit was rejected by image tool safety system (violence); no replacement output.
+  numbers:
+    status: PASS
+    notes: Abbey flash photograph preserves Vane identity, folded arms, single lantern, broken doors, two pale calcified
+      remnants, broken phial, wine glasses and absent case. Strap end remains frayed rather than cleanly cut. Targeted
+      edit was rejected by image tool safety system (violence); no replacement output.
+  object_geometry:
+    status: PASS
+    notes: Abbey flash photograph preserves Vane identity, folded arms, single lantern, broken doors, two pale calcified
+      remnants, broken phial, wine glasses and absent case. Strap end remains frayed rather than cleanly cut. Targeted
+      edit was rejected by image tool safety system (violence); no replacement output.
+exact_text: {}
+overall: NEEDS_EDIT
+notes:
+- Abbey flash photograph preserves Vane identity, folded arms, single lantern, broken doors, two pale calcified
+  remnants, broken phial, wine glasses and absent case. Strap end remains frayed rather than cleanly cut. Targeted
+  edit was rejected by image tool safety system (violence); no replacement output.
+- Strap end is frayed rather than cleanly cut; edit rejected by tool safety system, request ID 6ef83a53-0853-490a-bc68-9787e672c88f.

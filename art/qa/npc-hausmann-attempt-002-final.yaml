@@ -1,0 +1,109 @@
+asset: npc-hausmann
+attempt: 2
+stage: final
+image: art/work/npc-hausmann/attempt-002.png
+image_sha256: e98ac3897f35154ee076fa4d7891ddacfab168a92f23a0a8d60b398855d1ac1d
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:23:57.812676+00:00'
+eggs:
+  npc-hausmann-E1:
+    status: PASS
+    notes: Gold linked dress watch with pale round face clearly visible; future intake must reuse this identity/watch.
+checks:
+  composition:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  identity:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  props:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  motifs:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  period:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  medium:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  aspect_ratio:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  clue_visibility:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  anatomy:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  hands:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  faces:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  duplicates:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  modern_objects:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  unintended_text:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  vehicle_geometry:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  symbol_geometry:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  numbers:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+  object_geometry:
+    status: PASS
+    notes: Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+      stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+      hands. 4:5; no graphic wound or modern object.
+exact_text: {}
+overall: APPROVED
+notes:
+- Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
+  stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
+  hands. 4:5; no graphic wound or modern object.

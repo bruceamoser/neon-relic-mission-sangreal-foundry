@@ -1,0 +1,109 @@
+asset: npc-sabbatini
+attempt: 1
+stage: visual
+image: art/work/npc-sabbatini/attempt-001.png
+image_sha256: 053942656ad5a2dc5b6c54092b0c4d660293327b8221e7b12e191c0766796b5c
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:05:17.982803+00:00'
+eggs:
+  npc-sabbatini-E1:
+    status: AMBIGUOUS
+    notes: Dossier under his hand present; exact stamp deferred to separate composition.
+checks:
+  composition:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  identity:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  props:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  motifs:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  period:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  medium:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  aspect_ratio:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  clue_visibility:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  anatomy:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  hands:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  faces:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  duplicates:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  modern_objects:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  unintended_text:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  vehicle_geometry:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  symbol_geometry:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  numbers:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+  object_geometry:
+    status: PASS
+    notes: Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green
+      banker lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period
+      props, portrait 4:5.
+exact_text: {}
+overall: APPROVED
+notes:
+- Older silver-haired heavy-jawed cardinal, hooded eyes, scarlet fascia/piping, cross and gold ring, green banker
+  lamp, walnut chamber and frescoes. Hand naturally lies over dossier. Coherent seated anatomy and period props,
+  portrait 4:5.

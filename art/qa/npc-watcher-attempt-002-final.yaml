@@ -1,0 +1,90 @@
+asset: npc-watcher
+attempt: 2
+stage: final
+image: art/work/npc-watcher/attempt-002.png
+image_sha256: dc1204f443b3b457bba431aea569bec200896b91fa1be279e742f9f1ccc89b03
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:29:33.901820+00:00'
+eggs:
+  npc-watcher-E1:
+    status: PASS
+    notes: Small gold serpent-eye ring is sole personal distinguishing feature.
+checks:
+  composition:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  identity:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  props:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  motifs:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  period:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  medium:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  aspect_ratio:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  clue_visibility:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  anatomy:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  hands:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  faces:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  duplicates:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  modern_objects:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  unintended_text:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  vehicle_geometry:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  symbol_geometry:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  numbers:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+  object_geometry:
+    status: PASS
+    notes: Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast
+      light. Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+exact_text: {}
+overall: APPROVED
+notes:
+- Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast light. Eye-serpent
+  signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.

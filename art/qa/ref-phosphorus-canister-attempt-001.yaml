@@ -1,0 +1,88 @@
+asset: ref-phosphorus-canister
+attempt: 1
+stage: visual
+image: art/work/ref-phosphorus-canister/attempt-001.png
+image_sha256: e6249bc5c473af8035cb333ede51e955a3e3a8b179d3175aa58ba0525c09a48f
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:05:17.940630+00:00'
+eggs:
+  ref-phosphorus-canister-E1:
+    status: PASS
+    notes: Black cylinder clipped over grey overcoat opening with vest beneath; no face.
+checks:
+  composition:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  identity:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  props:
+    status: FAIL
+    notes: Background Lancia was not requested and not supplied as approved reference.
+  motifs:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  period:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  medium:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  aspect_ratio:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  clue_visibility:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  anatomy:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  hands:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  faces:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  duplicates:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  modern_objects:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  unintended_text:
+    status: FAIL
+    notes: M15 WP LOT 7-86 introduced without canonical wording.
+  vehicle_geometry:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  symbol_geometry:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  numbers:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+  object_geometry:
+    status: PASS
+    notes: Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and
+      background vehicle were introduced from motif appendix.
+exact_text: {}
+overall: NEEDS_EDIT
+notes:
+- Black cylinder and grey wool coat/tactical vest satisfy central prop. Unrequested readable markings and background
+  vehicle were introduced from motif appendix.

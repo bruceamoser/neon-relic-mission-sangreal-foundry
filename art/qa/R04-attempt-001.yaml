@@ -1,0 +1,111 @@
+asset: R04
+attempt: 1
+stage: visual
+image: art/work/R04/attempt-001.png
+image_sha256: 8554ee00198bb898829960bd4293d8905b9d60e6301cd6e36e6f027633a5718a
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:17:34.177167+00:00'
+eggs:
+  R04-E1:
+    status: PASS
+    notes: Rectangular case scratches visible.
+  R04-E2:
+    status: PASS
+    notes: Foil physically trapped beneath lower screw.
+checks:
+  composition:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  identity:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  props:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  motifs:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  period:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  medium:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  aspect_ratio:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  clue_visibility:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  anatomy:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  hands:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  faces:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  duplicates:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  modern_objects:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  unintended_text:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  vehicle_geometry:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  symbol_geometry:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  numbers:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+  object_geometry:
+    status: PASS
+    notes: Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws,
+      grey foil pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact
+      word.
+exact_text: {}
+overall: APPROVED
+notes:
+- Empty stone plinth, rectangular case footprint, tarnished brass plaque with verdigris and four screws, grey foil
+  pinched under lower-right screw, flash ruler and evidence marker. Blank plaque reserved for exact word.

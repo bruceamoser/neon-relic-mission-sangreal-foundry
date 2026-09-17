@@ -1,0 +1,89 @@
+asset: N03
+attempt: 2
+stage: visual
+image: art/work/N03/attempt-002.png
+image_sha256: f0c5690f55fc8ce18282c46bb71f7600e7dec725051a322571a7913b2c8f7327
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T18:50:16.057790+00:00'
+eggs:
+  N03-E1:
+    status: PASS
+    notes: Clear curved whorl ridges survive on foreground calcified surface.
+  N03-E2:
+    status: PASS
+    notes: Radial cracks fan out from broken cross-section of other remnant.
+  N03-E3:
+    status: PASS
+    notes: Partly melted band and signet face are fused into ash, retaining dragon-wolf/cross fragment.
+checks:
+  composition:
+    status: PASS
+    notes: Macro photograph shows a fingerprint whorl on calcified material, radial cracks, and a partially melted
+      dragon-wolf signet remnant fused into ash on terracotta.
+  identity:
+    status: PASS
+    notes: Macro photograph shows a fingerprint whorl on calcified material, radial cracks, and a partially melted
+      dragon-wolf signet remnant fused into ash on terracotta.
+  props:
+    status: PASS
+    notes: Macro photograph shows a fingerprint whorl on calcified material, radial cracks, and a partially melted
+      dragon-wolf signet remnant fused into ash on terracotta.
+  motifs:
+    status: PASS
+    notes: Macro photograph shows a fingerprint whorl on calcified material, radial cracks, and a partially melted
+      dragon-wolf signet remnant fused into ash on terracotta.
+  period:
+    status: PASS
+    notes: Analog photograph, period materials and equipment; no post-1987 screen or device apparent.
+  medium:
+    status: PASS
+    notes: Macro photograph shows a fingerprint whorl on calcified material, radial cracks, and a partially melted
+      dragon-wolf signet remnant fused into ash on terracotta.
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); meets required ratio and minimum short edge.
+  clue_visibility:
+    status: PASS
+    notes: Macro photograph shows a fingerprint whorl on calcified material, radial cracks, and a partially melted
+      dragon-wolf signet remnant fused into ash on terracotta.
+  anatomy:
+    status: PASS
+    notes: No live person or hands shown; depicted object geometry checked separately.
+  hands:
+    status: PASS
+    notes: No live person or hands shown; depicted object geometry checked separately.
+  faces:
+    status: PASS
+    notes: No live person or hands shown; depicted object geometry checked separately.
+  duplicates:
+    status: PASS
+    notes: Required object/person count inspected; no unintended repeated subject apparent.
+  modern_objects:
+    status: PASS
+    notes: Analog photograph, period materials and equipment; no post-1987 screen or device apparent.
+  unintended_text:
+    status: PASS
+    notes: Macro photograph shows a fingerprint whorl on calcified material, radial cracks, and a partially melted
+      dragon-wolf signet remnant fused into ash on terracotta.
+  vehicle_geometry:
+    status: PASS
+    notes: Macro photograph shows a fingerprint whorl on calcified material, radial cracks, and a partially melted
+      dragon-wolf signet remnant fused into ash on terracotta.
+  symbol_geometry:
+    status: PASS
+    notes: Macro photograph shows a fingerprint whorl on calcified material, radial cracks, and a partially melted
+      dragon-wolf signet remnant fused into ash on terracotta.
+  numbers:
+    status: PASS
+    notes: Macro photograph shows a fingerprint whorl on calcified material, radial cracks, and a partially melted
+      dragon-wolf signet remnant fused into ash on terracotta.
+  object_geometry:
+    status: PASS
+    notes: Macro photograph shows a fingerprint whorl on calcified material, radial cracks, and a partially melted
+      dragon-wolf signet remnant fused into ash on terracotta.
+exact_text: {}
+overall: APPROVED
+notes:
+- Macro photograph shows a fingerprint whorl on calcified material, radial cracks, and a partially melted dragon-wolf
+  signet remnant fused into ash on terracotta.

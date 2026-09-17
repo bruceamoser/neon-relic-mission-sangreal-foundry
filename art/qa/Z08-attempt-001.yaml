@@ -1,0 +1,115 @@
+asset: Z08
+attempt: 1
+stage: visual
+image: art/work/Z08/attempt-001.png
+image_sha256: 44fa37ef354c4ab24f04f64cbd1eedec1bd7da5387f0815e12c910134eb9219b
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T13:17:49.772368+00:00'
+eggs:
+  Z08-E1:
+    status: PASS
+    notes: The glass crucible is visibly boiled and collapsed amid fine white ash.
+  Z08-E2:
+    status: PASS
+    notes: A blank period log card sits inside the hood for the daylight-test wording.
+  Z08-E3:
+    status: PASS
+    notes: Unbleached linen strips and the blank-label jar form the Vatican quiescence kit.
+checks:
+  composition:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  identity:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  props:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  motifs:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  period:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  medium:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  aspect_ratio:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  clue_visibility:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  anatomy:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  hands:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  faces:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  duplicates:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  modern_objects:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  unintended_text:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  vehicle_geometry:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  symbol_geometry:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  numbers:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+  object_geometry:
+    status: PASS
+    notes: Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid
+      a radial burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a
+      blank-label jar of dark herbs and vinegar are naturally positioned for exact lettering.
+exact_text: {}
+overall: APPROVED
+notes:
+- Fume-hood evidence photograph inspected at original resolution. The crucible is fused and collapsed amid a radial
+  burst of fine white ash and scorch marks. A blank lined log card, unbleached linen strips, and a blank-label jar
+  of dark herbs and vinegar are naturally positioned for exact lettering.

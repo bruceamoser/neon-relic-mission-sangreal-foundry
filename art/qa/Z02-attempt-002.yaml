@@ -1,0 +1,115 @@
+asset: Z02
+attempt: 2
+stage: visual
+image: art/work/Z02/attempt-002.png
+image_sha256: 9ac411e0403e4bab359636f967959283b94bc4f9d3168c9e87326c8cea939800
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T13:17:49.667987+00:00'
+eggs:
+  Z02-E1:
+    status: PASS
+    notes: The reddened IV site carries a blank hanging batch tag suitable for exact compositing.
+  Z02-E2:
+    status: PASS
+    notes: A nurse's hand withdraws at the right frame edge.
+  Z02-E3:
+    status: PASS
+    notes: The wall light switch is conspicuously covered by crossed medical tape.
+checks:
+  composition:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  identity:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  props:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  motifs:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  period:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  medium:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  aspect_ratio:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  clue_visibility:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  anatomy:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  hands:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  faces:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  duplicates:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  modern_objects:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  unintended_text:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  vehicle_geometry:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  symbol_geometry:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  numbers:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+  object_geometry:
+    status: PASS
+    notes: Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity
+      while showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged
+      IV site, withdrawing nurse hand, and taped light switch are clear and non-graphic.
+exact_text: {}
+overall: APPROVED
+notes:
+- Corrected post-treatment clinical photograph inspected at original resolution. Hausmann retains his identity while
+  showing mottled light-pattern redness and extremely dilated black pupils with visible sclera. The tagged IV site,
+  withdrawing nurse hand, and taped light switch are clear and non-graphic.

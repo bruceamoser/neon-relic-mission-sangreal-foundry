@@ -1,0 +1,89 @@
+asset: relic-lodestone
+attempt: 2
+stage: visual
+image: art/work/relic-lodestone/attempt-002.png
+image_sha256: 8c35b64c3f795693e51e87f2172ce389cd657fa0d8f039d0e83606fba5bebc2f
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T20:10:08.235437+00:00'
+eggs:
+  relic-lodestone-E1:
+    status: PASS
+    notes: Faint yellow sulfur-like powder adheres to silver wires near top and crossing.
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  identity:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  props:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  motifs:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  period:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  medium:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  aspect_ratio:
+    status: PASS
+    notes: (1122, 1402); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  hands:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  faces:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue
+      and naturally typed archival tag SUPPRESSED — SJ-01.'
+exact_text: {}
+overall: APPROVED
+notes:
+- Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue and naturally typed
+  archival tag SUPPRESSED — SJ-01.

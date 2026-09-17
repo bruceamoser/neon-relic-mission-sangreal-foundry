@@ -1,0 +1,18 @@
+_id: sangreal-ic43
+name: I43 — The Case, 1964
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i43-attache-1964.webp
+system:
+  cardId: I-43
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l7
+  content: '<p>B/W archival photo of the attaché under construction in a Vatican workshop: gloved hands lining the
+    shell with lead-antimony foil, the brass SANGREAL plaque on the bench beside it.</p>'
+  hqFallback: 12
+  daNotes: <p>the plaque is already stamped — the name predates the case a workshop order pinned behind reads `XII
+    phials — Gethsemane lot — destroyed if opened` the workshop supervisor&#x27;s face is the young prelate from
+    R09 — the lineage closes.</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

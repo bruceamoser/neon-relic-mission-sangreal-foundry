@@ -1,0 +1,104 @@
+asset: T05
+attempt: 1
+stage: final
+image: art/composite/T05-attempt-001.webp
+image_sha256: 8b99d2069fa5a7a1c2c55cbbe09bc5a40e71a5c389385c6835be8ba5f1bb2dce
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T16:54:44.921743+00:00'
+eggs:
+  T05-E1:
+    status: PASS
+    notes: Distressed red stamp reads SUPPRESSED — CONS. DOCT. FIDEI over two lines.
+  T05-E2:
+    status: PASS
+    notes: Centimeter scale in attached photo makes the silver-bound nodule thumb-sized.
+  T05-E3:
+    status: PASS
+    notes: Handwritten handling note reads corrosive to ferrous circuitry — by order of the Prefect.
+checks:
+  composition:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  identity:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  props:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  motifs:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  period:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  medium:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  aspect_ratio:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  clue_visibility:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  anatomy:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  hands:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  faces:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  duplicates:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  modern_objects:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  unintended_text:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  vehicle_geometry:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  symbol_geometry:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  numbers:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+  object_geometry:
+    status: PASS
+    notes: Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+      aligned with paper.
+exact_text:
+  SUPPRESSED — CONS. DOCT. FIDEI:
+    status: PASS
+    notes: Verified wording in native material lettering. Aged card with clipped monochrome mineral photo, small
+      physical ruler, porous uneven red stamp and handwriting aligned with paper.
+  corrosive to ferrous circuitry — by order of the Prefect:
+    status: PASS
+    notes: Verified wording in native material lettering. Aged card with clipped monochrome mineral photo, small
+      physical ruler, porous uneven red stamp and handwriting aligned with paper.
+overall: APPROVED
+notes:
+- Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
+  aligned with paper.

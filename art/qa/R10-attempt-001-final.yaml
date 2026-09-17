@@ -1,0 +1,124 @@
+asset: R10
+attempt: 1
+stage: final
+image: art/composite/R10-attempt-001.webp
+image_sha256: 2abf2de0c06d73233638a461b735b162c351063fffd6ca830b7729a234f15e46
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:23:15.603722+00:00'
+eggs:
+  R10-E1:
+    status: PASS
+    notes: Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich, Turin.
+  R10-E2:
+    status: PASS
+    notes: Second faint eye-serpent impression crossed by stitching.
+checks:
+  composition:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  identity:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  props:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  motifs:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  period:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  medium:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  aspect_ratio:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  clue_visibility:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  anatomy:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  hands:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  faces:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  duplicates:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  modern_objects:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  unintended_text:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  vehicle_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  symbol_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  numbers:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+  object_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich,
+      Turin. Second faint eye-serpent impression crossed by stitching.
+exact_text:
+  T.O.W.:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+  Geneva:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+  Zurich:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+  Turin:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+overall: APPROVED
+notes:
+- Final full image and clue surfaces visually inspected. Composition, reference identity, period props and photographic
+  medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich, Turin. Second faint
+  eye-serpent impression crossed by stitching.

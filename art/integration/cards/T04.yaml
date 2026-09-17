@@ -1,0 +1,17 @@
+_id: sangreal-ic35
+name: I35 — Breve Apostolicum, 1582
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i35-breve-1582.webp
+system:
+  cardId: I-35
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l5
+  content: '<p>photographic reproduction of the 1582 papal brief: cursive chancery hand, lead seal, marginalia.</p>'
+  hqFallback: 12
+  daNotes: <p>the shelf-mark `MS-Vat-Heb-418` in the corner, matching the excised register card the seal has been
+    cracked and repaired with wax — it was opened after sealing the marginalia identifies the capsule as `CAPSAM
+    XII-SANG-00` — the case&#x27;s catalog identity since the sixteenth century.</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

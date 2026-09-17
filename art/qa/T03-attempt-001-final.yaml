@@ -1,0 +1,124 @@
+asset: T03
+attempt: 1
+stage: final
+image: art/composite/T03-attempt-001.webp
+image_sha256: 96c7f356ee7104d436c4b916ac5819d133dba6b3da4798ab9df12463bd4485de
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T16:54:41.479625+00:00'
+eggs:
+  T03-E1:
+    status: PASS
+    notes: Two contrasting script layers appear under glass in violet illumination.
+  T03-E2:
+    status: PASS
+    notes: Notebook reads Sanguis remedium, non sacramentum in small slanted ink.
+  T03-E3:
+    status: PASS
+    notes: Hotel Bristol / Geneva is printed on worn matchbook with torn stems and two remaining matches.
+checks:
+  composition:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  identity:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  props:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  motifs:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  period:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  medium:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  aspect_ratio:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  clue_visibility:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  anatomy:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  hands:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  faces:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  duplicates:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  modern_objects:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  unintended_text:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  vehicle_geometry:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  symbol_geometry:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  numbers:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+  object_geometry:
+    status: PASS
+    notes: Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering
+      follows material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic
+      variants.
+exact_text:
+  sanguis remedium, non sacramentum:
+    status: PASS
+    notes: Verified wording in native material lettering. Violet UV and warm fill, layered parchment under glass,
+      aged notebook and spent matchbook. Lettering follows material perspective. Capitalized S and line-break hotel
+      punctuation retained as visible typographic variants.
+  Hotel Bristol, Geneva:
+    status: PASS
+    notes: Verified wording in native material lettering. Violet UV and warm fill, layered parchment under glass,
+      aged notebook and spent matchbook. Lettering follows material perspective. Capitalized S and line-break hotel
+      punctuation retained as visible typographic variants.
+overall: APPROVED
+notes:
+- Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering follows material
+  perspective. Capitalized S and line-break hotel punctuation retained as visible typographic variants.

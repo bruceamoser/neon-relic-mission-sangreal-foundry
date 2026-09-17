@@ -1,0 +1,114 @@
+asset: R04
+attempt: 1
+stage: final
+image: art/composite/R04-attempt-001.webp
+image_sha256: 5b3e5ce81e439a85d05ac4364976885ef8f37729a0dca6ca8b5a1e30b89c0cf2
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:23:11.311282+00:00'
+eggs:
+  R04-E1:
+    status: PASS
+    notes: Case-shaped scratch outline remains on empty plinth.
+  R04-E2:
+    status: PASS
+    notes: Grey foil pinched under lower plaque screw.
+checks:
+  composition:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  identity:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  props:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  motifs:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  period:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  medium:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  aspect_ratio:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  clue_visibility:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  anatomy:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  hands:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  faces:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  duplicates:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  modern_objects:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  unintended_text:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  vehicle_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  symbol_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  numbers:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+  object_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under
+      lower plaque screw.
+exact_text:
+  SANGREAL:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+overall: APPROVED
+notes:
+- Final full image and clue surfaces visually inspected. Composition, reference identity, period props and photographic
+  medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under lower plaque screw.

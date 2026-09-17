@@ -1,0 +1,82 @@
+asset: R01
+attempt: 2
+stage: visual
+image: art/work/R01/attempt-002.png
+image_sha256: de6e832640f273f70f67b281a0bdd397b363d50a403f3636c1688a54d387441c
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T17:17:24.138829+00:00'
+eggs:
+  R01-E1:
+    status: PASS
+    notes: Faint human shadow contrasts strongly with the pitch-black case-shaped shadow.
+  R01-E2:
+    status: FAIL
+    notes: Magnified crop shows a fully exposed rectangular patch, not a pass protruding from a pocket.
+  R01-E3:
+    status: PASS
+    notes: Vane is now partly cut by the far-left frame edge.
+  R01-E4:
+    status: AMBIGUOUS
+    notes: Exact 03:14 17-IX-87 timestamp awaits separate composite.
+checks:
+  composition:
+    status: PASS
+    notes: One high-mounted gate-camera view, main cleric under the arch and distant nun at far-left edge.
+  identity:
+    status: PASS
+    notes: Corvi has recognizable gaunt face, thinning combed hair and clerical coat; distant Vane has matching
+      plain veil and folded posture.
+  props:
+    status: PASS
+    notes: Steel case carried at side; small rectangular pass on coat; wet cobblestones and gate lamp.
+  motifs:
+    status: PASS
+    notes: Human shadow is now faint and translucent, case shadow is a separate dark solid shape.
+  period:
+    status: PASS
+    notes: Analog materials and equipment; no post-1987 item apparent.
+  medium:
+    status: PASS
+    notes: Black-and-white surveillance-like grain, high camera and timestamp strip.
+  aspect_ratio:
+    status: PASS
+    notes: Image dimensions match the requested ratio and exceed 1024 on the short edge.
+  clue_visibility:
+    status: FAIL
+    notes: At magnified inspection the railway card still looks badge-mounted; no lower portion disappears into
+      a pocket.
+  anatomy:
+    status: PASS
+    notes: Walking limbs and body posture coherent.
+  hands:
+    status: PASS
+    notes: Case-carrying hand and hanging hand are plausible at this scale.
+  faces:
+    status: PASS
+    notes: Main face coherent; distant face appropriately reduced.
+  duplicates:
+    status: PASS
+    notes: One Corvi and one Vane; no duplicate people.
+  modern_objects:
+    status: PASS
+    notes: No smartphone, digital camera, flat screen or contemporary fixture visible.
+  unintended_text:
+    status: PASS
+    notes: Timestamp strip contains stray colon and dash marks, to be cleared during exact timestamp compositing.
+  vehicle_geometry:
+    status: PASS
+    notes: No vehicle depicted.
+  symbol_geometry:
+    status: PASS
+    notes: No malformed symbol apparent.
+  numbers:
+    status: PASS
+    notes: Required timestamp not yet added.
+  object_geometry:
+    status: PASS
+    notes: Gate, cobbles and carried case geometries are coherent.
+exact_text: {}
+overall: NEEDS_EDIT
+notes:
+- Only the pocket/pass relationship still needs a local correction; shadows and Vane placement now pass.

@@ -1,0 +1,127 @@
+asset: R06
+attempt: 1
+stage: final
+image: art/composite/R06-attempt-001.webp
+image_sha256: e188ad3edea0a76a429063dc7b869b61078cac9a7f3a17160f487a623c49b821
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:23:12.994673+00:00'
+eggs:
+  R06-E1:
+    status: PASS
+    notes: Rag slip reads IV-I, I-V, III-II … in aligned rows.
+  R06-E2:
+    status: PASS
+    notes: GENEVA and 4409 are horizontally reversed ink impressions on leather.
+  R06-E3:
+    status: PASS
+    notes: Roma Termini appears on ticket corner under blotter.
+checks:
+  composition:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  identity:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  props:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  motifs:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  period:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  medium:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  aspect_ratio:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  clue_visibility:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  anatomy:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  hands:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  faces:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  duplicates:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  modern_objects:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  unintended_text:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  vehicle_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  symbol_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  numbers:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+  object_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are
+      horizontally reversed ink impressions on leather. Roma Termini appears on ticket corner under blotter.
+exact_text:
+  GENEVA:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+  '4409':
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+  IV-I I-V III-II …:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+  Roma Termini:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+overall: APPROVED
+notes:
+- Final full image and clue surfaces visually inspected. Composition, reference identity, period props and photographic
+  medium retained. Rag slip reads IV-I, I-V, III-II … in aligned rows. GENEVA and 4409 are horizontally reversed
+  ink impressions on leather. Roma Termini appears on ticket corner under blotter.

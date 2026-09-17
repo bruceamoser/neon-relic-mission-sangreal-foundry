@@ -1,0 +1,89 @@
+asset: ref-phial
+attempt: 2
+stage: visual
+image: art/work/ref-phial/attempt-002.png
+image_sha256: 4010a357889e19bad93fb74d277640d75e72429b18ce56bcd4007e2eb19309fd
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:24:00.722226+00:00'
+eggs:
+  ref-phial-E1:
+    status: AMBIGUOUS
+    notes: Phial otherwise suitable; remove eye from seal completely.
+checks:
+  composition:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  identity:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  props:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  motifs:
+    status: FAIL
+    notes: Residual eye symbol on wax introduces unsupported association.
+  period:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  medium:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  aspect_ratio:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  clue_visibility:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  anatomy:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  hands:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  faces:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  duplicates:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  modern_objects:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  unintended_text:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  vehicle_geometry:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  symbol_geometry:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  numbers:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+  object_geometry:
+    status: PASS
+    notes: Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax
+      though requested removed.
+exact_text: {}
+overall: NEEDS_EDIT
+notes:
+- Background props gone; phial fluid and glass preserved; ruler unnumbered. Eye imprint remains in wax though requested
+  removed.

@@ -1,0 +1,74 @@
+asset: npc-corvi
+attempt: 2
+stage: visual
+image: art/work/npc-corvi/attempt-002.png
+image_sha256: 779a2cecba5550b56a770986b78ebab029f519321cf9eb2aa411c9f8856cbceb
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T16:54:08.058000+00:00'
+eggs:
+  npc-corvi-E1:
+    status: PASS
+    notes: Face-down photograph with curled corner is visible on the desk.
+checks:
+  composition:
+    status: PASS
+    notes: Single seated portrait in a dim archive with desk lamp, pen, case and desk photograph.
+  identity:
+    status: PASS
+    notes: Same gaunt face, grey stubble, dark tired eyes and exhausted pose; hair now visibly thinning and grey,
+      combed back.
+  props:
+    status: PASS
+    notes: Locked case design appears at right; ink-stained fingers, fountain pen, glasses cord and chest strap
+      visible.
+  motifs:
+    status: PASS
+    notes: Case plaque intentionally blank pending composite.
+  period:
+    status: PASS
+    notes: Analog evidence presentation with old wooden furniture and mechanical luggage hardware; no post-1987
+      objects visible.
+  medium:
+    status: PASS
+    notes: Direct flash, muted tobacco/olive tones, scratched surfaces and visible grain.
+  aspect_ratio:
+    status: PASS
+    notes: 1122x1402 approximately 4:5, short edge above 1024.
+  clue_visibility:
+    status: PASS
+    notes: Photograph now has its blank aged back upward, with one corner curled.
+  anatomy:
+    status: PASS
+    notes: Body posture coherent and hunched; neck and arms join naturally.
+  hands:
+    status: PASS
+    notes: Both visible hands have coherent fingers and pen grip.
+  faces:
+    status: PASS
+    notes: Gaunt adult face, bruised eyes and grey stubble visible, with natural asymmetry.
+  duplicates:
+    status: PASS
+    notes: One person, one case, one desk photograph.
+  modern_objects:
+    status: PASS
+    notes: No digital devices, modern vehicle or modern lighting fixtures visible.
+  unintended_text:
+    status: PASS
+    notes: Blank case plaque; incidental blurred paper marks only.
+  vehicle_geometry:
+    status: PASS
+    notes: No vehicle depicted.
+  symbol_geometry:
+    status: PASS
+    notes: No heraldic symbol required; rectangular plaque and fasteners plausible.
+  numbers:
+    status: PASS
+    notes: No gameplay numeric label required.
+  object_geometry:
+    status: PASS
+    notes: Case and desk objects have coherent edges and contact shadows.
+exact_text: {}
+overall: APPROVED
+notes:
+- Targeted edit corrected the hair and face-down photograph; all unrelated scene details preserved.

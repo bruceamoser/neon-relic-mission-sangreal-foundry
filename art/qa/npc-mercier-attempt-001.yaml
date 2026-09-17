@@ -1,0 +1,109 @@
+asset: npc-mercier
+attempt: 1
+stage: visual
+image: art/work/npc-mercier/attempt-001.png
+image_sha256: f77e46af275b3777621bcc087adf206905cb67c9ced170928bd316813be601db
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:24:00.810054+00:00'
+eggs:
+  npc-mercier-E1:
+    status: AMBIGUOUS
+    notes: Pocket carbon copy present; exact UBS 4409-C deferred to composition.
+checks:
+  composition:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  identity:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  props:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  motifs:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  period:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  medium:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  aspect_ratio:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  clue_visibility:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  anatomy:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  hands:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  faces:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  duplicates:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  modern_objects:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  unintended_text:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  vehicle_geometry:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  symbol_geometry:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  numbers:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+  object_geometry:
+    status: PASS
+    notes: Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch,
+      leather trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent
+      hands, 4:5.
+exact_text: {}
+overall: APPROVED
+notes:
+- Thinning combed hair, charcoal three-piece suit, sweat at temples, tight polite smile, gold dress watch, leather
+  trays and bank documents. Paper carbon copy naturally protrudes from pocket. Warm bank booth, coherent hands,
+  4:5.

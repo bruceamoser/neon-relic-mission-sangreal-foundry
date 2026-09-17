@@ -1,0 +1,99 @@
+asset: Z05
+attempt: 1
+stage: final
+image: art/composite/revisions/zurich-second-pass/Z05.webp
+image_sha256: 1ee124d7793f5c8b868950ee3106150cdd8efa7336f0eb9d8f4b253fe8f07dca
+inspected_visually: true
+reviewer: Bruce and Codex
+inspected_at: '2026-09-17T16:40:38.527762+00:00'
+eggs:
+  Z05-E1:
+    status: PASS
+    notes: Hausmann holds position on the ceiling.
+  Z05-E2:
+    status: PASS
+    notes: Timestamp reads 02:40.
+  Z05-E3:
+    status: PASS
+    notes: Bucket spray pattern points down the corridor.
+checks:
+  composition:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  identity:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  props:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  motifs:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  period:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  medium:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  aspect_ratio:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  clue_visibility:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  anatomy:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  hands:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  faces:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  duplicates:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  modern_objects:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  unintended_text:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  vehicle_geometry:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  symbol_geometry:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  numbers:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+  object_geometry:
+    status: PASS
+    notes: Final corridor surveillance frame inspected. Hausmann clings to the ceiling, the exact timestamp reads
+      02:40, and the kicked-bucket spray points down the corridor.
+exact_text:
+  02:40:
+    status: PASS
+    notes: Visually present in second pass; Z08 ingredient separators use approved line breaks.
+overall: APPROVED
+notes:
+- 'Bruce approved second pass: look sgood continue. Z08 ingredient separators accepted as line breaks rather than
+  slashes.'

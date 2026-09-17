@@ -1,0 +1,96 @@
+asset: R09
+attempt: 2
+stage: visual
+image: art/work/R09/attempt-002.png
+image_sha256: 8fa0a7cb281ec423968cc5ba8cc7f308abf7bbf41f0f996d0e38a2c332c6a17a
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:20:19.115495+00:00'
+eggs:
+  R09-E1:
+    status: PASS
+    notes: Eye-serpent ring visible.
+  R09-E2:
+    status: AMBIGUOUS
+    notes: Folder text deferred.
+  R09-E3:
+    status: PASS
+    notes: Red grease pencil X intact.
+checks:
+  composition:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  identity:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  props:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  motifs:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  period:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  medium:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  aspect_ratio:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  clue_visibility:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  anatomy:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  hands:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  faces:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  duplicates:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  modern_objects:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  unintended_text:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  numbers:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+  object_geometry:
+    status: PASS
+    notes: 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity,
+      older prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'
+exact_text: {}
+overall: APPROVED
+notes:
+- 'Targeted tie correction inspected: paired pale diagonal stripes now match passport. Younger Corvi identity, older
+  prelate eye ring, both card hands, red X and aged archival surface preserved. Folder text deferred.'

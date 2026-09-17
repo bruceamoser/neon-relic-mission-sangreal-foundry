@@ -1,0 +1,113 @@
+asset: npc-gendarme-officer
+attempt: 1
+stage: final
+image: art/composite/npc-gendarme-officer-attempt-001.webp
+image_sha256: 2ce89957cec22f9623429d99421ee890942e087dd9f99181a0a8b016f36a4c98
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:40:45.102943+00:00'
+eggs:
+  npc-gendarme-officer-E1:
+    status: PASS
+    notes: 04:02 appears as additional log entry below earlier faint writing; review image preserves surrounding
+      log.
+checks:
+  composition:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  identity:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  props:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  motifs:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  period:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  medium:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  aspect_ratio:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  clue_visibility:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  anatomy:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  hands:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  faces:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  duplicates:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  modern_objects:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  unintended_text:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  vehicle_geometry:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  symbol_geometry:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  numbers:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+  object_geometry:
+    status: PASS
+    notes: Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
+      Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
+      while surrounding incidental log writing is indistinct.
+exact_text:
+  04:02:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+overall: APPROVED
+notes:
+- Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse. Faint
+  prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable, while surrounding
+  incidental log writing is indistinct.

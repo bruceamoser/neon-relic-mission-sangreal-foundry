@@ -1,0 +1,107 @@
+asset: G03
+attempt: 2
+stage: final
+image: art/composite/G03-attempt-002-rev002.webp
+image_sha256: b8b66a01ff389ef54c2f70c6624feaf0f92f622cab3af46803df1fd6e8d8a4df
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T17:23:27.858154+00:00'
+eggs:
+  G03-E1:
+    status: PASS
+    notes: Exact Acquisition of Primary Specimen (1 of 12) — Experimental Oncology Protocol memo is legible across
+      two aligned lines.
+  G03-E2:
+    status: PASS
+    notes: Pencil tick at the left margin sits beside the line beginning (1 of 12).
+  G03-E3:
+    status: PASS
+    notes: Upper-right paper corner is folded back over the carbon sheet.
+checks:
+  composition:
+    status: PASS
+    notes: One carbon-leaf receipt on leather blotter with fountain pen and lamp edge.
+  identity:
+    status: PASS
+    notes: No known human character appears in this image.
+  props:
+    status: PASS
+    notes: Purple carbon rules and heading, corner fold and pencil tick at memo margin.
+  motifs:
+    status: PASS
+    notes: Small green sun-and-mountain clinic emblem now appears beside the blank remitter lines, matching the
+      locked reference.
+  period:
+    status: PASS
+    notes: Analog materials and equipment; no post-1987 item apparent.
+  medium:
+    status: PASS
+    notes: Faded purple carbon type and rules on aged paper, warm desk illumination and grain.
+  aspect_ratio:
+    status: PASS
+    notes: Image dimensions match the requested ratio and exceed 1024 on the short edge.
+  clue_visibility:
+    status: PASS
+    notes: Memo, tick, folded corner, amount, locker number and separate remitter/destination fields are readable.
+  anatomy:
+    status: PASS
+    notes: No human body requiring anatomical review.
+  hands:
+    status: PASS
+    notes: No human hands depicted.
+  faces:
+    status: PASS
+    notes: No human face depicted.
+  duplicates:
+    status: PASS
+    notes: Single principal scene; repeated component objects are intentional.
+  modern_objects:
+    status: PASS
+    notes: No smartphone, digital camera, flat screen or contemporary fixture visible.
+  unintended_text:
+    status: PASS
+    notes: Only source-required bank, clinic, amount, locker, memo and destination wording added; printed minor
+      form labels retained.
+  vehicle_geometry:
+    status: PASS
+    notes: No vehicle depicted.
+  symbol_geometry:
+    status: PASS
+    notes: No malformed symbol apparent.
+  numbers:
+    status: PASS
+    notes: 4409-C, CHF 500,000 and (1 of 12) all read correctly.
+  object_geometry:
+    status: PASS
+    notes: Paper fold, stacked carbon sheet, blotter and pen have coherent geometry.
+exact_text:
+  4409-C:
+    status: PASS
+    notes: 'Visually verified required characters and wording: 4409-C. Legible in the intended field, without overlap
+      or clipping.'
+  Acquisition of Primary Specimen (1 of 12) — Experimental Oncology Protocol:
+    status: PASS
+    notes: 'Visually verified required characters and wording: Acquisition of Primary Specimen (1 of 12) — Experimental
+      Oncology Protocol. Legible in the intended field, without overlap or clipping.'
+  CHF 500,000:
+    status: PASS
+    notes: 'Visually verified required characters and wording: CHF 500,000. Legible in the intended field, without
+      overlap or clipping.'
+  Sonnenberg Privatklinik:
+    status: PASS
+    notes: 'Visually verified required characters and wording: Sonnenberg Privatklinik. Legible in the intended
+      field, without overlap or clipping.'
+  Vaduz:
+    status: PASS
+    notes: 'Visually verified required characters and wording: Vaduz. Legible in the intended field, without overlap
+      or clipping.'
+  Union de Banques Suisses:
+    status: PASS
+    notes: 'Visually verified required characters and wording: Union de Banques Suisses. Legible in the intended
+      field, without overlap or clipping.'
+  Ecclesiastical escrow account:
+    status: PASS
+    notes: 'Visually verified required characters and wording: Ecclesiastical escrow account. Legible in the intended
+      field, without overlap or clipping.'
+overall: APPROVED
+notes: []

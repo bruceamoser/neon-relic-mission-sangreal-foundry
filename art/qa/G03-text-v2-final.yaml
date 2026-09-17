@@ -1,0 +1,105 @@
+asset: G03
+attempt: 2
+stage: final
+image: art/composite/revisions/G03-text-v2.webp
+image_sha256: f54d6b339a3627ad76dd70f92632d2c241baff2f95223b2b0bea7ba908c92129
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T17:56:35.385552+00:00'
+eggs:
+  G03-E1:
+    status: PASS
+    notes: Exact Acquisition of Primary Specimen (1 of 12) — Experimental Oncology Protocol memo is legible across
+      two aligned lines.
+  G03-E2:
+    status: PASS
+    notes: Pencil tick at the left margin sits beside the line beginning (1 of 12).
+  G03-E3:
+    status: PASS
+    notes: Upper-right paper corner is folded back over the carbon sheet.
+checks:
+  composition:
+    status: PASS
+    notes: One carbon-leaf receipt on leather blotter with fountain pen and lamp edge.
+  identity:
+    status: PASS
+    notes: No known human character appears in this image.
+  props:
+    status: PASS
+    notes: Purple carbon rules and heading, corner fold and pencil tick at memo margin.
+  motifs:
+    status: PASS
+    notes: Small green sun-and-mountain clinic emblem now appears beside the blank remitter lines, matching the
+      locked reference.
+  period:
+    status: PASS
+    notes: Analog materials and equipment; no post-1987 item apparent.
+  medium:
+    status: PASS
+    notes: Faded purple carbon type and rules on aged paper, warm desk illumination and grain.
+  aspect_ratio:
+    status: PASS
+    notes: Image dimensions match the requested ratio and exceed 1024 on the short edge.
+  clue_visibility:
+    status: PASS
+    notes: Memo, tick, folded corner, amount, locker number and separate remitter/destination fields are readable.
+  anatomy:
+    status: PASS
+    notes: No human body requiring anatomical review.
+  hands:
+    status: PASS
+    notes: No human hands depicted.
+  faces:
+    status: PASS
+    notes: No human face depicted.
+  duplicates:
+    status: PASS
+    notes: Single principal scene; repeated component objects are intentional.
+  modern_objects:
+    status: PASS
+    notes: No smartphone, digital camera, flat screen or contemporary fixture visible.
+  unintended_text:
+    status: PASS
+    notes: Only source-required bank, clinic, amount, locker, memo and destination wording added; printed minor
+      form labels retained.
+  vehicle_geometry:
+    status: PASS
+    notes: No vehicle depicted.
+  symbol_geometry:
+    status: PASS
+    notes: No malformed symbol apparent.
+  numbers:
+    status: PASS
+    notes: 4409-C, CHF 500,000 and (1 of 12) all read correctly.
+  object_geometry:
+    status: PASS
+    notes: Paper fold, stacked carbon sheet, blotter and pen have coherent geometry.
+exact_text:
+  4409-C:
+    status: PASS
+    notes: Read in revised image; exact wording retained and integrated into material texture.
+  Acquisition of Primary Specimen (1 of 12) — Experimental Oncology Protocol:
+    status: PASS
+    notes: Read in revised image; exact wording retained and integrated into material texture.
+  CHF 500,000:
+    status: PASS
+    notes: Read in revised image; exact wording retained and integrated into material texture.
+  Sonnenberg Privatklinik:
+    status: PASS
+    notes: Read in revised image; exact wording retained and integrated into material texture.
+  Vaduz:
+    status: PASS
+    notes: Read in revised image; exact wording retained and integrated into material texture.
+  Union de Banques Suisses:
+    status: PASS
+    notes: Read in revised image; exact wording retained and integrated into material texture.
+  Ecclesiastical escrow account:
+    status: PASS
+    notes: Read in revised image; exact wording retained and integrated into material texture.
+overall: APPROVED
+notes:
+- Independently reviewed revised full image and clue text. Existing approved source remains immutable.
+- Perspective-aligned separate lettering, uneven ink pressure and wear; supersampling protects small glyphs.
+- All non-text clue geometry retained from source.
+revision: text-v2
+human_review: PENDING

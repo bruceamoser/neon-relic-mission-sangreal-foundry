@@ -1,0 +1,50 @@
+{
+  "name": "Mission: Sangreal \u2014 Landing",
+  "active": false,
+  "navigation": true,
+  "navName": "Sangreal",
+  "width": 1672,
+  "height": 941,
+  "padding": 0,
+  "backgroundColor": "#202419",
+  "grid": {
+    "type": 0,
+    "size": 140,
+    "distance": 1,
+    "units": "",
+    "alpha": 0
+  },
+  "tokenVision": false,
+  "fog": {
+    "mode": 0
+  },
+  "levels": [
+    {
+      "_id": "sangrealLanding0",
+      "name": "Landing",
+      "elevation": {
+        "bottom": 0,
+        "top": 100
+      },
+      "background": {
+        "src": "modules/neon-relic-mission-sangreal/assets/art/sangreal-landing.webp"
+      }
+    }
+  ],
+  "tokens": [],
+  "walls": [],
+  "lights": [],
+  "sounds": [],
+  "notes": [],
+  "tiles": [],
+  "drawings": [],
+  "regions": [],
+  "ownership": {
+    "default": 2
+  },
+  "flags": {
+    "neon-relic-mission-sangreal": {
+      "landingPage": true
+    }
+  }
+}

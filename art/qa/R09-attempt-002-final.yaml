@@ -1,0 +1,118 @@
+asset: R09
+attempt: 2
+stage: final
+image: art/composite/R09-attempt-002.webp
+image_sha256: d00a5b782384a88d80110a64e16b89b541c3cfe87bdf063babd66d685a51afee
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T21:23:14.610632+00:00'
+eggs:
+  R09-E1:
+    status: PASS
+    notes: Older prelate eye-serpent signet visible on card hand.
+  R09-E2:
+    status: PASS
+    notes: XII-SANG read on folder in neutral monochrome surface lettering.
+  R09-E3:
+    status: PASS
+    notes: Red grease-pencil X crosses prelate face.
+checks:
+  composition:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  identity:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  props:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  motifs:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  period:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  medium:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  aspect_ratio:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  clue_visibility:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  anatomy:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  hands:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  faces:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  duplicates:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  modern_objects:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  unintended_text:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  vehicle_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  symbol_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  numbers:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+  object_geometry:
+    status: PASS
+    notes: Final full image and clue surfaces visually inspected. Composition, reference identity, period props
+      and photographic medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on
+      folder in neutral monochrome surface lettering. Red grease-pencil X crosses prelate face.
+exact_text:
+  XII-SANG:
+    status: PASS
+    notes: Read exact wording in the separate final composite.
+overall: APPROVED
+notes:
+- Final full image and clue surfaces visually inspected. Composition, reference identity, period props and photographic
+  medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on folder in neutral monochrome
+  surface lettering. Red grease-pencil X crosses prelate face.

@@ -1,0 +1,107 @@
+asset: N06
+attempt: 1
+stage: visual
+image: art/work/N06/attempt-001.png
+image_sha256: 6e80566ec5ab536da8be2b6962ed3928b396f6588c2c87d1f737f48d6c8bf28a
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T18:50:20.272433+00:00'
+eggs:
+  N06-E1:
+    status: PASS
+    notes: YR-BAS painted on tail follows aircraft surface and illumination.
+  N06-E2:
+    status: PASS
+    notes: Dragon-wolf with cross in jaws is stenciled on nearby loading crate.
+  N06-E3:
+    status: PASS
+    notes: Reference grey-haired Elder in black coat stands apart looking toward camera; two other figures load
+      case.
+checks:
+  composition:
+    status: PASS
+    notes: Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far
+      engine occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS
+      and crate crest visible. Propeller appears stationary in the exposure.
+  identity:
+    status: PASS
+    notes: Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far
+      engine occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS
+      and crate crest visible. Propeller appears stationary in the exposure.
+  props:
+    status: PASS
+    notes: Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far
+      engine occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS
+      and crate crest visible. Propeller appears stationary in the exposure.
+  motifs:
+    status: PASS
+    notes: Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far
+      engine occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS
+      and crate crest visible. Propeller appears stationary in the exposure.
+  period:
+    status: PASS
+    notes: Analog photograph, period materials and equipment; no post-1987 screen or device apparent.
+  medium:
+    status: PASS
+    notes: Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far
+      engine occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS
+      and crate crest visible. Propeller appears stationary in the exposure.
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); meets required ratio and minimum short edge.
+  clue_visibility:
+    status: PASS
+    notes: Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far
+      engine occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS
+      and crate crest visible. Propeller appears stationary in the exposure.
+  anatomy:
+    status: PASS
+    notes: Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far
+      engine occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS
+      and crate crest visible. Propeller appears stationary in the exposure.
+  hands:
+    status: PASS
+    notes: Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far
+      engine occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS
+      and crate crest visible. Propeller appears stationary in the exposure.
+  faces:
+    status: PASS
+    notes: Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far
+      engine occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS
+      and crate crest visible. Propeller appears stationary in the exposure.
+  duplicates:
+    status: PASS
+    notes: Required object/person count inspected; no unintended repeated subject apparent.
+  modern_objects:
+    status: PASS
+    notes: Analog photograph, period materials and equipment; no post-1987 screen or device apparent.
+  unintended_text:
+    status: PASS
+    notes: Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far
+      engine occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS
+      and crate crest visible. Propeller appears stationary in the exposure.
+  vehicle_geometry:
+    status: FAIL
+    notes: Nose propeller and wing-engine placement are incorrect for the specified twin aircraft.
+  symbol_geometry:
+    status: PASS
+    notes: Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far
+      engine occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS
+      and crate crest visible. Propeller appears stationary in the exposure.
+  numbers:
+    status: PASS
+    notes: Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far
+      engine occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS
+      and crate crest visible. Propeller appears stationary in the exposure.
+  object_geometry:
+    status: PASS
+    notes: Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far
+      engine occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS
+      and crate crest visible. Propeller appears stationary in the exposure.
+exact_text: {}
+overall: NEEDS_EDIT
+notes:
+- Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far engine
+  occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS and crate
+  crest visible. Propeller appears stationary in the exposure.
+- Nose propeller and wing-engine placement are incorrect for the specified twin aircraft.

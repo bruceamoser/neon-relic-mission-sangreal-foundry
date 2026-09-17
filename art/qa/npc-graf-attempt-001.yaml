@@ -1,0 +1,90 @@
+asset: npc-graf
+attempt: 1
+stage: visual
+image: art/work/npc-graf/attempt-001.png
+image_sha256: a151c2acf5cdb4c18e55ab5df92d4433a1e9b706bb731105c04e062ce88b96ad
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:05:17.998454+00:00'
+eggs:
+  npc-graf-E1:
+    status: AMBIGUOUS
+    notes: Blank slide-box label present; exact handwritten text deferred.
+checks:
+  composition:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  identity:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  props:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  motifs:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  period:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  medium:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  aspect_ratio:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  clue_visibility:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  anatomy:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  hands:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  faces:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  duplicates:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  modern_objects:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  unintended_text:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  vehicle_geometry:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  symbol_geometry:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  numbers:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+  object_geometry:
+    status: PASS
+    notes: Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box
+      in smashed-tube ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.
+exact_text: {}
+overall: APPROVED
+notes:
+- Exhausted blonde woman in white coat over blue scrubs, glasses in hair, both hands gripping slide box in smashed-tube
+  ward. Hard side light, apprehensive expression, coherent hands and face, 4:5 portrait.

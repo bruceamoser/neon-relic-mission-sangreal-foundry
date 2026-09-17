@@ -1,0 +1,5 @@
+.pipeline.lock
+work/
+composite/
+rejected/
+work/integration-stage/

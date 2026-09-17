@@ -1,0 +1,115 @@
+asset: G05
+attempt: 1
+stage: visual
+image: art/work/G05/attempt-001.png
+image_sha256: 9f782af66b6be371f3759c1e678f94833b9ee5cb963f056d14243fa55643cbfc
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T12:41:17.851254+00:00'
+eggs:
+  G05-E1:
+    status: PASS
+    notes: Watcher stands one carriage behind with the same newspaper.
+  G05-E2:
+    status: AMBIGUOUS
+    notes: Destination board present; EC 30 ROMULUS deferred.
+  G05-E3:
+    status: AMBIGUOUS
+    notes: Porter trolley label present; VATICAN COURIER deferred.
+checks:
+  composition:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  identity:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  props:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  motifs:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  period:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  medium:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  aspect_ratio:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  clue_visibility:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  anatomy:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  hands:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  faces:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  duplicates:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  modern_objects:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  unintended_text:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  vehicle_geometry:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  symbol_geometry:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  numbers:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+  object_geometry:
+    status: PASS
+    notes: Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while
+      boarding with the approved steel case. Watcher identity matches reference one carriage behind with newspaper.
+      Large blank destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.
+exact_text: {}
+overall: APPROVED
+notes:
+- Single hazy long-lens station image framed through a dark window edge. Corvi matches reference while boarding
+  with the approved steel case. Watcher identity matches reference one carriage behind with newspaper. Large blank
+  destination board, trolley pasteboard label and case plaque are correctly oriented for exact text.

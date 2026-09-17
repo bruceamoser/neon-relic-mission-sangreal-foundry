@@ -1,0 +1,17 @@
+_id: sangreal-ic25
+name: I25 — The Ledger Page
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i25-locker-ledger-4409c.webp
+system:
+  cardId: I-25
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l3
+  content: <p>the page of the safe-deposit access ledger for box 4409-C, Mercier&#x27;s neat handwriting.</p>
+  hqFallback: 12
+  daNotes: '<p>three access entries — two by `K. HAUSMANN`, one struck through with correction fluid, a different
+    name faintly showing beneath: `VANE, C.` (composite) the times show an access at 02:10 on the night the case
+    moved the page number `4409` in the corner is circled twice.</p>'
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

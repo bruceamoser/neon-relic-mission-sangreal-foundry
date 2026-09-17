@@ -1,0 +1,18 @@
+_id: sangreal-ic39
+name: I39 — Tarmac, 01:15
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i39-tarmac-0115.webp
+system:
+  cardId: I-39
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l6
+  content: '<p>telephoto stakeout from beyond the perimeter fence: a Cessna 421 on the tarmac, engines glowing,
+    two figures lifting a metal case into the cabin door; hangar light spill.</p>'
+  hqFallback: 12
+  daNotes: '<p>the tail registration `YR-BAS` the loading crate stencil: a small dragon-wolf a third figure stands
+    apart from the loading — tall, black-coated, face turned directly toward the camera, as if aware of the watcher
+    (the Elder).</p>'
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

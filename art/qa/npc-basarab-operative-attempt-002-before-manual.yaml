@@ -1,0 +1,71 @@
+asset: npc-basarab-operative
+attempt: 2
+stage: visual
+image: art/work/npc-basarab-operative/attempt-002.png
+image_sha256: 46bbe43630d7045b933dd56ec208a227b0e867bb769d1a267cb2eff8b54f3ac9
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:39:53.396630+00:00'
+eggs:
+  npc-basarab-operative-E1:
+    status: FAIL
+    notes: Two additional skin slivers remain on thumb and ring finger; tiny manual correction required.
+checks:
+  composition:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  identity:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  props:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  motifs:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  period:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  medium:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  aspect_ratio:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  clue_visibility:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  anatomy:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  hands:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  faces:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  duplicates:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  modern_objects:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  unintended_text:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  vehicle_geometry:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  symbol_geometry:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  numbers:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+  object_geometry:
+    status: PASS
+    notes: Candlelit portrait, identity, coat and overall anatomy inspected; glove exception recorded separately.
+exact_text: {}
+overall: NEEDS_EDIT
+notes:
+- Two additional skin slivers remain on thumb and ring finger; tiny manual correction required.

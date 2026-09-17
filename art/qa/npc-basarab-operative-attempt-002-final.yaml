@@ -1,0 +1,109 @@
+asset: npc-basarab-operative
+attempt: 2
+stage: final
+image: art/work/npc-basarab-operative/attempt-002-glove-composite.png
+image_sha256: eaa38dac1c0d468da8179f6a8bbf8030353452a8b541950b58eb846befc239cf
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:40:41.275714+00:00'
+eggs:
+  npc-basarab-operative-E1:
+    status: PASS
+    notes: Two missing right-glove fingers visible; long pale exposed fingertips give subtle abnormal impression.
+checks:
+  composition:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  identity:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  props:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  motifs:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  period:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  medium:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  aspect_ratio:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  clue_visibility:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  anatomy:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  hands:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  faces:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  duplicates:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  modern_objects:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  unintended_text:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  numbers:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+  object_geometry:
+    status: PASS
+    notes: 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black
+      coat. Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand;
+      thumb and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+exact_text: {}
+overall: APPROVED
+notes:
+- 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black coat. Viewed
+  full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand; thumb and remaining
+  fingers covered after documented tiny manual correction. Other glove intact.'

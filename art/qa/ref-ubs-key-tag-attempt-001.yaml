@@ -1,0 +1,71 @@
+asset: ref-ubs-key-tag
+attempt: 1
+stage: visual
+image: art/work/ref-ubs-key-tag/attempt-001.png
+image_sha256: 7d7e5a89bc7cbf624a15a190f939ce26fd9a33d97a2d061bc2367344ff566a2e
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T16:52:25.634842+00:00'
+eggs:
+  ref-ubs-key-tag-E1:
+    status: AMBIGUOUS
+    notes: Single brass key tag shown with blank central engraving area; UBS 4409-C pending composite.
+checks:
+  composition:
+    status: PASS
+    notes: One brass tag and ring with ruler and evidence marker at frame edges.
+  identity:
+    status: PASS
+    notes: Internal locker-tag design; no person.
+  props:
+    status: PASS
+    notes: Tarnished brass rectangle, rounded corners, single ring through a hole and blank broad stamping face.
+  motifs:
+    status: PASS
+    notes: Tag face is blank and unobstructed for UBS 4409-C.
+  period:
+    status: PASS
+    notes: Worn wood, paper, cord or metal as appropriate to this reference; no post-1987 object visible.
+  medium:
+    status: PASS
+    notes: Muted film tones, direct flash, worn surfaces and grain visible.
+  aspect_ratio:
+    status: PASS
+    notes: 1536 by 1024; exact 3:2 and 1024 short edge.
+  clue_visibility:
+    status: PASS
+    notes: Large clear central surface supports the required stamped code.
+  anatomy:
+    status: PASS
+    notes: No foreground human anatomical subject.
+  hands:
+    status: PASS
+    notes: No foreground hands depicted.
+  faces:
+    status: PASS
+    notes: No foreground face requiring identity matching.
+  duplicates:
+    status: PASS
+    notes: One reference subject; repeated beads or printed scale ticks are intentional, with no duplicated principal
+      prop.
+  modern_objects:
+    status: PASS
+    notes: No digital devices, modern vehicle or modern lighting fixtures visible.
+  unintended_text:
+    status: PASS
+    notes: No invented tag wording; only evidence marks present.
+  vehicle_geometry:
+    status: PASS
+    notes: No real vehicle depicted; any small printed illustration is a document motif.
+  symbol_geometry:
+    status: PASS
+    notes: No heraldic symbol required.
+  numbers:
+    status: PASS
+    notes: Marker 1 and scale are incidental; required locker code awaits compositing.
+  object_geometry:
+    status: PASS
+    notes: Ring passes through the tag hole; metal thickness and shadows are plausible.
+exact_text: {}
+overall: APPROVED
+notes: []

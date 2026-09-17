@@ -1,0 +1,17 @@
+_id: sangreal-ic29
+name: I29 — The Injection Log
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i29-injection-log.webp
+system:
+  cardId: I-29
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l4
+  content: '<p>a single page from the trial chart: typewritten drug line, witness signature, Graf&#x27;s initials.</p>'
+  hqFallback: 12
+  daNotes: <p>the drug name field reads `PROGENITOR VECTOR — BATCH XII-1/12` the &quot;sponsor&quot; line reads
+    `Sonnenberg Privatklinik, Zürich — Trust Account (Vaduz)` — same account as the escrow the room number `3.14`
+    is scrawled beside the line — the same digits as the CCTV timestamp.</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

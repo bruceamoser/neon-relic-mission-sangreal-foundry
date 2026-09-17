@@ -1,0 +1,112 @@
+asset: npc-basarab-elder
+attempt: 1
+stage: final
+image: art/work/npc-basarab-elder/attempt-001.png
+image_sha256: ab48fe9c471470043715942401455171fe89730c2588fb7e2ed21da2ce2604c7
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:23:58.812259+00:00'
+eggs:
+  npc-basarab-elder-E1:
+    status: PASS
+    notes: Dragon-wolf signet visible on clasped hand at hip.
+  npc-basarab-elder-E2:
+    status: PASS
+    notes: Brown boyar-style fur collar visible under greatcoat.
+checks:
+  composition:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  identity:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  props:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  motifs:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  period:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  medium:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  aspect_ratio:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  clue_visibility:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  anatomy:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  hands:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  faces:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  duplicates:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  modern_objects:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  unintended_text:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  vehicle_geometry:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  symbol_geometry:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  numbers:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+  object_geometry:
+    status: PASS
+    notes: Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar,
+      patient glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
+      reference, 4:5; coherent anatomy.
+exact_text: {}
+overall: APPROVED
+notes:
+- Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar, patient
+  glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching reference,
+  4:5; coherent anatomy.

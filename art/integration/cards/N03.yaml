@@ -1,0 +1,18 @@
+_id: sangreal-ic38
+name: I38 — Two Fingers, Calcified
+type: informationCard
+img: modules/neon-relic-mission-sangreal/assets/art/intel/i38-ash-fingers.webp
+system:
+  cardId: I-38
+  cardType: supportingIntel
+  foundAtSlugs:
+  - sangreal-l6
+  content: <p>close-up of the severed metacarpals reduced to white calcified ash-structure, half-embedded in a dried
+    dark stain.</p>
+  hqFallback: 12
+  daNotes: <p>one finger&#x27;s whorl ridge pattern is still legible — the killer left a printable partial the ash
+    fracture lines are radial, as if the bone aged a century in seconds beside it, a tiny fused ring of metal —
+    a signet ring&#x27;s dragon crest, melted into the ash.</p>
+  foundAtUuids: []
+  knownByUuids: []
+  npcUuids: []

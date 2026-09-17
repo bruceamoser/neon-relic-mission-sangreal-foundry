@@ -1,0 +1,106 @@
+asset: G06
+attempt: 3
+stage: final
+image: art/composite/G06-attempt-003.webp
+image_sha256: b833e09de0e98323b61c143979463cc06c5922a52d3c7dac6ea22926963e8840
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T20:10:03.305165+00:00'
+eggs:
+  G06-E1:
+    status: PASS
+    notes: Full I-8 cultured response is readable with circled 418 below.
+  G06-E2:
+    status: PASS
+    notes: Second box repeats Torino — int. 418 in the same slanted italic hand as transcript.
+  G06-E3:
+    status: PASS
+    notes: Both annotations use calligraphic italic nib-weight informed by the R05 red-card reference; ouroboros-eye
+      reinforces the Order connection.
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  identity:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  props:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  motifs:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  period:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  medium:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  hands:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  faces:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and
+      matched calligraphic italic annotations follow paper/box surfaces. Invented calendar removed.'
+exact_text:
+  '418':
+    status: PASS
+    notes: 'Visually read in scene material: 418. Natural line breaks, capitalization and dash-length variants retained
+      where noted.'
+  ? Bring the remaining eleven vessels across the border to the Lingotto works in Turin. My house will pay triple.
+    Do not let Rome's butchers reach you.
+  : status: PASS
+    notes: 'Visually read in scene material: Bring the remaining eleven vessels across the border to the Lingotto
+      works in Turin. My house will pay triple. Do not let Rome''s butchers reach you.. Natural line breaks, capitalization
+      and dash-length variants retained where noted.'
+overall: APPROVED
+notes:
+- PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and matched calligraphic
+  italic annotations follow paper/box surfaces. Invented calendar removed.

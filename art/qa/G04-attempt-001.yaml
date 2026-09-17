@@ -1,0 +1,115 @@
+asset: G04
+attempt: 1
+stage: visual
+image: art/work/G04/attempt-001.png
+image_sha256: 0dcbad1641123c7627091450918f14df376f28c0726af0d7f0b297eb06859753
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T12:41:17.833074+00:00'
+eggs:
+  G04-E1:
+    status: AMBIGUOUS
+    notes: Three access rows and correction-fluid smear present; names deferred.
+  G04-E2:
+    status: AMBIGUOUS
+    notes: Time column present; 02:10 deferred.
+  G04-E3:
+    status: PASS
+    notes: 4409 is visibly circled twice in the page corner.
+checks:
+  composition:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  identity:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  props:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  motifs:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  period:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  medium:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  aspect_ratio:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  clue_visibility:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  anatomy:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  hands:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  faces:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  duplicates:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  modern_objects:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  unintended_text:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  vehicle_geometry:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  symbol_geometry:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  numbers:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+  object_geometry:
+    status: PASS
+    notes: Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular
+      correction-fluid smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred
+      to handwriting composite.
+exact_text: {}
+overall: APPROVED
+notes:
+- Top-down aged safe-deposit register with clean ruled rows, time and name columns, a tactile irregular correction-fluid
+  smear, and page number 4409 already circled twice in blue pencil. Exact names and 02:10 deferred to handwriting
+  composite.

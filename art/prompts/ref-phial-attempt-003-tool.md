@@ -1,0 +1,2 @@
+Use case: precise-object-edit. Image 1 is the edit target. Remove ONLY the eye-shaped imprint from the top of the red beeswax seal. Replace the whole imprinted center with naturally smooth, lumpy, completely unmarked red wax. No eye, circle, emblem or stamp survives. Preserve every other part of the image: bottle, liquid, scratches, table, ruler and marker.
+Preserve original dimensions and analog photographic texture. Create exactly ONE standalone image. No panels or comparison views.

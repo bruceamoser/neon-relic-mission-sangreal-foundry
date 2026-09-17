@@ -1,0 +1,94 @@
+asset: relic-phials
+attempt: 2
+stage: final
+image: art/composite/relic-phials-attempt-002.webp
+image_sha256: 3f111698fd432cb60a9a5e978ee30ea348985e6aa673b2768ccfb58aa9e722f9
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T19:50:25.328124+00:00'
+eggs:
+  relic-phials-E1:
+    status: PASS
+    notes: 'Count verified: four bottles in first row, four second row, three third row; twelve slots and bottom-right
+      slot empty.'
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  identity:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  props:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  motifs:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  period:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  medium:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  aspect_ratio:
+    status: PASS
+    notes: (1122, 1402); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  hands:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  faces:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script,
+      peeled foil and evidence ruler. Extra unrelated props removed.'
+exact_text:
+  SANGREAL:
+    status: PASS
+    notes: 'Visually read in scene material: SANGREAL. Natural line breaks, capitalization and dash-length variants
+      retained where noted.'
+overall: APPROVED
+notes:
+- Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script, peeled foil and evidence
+  ruler. Extra unrelated props removed.

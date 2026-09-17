@@ -1,0 +1,90 @@
+asset: npc-logistics-officer
+attempt: 1
+stage: visual
+image: art/work/npc-logistics-officer/attempt-001.png
+image_sha256: e55b7706cae36db0e6207f82afb65f95a096871eef7e1b60d7d90aab320c1cad
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-16T19:24:00.764220+00:00'
+eggs:
+  npc-logistics-officer-E1:
+    status: AMBIGUOUS
+    notes: Three map rings present; city names deferred to separate composition.
+checks:
+  composition:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  identity:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  props:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  motifs:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  period:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  medium:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  aspect_ratio:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  clue_visibility:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  anatomy:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  hands:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  faces:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  duplicates:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  modern_objects:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  unintended_text:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  vehicle_geometry:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  symbol_geometry:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  numbers:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+  object_geometry:
+    status: PASS
+    notes: Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding
+      map table with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.
+exact_text: {}
+overall: APPROVED
+notes:
+- Practical grey-haired woman with windburnt face, field coat/turtleneck, clipboard and thermos; folding map table
+  with three rings, crates and field telephone, lamplight. Hands and face coherent, 4:5.

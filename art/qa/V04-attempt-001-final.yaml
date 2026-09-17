@@ -1,0 +1,103 @@
+asset: V04
+attempt: 1
+stage: final
+image: art/composite/V04-attempt-001.webp
+image_sha256: 34ba78a8cb053d5be59b5b5e7f28557d0a4060c1f15fd99bcd75c79e87000b2e
+inspected_visually: true
+reviewer: Codex visual inspection
+inspected_at: '2026-09-17T20:10:10.871162+00:00'
+eggs:
+  V04-E1:
+    status: PASS
+    notes: SANGREAL already engraved on separate brass plaque on workbench.
+  V04-E2:
+    status: PASS
+    notes: Pinned order reads XII phials — Gethsemane lot — destroyed if opened.
+  V04-E3:
+    status: PASS
+    notes: Supervisor matches older right-hand prelate of R09, slightly older; no red X carried into workshop photograph.
+checks:
+  composition:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  identity:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  props:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  motifs:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  period:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  medium:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  aspect_ratio:
+    status: PASS
+    notes: (1536, 1024); required aspect ratio and minimum short edge verified.
+  clue_visibility:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  anatomy:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  hands:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  faces:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  duplicates:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  modern_objects:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  unintended_text:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  vehicle_geometry:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  symbol_geometry:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  numbers:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+  object_geometry:
+    status: PASS
+    notes: 'Inspected: 1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises;
+      separate brass plaque and pinned order have readable physical lettering.'
+exact_text:
+  XII phials — Gethsemane lot — destroyed if opened:
+    status: PASS
+    notes: 'Visually read in scene material: XII phials — Gethsemane lot — destroyed if opened. Natural line breaks,
+      capitalization and dash-length variants retained where noted.'
+  SANGREAL:
+    status: PASS
+    notes: 'Visually read in scene material: SANGREAL. Natural line breaks, capitalization and dash-length variants
+      retained where noted.'
+overall: APPROVED
+notes:
+- '1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises; separate brass
+  plaque and pinned order have readable physical lettering.'
