@@ -17,7 +17,7 @@ Complete end-to-end workflow for cutting a versioned GitHub release of the *Miss
 - `gh` CLI authenticated with `repo` scope
 - Node.js 22+ and npm available
 
-> The repository also carries `.github/workflows/release.yml`. It runs when a release is **published** and rebuilds/re-attaches the CI artifacts (`allowUpdates: true`), so it is safe to publish the release manually — CI then refreshes the artifacts from a clean build.
+> The repository also carries `.github/workflows/release.yml`. It runs when a release is **published** and rebuilds/validates from a clean checkout. It attaches only artifacts that are missing (the small `module.json` manifest is always refreshed), so publishing with assets already attached is safe — CI will not re-upload the ~100 MB zip through the runner.
 
 ## Parameter: `<type>`
 
