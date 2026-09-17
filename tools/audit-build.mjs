@@ -35,14 +35,14 @@ const EXPECTED_DOCS = {
   'sangreal-sites': 9,
   'sangreal-relics': 10,
   'sangreal-tables': 1,
-  'sangreal-journals': 3,
+  'sangreal-journals': 4,
   'sangreal-scenes': 1,
 };
 
 /** Expected child-entry counts (journal pages, table results). */
 const EXPECTED_CHILDREN = {
   'sangreal-tables': { prefix: '!tables.results!', count: 4 },
-  'sangreal-journals': { prefix: '!journal.pages!', count: 15 },
+  'sangreal-journals': { prefix: '!journal.pages!', count: 25 },
 };
 
 /** Cross-reference UUID array fields produced from authoring slug fields. */
