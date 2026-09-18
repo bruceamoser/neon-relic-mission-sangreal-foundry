@@ -8,6 +8,17 @@
 const MODULE_ID = 'neon-relic-mission-sangreal';
 const PATCH_FLAG = 'briefRedactionApplied';
 
+/** The game system this module requires. */
+const SYSTEM_ID = 'neon-relic';
+
+/**
+ * Is this module running under its required game system?
+ * @returns {boolean}
+ */
+function systemIsSupported() {
+  return game?.system?.id === SYSTEM_ID;
+}
+
 const REPLACEMENTS = [
   {
     find: 'The Holy See formally certifies that the attaché contains twelve sealed communion ampoules dating to the late Roman period, and guarantees the following:',
@@ -83,6 +94,7 @@ async function runBriefRedaction() {
 }
 
 Hooks.once('init', () => {
+  if (!systemIsSupported()) return;
   // NOTE: game.world does not implement getFlag/setFlag in Foundry v14, so the
   // one-shot markers live as hidden world settings instead.
   game.settings.register(MODULE_ID, PATCH_FLAG, {
@@ -100,6 +112,7 @@ Hooks.once('init', () => {
 });
 
 Hooks.once('ready', async () => {
+  if (!systemIsSupported()) return;
   if (!game.user.isGM) return;
   if (game.settings.get(MODULE_ID, PATCH_FLAG)) return;
   const diagnostics = await runBriefRedaction();
@@ -169,6 +182,12 @@ async function ensureFolder(name, type, parentId = null) {
  * @returns {Promise<void>}
  */
 async function installContent() {
+  if (!systemIsSupported()) {
+    ui.notifications.error(
+      `Mission: Sangreal requires the "${SYSTEM_ID}" game system — this world runs "${game.system.id}".`,
+    );
+    return;
+  }
   const notification = ui.notifications.info('Mission: Sangreal — installing content…', { permanent: true });
   let created = 0;
   let updated = 0;
@@ -281,6 +300,7 @@ class SangrealInstaller extends foundry.applications.api.DialogV2 {
 }
 
 Hooks.once('init', () => {
+  if (!systemIsSupported()) return;
   try {
     game.settings.registerMenu(MODULE_ID, 'installer', {
       name: 'Content Installer',
@@ -300,4 +320,11 @@ Hooks.once('init', () => {
   //   game.modules.get('neon-relic-mission-sangreal').api.runBriefRedaction()
   const module = game.modules.get(MODULE_ID);
   if (module) module.api = { installContent, runBriefRedaction };
+});
+
+Hooks.once('ready', () => {
+  if (systemIsSupported()) return;
+  const msg = `Mission: Sangreal requires the "${SYSTEM_ID}" game system — this world runs "${game.system.id}" and the module is inactive. Disable it in Manage Modules.`;
+  console.warn(`${MODULE_ID} | ${msg}`);
+  if (game.user?.isGM) ui.notifications.warn(msg, { permanent: true });
 });
