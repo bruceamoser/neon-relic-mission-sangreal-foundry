@@ -21,7 +21,7 @@ A stolen Vatican attaché carrying the Twelve Phials of Gethsemane is brokered a
 | Content | Details |
 | --- | --- |
 | Briefs & board | DA Case Brief (VC-17), Player Dossier, Case Board (14-day countdown, 2 faction tracks + 7 off-camera person tracks, case-journey relic milestones), Information Web |
-| Information cards | I1–I45 with art, found-at / known-by cross-links, reveal state, and DA notes covering retrieval, image reading, and hidden clues |
+| Information cards | I1–I45 intel with art, found-at / known-by cross-links, reveal state, and DA notes covering retrieval, image reading, and hidden clues — plus **N1–N16 cast cards**: player-showable NPC dossiers whose portraits carry the same easter eggs, ready for the Examine Photo viewer |
 | NPCs | Corvi, Claudia Vane, Hausmann, Dr. Graf, Sabbatini, Ghiberti, and more — 16 illustrated actors |
 | Sites | Vatican Vault IX, Geneva depository, Sonnenberg clinic, Lingotto works, Novara safehouse |
 | Relics | The attaché, the Lodestone of St. Jude, the Veil of Veronica's Thread |

@@ -1518,3 +1518,611 @@
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
+
+# ─────────────────────────────────────────────────────────────
+#  Cast Cards (N1–N16) — player-facing NPC dossiers with portraits
+# ─────────────────────────────────────────────────────────────
+
+- _id: sangreal-ic46
+  name: 'N1 — Monsignor Matteo Corvi'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-corvi.webp
+  system:
+    cardId: N-1
+    cardType: supportingIntel
+    foundAtSlugs: [sangreal-l2, sangreal-l5]
+    knownBySlugs: [sangreal-npc-ghiberti]
+    npcSlugs: [sangreal-npc-corvi]
+    content: >
+      <p>A priest in his late sixties, seated in a dim archive at night amid
+      leather-bound volumes — fountain pen in hand, sweat on his brow, a locked
+      steel attaché case just inside the frame. Curator of the Secret Archives,
+      diplomat, and the quiet centre of the case since the day he walked out of
+      Vault IX with a papal passport in one pocket and the Sangreal case in the
+      other.</p>
+      <p>Everything in the photograph says the same thing: a man who has read
+      something he cannot unread — and who has stopped apologising for it.</p>
+      <p><em>Found at: L2 — his quarters (portraits and desk effects); or at L5,
+      where he waits in the Lingotto booth to be found by the right people.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> Reveal when the cell first identifies Corvi
+      as more than a name on a duty roster — the L2 desk effects, Ghiberti's
+      story, or the L5 booth encounter.</p>
+      <p><strong>Reading the image.</strong> Baroque archive at night; one desk
+      lamp against cold shadow; catalogue volumes stacked like sandbags; pen
+      resting; the attaché case half in frame at the edge of the light.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> On the desk, face down, a
+      photograph with its corner turned up — the 1962 archive photo (I22), his
+      mentor's era, the file he keeps private. His gold-rimmed reading glasses
+      sit over the case, not his book. The fever-sweat is real: he has been
+      running with something he cannot set down.</p>
+      <p><strong>DA truth.</strong> Corvi is not the villain — he is a scholar
+      who learned what the cure actually is and chose flight over burial. He
+      wants Rome on record knowing what it holds; the players should decide
+      whether that makes him a thief or a witness.</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic47
+  name: 'N2 — Sister Claudia Vane'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-vane.webp
+  system:
+    cardId: N-2
+    cardType: supportingIntel
+    foundAtSlugs: [sangreal-l2, sangreal-l5, sangreal-l6]
+    npcSlugs: [sangreal-npc-vane]
+    content: >
+      <p>A nun in her thirties, habit immaculate, hands folded, expression
+      completely at rest. The Covenant's liaison to the case — travelled with
+      the cell, kept the logs, and never once raised her voice or lost her
+      place. Her kit is always repacked in order: rosary, pistol, transit
+      folio.</p>
+      <p>The photograph gives nothing away. That is the point.</p>
+      <p><em>Found at: L2 (her reports), L5 (beside the booth), or L6 — far too
+      late, and once and for all.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> Two reveals. Early: a benign portrait
+      shown while suspicion is playable. Late: the same portrait, at L6, when
+      the cell lays out her effects.</p>
+      <p><strong>Reading the image.</strong> Grey habit, black veil, wooden
+      rosary at her belt, stance of a woman who has decided everything ahead of
+      time. Warmer than the others? Look again.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> The rosary's third bead is
+      not a bead — it is an empty needle holder, the sheath that carried the
+      Veronica Thread (I37, I40). Visible only on close inspection, and the
+      whole betrayal is in it: the tool is already at her belt, waiting for the
+      day it gets used.</p>
+      <p><strong>DA truth.</strong> Talamasca agent. Green-light arrives Day 6
+      (O2); she takes the case on Day 4 and dies for it on Day 2. Play her — and
+      this card — so the players ache either way.</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic48
+  name: 'N3 — Cardinal Enrico Sabbatini'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-sabbatini.webp
+  system:
+    cardId: N-3
+    cardType: supportingIntel
+    foundAtSlugs: [sangreal-l7]
+    npcSlugs: [sangreal-npc-sabbatini]
+    content: >
+      <p>A cardinal in his late seventies, seated at a desk beneath a green
+      banker's lamp, one hand resting flat on a dossier as if keeping it from
+      rising on its own. Prefect of the Congregation for the Doctrine of the
+      Faith; the most powerful man to have met with the cell, and the least
+      likely to say anything he has not chosen to.</p>
+      <p>He greets investigators the way archivists greet weather — with
+      patience, and a longer memory than theirs.</p>
+      <p><em>Found at: L7 — the Palace of the Congregation, if the cell brings
+      the file back to Rome.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> The L7 accounting scene — in person, or as
+      the target of approach surveillance (I41).</p>
+      <p><strong>Reading the image.</strong> Marble and walnut; the lamp's green
+      pool of light; fingers spread on a stamped dossier; a man who already
+      knows what is inside it.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> The dossier under his hand is
+      stamped REGISTRY 16 — AMSTERDAM (I41): the Talamasca file the cell is still
+      assembling. On the wall behind him, a crucifix hangs slightly crooked —
+      and he has not straightened it in years.</p>
+      <p><strong>DA truth.</strong> The "iron nail" doctrine is his (I17): the
+      cure exists to deter, never to be used. The Lodestone's handling order came
+      from his office (I36). He is not the mission's antagonist — he is its
+      political weather.</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic49
+  name: 'N4 — Dr. Elizabeth Graf'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-graf.webp
+  system:
+    cardId: N-4
+    cardType: supportingIntel
+    foundAtSlugs: [sangreal-l4]
+    npcSlugs: [sangreal-npc-graf]
+    content: >
+      <p>A clinician in her fifties, white coat, reading glasses pushed up,
+      hands steady. Principal investigator of the oncology protocol at
+      Privatklinik Sonnenberg — a scientist who signed up to test a therapy and
+      stayed to catalogue what it really did.</p>
+      <p>She is the case's sober witness: whatever the players believe about
+      the cure, she has the slides.</p>
+      <p><em>Found at: L4 — the clinic, or the extraction dilemma when the
+      sanitization team arrives.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> At L4 the moment the cell earns her trust —
+      or for the DA's own reference from the actor.</p>
+      <p><strong>Reading the image.</strong> Ward light the colour of wet paper;
+      a coat pocket bulging with slides; the specific exhaustion of a doctor
+      who has spent three nights deciding.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> The slide box on her desk is
+      labelled <em>09-H MARROW</em> in her own handwriting — the histopathology
+      she filed under a dead trial code and kept hidden (I9, I27). One slide is
+      missing from the box: it lives inside her coat.</p>
+      <p><strong>DA truth.</strong> O1M4 marks her for liquidation. The players
+      choose whether she testifies, runs, or burns with the ward. Her slides are
+      the physical bridge from the False Revelation to the Paradigm Inversion.</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic50
+  name: 'N5 — Kurt Hausmann'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann.webp
+  system:
+    cardId: N-5
+    cardType: supportingIntel
+    foundAtSlugs: [sangreal-l4]
+    npcSlugs: [sangreal-npc-hausmann]
+    content: >
+      <p>An elderly man in a ruined evening suit, standing terribly still in
+      low light — gaunt, too pale, head tilted at an angle that has stopped
+      being human. The banker who bought the first phial at the Zurich
+      hand-off, and the reason the words <em>patient 09-H</em> appear in every
+      file the cell has collected.</p>
+      <p>He does not blink in the photograph. He does not need to.</p>
+      <p><em>Found at: L4 — he haunts the Sonnenberg grounds and the third
+      floor he emptied.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> Show only after the cell has seen the
+      intake file (I27) or the ward tape (I30) — the horror is in the pairing.</p>
+      <p><strong>Reading the image.</strong> A documentary portrait in which
+      nothing is edited: the same man as the clinic intake photograph, now
+      one long night later; posture wrong, stillness wrong, cold room untouched
+      by his presence.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> The gold wristwatch is still
+      on his wrist — the same watch as the intake photo (I27) and the same
+      object the feral predator wore on the ceiling footage. That watch is the
+      entire False Revelation: the thing on the ceiling was once a man with a
+      mortgage.</p>
+      <p><strong>DA truth.</strong> Hausmann is what a phial does to a mortal
+      who is already dying. He is not a monster the cell can redeem — he is the
+      argument for everything Claudia, Corvi, and the Church believe about the
+      cure.</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic51
+  name: 'N6 — Father Ghiberti'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-ghiberti.webp
+  system:
+    cardId: N-6
+    cardType: supportingIntel
+    foundAtSlugs: [sangreal-l1, sangreal-l2]
+    npcSlugs: [sangreal-npc-ghiberti]
+    content: >
+      <p>A small, precise man in an archivist's cassock, keys and reading
+      glasses on a lanyard, standing in a corridor that is mostly card
+      catalogues. The Covenant's contact inside the Vatican Secret Archives —
+      kept his post through three Prefects by being useful, quiet, and never
+      quite lying.</p>
+      <p>He will help the cell, at length, reluctantly, and with one eye on the
+      door.</p>
+      <p><em>Found at: L1 — the Vault IX investigation; L2 — the archive
+      extension requests.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> Introduced at L1 the first time the cell
+      needs anything from the Archives.</p>
+      <p><strong>Reading the image.</strong> Fluorescent light on a man who
+      lives under it; card drawers labelled MS-Vat-Heb; his eyeglass chain
+      wound twice around one finger — a nervous habit, not a fashion.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> At his feet on the floor, a
+      torn index-card corner — all that survives of the suppressed Lodestone
+      entry he pulled for someone else (I36). He has already done this favour
+      once, and it cost him something.</p>
+      <p><strong>DA truth.</strong> Ghiberti's allegiance is to the Archives,
+      not the Covenant and not the Prefect. If the players protect the
+      institution's dignity, he opens every drawer that matters: the workshop
+      file (I43), the suppressed index (I36), the 1582 brief (I35).</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic52
+  name: 'N7 — Jean-Paul Mercier'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-mercier.webp
+  system:
+    cardId: N-7
+    cardType: supportingIntel
+    foundAtSlugs: [sangreal-l3]
+    npcSlugs: [sangreal-npc-mercier]
+    content: >
+      <p>A night-desk banker, immaculate, fortyish, standing behind the marble
+      counter of the Union de Banques Suisses as if the building had grown him.
+      The clerk who personally attended the night deposit for locker 4409-C —
+      the man between the phials and everyone who wants them.</p>
+      <p>He has the eyes of someone doing arithmetic he cannot explain to
+      himself.</p>
+      <p><em>Found at: L3 — the bank, day or night; he does not leave the
+      building until the case does.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> At L3 when the cell works the bank —
+      counter scene or his interrogation.</p>
+      <p><strong>Reading the image.</strong> Marble, brass, blotter; the faint
+      shine of a man who irons his own shirts because nobody else touches his
+      things.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> A carbon copy slips from his
+      pocket as he turns: <em>UBS 4409-C</em> (I24). He photographed the escrow
+      transfer and kept a copy — the clerk understood exactly what he was
+      moving, and started covering himself before anyone asked.</p>
+      <p><strong>DA truth.</strong> Mercier is corruptible, not evil: debt
+      chosen him for the bank's part of the scheme. The right pressure — or the
+      right price — yields the ledger page with "Vane, C." under the correction
+      fluid (I25).</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic53
+  name: 'N8 — The Operative in Grey'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-entita-operative.webp
+  system:
+    cardId: N-8
+    cardType: supportingIntel
+    foundAtSlugs: [sangreal-l7]
+    npcSlugs: [sangreal-npc-entita-operative]
+    content: >
+      <p>A man in a grey overcoat, tie dark, haircut military, standing at a
+      kerbside checking his watch. No name, no rank, no insignia — just the
+      sense that he was already at this address long before the cell arrived,
+      and will be here long after they have gone.</p>
+      <p>He appears in the case file at three cities without ever once being
+      described by a witness.</p>
+      <p><em>Found at: L7 — the Congregation approach; earlier sightings remain
+      unattributed until the players match the coats.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> Best introduced as the photo in I42; this
+      card upgrades him from "someone in the background" to a face the players
+      can fear.</p>
+      <p><strong>Reading the image.</strong> Street light on dark wool; the
+      wristwatch being consulted rather than read; a car waiting just out of
+      frame.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> Under the coat's left lapel
+      hangs a slim cylinder — a phosphorus grenade, the same canister visible on
+      the third man in I42. By the time the players can see this photo clearly,
+      the sanitization team is already armed and on the clock.</p>
+      <p><strong>DA truth.</strong> He is L'Entità — the Holy Alliance's
+      enforcement arm. O1's final escalation puts a squad of him around
+      whatever the cell still loves.</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic54
+  name: 'N9 — The Retrieval Pack Operative'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-operative.webp
+  system:
+    cardId: N-9
+    cardType: supportingIntel
+    foundAtSlugs: [sangreal-l6]
+    npcSlugs: [sangreal-npc-basarab-operative]
+    content: >
+      <p>A broad man in worker's clothes and a flat cap, standing in the dark by
+      a parked lorry, hands relaxed, facing the camera without concern. He looks
+      like a night-shift porter until you notice he has not shifted his weight
+      in the entire exposure.</p>
+      <p>One of the pack that came up from the freight yards and waited in the
+      service tunnels beneath the Lingotto without moving — for two days.</p>
+      <p><em>Found at: L6 — the pack is gone by the time the cell arrives; his
+      photograph remains.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> Show after the slaughter — the card is part
+      of what the cell learns about who did it.</p>
+      <p><strong>Reading the image.</strong> Roadside sodium light; a lorry
+      whose plates are muddied; a man whose stillness is wrong — a worker's body
+      at rest like a machine idling.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> Two fingers of the right
+      glove are missing, and the hand beneath them is not quite right — the
+      hand that touched the broken phial during the strike, burned to white ash
+      in seconds (I38). Even the pack pays a price for the cure.</p>
+      <p><strong>DA truth.</strong> The pack is not a beast herd — it is a
+      retrieval team, patient and professional, and the cell is competing with
+      it. The Elder's people have been one step behind the case since Rome.</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic55
+  name: 'N10 — The Feral Ghoul'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-feral-ghoul.webp
+  system:
+    cardId: N-10
+    cardType: supportingIntel
+    foundAtSlugs: [sangreal-l4]
+    npcSlugs: [sangreal-mob-feralghouls]
+    content: >
+      <p>A silhouette photographed from below in a hospital corridor: a figure
+      crouched against the ceiling, limbs folded at angles that have not been
+      human since sunrise, head turned fully backwards to face the light.</p>
+      <p>The patients and staff of Sonnenberg's third floor are not missing.
+      This is where they went.</p>
+      <p><em>Found at: L4 — the corridor camera, the vent shafts, and whatever
+      the cell still hears moving in the dark above them.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> Absolutely not before the ward tape (I30).
+      This image is the payoff of the False Revelation, not its setup.</p>
+      <p><strong>Reading the image.</strong> IR-lit corridor; one working strip
+      light; the geometry of the thing is wrong in a way players feel before
+      they can name.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> At its wrist, fluttering
+      from a hospital tie: a toe tag reading <em>SONNENBERG — UNCLAIMED</em>.
+      Somebody at this clinic processed these people as bodies — before they
+      were dead, or expecting to be.</p>
+      <p><strong>DA truth.</strong> The ghouls are the vector's failure mode:
+      proximity decay, no mind left. Deploy them as weather, not antagonists —
+      and remember they may be somebody the players met on Day 9.</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic56
+  name: 'N11 — The Basarab Elder'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-elder.webp
+  system:
+    cardId: N-11
+    cardType: supportingIntel
+    foundAtSlugs: [sangreal-l6]
+    npcSlugs: [sangreal-npc-basarab-elder]
+    content: >
+      <p>A tall, spare old man in a long coat, standing at a fence line in the
+      rain, face turned directly toward the camera. Old-world tailoring, old-world
+      stillness; the kind of old that does not negotiate with calendars.</p>
+      <p>He was photographed from a hiding place at four hundred metres. He
+      knew, and he did not care.</p>
+      <p><em>Found at: L6 — the airfield perimeter, in the last hour of the
+      mission, if the players are still watching.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> The final image of the mission (I39 pairs
+      with it); show when the cell reaches the tarmac.</p>
+      <p><strong>Reading the image.</strong> Rain on tarmac; the Elder's coat
+      collar stands high, and beneath it a fur lining of a cut three centuries
+      out of date — boyar's clothing under a modern coat. His hands are
+      still.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> On his right hand, a
+      dragon-wolf signet ring — the Wallachian crest that appears on the crate
+      (I44), the cufflink (N15), and the extortion file (I17). Every road in
+      this case leads back to his house.</p>
+      <p><strong>DA truth.</strong> He is the one thing in the mission that
+      cannot be fought, only survived. He wants the phials gathered and burned;
+      his patience is measured in dynasties. If the players ever see this card,
+      the mission is already over on his schedule.</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic57
+  name: 'N12 — Vatican Gendarme Duty Officer'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-gendarme-officer.webp
+  system:
+    cardId: N-12
+    cardType: supportingIntel
+    foundAtSlugs: [sangreal-l1]
+    npcSlugs: [sangreal-npc-gendarme-officer]
+    content: >
+      <p>A uniformed gendarme in his fifties at the Vault IX gate house,
+      reading lamp on, ledger open, kettle just out of frame. He has stood this
+      post for eleven years and has signed for more secrets than most cardinals
+      will ever see.</p>
+      <p>He is not corrupt. He is tired — and tired men account for everything,
+      including the things they wish they hadn't seen.</p>
+      <p><em>Found at: L1 — the gate house, on the entry ledger's other
+      side.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> At L1, when the cell reviews the night of
+      the theft with him.</p>
+      <p><strong>Reading the image.</strong> Fluorescent gate-house light;
+      uniform pressed by habit; the ledger squared precisely with the desk's
+      edge — a man holding himself together with routine.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> The ledger page shows the
+      night's entries in his orderly hand — and a second entry at 04:02 that he
+      cannot explain and did not write (I18). He will not volunteer it. Pressed
+      kindly, he admits he found the door to the stair already unlocked the
+      next morning.</p>
+      <p><strong>DA truth.</strong> His testimony — and this photograph of the
+      doctored page — is the cell's earliest thread on the Watcher. Someone
+      came down into that vault after the theft, and the ledger remembers even
+      when nobody wants it to.</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic58
+  name: 'N13 — Covenant Logistics Officer'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-logistics-officer.webp
+  system:
+    cardId: N-13
+    cardType: supportingIntel
+    foundAtSlugs: []
+    npcSlugs: [sangreal-npc-logistics-officer]
+    content: >
+      <p>The Keep's quartermaster at Covenant HQ — middle-aged, cardigan and
+      lanyard, standing before a wall map of Europe with coloured pins in it.
+      Every plane ticket, forged permit, and equipment crate the cell has
+      received came through her windowless office.</p>
+      <p>She knows the case's route better than the agents who walk it.</p>
+      <p><em>Encountered at Covenant HQ; the map on her wall is the route she
+      believes the cell is taking.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> An HQ colour card — use it between
+      sessions or in any HQ scene, and in the debrief if the cell ever gets
+      home.</p>
+      <p><strong>Reading the image.</strong> Lamplight on paper; a hand-drawn
+      map, travel manifests pinned in sequence, a telephone with a
+      rotary dial.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> Three cities are ringed in
+      pencil: Geneva, Zurich, Turin — the operational clock, plotted from the
+      board, before the cell could know it themselves. The Watch's own route
+      analysis hangs in the room where the cell's fates are administrated.</p>
+      <p><strong>DA truth.</strong> A quiet knife: among her contracted
+      couriers is one on a Talamasca string. If the cell ever wonders how the
+      Order kept pace with them across four countries, the answer is in this
+      office — and it isn't malice, it's payroll.</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic59
+  name: 'N14 — Wayfinder Remote-Sensing Analyst'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-wayfinder-analyst.webp
+  system:
+    cardId: N-14
+    cardType: supportingIntel
+    foundAtSlugs: []
+    npcSlugs: [sangreal-npc-wayfinder-analyst]
+    content: >
+      <p>A young analyst in a radio room, headphones around her neck, teleprinter
+      spooling paper beside her. Wayfinder's remote-sensing desk — the woman who
+      reads the Covenant's magnetometers, wiretap summaries, and field
+      photographs that nobody in the field has time to study.</p>
+      <p>She can tell the cell things about their own case that they have not
+      noticed yet.</p>
+      <p><em>Encountered at Covenant HQ — or by courier report, if the cell
+      writes the right request.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> HQ scene; also the natural voice for
+      HQ-packet intel (the card that lets the DA deliver missed clues as an
+      in-world person instead of a hand-wave).</p>
+      <p><strong>Reading the image.</strong> Instrument light; pinned traces
+      and aerial photographs; the printout she is holding has been circled by
+      someone who reads patterns for a living.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> The printout in her hand
+      reads <em>VAULT IX — LAST STABLE READING</em>. On the plot behind her
+      shoulder, a second magnetic signature hangs behind the first — the
+      second descent at 04:02 (I18), already recorded on paper before anyone
+      put it in the case file.</p>
+      <p><strong>DA truth.</strong> If the cell asks the right question, she is
+      the one who confirms: two descents that night, two signatures, one
+      unclaimed. Her instruments were ahead of the investigation the whole
+      time.</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic60
+  name: 'N15 — The Turin Intermediary'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-turin-intermediary.webp
+  system:
+    cardId: N-15
+    cardType: supportingIntel
+    foundAtSlugs: [sangreal-l5]
+    npcSlugs: [sangreal-npc-turin-intermediary]
+    content: >
+      <p>A soft, well-dressed man in his fifties at a café table, espresso and
+      folded newspaper arranged just so, a briefcase within reach. A freight
+      broker by licence and a middleman by profession — cars, goods, and
+      sometimes things that belong to neither category.</p>
+      <p>He looks like somebody's favourite uncle. He is somebody's favourite
+      uncle, probably.</p>
+      <p><em>Found at: L5 — the cafés around the Lingotto, or out of his depth
+      at the works themselves.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> At L5 — surveillance first, then a
+      face-to-face if the cell flushes him.</p>
+      <p><strong>Reading the image.</strong> Mid-morning light; a man perfectly
+      at home in a city that is not his; the waiter arriving without being
+      called.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> On his cuff, a tiny crest
+      cufflink: the Wallachian dragon-wolf (I44, N11) — his second buyer's
+      sign, worn in public like an engagement ring. He collects payment for
+      errands he declines to remember and wears the brand of the last one.</p>
+      <p><strong>DA truth.</strong> He sold the Novara rendezvous to the pack
+      (Day 3) and wired his congratulations to Bucharest on Day 1 (P5). He is
+      the human face of the case's market: not a believer, not a fanatic — an
+      invoice.</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
+
+- _id: sangreal-ic61
+  name: 'N16 — The Grey Watcher'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-watcher.webp
+  system:
+    cardId: N-16
+    cardType: supportingIntel
+    foundAtSlugs: [sangreal-l1]
+    npcSlugs: [sangreal-npc-watcher]
+    content: >
+      <p>A man in a grey raincoat, seated on a bench with a newspaper, face
+      three-quarters to the camera. Nothing about him is memorable — build
+      average, features average, coat the colour of weather. That is a skill,
+      and skills are learned.</p>
+      <p>He appears in the case file's photographs more often than any bishop,
+      always one carriage back, always finished with the newspaper before the
+      train arrives.</p>
+      <p><em>Found at: L1 — the second descent; every city since.</em></p>
+    hqFallback: 0
+    daNotes: >
+      <p><strong>Retrieval.</strong> The reveal card for the Watcher — show
+      once the players have spotted him in two or more photographs (I18, I23,
+      I26, I31).</p>
+      <p><strong>Reading the image.</strong> Park bench, midday, the paper
+      folded to a column he is not reading; ankles crossed with the patience of
+      a man billing by the hour.</p>
+      <p><strong>Clues &amp; easter eggs.</strong> The signet ring on his
+      little finger is the only distinguishing feature he allows himself —
+      an eye worked inside an ouroboros (I5, I18, I22): the Talamasca's mark,
+      worn by the one agent who never needed to hide it. The Ouroboros Order
+      has been inside this case since before the cell got the file.</p>
+      <p><strong>DA truth.</strong> He is the Talamasca's Grey Watcher: keeps
+      the negatives nobody else has — including the 04:02 descent — and leaves
+      the cell a calling card when he is done: <em>We watch, and we are always
+      there.</em> He is not an enemy. He is worse: a colleague, from a longer
+      game.</p>
+    foundAtUuids: []
+    knownByUuids: []
+    npcUuids: []
