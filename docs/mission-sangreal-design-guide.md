@@ -294,7 +294,7 @@ The Talamasca track begins at 12 countdown squares, advancing as Sister Claudia 
 * Source Node: Location L2 (Corvi's Quarters)1  
 * Disseminating NPC: None (Requires physical search)1  
 * Headquarters Fallback: Operational Day 101  
-* Player-Facing Text: A slip of 17th-century rag paper hidden within a 1592 Clementine Vulgate Bible on Corvi’s desk, resting at the Gospel of John, Chapter 6\. The paper contains Latin numerals arranged in coordinate pairs: IV-I I-V III-II I-I IV-IV I-I / IV-V I-II IV-III / II-I I-I IV-V IV-III III-II I-I III-III III-III / IV-I IV-IV II-IV IV-IV I-II / I-III.  
+* Player-Facing Text: A slip of 17th-century rag paper hidden within a 1592 Clementine Vulgate Bible on Corvi’s desk, resting at the Gospel of John, Chapter 6\. The paper contains Latin numerals arranged in coordinate pairs: II-II I-V III-III I-V IV-V I-I / IV-V I-II IV-III / II-III I-I IV-V IV-III III-II I-I III-III III-III / I-IV I-IV II-V II-IV / I-III.  
 * Director Notes: Decodes via a 5x5 Latin alphabet Polybius Square (merging I/J and U/V) into: "GENEVA / UBS / HAUSMANN / 4409 / C". Unlocks Location L3 and identifies Kurt Hausmann1.
 
 ### **Card I5: The Watcher’s Hallmark**
