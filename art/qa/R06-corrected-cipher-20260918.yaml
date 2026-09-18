@@ -1,0 +1,7 @@
+status: APPROVED
+notes:
+- User supplied corrected cipher; all 22 numeral pairs and four slash separators visually checked in seven lines.
+- Built-in ImageGen edit; original preserved. Game content files untouched.
+report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R06-corrected-cipher-20260918.yaml
+image_sha256: 8ab470ff4009254dc6b903fbfcfd03aad33f7087d6b7217f69e485c3cf15b73d
+final_pass: true

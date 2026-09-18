@@ -1,6 +1,6 @@
 # Mission: Sangreal Art Status
 
-Updated: 2026-09-17T20:10:11.875085+00:00
+Updated: 2026-09-18T16:41:22.786427+00:00
 
 Total production jobs: 72. Source-requested images: 62. Internal references: 10.
 NPC portraits: 16 (Watcher optional). Optional relics: 3. Intel: 43.
@@ -136,6 +136,7 @@ No generation or QA result is inferred from a prompt. READY authorizes job prepa
 
 - **npc-corvi / text-v2**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/npc-corvi-text-v2.webp). Approved original preserved.
 - **R06 / hand-incised-v2**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/R06-hand-incised-v2.webp). Approved original preserved.
+- **R06 / R06-corrected-cipher-20260918**: visual QA APPROVED; human review NOT_REVIEWED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/R06-corrected-cipher-20260918.webp). Approved original preserved.
 - **G03 / text-v2**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/G03-text-v2.webp). Approved original preserved.
 - **Z01 / zurich-second-pass**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/zurich-second-pass/Z01.webp). Approved original preserved.
 - **Z02 / zurich-second-pass**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/zurich-second-pass/Z02.webp). Approved original preserved.
@@ -147,6 +148,7 @@ No generation or QA result is inferred from a prompt. READY authorizes job prepa
 - **Z07 / zurich-second-pass**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/zurich-second-pass/Z07.webp). Approved original preserved.
 - **Z08 / zurich-second-pass**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/zurich-second-pass/Z08.webp). Approved original preserved.
 - **T01 / text-v2**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/T01-text-v2.webp). Approved original preserved.
+- **V03 / V03-car-and-pose-corrected-20260918**: visual QA APPROVED; human review User requested handoff update. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/V03-car-and-pose-corrected-20260918.webp). Approved original preserved.
 - **ref-sangreal-case / text-v2**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/ref-sangreal-case-text-v2.webp). Approved original preserved.
 - **ref-grey-lancia-scv47 / text-v2**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/ref-grey-lancia-scv47-text-v2.webp). Approved original preserved.
 - **ref-green-railway-pass / text-v2**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/ref-green-railway-pass-text-v2.webp). Approved original preserved.
