@@ -205,8 +205,6 @@
       <p>A thumb-sized nodule of natural magnetite banded with tarnished first-century
       Judaean silver wire. The wire is hand-twisted, not cast — the work of a provincial
       silversmith, and older than any workshop mark it once carried.</p>
-      <p>The stone is the reason Vault IX ever held the phials. Corvi used it to kill the
-      electromagnetic mooring and walk the case out of the vault.</p>
 
 - _id: sangreal-relic-veronica
   name: "The Veil of Veronica's Thread"
@@ -255,8 +253,8 @@
     loreIdentified: false
     description: >
       <p>A three-inch frayed linen thread dyed pale ochre, threaded through an unadorned
-      silver sewing needle. Sister Claudia keeps it hidden inside her wooden rosary
-      beads, where it looks like a repair no one bothered to finish.</p>
+      silver sewing needle. Coiled small, it would pass for a repair no one ever
+      bothered to finish.</p>
 
 - _id: sangreal-vc16-lodestone
   name: 'VC-16 — Lodestone of St. Jude'
@@ -409,8 +407,7 @@
   system:
     description: >
       Monsignor Corvi's antique five-round revolver, kept loaded with .32 rounds older
-      than most of his students. Reliable as a machine, useless in the Prefect's shaking
-      hands — his -2 firearms penalty lives on his NPC sheet, not on the weapon.
+      than most of his students. Reliable as a machine; heavy in a scholar's hands.
     damage: 1
     range: short
     skill: firearms
