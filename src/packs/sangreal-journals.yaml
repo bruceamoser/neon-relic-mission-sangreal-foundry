@@ -85,7 +85,6 @@
           <p><strong>Security Clearance:</strong> Restricted (CL 1+ Field Personnel) — <strong>Theater:</strong> Region 04</p>
           <p>The Holy See has requisitioned Covenant recovery aid under the St. John Custodial Concordat. Subterranean Vault IX was breached; a 1964 steel diplomatic attaché was removed. The Church refuses to describe what the attaché holds; no further information will be provided. The single detail on record: a tarnished brass sign below the electromagnetic mooring plinth where the case was stored, reading one word — <strong>SANGREAL</strong>. The Church guarantees: <em>zero bio-contamination risk, zero occult hazard, container stays sealed, custody returns to the Church on recovery.</em></p>
           <p><strong>Primary:</strong> Secure the attaché intact. <strong>Secondary:</strong> Identify the breacher and how the vault mooring was bypassed.</p>
-          <p><em>Hand this to the players at the start of the case. It contains only the official cover story.</em></p>
     - name: 'EC 30 Railway Pass'
       type: text
       text:
@@ -104,7 +103,7 @@
       type: text
       text:
         content: |
-          <p><em>A slip of rag paper, hand-lettered in sepia ink. Recovered from a 1592 Clementine Vulgate, at the Gospel of John, Chapter 6.</em></p>
+          <p><em>A slip of rag paper, hand-lettered in sepia ink.</em></p>
           <pre style="font-size:1.1em; letter-spacing:0.15em; border:1px solid #999; padding:10px; max-width:520px;">
           II-II I-V III-III I-V IV-V I-I
           IV-V I-II IV-III
@@ -112,7 +111,6 @@
           I-IV I-IV II-V II-IV
           I-III
           </pre>
-          <p><em>DA note: decodes via the 5x5 Latin Polybius square (I/J and U/V merged) into GENEVA / UBS / HAUSMANN / 4409 / C. Do not interpret for the players.</em></p>
     - name: 'Escrow Transfer Receipt'
       type: text
       text:
@@ -167,7 +165,7 @@
       text:
         content: |
           <h2>Player Notes</h2>
-          <p>Use this page for the cell's own timeline, shift log, and scrap-paper deductions. The DA should keep this handout visible during play.</p>
+          <p>Use this page for the cell's own timeline, shift log, and scrap-paper deductions.</p>
 
 - _id: sangreal-journal-bridge
   name: 'The Tarmac at Novara-Cameri — Mission 2 Bridge'
@@ -194,7 +192,6 @@
           <blockquote>
           <p>"The Basarab house believes they have won. They believe they can incinerate the Blood of Golgotha and rule the shadows of Europe without fear of the grave. The Holy See cannot deploy military divisions across the Iron Curtain. But your Covenant recognizes no borders. Requisition whatever equipment you require from our sub-vaults. Fly to Cluj-Napoca. Track that aircraft into the mountains. Recover the Sangreal... or ensure that every monster in that house drinks from the cup."</p>
           </blockquote>
-          <p><em>Grant the cell the Concordat Requisition Order as a written prop: diplomatic cover, weapons clearances, and Church funding for the next mission.</em></p>
     - name: 'Mission 2: Recover the Sangreal'
       type: text
       text:
@@ -207,7 +204,6 @@
             <li><strong>Assets:</strong> the Concordat Requisition (diplomatic cover, weapons clearances, funding), the Lodestone of St. Jude if recovered, and the Covenant's own capabilities.</li>
             <li><strong>Stakes:</strong> ten phials. The cure is the only weapon that can end vampire elders — and the only thing they fear. Recover it, use it, or burn it: the choice belongs to the cell.</li>
           </ul>
-          <p><em>DA note: Mission 2 is a future module. This page exists to land the campaign cliffhanger — end the session on the empty tarmac and the rain.</em></p>
 
 - _id: sangreal-journal-walkthrough
   name: 'SANGREAL-87-091 — DA Walkthrough'
