@@ -49,7 +49,13 @@ async function copyStatics() {
     await fs.copy(STATIC_DIR, DIST);
   }
   if (await fs.pathExists(SRC_ASSETS)) {
-    await fs.copy(SRC_ASSETS, path.join(DIST, 'assets'));
+    // Internal generation references must never ship in the module
+    // (see art/README.md). Exclude them even if the art pipeline re-copies
+    // them into src/assets/art/references/.
+    const referencesDir = path.join(SRC_ASSETS, 'art', 'references');
+    await fs.copy(SRC_ASSETS, path.join(DIST, 'assets'), {
+      filter: (src) => !src.startsWith(referencesDir),
+    });
   }
 }
 

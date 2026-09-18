@@ -1,0 +1,8 @@
+status: APPROVED
+notes:
+- Single coherent sedan; SCV 47 plate retained. Wall-crossing operative supported on coping with hands and one leg
+  across. Watch and belt canister retained.
+- User explicitly requested corrected I42 be included in handoff.
+report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V03-car-and-pose-corrected-20260918.yaml
+image_sha256: fef5e6cef4f3eac98388d65ea2640304af9e0de18daeb20f7a736a95d03f8c2c
+final_pass: true

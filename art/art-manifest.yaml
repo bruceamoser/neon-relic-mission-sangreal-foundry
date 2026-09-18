@@ -113,15 +113,17 @@ assets:
     status: APPROVED
     notes:
     - Targeted edit corrected the hair and face-down photograph; all unrelated scene details preserved.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: art/qa/npc-corvi-text-v2-final.yaml
-    image_sha256: 0ab89a71fc60846d9c83d9709015d6d922178127426dc379eae635dfc960f524
+    image_sha256: 10557da15498f74054b2f4946bd5a634dae8e48f5a04b7e3f1026521d6832b42
     final_pass: true
   lock:
-    sha256: 0ab89a71fc60846d9c83d9709015d6d922178127426dc379eae635dfc960f524
+    sha256: 10557da15498f74054b2f4946bd5a634dae8e48f5a04b7e3f1026521d6832b42
     approved_at: '2026-09-16T18:59:18.387097+00:00'
     reviewer: Bruce
     final_qa: art/qa/npc-corvi-text-v2-final.yaml
     revision: text-v2
+    encoding: WebP quality 85, original dimensions
   revisions:
   - id: text-v2
     status: APPROVED
@@ -149,6 +151,15 @@ assets:
       image_sha256: e3288b8461e58d39defb50ecc1f672e035bd084e7fc0a5b3cf3bb6696f969c34
       final_pass: true
     superseded_at: '2026-09-16T18:59:18.385868+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-corvi.webp
+    sha256: 0ab89a71fc60846d9c83d9709015d6d922178127426dc379eae635dfc960f524
+    previous_lock:
+      sha256: 0ab89a71fc60846d9c83d9709015d6d922178127426dc379eae635dfc960f524
+      approved_at: '2026-09-16T18:59:18.387097+00:00'
+      reviewer: Bruce
+      final_qa: art/qa/npc-corvi-text-v2-final.yaml
+      revision: text-v2
 - id: npc-vane
   name: npc-vane
   category: npc
@@ -203,15 +214,25 @@ assets:
     working_sha256: a7b236f98838dc183d722892825980fc8380bfb6b67871909e7760b1ba1b9623
   qa:
     status: APPROVED
-    notes: []
+    notes:
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-vane-attempt-002-final.yaml
-    image_sha256: a7b236f98838dc183d722892825980fc8380bfb6b67871909e7760b1ba1b9623
+    image_sha256: 7b70209632698692a499aaf1e1fe7adac3b85dd9cfa37e3cb8410272004732bc
     final_pass: true
   lock:
-    sha256: 60bc1e758ad72a4fe6712a0ca2595250eae0ae75f4fcc429e086fa08e8a3d522
+    sha256: 7b70209632698692a499aaf1e1fe7adac3b85dd9cfa37e3cb8410272004732bc
     approved_at: '2026-09-16T17:09:56.961975+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-vane-attempt-002-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-vane.webp
+    sha256: 60bc1e758ad72a4fe6712a0ca2595250eae0ae75f4fcc429e086fa08e8a3d522
+    previous_lock:
+      sha256: 60bc1e758ad72a4fe6712a0ca2595250eae0ae75f4fcc429e086fa08e8a3d522
+      approved_at: '2026-09-16T17:09:56.961975+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-vane-attempt-002-final.yaml
 - id: npc-sabbatini
   name: npc-sabbatini
   category: npc
@@ -264,14 +285,24 @@ assets:
     - Silver-haired heavy-jawed cardinal in red-piped cassock, scarlet fascia and gold ring; hand rests over dossier
       beside green banker lamp. Faded two-line label follows dossier surface and remains readable. Full portrait
       inspected.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-sabbatini-attempt-001-final.yaml
-    image_sha256: dd85f9614eaf2f73c6ee1e9ae3e4ee09626e30bf10595a9f024da1286b8afbc5
+    image_sha256: cdc719dd3a38c33d121f519506a3499f7422bc48c8b222c73676e91f397d0d91
     final_pass: true
   lock:
-    sha256: dd85f9614eaf2f73c6ee1e9ae3e4ee09626e30bf10595a9f024da1286b8afbc5
+    sha256: cdc719dd3a38c33d121f519506a3499f7422bc48c8b222c73676e91f397d0d91
     approved_at: '2026-09-16T19:40:43.192188+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-sabbatini-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-sabbatini.webp
+    sha256: dd85f9614eaf2f73c6ee1e9ae3e4ee09626e30bf10595a9f024da1286b8afbc5
+    previous_lock:
+      sha256: dd85f9614eaf2f73c6ee1e9ae3e4ee09626e30bf10595a9f024da1286b8afbc5
+      approved_at: '2026-09-16T19:40:43.192188+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-sabbatini-attempt-001-final.yaml
 - id: npc-graf
   name: npc-graf
   category: npc
@@ -325,14 +356,24 @@ assets:
     notes:
     - Exhausted blonde doctor, glasses in hair, white coat and blue scrubs holding slide box in damaged ward. Handwritten
       uneven label sits within paper and avoids fingers. Both hands and face coherent.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-graf-attempt-001-final.yaml
-    image_sha256: af19a3b6c73fb24091191258d55a653deb733d823dd51986c407281e9e7f2c95
+    image_sha256: c187628f6560e631d89a3952dd09cacac8c797c743e77bbeaa751d60857bb835
     final_pass: true
   lock:
-    sha256: af19a3b6c73fb24091191258d55a653deb733d823dd51986c407281e9e7f2c95
+    sha256: c187628f6560e631d89a3952dd09cacac8c797c743e77bbeaa751d60857bb835
     approved_at: '2026-09-16T19:40:44.172276+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-graf-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-graf.webp
+    sha256: af19a3b6c73fb24091191258d55a653deb733d823dd51986c407281e9e7f2c95
+    previous_lock:
+      sha256: af19a3b6c73fb24091191258d55a653deb733d823dd51986c407281e9e7f2c95
+      approved_at: '2026-09-16T19:40:44.172276+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-graf-attempt-001-final.yaml
 - id: npc-hausmann
   name: npc-hausmann
   category: npc
@@ -384,14 +425,24 @@ assets:
     - Gaunt older man with thinning patchy grey hair, grey mottled skin, black pupils, small dry dark lip/fingertip
       stains, filthy tailored suit, crouched by clinic door sliver. Gold wristwatch on left wrist, natural five-finger
       hands. 4:5; no graphic wound or modern object.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-hausmann-attempt-002-final.yaml
-    image_sha256: e98ac3897f35154ee076fa4d7891ddacfab168a92f23a0a8d60b398855d1ac1d
+    image_sha256: d4691543f733e38092b786747fc7f78a188966931fa1e4b897dad5f9ea599f60
     final_pass: true
   lock:
-    sha256: f0df09ee10d10ae9c15cc5e693b773244ac4e96b5544d33ff439f51a6f6d447c
+    sha256: d4691543f733e38092b786747fc7f78a188966931fa1e4b897dad5f9ea599f60
     approved_at: '2026-09-16T19:23:58.773335+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-hausmann-attempt-002-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-hausmann.webp
+    sha256: f0df09ee10d10ae9c15cc5e693b773244ac4e96b5544d33ff439f51a6f6d447c
+    previous_lock:
+      sha256: f0df09ee10d10ae9c15cc5e693b773244ac4e96b5544d33ff439f51a6f6d447c
+      approved_at: '2026-09-16T19:23:58.773335+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-hausmann-attempt-002-final.yaml
 - id: npc-basarab-elder
   name: npc-basarab-elder
   category: npc
@@ -452,14 +503,24 @@ assets:
     - Older aquiline aristocrat, swept grey-white hair, high-collared black wool coat over brown fur collar, patient
       glance, hands clasped behind back visible at hip. Candle-lit stone cellar, gold dragon-wolf ring matching
       reference, 4:5; coherent anatomy.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-basarab-elder-attempt-001-final.yaml
-    image_sha256: ab48fe9c471470043715942401455171fe89730c2588fb7e2ed21da2ce2604c7
+    image_sha256: 651906160e4871eb0d234bd75fdd92807a13f5228abfc15f11b1c2ffe22760cb
     final_pass: true
   lock:
-    sha256: 5475aa88b9310e6c77eea86e99009bc71ae7fd19e46c24afb9c61cd8c52523cb
+    sha256: 651906160e4871eb0d234bd75fdd92807a13f5228abfc15f11b1c2ffe22760cb
     approved_at: '2026-09-16T19:23:59.722146+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-basarab-elder-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-basarab-elder.webp
+    sha256: 5475aa88b9310e6c77eea86e99009bc71ae7fd19e46c24afb9c61cd8c52523cb
+    previous_lock:
+      sha256: 5475aa88b9310e6c77eea86e99009bc71ae7fd19e46c24afb9c61cd8c52523cb
+      approved_at: '2026-09-16T19:23:59.722146+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-basarab-elder-attempt-001-final.yaml
 - id: npc-ghiberti
   name: npc-ghiberti
   category: npc
@@ -508,14 +569,24 @@ assets:
     - Thin nervous priest with taped wire-glass hinge, dusty cassock/cardigan, folder against chest, hand at open
       mahogany drawer. Torn triangular index-card corner visible by hem on floor. Overhead lamp, 4:5, plausible
       anatomy and period archive.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-ghiberti-attempt-001-final.yaml
-    image_sha256: a97290518618b480536479b12f340703818e5efff8687dc2ddadebe64330a337
+    image_sha256: 018ffa78df568ea13ad92bf353eb9160cb5c2b0c80ce6076db7227265b16f4dd
     final_pass: true
   lock:
-    sha256: ed8bc65a4990ab73bd6bc00229c29a809e9c252f447d9e93ecf3e31519e0adde
+    sha256: 018ffa78df568ea13ad92bf353eb9160cb5c2b0c80ce6076db7227265b16f4dd
     approved_at: '2026-09-16T19:23:57.774152+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-ghiberti-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-ghiberti.webp
+    sha256: ed8bc65a4990ab73bd6bc00229c29a809e9c252f447d9e93ecf3e31519e0adde
+    previous_lock:
+      sha256: ed8bc65a4990ab73bd6bc00229c29a809e9c252f447d9e93ecf3e31519e0adde
+      approved_at: '2026-09-16T19:23:57.774152+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-ghiberti-attempt-001-final.yaml
 - id: npc-mercier
   name: npc-mercier
   category: npc
@@ -567,14 +638,24 @@ assets:
     notes:
     - Sweating thin banker in charcoal three-piece suit with gold watch, documents and wood booth. Small carbon
       copy emerges from breast pocket; faded exact line follows paper angle without crossing coat or pocket edge.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-mercier-attempt-001-final.yaml
-    image_sha256: ba1e1f711c9f431d657130d9602040c350951fc1113365949739beb39d33129e
+    image_sha256: 78ee196c3a7ab4a8d3ee10c54bb54a1521dc0ed5a27b4318b07c6aaed9cb3107
     final_pass: true
   lock:
-    sha256: ba1e1f711c9f431d657130d9602040c350951fc1113365949739beb39d33129e
+    sha256: 78ee196c3a7ab4a8d3ee10c54bb54a1521dc0ed5a27b4318b07c6aaed9cb3107
     approved_at: '2026-09-16T19:40:48.848633+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-mercier-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-mercier.webp
+    sha256: ba1e1f711c9f431d657130d9602040c350951fc1113365949739beb39d33129e
+    previous_lock:
+      sha256: ba1e1f711c9f431d657130d9602040c350951fc1113365949739beb39d33129e
+      approved_at: '2026-09-16T19:40:48.848633+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-mercier-attempt-001-final.yaml
 - id: npc-entita-operative
   name: npc-entita-operative
   category: npc
@@ -626,14 +707,24 @@ assets:
     - 'Single vertical grainy period portrait: cropped dark hair, impassive military face, grey wool coat over olive
       vest and coherent clasped black gloves in sconce-lit corridor. Black cylinder, red band and clip match the
       viewed prop reference. No extraneous clue text or duplicated anatomy.'
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-entita-operative-attempt-001-final.yaml
-    image_sha256: ae3ef244f0c343fac5da7a544b235142e91031e8baefe64399d579f8f2ac2259
+    image_sha256: 2fd9d13c0645d44ca3f7bef9424b28b23a233250849a8297264aa8681ea92e3d
     final_pass: true
   lock:
-    sha256: d37baf8771e34df4c34fc0e117ecbf96c68db7a984c30a6c10a585a1187719c0
+    sha256: 2fd9d13c0645d44ca3f7bef9424b28b23a233250849a8297264aa8681ea92e3d
     approved_at: '2026-09-16T19:40:41.226840+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-entita-operative-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-entita-operative.webp
+    sha256: d37baf8771e34df4c34fc0e117ecbf96c68db7a984c30a6c10a585a1187719c0
+    previous_lock:
+      sha256: d37baf8771e34df4c34fc0e117ecbf96c68db7a984c30a6c10a585a1187719c0
+      approved_at: '2026-09-16T19:40:41.226840+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-entita-operative-attempt-001-final.yaml
 - id: npc-basarab-operative
   name: npc-basarab-operative
   category: npc
@@ -682,14 +773,24 @@ assets:
     - 'Single candlelit portrait of pale androgynous operative with collar-length black hair and high black coat.
       Viewed full image and enlarged glove: exactly index and middle fingers exposed on anatomical right hand; thumb
       and remaining fingers covered after documented tiny manual correction. Other glove intact.'
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-basarab-operative-attempt-002-final.yaml
-    image_sha256: eaa38dac1c0d468da8179f6a8bbf8030353452a8b541950b58eb846befc239cf
+    image_sha256: 401b95522685299fbf6306cf7d53e65a4e90cf9003a3c1f28b079119b80fe379
     final_pass: true
   lock:
-    sha256: 2d7b11c318e6f58749bb3450073d77f1061a518782b78ee8b39059075eafb95d
+    sha256: 401b95522685299fbf6306cf7d53e65a4e90cf9003a3c1f28b079119b80fe379
     approved_at: '2026-09-16T19:40:42.210023+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-basarab-operative-attempt-002-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-basarab-operative.webp
+    sha256: 2d7b11c318e6f58749bb3450073d77f1061a518782b78ee8b39059075eafb95d
+    previous_lock:
+      sha256: 2d7b11c318e6f58749bb3450073d77f1061a518782b78ee8b39059075eafb95d
+      approved_at: '2026-09-16T19:40:42.210023+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-basarab-operative-attempt-002-final.yaml
 - id: npc-feral-ghoul
   name: npc-feral-ghoul
   category: npc
@@ -738,14 +839,24 @@ assets:
     notes:
     - Single flash-lit mortuary figure lunging from open alcove; leathery grey skin and clouded eyes. Wrist tag
       and bracelet remain attached and visible. Rotated two-line type stays inside tag edges.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-feral-ghoul-attempt-001-final.yaml
-    image_sha256: 2eab78086b210d07074fc3f6342384c51f66fe8dbc2d4a068d198ad5ccba8b2d
+    image_sha256: ac1efb5f91e2e071607092870a418ee401413d3470bc0eab3c33940b18569b9f
     final_pass: true
   lock:
-    sha256: 2eab78086b210d07074fc3f6342384c51f66fe8dbc2d4a068d198ad5ccba8b2d
+    sha256: ac1efb5f91e2e071607092870a418ee401413d3470bc0eab3c33940b18569b9f
     approved_at: '2026-09-16T19:40:45.078568+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-feral-ghoul-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-feral-ghoul.webp
+    sha256: 2eab78086b210d07074fc3f6342384c51f66fe8dbc2d4a068d198ad5ccba8b2d
+    previous_lock:
+      sha256: 2eab78086b210d07074fc3f6342384c51f66fe8dbc2d4a068d198ad5ccba8b2d
+      approved_at: '2026-09-16T19:40:45.078568+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-feral-ghoul-attempt-001-final.yaml
 - id: npc-gendarme-officer
   name: npc-gendarme-officer
   category: npc
@@ -795,14 +906,24 @@ assets:
     - Weary navy-uniformed gate officer with white gloves, brass buttons and open paper log in daylight gatehouse.
       Faint prior writing and lower 04:02 entry are visible; lettering follows page angle. Exact time is readable,
       while surrounding incidental log writing is indistinct.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-gendarme-officer-attempt-001-final.yaml
-    image_sha256: 2ce89957cec22f9623429d99421ee890942e087dd9f99181a0a8b016f36a4c98
+    image_sha256: 4949b453631541f51968cf919d88b70ff9245ddb272f8e4bde46ddb6fd17c0b4
     final_pass: true
   lock:
-    sha256: 2ce89957cec22f9623429d99421ee890942e087dd9f99181a0a8b016f36a4c98
+    sha256: 4949b453631541f51968cf919d88b70ff9245ddb272f8e4bde46ddb6fd17c0b4
     approved_at: '2026-09-16T19:40:46.025576+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-gendarme-officer-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-gendarme-officer.webp
+    sha256: 2ce89957cec22f9623429d99421ee890942e087dd9f99181a0a8b016f36a4c98
+    previous_lock:
+      sha256: 2ce89957cec22f9623429d99421ee890942e087dd9f99181a0a8b016f36a4c98
+      approved_at: '2026-09-16T19:40:46.025576+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-gendarme-officer-attempt-001-final.yaml
 - id: npc-logistics-officer
   name: npc-logistics-officer
   category: npc
@@ -854,14 +975,24 @@ assets:
     - Grey-haired woman in field jacket with thermos and clipboard, period telephone and crates behind. Three red
       circles on foreground folded map contain legible small Geneva, Zurich, Turin labels, with paper texture visible
       through type.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-logistics-officer-attempt-001-final.yaml
-    image_sha256: 1bb781aff1e6d111b8e2ead2aa0d2442713c37be94eb2a380341e4dba5795b13
+    image_sha256: bd26f8505222370fd4ff9f5191cfa3aedbf7e4c5c504e4c6f049255290f89ef6
     final_pass: true
   lock:
-    sha256: 1bb781aff1e6d111b8e2ead2aa0d2442713c37be94eb2a380341e4dba5795b13
+    sha256: bd26f8505222370fd4ff9f5191cfa3aedbf7e4c5c504e4c6f049255290f89ef6
     approved_at: '2026-09-16T19:40:46.935905+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-logistics-officer-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-logistics-officer.webp
+    sha256: 1bb781aff1e6d111b8e2ead2aa0d2442713c37be94eb2a380341e4dba5795b13
+    previous_lock:
+      sha256: 1bb781aff1e6d111b8e2ead2aa0d2442713c37be94eb2a380341e4dba5795b13
+      approved_at: '2026-09-16T19:40:46.935905+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-logistics-officer-attempt-001-final.yaml
 - id: npc-wayfinder-analyst
   name: npc-wayfinder-analyst
   category: npc
@@ -911,14 +1042,24 @@ assets:
     - Older analyst with glasses, loose tie and headphones at neck amid CRT signals and reel machines. Foreground
       desk printout has perspective-matched clue line with additional optical softness matching foreground camera
       focus; readable at full resolution.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-wayfinder-analyst-attempt-001-final.yaml
-    image_sha256: 9953b69fed35db116483c6721f541020a3b60662d14f771f1adcc88d01642ee7
+    image_sha256: 76ddcbeb9000645a8390aa5a44902283131e0f50d5fb6bf36a3bd06e9441eb19
     final_pass: true
   lock:
-    sha256: 9953b69fed35db116483c6721f541020a3b60662d14f771f1adcc88d01642ee7
+    sha256: 76ddcbeb9000645a8390aa5a44902283131e0f50d5fb6bf36a3bd06e9441eb19
     approved_at: '2026-09-16T19:40:47.883193+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-wayfinder-analyst-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-wayfinder-analyst.webp
+    sha256: 9953b69fed35db116483c6721f541020a3b60662d14f771f1adcc88d01642ee7
+    previous_lock:
+      sha256: 9953b69fed35db116483c6721f541020a3b60662d14f771f1adcc88d01642ee7
+      approved_at: '2026-09-16T19:40:47.883193+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-wayfinder-analyst-attempt-001-final.yaml
 - id: npc-turin-intermediary
   name: npc-turin-intermediary
   category: npc
@@ -969,14 +1110,24 @@ assets:
     notes:
     - Grey-haired man turned away in camel coat, patterned silk scarf and leather gloves, lit cigar, rainy skylight
       over industrial works. Small dragon-wolf cufflink visible on white cuff, 4:5, coherent pose and period vehicles.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-turin-intermediary-attempt-001-final.yaml
-    image_sha256: ce64d4aa5dba2a54a543fc3b76296cfe9a4a8a93e057df0aef106df52767f7d0
+    image_sha256: b6e64d9e6068510eb739df9db61f88aac555a6dbf823e9365182fdad22ff34b4
     final_pass: true
   lock:
-    sha256: ea8d33324e2618c8c9f180d0a20314c5d7ac419f1a15c47cf0abc710f69b2f34
+    sha256: b6e64d9e6068510eb739df9db61f88aac555a6dbf823e9365182fdad22ff34b4
     approved_at: '2026-09-16T19:24:00.669803+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-turin-intermediary-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-turin-intermediary.webp
+    sha256: ea8d33324e2618c8c9f180d0a20314c5d7ac419f1a15c47cf0abc710f69b2f34
+    previous_lock:
+      sha256: ea8d33324e2618c8c9f180d0a20314c5d7ac419f1a15c47cf0abc710f69b2f34
+      approved_at: '2026-09-16T19:24:00.669803+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-turin-intermediary-attempt-001-final.yaml
 - id: npc-watcher
   name: npc-watcher
   category: npc
@@ -1027,14 +1178,24 @@ assets:
     notes:
     - Plain middle-aged balding man in grey gabardine raincoat reads folded paper at Roman cafe in overcast light.
       Eye-serpent signet retained, car removed. Natural hands and neutral face, subdued film texture, 4:5.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-watcher-attempt-002-final.yaml
-    image_sha256: dc1204f443b3b457bba431aea569bec200896b91fa1be279e742f9f1ccc89b03
+    image_sha256: 0e033165947eccece87e4e2dc8a20d4fa0a92540de66aca8298f4edd5bf94acd
     final_pass: true
   lock:
-    sha256: a2bde94a660aba0265483835486879d44d329648cd4a70833853894fae373877
+    sha256: 0e033165947eccece87e4e2dc8a20d4fa0a92540de66aca8298f4edd5bf94acd
     approved_at: '2026-09-16T19:29:34.834188+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-watcher-attempt-002-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/npc-watcher.webp
+    sha256: a2bde94a660aba0265483835486879d44d329648cd4a70833853894fae373877
+    previous_lock:
+      sha256: a2bde94a660aba0265483835486879d44d329648cd4a70833853894fae373877
+      approved_at: '2026-09-16T19:29:34.834188+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-watcher-attempt-002-final.yaml
 - id: relic-phials
   name: relic-phials
   category: relic
@@ -1092,14 +1253,24 @@ assets:
     notes:
     - Open steel case has blue velvet rack, red wax sealed Roman-glass phials, incised script, peeled foil and evidence
       ruler. Extra unrelated props removed.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/relic-phials-attempt-002-final.yaml
-    image_sha256: 3f111698fd432cb60a9a5e978ee30ea348985e6aa673b2768ccfb58aa9e722f9
+    image_sha256: 637b1f34c16887696ff42e6a8526b4dd698c60549093ec1772dce44e4f50c114
     final_pass: true
   lock:
-    sha256: 3f111698fd432cb60a9a5e978ee30ea348985e6aa673b2768ccfb58aa9e722f9
+    sha256: 637b1f34c16887696ff42e6a8526b4dd698c60549093ec1772dce44e4f50c114
     approved_at: '2026-09-17T19:50:26.114560+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/relic-phials-attempt-002-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/relic-phials.webp
+    sha256: 3f111698fd432cb60a9a5e978ee30ea348985e6aa673b2768ccfb58aa9e722f9
+    previous_lock:
+      sha256: 3f111698fd432cb60a9a5e978ee30ea348985e6aa673b2768ccfb58aa9e722f9
+      approved_at: '2026-09-17T19:50:26.114560+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/relic-phials-attempt-002-final.yaml
 - id: relic-lodestone
   name: relic-lodestone
   category: relic
@@ -1147,14 +1318,16 @@ assets:
     notes:
     - Thumb-sized black nodule banded with tarnished silver on black velvet, powdery yellow residue and naturally
       typed archival tag SUPPRESSED — SJ-01.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/relic-lodestone-attempt-002-final.yaml
-    image_sha256: 7a70e434e67f26c9ee953a7cfb175eab672b6d454f3f6e56a96307d71f194afb
+    image_sha256: 7582ab11d949ef9e197e0b2f8b8deb119e766bacd1752afafbd41f3d5f95f026
     final_pass: true
   lock:
-    sha256: 7a70e434e67f26c9ee953a7cfb175eab672b6d454f3f6e56a96307d71f194afb
+    sha256: 7582ab11d949ef9e197e0b2f8b8deb119e766bacd1752afafbd41f3d5f95f026
     approved_at: '2026-09-17T20:10:09.917012+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/relic-lodestone-attempt-002-final.yaml
+    encoding: WebP quality 85, original dimensions
   source_resolutions:
   - asset: relic-lodestone
     reviewer: User
@@ -1165,6 +1338,14 @@ assets:
     original_requirements:
     - Suppressed shelf-mark wording is not specified. Resolve before compositing tag.
     at: '2026-09-17T19:56:33.658593+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/relic-lodestone.webp
+    sha256: 7a70e434e67f26c9ee953a7cfb175eab672b6d454f3f6e56a96307d71f194afb
+    previous_lock:
+      sha256: 7a70e434e67f26c9ee953a7cfb175eab672b6d454f3f6e56a96307d71f194afb
+      approved_at: '2026-09-17T20:10:09.917012+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/relic-lodestone-attempt-002-final.yaml
 - id: relic-veronica
   name: relic-veronica
   category: relic
@@ -1213,14 +1394,24 @@ assets:
     status: APPROVED
     notes:
     - Plain needle and pale ochre linen thread beside wooden rosary on dark linen in cold close light.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/relic-veronica-attempt-001-final.yaml
-    image_sha256: e735f84a8778849dc56a8b9703e4301581aeca583203a937c3fc7d8ff2b9e761
+    image_sha256: ad81446bd204abf65d30099c082cc1e6327f1dc1c5a90d9a2dbfe99fbcd9264a
     final_pass: true
   lock:
-    sha256: 34bc7aa61571c797eca4d879eec25d4c7e488ee8f8d02e9240bc4d8cc49faa8f
+    sha256: ad81446bd204abf65d30099c082cc1e6327f1dc1c5a90d9a2dbfe99fbcd9264a
     approved_at: '2026-09-17T19:50:27.065992+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/relic-veronica-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/relic-veronica.webp
+    sha256: 34bc7aa61571c797eca4d879eec25d4c7e488ee8f8d02e9240bc4d8cc49faa8f
+    previous_lock:
+      sha256: 34bc7aa61571c797eca4d879eec25d4c7e488ee8f8d02e9240bc4d8cc49faa8f
+      approved_at: '2026-09-17T19:50:27.065992+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/relic-veronica-attempt-001-final.yaml
 - id: R01
   name: 'CCTV Reel #87-04'
   category: intel
@@ -1304,15 +1495,17 @@ assets:
     working_sha256: 8745d40e488a24cb59cf1f403892cfc5be681f733dc24ab119e7235df6e42ec2
   qa:
     status: APPROVED
-    notes: []
+    notes:
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R01-attempt-004-final.yaml
-    image_sha256: 8745d40e488a24cb59cf1f403892cfc5be681f733dc24ab119e7235df6e42ec2
+    image_sha256: 1bc96b25f8a7eead60da6005194665bbb8e385f4ac70bd2ff1128cd60b7888b4
     final_pass: true
   lock:
-    sha256: 8745d40e488a24cb59cf1f403892cfc5be681f733dc24ab119e7235df6e42ec2
+    sha256: 1bc96b25f8a7eead60da6005194665bbb8e385f4ac70bd2ff1128cd60b7888b4
     approved_at: '2026-09-16T17:57:54.292990+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R01-attempt-004-final.yaml
+    encoding: WebP quality 85, original dimensions
   reference_text_design_only:
   - SANGREAL
   - EC 30 (Romulus) — Roma Termini → Genève Cornavin
@@ -1320,6 +1513,14 @@ assets:
   - at: '2026-09-16T17:47:27.977660+00:00'
     authorization: 'User: ok continue, following proposed localized R01 correction.'
     strategy: Localized pocket correction only; no relaxation of Eggs or automatic full regeneration.
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i02-cctv-porta-santanna-0314.webp
+    sha256: 8745d40e488a24cb59cf1f403892cfc5be681f733dc24ab119e7235df6e42ec2
+    previous_lock:
+      sha256: 8745d40e488a24cb59cf1f403892cfc5be681f733dc24ab119e7235df6e42ec2
+      approved_at: '2026-09-16T17:57:54.292990+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R01-attempt-004-final.yaml
 - id: R02
   name: Second Descent
   category: intel
@@ -1388,14 +1589,24 @@ assets:
     notes:
     - Final full image and clue surfaces visually inspected. Composition, reference identity, period props and photographic
       medium retained. Eye signet remains visible on rail hand. Down arrow and low platform indicator remain visible.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R02-attempt-001-final.yaml
-    image_sha256: 050da88e5eff05c113ccc9e99a892f606a7577a058836c6e740a01a71d85253f
+    image_sha256: 6989a69769451ba8eebf9fb3f2daa3fdf8aab6b358cd5f3e3fb23a4b69bd5fae
     final_pass: true
   lock:
-    sha256: 050da88e5eff05c113ccc9e99a892f606a7577a058836c6e740a01a71d85253f
+    sha256: 6989a69769451ba8eebf9fb3f2daa3fdf8aab6b358cd5f3e3fb23a4b69bd5fae
     approved_at: '2026-09-16T21:23:11.278337+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R02-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i18-cctv-second-descent-0402.webp
+    sha256: 050da88e5eff05c113ccc9e99a892f606a7577a058836c6e740a01a71d85253f
+    previous_lock:
+      sha256: 050da88e5eff05c113ccc9e99a892f606a7577a058836c6e740a01a71d85253f
+      approved_at: '2026-09-16T21:23:11.278337+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R02-attempt-001-final.yaml
 - id: R03
   name: The Burnt Electromagnet Relay
   category: intel
@@ -1454,15 +1665,25 @@ assets:
     working_sha256: a3b67b13a5d63b9d793f4b6c5a472a518ddfa66622f62f1ff0e292dc5e64e628
   qa:
     status: APPROVED
-    notes: []
+    notes:
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R03-attempt-001-final.yaml
-    image_sha256: a3b67b13a5d63b9d793f4b6c5a472a518ddfa66622f62f1ff0e292dc5e64e628
+    image_sha256: 3561ac1d4f1a138d81012ce44295ce3fe10abc50a186d1f6faa762cfc8c60532
     final_pass: true
   lock:
-    sha256: 5cb93d089f14e3def602bb7275cad7c06615c8208b284748ec088e208ea1a945
+    sha256: 3561ac1d4f1a138d81012ce44295ce3fe10abc50a186d1f6faa762cfc8c60532
     approved_at: '2026-09-16T17:09:53.614888+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R03-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i01-vault-altar-forensic.webp
+    sha256: 5cb93d089f14e3def602bb7275cad7c06615c8208b284748ec088e208ea1a945
+    previous_lock:
+      sha256: 5cb93d089f14e3def602bb7275cad7c06615c8208b284748ec088e208ea1a945
+      approved_at: '2026-09-16T17:09:53.614888+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R03-attempt-001-final.yaml
 - id: R04
   name: The Name Below the Plinth
   category: intel
@@ -1531,14 +1752,24 @@ assets:
     - Final full image and clue surfaces visually inspected. Composition, reference identity, period props and photographic
       medium retained. Case-shaped scratch outline remains on empty plinth. Grey foil pinched under lower plaque
       screw.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R04-attempt-001-final.yaml
-    image_sha256: 5b3e5ce81e439a85d05ac4364976885ef8f37729a0dca6ca8b5a1e30b89c0cf2
+    image_sha256: a76eb5c9363ec3436a59d4257ccb741b6564859c0d0fcb7fca30ca25db72a80c
     final_pass: true
   lock:
-    sha256: 5b3e5ce81e439a85d05ac4364976885ef8f37729a0dca6ca8b5a1e30b89c0cf2
+    sha256: a76eb5c9363ec3436a59d4257ccb741b6564859c0d0fcb7fca30ca25db72a80c
     approved_at: '2026-09-16T21:23:12.044570+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R04-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i19-plinth-sign-macro.webp
+    sha256: 5b3e5ce81e439a85d05ac4364976885ef8f37729a0dca6ca8b5a1e30b89c0cf2
+    previous_lock:
+      sha256: 5b3e5ce81e439a85d05ac4364976885ef8f37729a0dca6ca8b5a1e30b89c0cf2
+      approved_at: '2026-09-16T21:23:12.044570+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R04-attempt-001-final.yaml
 - id: R05
   name: The Excised Codex Register
   category: intel
@@ -1610,14 +1841,24 @@ assets:
     - Final full image and clue surfaces visually inspected. Composition, reference identity, period props and photographic
       medium retained. MS-Vat-Heb-418 read on exposed stub. Red card reads Extractum per Breve Apostolicum — Anno
       Domini 1582 — Ad Capsam XII-SANG-00 in three cursive lines. Clean red card contrasts dusty surrounding cards.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R05-attempt-001-final.yaml
-    image_sha256: 511b7fecffb883d200b768dedd86c8c24b4405bbc310f0d39cf0270af9520aaf
+    image_sha256: f86635217217c28c1233b301de42b28bf7a45606e64483de4ebd916b2f6a50f8
     final_pass: true
   lock:
-    sha256: 511b7fecffb883d200b768dedd86c8c24b4405bbc310f0d39cf0270af9520aaf
+    sha256: f86635217217c28c1233b301de42b28bf7a45606e64483de4ebd916b2f6a50f8
     approved_at: '2026-09-16T21:23:12.960094+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R05-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i03-register-excised-card.webp
+    sha256: 511b7fecffb883d200b768dedd86c8c24b4405bbc310f0d39cf0270af9520aaf
+    previous_lock:
+      sha256: 511b7fecffb883d200b768dedd86c8c24b4405bbc310f0d39cf0270af9520aaf
+      approved_at: '2026-09-16T21:23:12.960094+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R05-attempt-001-final.yaml
 - id: R06
   name: The Polybius Vulgate Cipher
   category: intel
@@ -1668,12 +1909,15 @@ assets:
   exact_text:
   - GENEVA
   - '4409'
-  - IV-I I-V III-II …
+  - II-II I-V III-III I-V IV-V I-I / IV-V I-II IV-III / II-III I-I IV-V IV-III III-II I-I III-III III-III / I-IV
+    I-IV II-V II-IV / I-III
   - Roma Termini
   text_requirements_unresolved: []
   notes:
   - R06 E1 and E3 require canonical exact text already listed; defer these text checks to final composite QA alongside
     E2.
+  - '2026-09-18 user correction supersedes original abbreviated cipher: II-II I-V III-III I-V IV-V I-I / IV-V I-II
+    IV-III / II-III I-I IV-V IV-III III-II I-I III-III III-III / I-IV I-IV II-V II-IV / I-III'
   integration:
     mode: existing_card
     card_id: I-4
@@ -1683,21 +1927,24 @@ assets:
     attempts: 1
     approved_attempt: 1
     prompt_file: art/prompts/R06.md
-    working_image: art/composite/revisions/R06-hand-incised-v2.webp
-    working_sha256: e9a55da450e695ac7109b8b08cb0fc539df29e66561d33abf62fe2559112e433
+    working_image: art/composite/revisions/R06-corrected-cipher-20260918.webp
+    working_sha256: 8ab470ff4009254dc6b903fbfcfd03aad33f7087d6b7217f69e485c3cf15b73d
   qa:
     status: APPROVED
     notes:
-    - 'Bruce: ‘i love the revision, keep it and I approve the others as well’.'
-    report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R06-hand-incised-v2-final.yaml
-    image_sha256: e9a55da450e695ac7109b8b08cb0fc539df29e66561d33abf62fe2559112e433
+    - User supplied corrected cipher; all 22 numeral pairs and four slash separators visually checked in seven lines.
+    - Built-in ImageGen edit; original preserved. Game content files untouched.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
+    report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R06-corrected-cipher-20260918.yaml
+    image_sha256: 8fed961406104e398333772f6c8b1d303405987e7a11b08961aa6a810082d399
     final_pass: true
   lock:
-    sha256: e9a55da450e695ac7109b8b08cb0fc539df29e66561d33abf62fe2559112e433
-    approved_at: '2026-09-16T21:46:11.062988+00:00'
-    reviewer: Bruce
-    final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R06-hand-incised-v2-final.yaml
-    revision: hand-incised-v2
+    sha256: 8fed961406104e398333772f6c8b1d303405987e7a11b08961aa6a810082d399
+    approved_at: '2026-09-18T16:28:15.421639+00:00'
+    reviewer: Codex visual QA; user-requested cipher correction
+    final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R06-corrected-cipher-20260918.yaml
+    revision: R06-corrected-cipher-20260918
+    encoding: WebP quality 85, original dimensions
   approved_history:
   - image: art/work/approved-history/R06/before-hand-incised-v2.webp
     lock:
@@ -1715,6 +1962,21 @@ assets:
       image_sha256: e188ad3edea0a76a429063dc7b869b61078cac9a7f3a17160f487a623c49b821
       final_pass: true
     superseded_at: '2026-09-16T21:46:11.057524+00:00'
+  - image: art/work/approved-history/R06/before-cipher-correction-20260918.webp
+    lock:
+      sha256: e9a55da450e695ac7109b8b08cb0fc539df29e66561d33abf62fe2559112e433
+      approved_at: '2026-09-16T21:46:11.062988+00:00'
+      reviewer: Bruce
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R06-hand-incised-v2-final.yaml
+      revision: hand-incised-v2
+    qa:
+      status: APPROVED
+      notes:
+      - 'Bruce: ‘i love the revision, keep it and I approve the others as well’.'
+      report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R06-hand-incised-v2-final.yaml
+      image_sha256: e9a55da450e695ac7109b8b08cb0fc539df29e66561d33abf62fe2559112e433
+      final_pass: true
+    superseded_at: '2026-09-18T16:28:15.419982+00:00'
   revisions:
   - id: hand-incised-v2
     image: art/composite/revisions/R06-hand-incised-v2.webp
@@ -1725,6 +1987,24 @@ assets:
     reviewer: Bruce
     evidence: i love the revision, keep it and I approve the others as well
     promoted_at: '2026-09-16T21:46:11.058411+00:00'
+  - id: R06-corrected-cipher-20260918
+    image: art/composite/revisions/R06-corrected-cipher-20260918.webp
+    sha256: 8ab470ff4009254dc6b903fbfcfd03aad33f7087d6b7217f69e485c3cf15b73d
+    visual_qa: APPROVED
+    qa_report: art/qa/R06-corrected-cipher-20260918.yaml
+    human_review: NOT_REVIEWED
+    reviewer: Codex
+    evidence: User explicitly requested this exact cipher correction.
+    promoted_at: '2026-09-18T16:28:15.421703+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i04-corvi-desk-blotter.webp
+    sha256: 8ab470ff4009254dc6b903fbfcfd03aad33f7087d6b7217f69e485c3cf15b73d
+    previous_lock:
+      sha256: 8ab470ff4009254dc6b903fbfcfd03aad33f7087d6b7217f69e485c3cf15b73d
+      approved_at: '2026-09-18T16:28:15.421639+00:00'
+      reviewer: Codex visual QA; user-requested cipher correction
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R06-corrected-cipher-20260918.yaml
+      revision: R06-corrected-cipher-20260918
 - id: R07
   name: The Clean Drill
   category: intel
@@ -1793,14 +2073,24 @@ assets:
     - Single flash-lit baroque library, open safe behind Saint Sebastian painting, drilled spindle, fine bright
       filings on shelves, searched open drawers with contents retained, two clusters of scuffs on skirting and parquet;
       open compact under desk edge. No people or modern objects.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R07-attempt-001-final.yaml
-    image_sha256: 9f64008faa40a10efaead78b6ea07f80c332c4d759002ca5654e4c7f1f3a2959
+    image_sha256: 28c82ecbccf6fa6d031f93e43a8b6810c20a54031a10eedd251dc11d50e16d05
     final_pass: true
   lock:
-    sha256: 1dfc0b6a033f9fe2ace59be819dd0b999720378c93e5f82c7698891260f50910
+    sha256: 28c82ecbccf6fa6d031f93e43a8b6810c20a54031a10eedd251dc11d50e16d05
     approved_at: '2026-09-16T21:17:35.081073+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R07-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i20-corvi-safe-drilled.webp
+    sha256: 1dfc0b6a033f9fe2ace59be819dd0b999720378c93e5f82c7698891260f50910
+    previous_lock:
+      sha256: 1dfc0b6a033f9fe2ace59be819dd0b999720378c93e5f82c7698891260f50910
+      approved_at: '2026-09-16T21:17:35.081073+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R07-attempt-001-final.yaml
 - id: R08
   name: Diplomatic Passport
   category: intel
@@ -1873,14 +2163,16 @@ assets:
       medium retained. CHIASSO / 06:14 inside admission stamp, two hours after canonical R01 04:14. Original marginal
       handwritten accompagné with existing acute accent preserved, verified enlarged. Present-day Corvi 58, dark
       paired-stripe tie matched to corrected R09 under approved different-session resolution.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R08-attempt-001-final.yaml
-    image_sha256: bb477d7de144dccf3c0d723c59e369e5faebb5fbdc8ba6611720ba091cc7a8c4
+    image_sha256: 2b0b26ff87323c24cd91af1c9707e6413459e2963da22c0e46e3a48aa7c46032
     final_pass: true
   lock:
-    sha256: bb477d7de144dccf3c0d723c59e369e5faebb5fbdc8ba6611720ba091cc7a8c4
+    sha256: 2b0b26ff87323c24cd91af1c9707e6413459e2963da22c0e46e3a48aa7c46032
     approved_at: '2026-09-16T21:23:14.580433+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R08-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
   source_resolutions:
   - asset: R08
     reviewer: Bruce
@@ -1893,6 +2185,14 @@ assets:
     - Passport subject is 58, but Egg 3 says same session/tie as the 1962 photograph of a much younger Corvi. Resolve
       session/age/costume before generation.
     at: '2026-09-16T21:12:23.832156+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i21-corvi-passport.webp
+    sha256: bb477d7de144dccf3c0d723c59e369e5faebb5fbdc8ba6611720ba091cc7a8c4
+    previous_lock:
+      sha256: bb477d7de144dccf3c0d723c59e369e5faebb5fbdc8ba6611720ba091cc7a8c4
+      approved_at: '2026-09-16T21:23:14.580433+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R08-attempt-001-final.yaml
 - id: R09
   name: The Archive, 1962
   category: intel
@@ -1967,14 +2267,16 @@ assets:
     - Final full image and clue surfaces visually inspected. Composition, reference identity, period props and photographic
       medium retained. Older prelate eye-serpent signet visible on card hand. XII-SANG read on folder in neutral
       monochrome surface lettering. Red grease-pencil X crosses prelate face.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R09-attempt-002-final.yaml
-    image_sha256: d00a5b782384a88d80110a64e16b89b541c3cfe87bdf063babd66d685a51afee
+    image_sha256: e776ba401fb2c73129e4bb9827762253f759ff742861d97d23787447f059cf79
     final_pass: true
   lock:
-    sha256: d00a5b782384a88d80110a64e16b89b541c3cfe87bdf063babd66d685a51afee
+    sha256: e776ba401fb2c73129e4bb9827762253f759ff742861d97d23787447f059cf79
     approved_at: '2026-09-16T21:23:15.576821+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R09-attempt-002-final.yaml
+    encoding: WebP quality 85, original dimensions
   source_resolutions:
   - asset: R09
     reviewer: Bruce
@@ -1986,6 +2288,14 @@ assets:
     original_requirements:
     - R08 demands same photo session; V04 calls the older R09 prelate young. Lock archival ages/identity after clarification.
     at: '2026-09-16T21:12:23.839171+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i22-corvi-1962.webp
+    sha256: d00a5b782384a88d80110a64e16b89b541c3cfe87bdf063babd66d685a51afee
+    previous_lock:
+      sha256: d00a5b782384a88d80110a64e16b89b541c3cfe87bdf063babd66d685a51afee
+      approved_at: '2026-09-16T21:23:15.576821+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R09-attempt-002-final.yaml
 - id: R10
   name: The Watcher's Hallmark
   category: intel
@@ -2057,14 +2367,24 @@ assets:
     - Final full image and clue surfaces visually inspected. Composition, reference identity, period props and photographic
       medium retained. Genève, Zürich and Torino circled in pencil, corresponding to Geneva, Zurich, Turin. Second
       faint eye-serpent impression crossed by stitching.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R10-attempt-001-final.yaml
-    image_sha256: 2abf2de0c06d73233638a461b735b162c351063fffd6ca830b7729a234f15e46
+    image_sha256: 809d8077c1b73e312a2177b40e787fa4b7372b1ddf1b9134fc1ebaa5a3e0d64e
     final_pass: true
   lock:
-    sha256: 2abf2de0c06d73233638a461b735b162c351063fffd6ca830b7729a234f15e46
+    sha256: 809d8077c1b73e312a2177b40e787fa4b7372b1ddf1b9134fc1ebaa5a3e0d64e
     approved_at: '2026-09-16T21:23:16.374137+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R10-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i05-map-casing-hallmark.webp
+    sha256: 2abf2de0c06d73233638a461b735b162c351063fffd6ca830b7729a234f15e46
+    previous_lock:
+      sha256: 2abf2de0c06d73233638a461b735b162c351063fffd6ca830b7729a234f15e46
+      approved_at: '2026-09-16T21:23:16.374137+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R10-attempt-001-final.yaml
 - id: G01
   name: Night Deposit
   category: intel
@@ -2163,14 +2483,24 @@ assets:
     - Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
       wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
       label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G01-attempt-001-final.yaml
-    image_sha256: 38c7efe983e53ea71191f21281358b99afdce2683e6918a2ee4ee025ec499152
+    image_sha256: aed92107c6c216fc1d6bf3eb53ddd49fb49807d1158ea0f5295fcc67bd839648
     final_pass: true
   lock:
-    sha256: 38c7efe983e53ea71191f21281358b99afdce2683e6918a2ee4ee025ec499152
+    sha256: aed92107c6c216fc1d6bf3eb53ddd49fb49807d1158ea0f5295fcc67bd839648
     approved_at: '2026-09-17T12:46:59.186672+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G01-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i23-ubs-lobby-cctv.webp
+    sha256: 38c7efe983e53ea71191f21281358b99afdce2683e6918a2ee4ee025ec499152
+    previous_lock:
+      sha256: 38c7efe983e53ea71191f21281358b99afdce2683e6918a2ee4ee025ec499152
+      approved_at: '2026-09-17T12:46:59.186672+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G01-attempt-001-final.yaml
 - id: G02
   name: Bank Staff Record
   category: intel
@@ -2239,14 +2569,24 @@ assets:
     - Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS paperwork,
       carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes with
       broken carbon-transfer edges and variable density.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G02-attempt-001-final.yaml
-    image_sha256: b31ec4b3997a7a175d5d3a01335cf3106aa39367d95c8d6d814df471df0195f9
+    image_sha256: 70932c50896228fb54a3057f118f7b1c76477af097823f7e397ec3d8a302ecf8
     final_pass: true
   lock:
-    sha256: b31ec4b3997a7a175d5d3a01335cf3106aa39367d95c8d6d814df471df0195f9
+    sha256: 70932c50896228fb54a3057f118f7b1c76477af097823f7e397ec3d8a302ecf8
     approved_at: '2026-09-17T12:47:00.129794+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G02-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i24-mercier-staff-id.webp
+    sha256: b31ec4b3997a7a175d5d3a01335cf3106aa39367d95c8d6d814df471df0195f9
+    previous_lock:
+      sha256: b31ec4b3997a7a175d5d3a01335cf3106aa39367d95c8d6d814df471df0195f9
+      approved_at: '2026-09-17T12:47:00.129794+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G02-attempt-001-final.yaml
 - id: G03
   name: The Escrow Transfer Slip
   category: intel
@@ -2327,16 +2667,18 @@ assets:
     working_sha256: f54d6b339a3627ad76dd70f92632d2c241baff2f95223b2b0bea7ba908c92129
   qa:
     status: APPROVED
-    notes: []
+    notes:
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: art/qa/G03-text-v2-final.yaml
-    image_sha256: f54d6b339a3627ad76dd70f92632d2c241baff2f95223b2b0bea7ba908c92129
+    image_sha256: d797dac66365d95bc8f4364cb7c809f704399226753943a194daed480f8f16ea
     final_pass: true
   lock:
-    sha256: f54d6b339a3627ad76dd70f92632d2c241baff2f95223b2b0bea7ba908c92129
+    sha256: d797dac66365d95bc8f4364cb7c809f704399226753943a194daed480f8f16ea
     approved_at: '2026-09-16T18:59:18.387521+00:00'
     reviewer: Bruce
     final_qa: art/qa/G03-text-v2-final.yaml
     revision: text-v2
+    encoding: WebP quality 85, original dimensions
   revisions:
   - id: text-v2
     status: APPROVED
@@ -2363,6 +2705,15 @@ assets:
       image_sha256: b8b66a01ff389ef54c2f70c6624feaf0f92f622cab3af46803df1fd6e8d8a4df
       final_pass: true
     superseded_at: '2026-09-16T18:59:18.386021+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i06-escrow-slip-carbon.webp
+    sha256: f54d6b339a3627ad76dd70f92632d2c241baff2f95223b2b0bea7ba908c92129
+    previous_lock:
+      sha256: f54d6b339a3627ad76dd70f92632d2c241baff2f95223b2b0bea7ba908c92129
+      approved_at: '2026-09-16T18:59:18.387521+00:00'
+      reviewer: Bruce
+      final_qa: art/qa/G03-text-v2-final.yaml
+      revision: text-v2
 - id: G04
   name: The Ledger Page
   category: intel
@@ -2438,14 +2789,24 @@ assets:
     - Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
       4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
       The handwriting is irregular and the correction fluid remains visually dominant.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G04-attempt-001-final.yaml
-    image_sha256: 261f382835007e6d58a654669894f5840f0aa4a428aa99afba8e971d0de7457d
+    image_sha256: fd185a9e12ff9dc77121dcdd05af486a4f114cc6f7c737d7ac24e0cd4b7af555
     final_pass: true
   lock:
-    sha256: 261f382835007e6d58a654669894f5840f0aa4a428aa99afba8e971d0de7457d
+    sha256: fd185a9e12ff9dc77121dcdd05af486a4f114cc6f7c737d7ac24e0cd4b7af555
     approved_at: '2026-09-17T12:47:00.974327+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G04-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i25-locker-ledger-4409c.webp
+    sha256: 261f382835007e6d58a654669894f5840f0aa4a428aa99afba8e971d0de7457d
+    previous_lock:
+      sha256: 261f382835007e6d58a654669894f5840f0aa4a428aa99afba8e971d0de7457d
+      approved_at: '2026-09-17T12:47:00.974327+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G04-attempt-001-final.yaml
 - id: G05
   name: The 06:40 to Geneva
   category: intel
@@ -2531,14 +2892,24 @@ assets:
     - Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal case
       while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling stock
       remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G05-attempt-001-final.yaml
-    image_sha256: 686e43166208dbc7eff9d1ef0e8ef18c5f837379031655458503568c3c60ddec
+    image_sha256: 62a39b2771a9fa9dfdaabb315484721ea74a9b798efa672339a22071a7ed74ab
     final_pass: true
   lock:
-    sha256: 686e43166208dbc7eff9d1ef0e8ef18c5f837379031655458503568c3c60ddec
+    sha256: 62a39b2771a9fa9dfdaabb315484721ea74a9b798efa672339a22071a7ed74ab
     approved_at: '2026-09-17T12:47:01.915446+00:00'
     reviewer: Codex visual inspection
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G05-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i26-cornavin-platform.webp
+    sha256: 686e43166208dbc7eff9d1ef0e8ef18c5f837379031655458503568c3c60ddec
+    previous_lock:
+      sha256: 686e43166208dbc7eff9d1ef0e8ef18c5f837379031655458503568c3c60ddec
+      approved_at: '2026-09-17T12:47:01.915446+00:00'
+      reviewer: Codex visual inspection
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G05-attempt-001-final.yaml
 - id: G06
   name: The Swiss PTT Intercept Tape
   category: intel
@@ -2613,14 +2984,16 @@ assets:
     notes:
     - PTT reel-to-reel tape and transcript on period switchboard desk; physical typewriting and matched calligraphic
       italic annotations follow paper/box surfaces. Invented calendar removed.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G06-attempt-003-final.yaml
-    image_sha256: b833e09de0e98323b61c143979463cc06c5922a52d3c7dac6ea22926963e8840
+    image_sha256: 0a1ba9c82a7f91783133c268a66daa0ed12f33699daeaccd88e050485ba01180
     final_pass: true
   lock:
-    sha256: b833e09de0e98323b61c143979463cc06c5922a52d3c7dac6ea22926963e8840
+    sha256: 0a1ba9c82a7f91783133c268a66daa0ed12f33699daeaccd88e050485ba01180
     approved_at: '2026-09-17T20:10:04.189804+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G06-attempt-003-final.yaml
+    encoding: WebP quality 85, original dimensions
   source_resolutions:
   - asset: G06
     reviewer: User
@@ -2635,6 +3008,14 @@ assets:
     original_requirements:
     - Exact Turin extension number is not specified in the art brief or I-8; supply canonical number before compositing.
     at: '2026-09-17T19:56:33.637732+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i08-wiretap-reel.webp
+    sha256: b833e09de0e98323b61c143979463cc06c5922a52d3c7dac6ea22926963e8840
+    previous_lock:
+      sha256: b833e09de0e98323b61c143979463cc06c5922a52d3c7dac6ea22926963e8840
+      approved_at: '2026-09-17T20:10:04.189804+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G06-attempt-003-final.yaml
 - id: Z01
   name: Intake Photograph, 09-H
   category: intel
@@ -2708,15 +3089,17 @@ assets:
     notes:
     - 'Bruce approved second pass: look sgood continue. Z08 ingredient separators accepted as line breaks rather
       than slashes.'
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: art/qa/Z01-zurich-second-final.yaml
-    image_sha256: 8afcb0398474f9e0e10fc58f81e2415a8485d98d350906840f169335de6989ed
+    image_sha256: ee9234c75771cad300c72b10c18af653eba59c8e09df12a6d8778c0bac6c866f
     final_pass: true
   lock:
-    sha256: 8afcb0398474f9e0e10fc58f81e2415a8485d98d350906840f169335de6989ed
+    sha256: ee9234c75771cad300c72b10c18af653eba59c8e09df12a6d8778c0bac6c866f
     approved_at: '2026-09-17T16:40:35.181592+00:00'
     reviewer: Bruce
     final_qa: art/qa/Z01-zurich-second-final.yaml
     revision: zurich-second-pass
+    encoding: WebP quality 85, original dimensions
   revisions:
   - id: zurich-second-pass
     image: art/composite/revisions/zurich-second-pass/Z01.webp
@@ -2745,6 +3128,15 @@ assets:
       image_sha256: 673daf1b8621738159908a176230b7e53a7ba9e29c7e38dc7ba49b40be9d01fe
       final_pass: true
     superseded_at: '2026-09-17T16:40:34.315695+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i27-hausmann-intake.webp
+    sha256: 8afcb0398474f9e0e10fc58f81e2415a8485d98d350906840f169335de6989ed
+    previous_lock:
+      sha256: 8afcb0398474f9e0e10fc58f81e2415a8485d98d350906840f169335de6989ed
+      approved_at: '2026-09-17T16:40:35.181592+00:00'
+      reviewer: Bruce
+      final_qa: art/qa/Z01-zurich-second-final.yaml
+      revision: zurich-second-pass
 - id: Z02
   name: Photophobia Test 02:40
   category: intel
@@ -2820,15 +3212,17 @@ assets:
     notes:
     - 'Bruce approved second pass: look sgood continue. Z08 ingredient separators accepted as line breaks rather
       than slashes.'
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: art/qa/Z02-zurich-second-final.yaml
-    image_sha256: 3f7c6abd984128c5bfc2fac1fa1718eb087de4649374074afbce740911b5911c
+    image_sha256: de36f278286f315ebf5681488917fca5ee2426958b028b106e7ab36e448e0d1f
     final_pass: true
   lock:
-    sha256: 3f7c6abd984128c5bfc2fac1fa1718eb087de4649374074afbce740911b5911c
+    sha256: de36f278286f315ebf5681488917fca5ee2426958b028b106e7ab36e448e0d1f
     approved_at: '2026-09-17T16:40:36.008399+00:00'
     reviewer: Bruce
     final_qa: art/qa/Z02-zurich-second-final.yaml
     revision: zurich-second-pass
+    encoding: WebP quality 85, original dimensions
   revisions:
   - id: zurich-second-pass
     image: art/composite/revisions/zurich-second-pass/Z02.webp
@@ -2857,6 +3251,15 @@ assets:
       image_sha256: 2fd45473e5e7446404c7e37dfd4f874547f6fba5ea44d485d760bc06265f9dce
       final_pass: true
     superseded_at: '2026-09-17T16:40:35.182833+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i28-hausmann-burns.webp
+    sha256: 3f7c6abd984128c5bfc2fac1fa1718eb087de4649374074afbce740911b5911c
+    previous_lock:
+      sha256: 3f7c6abd984128c5bfc2fac1fa1718eb087de4649374074afbce740911b5911c
+      approved_at: '2026-09-17T16:40:36.008399+00:00'
+      reviewer: Bruce
+      final_qa: art/qa/Z02-zurich-second-final.yaml
+      revision: zurich-second-pass
 - id: Z03
   name: 'Histopathology Log: Marrow Graft'
   category: intel
@@ -2926,15 +3329,17 @@ assets:
     notes:
     - 'Bruce approved second pass: look sgood continue. Z08 ingredient separators accepted as line breaks rather
       than slashes.'
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: art/qa/Z03-zurich-second-final.yaml
-    image_sha256: 8bc461009f51f072dc4a01cdb261606ee440015ed21d7ab09bcc40731e1c6013
+    image_sha256: 8b4a1439452e7eeb5e50fd3cbef987254d69f30a8e37d31da3054ad3b7771c0e
     final_pass: true
   lock:
-    sha256: 8bc461009f51f072dc4a01cdb261606ee440015ed21d7ab09bcc40731e1c6013
+    sha256: 8b4a1439452e7eeb5e50fd3cbef987254d69f30a8e37d31da3054ad3b7771c0e
     approved_at: '2026-09-17T16:40:36.838042+00:00'
     reviewer: Bruce
     final_qa: art/qa/Z03-zurich-second-final.yaml
     revision: zurich-second-pass
+    encoding: WebP quality 85, original dimensions
   revisions:
   - id: text-v2
     status: APPROVED
@@ -2986,6 +3391,15 @@ assets:
       image_sha256: fdd53c00204c042368de644a7f5e09e5f7d10dd2cd917da795ff70d2191e3711
       final_pass: true
     superseded_at: '2026-09-17T16:40:36.010597+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i09-histology-polaroid.webp
+    sha256: 8bc461009f51f072dc4a01cdb261606ee440015ed21d7ab09bcc40731e1c6013
+    previous_lock:
+      sha256: 8bc461009f51f072dc4a01cdb261606ee440015ed21d7ab09bcc40731e1c6013
+      approved_at: '2026-09-17T16:40:36.838042+00:00'
+      reviewer: Bruce
+      final_qa: art/qa/Z03-zurich-second-final.yaml
+      revision: zurich-second-pass
 - id: Z04
   name: The Injection Log
   category: intel
@@ -3055,15 +3469,17 @@ assets:
     notes:
     - 'Bruce approved second pass: look sgood continue. Z08 ingredient separators accepted as line breaks rather
       than slashes.'
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: art/qa/Z04-zurich-second-final.yaml
-    image_sha256: 50da5e2619388307130499c4b2da4a29963a60878a8cfea391e6042ae09a9720
+    image_sha256: a7edaa829466382f42741df2e4003d6ef674f9d87814a235a79914ab65fa4421
     final_pass: true
   lock:
-    sha256: 50da5e2619388307130499c4b2da4a29963a60878a8cfea391e6042ae09a9720
+    sha256: a7edaa829466382f42741df2e4003d6ef674f9d87814a235a79914ab65fa4421
     approved_at: '2026-09-17T16:40:37.689498+00:00'
     reviewer: Bruce
     final_qa: art/qa/Z04-zurich-second-final.yaml
     revision: zurich-second-pass
+    encoding: WebP quality 85, original dimensions
   revisions:
   - id: zurich-second-pass
     image: art/composite/revisions/zurich-second-pass/Z04.webp
@@ -3092,6 +3508,15 @@ assets:
       image_sha256: 8b7e7343623ce1d9f26069f38a150c64ebc5ffc8b3bf6306bf463607625ddda6
       final_pass: true
     superseded_at: '2026-09-17T16:40:36.839371+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i29-injection-log.webp
+    sha256: 50da5e2619388307130499c4b2da4a29963a60878a8cfea391e6042ae09a9720
+    previous_lock:
+      sha256: 50da5e2619388307130499c4b2da4a29963a60878a8cfea391e6042ae09a9720
+      approved_at: '2026-09-17T16:40:37.689498+00:00'
+      reviewer: Bruce
+      final_qa: art/qa/Z04-zurich-second-final.yaml
+      revision: zurich-second-pass
 - id: Z05
   name: Ward 3 — Corridor Camera
   category: intel
@@ -3164,15 +3589,17 @@ assets:
     notes:
     - 'Bruce approved second pass: look sgood continue. Z08 ingredient separators accepted as line breaks rather
       than slashes.'
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: art/qa/Z05-zurich-second-final.yaml
-    image_sha256: 1ee124d7793f5c8b868950ee3106150cdd8efa7336f0eb9d8f4b253fe8f07dca
+    image_sha256: deab8c0f66d9da6b060205020af1547276886b4a75de94edad6fc733837b9a0d
     final_pass: true
   lock:
-    sha256: 1ee124d7793f5c8b868950ee3106150cdd8efa7336f0eb9d8f4b253fe8f07dca
+    sha256: deab8c0f66d9da6b060205020af1547276886b4a75de94edad6fc733837b9a0d
     approved_at: '2026-09-17T16:40:38.536000+00:00'
     reviewer: Bruce
     final_qa: art/qa/Z05-zurich-second-final.yaml
     revision: zurich-second-pass
+    encoding: WebP quality 85, original dimensions
   revisions:
   - id: zurich-second-pass
     image: art/composite/revisions/zurich-second-pass/Z05.webp
@@ -3201,6 +3628,15 @@ assets:
       image_sha256: ac0c9cc136e0c8fe18839c432ba7ca9744ec1b8abed147ec955b1e47e163569f
       final_pass: true
     superseded_at: '2026-09-17T16:40:37.691610+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i30-ward-hallway-cctv.webp
+    sha256: 1ee124d7793f5c8b868950ee3106150cdd8efa7336f0eb9d8f4b253fe8f07dca
+    previous_lock:
+      sha256: 1ee124d7793f5c8b868950ee3106150cdd8efa7336f0eb9d8f4b253fe8f07dca
+      approved_at: '2026-09-17T16:40:38.536000+00:00'
+      reviewer: Bruce
+      final_qa: art/qa/Z05-zurich-second-final.yaml
+      revision: zurich-second-pass
 - id: Z06
   name: Sonnenberg, Observed
   category: intel
@@ -3275,15 +3711,17 @@ assets:
     notes:
     - 'Bruce approved second pass: look sgood continue. Z08 ingredient separators accepted as line breaks rather
       than slashes.'
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: art/qa/Z06-zurich-second-final.yaml
-    image_sha256: 4fe7faaa7a65a9a4e2ccff0026d13cf166516f69f5a1a0c404c5abf2c397a4d0
+    image_sha256: 8191575b9a8e567ce7f4c4d9d97791cd3e8772f01960654fd21b86da0b2c8aa5
     final_pass: true
   lock:
-    sha256: 4fe7faaa7a65a9a4e2ccff0026d13cf166516f69f5a1a0c404c5abf2c397a4d0
+    sha256: 8191575b9a8e567ce7f4c4d9d97791cd3e8772f01960654fd21b86da0b2c8aa5
     approved_at: '2026-09-17T16:40:39.382536+00:00'
     reviewer: Bruce
     final_qa: art/qa/Z06-zurich-second-final.yaml
     revision: zurich-second-pass
+    encoding: WebP quality 85, original dimensions
   revisions:
   - id: zurich-second-pass
     image: art/composite/revisions/zurich-second-pass/Z06.webp
@@ -3312,6 +3750,15 @@ assets:
       image_sha256: 10273759ec57cb3d2fbea1f290c983811f4b35a3a7a10d27b85e6c4b5dfc8827
       final_pass: true
     superseded_at: '2026-09-17T16:40:38.537914+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i31-sonnenberg-stakeout.webp
+    sha256: 4fe7faaa7a65a9a4e2ccff0026d13cf166516f69f5a1a0c404c5abf2c397a4d0
+    previous_lock:
+      sha256: 4fe7faaa7a65a9a4e2ccff0026d13cf166516f69f5a1a0c404c5abf2c397a4d0
+      approved_at: '2026-09-17T16:40:39.382536+00:00'
+      reviewer: Bruce
+      final_qa: art/qa/Z06-zurich-second-final.yaml
+      revision: zurich-second-pass
 - id: Z07
   name: The Resonance Field, CT2
   category: intel
@@ -3384,15 +3831,17 @@ assets:
     notes:
     - 'Bruce approved second pass: look sgood continue. Z08 ingredient separators accepted as line breaks rather
       than slashes.'
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: art/qa/Z07-zurich-second-final.yaml
-    image_sha256: 84859dfe15fdbdcb7e1b3c562846d314f2d3118e72309eb7d364f40839584eb9
+    image_sha256: 759852f86283e5374abf52c0d9d3deb0c0d7c136590bc5ad25521c2835e9b346
     final_pass: true
   lock:
-    sha256: 84859dfe15fdbdcb7e1b3c562846d314f2d3118e72309eb7d364f40839584eb9
+    sha256: 759852f86283e5374abf52c0d9d3deb0c0d7c136590bc5ad25521c2835e9b346
     approved_at: '2026-09-17T16:40:40.206674+00:00'
     reviewer: Bruce
     final_qa: art/qa/Z07-zurich-second-final.yaml
     revision: zurich-second-pass
+    encoding: WebP quality 85, original dimensions
   revisions:
   - id: zurich-second-pass
     image: art/composite/revisions/zurich-second-pass/Z07.webp
@@ -3421,6 +3870,15 @@ assets:
       image_sha256: d4879e7cfd00b9046f448547f7614e4f0888fb8b1112093c19f087266cd24528
       final_pass: true
     superseded_at: '2026-09-17T16:40:39.384590+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i11-resonance-freezer.webp
+    sha256: 84859dfe15fdbdcb7e1b3c562846d314f2d3118e72309eb7d364f40839584eb9
+    previous_lock:
+      sha256: 84859dfe15fdbdcb7e1b3c562846d314f2d3118e72309eb7d364f40839584eb9
+      approved_at: '2026-09-17T16:40:40.206674+00:00'
+      reviewer: Bruce
+      final_qa: art/qa/Z07-zurich-second-final.yaml
+      revision: zurich-second-pass
 - id: Z08
   name: Daylight Test — Combustion
   category: intel
@@ -3491,15 +3949,17 @@ assets:
     notes:
     - 'Bruce approved second pass: look sgood continue. Z08 ingredient separators accepted as line breaks rather
       than slashes.'
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: art/qa/Z08-zurich-second-final.yaml
-    image_sha256: a38d0f4f23182f4011cf586645ad107539683cbbfe530b5a53b545ac4f79f6ff
+    image_sha256: 206de19c1f4408187c2b3826f000a0e0e61821e4f2ebe347819989dbe7703098
     final_pass: true
   lock:
-    sha256: a38d0f4f23182f4011cf586645ad107539683cbbfe530b5a53b545ac4f79f6ff
+    sha256: 206de19c1f4408187c2b3826f000a0e0e61821e4f2ebe347819989dbe7703098
     approved_at: '2026-09-17T16:40:40.973670+00:00'
     reviewer: Bruce
     final_qa: art/qa/Z08-zurich-second-final.yaml
     revision: zurich-second-pass
+    encoding: WebP quality 85, original dimensions
   revisions:
   - id: zurich-second-pass
     image: art/composite/revisions/zurich-second-pass/Z08.webp
@@ -3528,6 +3988,15 @@ assets:
       image_sha256: 9c7e12b6b93f5b4dca0d818296e45580b9e1ee3ba0f09aa16649f8b3600ef461
       final_pass: true
     superseded_at: '2026-09-17T16:40:40.208748+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i32-daylight-test.webp
+    sha256: a38d0f4f23182f4011cf586645ad107539683cbbfe530b5a53b545ac4f79f6ff
+    previous_lock:
+      sha256: a38d0f4f23182f4011cf586645ad107539683cbbfe530b5a53b545ac4f79f6ff
+      approved_at: '2026-09-17T16:40:40.973670+00:00'
+      reviewer: Bruce
+      final_qa: art/qa/Z08-zurich-second-final.yaml
+      revision: zurich-second-pass
 - id: T01
   name: Lingotto, Rooftop, Rain
   category: intel
@@ -3611,16 +4080,18 @@ assets:
     working_sha256: ba615aeb40790d8c740b31f817267f19b4b87efdb1d9905e166a9a450f5d7ff1
   qa:
     status: APPROVED
-    notes: []
+    notes:
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: art/qa/T01-text-v2-final.yaml
-    image_sha256: ba615aeb40790d8c740b31f817267f19b4b87efdb1d9905e166a9a450f5d7ff1
+    image_sha256: 63f305f829f71200fd1d4b802d6d3897c07abb2878a3adbf8892807e6409efba
     final_pass: true
   lock:
-    sha256: ba615aeb40790d8c740b31f817267f19b4b87efdb1d9905e166a9a450f5d7ff1
+    sha256: 63f305f829f71200fd1d4b802d6d3897c07abb2878a3adbf8892807e6409efba
     approved_at: '2026-09-16T18:59:18.388237+00:00'
     reviewer: Bruce
     final_qa: art/qa/T01-text-v2-final.yaml
     revision: text-v2
+    encoding: WebP quality 85, original dimensions
   reference_text_design_only:
   - SANGREAL
   - SCV 47
@@ -3650,6 +4121,15 @@ assets:
       image_sha256: 1d9e9e438fc63e211bfea40aee9a0ce3c6891d3610fa5968fef18caeceecbc28
       final_pass: true
     superseded_at: '2026-09-16T18:59:18.386267+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i33-lingotto-rooftop.webp
+    sha256: ba615aeb40790d8c740b31f817267f19b4b87efdb1d9905e166a9a450f5d7ff1
+    previous_lock:
+      sha256: ba615aeb40790d8c740b31f817267f19b4b87efdb1d9905e166a9a450f5d7ff1
+      approved_at: '2026-09-16T18:59:18.388237+00:00'
+      reviewer: Bruce
+      final_qa: art/qa/T01-text-v2-final.yaml
+      revision: text-v2
 - id: T02
   name: Assembly Hall Camera 6
   category: intel
@@ -3728,14 +4208,24 @@ assets:
     notes:
     - 'Closer 4:3 monochrome factory CCTV view preserves Corvi, reference case and flooded setting. Lock inspected
       enlarged: narrow branching fracture in brass beside tape; steel shell intact.'
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T02-attempt-003-final.yaml
-    image_sha256: d5d40d3942fc46458da964da42daebf9b3b547ae3b4751c226312a8dace2a354
+    image_sha256: 4fd70fb10f655fce34d64425ab16bbde2b478f340504b9f47cf9a47f7dda0d51
     final_pass: true
   lock:
-    sha256: d5d40d3942fc46458da964da42daebf9b3b547ae3b4751c226312a8dace2a354
+    sha256: 4fd70fb10f655fce34d64425ab16bbde2b478f340504b9f47cf9a47f7dda0d51
     approved_at: '2026-09-17T19:50:29.038560+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T02-attempt-003-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i34-lingotto-floor-cctv.webp
+    sha256: d5d40d3942fc46458da964da42daebf9b3b547ae3b4751c226312a8dace2a354
+    previous_lock:
+      sha256: d5d40d3942fc46458da964da42daebf9b3b547ae3b4751c226312a8dace2a354
+      approved_at: '2026-09-17T19:50:29.038560+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T02-attempt-003-final.yaml
 - id: T03
   name: The Ebionite Palimpsest
   category: intel
@@ -3806,14 +4296,24 @@ assets:
     notes:
     - Violet UV and warm fill, layered parchment under glass, aged notebook and spent matchbook. Lettering follows
       material perspective. Capitalized S and line-break hotel punctuation retained as visible typographic variants.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T03-attempt-001-final.yaml
-    image_sha256: 96c7f356ee7104d436c4b916ac5819d133dba6b3da4798ab9df12463bd4485de
+    image_sha256: bfc91d6ff06de143ab3b6fdf85fdba2a94a65fb77cb530bea5b280660b0599f7
     final_pass: true
   lock:
-    sha256: 96c7f356ee7104d436c4b916ac5819d133dba6b3da4798ab9df12463bd4485de
+    sha256: bfc91d6ff06de143ab3b6fdf85fdba2a94a65fb77cb530bea5b280660b0599f7
     approved_at: '2026-09-17T16:54:42.349687+00:00'
     reviewer: Codex visual inspection; user batch review pending
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T03-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i12-palimpsest-uv.webp
+    sha256: 96c7f356ee7104d436c4b916ac5819d133dba6b3da4798ab9df12463bd4485de
+    previous_lock:
+      sha256: 96c7f356ee7104d436c4b916ac5819d133dba6b3da4798ab9df12463bd4485de
+      approved_at: '2026-09-17T16:54:42.349687+00:00'
+      reviewer: Codex visual inspection; user batch review pending
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T03-attempt-001-final.yaml
 - id: T04
   name: Breve Apostolicum, 1582
   category: intel
@@ -3882,14 +4382,24 @@ assets:
     notes:
     - Portrait archival document photograph, absorbed small annotations and aged chancery script, fractured repaired
       hanging seal. Shelf mark capitalization follows the source.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T04-attempt-001-final.yaml
-    image_sha256: 49f48feba87bda2a128308dba513484b477b6ab2f10852b64f4fecc5fa8c5949
+    image_sha256: 6cdcdb6d29685ca2a1c3ca462a15bbb65b6dcf5cf847b6f428f8b28c8e265888
     final_pass: true
   lock:
-    sha256: 49f48feba87bda2a128308dba513484b477b6ab2f10852b64f4fecc5fa8c5949
+    sha256: 6cdcdb6d29685ca2a1c3ca462a15bbb65b6dcf5cf847b6f428f8b28c8e265888
     approved_at: '2026-09-17T16:54:44.113152+00:00'
     reviewer: Codex visual inspection; user batch review pending
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T04-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i35-breve-1582.webp
+    sha256: 49f48feba87bda2a128308dba513484b477b6ab2f10852b64f4fecc5fa8c5949
+    previous_lock:
+      sha256: 49f48feba87bda2a128308dba513484b477b6ab2f10852b64f4fecc5fa8c5949
+      approved_at: '2026-09-17T16:54:44.113152+00:00'
+      reviewer: Codex visual inspection; user batch review pending
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T04-attempt-001-final.yaml
 - id: T05
   name: Suppressed Index Card
   category: intel
@@ -3962,14 +4472,24 @@ assets:
     notes:
     - Aged card with clipped monochrome mineral photo, small physical ruler, porous uneven red stamp and handwriting
       aligned with paper.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T05-attempt-001-final.yaml
-    image_sha256: 8b99d2069fa5a7a1c2c55cbbe09bc5a40e71a5c389385c6835be8ba5f1bb2dce
+    image_sha256: 8975659b31299979ffc9a3111b75dcd98def8b516fdc8535ebb401ce9a9cd7d2
     final_pass: true
   lock:
-    sha256: 8b99d2069fa5a7a1c2c55cbbe09bc5a40e71a5c389385c6835be8ba5f1bb2dce
+    sha256: 8975659b31299979ffc9a3111b75dcd98def8b516fdc8535ebb401ce9a9cd7d2
     approved_at: '2026-09-17T16:54:45.744543+00:00'
     reviewer: Codex visual inspection; user batch review pending
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T05-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i36-lodestone-index.webp
+    sha256: 8b99d2069fa5a7a1c2c55cbbe09bc5a40e71a5c389385c6835be8ba5f1bb2dce
+    previous_lock:
+      sha256: 8b99d2069fa5a7a1c2c55cbbe09bc5a40e71a5c389385c6835be8ba5f1bb2dce
+      approved_at: '2026-09-17T16:54:45.744543+00:00'
+      reviewer: Codex visual inspection; user batch review pending
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T05-attempt-001-final.yaml
 - id: T06
   name: The Empty Needle
   category: intel
@@ -4039,14 +4559,24 @@ assets:
     notes:
     - Macro evidence photograph of cut wooden rosary bead with empty cavity and ochre fibers. Corrected scale unit
       to cm and removed production ID from evidence tag.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T06-attempt-001-final.yaml
-    image_sha256: edf5751c33d7f7487e5615b3607dc0c0b2eabba1f39d0ab09c88ac40014fb268
+    image_sha256: 2a37c119c73d9f3b1ea65632173f5875872bf1d90664ad63793a7ddf5d5c5818
     final_pass: true
   lock:
-    sha256: 2a3e3d84a4066f8d1ff494d323ac460d79a7ca3e908f6c5cd509cc3383f0cd4b
+    sha256: 2a37c119c73d9f3b1ea65632173f5875872bf1d90664ad63793a7ddf5d5c5818
     approved_at: '2026-09-17T16:54:46.672246+00:00'
     reviewer: Codex visual inspection; user batch review pending
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T06-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i37-rosary-open.webp
+    sha256: 2a3e3d84a4066f8d1ff494d323ac460d79a7ca3e908f6c5cd509cc3383f0cd4b
+    previous_lock:
+      sha256: 2a3e3d84a4066f8d1ff494d323ac460d79a7ca3e908f6c5cd509cc3383f0cd4b
+      approved_at: '2026-09-17T16:54:46.672246+00:00'
+      reviewer: Codex visual inspection; user batch review pending
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T06-attempt-001-final.yaml
 - id: N01
   name: The Novara Slaughter
   category: intel
@@ -4128,19 +4658,29 @@ assets:
     notes:
     - User accepted existing abbey evidence photograph as final with frayed strap exception. All other reviewed
       clues preserved.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N01-attempt-001-final.yaml
-    image_sha256: af7f590e737e19b149f6fd20a74d512cf7dc19e8ffb58de561f771034440d1f5
+    image_sha256: 2e5527f5962516afaa4bc847a6e4c8ce1e2b6e73f5fae8ec002fe34f330ef31f
     final_pass: true
   lock:
-    sha256: 9e416237d5d7cb360074b2bae030d8f42de1116c41cb6c9e6a3171cd1cf6f941
+    sha256: 2e5527f5962516afaa4bc847a6e4c8ce1e2b6e73f5fae8ec002fe34f330ef31f
     approved_at: '2026-09-17T19:51:50.482844+00:00'
     reviewer: Codex final visual QA; user accepted documented exception
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N01-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
   accepted_exception:
     at: '2026-09-17T19:51:49.543216+00:00'
     reviewer: User
     evidence: Yes, include it as-is
     scope: Accept slightly frayed strap edge in existing N01 as final; no claim of a successful correction.
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i13-slaughter-hall.webp
+    sha256: 9e416237d5d7cb360074b2bae030d8f42de1116c41cb6c9e6a3171cd1cf6f941
+    previous_lock:
+      sha256: 9e416237d5d7cb360074b2bae030d8f42de1116c41cb6c9e6a3171cd1cf6f941
+      approved_at: '2026-09-17T19:51:50.482844+00:00'
+      reviewer: Codex final visual QA; user accepted documented exception
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N01-attempt-001-final.yaml
 - id: N02
   name: N02
   category: intel
@@ -4210,14 +4750,16 @@ assets:
     - Restrained clinical macro of pale neck with two small elongated dry marks, analog caliper, grey fibers and
       scratched wood. Paper evidence card clearly records approved fictional value 62 mm. Main scale runs in ascending
       tens; photograph is not a precision calibration diagram.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N02-attempt-002-final.yaml
-    image_sha256: d30385b35b61ebf44d78d80cb0d3d907da43aeeaf709d8154b1160e2a966369a
+    image_sha256: 7f6ea5f62f34bbfa1ddd857668941a083ce89d98981b5f74f5f5d61ccace54c7
     final_pass: true
   lock:
-    sha256: d30385b35b61ebf44d78d80cb0d3d907da43aeeaf709d8154b1160e2a966369a
+    sha256: 7f6ea5f62f34bbfa1ddd857668941a083ce89d98981b5f74f5f5d61ccace54c7
     approved_at: '2026-09-17T20:10:06.208844+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N02-attempt-002-final.yaml
+    encoding: WebP quality 85, original dimensions
   source_resolutions:
   - asset: N02
     reviewer: User
@@ -4229,6 +4771,14 @@ assets:
     original_requirements:
     - Caliper readout must be composited but no numeric measurement is specified. Supply canonical value and units.
     at: '2026-09-17T19:56:33.644913+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i13-carotid-detail.webp
+    sha256: d30385b35b61ebf44d78d80cb0d3d907da43aeeaf709d8154b1160e2a966369a
+    previous_lock:
+      sha256: d30385b35b61ebf44d78d80cb0d3d907da43aeeaf709d8154b1160e2a966369a
+      approved_at: '2026-09-17T20:10:06.208844+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N02-attempt-002-final.yaml
 - id: N03
   name: Two Fingers, Calcified
   category: intel
@@ -4299,14 +4849,24 @@ assets:
     notes:
     - Macro photograph shows a fingerprint whorl on calcified material, radial cracks, and a partially melted dragon-wolf
       signet remnant fused into ash on terracotta.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N03-attempt-002-final.yaml
-    image_sha256: f0c5690f55fc8ce18282c46bb71f7600e7dec725051a322571a7913b2c8f7327
+    image_sha256: f60478e82c0c7bf08c41b26848d2d5fdbd2aa0bc70f4165eadec943bf6aac68a
     final_pass: true
   lock:
-    sha256: 5597af2e90543a0e2089c0b0b0f55f9495566863d0640eca6c6daf0a68ae8927
+    sha256: f60478e82c0c7bf08c41b26848d2d5fdbd2aa0bc70f4165eadec943bf6aac68a
     approved_at: '2026-09-17T18:50:16.905710+00:00'
     reviewer: Codex visual inspection; user review pending
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N03-attempt-002-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i38-ash-fingers.webp
+    sha256: 5597af2e90543a0e2089c0b0b0f55f9495566863d0640eca6c6daf0a68ae8927
+    previous_lock:
+      sha256: 5597af2e90543a0e2089c0b0b0f55f9495566863d0640eca6c6daf0a68ae8927
+      approved_at: '2026-09-17T18:50:16.905710+00:00'
+      reviewer: Codex visual inspection; user review pending
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N03-attempt-002-final.yaml
 - id: N04
   name: 'Telex Dispatch: Registry 16'
   category: intel
@@ -4377,14 +4937,24 @@ assets:
     - Curled charred telex with material-following type and a separate wax-paper remnant. Both required messages
       are readable. Perforations are visible; exact correspondence to an Amsterdam machine cannot be authenticated
       without a supplied reference pattern.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N04-attempt-001-final.yaml
-    image_sha256: e922cd761d2a2992b1fa23790689c0a400b0c3540192c8bb8a80b232fdb54417
+    image_sha256: 1cf1aad4bd30fbadb2d12aee7fb8b9345cae81c4095f3f2306ad760016efc764
     final_pass: true
   lock:
-    sha256: e922cd761d2a2992b1fa23790689c0a400b0c3540192c8bb8a80b232fdb54417
+    sha256: 1cf1aad4bd30fbadb2d12aee7fb8b9345cae81c4095f3f2306ad760016efc764
     approved_at: '2026-09-17T18:50:18.404475+00:00'
     reviewer: Codex visual inspection; user review pending
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N04-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i14-telex-strip.webp
+    sha256: e922cd761d2a2992b1fa23790689c0a400b0c3540192c8bb8a80b232fdb54417
+    previous_lock:
+      sha256: e922cd761d2a2992b1fa23790689c0a400b0c3540192c8bb8a80b232fdb54417
+      approved_at: '2026-09-17T18:50:18.404475+00:00'
+      reviewer: Codex visual inspection; user review pending
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N04-attempt-001-final.yaml
 - id: N05
   name: 'Flight Clearance: YR-BAS'
   category: intel
@@ -4460,14 +5030,24 @@ assets:
     - Italian flight-clearance forms on worn dispatch desk; carbon-type owner, cargo, registration and time follow
       paper perspective. Printed dragon-wolf beside owner, pilot signature and faded operations stamp. Second form
       has cancellation stamp.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N05-attempt-002-final.yaml
-    image_sha256: da3c0f3a06ae103e4e61ad79e9ae1fb29679cb8d5a0e9da0aa1ec0f8c859d57f
+    image_sha256: 448d795b5cb6a65a41d1491fba70dc54c3c62b5d6d88e0ae5ba8a7db6caa4588
     final_pass: true
   lock:
-    sha256: da3c0f3a06ae103e4e61ad79e9ae1fb29679cb8d5a0e9da0aa1ec0f8c859d57f
+    sha256: 448d795b5cb6a65a41d1491fba70dc54c3c62b5d6d88e0ae5ba8a7db6caa4588
     approved_at: '2026-09-17T18:50:20.234079+00:00'
     reviewer: Codex visual inspection; user review pending
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N05-attempt-002-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i15-flight-clearance.webp
+    sha256: da3c0f3a06ae103e4e61ad79e9ae1fb29679cb8d5a0e9da0aa1ec0f8c859d57f
+    previous_lock:
+      sha256: da3c0f3a06ae103e4e61ad79e9ae1fb29679cb8d5a0e9da0aa1ec0f8c859d57f
+      approved_at: '2026-09-17T18:50:20.234079+00:00'
+      reviewer: Codex visual inspection; user review pending
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N05-attempt-002-final.yaml
 - id: N06
   name: Tarmac, 01:15
   category: intel
@@ -4544,14 +5124,24 @@ assets:
     - Side-profile nighttime aircraft behind blurred fence, unpowered nose and wing-mounted near engine; far engine
       occluded. Two loaders lift a case into rear cabin while reference Elder faces camera separately. YR-BAS and
       crate crest visible. Propeller appears stationary in the exposure.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N06-attempt-003-final.yaml
-    image_sha256: dfbbba65b57a96e257cdfa6458c72b9cbe2177886a37e5df70a1b526521b3f2f
+    image_sha256: 5f72bc5271c510165ebfe44e30e2f2050fd5ad6295a63f6075fc87d48c77f8d7
     final_pass: true
   lock:
-    sha256: dfbbba65b57a96e257cdfa6458c72b9cbe2177886a37e5df70a1b526521b3f2f
+    sha256: 5f72bc5271c510165ebfe44e30e2f2050fd5ad6295a63f6075fc87d48c77f8d7
     approved_at: '2026-09-17T18:50:22.004572+00:00'
     reviewer: Codex visual inspection; user review pending
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N06-attempt-003-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i39-tarmac-0115.webp
+    sha256: dfbbba65b57a96e257cdfa6458c72b9cbe2177886a37e5df70a1b526521b3f2f
+    previous_lock:
+      sha256: dfbbba65b57a96e257cdfa6458c72b9cbe2177886a37e5df70a1b526521b3f2f
+      approved_at: '2026-09-17T18:50:22.004572+00:00'
+      reviewer: Codex visual inspection; user review pending
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N06-attempt-003-final.yaml
 - id: N07
   name: Her Effects, Laid Out
   category: intel
@@ -4635,14 +5225,16 @@ assets:
     notes:
     - 'Overhead evidence arrangement on grey paper: rosary, compact Beretta, diplomatic papers, transit folio, keys,
       toll stub and Talamasca card; unrequested pass and UBS tag removed.'
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N07-attempt-002-final.yaml
-    image_sha256: 62e17cb89fa647e8296b321cb4a84bea8587cdacbb2439b36f9015fe11f9372b
+    image_sha256: b698e36c50d3cbb4968e2ddcbaf85fd7d210ce3683b4e85db4c9e974330f3dda
     final_pass: true
   lock:
-    sha256: 62e17cb89fa647e8296b321cb4a84bea8587cdacbb2439b36f9015fe11f9372b
+    sha256: b698e36c50d3cbb4968e2ddcbaf85fd7d210ce3683b4e85db4c9e974330f3dda
     approved_at: '2026-09-17T20:10:08.005858+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N07-attempt-002-final.yaml
+    encoding: WebP quality 85, original dimensions
   source_resolutions:
   - asset: N07
     reviewer: User
@@ -4654,6 +5246,14 @@ assets:
     original_requirements:
     - Toll time is ninety minutes before death, but a precise death time is not supplied; resolve exact toll timestamp.
     at: '2026-09-17T19:56:33.651732+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i40-claudia-kit.webp
+    sha256: 62e17cb89fa647e8296b321cb4a84bea8587cdacbb2439b36f9015fe11f9372b
+    previous_lock:
+      sha256: 62e17cb89fa647e8296b321cb4a84bea8587cdacbb2439b36f9015fe11f9372b
+      approved_at: '2026-09-17T20:10:08.005858+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N07-attempt-002-final.yaml
 - id: V01
   name: The Basarab Extortion File
   category: intel
@@ -4729,14 +5329,24 @@ assets:
     notes:
     - Tin dispatch box on floorboards with worn memo, glass paperweight, held registry film and scorched lid motif.
       Memo text follows page perspective.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V01-attempt-001-final.yaml
-    image_sha256: 42e2606f7b69d794edfa31162824d4fa347beae366f5a68621f78f196ae89f0e
+    image_sha256: 079bcea212aaa2985ad5db78b8ef36345e7868f56574dffd093b274322f8170c
     final_pass: true
   lock:
-    sha256: 42e2606f7b69d794edfa31162824d4fa347beae366f5a68621f78f196ae89f0e
+    sha256: 079bcea212aaa2985ad5db78b8ef36345e7868f56574dffd093b274322f8170c
     approved_at: '2026-09-17T19:48:49.223091+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V01-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i17-sabbatini-memo.webp
+    sha256: 42e2606f7b69d794edfa31162824d4fa347beae366f5a68621f78f196ae89f0e
+    previous_lock:
+      sha256: 42e2606f7b69d794edfa31162824d4fa347beae366f5a68621f78f196ae89f0e
+      approved_at: '2026-09-17T19:48:49.223091+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V01-attempt-001-final.yaml
 - id: V02
   name: The Green Lamp
   category: intel
@@ -4812,14 +5422,24 @@ assets:
     notes:
     - Window-framed night surveillance with Sabbatini seated under green lamp and standing operative, plus three
       faint upper-glass figures.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V02-attempt-001-final.yaml
-    image_sha256: fa5c385020b03d539176a108d1fe819c5e7e2e2bd4b14f7de461e2234d1ade94
+    image_sha256: 2db49f423062705a221f948460e401a3ca8a17fd25cde31c573293a2f6b9caa3
     final_pass: true
   lock:
-    sha256: fa5c385020b03d539176a108d1fe819c5e7e2e2bd4b14f7de461e2234d1ade94
+    sha256: 2db49f423062705a221f948460e401a3ca8a17fd25cde31c573293a2f6b9caa3
     approved_at: '2026-09-17T19:48:51.248357+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V02-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i41-council-chamber.webp
+    sha256: fa5c385020b03d539176a108d1fe819c5e7e2e2bd4b14f7de461e2234d1ade94
+    previous_lock:
+      sha256: fa5c385020b03d539176a108d1fe819c5e7e2e2bd4b14f7de461e2234d1ade94
+      approved_at: '2026-09-17T19:48:51.248357+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V02-attempt-001-final.yaml
 - id: V03
   name: L'Entità Team, Surveillance Frame
   category: intel
@@ -4895,21 +5515,59 @@ assets:
     attempts: 2
     approved_attempt: 2
     prompt_file: art/prompts/V03.md
-    working_image: art/composite/V03-attempt-002.webp
-    working_sha256: ea4cc163c6a5c689fabcb03dd99a2ddf1b28521da09b73c0fa1c4edc20fa242f
+    working_image: art/composite/revisions/V03-car-and-pose-corrected-20260918.webp
+    working_sha256: fef5e6cef4f3eac98388d65ea2640304af9e0de18daeb20f7a736a95d03f8c2c
   qa:
     status: APPROVED
     notes:
-    - 'Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia, visible watch
-      and canister.'
-    report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V03-attempt-002-final.yaml
-    image_sha256: ea4cc163c6a5c689fabcb03dd99a2ddf1b28521da09b73c0fa1c4edc20fa242f
+    - Single coherent sedan; SCV 47 plate retained. Wall-crossing operative supported on coping with hands and one
+      leg across. Watch and belt canister retained.
+    - User explicitly requested corrected I42 be included in handoff.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
+    report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V03-car-and-pose-corrected-20260918.yaml
+    image_sha256: c9a0e29d9403094ceef144cc9599247b41b585b91ba5d9772f3ba246bb1e8702
     final_pass: true
   lock:
-    sha256: ea4cc163c6a5c689fabcb03dd99a2ddf1b28521da09b73c0fa1c4edc20fa242f
-    approved_at: '2026-09-17T19:48:53.032585+00:00'
-    reviewer: Codex final visual QA
-    final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V03-attempt-002-final.yaml
+    sha256: c9a0e29d9403094ceef144cc9599247b41b585b91ba5d9772f3ba246bb1e8702
+    approved_at: '2026-09-18T16:30:34.850615+00:00'
+    reviewer: User-directed promotion; Codex visual QA
+    final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V03-car-and-pose-corrected-20260918.yaml
+    revision: V03-car-and-pose-corrected-20260918
+    encoding: WebP quality 85, original dimensions
+  approved_history:
+  - image: art/work/approved-history/V03/before-car-and-pose-correction-20260918.webp
+    lock:
+      sha256: ea4cc163c6a5c689fabcb03dd99a2ddf1b28521da09b73c0fa1c4edc20fa242f
+      approved_at: '2026-09-17T19:48:53.032585+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V03-attempt-002-final.yaml
+    qa:
+      status: APPROVED
+      notes:
+      - 'Neutral monochrome elevated surveillance: three distinct operative poses, reference Lancia, visible watch
+        and canister.'
+      report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V03-attempt-002-final.yaml
+      image_sha256: ea4cc163c6a5c689fabcb03dd99a2ddf1b28521da09b73c0fa1c4edc20fa242f
+      final_pass: true
+    superseded_at: '2026-09-18T16:30:34.803736+00:00'
+  revisions:
+  - id: V03-car-and-pose-corrected-20260918
+    image: art/composite/revisions/V03-car-and-pose-corrected-20260918.webp
+    sha256: fef5e6cef4f3eac98388d65ea2640304af9e0de18daeb20f7a736a95d03f8c2c
+    visual_qa: APPROVED
+    qa_report: art/qa/V03-car-and-pose-corrected-20260918.yaml
+    human_review: User requested handoff update
+    reviewer: Codex
+    promoted_at: '2026-09-18T16:30:34.850689+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i42-entita-team-1987.webp
+    sha256: fef5e6cef4f3eac98388d65ea2640304af9e0de18daeb20f7a736a95d03f8c2c
+    previous_lock:
+      sha256: fef5e6cef4f3eac98388d65ea2640304af9e0de18daeb20f7a736a95d03f8c2c
+      approved_at: '2026-09-18T16:30:34.850615+00:00'
+      reviewer: User-directed promotion; Codex visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V03-car-and-pose-corrected-20260918.yaml
+      revision: V03-car-and-pose-corrected-20260918
 - id: V04
   name: The Case, 1964
   category: intel
@@ -4984,14 +5642,16 @@ assets:
     notes:
     - '1964 monochrome workshop photo: gloved hands line case with foil while older prelate supervises; separate
       brass plaque and pinned order have readable physical lettering.'
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V04-attempt-001-final.yaml
-    image_sha256: 34ba78a8cb053d5be59b5b5e7f28557d0a4060c1f15fd99bcd75c79e87000b2e
+    image_sha256: f9c0ea37a26ffdda85e461221ef31594d3c7169ac8ed0b87b854370c406e0881
     final_pass: true
   lock:
-    sha256: 34ba78a8cb053d5be59b5b5e7f28557d0a4060c1f15fd99bcd75c79e87000b2e
+    sha256: f9c0ea37a26ffdda85e461221ef31594d3c7169ac8ed0b87b854370c406e0881
     approved_at: '2026-09-17T20:10:11.704769+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V04-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
   source_resolutions:
   - asset: V04
     reviewer: User
@@ -5003,6 +5663,14 @@ assets:
     - Egg 3 calls the R09 prelate young, whereas R09 describes an older prelate. Resolve age; then use approved
       R09 as supervisor identity reference.
     at: '2026-09-17T19:56:33.665380+00:00'
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i43-attache-1964.webp
+    sha256: 34ba78a8cb053d5be59b5b5e7f28557d0a4060c1f15fd99bcd75c79e87000b2e
+    previous_lock:
+      sha256: 34ba78a8cb053d5be59b5b5e7f28557d0a4060c1f15fd99bcd75c79e87000b2e
+      approved_at: '2026-09-17T20:10:11.704769+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V04-attempt-001-final.yaml
 - id: V05
   name: Consignment Markings
   category: intel
@@ -5083,14 +5751,24 @@ assets:
     notes:
     - Dented grey cargo crate on wet tarmac with surface-following stencil and chalk, older lettering faintly visible
       under worn paint.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V05-attempt-001-final.yaml
-    image_sha256: 95c142106b3632a9b5f5458cb37a1a108f8519774b77415ce3bc0e4a479613d4
+    image_sha256: fcbbcbade941f71424acd9067f346b3cf0f651f12098834ecdcbd9835ff929ee
     final_pass: true
   lock:
-    sha256: 95c142106b3632a9b5f5458cb37a1a108f8519774b77415ce3bc0e4a479613d4
+    sha256: fcbbcbade941f71424acd9067f346b3cf0f651f12098834ecdcbd9835ff929ee
     approved_at: '2026-09-17T19:50:22.492580+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V05-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i44-basarab-crate.webp
+    sha256: 95c142106b3632a9b5f5458cb37a1a108f8519774b77415ce3bc0e4a479613d4
+    previous_lock:
+      sha256: 95c142106b3632a9b5f5458cb37a1a108f8519774b77415ce3bc0e4a479613d4
+      approved_at: '2026-09-17T19:50:22.492580+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V05-attempt-001-final.yaml
 - id: V06
   name: Airfield Briefing Sheet
   category: intel
@@ -5162,14 +5840,24 @@ assets:
     notes:
     - Faded aerial briefing print with natural paper border and margin type/handwriting; two distinct annotated
       aircraft.
+    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
     report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V06-attempt-001-final.yaml
-    image_sha256: db8f154399789af0898912fe17d3e5fcdc905e3ec25000855bc38eae276b6833
+    image_sha256: 1bf133f1586656c85a5331849fd785ca997560d79554597f6d5afb51873c7c26
     final_pass: true
   lock:
-    sha256: db8f154399789af0898912fe17d3e5fcdc905e3ec25000855bc38eae276b6833
+    sha256: 1bf133f1586656c85a5331849fd785ca997560d79554597f6d5afb51873c7c26
     approved_at: '2026-09-17T19:50:24.371814+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V06-attempt-001-final.yaml
+    encoding: WebP quality 85, original dimensions
+  lossless_master:
+    path: art/lossless-masters/assets/art/intel/i45-novara-aerial.webp
+    sha256: db8f154399789af0898912fe17d3e5fcdc905e3ec25000855bc38eae276b6833
+    previous_lock:
+      sha256: db8f154399789af0898912fe17d3e5fcdc905e3ec25000855bc38eae276b6833
+      approved_at: '2026-09-17T19:50:24.371814+00:00'
+      reviewer: Codex final visual QA
+      final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/V06-attempt-001-final.yaml
 - id: ref-sangreal-case
   name: The Twelve Phials case
   category: reference
@@ -5827,7 +6515,7 @@ assets:
     approved_at: '2026-09-16T16:56:52.260356+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/ref-sonnenberg-logo-attempt-001-final.yaml
-updated_at: '2026-09-17T20:10:11.875085+00:00'
+updated_at: '2026-09-18T16:41:22.786427+00:00'
 review_feedback:
 - at: '2026-09-16T17:56:35.485305+00:00'
   reviewer: Bruce
