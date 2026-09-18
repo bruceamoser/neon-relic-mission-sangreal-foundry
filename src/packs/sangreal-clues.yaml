@@ -14,11 +14,9 @@
     knownBySlugs: [sangreal-npc-ghiberti]
     npcSlugs: [sangreal-npc-ghiberti]
     content: >
-      <p>The industrial electromagnet cradle anchored to the vault floor did not fail
-      from a blown breaker. The copper induction coils melted from the inside out under
-      total magnetic saturation. Vitrified within the copper slag is a fine residue:
-      elemental sulfur, pulverized lapis lazuli, and crystalline Judaean silver.</p>
-      <p><em>Found at: L1 — Subterranean Vault IX. Known by: Father Ghiberti.</em></p>
+      <p>An industrial electromagnet cradle, photographed in place: a heavy ferrous frame fused to its
+      housing, the copper induction coils melted from the inside out. Vitrified within the slag is a
+      fine residue — elemental sulfur, pulverized lapis lazuli, and crystalline silver.</p>
     hqFallback: 12
     daNotes: >
       <p><strong>Retrieval.</strong> At L1, a physical inspection of the melted induction
@@ -47,14 +45,10 @@
     foundAtSlugs: [sangreal-l1, sangreal-l2]
     npcSlugs: [sangreal-npc-vane]
     content: >
-      <p>A 16mm black-and-white surveillance film from the Porta Sant'Anna gate
-      (03:14 AM). Monsignor Corvi leaves on foot carrying a heavy attaché case.
-      Photographic enlargement reveals two details: in the puddle reflections, Corvi
-      casts a faint shadow, but the briefcase casts an opaque, pitch-black shadow.
-      Protruding from Corvi's coat is a green railway pass: "EC 30 (Romulus) —
-      Carrozza 4, Posto 18 — Roma Termini a Genève Cornavin."</p>
-      <p><em>Found at: L1 — Subterranean Vault IX / L2 — Corvi's Quarters. Known by:
-      the gate detail; Sister Claudia Vane diverts attention unless confronted.</em></p>
+      <p>A strip of sixteen-millimetre surveillance film, the frame time-stamp burned in at 03:14. The
+      image shows a man in clerical dress leaving a stone corridor at night with a heavy steel attaché
+      case. A green railway pass sits in his coat; its printed fields read: <em>EC 30 (Romulus) —
+      Carrozza 4, Posto 18 — Roma Termini a Genève Cornavin.</em></p>
     hqFallback: 11
     daNotes: >
       <p><strong>Retrieval.</strong> At L1, the security console holds the reel — viewing it
@@ -84,11 +78,10 @@
     knownBySlugs: [sangreal-npc-ghiberti]
     npcSlugs: [sangreal-npc-ghiberti]
     content: >
-      <p>The mahogany card catalog drawer in the Archivio Segreto. The index card for
-      shelf-mark "MS-Vat-Heb-418" has been excised with a scalpel. In its place sits a
-      red charge card inscribed in Latin cursive: "Extractum per Breve Apostolicum —
-      Anno Domini 1582 — Ad Capsam XII-SANG-00."</p>
-      <p><em>Found at: L1 — Subterranean Vault IX. Known by: Father Ghiberti.</em></p>
+      <p>A catalogue drawer from an archive card index. Adjacent cards sit square on their rods; one
+      slot is empty, its card cut free cleanly, leaving the stamped shelf-mark <em>MS-Vat-Heb-418</em>
+      on the divider. In the empty place sits a red charge card, lettered in Latin cursive:
+      <em>Extractum per Breve Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00.</em></p>
     hqFallback: 13
     daNotes: >
       <p><strong>Retrieval.</strong> At L1, the Archivio Segreto catalog drawer — searching
@@ -116,13 +109,9 @@
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l2]
     content: >
-      <p>A slip of 17th-century rag paper hidden within a 1592 Clementine Vulgate Bible
-      on Corvi's desk, resting at the Gospel of John, Chapter 6. The paper contains
-      Latin numerals arranged in coordinate pairs: II-II I-V III-III I-V IV-V I-I /
-      IV-V I-II IV-III / II-III I-I IV-V IV-III III-II I-I III-III III-III / I-IV I-IV
-      II-V II-IV / I-III.</p>
-      <p><em>Found at: L2 — Monsignor Corvi's Private Quarters. Requires a physical
-      search.</em></p>
+      <p>A slip of seventeenth-century rag paper, cut narrow of margin and hand-lettered in sepia ink
+      with Latin numerals arranged in coordinate pairs: II-II I-V III-III I-V IV-V I-I / IV-V I-II
+      IV-III / II-III I-I IV-V IV-III III-II I-I III-III III-III / I-IV I-IV II-V II-IV / I-III.</p>
     hqFallback: 10
     daNotes: >
       <p><strong>Retrieval.</strong> At L2, a patient search of the desk and the Vulgate
@@ -152,12 +141,10 @@
     knownBySlugs: [sangreal-npc-vane]
     npcSlugs: [sangreal-npc-vane]
     content: >
-      <p>Sister Claudia lays out a diocesan road map of Northern Italy. In the
-      lower-right margin of the leather map casing, an embossed stamp is pressed into
-      the hide: an open eye enclosed within an ouroboros (a serpent eating its own
-      tail), flanked by the tiny initials "T.O.W."</p>
-      <p><em>Found at: L1 — carried by Sister Claudia Vane. No fallback — requires
-      field deduction.</em></p>
+      <p>A diocesan road map of Northern Italy in a worn leather casing. In the casing's lower-right
+      margin an embossed stamp presses into the hide: an open eye enclosed within an ouroboros — a
+      serpent eating its own tail — flanked by the small initials <em>T.O.W.</em> The impression is
+      deep; the die has been used many times.</p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> No fallback — the cell must physically observe or palm
@@ -187,13 +174,10 @@
     knownBySlugs: [sangreal-npc-mercier]
     npcSlugs: [sangreal-npc-mercier]
     content: >
-      <p>A carbon-leaf escrow receipt from locker 4409-C at Union de Banques Suisses,
-      confirming a telegraphic transfer of 500,000 Swiss Francs from "Kurt Hausmann,
-      Sonnenberg Privatklinik, Zurich" to an ecclesiastical escrow account in Vaduz.
-      The transaction memo reads: "Acquisition of Primary Specimen (1 of 12) —
-      Experimental Oncology Protocol."</p>
-      <p><em>Found at: L3 — Union de Banques Suisses, Geneva. Known by:
-      Jean-Paul Mercier.</em></p>
+      <p>A carbon-leaf escrow receipt for a numbered deposit box: a telegraphic transfer of 500,000
+      Swiss francs received into an ecclesiastical escrow account in Vaduz. The remitter line reads
+      <em>Kurt Hausmann — Sonnenberg Privatklinik, Zurich</em>; the memo line reads <em>Acquisition of
+      Primary Specimen (1 of 12) — Experimental Oncology Protocol.</em></p>
     hqFallback: 9
     daNotes: >
       <p><strong>Retrieval.</strong> At L3, Mercier surrenders the carbon under payment or
@@ -222,14 +206,11 @@
     knownBySlugs: [sangreal-npc-graf]
     npcSlugs: [sangreal-npc-graf, sangreal-npc-hausmann]
     content: >
-      <p>Clinical dossier for Kurt Hausmann, age 62, admitted with end-stage metastatic
-      lymphoma. Four days prior, Hausmann received an undocumented intravenous
-      injection. Within forty-eight hours, all tumors went into remission.
-      Concurrently, the patient developed core hypothermia (28.2°C), unreactive dilated
-      pupils, severe cutaneous burns upon exposure to fluorescent lighting, and an
-      insatiable craving for human plasma.</p>
-      <p><em>Found at: L3 — Geneva / L4 — Privatklinik Sonnenberg. Known by:
-      Dr. Elizabeth Graf.</em></p>
+      <p>A clinical dossier for Kurt Hausmann, age 62, admitted with end-stage metastatic lymphoma.
+      The notes record an undocumented intravenous injection four days prior, followed within
+      forty-eight hours by complete remission — and by core hypothermia, unreactive dilated pupils,
+      severe burns wherever fluorescent light touched the skin, and an unremitting craving for blood
+      plasma.</p>
     hqFallback: 8
     daNotes: >
       <p><strong>Retrieval.</strong> At L4, calming Graf (first aid, light discipline, or
@@ -259,14 +240,12 @@
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l3, sangreal-l4]
     content: >
-      <p>A reel-to-reel audio tape of a wiretapped public payphone call from Zurich to
-      Turin. Corvi states: "The Zurich test was an abomination! Hausmann has lost all
-      humanity; he screams for marrow in the dark! You assured me the blood brought
-      redemption, not this hellish thirst!" A calm, cultured voice responds: "Bring the
-      remaining eleven vessels across the border to the Lingotto works in Turin. My
-      house will pay triple. Do not let Rome's butchers reach you."</p>
-      <p><em>Found at: L3 — Geneva / L4 — Zurich. Recovered from a telephone
-      switchboard; no individual source.</em></p>
+      <p>A reel-to-reel tape of a wiretapped payphone call, the transcript written on the reel box.
+      One voice: <em>"The Zurich test was an abomination! Hausmann has lost all humanity; he screams
+      for marrow in the dark! You assured me the blood brought redemption, not this hellish
+      thirst!"</em> The second voice answers, calm and cultured: <em>"Bring the remaining eleven
+      vessels across the border to the Lingotto works in Turin. My house will pay triple. Do not let
+      Rome's butchers reach you."</em></p>
     hqFallback: 7
     daNotes: >
       <p><strong>Retrieval.</strong> At L3, the wiretap reel log (or the intercept tape
@@ -296,13 +275,12 @@
     knownBySlugs: [sangreal-npc-graf]
     npcSlugs: [sangreal-npc-graf]
     content: >
-      <p>Histopathology notes and microscopic polaroids: "The introduced fluid did not
-      merge with Hausmann's cellular biology. The foreign hematological vector attacked
-      existing bone marrow like an aggressive, invasive graft, forcing an instantaneous
-      genetic re-sequencing of somatic tissue into a predatory physiology. This fluid is
-      not an infection; it is a universal biological vector carrying an un-mutated
-      progenitor strain that ordinary human biology cannot safely regulate."</p>
-      <p><em>Found at: L4 — Privatklinik Sonnenberg. Known by: Dr. Elizabeth Graf.</em></p>
+      <p>Histopathology notes and microscopic polaroids, in a clinician's hand: <em>The introduced
+      fluid did not merge with the subject's cellular biology. The foreign haematological vector
+      attacked the existing bone marrow like an invasive graft, forcing an instantaneous genetic
+      re-sequencing of somatic tissue into a predatory physiology. This fluid is not an infection; it
+      is a universal biological vector carrying an un-mutated progenitor strain that ordinary human
+      biology cannot safely regulate.</em></p>
     hqFallback: 6
     daNotes: >
       <p><strong>Retrieval.</strong> At L4, securing Graf's slides is the condition of her
@@ -330,13 +308,10 @@
     knownBySlugs: [sangreal-npc-corvi, sangreal-npc-graf]
     npcSlugs: [sangreal-npc-corvi, sangreal-npc-graf]
     content: >
-      <p>The vector triggers upon contact with open tissue or mucous membranes. In an
-      uninfected human host, it forces rapid mutagenic adaptation, causing full
-      predatory conversion within six shifts (24 hours). In an active vampire, the
-      vector acts as a cellular purge, breaking necrotic stasis and forcing centuries of
-      biological senescence to manifest in seconds, reducing the subject to ash.</p>
-      <p><em>Found at: L4 — Zurich / L5 — Turin. Known by: Monsignor Corvi and
-      Dr. Elizabeth Graf.</em></p>
+      <p>The vector triggers upon contact with open tissue or mucous membranes. In an uninfected human
+      host it forces rapid mutagenic adaptation — full predatory conversion within six shifts. In an
+      active vampire the vector acts as a cellular purge: it breaks necrotic stasis and forces
+      centuries of biological senescence to manifest in seconds, reducing the subject to ash.</p>
     hqFallback: 5
     daNotes: >
       <p><strong>Retrieval.</strong> At L4 or L5 — Graf's charts or Corvi's account; both
@@ -364,11 +339,9 @@
     knownBySlugs: [sangreal-npc-corvi]
     npcSlugs: [sangreal-npc-corvi]
     content: >
-      <p>The phials actively hunger for mortal trauma. Within 100 meters, individuals
-      suffering from anemia, terminal illness, or lacerations experience an intense
-      psychic compulsion to open a phial and drink. The proximity of the case
-      accelerates cellular decay in injured subjects to provoke this consumption.</p>
-      <p><em>Found at: L4 — Zurich / L5 — Turin. Known by: Monsignor Corvi.</em></p>
+      <p>The phials actively hunger for mortal trauma. Within a hundred metres, subjects suffering
+      anemia, terminal illness, or lacerations feel an intense compulsion to open a phial and drink;
+      proximity accelerates cellular decay in the injured to provoke that consumption.</p>
     hqFallback: 4
     daNotes: >
       <p><strong>Retrieval.</strong> At L4, searching the laboratory freezers (1 shift); at
@@ -398,12 +371,11 @@
     knownBySlugs: [sangreal-npc-corvi]
     npcSlugs: [sangreal-npc-corvi]
     content: >
-      <p>Corvi's notebook containing his translation of the 2nd-century <em>Gospel of
-      the Twelve</em> (Codex Ebionita, MS-Vat-Heb-418): "And the Lord gave unto the
-      predators of the dark His cup, saying: 'Drink ye all of this; for this is my blood
-      of the new covenant, poured out for many for the unmaking of your curse, that you
-      may die the death of men and sleep in the dust like the sons of Adam.'"</p>
-      <p><em>Found at: L5 — Lingotto Assembly Works. Known by: Monsignor Corvi.</em></p>
+      <p>A bound notebook page carrying a translation from the second-century Gospel of the Twelve
+      (Codex Ebionita, MS-Vat-Heb-418): <em>"And the Lord gave unto the predators of the dark His cup,
+      saying: Drink ye all of this; for this is my blood of the new covenant, poured out for many for
+      the unmaking of your curse, that you may die the death of men and sleep in the dust like the
+      sons of Adam."</em></p>
     hqFallback: 4
     daNotes: >
       <p><strong>Retrieval.</strong> At L5, from Corvi himself — the notebook is part of his
@@ -433,14 +405,10 @@
     foundAtSlugs: [sangreal-l6]
     npcSlugs: [sangreal-npc-vane]
     content: >
-      <p>Forensics at the retreat house: Sister Claudia Vane lies across the table, her
-      carotid artery torn open by elongated dental punctures with an inter-canine
-      breadth exceeding human anatomy, completely exsanguinated. On the floor sits a
-      broken phial soaked into the terracotta tiles, beside two severed human metacarpals
-      turned to calcified white ash from accelerated biological decay. The attaché case
-      is gone.</p>
-      <p><em>Found at: L6 — The Fortified Retreat of San Nazzaro. Requires forensic
-      search.</em></p>
+      <p>The dining hall during the forensic sweep: a woman's body lies across the table, the carotid
+      artery opened by elongated dental punctures with an inter-canine breadth beyond human anatomy. A
+      broken phial sits soaked into the terracotta tiles beside two severed human metacarpals, reduced
+      to white calcified ash. The steel attaché case is gone.</p>
     hqFallback: 2
     daNotes: >
       <p><strong>Retrieval.</strong> At L6, a full forensic sweep of the dining hall
@@ -472,13 +440,10 @@
     foundAtSlugs: [sangreal-l6]
     npcSlugs: [sangreal-npc-vane]
     content: >
-      <p>A charred telex strip recovered from the safehouse stove: "FROM: TALAMASCA
-      MOTHERHOUSE AMSTERDAM // REGISTRY 16. TO: OPERATIVE CLAUDIA VANE. DIRECTIVE:
-      SECURE SPECIMEN XII AT ALL COSTS. DEPLOY VERONICA THREAD FOR EXTRACTION. PROCEED
-      TO NOVARA AIRSTRIP FOR RENDEZVOUS 'BASARAB'. DO NOT BREACH SEALS. SPECIMEN MUST BE
-      FLOWN TO CARPATHIAN FACILITY FOR INCINERATION. PROTECT THE BLOODLINE."</p>
-      <p><em>Found at: L6 — The Fortified Retreat of San Nazzaro. Known by: Sister
-      Claudia Vane (deceased).</em></p>
+      <p>A telex strip, partially burned: <em>FROM: TALAMASCA MOTHERHOUSE AMSTERDAM // REGISTRY 16.
+      TO: OPERATIVE CLAUDIA VANE. DIRECTIVE: SECURE SPECIMEN XII AT ALL COSTS. DEPLOY VERONICA THREAD
+      FOR EXTRACTION. PROCEED TO NOVARA AIRSTRIP FOR RENDEZVOUS 'BASARAB'. DO NOT BREACH SEALS.
+      SPECIMEN MUST BE FLOWN TO CARPATHIAN FACILITY FOR INCINERATION. PROTECT THE BLOODLINE.</em></p>
     hqFallback: 1
     daNotes: >
       <p><strong>Retrieval.</strong> At L6, searching the safehouse stove grate or Claudia's
@@ -508,11 +473,10 @@
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l6]
     content: >
-      <p>Flight clearance from Novara-Cameri military airfield: Cessna 421 Golden Eagle,
-      registration YR-BAS, owner Basarab Holdings S.A. (Bucharest). Flight plan filed for
-      Cluj-Napoca International Airport, Romania. Cargo: "Ecclesiastical Medical
-      Supplies — Ten Consignment Units." Departure: 01:15 hours tonight.</p>
-      <p><em>Found at: L6 — dispatch desk, Fortified Retreat of San Nazzaro.</em></p>
+      <p>A filed flight clearance from a military airfield: Cessna 421 Golden Eagle, registration
+      YR-BAS, owner Basarab Holdings S.A. (Bucharest). Flight plan filed for Cluj-Napoca International
+      Airport, Romania. Cargo: <em>Ecclesiastical Medical Supplies — Ten Consignment Units.</em>
+      Departure: 01:15.</p>
     hqFallback: 1
     daNotes: >
       <p><strong>Retrieval.</strong> At L6, the dispatch desk in the abbey's outer office
@@ -541,12 +505,10 @@
     knownBySlugs: [sangreal-npc-sabbatini, sangreal-npc-ghiberti]
     npcSlugs: [sangreal-npc-sabbatini, sangreal-npc-ghiberti]
     content: >
-      <p>Latin containment protocol: The phials must remain in absolute darkness, wrapped
-      in unbleached flax linens soaked in wine vinegar, gall, and myrrh, sealed in
-      lead-antimony foil below 4°C. Direct sunlight causes the fluid to boil and combust
-      into white ash.</p>
-      <p><em>Found at: L2 — Corvi's Quarters / L7 — CDF Offices. Known by: Cardinal
-      Enrico Sabbatini and Father Ghiberti.</em></p>
+      <p>Containment protocol, in Latin on a single leaf: the phials must remain in absolute darkness,
+      wrapped in unbleached flax linens soaked in wine vinegar, gall and myrrh, and sealed in
+      lead-antimony foil below 4°C. Direct sunlight causes the fluid to boil and combust into white
+      ash.</p>
     hqFallback: 3
     daNotes: >
       <p><strong>Retrieval.</strong> At L2, the wall safe behind the St. Sebastian painting
@@ -576,14 +538,11 @@
     knownBySlugs: [sangreal-npc-sabbatini]
     npcSlugs: [sangreal-npc-sabbatini]
     content: >
-      <p>A tin dispatch box under the floorboards in Claudia's convent room: microfiche
-      rolls detailing ancient aristocratic dynasties in Transylvania and Wallachia,
-      paired with private Vatican memos confirming centuries of blackmail. A memorandum
-      from Sabbatini reads: "We hold the Gethsemane vessels as an iron nail driven into
-      their heads. So long as Rome holds the Cure that brings them death, they dare not
-      cross the threshold of the Tiber."</p>
-      <p><em>Found at: L7 — Claudia's convent quarters, Palace of the Congregation for
-      the Doctrine of the Faith. Known by: Cardinal Enrico Sabbatini.</em></p>
+      <p>A tin dispatch box containing microfiche rolls: genealogies of old aristocratic houses in
+      Transylvania and Wallachia, paired with copies of Vatican memoranda recording centuries of quiet
+      pressure. One memorandum reads: <em>"We hold the Gethsemane vessels as an iron nail driven into
+      their heads. So long as Rome holds the Cure that brings them death, they dare not cross the
+      threshold of the Tiber."</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> At L7, searching Claudia's convent quarters — the tin
@@ -614,11 +573,8 @@
     knownBySlugs: [sangreal-npc-gendarme-officer]
     npcSlugs: [sangreal-npc-watcher]
     content: >
-      <p>A second frame from the lift vestibule camera, stamped 04:02. One figure descends
-      the stair in shadow, a hand on the iron rail; the face never enters the light. The
-      lift indicator behind shows the platform already called from below.</p>
-      <p><em>Found at: L1 — the gate house security reel (or the gate log, if pressed).
-      Known by: the duty gendarme.</em></p>
+      <p>A frame from a lift-vestibule security camera, time-stamp 04:02. One figure descends the
+      stair in shadow, a hand on the iron rail; the face never enters the light.</p>
     hqFallback: 12
     daNotes: >
       <p><strong>Retrieval.</strong> At L1, reviewing the full security reel (1 shift) or
@@ -647,11 +603,9 @@
     foundAtSlugs: [sangreal-l1]
     knownBySlugs: [sangreal-npc-ghiberti]
     content: >
-      <p>Extreme close-up of the empty mooring plinth. Below it, a small tarnished brass
-      sign is bolted to the granite — one word: SANGREAL. The stone bears a faint scratch
-      outline in the exact footprint of the missing case, and a scrap of grey foil is
-      trapped under one of the sign's screws.</p>
-      <p><em>Found at: L1 — Subterranean Vault IX. Known by: Father Ghiberti (reluctantly).</em></p>
+      <p>An extreme close-up of an empty mooring plinth: a stone cradle anchored to the floor beside a
+      small tarnished brass sign bolted to the granite, stamped with a single word:
+      <em>SANGREAL</em>.</p>
     hqFallback: 12
     daNotes: >
       <p><strong>Retrieval.</strong> At L1, close physical inspection of the plinth during
@@ -678,11 +632,9 @@
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l2]
     content: >
-      <p>The wall safe behind the St. Sebastian painting, standing open. The combination
-      dial has been drilled precisely at the spindle; the drawers around it were searched
-      with academic care — nothing taken, everything displaced. A small woman's compact
-      mirror lies half-shadowed under the desk edge.</p>
-      <p><em>Found at: L2 — Monsignor Corvi's Private Quarters.</em></p>
+      <p>An open wall safe photographed behind a hanging painting: the combination dial drilled
+      precisely at the spindle; around it, drawers pulled out and displaced, their contents left
+      intact.</p>
     hqFallback: 10
     daNotes: >
       <p><strong>Retrieval.</strong> At L2, inspecting the safe during the room search —
@@ -709,10 +661,9 @@
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l2]
     content: >
-      <p>Monsignor Corvi's Vatican diplomatic passport, open at its ID page. A border stamp
-      marks the crossing at Chiasso; in the margin, in a different hand, a single French
-      word has been written and not explained: <em>accompagné</em> — accompanied.</p>
-      <p><em>Found at: L2 — the passport lies among Corvi's desk effects.</em></p>
+      <p>A Vatican diplomatic passport, photographed open at its identification page. A border stamp
+      marks a crossing at Chiasso, and in the margin, in a different hand, a single French word:
+      <em>accompagné</em>.</p>
     hqFallback: 9
     daNotes: >
       <p><strong>Retrieval.</strong> At L2, in the desk effects (no roll if the room is
@@ -741,12 +692,9 @@
     foundAtSlugs: [sangreal-l2]
     knownBySlugs: [sangreal-npc-ghiberti]
     content: >
-      <p>An archival black-and-white photograph: a much younger Corvi beside an older
-      prelate at the Secret Archives card catalog, both in cassocks, a folder between them
-      on the table. Someone has drawn a red grease-pencil X across the older man's face —
-      decades after the negative was made.</p>
-      <p><em>Found at: L2 — turned face-down in the Vulgate's desk drawer. Known by:
-      Father Ghiberti, if shown a copy.</em></p>
+      <p>An archival black-and-white photograph: two men in cassocks at an archive card catalogue, a
+      folder on the table between them. A red grease-pencil X is drawn across the older man's
+      face.</p>
     hqFallback: 11
     daNotes: >
       <p><strong>Retrieval.</strong> At L2, tucked into the desk drawer; Ghiberti identifies
@@ -775,12 +723,9 @@
     foundAtSlugs: [sangreal-l3]
     knownBySlugs: [sangreal-npc-mercier]
     content: >
-      <p>Union de Banques Suisses lobby camera, 22:41. Corvi stands at the night counter
-      with the attaché; Mercier attends him personally, the case resting on a bank cloth
-      placed precisely under it. In the polished marble, a seated man in a grey raincoat
-      reads a newspaper.</p>
-      <p><em>Found at: L3 — the bank's security office. Known by: Mercier (who will not
-      volunteer it).</em></p>
+      <p>A bank lobby surveillance frame, time-stamp 22:41: a priest at the night counter with a
+      locked case, a clerk attending him across the marble. The case rests on a bank cloth laid
+      precisely beneath it.</p>
     hqFallback: 9
     daNotes: >
       <p><strong>Retrieval.</strong> At L3, from the bank's security office — requiring
@@ -808,10 +753,9 @@
     foundAtSlugs: [sangreal-l3]
     knownBySlugs: [sangreal-npc-mercier]
     content: >
-      <p>Jean-Paul Mercier's employee record card, photographed on the desk blotter beside
-      it: ID portrait, thumbprint, typed fields, an access stamp reading AUTORISÉ — COFFRES.
-      Beneath the card, half out of frame, lies the carbon of a telegraphic transfer.</p>
-      <p><em>Found at: L3 — personnel files, or Mercier's own desk. Known by: Mercier.</em></p>
+      <p>The employee record card of Jean-Paul Mercier, photographed on a desk blotter: identification
+      portrait, thumbprint, typed service fields, and an access stamp reading <em>AUTORISÉ —
+      COFFRES.</em> Half out of frame beneath the card lies the carbon of a telegraphic transfer.</p>
     hqFallback: 8
     daNotes: >
       <p><strong>Retrieval.</strong> At L3, personnel records (a bureaucratic ask) or
@@ -839,10 +783,9 @@
     foundAtSlugs: [sangreal-l3]
     knownBySlugs: [sangreal-npc-mercier]
     content: >
-      <p>The access ledger for safe-deposit box 4409-C, open at the current page. Three
-      entries in Mercier's neat hand; the middle entry has been struck through with
-      correction fluid — and in the smear, another name can just be read beneath: VANE, C.</p>
-      <p><em>Found at: L3 — the vault desk ledger. Known by: Mercier (whose hand it is).</em></p>
+      <p>The access ledger for a safe-deposit box, open at its current page: three entries in a neat
+      clerical hand, the middle one struck through with correction fluid. In the smear of the
+      correction, lettering remains faintly legible.</p>
     hqFallback: 8
     daNotes: >
       <p><strong>Retrieval.</strong> At L3 — the ledger requires vault access: Mercier's
@@ -871,11 +814,9 @@
     foundAtSlugs: [sangreal-l3, sangreal-l5]
     npcSlugs: [sangreal-npc-watcher]
     content: >
-      <p>A telephoto surveillance photograph taken across the Cornavin platform: Corvi
-      climbing into a first-class carriage with the attaché; steam and a departure board;
-      far down the platform, a man in a grey raincoat folds his newspaper and boards the
-      same train, three carriages back.</p>
-      <p><em>Found at: L3 or L5 — prints from a watcher's roll (origin unknown).</em></p>
+      <p>A long-lens photograph taken along a station platform: steam rising between carriages; a
+      priest climbing into a first-class coach with a steel attaché case; a porter's trolley further
+      down; and near the far end, a man in a grey raincoat with a folded newspaper.</p>
     hqFallback: 7
     daNotes: >
       <p><strong>Retrieval.</strong> At L3, from the "unattributed" surveillance prints in
@@ -906,10 +847,9 @@
     knownBySlugs: [sangreal-npc-graf]
     npcSlugs: [sangreal-npc-hausmann, sangreal-npc-graf]
     content: >
-      <p>The clinic's intake photograph of Kurt Hausmann, taken on admission: gaunt but
-      composed, in a hospital gown, holding the identification board 09-H. A gold wristwatch
-      is still on his wrist. In the frame's corner, the clinic's printed logo.</p>
-      <p><em>Found at: L4 — the patient wall or the records room. Known by: Dr. Graf.</em></p>
+      <p>A clinic intake photograph, flat institutional flash: a gaunt elderly man in a hospital gown
+      holding the identification board marked <em>09-H</em>. A gold wristwatch is still fastened on
+      his wrist; the clinic's printed logo sits in the frame's corner.</p>
     hqFallback: 8
     daNotes: >
       <p><strong>Retrieval.</strong> At L4, from the records room or the ward wall during
@@ -938,11 +878,10 @@
     knownBySlugs: [sangreal-npc-graf]
     npcSlugs: [sangreal-npc-hausmann, sangreal-npc-graf]
     content: >
-      <p>Clinical documentation photograph: Hausmann's face and forearm under a fluorescent
-      bank, mottled first-degree burns where the light fell; his pupils are fully dilated
-      and give no response to the camera flash. The light switch behind him has been taped
-      over. His IV site carries a taped batch label.</p>
-      <p><em>Found at: L4 — Graf's clinical photographs. Known by: Dr. Graf.</em></p>
+      <p>A clinical documentation photograph taken under a fluorescent bank: the patient's face and
+      forearm carry fresh, patterned burns where the light fell; his pupils are fully dilated and do
+      not react to the camera flash. The light switch behind him has been taped over, and a taped
+      batch label sits at his IV site.</p>
     hqFallback: 6
     daNotes: >
       <p><strong>Retrieval.</strong> At L4, with Graf's cooperation — the photographs are
@@ -970,11 +909,9 @@
     foundAtSlugs: [sangreal-l4]
     knownBySlugs: [sangreal-npc-graf]
     content: >
-      <p>A single page from the trial chart: typewritten drug line, witness signature,
-      Graf's initials in blue ink. The drug line reads PROGENITOR VECTOR — BATCH XII-1/12;
-      the sponsor line names a Zurich clinic and a Vaduz trust account. A room number is
-      scrawled beside it: 3.14.</p>
-      <p><em>Found at: L4 — Graf's study files. Known by: Dr. Graf.</em></p>
+      <p>A single page from a trial chart: a typewritten drug line, a witness signature, initials in
+      blue ink. The drug line reads <em>PROGENITOR VECTOR — BATCH XII-1/12</em>; the sponsor line
+      names a Zurich clinic and a Vaduz trust account.</p>
     hqFallback: 6
     daNotes: >
       <p><strong>Retrieval.</strong> At L4, in Graf's study files (she may need calming
@@ -1001,11 +938,9 @@
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l4]
     content: >
-      <p>The third-floor ward corridor on the security tape: windows taped over with black
-      polyethylene, smashed fluorescent tubes, an overturned wheelchair, a kicked mop
-      bucket. At the very top edge of frame, a silhouette holds position against the
-      ceiling — it does not belong to any orientation a human body can hold.</p>
-      <p><em>Found at: L4 — the clinic security room, or Graf's copied stills.</em></p>
+      <p>A frame from a ward-corridor security camera: windows taped over with black polyethylene,
+      fluorescent tubes smashed, an overturned wheelchair and a kicked mop bucket — and at the top
+      edge of the frame, something holding position against the ceiling.</p>
     hqFallback: 5
     daNotes: >
       <p><strong>Retrieval.</strong> At L4, from the security room tape (or from Graf, who
@@ -1033,11 +968,9 @@
     foundAtSlugs: [sangreal-l4]
     npcSlugs: [sangreal-npc-entita-operative]
     content: >
-      <p>Night telephoto of the clinic from the tree line: white concrete, one floor's
-      windows blacked out with sheeting. On the access road below, a grey sixties sedan
-      with white diplomatic plates idles, wipers up. In the foreground, the stakeout car's
-      dashboard holds a thermos and a long-lens camera resting on a folded newspaper.</p>
-      <p><em>Found at: L4 — the tree line, or recovered from a watcher's effects.</em></p>
+      <p>A night telephoto of a low clinic building taken from a tree line: one floor's windows
+      blacked out with sheeting; on the access road below, a grey sixties sedan with white plates,
+      wipers up. A dash-mounted camera and thermos sit in the foreground.</p>
     hqFallback: 6
     daNotes: >
       <p><strong>Retrieval.</strong> At L4, only by spending a night shift on the perimeter
@@ -1068,11 +1001,10 @@
     knownBySlugs: [sangreal-npc-graf]
     npcSlugs: [sangreal-npc-graf]
     content: >
-      <p>Inside the clinic's fume hood: a glass crucible has boiled and fused to the
-      concrete, leaving a radial burst of fine white ash. The test log card reads
-      "DAYLIGHT TEST 07:12 — COMPLETE COMBUSTION." On the bench beside the hood sits a box
-      of unbleached linen strips and a glass jar of gall, vinegar and myrrh.</p>
-      <p><em>Found at: L4 — the pathology lab. Known by: Dr. Graf.</em></p>
+      <p>A fume hood photographed after a test: a glass crucible boiled and fused to the concrete with
+      a radial burst of fine white ash around it; a test log card headed <em>DAYLIGHT TEST 07:12 —
+      COMPLETE COMBUSTION</em>; and on the bench beside the hood, a box of unbleached linen strips and
+      a glass jar of gall, vinegar and myrrh.</p>
     hqFallback: 5
     daNotes: >
       <p><strong>Retrieval.</strong> At L4, in the pathology lab during the sweep; pairs
@@ -1103,12 +1035,9 @@
     knownBySlugs: [sangreal-npc-corvi, sangreal-npc-vane]
     npcSlugs: [sangreal-npc-corvi, sangreal-npc-vane]
     content: >
-      <p>Telephoto, dusk, rain: the Lingotto's rooftop test track curves away into haze and
-      one glass supervisor's booth burns high on the facade. Two figures are inside — a
-      hunched man at the glass, and a nun standing precisely between him and the booth's
-      only door.</p>
-      <p><em>Found at: L5 — approach prints, or the Watcher's negatives. Known by: Corvi
-      and Vane (neither will describe it the same way).</em></p>
+      <p>A telephoto frame at dusk in rain: the curving rooftop test track of an old factory, one
+      glass supervisor's booth burning high on the facade — two figures within, one hunched at the
+      glass, one standing at the booth's door.</p>
     hqFallback: 4
     daNotes: >
       <p><strong>Retrieval.</strong> At L5, from the approach stakeout (1 shift) or the
@@ -1137,11 +1066,8 @@
     knownBySlugs: [sangreal-npc-corvi]
     npcSlugs: [sangreal-npc-corvi]
     content: >
-      <p>Black-and-white factory camera, still live: rain pouring through broken skylights
-      into the flooded assembly hall, and Corvi crossing the floor with the attaché held
-      against his chest. The case's deadbolt is taped over — field repair on a cracked
-      latch.</p>
-      <p><em>Found at: L5 — the plant's derelict control room, tape still spooling.</em></p>
+      <p>A factory surveillance frame: rain pouring through broken skylights into a flooded assembly
+      hall; one man crossing the floor with an attaché case held against his chest.</p>
     hqFallback: 4
     daNotes: >
       <p><strong>Retrieval.</strong> At L5, in the control room — the camera has been
@@ -1171,10 +1097,9 @@
     knownBySlugs: [sangreal-npc-corvi]
     npcSlugs: [sangreal-npc-corvi]
     content: >
-      <p>A photographic reproduction of the 1582 papal brief, carried in Corvi's research
-      kit: dense chancery cursive, a lead seal cracked and repaired with red wax, and
-      marginal annotations in a second hand. In the corner, a shelf-mark: MS-Vat-Heb-418.</p>
-      <p><em>Found at: L2 (his quarters) or L5 (his work kit). Known by: Corvi.</em></p>
+      <p>A photographic reproduction of a 1582 papal brief: dense chancery cursive on aged parchment;
+      a lead seal cracked and repaired with red wax; marginal annotations in a second hand; and a
+      shelf-mark stamped in the corner: <em>MS-Vat-Heb-418</em>.</p>
     hqFallback: 5
     daNotes: >
       <p><strong>Retrieval.</strong> At L2 in the desk effects, or at L5 in his kit — both
@@ -1204,11 +1129,10 @@
     foundAtSlugs: [sangreal-l1, sangreal-l2]
     knownBySlugs: [sangreal-npc-ghiberti]
     content: >
-      <p>The Secret Archives index card for the Lodestone of St. Jude, with a small pre-war
-      catalog photograph of the nodule clipped to it. A large red stamp across the card
-      reads SUPPRESSED — CONS. DOCT. FIDEI. A pencilled handling note at the bottom warns:
-      <em>corrosive to ferrous circuitry — by order of the Prefect.</em></p>
-      <p><em>Found at: L1 or L2 — the suppressed-index drawer. Known by: Father Ghiberti.</em></p>
+      <p>An archive index card for an object catalogued as the Lodestone of St. Jude, with a small
+      pre-war photograph of a dark banded nodule clipped to it. A red stamp across the card reads
+      <em>SUPPRESSED — CONS. DOCT. FIDEI</em>; a pencilled handling note at the foot of the card
+      warns: <em>corrosive to ferrous circuitry.</em></p>
     hqFallback: 6
     daNotes: >
       <p><strong>Retrieval.</strong> At L1, the suppressed-index drawer (Ghiberti again);
@@ -1237,11 +1161,9 @@
     foundAtSlugs: [sangreal-l5, sangreal-l6]
     npcSlugs: [sangreal-npc-vane]
     content: >
-      <p>Forensic macro of Claudia's wooden rosary: one bead split cleanly open along its
-      grain. The cavity is empty; a few ochre linen fibres remain inside. On the bead's
-      outer surface, a faint line of scorching.</p>
-      <p><em>Found at: L5 (if her kit is searched) or L6 (among her effects). Known by:
-      those who examine her kit before the betrayal.</em></p>
+      <p>A forensic macro of a wooden rosary: one bead split cleanly open along its grain. The cavity
+      is empty; a few pale fibres remain caught inside, and a faint line of scorching crosses the
+      bead's outer surface.</p>
     hqFallback: 5
     daNotes: >
       <p><strong>Retrieval.</strong> At L5, searching her kit while the cell still trusts
@@ -1267,10 +1189,9 @@
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l6]
     content: >
-      <p>Close-up of the two severed metacarpals from the dining hall floor: reduced to
-      brittle white calcified material with radial fracture lines, half-embedded in a dried
-      dark stain. Beside them, fused into the ash, is a tiny melted metal ring.</p>
-      <p><em>Found at: L6 — the abbey, with the rest of the forensics (1 shift).</em></p>
+      <p>A close-up of two severed metacarpals: reduced to brittle white calcified material, fractured
+      radially, half-embedded in a dried dark stain. Fused into the surrounding material sits a small
+      melted metal ring.</p>
     hqFallback: 2
     daNotes: >
       <p><strong>Retrieval.</strong> At L6, during full forensics with the murder scene
@@ -1299,11 +1220,9 @@
     foundAtSlugs: [sangreal-l6]
     npcSlugs: [sangreal-npc-basarab-elder]
     content: >
-      <p>A telephoto frame shot through the airfield perimeter fence: a twin-engine Cessna
-      on the tarmac, props turning, two figures loading a metal case through the cabin
-      door. A third figure stands apart from the work, long coat motionless, face turned
-      directly toward the camera — as if it has known the watcher was there all along.</p>
-      <p><em>Found at: L6 — the perimeter, at the cost of the case's remaining hours.</em></p>
+      <p>A telephoto frame shot through a perimeter fence: a twin-engine aircraft standing on a night
+      tarmac, props turning; two figures loading a metal case through the cabin door. A third figure
+      stands apart from the work, long coat motionless, face turned toward the camera.</p>
     hqFallback: 1
     daNotes: >
       <p><strong>Retrieval.</strong> At L6, a perimeter stakeout (or I45's briefing sheet
@@ -1330,11 +1249,9 @@
     foundAtSlugs: [sangreal-l6]
     npcSlugs: [sangreal-npc-vane]
     content: >
-      <p>Evidence photograph: Claudia's belongings arranged in a grid on grey paper — a
-      plain wooden rosary, a compact Beretta pistol, diplomatic papers, a leather transit
-      folio, a key ring, toll stubs, and a plain business card printed with the motto
-      <em>We watch, and we are always there.</em></p>
-      <p><em>Found at: L6 — her satchel, laid out during forensics.</em></p>
+      <p>An evidence photograph: belongings arranged in a grid on grey paper — a plain wooden rosary,
+      a compact pistol, diplomatic papers, a leather transit folio, a key ring, toll stubs, and a
+      plain card printed with the words: <em>We watch, and we are always there.</em></p>
     hqFallback: 3
     daNotes: >
       <p><strong>Retrieval.</strong> At L6, laying out her satchel (1 shift; pairs with
@@ -1364,11 +1281,9 @@
     knownBySlugs: [sangreal-npc-sabbatini]
     npcSlugs: [sangreal-npc-sabbatini, sangreal-npc-entita-operative]
     content: >
-      <p>Telephoto, across the square at night: the Council Chamber window, Sabbatini at
-      his desk under a green banker's lamp, a dossier open before him. A second silhouette
-      waits in the room's shadow, hands clasped. In the window glass, further reflections
-      gather behind the waiting man.</p>
-      <p><em>Found at: L7 — approach surveillance before the confrontation.</em></p>
+      <p>A telephoto shot across a square at night: a lit chamber window, a man at a desk beneath a
+      green banker's lamp with a dossier open before him, and a second silhouette waiting in the
+      room's shadow, hands clasped.</p>
     hqFallback: 3
     daNotes: >
       <p><strong>Retrieval.</strong> At L7, a night stakeout before walking in — or from
@@ -1399,11 +1314,9 @@
     knownBySlugs: [sangreal-npc-sabbatini]
     npcSlugs: [sangreal-npc-entita-operative]
     content: >
-      <p>A grainy surveillance frame of three plainclothes operatives working a Roman
-      street at dusk: one checking a wristwatch, one adjusting a car's wing mirror, one
-      mid-vault over a low wall. A grey sixties sedan waits at the kerb with white
-      diplomatic plates.</p>
-      <p><em>Found at: L7 — recovered from a rival watcher's roll (or purchased).</em></p>
+      <p>A grainy surveillance frame of three plainclothes men working a city street at dusk: one
+      checking his wristwatch, one adjusting a car's wing mirror, one mid-vault over a low wall. A
+      grey sedan waits at the kerb.</p>
     hqFallback: 2
     daNotes: >
       <p><strong>Retrieval.</strong> At L7, as loose prints in a diplomatic pouch, or
@@ -1432,12 +1345,9 @@
     foundAtSlugs: [sangreal-l1]
     knownBySlugs: [sangreal-npc-ghiberti]
     content: >
-      <p>Archival black-and-white photograph, 1964: inside the Vatican workshop, gloved
-      hands line a brushed-steel attaché shell with grey metal foil. On the bench beside
-      the case waits a small brass plaque, already stamped. A typewritten workshop order
-      is pinned to the wall behind.</p>
-      <p><em>Found at: L1 — the workshop file, pulled by Ghiberti. Known by: Ghiberti
-      (eventually).</em></p>
+      <p>An archival black-and-white photograph dated 1964: inside a workshop, gloved hands line a
+      brushed-steel attaché shell with grey metal foil; a small brass plaque waits on the bench beside
+      the case; a typewritten workshop order is pinned to the wall behind.</p>
     hqFallback: 10
     daNotes: >
       <p><strong>Retrieval.</strong> At L1, requires Ghiberti's help with the archival
@@ -1467,10 +1377,8 @@
     foundAtSlugs: [sangreal-l6]
     npcSlugs: [sangreal-npc-basarab-operative]
     content: >
-      <p>A dented grey cargo crate on the tarmac after partial unloading: stencilled
-      lettering, a chalk tally reading 10/12, and intact customs ties. Beneath the fresh
-      paint of the new stencil, older lettering shows through the wear.</p>
-      <p><em>Found at: L6 — the service hangar, behind the dispatch office.</em></p>
+      <p>A dented grey cargo crate photographed on wet concrete: stencilled lettering layered over
+      older paintwork, a chalk tally along one side, and customs ties still intact.</p>
     hqFallback: 2
     daNotes: >
       <p><strong>Retrieval.</strong> At L6, searching the hangar — a quick but decisive
@@ -1497,11 +1405,9 @@
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l6]
     content: >
-      <p>A low-altitude reconnaissance print of Novara-Cameri airfield at dawn, annotated
-      in red grease pencil: one parked Cessna circled heavily, a second aircraft crossed
-      out beside the service hangar. In the margin block, a Wayfinder classification and
-      one handwritten line: <em>wheels up 01:15 confirmed.</em></p>
-      <p><em>Found at: L6 — the dispatch desk, or delivered by a Wayfinder packet.</em></p>
+      <p>A low-altitude reconnaissance print of an airfield at dawn, annotated in red grease pencil:
+      one parked aircraft circled heavily, a second crossed out beside a hangar; a classification
+      block in the margin and one handwritten line: <em>wheels up 01:15 confirmed.</em></p>
     hqFallback: 1
     daNotes: >
       <p><strong>Retrieval.</strong> At L6, on the dispatch desk — or requested from the
@@ -1534,16 +1440,13 @@
     knownBySlugs: [sangreal-npc-ghiberti]
     npcSlugs: [sangreal-npc-corvi]
     content: >
-      <p>A priest in his late sixties, seated in a dim archive at night amid
-      leather-bound volumes — fountain pen in hand, sweat on his brow, a locked
-      steel attaché case just inside the frame. Curator of the Secret Archives,
-      diplomat, and the quiet centre of the case since the day he walked out of
-      Vault IX with a papal passport in one pocket and the Sangreal case in the
-      other.</p>
-      <p>Everything in the photograph says the same thing: a man who has read
-      something he cannot unread — and who has stopped apologising for it.</p>
-      <p><em>Found at: L2 — his quarters (portraits and desk effects); or at L5,
-      where he waits in the Lingotto booth to be found by the right people.</em></p>
+      <p><strong>Dossier — Monsignor Matteo Corvi.</strong> Curator of the Secret Archives, Vatican
+      City; late sixties. In Covenant records for eighteen years as a cooperating scholar — among the
+      few men inside the Vatican who has ever answered a straight question with a straight answer.</p>
+      <p>Photographed at his reading desk at night: black clerical dress, spectacles, a fountain pen
+      kept in hand; his colour is poor and the room is lit by a single lamp.</p>
+      <p><em>Assessment: meticulous, private, impossible to hurry. Responds to scholarship and to
+      candour, and to nothing else.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> Reveal when the cell first identifies Corvi
@@ -1575,14 +1478,13 @@
     foundAtSlugs: [sangreal-l2, sangreal-l5, sangreal-l6]
     npcSlugs: [sangreal-npc-vane]
     content: >
-      <p>A nun in her thirties, habit immaculate, hands folded, expression
-      completely at rest. The Covenant's liaison to the case — travelled with
-      the cell, kept the logs, and never once raised her voice or lost her
-      place. Her kit is always repacked in order: rosary, pistol, transit
-      folio.</p>
-      <p>The photograph gives nothing away. That is the point.</p>
-      <p><em>Found at: L2 (her reports), L5 (beside the booth), or L6 — far too
-      late, and once and for all.</em></p>
+      <p><strong>Dossier — Sister Claudia Vane.</strong> Nun of the diocese of Rome; attached to
+      Covenant field-liaison duties for four years; late thirties.</p>
+      <p>Photographed in habit and veil, hands folded, posture at rest; a plain wooden rosary at her
+      belt. Her service record carries no complaint and no correction — reports filed on time,
+      equipment returned in better condition than it was issued.</p>
+      <p><em>Assessment: exact, calm, self-contained. The file contains no photograph of her in
+      motion; she appears only when she has decided to.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> Two reveals. Early: a benign portrait
@@ -1613,15 +1515,13 @@
     foundAtSlugs: [sangreal-l7]
     npcSlugs: [sangreal-npc-sabbatini]
     content: >
-      <p>A cardinal in his late seventies, seated at a desk beneath a green
-      banker's lamp, one hand resting flat on a dossier as if keeping it from
-      rising on its own. Prefect of the Congregation for the Doctrine of the
-      Faith; the most powerful man to have met with the cell, and the least
-      likely to say anything he has not chosen to.</p>
-      <p>He greets investigators the way archivists greet weather — with
-      patience, and a longer memory than theirs.</p>
-      <p><em>Found at: L7 — the Palace of the Congregation, if the cell brings
-      the file back to Rome.</em></p>
+      <p><strong>Dossier — Cardinal Enrico Sabbatini.</strong> Prefect of the Congregation for the
+      Doctrine of the Faith; late seventies; four decades in the Curia.</p>
+      <p>Photographed at his desk beneath a green banker's lamp, one hand resting flat on a dossier.
+      The Covenant has never placed an asset inside his secretariat, and his public record offers
+      nothing to hold: no scandal, no leak, no family.</p>
+      <p><em>Assessment: courteous, unhurried; answers only what he chooses. Assume every silence is
+      deliberate.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> The L7 accounting scene — in person, or as
@@ -1651,14 +1551,13 @@
     foundAtSlugs: [sangreal-l4]
     npcSlugs: [sangreal-npc-graf]
     content: >
-      <p>A clinician in her fifties, white coat, reading glasses pushed up,
-      hands steady. Principal investigator of the oncology protocol at
-      Privatklinik Sonnenberg — a scientist who signed up to test a therapy and
-      stayed to catalogue what it really did.</p>
-      <p>She is the case's sober witness: whatever the players believe about
-      the cure, she has the slides.</p>
-      <p><em>Found at: L4 — the clinic, or the extraction dilemma when the
-      sanitization team arrives.</em></p>
+      <p><strong>Dossier — Dr. Elizabeth Graf.</strong> Clinician; principal investigator of an
+      oncology protocol in Zurich; fifties.</p>
+      <p>Photographed in a white coat, reading glasses pushed up on her forehead, hands steady.
+      Published, careful, no disciplinary history — and, in the Covenant's experience, one of very few
+      clinicians who keeps records the way records should be kept.</p>
+      <p><em>Assessment: methodical and stubborn about detail; treats a question like a
+      specimen.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> At L4 the moment the cell earns her trust —
@@ -1687,14 +1586,14 @@
     foundAtSlugs: [sangreal-l4]
     npcSlugs: [sangreal-npc-hausmann]
     content: >
-      <p>An elderly man in a ruined evening suit, standing terribly still in
-      low light — gaunt, too pale, head tilted at an angle that has stopped
-      being human. The banker who bought the first phial at the Zurich
-      hand-off, and the reason the words <em>patient 09-H</em> appear in every
-      file the cell has collected.</p>
-      <p>He does not blink in the photograph. He does not need to.</p>
-      <p><em>Found at: L4 — he haunts the Sonnenberg grounds and the third
-      floor he emptied.</em></p>
+      <p><strong>Dossier — Kurt Hausmann.</strong> Private banker, Zurich; sixty-two. Photographed
+      much changed from his last known portrait: gaunt, grey, evening dress in disrepair, standing far
+      too still.</p>
+      <p>His background is ordinary money — two addresses, a marriage, an unremarkable clientele. The
+      file holds no account of the last month of his life: no bank attendance, no medical leave filed,
+      no missing-person report from anyone.</p>
+      <p><em>Assessment: identity confirmed against intake records; current condition unknown. Handle
+      with caution.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> Show only after the cell has seen the
@@ -1726,15 +1625,12 @@
     foundAtSlugs: [sangreal-l1, sangreal-l2]
     npcSlugs: [sangreal-npc-ghiberti]
     content: >
-      <p>A small, precise man in an archivist's cassock, keys and reading
-      glasses on a lanyard, standing in a corridor that is mostly card
-      catalogues. The Covenant's contact inside the Vatican Secret Archives —
-      kept his post through three Prefects by being useful, quiet, and never
-      quite lying.</p>
-      <p>He will help the cell, at length, reluctantly, and with one eye on the
-      door.</p>
-      <p><em>Found at: L1 — the Vault IX investigation; L2 — the archive
-      extension requests.</em></p>
+      <p><strong>Dossier — Father Ghiberti.</strong> Archivist, the Secret Archives, Vatican City;
+      thirty-one years in post; four Prefects served.</p>
+      <p>Photographed among the card catalogues: small, precise, cassock and lanyard, reading glasses
+      to hand. He has rendered small assistances to Covenant researchers for fifteen years — none of
+      them written down on either side of the ledger.</p>
+      <p><em>Assessment: cannot be bought and cannot be hurried. Ask once, and ask plainly.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> Introduced at L1 the first time the cell
@@ -1764,14 +1660,13 @@
     foundAtSlugs: [sangreal-l3]
     npcSlugs: [sangreal-npc-mercier]
     content: >
-      <p>A night-desk banker, immaculate, fortyish, standing behind the marble
-      counter of the Union de Banques Suisses as if the building had grown him.
-      The clerk who personally attended the night deposit for locker 4409-C —
-      the man between the phials and everyone who wants them.</p>
-      <p>He has the eyes of someone doing arithmetic he cannot explain to
-      himself.</p>
-      <p><em>Found at: L3 — the bank, day or night; he does not leave the
-      building until the case does.</em></p>
+      <p><strong>Dossier — Jean-Paul Mercier.</strong> Night-desk clerk, private banking floor,
+      Geneva; forty-six.</p>
+      <p>Photographed behind the marble counter: immaculate suit, careful grooming. Eleven years at
+      the same desk, two commendations, and a personnel note concerning longstanding personal
+      debt.</p>
+      <p><em>Assessment: honest under normal pressure — and under more pressure than usual. Perceived
+      as strained; loyal to the institution rather than to any patron.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> At L3 when the cell works the bank —
@@ -1801,14 +1696,13 @@
     foundAtSlugs: [sangreal-l7]
     npcSlugs: [sangreal-npc-entita-operative]
     content: >
-      <p>A man in a grey overcoat, tie dark, haircut military, standing at a
-      kerbside checking his watch. No name, no rank, no insignia — just the
-      sense that he was already at this address long before the cell arrived,
-      and will be here long after they have gone.</p>
-      <p>He appears in the case file at three cities without ever once being
-      described by a witness.</p>
-      <p><em>Found at: L7 — the Congregation approach; earlier sightings remain
-      unattributed until the players match the coats.</em></p>
+      <p><strong>Dossier — unidentified male.</strong> No name, no rank, no insignia; now seen in
+      Covenant surveillance photographs from three cities.</p>
+      <p>Description: grey overcoat, dark tie, military cut of hair; a wristwatch consulted rather
+      than read; mid-forties; carries nothing. No diplomatic registry, no service record, and not one
+      witness statement mentions him.</p>
+      <p><em>Assessment: professional. He makes no effort to avoid cameras — either he does not mind
+      being seen, or he expects the photographs never to matter.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> Best introduced as the photo in I42; this
@@ -1838,14 +1732,12 @@
     foundAtSlugs: [sangreal-l6]
     npcSlugs: [sangreal-npc-basarab-operative]
     content: >
-      <p>A broad man in worker's clothes and a flat cap, standing in the dark by
-      a parked lorry, hands relaxed, facing the camera without concern. He looks
-      like a night-shift porter until you notice he has not shifted his weight
-      in the entire exposure.</p>
-      <p>One of the pack that came up from the freight yards and waited in the
-      service tunnels beneath the Lingotto without moving — for two days.</p>
-      <p><em>Found at: L6 — the pack is gone by the time the cell arrives; his
-      photograph remains.</em></p>
+      <p><strong>Dossier — unidentified male.</strong> No identification; description matches a man
+      seen along freight routes in Northern Italy.</p>
+      <p>Photographed at night beside a parked lorry: broad build, flat cap, worker's clothes, relaxed
+      hands. The exposure caught him mid-shift of weight — or rather, not shifting it at all.</p>
+      <p><em>Assessment: no paper trail under any name the Covenant has run. Men with no paper are
+      rare; assume tradecraft.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> Show after the slaughter — the card is part
@@ -1874,13 +1766,12 @@
     foundAtSlugs: [sangreal-l4]
     npcSlugs: [sangreal-mob-feralghouls]
     content: >
-      <p>A silhouette photographed from below in a hospital corridor: a figure
-      crouched against the ceiling, limbs folded at angles that have not been
-      human since sunrise, head turned fully backwards to face the light.</p>
-      <p>The patients and staff of Sonnenberg's third floor are not missing.
-      This is where they went.</p>
-      <p><em>Found at: L4 — the corridor camera, the vent shafts, and whatever
-      the cell still hears moving in the dark above them.</em></p>
+      <p><strong>Dossier — unidentified subject.</strong> Photographed from below by a fixed ward
+      camera: a figure holding position against a hospital corridor ceiling, limbs folded at angles no
+      human body holds, head turned back toward the lens.</p>
+      <p>No patient, staff member, or visitor matching the figure appears in any roster the Covenant
+      has checked, and the frame carries no time-stamp the clinic will explain.</p>
+      <p><em>Assessment: do not engage. Observe, report, withdraw.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> Absolutely not before the ward tape (I30).
@@ -1909,13 +1800,13 @@
     foundAtSlugs: [sangreal-l6]
     npcSlugs: [sangreal-npc-basarab-elder]
     content: >
-      <p>A tall, spare old man in a long coat, standing at a fence line in the
-      rain, face turned directly toward the camera. Old-world tailoring, old-world
-      stillness; the kind of old that does not negotiate with calendars.</p>
-      <p>He was photographed from a hiding place at four hundred metres. He
-      knew, and he did not care.</p>
-      <p><em>Found at: L6 — the airfield perimeter, in the last hour of the
-      mission, if the players are still watching.</em></p>
+      <p><strong>Dossier — unidentified male.</strong> No name; appears in Covenant case photographs
+      across three decades without aging.</p>
+      <p>Photographed at a fence line in the rain: tall and spare, long coat, the stillness of a man
+      who has never once hurried. Face turned directly toward the camera — photographed from hiding,
+      at four hundred metres.</p>
+      <p><em>Assessment: aware of the watcher; indifferent to being seen. There is no procedure in the
+      manual for this.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> The final image of the mission (I39 pairs
@@ -1946,14 +1837,12 @@
     foundAtSlugs: [sangreal-l1]
     npcSlugs: [sangreal-npc-gendarme-officer]
     content: >
-      <p>A uniformed gendarme in his fifties at the Vault IX gate house,
-      reading lamp on, ledger open, kettle just out of frame. He has stood this
-      post for eleven years and has signed for more secrets than most cardinals
-      will ever see.</p>
-      <p>He is not corrupt. He is tired — and tired men account for everything,
-      including the things they wish they hadn't seen.</p>
-      <p><em>Found at: L1 — the gate house, on the entry ledger's other
-      side.</em></p>
+      <p><strong>Dossier — gate-house gendarme officer.</strong> Vatican Gendarmerie; eleven years at
+      a single post; name on file with Wayfinder.</p>
+      <p>Photographed in the gate house: uniform pressed by habit, torch and log book squared to the
+      desk's edge, a kettle just out of frame.</p>
+      <p><em>Assessment: not corrupt; tired. Tired men account for everything — which is exactly why
+      they are worth asking.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> At L1, when the cell reviews the night of
@@ -1984,13 +1873,12 @@
     foundAtSlugs: []
     npcSlugs: [sangreal-npc-logistics-officer]
     content: >
-      <p>The Keep's quartermaster at Covenant HQ — middle-aged, cardigan and
-      lanyard, standing before a wall map of Europe with coloured pins in it.
-      Every plane ticket, forged permit, and equipment crate the cell has
-      received came through her windowless office.</p>
-      <p>She knows the case's route better than the agents who walk it.</p>
-      <p><em>Encountered at Covenant HQ; the map on her wall is the route she
-      believes the cell is taking.</em></p>
+      <p><strong>Dossier — Logistics Officer, The Keep.</strong> Quartermaster at Covenant
+      headquarters; twelve years' service.</p>
+      <p>Photographed at the duty map: cardigan and lanyard, pins and pencil in hand. Every permit,
+      crate, and rail warrant the Covenant moves passes her ledger, and nothing has ever been
+      misplaced.</p>
+      <p><em>Assessment: quiet competence. Answer her questions accurately; she checks.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> An HQ colour card — use it between
@@ -2021,14 +1909,11 @@
     foundAtSlugs: []
     npcSlugs: [sangreal-npc-wayfinder-analyst]
     content: >
-      <p>A young analyst in a radio room, headphones around her neck, teleprinter
-      spooling paper beside her. Wayfinder's remote-sensing desk — the woman who
-      reads the Covenant's magnetometers, wiretap summaries, and field
-      photographs that nobody in the field has time to study.</p>
-      <p>She can tell the cell things about their own case that they have not
-      noticed yet.</p>
-      <p><em>Encountered at Covenant HQ — or by courier report, if the cell
-      writes the right request.</em></p>
+      <p><strong>Dossier — Wayfinder remote-sensing analyst.</strong> Instrument desk, Wayfinder Wing;
+      recruited from a university geophysics bench four years ago.</p>
+      <p>Photographed at the teleprinter: headset around her neck, instrument plots pinned behind her,
+      the current page already circled in pencil before anyone asked.</p>
+      <p><em>Assessment: reads traces the way other people read handwriting.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> HQ scene; also the natural voice for
@@ -2060,14 +1945,11 @@
     foundAtSlugs: [sangreal-l5]
     npcSlugs: [sangreal-npc-turin-intermediary]
     content: >
-      <p>A soft, well-dressed man in his fifties at a café table, espresso and
-      folded newspaper arranged just so, a briefcase within reach. A freight
-      broker by licence and a middleman by profession — cars, goods, and
-      sometimes things that belong to neither category.</p>
-      <p>He looks like somebody's favourite uncle. He is somebody's favourite
-      uncle, probably.</p>
-      <p><em>Found at: L5 — the cafés around the Lingotto, or out of his depth
-      at the works themselves.</em></p>
+      <p><strong>Dossier — the Turin intermediary.</strong> Licensed freight broker; a string of
+      dissolved companies behind him; thirty years around docks and railheads.</p>
+      <p>Photographed at a café table: soft, well-dressed, espresso and folded newspaper arranged just
+      so, briefcase within reach. Known to keep promises and books in equal order.</p>
+      <p><em>Assessment: loyal to the invoice. Pay on delivery; never on account.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> At L5 — surveillance first, then a
@@ -2097,14 +1979,13 @@
     foundAtSlugs: [sangreal-l1]
     npcSlugs: [sangreal-npc-watcher]
     content: >
-      <p>A man in a grey raincoat, seated on a bench with a newspaper, face
-      three-quarters to the camera. Nothing about him is memorable — build
-      average, features average, coat the colour of weather. That is a skill,
-      and skills are learned.</p>
-      <p>He appears in the case file's photographs more often than any bishop,
-      always one carriage back, always finished with the newspaper before the
-      train arrives.</p>
-      <p><em>Found at: L1 — the second descent; every city since.</em></p>
+      <p><strong>Dossier — unidentified male.</strong> No name; appears in Covenant surveillance
+      photographs in three countries across several years.</p>
+      <p>Description: grey raincoat, average build and features, a folded newspaper used like
+      furniture; never placed at the centre of any frame, never once the subject of a witness
+      statement.</p>
+      <p><em>Assessment: whatever this is, it is a discipline. The file will be updated when there is
+      more to say.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> The reveal card for the Watcher — show
