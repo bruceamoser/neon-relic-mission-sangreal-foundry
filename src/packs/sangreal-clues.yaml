@@ -1443,8 +1443,10 @@
       <p><strong>Dossier — Monsignor Matteo Corvi.</strong> Curator of the Secret Archives, Vatican
       City; late sixties. In Covenant records for eighteen years as a cooperating scholar — among the
       few men inside the Vatican who has ever answered a straight question with a straight answer.</p>
-      <p>Photographed at his reading desk at night: black clerical dress, spectacles, a fountain pen
-      kept in hand; his colour is poor and the room is lit by a single lamp.</p>
+      <p>His office controls physical access to the Archives and its suppressed index; no Covenant
+      operation behind those walls has ever succeeded without his goodwill. Description: black
+      clerical dress and spectacles; slight build; keeps late hours by habit. Researchers who have
+      worked beside him describe exact references, no speculation, and no favours asked in return.</p>
       <p><em>Assessment: meticulous, private, impossible to hurry. Responds to scholarship and to
       candour, and to nothing else.</em></p>
     hqFallback: 0
@@ -1478,13 +1480,14 @@
     foundAtSlugs: [sangreal-l2, sangreal-l5, sangreal-l6]
     npcSlugs: [sangreal-npc-vane]
     content: >
-      <p><strong>Dossier — Sister Claudia Vane.</strong> Nun of the diocese of Rome; attached to
-      Covenant field-liaison duties for four years; late thirties.</p>
-      <p>Photographed in habit and veil, hands folded, posture at rest; a plain wooden rosary at her
-      belt. Her service record carries no complaint and no correction — reports filed on time,
-      equipment returned in better condition than it was issued.</p>
-      <p><em>Assessment: exact, calm, self-contained. The file contains no photograph of her in
-      motion; she appears only when she has decided to.</em></p>
+      <p><strong>Dossier — Sister Claudia Vane.</strong> Nun of the diocese of Rome; late thirties;
+      attached to Covenant field-liaison duties for four years.</p>
+      <p>Service record: no complaint, no correction; reports filed on time, equipment returned in
+      better condition than it was issued. Description: grey habit and veil; plain wooden rosary worn
+      at the belt. She maintains no visible ties outside her diocese and her duties, and she resolves
+      problems before anyone upstream learns there was one.</p>
+      <p><em>Assessment: exact, calm, self-contained. Her arrangements hold; that is all the Rome
+      station has ever needed to know about her.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> Two reveals. Early: a benign portrait
@@ -1517,11 +1520,11 @@
     content: >
       <p><strong>Dossier — Cardinal Enrico Sabbatini.</strong> Prefect of the Congregation for the
       Doctrine of the Faith; late seventies; four decades in the Curia.</p>
-      <p>Photographed at his desk beneath a green banker's lamp, one hand resting flat on a dossier.
-      The Covenant has never placed an asset inside his secretariat, and his public record offers
-      nothing to hold: no scandal, no leak, no family.</p>
-      <p><em>Assessment: courteous, unhurried; answers only what he chooses. Assume every silence is
-      deliberate.</em></p>
+      <p>The Covenant has never placed an asset inside his secretariat, and his public record offers
+      nothing to hold: no scandal, no leak, no family. Description: immaculate dress, unhurried
+      carriage; a voice used sparingly and never raised. He receives whom he chooses, when he
+      chooses, and answers only what he is asked — nothing more, ever.</p>
+      <p><em>Assessment: courteous, unhurried. Assume every silence is deliberate.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> The L7 accounting scene — in person, or as
@@ -1553,9 +1556,9 @@
     content: >
       <p><strong>Dossier — Dr. Elizabeth Graf.</strong> Clinician; principal investigator of an
       oncology protocol in Zurich; fifties.</p>
-      <p>Photographed in a white coat, reading glasses pushed up on her forehead, hands steady.
-      Published, careful, no disciplinary history — and, in the Covenant's experience, one of very few
-      clinicians who keeps records the way records should be kept.</p>
+      <p>Published widely and careful with detail; no disciplinary history in any registry the
+      Covenant can reach. Description: white coat and reading glasses; precise, unhurried speech;
+      concedes what she does not know. When she says she keeps full records, she means it.</p>
       <p><em>Assessment: methodical and stubborn about detail; treats a question like a
       specimen.</em></p>
     hqFallback: 0
@@ -1586,14 +1589,14 @@
     foundAtSlugs: [sangreal-l4]
     npcSlugs: [sangreal-npc-hausmann]
     content: >
-      <p><strong>Dossier — Kurt Hausmann.</strong> Private banker, Zurich; sixty-two. Photographed
-      much changed from his last known portrait: gaunt, grey, evening dress in disrepair, standing far
-      too still.</p>
-      <p>His background is ordinary money — two addresses, a marriage, an unremarkable clientele. The
-      file holds no account of the last month of his life: no bank attendance, no medical leave filed,
-      no missing-person report from anyone.</p>
-      <p><em>Assessment: identity confirmed against intake records; current condition unknown. Handle
-      with caution.</em></p>
+      <p><strong>Dossier — Kurt Hausmann.</strong> Private banker, Zurich; sixty-two. Identity
+      confirmed against the clinic's intake records: the name on the ward paperwork and the man in
+      the bank's personnel files are one and the same.</p>
+      <p>Background: ordinary money — two addresses, a marriage, an unremarkable clientele. The file
+      holds no account of the last month of his life: no attendance at the bank, no medical leave
+      filed, no missing-person report from anyone — no employer, tenant, or relative has made an
+      inquiry.</p>
+      <p><em>Assessment: current condition unknown. Handle with caution.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> Show only after the cell has seen the
@@ -1627,9 +1630,10 @@
     content: >
       <p><strong>Dossier — Father Ghiberti.</strong> Archivist, the Secret Archives, Vatican City;
       thirty-one years in post; four Prefects served.</p>
-      <p>Photographed among the card catalogues: small, precise, cassock and lanyard, reading glasses
-      to hand. He has rendered small assistances to Covenant researchers for fifteen years — none of
-      them written down on either side of the ledger.</p>
+      <p>Has rendered small assistances to Covenant researchers for fifteen years — none of them
+      written down on either side of the ledger. Description: small and precise; cassock and lanyard;
+      reading glasses always to hand. Knows the stacks by heart and answers the question that was
+      actually asked — not the one he was supposed to answer.</p>
       <p><em>Assessment: cannot be bought and cannot be hurried. Ask once, and ask plainly.</em></p>
     hqFallback: 0
     daNotes: >
@@ -1661,10 +1665,11 @@
     npcSlugs: [sangreal-npc-mercier]
     content: >
       <p><strong>Dossier — Jean-Paul Mercier.</strong> Night-desk clerk, private banking floor,
-      Geneva; forty-six.</p>
-      <p>Photographed behind the marble counter: immaculate suit, careful grooming. Eleven years at
-      the same desk, two commendations, and a personnel note concerning longstanding personal
-      debt.</p>
+      Geneva; forty-six. Eleven years at the same desk; two commendations; one personnel note
+      concerning longstanding personal debt.</p>
+      <p>Description: immaculate suit, careful grooming; keeps his counter and his ledger in the same
+      order, everything square and accounted for. Colleagues describe a man who does not bend the
+      rules and does not discuss his evenings.</p>
       <p><em>Assessment: honest under normal pressure — and under more pressure than usual. Perceived
       as strained; loyal to the institution rather than to any patron.</em></p>
     hqFallback: 0
@@ -1698,11 +1703,12 @@
     content: >
       <p><strong>Dossier — unidentified male.</strong> No name, no rank, no insignia; now seen in
       Covenant surveillance photographs from three cities.</p>
-      <p>Description: grey overcoat, dark tie, military cut of hair; a wristwatch consulted rather
-      than read; mid-forties; carries nothing. No diplomatic registry, no service record, and not one
-      witness statement mentions him.</p>
-      <p><em>Assessment: professional. He makes no effort to avoid cameras — either he does not mind
-      being seen, or he expects the photographs never to matter.</em></p>
+      <p>Description: grey overcoat, dark tie, military cut of hair; mid-forties; carries nothing;
+      checks his watch as a matter of habit rather than need. No diplomatic registry, no service
+      record, and not one witness statement mentions him — he makes no effort to avoid the
+      coverage, which suggests either indifference or a confidence that it will never matter.</p>
+      <p><em>Assessment: professional, disciplined, deliberately unremarkable. Do not initiate
+      contact.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> Best introduced as the photo in I42; this
@@ -1734,10 +1740,11 @@
     content: >
       <p><strong>Dossier — unidentified male.</strong> No identification; description matches a man
       seen along freight routes in Northern Italy.</p>
-      <p>Photographed at night beside a parked lorry: broad build, flat cap, worker's clothes, relaxed
-      hands. The exposure caught him mid-shift of weight — or rather, not shifting it at all.</p>
-      <p><em>Assessment: no paper trail under any name the Covenant has run. Men with no paper are
-      rare; assume tradecraft.</em></p>
+      <p>Description: broad build, flat cap, worker's clothes; stands and moves like a man who has
+      never once been in a hurry and never once been late. No paper trail exists under any name the
+      Covenant has run — no border records, no customs history, no next of kin.</p>
+      <p><em>Assessment: men with no paper are rare; assume tradecraft, and assume he is not
+      alone.</em></p>
     hqFallback: 0
     daNotes: >
       <p><strong>Retrieval.</strong> Show after the slaughter — the card is part
@@ -1766,11 +1773,12 @@
     foundAtSlugs: [sangreal-l4]
     npcSlugs: [sangreal-mob-feralghouls]
     content: >
-      <p><strong>Dossier — unidentified subject.</strong> Photographed from below by a fixed ward
-      camera: a figure holding position against a hospital corridor ceiling, limbs folded at angles no
-      human body holds, head turned back toward the lens.</p>
-      <p>No patient, staff member, or visitor matching the figure appears in any roster the Covenant
-      has checked, and the frame carries no time-stamp the clinic will explain.</p>
+      <p><strong>Dossier — unidentified subject.</strong> No patient, staff member, or visitor
+      matching the figure appears in any clinic roster the Covenant has checked, and no clinic
+      record accounts for its presence.</p>
+      <p>Records check: nothing resembling the subject appears in clinic archives, gendarmerie
+      files, or any Bestiary index consulted to date. No Covenant station has recorded its like —
+      the standard guidance for unclassified hostile phenomena therefore applies.</p>
       <p><em>Assessment: do not engage. Observe, report, withdraw.</em></p>
     hqFallback: 0
     daNotes: >
@@ -1802,9 +1810,10 @@
     content: >
       <p><strong>Dossier — unidentified male.</strong> No name; appears in Covenant case photographs
       across three decades without aging.</p>
-      <p>Photographed at a fence line in the rain: tall and spare, long coat, the stillness of a man
-      who has never once hurried. Face turned directly toward the camera — photographed from hiding,
-      at four hundred metres.</p>
+      <p>Description: tall and spare; long dark coat; the stillness of a man who has never once
+      hurried. No civil record, no residence, and no travel document exists under any identity the
+      Covenant has tested. He is aware of being watched and has never once altered his behaviour
+      because of it.</p>
       <p><em>Assessment: aware of the watcher; indifferent to being seen. There is no procedure in the
       manual for this.</em></p>
     hqFallback: 0
@@ -1839,8 +1848,9 @@
     content: >
       <p><strong>Dossier — gate-house gendarme officer.</strong> Vatican Gendarmerie; eleven years at
       a single post; name on file with Wayfinder.</p>
-      <p>Photographed in the gate house: uniform pressed by habit, torch and log book squared to the
-      desk's edge, a kettle just out of frame.</p>
+      <p>Description: uniform pressed by habit; torch and log book squared to the desk's edge, the
+      same way, every night. Record: punctual, sober, no proceedings against him. He gives his
+      statements carefully and volunteers nothing beyond the facts.</p>
       <p><em>Assessment: not corrupt; tired. Tired men account for everything — which is exactly why
       they are worth asking.</em></p>
     hqFallback: 0
@@ -1875,9 +1885,10 @@
     content: >
       <p><strong>Dossier — Logistics Officer, The Keep.</strong> Quartermaster at Covenant
       headquarters; twelve years' service.</p>
-      <p>Photographed at the duty map: cardigan and lanyard, pins and pencil in hand. Every permit,
-      crate, and rail warrant the Covenant moves passes her ledger, and nothing has ever been
-      misplaced.</p>
+      <p>Every permit, crate, and rail warrant the Covenant moves passes her ledger, and nothing has
+      ever been misplaced. Description: cardigan and lanyard; runs her department from the duty map
+      by preference. Double-checks other people's arithmetic without comment, and is almost never
+      wrong.</p>
       <p><em>Assessment: quiet competence. Answer her questions accurately; she checks.</em></p>
     hqFallback: 0
     daNotes: >
@@ -1911,8 +1922,10 @@
     content: >
       <p><strong>Dossier — Wayfinder remote-sensing analyst.</strong> Instrument desk, Wayfinder Wing;
       recruited from a university geophysics bench four years ago.</p>
-      <p>Photographed at the teleprinter: headset around her neck, instrument plots pinned behind her,
-      the current page already circled in pencil before anyone asked.</p>
+      <p>Colleagues route unusual traces past her before they go anywhere else; she keeps every plot
+      the Wing has ever pulled, filed by region and date. Description: early thirties; answers
+      questions completely, and has a habit of having already circled the anomaly before anyone asks
+      her to look.</p>
       <p><em>Assessment: reads traces the way other people read handwriting.</em></p>
     hqFallback: 0
     daNotes: >
@@ -1947,8 +1960,8 @@
     content: >
       <p><strong>Dossier — the Turin intermediary.</strong> Licensed freight broker; a string of
       dissolved companies behind him; thirty years around docks and railheads.</p>
-      <p>Photographed at a café table: soft, well-dressed, espresso and folded newspaper arranged just
-      so, briefcase within reach. Known to keep promises and books in equal order.</p>
+      <p>Description: soft, well-dressed; does business only in public, on ground he chooses. Keeps
+      promises and books in equal order, and answers only the questions he is paid to answer.</p>
       <p><em>Assessment: loyal to the invoice. Pay on delivery; never on account.</em></p>
     hqFallback: 0
     daNotes: >
@@ -1981,9 +1994,9 @@
     content: >
       <p><strong>Dossier — unidentified male.</strong> No name; appears in Covenant surveillance
       photographs in three countries across several years.</p>
-      <p>Description: grey raincoat, average build and features, a folded newspaper used like
-      furniture; never placed at the centre of any frame, never once the subject of a witness
-      statement.</p>
+      <p>Description: grey raincoat, average build and features; carries a folded newspaper. He has
+      never once been the subject of a witness statement, and no record anywhere matches the face the
+      index keeps proposing. He is never doing anything, and he is never absent either.</p>
       <p><em>Assessment: whatever this is, it is a discipline. The file will be updated when there is
       more to say.</em></p>
     hqFallback: 0
