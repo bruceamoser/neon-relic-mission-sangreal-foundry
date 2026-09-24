@@ -138,8 +138,12 @@ Hooks.once('ready', async () => {
 /* -------------------------------------------- */
 
 /**
- * Import plan: pack → destination subfolder under the shared root.
- * Folders are created per document collection (Items, Actors, Journals, Tables, Scenes).
+ * Curated import plan: pack → destination subfolder under the shared root.
+ *
+ * This is a PRESENTATION mapping only — it decides which subfolder a pack's
+ * documents land in. Any pack declared in the module manifest but missing here
+ * is still imported (see `buildInstallPlan`), so adding a pack to
+ * `static/module.json` can never leave it silently un-imported.
  * @type {Array<{pack: string, folder: string|null}>}
  */
 const INSTALL_PLAN = [
@@ -148,12 +152,39 @@ const INSTALL_PLAN = [
   { pack: 'sangreal-clues', folder: 'Clues' },
   { pack: 'sangreal-sites', folder: 'Sites' },
   { pack: 'sangreal-relics', folder: 'Relics' },
+  { pack: 'sangreal-sfx', folder: 'Sound Effects' },
   { pack: 'sangreal-scenes', folder: null },
   { pack: 'sangreal-tables', folder: null },
   { pack: 'sangreal-journals', folder: null },
 ];
 
 const ROOT_FOLDER_NAME = 'Mission: Sangreal';
+
+/**
+ * Build the import plan from the manifest, then report any declared pack this
+ * server has not registered yet.
+ *
+ * Foundry registers compendium packs at server start, so a pack added by a
+ * module update does not exist in `game.packs` until Foundry is restarted — the
+ * installer used to skip such a pack silently.
+ * @returns {{plan: Array<{pack: string, folder: string|null}>, missing: string[]}}
+ */
+function buildInstallPlan() {
+  const declared = new Map([...(game.modules.get(MODULE_ID)?.packs ?? [])].map((p) => [p.name, p]));
+  const plan = [];
+  const planned = new Set();
+  for (const entry of INSTALL_PLAN) {
+    if (!declared.has(entry.pack)) continue;
+    plan.push({ pack: entry.pack, folder: entry.folder });
+    planned.add(entry.pack);
+  }
+  for (const [name, meta] of declared) {
+    if (planned.has(name)) continue;
+    plan.push({ pack: name, folder: meta.type === 'Scene' ? null : (meta.label ?? name) });
+  }
+  const missing = [...declared.keys()].filter((name) => !game.packs.get(`${MODULE_ID}.${name}`));
+  return { plan, missing };
+}
 
 /**
  * Find or create a folder in a document collection.
@@ -244,7 +275,17 @@ async function installContent() {
   let failed = 0;
   const sceneStats = { repaired: 0 };
 
-  for (const { pack: packName, folder: subfolderName } of INSTALL_PLAN) {
+  const { plan, missing } = buildInstallPlan();
+  if (missing.length) {
+    ui.notifications.warn(
+      `Mission: Sangreal — this build added ${missing.length} new pack(s) that Foundry has not loaded yet: ${missing.join(', ')}. ` +
+        'Restart Foundry (quit the app, not just the world), then run the installer again.',
+      { permanent: true },
+    );
+    console.warn(`${MODULE_ID} | installer: packs declared but not registered`, missing);
+  }
+
+  for (const { pack: packName, folder: subfolderName } of plan) {
     const pack = game.packs.get(`${MODULE_ID}.${packName}`);
     if (!pack) {
       console.warn(`${MODULE_ID} | installer: pack ${packName} not found, skipping`);
@@ -307,7 +348,9 @@ async function installContent() {
   notification?.remove?.();
   const summary = `Mission: Sangreal — content ready (${created} new, ${updated} updated${
     sceneStats.repaired ? `, ${sceneStats.repaired} scenes repaired` : ''
-  }${failed ? `, ${failed} failed` : ''}).`;
+  }${failed ? `, ${failed} failed` : ''}${
+    missing.length ? `, ${missing.length} pack(s) awaiting a Foundry restart` : ''
+  }).`;
   console.log(`${MODULE_ID} | installer: ${summary}`);
   if (failed) {
     ui.notifications.error(`${failed} document(s) failed to install — see the console for details.`);
