@@ -36,13 +36,14 @@ const EXPECTED_DOCS = {
   'sangreal-relics': 10,
   'sangreal-tables': 1,
   'sangreal-journals': 4,
-  'sangreal-scenes': 1,
+  'sangreal-scenes': 27,
 };
 
 /** Expected child-entry counts (journal pages, table results). */
 const EXPECTED_CHILDREN = {
+  'sangreal-scenes': { prefix: '!scenes.levels!', count: 27 },
   'sangreal-tables': { prefix: '!tables.results!', count: 4 },
-  'sangreal-journals': { prefix: '!journal.pages!', count: 25 },
+  'sangreal-journals': { prefix: '!journal.pages!', count: 26 },
 };
 
 /** Cross-reference UUID array fields produced from authoring slug fields. */
@@ -80,6 +81,15 @@ async function audit() {
     notes.push(`pack sync: ${declaredPaths.length} declared packs all present`);
   }
 
+  // GM-only pack ownership: mission packs carry spoilers (DA walkthrough, GM index,
+  // clue DA-notes, maps) and must not default to the player-observable schema default.
+  const openPacks = manifest.packs.filter((p) => p.ownership?.PLAYER !== 'NONE');
+  if (openPacks.length) {
+    errors.push(`packs missing PLAYER: NONE ownership: ${openPacks.map((p) => p.name).join(', ')}`);
+  } else {
+    notes.push(`pack ownership: all ${manifest.packs.length} packs locked to GM (PLAYER: NONE)`);
+  }
+
   // 2 + 3. Per-pack counts, key formats, and cross-links.
   let linkCount = 0;
   const badLinks = [];
@@ -109,7 +119,7 @@ async function audit() {
     }
 
     for (const key of keys) {
-      const ok = /^!(items|actors|journal|journal\.pages|tables|tables\.results|macros|scenes)!/u.test(key);
+      const ok = /^!(items|actors|journal|journal\.pages|tables|tables\.results|macros|scenes|scenes\.levels)!/u.test(key);
       if (!ok) errors.push(`${pack}: unexpected key format "${key}"`);
     }
 

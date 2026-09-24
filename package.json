@@ -32,7 +32,8 @@
     "art:queue": "python3 tools/art/pipeline.py queue",
     "art:qa": "python3 tools/art/pipeline.py qa",
     "art:integrate": "python3 tools/art/pipeline.py integration-plan",
-    "art:test": "python3 -m unittest discover -s tools/art -p 'test_*.py'"
+    "art:test": "python3 -m unittest discover -s tools/art -p 'test_*.py'",
+    "scenes:verify": "node tools/verify-scene-integration.mjs"
   },
   "devDependencies": {
     "classic-level": "^3.0.0",

@@ -1,0 +1,717 @@
+{
+  "version": 2,
+  "status": "APPROVED",
+  "grid_preference": "Gridless production default",
+  "sources": [
+    {
+      "path": "src/packs/sangreal-sites.yaml",
+      "sha256": "7fde95b49bbf3e51f4e10d7cf37343e7ac3a83d86c7aa5cd3dc8ec2cb664d194",
+      "current_sha256": "7fde95b49bbf3e51f4e10d7cf37343e7ac3a83d86c7aa5cd3dc8ec2cb664d194",
+      "changed_since_planning": false
+    },
+    {
+      "path": "src/packs/sangreal-journals.yaml",
+      "sha256": "a7b5efcf28c572d9b628fb8822aaa7ce7b06de679d11e7c11c10452b2d68af64",
+      "current_sha256": "a7b5efcf28c572d9b628fb8822aaa7ce7b06de679d11e7c11c10452b2d68af64",
+      "changed_since_planning": false
+    },
+    {
+      "path": "src/packs/sangreal-clues.yaml",
+      "sha256": "b4b9bc4e065a5a4d3ffbe2ece310d5691420e79ff1be3c8bf81e61fdcdd101c1",
+      "current_sha256": "b4b9bc4e065a5a4d3ffbe2ece310d5691420e79ff1be3c8bf81e61fdcdd101c1",
+      "changed_since_planning": false
+    }
+  ],
+  "assets": [
+    {
+      "id": "TM01",
+      "location": "L1",
+      "title": "Hydraulic lift vestibule and descent",
+      "kind": "theater-of-mind",
+      "filename": "tm-lift-descent.webp",
+      "status": "APPROVED",
+      "reveal": "On authorized first entry.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Hydraulic lift vestibule and descent. Octagonal Roman-brick chamber faced in lead; black granite altar, damaged copper conduits, refrigeration pipes, hydraulic lift vestibule. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. Arrival reveals room damage, not readable SANGREAL plaque or hidden lower access.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-lift-descent.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 186952,
+      "sha256": "f33a9e23c3d21a2e6d421a98bf714f226140fe4e960effb66532cbbcd66ec52e",
+      "master_sha256": "2d27562f2ce2685f817015ab5445454636851d0012277a2d799ceca3a738193c",
+      "prompt": "Create one standalone theater-of-the-mind environment image: Hydraulic lift vestibule and descent. Octagonal Roman-brick chamber faced in lead; black granite altar, damaged copper conduits, refrigeration pipes, hydraulic lift vestibule. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. Arrival reveals room damage, not readable SANGREAL plaque or hidden lower access.\nUse case: photorealistic-natural. Eye-level photorealistic film still, one image, no floorplan. All objects physically plausible, no people. Use OCTAGONAL VAULT map as architecture reference, ignore apartment. Focus ONLY on the narrow hydraulic lift vestibule: old industrial elevator cage, worn concrete threshold and pipes, bronze-toned utilitarian fittings, cold lamp glow. View from lift landing toward an opaque closed security door, no view through to vault interior. No stair pit, no readable text, no occult symbols.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.e5iULuABev6xj4n0"
+    },
+    {
+      "id": "TM02",
+      "location": "L1",
+      "title": "Vault IX arrival",
+      "kind": "theater-of-mind",
+      "filename": "tm-vault-arrival.webp",
+      "status": "APPROVED",
+      "reveal": "On authorized first entry.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Vault IX arrival. Octagonal Roman-brick chamber faced in lead; black granite altar, damaged copper conduits, refrigeration pipes, hydraulic lift vestibule. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. Arrival reveals room damage, not readable SANGREAL plaque or hidden lower access.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-vault-arrival.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 225170,
+      "sha256": "29ef9b9564a9f7da182ce0d57c9ef9c75fada005f443923aa010afc4bed19252",
+      "master_sha256": "001cda49b6a5196417dc70bd816015865e2b1f149e0abc75b1b2c8d37ef38888",
+      "prompt": "Create one standalone theater-of-the-mind environment image: Vault IX arrival. Octagonal Roman-brick chamber faced in lead; black granite altar, damaged copper conduits, refrigeration pipes, hydraulic lift vestibule. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. Arrival reveals room damage, not readable SANGREAL plaque or hidden lower access.\nUse case: photorealistic-natural. Eye-level photorealistic film still, one image, no floorplan. All objects physically plausible, no people. Use OCTAGONAL VAULT map as layout reference, ignore apartment. View from south vestibule into octagonal chamber, black granite plinth centrally, reddish Roman brick floor crossed by dark stone bands, lead-paneled walls, copper refrigeration pipes with visible localized scorch and melted conduit near altar, small maintenance door in far right bevel. Vault ceiling present, dim utilitarian light. No case, no writing on plaque, no glowing relic or fantasy machinery.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.fk4iveJh9oz2DMDa"
+    },
+    {
+      "id": "TM03",
+      "location": "L2",
+      "title": "Corvi quarters arrival",
+      "kind": "theater-of-mind",
+      "filename": "tm-quarters-arrival.webp",
+      "status": "APPROVED",
+      "reveal": "On entering the apartment.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Corvi quarters arrival. Baroque apartment; patristic books, precisely searched drawers, desk and oil painting concealing a drilled wall safe. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. Keep safe and cipher hidden in arrival view; use existing handouts when discovered.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-quarters-arrival.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 184286,
+      "sha256": "9a42817dfede8b4ee4f9246542faa1590644248ace1c0b892f672a9a85e4ba49",
+      "master_sha256": "d82dbf5cf7a86da3986082d33bf2e39bd923b32dff36245fdb4d6410fec4532b",
+      "prompt": "Use case: precise-object-edit. Edit the study photograph. Change ONLY the image inside the large gilded picture frame above the desk: replace landscape with an authentic old Baroque devotional oil painting of Saint Sebastian, adult saint with draped waist cloth and traditional martyr iconography, non-graphic. Preserve frame, camera, rainy window, desk, open drawers, bookshelves, furniture and lighting exactly. Painting must look like aged oil paint within the room, not a pasted image. No readable text. No other changes.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.1xPFy0jFa4uqHScD"
+    },
+    {
+      "id": "TM04",
+      "location": "L3",
+      "title": "Geneva bank exterior",
+      "kind": "theater-of-mind",
+      "filename": "tm-bank-arrival.webp",
+      "status": "APPROVED",
+      "reveal": "After Geneva lead is followed.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Geneva bank exterior. Gray granite neoclassical bank; wood-paneled private viewing rooms and chrome vault doors. Composition: human eye-level cinematic exterior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No locker numbers, client identities, documents or route clues.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-bank-arrival.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 305302,
+      "sha256": "8af99b5d3b114cf08dfafe3a1d53b2c5dff92e49a834b87d806c143907433303",
+      "master_sha256": "cad48cb4215d7560c065ec223966620824842e0147bc4c58c06aa75e36af657b",
+      "prompt": "Create one standalone theater-of-the-mind environment image: Geneva bank exterior. Gray granite neoclassical bank; wood-paneled private viewing rooms and chrome vault doors. Composition: human eye-level cinematic exterior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No locker numbers, client identities, documents or route clues.\nUse case: photorealistic-natural. ONLY exterior establishing photograph on a rainy Geneva street, sober gray alpine granite neoclassical facade, discreet brass entrance, wet pavement, overcast late afternoon. No interior cutaway, no recognizable humans, no legible signage, no cars to distract. Architecture is a fictional banking house, not an exact real landmark.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.WYkoHrGfng0UZ3lZ"
+    },
+    {
+      "id": "TM05",
+      "location": "L3",
+      "title": "Private viewing room",
+      "kind": "theater-of-mind",
+      "filename": "tm-viewing-room.webp",
+      "status": "APPROVED",
+      "reveal": "After Geneva lead is followed.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Private viewing room. Gray granite neoclassical bank; wood-paneled private viewing rooms and chrome vault doors. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No locker numbers, client identities, documents or route clues.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-viewing-room.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 175398,
+      "sha256": "1657be8e1d8fc4ecd3b516213931b39d9d8e50f09d328606e8950422a3084608",
+      "master_sha256": "fd7eb60bb770c506b8a119010e4ff5ae78ccf093d9de7e5e45efdbdbce3246dc",
+      "prompt": "Create one standalone theater-of-the-mind environment image: Private viewing room. Gray granite neoclassical bank; wood-paneled private viewing rooms and chrome vault doors. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No locker numbers, client identities, documents or route clues.\nUse case: photorealistic-natural. Provided map is spatial reference ONLY. Eye-level cinematic photograph INSIDE one of the three private rooms at top-left of reference. Four leather chairs around small round wooden viewing table on muted oriental rug, walnut panels, lamp on narrow console at far wall. Heavy open doorway reveals a sliver of granite corridor. Empty room, no papers, no safe-deposit number, no characters, NO map viewpoint.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.w9Gp844xc19nFp0a"
+    },
+    {
+      "id": "TM06",
+      "location": "L4",
+      "title": "Sonnenberg forest approach",
+      "kind": "theater-of-mind",
+      "filename": "tm-clinic-arrival.webp",
+      "status": "APPROVED",
+      "reveal": "Exterior on arrival; ward only after entering third floor.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Sonnenberg forest approach. White concrete modernist clinic in forest; third-floor blackout sheeting, broken fluorescent fixtures, ward, surgical theatre and laboratory freezers. Composition: human eye-level cinematic exterior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No Hausmann, Graf, revealed test results or visible hidden attackers.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-clinic-arrival.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 243776,
+      "sha256": "525c7b8c8954439da91b74d37f16b40932836f3f44bbee36d41d052c0d2de68b",
+      "master_sha256": "85e787ca08cc1b60c1cfb53ccba79257bdcbae00f547e6d04b8ee0a37dee2b6f",
+      "prompt": "Create one standalone theater-of-the-mind environment image: Sonnenberg forest approach. White concrete modernist clinic in forest; third-floor blackout sheeting, broken fluorescent fixtures, ward, surgical theatre and laboratory freezers. Composition: human eye-level cinematic exterior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No Hausmann, Graf, revealed test results or visible hidden attackers.\nUse case: photorealistic-natural. Photorealistic 1987 location still, no map or split panels, no people, no monsters, no bodies, no readable text. Show ONLY the exterior approach: isolated three-storey concrete and glass clinic among wet trees, upper-floor windows covered from inside with opaque dark sheeting, late afternoon after rain, driveway leading to coherent entry. Interior rooms cannot be seen from outside. No ambulances or modern cars.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.kr4nu0sVNfrcGAJq"
+    },
+    {
+      "id": "TM07",
+      "location": "L4",
+      "title": "Blacked-out third-floor ward",
+      "kind": "theater-of-mind",
+      "filename": "tm-ward-arrival.webp",
+      "status": "APPROVED",
+      "reveal": "Exterior on arrival; ward only after entering third floor.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Blacked-out third-floor ward. White concrete modernist clinic in forest; third-floor blackout sheeting, broken fluorescent fixtures, ward, surgical theatre and laboratory freezers. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No Hausmann, Graf, revealed test results or visible hidden attackers.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-ward-arrival.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 134178,
+      "sha256": "a127f8b471ecc5d16b46cc2d2608d890dcbf412ad993c461ce6c3b07cb274fd1",
+      "master_sha256": "628b1513a9e615f3f7a4775d28759198f82d58f8e0c8c84328294e7acdca5f23",
+      "prompt": "Create one standalone theater-of-the-mind environment image: Blacked-out third-floor ward. White concrete modernist clinic in forest; third-floor blackout sheeting, broken fluorescent fixtures, ward, surgical theatre and laboratory freezers. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No Hausmann, Graf, revealed test results or visible hidden attackers.\nUse case: photorealistic-natural. Photorealistic 1987 location still, no map or split panels, no people, no monsters, no bodies, no readable text. Use the provided tactical ward layout only as architecture and palette reference. Create eye-level view along its long main corridor from west stair toward eastern lift, pale green walls, mustard doorframes, off-white linoleum, patient room doors on left, lab/theatre doors on right. Atmosphere is darker than map: ceiling fluorescent tubes broken, window blackout plastic visible through open patient-room doorway, dim emergency tungsten and spill from stair. Readable foreground. No ceiling creature, no bodies.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.1HRljmcL11d0CPLS"
+    },
+    {
+      "id": "TM08",
+      "location": "L4",
+      "title": "Surgical theatre refuge",
+      "kind": "theater-of-mind",
+      "filename": "tm-theatre.webp",
+      "status": "APPROVED",
+      "reveal": "Exterior on arrival; ward only after entering third floor.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Surgical theatre refuge. White concrete modernist clinic in forest; third-floor blackout sheeting, broken fluorescent fixtures, ward, surgical theatre and laboratory freezers. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No Hausmann, Graf, revealed test results or visible hidden attackers.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-theatre.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 143208,
+      "sha256": "bef725f4b3af92dbde7b097ec9c962ec6b7a5598eeced85a607169a3b7eb85da",
+      "master_sha256": "1dbd60cb4b96f09397da4f7639fd60151954a192f3dcdc738fc5424be964fe9a",
+      "prompt": "Create one standalone theater-of-the-mind environment image: Surgical theatre refuge. White concrete modernist clinic in forest; third-floor blackout sheeting, broken fluorescent fixtures, ward, surgical theatre and laboratory freezers. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No Hausmann, Graf, revealed test results or visible hidden attackers.\nUse case: photorealistic-natural. Photorealistic 1987 location still, no map or split panels, no people, no monsters, no bodies, no readable text. Use provided map only as palette and room layout reference, focus on southeast surgical theatre. Eye level from doorway: central operating table with green drape, two old surgical lamp heads, sinks along left wall, analog monitors and metal carts. Emergency task lamp, blacked-out windows, no Graf or patients, no blood, no visible evidence. Remove map viewpoint entirely.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jP9jheucndZOEHLE"
+    },
+    {
+      "id": "TM09",
+      "location": "L5",
+      "title": "Lingotto assembly hall",
+      "kind": "theater-of-mind",
+      "filename": "tm-factory-arrival.webp",
+      "status": "APPROVED",
+      "reveal": "On approach and entry; adaptable before or after confrontation.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Lingotto assembly hall. Abandoned assembly hall, concrete columns, broken skylights, wet floor, stairs and elevated glass supervisor booth; spiral ramps and rooftop test track. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No Corvi, Claudia, case, flash or escape action baked in.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-factory-arrival.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 290874,
+      "sha256": "8aef9cd2ca3d4ec261ddf19aaa58b74f69cd51caa160383f7e940b0288a50296",
+      "master_sha256": "26fe73238d34991c955aadcbab0e3a79e1e77fa1647e9cc92ee5c050756e6e2a",
+      "prompt": "Create one standalone theater-of-the-mind environment image: Lingotto assembly hall. Abandoned assembly hall, concrete columns, broken skylights, wet floor, stairs and elevated glass supervisor booth; spiral ramps and rooftop test track. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No Corvi, Claudia, case, flash or escape action baked in.\nUse case: photorealistic-natural. One eye-level cinematic photograph, no map viewpoint, no people, no text or tokens. Use FACTORY MAP reference for architecture only, ignore abbey. Camera at south loading entrance looking toward north-wall glass supervisor booth about fifty feet above floor. Huge abandoned hall, broad central aisle flanked by disconnected machine islands and derelict 1970s car bodies, concrete columns, rain leaking through broken skylights, yellow rails on booth gallery. Stair connections at both far corners. Building must be tall enough for booth height. No briefcase or figures.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.n61lTAaEdGfuCmPZ"
+    },
+    {
+      "id": "TM10",
+      "location": "L5",
+      "title": "Lingotto rooftop in rain",
+      "kind": "theater-of-mind",
+      "filename": "tm-rooftop.webp",
+      "status": "APPROVED",
+      "reveal": "On approach and entry; adaptable before or after confrontation.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Lingotto rooftop in rain. Abandoned assembly hall, concrete columns, broken skylights, wet floor, stairs and elevated glass supervisor booth; spiral ramps and rooftop test track. Composition: human eye-level cinematic exterior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No Corvi, Claudia, case, flash or escape action baked in.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-rooftop.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 216834,
+      "sha256": "0912590ad26460187636acc126117e1578ec463118a36857aef0109b454bf095",
+      "master_sha256": "9d701a4bbee891ca95da1445c018ad7e6839db785e2f78801e6e9d9668f588b3",
+      "prompt": "Create one standalone theater-of-the-mind environment image: Lingotto rooftop in rain. Abandoned assembly hall, concrete columns, broken skylights, wet floor, stairs and elevated glass supervisor booth; spiral ramps and rooftop test track. Composition: human eye-level cinematic exterior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No Corvi, Claudia, case, flash or escape action baked in.\nUse case: photorealistic-natural. One eye-level cinematic photograph, no map viewpoint, no people, no text or tokens. ONLY rooftop scene: long wet rooftop automobile test track of a 1920s Turin concrete factory, broad banked curve receding naturally in perspective, low industrial roof structures and Turin skyline under rain. No interior factory cutaway or visible lower-floor objects. No people, cars, glass modern shopping center or clue marks. Photographic 1987 abandoned industrial atmosphere.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.eu4Vy9WBx8iGce1d"
+    },
+    {
+      "id": "TM11",
+      "location": "L6",
+      "title": "Breached abbey approach",
+      "kind": "theater-of-mind",
+      "filename": "tm-abbey-arrival.webp",
+      "status": "APPROVED",
+      "reveal": "Exterior on arrival; interior after entry.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Breached abbey approach. Fortified medieval brick abbey on flat river plain, moat, breached oak carriage doors, cloister and stone-flagged dining hall lit by kerosene lantern. Composition: human eye-level cinematic exterior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No corpse, calcified fingers, telex contents or hidden killers; use existing forensic handouts separately.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-abbey-arrival.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 337900,
+      "sha256": "6b62c63c26295ad2dfc15cca8c4ecd1cb05af4c979cba057b6d99d291af717a7",
+      "master_sha256": "43b719164c663df5da959a8f5d81bd75ceb2a7e36c4c2f1dedab46c644075f98",
+      "prompt": "Create one standalone theater-of-the-mind environment image: Breached abbey approach. Fortified medieval brick abbey on flat river plain, moat, breached oak carriage doors, cloister and stone-flagged dining hall lit by kerosene lantern. Composition: human eye-level cinematic exterior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No corpse, calcified fingers, telex contents or hidden killers; use existing forensic handouts separately.\nUse case: photorealistic-natural. One human-eye-level cinematic photographic scene, no map or split views. No people, corpse, tokens, clue text. Use ABBEY COURTYARD map as architecture reference, ignore other maps. View from near end of narrow moat bridge facing breached gate in brick perimeter, battered oak doors broken INWARD beyond gate. Slight view into square courtyard through opening, distant arcade across north side. Flat northern Italian river plain, dusk after rain, vegetation subdued. No mountains or fantasy castle towers. Strong horizontal cinematic framing.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.EzLXgHrD8SOahA0Z"
+    },
+    {
+      "id": "TM12",
+      "location": "L6",
+      "title": "Abbey dining hall threshold",
+      "kind": "theater-of-mind",
+      "filename": "tm-dining-hall.webp",
+      "status": "APPROVED",
+      "reveal": "Exterior on arrival; interior after entry.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Abbey dining hall threshold. Fortified medieval brick abbey on flat river plain, moat, breached oak carriage doors, cloister and stone-flagged dining hall lit by kerosene lantern. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No corpse, calcified fingers, telex contents or hidden killers; use existing forensic handouts separately.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-dining-hall.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 129752,
+      "sha256": "f497ff81d5233686de5ae5550ece577542657fecdbae149ef9613909788ea342",
+      "master_sha256": "fe3f456e79b7d6e379575addea3b29e4453891efa1a773cba6368dfb47d98f2a",
+      "prompt": "Use case: lighting-weather. Edit target: first reference, the eye-level abbey dining hall PHOTO, not the map or study. Preserve composition, architecture, furniture, bare table and its one kerosene lantern. Turn OFF every wall lamp and side-room light. Only the single table lantern is burning, with faint cool ambient window light allowing the room to remain readable. Photorealistic 1987 deserted abbey. No people, text, bodies or new objects. Same widescreen framing.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.URoAcs3MRSAqrakE"
+    },
+    {
+      "id": "TM13",
+      "location": "AIR",
+      "title": "Abandoned airfield hangar",
+      "kind": "theater-of-mind",
+      "filename": "tm-hangar-arrival.webp",
+      "status": "APPROVED",
+      "reveal": "Only after following flight-clearance evidence.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Abandoned airfield hangar. Rainy night military apron, abandoned hangar, discarded fueling lines, service office and perimeter fence. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. Aircraft already departed in canonical arrival; no waiting Cessna or implied rescue opportunity.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-hangar-arrival.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 206510,
+      "sha256": "a90bdeb1818b42bed643534618f910aa7de5c280c97e7e938746b84cf2ecb4e3",
+      "master_sha256": "40f01d73602214ab61d4ae1cd420cb13dc039f95445cb81a764253379f130d69",
+      "prompt": "Create one standalone theater-of-the-mind environment image: Abandoned airfield hangar. Rainy night military apron, abandoned hangar, discarded fueling lines, service office and perimeter fence. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. Aircraft already departed in canonical arrival; no waiting Cessna or implied rescue opportunity.\nUse case: photorealistic-natural. One human-eye-level cinematic photographic scene, no map or split views. No people, corpse, tokens, clue text. Use AIRPORT MAP as reference, ignore abbey and council. Camera inside empty aircraft hangar facing open south doors and wet apron. Old 1980s fuel truck parked off to right outside, discarded hose on concrete foreground, far perimeter fencing in rain. NO aircraft anywhere: target already departed. No insignia, manifest, tail numbers or readable text. Subtle analog film grain, cold night with muted sodium floodlights.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.tlrpaGAGQo3Qhk98"
+    },
+    {
+      "id": "TM14",
+      "location": "L7",
+      "title": "Council chamber",
+      "kind": "theater-of-mind",
+      "filename": "tm-council.webp",
+      "status": "APPROVED",
+      "reveal": "On the return to Rome, or relevant authorized earlier visit.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Council chamber. Walnut council chamber, Renaissance frescoes, green banker lamps; formal antechamber and corridor. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No signed requisition, readable dossiers, hostile squad or revelation text.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-council.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 218430,
+      "sha256": "9f0e76ce2697c8fd9268dcfa2f7b506f6e73a2de710306d6883efc792c260593",
+      "master_sha256": "f11fd8efccd35a8f621cd537ff5ffd45d7b7042f6f2dde94839341650a228b48",
+      "prompt": "Create one standalone theater-of-the-mind environment image: Council chamber. Walnut council chamber, Renaissance frescoes, green banker lamps; formal antechamber and corridor. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No signed requisition, readable dossiers, hostile squad or revelation text.\nUse case: photorealistic-natural. One human-eye-level cinematic photographic scene, no map or split views. No people, corpse, tokens, clue text. Use COUNCIL MAP reference, ignore other maps. Eye-level room view from west double doors toward east windows. Walnut paneling, central polished oval conference table with green banker lamps, ten leather chairs, dark green oriental carpet, four coherent supporting columns, Renaissance frescoes on ceiling, rain-streaked tall windows. No people, readable documents or modern screens. Dignified subdued 1987 political thriller photography.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.c2expM3HLZD9xsBD"
+    },
+    {
+      "id": "TM15",
+      "location": "L7",
+      "title": "Claudia convent room",
+      "kind": "theater-of-mind",
+      "filename": "tm-convent-room.webp",
+      "status": "APPROVED",
+      "reveal": "On the return to Rome, or relevant authorized earlier visit.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Claudia convent room. Modest convent bedroom with bed, plain wardrobe, small devotional desk and closed personal storage; no visible blackmail file or tin contents. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No signed requisition, readable dossiers, hostile squad or revelation text.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-convent-room.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 144250,
+      "sha256": "cacf696cec9a866498e23a184abec3618358c7649eb82631a1ce25eabc58c199",
+      "master_sha256": "b8b4aa12590ae0ad2a62ce7ee58ea5f4ee614852bd7f38fc6a2d7ece38b9afa8",
+      "prompt": "Create one standalone theater-of-the-mind environment image: Claudia convent room. Modest convent bedroom with bed, plain wardrobe, small devotional desk and closed personal storage; no visible blackmail file or tin contents. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. No signed requisition, readable dossiers, hostile squad or revelation text.\nNo human figures anywhere. No pseudo-text, symbols that function as clues, or image border. Photorealistic cinematic environment, not a map, not an illustration, no captions. One cohesive photograph.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.72tNLODObuOLLVyV"
+    },
+    {
+      "id": "TM16",
+      "location": "TRAVEL",
+      "title": "Night train compartment",
+      "kind": "theater-of-mind",
+      "filename": "tm-rail.webp",
+      "status": "APPROVED",
+      "reveal": "During rail travel.",
+      "draft_prompt": "Create one standalone theater-of-the-mind environment image: Night train compartment. 1987 European sleeper train compartment, upholstered seats, luggage rack, dark wet window; no route labels or clue props. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. A generic travel transition, not evidence of a specific train itinerary.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/totm/tm-rail.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 153428,
+      "sha256": "8055e8a3c423a05c94742a50ac8fc3ed9a531ab19c57f15c64e65c26008d9c76",
+      "master_sha256": "080f7750d3f809445e35c10433f2d984208b3d10dd2d504bd70f42abfa77bb28",
+      "prompt": "Create one standalone theater-of-the-mind environment image: Night train compartment. 1987 European sleeper train compartment, upholstered seats, luggage rack, dark wet window; no route labels or clue props. Composition: human eye-level cinematic interior, believable architecture, restrained 1987 espionage-horror atmosphere, muted colors, subtle analog film texture without distressed photograph borders. Wide 16:9, target 2048x1152. Empty of identifiable characters; no tokens, labels, readable documents, exact clue text, modern technology or hidden-enemy silhouettes. Prioritize physical structure and natural lighting; preserve useful negative space. A generic travel transition, not evidence of a specific train itinerary.\nNo human figures anywhere. No pseudo-text, symbols that function as clues, or image border. Photorealistic cinematic environment, not a map, not an illustration, no captions. One cohesive photograph.",
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.JdEbI0D8H7Vju6im"
+    },
+    {
+      "id": "BM01",
+      "location": "L1",
+      "title": "Vault and lift vestibule",
+      "kind": "battle-map",
+      "filename": "bm-vault.webp",
+      "status": "APPROVED",
+      "purpose": "Contained exploration / optional security confrontation",
+      "layout": "Octagonal central chamber; one lift vestibule and one maintenance alcove. Do not reveal concealed access.",
+      "dependencies": [],
+      "draft_prompt": "Create one standalone tactical battle map: Vault and lift vestibule. Octagonal Roman-brick chamber faced in lead; black granite altar, damaged copper conduits, refrigeration pipes, hydraulic lift vestibule. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 24 by 24 cells, target 1920x1920 pixels, 80 pixels per logical cell. Floor plan: Octagonal central chamber; one lift vestibule and one maintenance alcove. Do not reveal concealed access. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/maps/bm-vault.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 315608,
+      "sha256": "4810315d5cd5a069ec77bb99440d2a80a95a7cb24c1166308613adfad5c63214",
+      "master_sha256": "25f548d8d4d435e5a91e153be4e4e71ddd7f7828d5ca8c5db88ba309180029c4",
+      "prompt": "Create one standalone tactical battle map: Vault and lift vestibule. Octagonal Roman-brick chamber faced in lead; black granite altar, damaged copper conduits, refrigeration pipes, hydraulic lift vestibule. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 24 by 24 cells, target 1920x1920 pixels, 80 pixels per logical cell. Floor plan: Octagonal central chamber; one lift vestibule and one maintenance alcove. Do not reveal concealed access. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.\nUse case: stylized-concept. Premium realistic VTT map artwork with restrained material texture. Keep walls as thin crisp cutaway outlines, never tall isometric walls. A door connects every enclosed room to a reachable hall. Doors shown open with clear gaps. No roof fixtures. Avoid excessive decorative floor tile grids.",
+      "draft_grid_request": {
+        "baked": false,
+        "columns": 24,
+        "rows": 24,
+        "pixels_per_cell": 80,
+        "distance": null,
+        "units": "pending system convention"
+      },
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.FyPnU7Tmzk9RJebD"
+    },
+    {
+      "id": "BM02",
+      "location": "L2",
+      "title": "Apartment and guarded corridor",
+      "kind": "battle-map",
+      "filename": "bm-quarters.webp",
+      "status": "APPROVED",
+      "purpose": "Search / optional interception",
+      "layout": "Study, library, bedroom, small service room, connecting corridor and landing. Hidden safe excluded from visible map.",
+      "dependencies": [],
+      "draft_prompt": "Create one standalone tactical battle map: Apartment and guarded corridor. Baroque apartment; patristic books, precisely searched drawers, desk and oil painting concealing a drilled wall safe. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 30 by 22 cells, target 2400x1760 pixels, 80 pixels per logical cell. Floor plan: Study, library, bedroom, small service room, connecting corridor and landing. Hidden safe excluded from visible map. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/maps/bm-quarters.webp",
+      "dimensions": [
+        1464,
+        1074
+      ],
+      "bytes": 235668,
+      "sha256": "a3795af43757fbcaf393586da3b35a521ff34b63efe74b16f000f5e423aabd9d",
+      "master_sha256": "e79d797f3fbda59aea147fcbf58eb50df2c9efd4586e7fac7981b51004d5ca0f",
+      "prompt": "Create one standalone tactical battle map: Apartment and guarded corridor. Baroque apartment; patristic books, precisely searched drawers, desk and oil painting concealing a drilled wall safe. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 30 by 22 cells, target 2400x1760 pixels, 80 pixels per logical cell. Floor plan: Study, library, bedroom, small service room, connecting corridor and landing. Hidden safe excluded from visible map. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.\nUse case: stylized-concept. Premium realistic VTT map artwork with restrained material texture. Keep walls as thin crisp cutaway outlines, never tall isometric walls. A door connects every enclosed room to a reachable hall. Doors shown open with clear gaps. No roof fixtures. Avoid excessive decorative floor tile grids.",
+      "draft_grid_request": {
+        "baked": false,
+        "columns": 30,
+        "rows": 22,
+        "pixels_per_cell": 80,
+        "distance": null,
+        "units": "pending system convention"
+      },
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.KpUAj1DanbE4NuOW"
+    },
+    {
+      "id": "BM03",
+      "location": "L3",
+      "title": "Bank vault level",
+      "kind": "battle-map",
+      "filename": "bm-bank.webp",
+      "status": "APPROVED",
+      "purpose": "Optional intrusion or extraction",
+      "layout": "Stair vestibule, staffed checkpoint, vault entrance, three private booths and connecting hall. Optional scene, not mandatory combat.",
+      "dependencies": [],
+      "draft_prompt": "Create one standalone tactical battle map: Bank vault level. Gray granite neoclassical bank; wood-paneled private viewing rooms and chrome vault doors. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 32 by 24 cells, target 2560x1920 pixels, 80 pixels per logical cell. Floor plan: Stair vestibule, staffed checkpoint, vault entrance, three private booths and connecting hall. Optional scene, not mandatory combat. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/maps/bm-bank.webp",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 287082,
+      "sha256": "439159b1678f80c4f956048675a80b6ea56ad5115047e914a7157bd3478b25a5",
+      "master_sha256": "6116390e9821b78a8a13ea6369dcc7ffe940c3e364c5116703ebb3da445d5a00",
+      "prompt": "Edit ONLY the BANK MAP among recent images (three wood-paneled private rooms upper left, vault upper right). Remove the single HUMAN FIGURE behind the reception desk. Leave an empty chair instead. Preserve every other detail, exact map layout, dimensions, textures, walls and doors. Output only the corrected bank map. No other images or panels.",
+      "draft_grid_request": {
+        "baked": false,
+        "columns": 32,
+        "rows": 24,
+        "pixels_per_cell": 80,
+        "distance": null,
+        "units": "pending system convention"
+      },
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.b2nGfJTzx9PeMk09"
+    },
+    {
+      "id": "BM04",
+      "location": "L4",
+      "title": "Ward, theatre and lab",
+      "kind": "battle-map",
+      "filename": "bm-ward.webp",
+      "status": "APPROVED",
+      "purpose": "Primary hunt and rescue",
+      "layout": "Central corridor with patient rooms, theatre, lab/freezer room, service stair and lift; opaque walls, clear doorway widths. Ceiling routes documented for GM only.",
+      "dependencies": [],
+      "draft_prompt": "Create one standalone tactical battle map: Ward, theatre and lab. White concrete modernist clinic in forest; third-floor blackout sheeting, broken fluorescent fixtures, ward, surgical theatre and laboratory freezers. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 40 by 28 cells, target 3200x2240 pixels, 80 pixels per logical cell. Floor plan: Central corridor with patient rooms, theatre, lab/freezer room, service stair and lift; opaque walls, clear doorway widths. Ceiling routes documented for GM only. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/maps/bm-ward.webp",
+      "dimensions": [
+        1499,
+        1049
+      ],
+      "bytes": 335310,
+      "sha256": "0811c4bc1f573e662515bb12a7dd1799ade816d74705afadd01ae40260b8e61e",
+      "master_sha256": "51f19a7d58e4ec78bd2e505a2a1f867db3dab3b601f63924cf29fffade54756f",
+      "prompt": "Create one standalone tactical battle map: Ward, theatre and lab. White concrete modernist clinic in forest; third-floor blackout sheeting, broken fluorescent fixtures, ward, surgical theatre and laboratory freezers. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 40 by 28 cells, target 3200x2240 pixels, 80 pixels per logical cell. Floor plan: Central corridor with patient rooms, theatre, lab/freezer room, service stair and lift; opaque walls, clear doorway widths. Ceiling routes documented for GM only. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.\nUse case: stylized-concept. Premium realistic VTT map artwork with restrained material texture. Keep walls as thin crisp cutaway outlines, never tall isometric walls. A door connects every enclosed room to a reachable hall. Doors shown open with clear gaps. No roof fixtures. Avoid excessive decorative floor tile grids. Layout anchor: long horizontal central corridor running west-east. Three patient rooms above it, theatre at southeast, lab at southwest, stair at west end, lift at east end. Pale green walls, off-white linoleum and mustard doorframes. All rooms visible from directly above.",
+      "draft_grid_request": {
+        "baked": false,
+        "columns": 40,
+        "rows": 28,
+        "pixels_per_cell": 80,
+        "distance": null,
+        "units": "pending system convention"
+      },
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jpOPWYTG4Yqt6hk4"
+    },
+    {
+      "id": "BM05",
+      "location": "L5",
+      "title": "Assembly floor",
+      "kind": "battle-map",
+      "filename": "bm-factory.webp",
+      "status": "APPROVED",
+      "purpose": "Negotiation / pursuit / optional clash",
+      "layout": "Navigable machinery islands, support columns, clear aisles, two visible stairs to booth level and exits to ramp. No roof or booth covers the playable floor.",
+      "dependencies": [],
+      "draft_prompt": "Create one standalone tactical battle map: Assembly floor. Abandoned assembly hall, concrete columns, broken skylights, wet floor, stairs and elevated glass supervisor booth; spiral ramps and rooftop test track. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 40 by 30 cells, target 3200x2400 pixels, 80 pixels per logical cell. Floor plan: Navigable machinery islands, support columns, clear aisles, two visible stairs to booth level and exits to ramp. No roof or booth covers the playable floor. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/maps/bm-factory.webp",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 362148,
+      "sha256": "41268669ad310a7898901b1ea9b050a11114fbce55330e110ffc026bd77c0435",
+      "master_sha256": "d26c7ccf205af8ed1da089be0b6ac4ee31ccb7984c897c78e4c9ace86ce7dfcb",
+      "prompt": "Create one standalone tactical battle map: Assembly floor. Abandoned assembly hall, concrete columns, broken skylights, wet floor, stairs and elevated glass supervisor booth; spiral ramps and rooftop test track. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 40 by 30 cells, target 3200x2400 pixels, 80 pixels per logical cell. Floor plan: Navigable machinery islands, support columns, clear aisles, two visible stairs to booth level and exits to ramp. No roof or booth covers the playable floor. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.\nUse case: stylized-concept. Premium realistic VTT artwork. Strict top down, connected rooms and open visible door gaps, no grids or text. Render one map only. Simplify to one rectangular hall: staircase at northwest corner and northeast corner connecting to upper gallery; machine islands in lower half and central floor, broad clear central aisle, vehicle loading door centered in south wall, exit to spiral ramp in west wall. Elevated booth will be on a separate map; do NOT draw overhead booth/catwalk covering floor here. No rooftop test track in this floor plan. North is image top.",
+      "draft_grid_request": {
+        "baked": false,
+        "columns": 40,
+        "rows": 30,
+        "pixels_per_cell": 80,
+        "distance": null,
+        "units": "pending system convention"
+      },
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jqBp0bbZpuYJAVE1"
+    },
+    {
+      "id": "BM06",
+      "location": "L5",
+      "title": "Supervisor booth and catwalk",
+      "kind": "battle-map",
+      "filename": "bm-booth.webp",
+      "status": "APPROVED",
+      "purpose": "Upper-level negotiation and escape",
+      "layout": "Same footprint and stair coordinates as assembly floor; separate upper-level image with glass booth, connected catwalk and railings; no combined perspective.",
+      "dependencies": [
+        "BM05"
+      ],
+      "draft_prompt": "Create one standalone tactical battle map: Supervisor booth and catwalk. Abandoned assembly hall, concrete columns, broken skylights, wet floor, stairs and elevated glass supervisor booth; spiral ramps and rooftop test track. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 40 by 30 cells, target 3200x2400 pixels, 80 pixels per logical cell. Floor plan: Same footprint and stair coordinates as assembly floor; separate upper-level image with glass booth, connected catwalk and railings; no combined perspective. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/maps/bm-booth.webp",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 277612,
+      "sha256": "1e7b434358d03c2f504c55e04f2e940ff034482b64a69d2ecf1e286aa8d3d885",
+      "master_sha256": "ad86c4a58e18234fc86d32dafeb961b02f0d56c8bebbeb301fbf66a31ad1b393",
+      "prompt": "Create one standalone tactical battle map: Supervisor booth and catwalk. Abandoned assembly hall, concrete columns, broken skylights, wet floor, stairs and elevated glass supervisor booth; spiral ramps and rooftop test track. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 40 by 30 cells, target 3200x2400 pixels, 80 pixels per logical cell. Floor plan: Same footprint and stair coordinates as assembly floor; separate upper-level image with glass booth, connected catwalk and railings; no combined perspective. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.\nReference is the recently shown FACTORY FLOOR map with machinery and two stairs in top corners; ignore abbey and airport. Create upper gallery of that factory. Same outer walls and stairs at top-left and top-right. Place roofless glass supervisor booth centered along top wall, connect both stairs with wide metal catwalk running across north edge. Project a short railed observation walkway south from booth. Floor machinery muted beneath, upper walking surface dominant. Absolutely no people. Same framing, one standalone image.",
+      "draft_grid_request": {
+        "baked": false,
+        "columns": 40,
+        "rows": 30,
+        "pixels_per_cell": 80,
+        "distance": null,
+        "units": "pending system convention"
+      },
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.gAxI1cJhYftPzFGK"
+    },
+    {
+      "id": "BM07",
+      "location": "L6",
+      "title": "Abbey gate and courtyard",
+      "kind": "battle-map",
+      "filename": "bm-approach.webp",
+      "status": "APPROVED",
+      "purpose": "Optional standoff / perimeter approach",
+      "layout": "Moat crossing, breached gate, walls, courtyard cover and entrances corresponding to interior.",
+      "dependencies": [],
+      "draft_prompt": "Create one standalone tactical battle map: Abbey gate and courtyard. Fortified medieval brick abbey on flat river plain, moat, breached oak carriage doors, cloister and stone-flagged dining hall lit by kerosene lantern. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 40 by 30 cells, target 3200x2400 pixels, 80 pixels per logical cell. Floor plan: Moat crossing, breached gate, walls, courtyard cover and entrances corresponding to interior. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/maps/bm-approach.webp",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 486672,
+      "sha256": "7f6d277aa223e08862704d22851d5837d43f1c43ba6c588dcef51cf46fd44a92",
+      "master_sha256": "96ef34dbe29bf5a1fa47400df11665f80bfd50476a8af3649f77b899e4efc7aa",
+      "prompt": "Create one standalone tactical battle map: Abbey gate and courtyard. Fortified medieval brick abbey on flat river plain, moat, breached oak carriage doors, cloister and stone-flagged dining hall lit by kerosene lantern. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 40 by 30 cells, target 3200x2400 pixels, 80 pixels per logical cell. Floor plan: Moat crossing, breached gate, walls, courtyard cover and entrances corresponding to interior. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.\nUse case: stylized-concept. Premium realistic VTT artwork. Strict top down, connected rooms and open visible door gaps, no grids or text. Render one map only. Layout anchor: entry bridge and breached gate centered in south edge; square courtyard; roofless arcade along north edge, door in center of north wall enters refectory beyond map edge; two flanking brick service wings. Keep interior beyond north door outside image, no roof covering courtyard. North is image top.",
+      "draft_grid_request": {
+        "baked": false,
+        "columns": 40,
+        "rows": 30,
+        "pixels_per_cell": 80,
+        "distance": null,
+        "units": "pending system convention"
+      },
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.5UwVLTp8ofRAjQ9W"
+    },
+    {
+      "id": "BM08",
+      "location": "L6",
+      "title": "Abbey dining hall and cloister",
+      "kind": "battle-map",
+      "filename": "bm-interior.webp",
+      "status": "APPROVED",
+      "purpose": "Forensic search / optional cleanup confrontation",
+      "layout": "Dining hall, cloister passage, service room and telegraph desk; entrances match courtyard. No body or evidence tokens baked in.",
+      "dependencies": [
+        "BM07"
+      ],
+      "draft_prompt": "Create one standalone tactical battle map: Abbey dining hall and cloister. Fortified medieval brick abbey on flat river plain, moat, breached oak carriage doors, cloister and stone-flagged dining hall lit by kerosene lantern. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 36 by 28 cells, target 2880x2240 pixels, 80 pixels per logical cell. Floor plan: Dining hall, cloister passage, service room and telegraph desk; entrances match courtyard. No body or evidence tokens baked in. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/maps/bm-interior.webp",
+      "dimensions": [
+        1422,
+        1106
+      ],
+      "bytes": 414438,
+      "sha256": "62504f563b33736794fab1ca4501ac534111897ad73e5b6a402dd149a97659c0",
+      "master_sha256": "7b3d163c800bc878f2a34e9a9def144659d3eb6c038a6386bacd007d77dbffab",
+      "prompt": "Use case: precise-object-edit. Edit target: abbey TOP-DOWN BATTLE MAP reference, not the study photograph. Preserve every wall, door, staircase, floor, courtyard, camera and full map footprint. Clear all plates, food and candelabras from the long central dining table and its sideboards. Put ONE small kerosene lantern at the center of the otherwise bare main table. Wall lamps unlit. Maintain clear neutral ambient tactical illumination across all floors; do not make the map dark. In northeast office replace desk radio with a small beige 1980s teleprinter, no readable text. No people, corpses, grid, labels or new rooms.",
+      "draft_grid_request": {
+        "baked": false,
+        "columns": 36,
+        "rows": 28,
+        "pixels_per_cell": 80,
+        "distance": null,
+        "units": "pending system convention"
+      },
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.9wHAIjutxJqKmHqB"
+    },
+    {
+      "id": "BM09",
+      "location": "AIR",
+      "title": "Hangar and apron",
+      "kind": "battle-map",
+      "filename": "bm-apron.webp",
+      "status": "APPROVED",
+      "purpose": "Optional perimeter encounter; canonical aftermath",
+      "layout": "Empty hangar, office, fuel hose and apron with service vehicle cover; no aircraft present. Do not invent canonical battle.",
+      "dependencies": [],
+      "draft_prompt": "Create one standalone tactical battle map: Hangar and apron. Rainy night military apron, abandoned hangar, discarded fueling lines, service office and perimeter fence. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 40 by 30 cells, target 3200x2400 pixels, 80 pixels per logical cell. Floor plan: Empty hangar, office, fuel hose and apron with service vehicle cover; no aircraft present. Do not invent canonical battle. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/maps/bm-apron.webp",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 276450,
+      "sha256": "3c5f6e35d82040c604ae6a1a4a8e7f21a3075091db3caf3260eee628423b03e9",
+      "master_sha256": "7075bc9c15e98802438a44275232e4efa12abb938b532fd56824c47e9c292e3c",
+      "prompt": "Create one standalone tactical battle map: Hangar and apron. Rainy night military apron, abandoned hangar, discarded fueling lines, service office and perimeter fence. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 40 by 30 cells, target 3200x2400 pixels, 80 pixels per logical cell. Floor plan: Empty hangar, office, fuel hose and apron with service vehicle cover; no aircraft present. Do not invent canonical battle. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.\nUse one clearly connected empty aircraft hangar and apron, single coherent small 1980s airport fuel truck as cover. No aircraft, no people. Top-down building cutaway; no roof. Leave generous open maneuvering area.",
+      "draft_grid_request": {
+        "baked": false,
+        "columns": 40,
+        "rows": 30,
+        "pixels_per_cell": 80,
+        "distance": null,
+        "units": "pending system convention"
+      },
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.lGukiMcNwlfc2Wh3"
+    },
+    {
+      "id": "BM10",
+      "location": "L7",
+      "title": "Council chamber and antechamber",
+      "kind": "battle-map",
+      "filename": "bm-council.webp",
+      "status": "APPROVED",
+      "purpose": "Social climax / conditional interception",
+      "layout": "Council table, chairs, pillars, antechamber, corridor and two intelligible exits; not an automatic fight.",
+      "dependencies": [],
+      "draft_prompt": "Create one standalone tactical battle map: Council chamber and antechamber. Walnut council chamber, Renaissance frescoes, green banker lamps; formal antechamber and corridor. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 32 by 24 cells, target 2560x1920 pixels, 80 pixels per logical cell. Floor plan: Council table, chairs, pillars, antechamber, corridor and two intelligible exits; not an automatic fight. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.",
+      "human_review": "APPROVED",
+      "path": "assets/art/scenes/maps/bm-council.webp",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "bytes": 263410,
+      "sha256": "6c6db959753dcfbd10d461f815855616421e86a71fff1c7a40a3c238de16da01",
+      "master_sha256": "e79587b32e13b8fed509304aaaf6d5096b8bb8509928b1347e7741f8a65b2ba9",
+      "prompt": "Create one standalone tactical battle map: Council chamber and antechamber. Walnut council chamber, Renaissance frescoes, green banker lamps; formal antechamber and corridor. Strict orthographic overhead view, roof removed, no perspective or isometric elements. No baked grid, labels, compass, legend, tokens, creatures, clue text, secrets or decorative border. Consistent scale: logical 32 by 24 cells, target 2560x1920 pixels, 80 pixels per logical cell. Floor plan: Council table, chairs, pillars, antechamber, corridor and two intelligible exits; not an automatic fight. Doors, wall thickness, stairs, furniture footprints, walkable aisles and exits must be unambiguous. Even readable ambient light; no baked black fog or deep shadows that conceal movement. Restrained realistic material textures, 1987 period fixtures. Layout is a fictional playable interpretation, not a real building survey.\nNo human figures anywhere. No pseudo-text, symbols that function as clues, or image border. Strict overhead tactical floor plan, remove roof entirely. Open doors connect council chamber to antechamber and corridor.",
+      "draft_grid_request": {
+        "baked": false,
+        "columns": 32,
+        "rows": 24,
+        "pixels_per_cell": 80,
+        "distance": null,
+        "units": "pending system convention"
+      },
+      "foundry_note": "Gridless background. Set scene dimensions to native image dimensions; calibrate token scale in Foundry. No walls, lights, tokens or scene document supplied.",
+      "scene_uuid": "Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.ODBMpIkV30orwoGM"
+    }
+  ],
+  "encoding": {
+    "format": "WebP",
+    "quality": 85,
+    "resized": false
+  },
+  "generation_mode": "built-in ImageGen",
+  "notes": [
+    "Native output sizes are authoritative; draft prompt dimensions and logical grid requests were not guaranteed by the generator.",
+    "Maps are fictional playable interpretations. Use GM reveal timing; interiors expose room layouts.",
+    "Factory floor and catwalk maps are paired; scene photos are atmospheric interpretations rather than exact architectural surveys.",
+    "Abbey map uses ambient tactical illumination; dining-hall photo uses single-lantern lighting.",
+    "Clinic map is a third-floor schematic; exterior foliage is contextual, not ground-level access."
+  ],
+  "integration": "27 scenes including existing landing; linked in sites, walkthrough and Start Here"
+}

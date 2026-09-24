@@ -43,6 +43,21 @@ export const ITEM_TYPES = new Set([
 export const ACTOR_TYPES = new Set(['agent', 'npc', 'mob', 'vehicle', 'headquarters']);
 
 /**
+ * Core schema version stamped onto authored Scene documents (`_stats.coreVersion`).
+ *
+ * Foundry runs its version migrations against any compendium record that lacks
+ * `_stats.coreVersion`. The v14.353 `migrateLevels` migration unconditionally
+ * rewrites `levels` from the legacy top-level `background` field — for the
+ * modern serialization (background stored on the embedded Level, parent has no
+ * `background`) that would silently discard the authored Level and with it the
+ * scene artwork. Stamping 14.353 (the first core version that stores scene
+ * backgrounds on Levels) tells v14.353+ that the record already uses the modern
+ * schema, so no migration rewrites it, while still keeping the packs readable
+ * by every core release that supports Level documents.
+ */
+export const SCENE_SCHEMA_CORE_VERSION = '14.353';
+
+/**
  * Default icon per item type — paths point at the neon-relic system's assets.
  * Kept in sync with `foundry-neon-relic-system/src/system/item-icons.mjs`.
  */
@@ -365,7 +380,7 @@ export function transformDocument(doc, { registry = null } = {}) {
       navigation: doc.navigation ?? true,
       navOrder: doc.navOrder ?? 0,
       active: false,
-      initial: doc.initial ?? false,
+      initial: typeof doc.initial === 'object' ? doc.initial : { x: null, y: null, scale: null },
       background: {
         src: doc.background?.src || '',
         tint: doc.background?.tint || '#ffffff',
@@ -386,11 +401,23 @@ export function transformDocument(doc, { registry = null } = {}) {
       folder: doc.folder || null,
       sort: doc.sort || 0,
       ownership: doc.ownership || { default: 0 },
-      _stats: doc._stats || {},
+      _stats: { coreVersion: SCENE_SCHEMA_CORE_VERSION, ...(doc._stats || {}) },
     };
+    if (doc.journal) scene.journal = doc.journal;
+    if (doc.journalEntryPage) scene.journalEntryPage = doc.journalEntryPage;
     if (doc.fog) scene.fog = doc.fog;
     if (doc.environment) scene.environment = doc.environment;
-    return [{ key: `!scenes!${id}`, data: scene }];
+    // v14 stores background textures on embedded Levels, serialized separately.
+    const levelId = toFoundryId(`${doc._id}-level`);
+    const level = { _id: levelId, name: 'Background', sort: 0,
+      elevation: { bottom: 0, top: 100 }, background: { src: scene.background.src } };
+    delete scene.background;
+    delete scene.globalLight;
+    delete scene.darkness;
+    delete scene.darknessLevel;
+    scene.levels = [levelId];
+    return [{ key: `!scenes!${id}`, data: scene },
+      { key: `!scenes.levels!${id}.${levelId}`, data: level }];
   }
 
   return null;

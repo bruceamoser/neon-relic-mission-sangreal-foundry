@@ -172,6 +172,56 @@ async function ensureFolder(name, type, parentId = null) {
 }
 
 /**
+ * Reconcile a Scene update against the world document before writing it.
+ *
+ * Scene records changed shape between the first v14 imports and the current
+ * pack format (background textures moved from the Scene onto its embedded
+ * Level), so a plain overwrite can (a) deactivate the scene the table is
+ * currently on, (b) create a duplicate Level instead of updating the existing
+ * one, and (c) re-hide a scene the GM already revealed to the players
+ * (navigation and ownership carry that reveal state). Keep world-side
+ * activation and reveal state authoritative, and always write the pack's
+ * background onto the world's *initial* level so a scene that was imported
+ * before this fix (empty placeholder level) heals in place. Any extra
+ * GM-authored levels are left untouched (`diff: false` never deletes).
+ * @param {foundry.documents.Scene} existing The scene already in the world.
+ * @param {object} data The incoming pack scene source data.
+ * @param {{repaired: number}} stats Mutable counter for scenes repaired.
+ * @returns {object} Scene data prepared for `existing.update`.
+ */
+function prepareSceneUpdate(existing, data, stats) {
+  const update = data;
+  // Activation and reveal state are world state — never deactivate the
+  // current scene or hide one the GM already revealed.
+  if (existing.active) delete update.active;
+  delete update.navigation;
+  delete update.ownership;
+  const worldLevels = existing.levels?.contents ?? [];
+  const packLevels = Array.isArray(update.levels) ? update.levels : [];
+  const packLevel = packLevels.length === 1 ? packLevels[0] : null;
+  if (!packLevel) return update;
+  // Heal a broken import without depending on the pack read being fresh: when
+  // the incoming level carries no texture, fall back to the scene's thumb
+  // (authored as the background path for every scene in this module).
+  if (!packLevel.background?.src && typeof update.thumb === 'string' && update.thumb.includes(MODULE_ID)) {
+    packLevel.background = { ...packLevel.background, src: update.thumb };
+  }
+  const initialLevel = existing.initialLevel;
+  const levelId = initialLevel?.id ?? worldLevels[0]?.id;
+  if (levelId) {
+    // Reuse the world's initial level ID so legacy/migrated levels (for
+    // example the `defaultLevel0000` created by v14's scene migration) are
+    // updated in place instead of duplicated, and keep the initial level on
+    // it — including scenes left with an empty placeholder level by an
+    // earlier import.
+    if (!initialLevel?.background?.src) stats.repaired++;
+    update.levels = [{ ...packLevel, _id: levelId }];
+    update.initialLevel = levelId;
+  }
+  return update;
+}
+
+/**
  * Import or refresh every module pack into the world.
  *
  * Patterned on the neon-relic system's world setup (`pack.getDocuments()` +
@@ -192,6 +242,7 @@ async function installContent() {
   let created = 0;
   let updated = 0;
   let failed = 0;
+  const sceneStats = { repaired: 0 };
 
   for (const { pack: packName, folder: subfolderName } of INSTALL_PLAN) {
     const pack = game.packs.get(`${MODULE_ID}.${packName}`);
@@ -227,7 +278,8 @@ async function installContent() {
         if (existing) {
           // Overwrite in place, keeping the pack ID and any world-side
           // additions the update does not touch (diff: false = no deletions).
-          await existing.update(data, { diff: false });
+          const update = doc.documentName === 'Scene' ? prepareSceneUpdate(existing, data, sceneStats) : data;
+          await existing.update(update, { diff: false });
           updated++;
         } else {
           await doc.constructor.create(data, { keepId: true });
@@ -254,8 +306,8 @@ async function installContent() {
 
   notification?.remove?.();
   const summary = `Mission: Sangreal — content ready (${created} new, ${updated} updated${
-    failed ? `, ${failed} failed` : ''
-  }).`;
+    sceneStats.repaired ? `, ${sceneStats.repaired} scenes repaired` : ''
+  }${failed ? `, ${failed} failed` : ''}).`;
   console.log(`${MODULE_ID} | installer: ${summary}`);
   if (failed) {
     ui.notifications.error(`${failed} document(s) failed to install — see the console for details.`);
@@ -281,7 +333,7 @@ class SangrealInstaller extends foundry.applications.api.DialogV2 {
         <li>The module <strong>landing scene</strong> is imported, and activated automatically when the world has no active scene.</li>
         <li>Safe to re-run after module updates — no duplicates are created.</li>
       </ul>
-      <p>Content: briefs, case board, NPCs, clues, sites, relics, tables, journals, and the landing scene.</p>`,
+      <p>Content: briefs, case board, NPCs, clues, sites, relics, tables, journals, and 27 scenes (landing, 16 atmosphere views, 10 maps).</p>`,
     buttons: [
       {
         action: 'install',

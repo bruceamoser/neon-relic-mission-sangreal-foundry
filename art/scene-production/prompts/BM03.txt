@@ -1,0 +1,1 @@
+Edit ONLY the BANK MAP among recent images (three wood-paneled private rooms upper left, vault upper right). Remove the single HUMAN FIGURE behind the reception desk. Leave an empty chair instead. Preserve every other detail, exact map layout, dimensions, textures, walls and doors. Output only the corrected bank map. No other images or panels.

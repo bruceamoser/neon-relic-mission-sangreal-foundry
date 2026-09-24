@@ -14,6 +14,7 @@
     availability: open
     availabilityCondition: ''
     description: >
+      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-lift-descent.webp" alt="Hydraulic lift vestibule and descent" style="width:100%;height:auto"></p>
       <p><strong>Architectural forensics.</strong> Located forty feet beneath the Campo
       Santo Teutonico, reached via a private hydraulic lift concealed behind the Longinus
       Crossing Pier inside St. Peter's Basilica. The vault is an octagonal chamber of
@@ -29,6 +30,7 @@
       <p><strong>Available information.</strong> Physical inspection of the altar yields
       I1. Examining the security consoles yields I2. Searching the archival catalog
       reveals I3. Observing Claudia's gear yields I5.</p>
+      <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.e5iULuABev6xj4n0]{TM01 — Hydraulic lift vestibule and descent}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.fk4iveJh9oz2DMDa]{TM02 — Vault IX arrival}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.FyPnU7Tmzk9RJebD]{BM01 — Vault and lift vestibule}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p>With Claudia's escort, the cell walks the vault floor legitimately: the melted
       induction cradle (I1), the security console tape (I2), the excised catalog card
@@ -58,6 +60,7 @@
     availability: open
     availabilityCondition: ''
     description: >
+      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-quarters-arrival.webp" alt="Corvi quarters arrival" style="width:100%;height:auto"></p>
       <p><strong>Architectural forensics.</strong> A baroque third-floor apartment in the
       Palace of the Holy Office. Thousands of leather-bound patristic volumes line the
       walls. Drawers have been pulled out and searched with academic precision — nothing
@@ -68,6 +71,7 @@
       <p><strong>Available information.</strong> Searching the Clementine Vulgate yields
       I4. Inspecting the safe yields I16. Blotter impressions on the desk provide a
       duplicate of I2.</p>
+      <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.1xPFy0jFa4uqHScD]{TM03 — Corvi quarters arrival}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.KpUAj1DanbE4NuOW]{BM02 — Apartment and guarded corridor}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p>A patient search (Research undertaking) finds the Polybius cipher slip (I4), the
       containment protocol notes (I16), and the agent's own copy of the surveillance
@@ -97,6 +101,7 @@
     availability: clue
     availabilityCondition: 'Requires the EC 30 boarding pass (I2) or the decoded Polybius cipher (I4).'
     description: >
+      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-bank-arrival.webp" alt="Geneva bank exterior" style="width:100%;height:auto"></p>
       <p><strong>Architectural forensics.</strong> A neoclassical banking house on the
       Rue du Rhône, clad in gray alpine granite. The subterranean vault features
       three-foot-thick chrome doors and private wood-paneled viewing booths where
@@ -106,6 +111,7 @@
       much not to have.</p>
       <p><strong>Available information.</strong> Interrogating or bribing Mercier yields
       I6. Searching booth 4409-C records yields I7 and I8.</p>
+      <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.WYkoHrGfng0UZ3lZ]{TM04 — Geneva bank exterior}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.w9Gp844xc19nFp0a]{TM05 — Private viewing room}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.b2nGfJTzx9PeMk09]{BM03 — Bank vault level}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p>Mercier surrenders the escrow slip under pressure or payment (I6). The booth
       records hand over the clinical file reference (I7) and the wiretap reel log (I8).
@@ -136,6 +142,7 @@
     availability: clue
     availabilityCondition: 'Requires the escrow transfer slip (I6) or the clinical file (I7).'
     description: >
+      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-clinic-arrival.webp" alt="Sonnenberg forest approach" style="width:100%;height:auto"></p>
       <p><strong>Architectural forensics.</strong> A modernist clinical facility of white
       concrete and glass in the forests of the Zurichberg. The third-floor experimental
       oncology ward is blacked out: windows are taped with heavy black polyethylene
@@ -146,6 +153,7 @@
       Kurt Hausmann — The Feral Banker, stalking the ceiling conduits above the ward.</p>
       <p><strong>Available information.</strong> Rescuing Dr. Graf yields I7, I9, and
       I10. Searching the laboratory freezers yields I11.</p>
+      <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.kr4nu0sVNfrcGAJq]{TM06 — Sonnenberg forest approach}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.1HRljmcL11d0CPLS]{TM07 — Blacked-out third-floor ward}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jP9jheucndZOEHLE]{TM08 — Surgical theatre refuge}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jpOPWYTG4Yqt6hk4]{BM04 — Ward, theatre and lab}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p>Calming Graf (first aid, light discipline, or psychiatric intervention) secures
       the full medical sequence: patient file (I7), histopathology log (I9), and the CT1
@@ -178,6 +186,7 @@
     availability: clue
     availabilityCondition: 'Requires the wiretap tape (I8).'
     description: >
+      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-factory-arrival.webp" alt="Lingotto assembly hall" style="width:100%;height:auto"></p>
       <p><strong>Architectural forensics.</strong> Giacomo Mattè-Trucco's industrial
       plant, stretching a third of a mile with concrete spiral ramps and a rooftop test
       track. Rain cascades through broken skylights into abandoned assembly halls.
@@ -189,6 +198,7 @@
       <p><strong>Available information.</strong> Peaceful negotiation with Corvi yields
       I10, I11, and I12. Securing the attaché grants physical possession of the primary
       relic.</p>
+      <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.n61lTAaEdGfuCmPZ]{TM09 — Lingotto assembly hall}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.eu4Vy9WBx8iGce1d]{TM10 — Lingotto rooftop in rain}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jqBp0bbZpuYJAVE1]{BM05 — Assembly floor}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.gAxI1cJhYftPzFGK]{BM06 — Supervisor booth and catwalk}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p>Corvi talks: the vector mechanics (I10), the resonance field (I11), and his own
       translation of the Gospel of the Twelve (I12). If the cell demonstrates independent
@@ -222,6 +232,7 @@
     availability: clue
     availabilityCondition: 'Requires tracking Claudia — toll stubs, teleprinter logs, or Corvi''s papers.'
     description: >
+      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-abbey-arrival.webp" alt="Breached abbey approach" style="width:100%;height:auto"></p>
       <p><strong>Architectural forensics.</strong> An eleventh-century fortified brick
       abbey along the Sesia river plains near Novara. The perimeter features defensive
       moats and brick walls. The heavy oak carriage doors have been broken inward, their
@@ -231,6 +242,7 @@
       dining table. Her killers are already airborne.</p>
       <p><strong>Available information.</strong> Autopsy of Claudia yields I13. Searching
       her satchel yields I14. Checking the telegraph desk yields I15.</p>
+      <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.EzLXgHrD8SOahA0Z]{TM11 — Breached abbey approach}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.URoAcs3MRSAqrakE]{TM12 — Abbey dining hall threshold}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.5UwVLTp8ofRAjQ9W]{BM07 — Abbey gate and courtyard}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.9wHAIjutxJqKmHqB]{BM08 — Abbey dining hall and cloister}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p>Full forensics: the slaughter scene (I13), the Registry 16 telex (I14), and the
       Cessna 421 clearance (I15). The cell learns — too late — what it was really carrying
@@ -261,6 +273,7 @@
     availability: contact
     availabilityCondition: 'Requires confronting Cardinal Sabbatini with evidence from L6 (corpse, telex, flight manifest).'
     description: >
+      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-council.webp" alt="Council chamber" style="width:100%;height:auto"></p>
       <p><strong>Architectural forensics.</strong> The headquarters of the Inquisition,
       situated outside the southern colonnade of St. Peter's. The Council Chamber features
       Renaissance ceiling frescoes depicting the defeat of heresy, walnut paneling, and
@@ -270,6 +283,7 @@
       <p><strong>Available information.</strong> Confronting Sabbatini with Claudia's
       corpse, the telex, and the flight manifest unlocks the containment protocols (I16).
       Searching Claudia's convent room yields I17.</p>
+      <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.c2expM3HLZD9xsBD]{TM14 — Council chamber}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.72tNLODObuOLLVyV]{TM15 — Claudia convent room}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.ODBMpIkV30orwoGM]{BM10 — Council chamber and antechamber}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p><strong>Operational Resolution.</strong> Sabbatini admits the Church's historic
       deterrence strategy and signs the Concordat Requisition Order, providing diplomatic
