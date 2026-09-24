@@ -37,13 +37,15 @@ const EXPECTED_DOCS = {
   'sangreal-tables': 1,
   'sangreal-journals': 4,
   'sangreal-scenes': 27,
+  'sangreal-sfx': 1,
 };
 
 /** Expected child-entry counts (journal pages, table results). */
 const EXPECTED_CHILDREN = {
   'sangreal-scenes': { prefix: '!scenes.levels!', count: 27 },
+  'sangreal-sfx': { prefix: '!playlists.sounds!', count: 25 },
   'sangreal-tables': { prefix: '!tables.results!', count: 4 },
-  'sangreal-journals': { prefix: '!journal.pages!', count: 26 },
+  'sangreal-journals': { prefix: '!journal.pages!', count: 27 },
 };
 
 /** Cross-reference UUID array fields produced from authoring slug fields. */
@@ -119,8 +121,24 @@ async function audit() {
     }
 
     for (const key of keys) {
-      const ok = /^!(items|actors|journal|journal\.pages|tables|tables\.results|macros|scenes|scenes\.levels)!/u.test(key);
+      const ok = /^!(items|actors|journal|journal\.pages|tables|tables\.results|macros|scenes|scenes\.levels|playlists|playlists\.sounds)!/u.test(key);
       if (!ok) errors.push(`${pack}: unexpected key format "${key}"`);
+    }
+
+    // Playlist sounds must point at files that actually ship in dist/ — a
+    // broken path is silent at the table (the GM just gets no audio).
+    for (const [key, value] of entries) {
+      if (!key.startsWith('!playlists.sounds!')) continue;
+      const soundPath = value?.path ?? '';
+      const prefix = `modules/${manifest.id}/`;
+      if (!soundPath.startsWith(prefix)) {
+        errors.push(`${key}: sound path must live inside the module → ${soundPath}`);
+        continue;
+      }
+      const rel = soundPath.slice(prefix.length);
+      if (!(await fs.pathExists(path.join(DIST, rel)))) {
+        errors.push(`${key}: sound file missing from dist → ${rel}`);
+      }
     }
 
     // Cross-link integrity: no unresolved authoring fields, UUIDs point inside this module.

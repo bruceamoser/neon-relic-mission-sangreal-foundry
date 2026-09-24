@@ -1,0 +1,170 @@
+# Mission: Sangreal — Sound Effects (Playlist pack)
+# Playlists: playlist
+#
+# One playlist per module: “Sangreal Sound Effects”. Every track is a short
+# ambience bed, prop or sting keyed to a beat of the DA walkthrough — the cue sheet
+# (phase → track) is the “Sound Effects — Cue Sheet” page of the DA Walkthrough
+# journal, and the licensing record ships in assets/audio/CREDITS.md.
+#
+# The installer imports this pack into the world as a folder named “Sound Effects”.
+# Ambience beds use repeat: true (they loop until stopped); one-shots do not.
+---
+- _id: sangreal-sfx
+  name: Sangreal Sound Effects
+  type: playlist
+  description: 'Cue-keyed ambience, props and stings for the fourteen days of the Sangreal case. Ambience beds loop; stings play once. Volume trims are starting points — ride them live at the table.'
+  mode: 0 # 0 = sequential, 1 = simultaneous, 2 = shuffle
+  playing: false
+  fade: 2000
+  sorting: 'a'
+  sounds:
+    - _id: sfx-abbey-door
+      name: 'Prop — Heavy door, spring lock (abbey, vault)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-abbey-door.mp3
+      repeat: false
+      volume: 0.5
+      playing: false
+    - _id: sfx-church-bell
+      name: 'Prop — Abbey bell toll'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-church-bell.mp3
+      repeat: false
+      volume: 0.5
+      playing: false
+    - _id: sfx-clock-tick
+      name: 'Ambience — Clock ticking (Operations Board)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-clock-tick.mp3
+      repeat: true
+      volume: 0.3
+      playing: false
+    - _id: sfx-conduit-scrape
+      name: 'Sting — Something in the ceiling conduits'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-conduit-scrape.mp3
+      repeat: false
+      volume: 0.5
+      playing: false
+    - _id: sfx-corridor-hum
+      name: 'Ambience — Fluorescent corridor hum (clinic)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-corridor-hum.mp3
+      repeat: true
+      volume: 0.35
+      playing: false
+    - _id: sfx-creature-growl
+      name: 'Sting — The thing in the ceiling / the feral predator'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-creature-growl.mp3
+      repeat: false
+      volume: 0.55
+      playing: false
+    - _id: sfx-fire-alarm
+      name: 'Sting — Alarm / fire alarm (Lingotto, abbey)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-fire-alarm.mp3
+      repeat: false
+      volume: 0.5
+      playing: false
+    - _id: sfx-flash-ring
+      name: 'Sting — The daylight flash at the parley'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-flash-ring.mp3
+      repeat: false
+      volume: 0.55
+      playing: false
+    - _id: sfx-glass-break
+      name: 'SFX — Glass breaking (tubes, windows)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-glass-break.mp3
+      repeat: false
+      volume: 0.6
+      playing: false
+    - _id: sfx-gunshots
+      name: 'SFX — Gunfire'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-gunshots.mp3
+      repeat: false
+      volume: 0.65
+      playing: false
+    - _id: sfx-lift-door
+      name: 'Prop — Lift gates closing'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-lift-door.mp3
+      repeat: false
+      volume: 0.5
+      playing: false
+    - _id: sfx-metal-clang
+      name: 'SFX — Metal clang (vault machinery, catwalk, hangar)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-metal-clang.mp3
+      repeat: false
+      volume: 0.55
+      playing: false
+    - _id: sfx-pistol-9mm
+      name: 'SFX — Single 9 mm shot'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-pistol-9mm.mp3
+      repeat: false
+      volume: 0.6
+      playing: false
+    - _id: sfx-power-down
+      name: 'Sting — Power down / lamps going out'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-power-down.mp3
+      repeat: false
+      volume: 0.5
+      playing: false
+    - _id: sfx-prop-plane
+      name: 'Ambience — Airfield prop plane at night (Novara)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-prop-plane.mp3
+      repeat: true
+      volume: 0.45
+      playing: false
+    - _id: sfx-rail-corridor
+      name: 'Ambience — Night-train corridor (EC 30)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-rail-corridor.mp3
+      repeat: true
+      volume: 0.4
+      playing: false
+    - _id: sfx-rain-street
+      name: 'Ambience — Rain on stone steps (Geneva / Rome)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-rain-street.mp3
+      repeat: true
+      volume: 0.45
+      playing: false
+    - _id: sfx-sirens-distant
+      name: 'Ambience — Distant civil-defence siren (cordon in the rain)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-sirens-distant.mp3
+      repeat: true
+      volume: 0.45
+      playing: false
+    - _id: sfx-storm-wind
+      name: 'Ambience — Storm wind (rooftops, abbey approach)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-storm-wind.mp3
+      repeat: true
+      volume: 0.45
+      playing: false
+    - _id: sfx-telephone-ring
+      name: 'Prop — Period telephone ring'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-telephone-ring.mp3
+      repeat: false
+      volume: 0.5
+      playing: false
+    - _id: sfx-thread-snap
+      name: 'Sting — Claudia’s thread snaps'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-thread-snap.mp3
+      repeat: false
+      volume: 0.5
+      playing: false
+    - _id: sfx-typewriter
+      name: 'Prop — Typewriter (office, analysis)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-typewriter.mp3
+      repeat: false
+      volume: 0.5
+      playing: false
+    - _id: sfx-underground-drone
+      name: 'Ambience — Underground vault drone (Vault IX)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-underground-drone.mp3
+      repeat: true
+      volume: 0.4
+      playing: false
+    - _id: sfx-vault-lift-descent
+      name: 'Ambience — Vault lift descent (Days 14–13)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-vault-lift-descent.mp3
+      repeat: true
+      volume: 0.5
+      playing: false
+    - _id: sfx-wind-sheeting
+      name: 'Ambience — Wind under sheeting (blacked-out ward)'
+      path: modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-wind-sheeting.mp3
+      repeat: true
+      volume: 0.45
+      playing: false

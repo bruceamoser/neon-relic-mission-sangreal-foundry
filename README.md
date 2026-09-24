@@ -33,7 +33,8 @@ The module is built exclusively for the *Neon Relic* system. If it is enabled in
 | Sites | Seven location dossiers (Vault IX, Corvi's quarters, UBS Geneva, Sonnenberg clinic, Lingotto works, San Nazzaro retreat, CDF palace) and two faction dossiers (the Holy Alliance, the Talamasca) |
 | Relics | The attaché, the Lodestone of St. Jude, the Veil of Veronica's Thread — each with a VC-16 containment sheet — plus field kit (revolver, Beretta 70, UV floodlight, phosphorus flare) |
 | Journals | Start Here, **player handouts**, the Mission 2 teaser, and the **DA Walkthrough** — the full day-by-day run of the case (who the party meets, what every person and place yields, and the easter eggs hidden in all 61 card images) |
-| Scene | *Sangreal Landing* — module title/landing scene with landing-page behavior |
+| Scene | 27 backgrounds — *Sangreal Landing* (landing-page behaviour) plus 16 theater-of-the-mind views and 10 gridless battle maps, each on a Foundry v14 Level; the **Scene Art — GM Index** page catalogues them |
+| Sound effects | **Sangreal Sound Effects** — a 25-track playlist (looping ambience beds, props and stings) cued beat-by-beat, with the **Sound Effects — Cue Sheet** page in the DA Walkthrough; licensing record ships in `assets/audio/CREDITS.md` |
 
 ## Development
 
@@ -42,6 +43,7 @@ The module is built exclusively for the *Neon Relic* system. If it is enabled in
 | `npm run build` | Compile `src/packs/*.yaml` → `dist/packs/*` and copy static files |
 | `npm run validate` | Validate pack sources (cross-links, schema, references) |
 | `npm run audit` | Audit the build output (packs, document counts, coverage) |
+| `npm run scenes:verify` | Verify scene Levels, background files and the migration stamp |
 | `npm run emit:uuids` | Print the deterministic slug → compendium UUID map |
 | `./tools/push-local.sh` | Build and push the module to a local Foundry VTT data directory for testing |
 
