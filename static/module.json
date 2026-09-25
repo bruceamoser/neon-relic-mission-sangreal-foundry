@@ -2,7 +2,7 @@
   "id": "neon-relic-mission-sangreal",
   "title": "Mission: Sangreal",
   "description": "<p><strong>The Twelve Phials of Gethsemane</strong> &mdash; a complete investigation case file for the <em>Neon Relic</em> system.</p><p>A stolen Vatican attach&eacute;. Seven operational nodes across Rome, Geneva, Zurich, Turin, and Novara. Sixteen illustrated characters, seventy-seven information cards with artwork — including a sixteen-card photographic-evidence series (ready for the Examine Photo viewer), a 14-day case board with faction and off-camera tracks, an information web, ten relic entries with VC-16 containment sheets, the day-by-day DA Walkthrough, player handouts, a landing scene, sixteen theater-of-the-mind scenes, ten gridless battle maps, a twenty-five-track sound-effects playlist cued to the walkthrough, and the bridge to <em>Mission 2: Recover the Sangreal</em>.</p><p>Requires the <strong>neon-relic</strong> game system &mdash; this module is not compatible with any other system.</p>",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "esmodules": [
     "scripts/main.mjs"
   ],
