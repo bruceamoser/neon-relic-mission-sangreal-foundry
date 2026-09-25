@@ -156,8 +156,8 @@
     {
       "id": "NP11",
       "npc": "sangreal-npc-gendarme-officer",
-      "gm_name": "Vatican Gendarme Duty Officer",
-      "player_title": "Vatican Gendarme Duty Officer",
+      "gm_name": "Gerard, Vatican Gendarme Duty Officer",
+      "player_title": "Gerard, Vatican Gendarme Duty Officer",
       "status": "READY_FOR_REVIEW",
       "path": "assets/art/portraits-clean/np11.webp",
       "dimensions": [
@@ -171,8 +171,8 @@
     {
       "id": "NP12",
       "npc": "sangreal-npc-logistics-officer",
-      "gm_name": "Covenant Logistics Officer",
-      "player_title": "Covenant Logistics Officer",
+      "gm_name": "Petra, Covenant Logistics Officer",
+      "player_title": "Petra, Covenant Logistics Officer",
       "status": "READY_FOR_REVIEW",
       "path": "assets/art/portraits-clean/np12.webp",
       "dimensions": [
@@ -186,8 +186,8 @@
     {
       "id": "NP13",
       "npc": "sangreal-npc-wayfinder-analyst",
-      "gm_name": "Wayfinder Remote-Sensing Analyst",
-      "player_title": "Wayfinder Remote-Sensing Analyst",
+      "gm_name": "Stephan, Wayfinder Remote-Sensing Analyst",
+      "player_title": "Stephan, Wayfinder Remote-Sensing Analyst",
       "status": "BLOCKED_IMAGEGEN_SAFETY"
     },
     {

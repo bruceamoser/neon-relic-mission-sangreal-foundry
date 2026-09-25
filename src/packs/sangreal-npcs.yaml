@@ -9,7 +9,7 @@
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np01.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-corvi.webp
+      src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np01.webp
   system:
     tier: 2
     description: >
@@ -53,7 +53,7 @@
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np02.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-vane.webp
+      src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np02.webp
   system:
     tier: 3
     description: >
@@ -100,7 +100,7 @@
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np03.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-sabbatini.webp
+      src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np03.webp
   system:
     tier: 3
     description: >
@@ -144,7 +144,7 @@
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np04.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-graf.webp
+      src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np04.webp
   system:
     tier: 1
     description: >
@@ -185,7 +185,7 @@
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np05.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann.webp
+      src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np05.webp
   system:
     tier: 4
     description: >
@@ -233,7 +233,7 @@
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np06.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-ghiberti.webp
+      src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np06.webp
   system:
     tier: 1
     description: >
@@ -274,7 +274,7 @@
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np07.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-mercier.webp
+      src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np07.webp
   system:
     tier: 1
     description: >
@@ -314,7 +314,7 @@
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np08.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-entita-operative.webp
+      src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np08.webp
   system:
     tier: 4
     description: >
@@ -358,7 +358,7 @@
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np09.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-operative.webp
+      src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np09.webp
   system:
     tier: 4
     description: >
@@ -428,7 +428,7 @@
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np10.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-elder.webp
+      src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np10.webp
   system:
     tier: 4
     description: >
@@ -471,12 +471,12 @@
     negativeResult: 'It reaches the Carpathians unopposed — and the feral lineage erupts across Northern Italy.'
 
 - _id: sangreal-npc-gendarme-officer
-  name: 'Vatican Gendarme Duty Officer'
+  name: 'Gerard, Vatican Gendarme Duty Officer'
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np11.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-gendarme-officer.webp
+      src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np11.webp
   system:
     tier: 1
     description: >
@@ -511,12 +511,12 @@
     negativeResult: 'Repeats only the official version and points the cell at the Swiss Guard archive like everyone else does.'
 
 - _id: sangreal-npc-logistics-officer
-  name: 'Covenant Logistics Officer'
+  name: 'Petra, Covenant Logistics Officer'
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np12.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-logistics-officer.webp
+      src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np12.webp
   system:
     tier: 1
     description: >
@@ -550,7 +550,7 @@
     negativeResult: 'The request "goes to committee" — arriving two shifts later than promised.'
 
 - _id: sangreal-npc-wayfinder-analyst
-  name: 'Wayfinder Remote-Sensing Analyst'
+  name: 'Stephan, Wayfinder Remote-Sensing Analyst'
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/npc-wayfinder-analyst.webp
   prototypeToken:
@@ -594,7 +594,7 @@
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np14.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-turin-intermediary.webp
+      src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np14.webp
   system:
     tier: 3
     description: >
@@ -634,7 +634,7 @@
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np15.webp
   prototypeToken:
     texture:
-      src: modules/neon-relic-mission-sangreal/assets/art/npc-watcher.webp
+      src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np15.webp
   system:
     tier: 2
     description: >
