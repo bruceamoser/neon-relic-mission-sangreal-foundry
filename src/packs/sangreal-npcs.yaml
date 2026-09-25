@@ -6,7 +6,7 @@
 - _id: sangreal-npc-corvi
   name: 'Monsignor Matteo Corvi'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-corvi.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np01.webp
   prototypeToken:
     texture:
       src: modules/neon-relic-mission-sangreal/assets/art/npc-corvi.webp
@@ -50,7 +50,7 @@
 - _id: sangreal-npc-vane
   name: 'Sister Claudia Vane'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-vane.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np02.webp
   prototypeToken:
     texture:
       src: modules/neon-relic-mission-sangreal/assets/art/npc-vane.webp
@@ -97,7 +97,7 @@
 - _id: sangreal-npc-sabbatini
   name: 'Cardinal Enrico Sabbatini'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-sabbatini.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np03.webp
   prototypeToken:
     texture:
       src: modules/neon-relic-mission-sangreal/assets/art/npc-sabbatini.webp
@@ -141,7 +141,7 @@
 - _id: sangreal-npc-graf
   name: 'Dr. Elizabeth Graf'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-graf.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np04.webp
   prototypeToken:
     texture:
       src: modules/neon-relic-mission-sangreal/assets/art/npc-graf.webp
@@ -182,7 +182,7 @@
 - _id: sangreal-npc-hausmann
   name: 'Kurt Hausmann (The Feral Banker)'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np05.webp
   prototypeToken:
     texture:
       src: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann.webp
@@ -230,7 +230,7 @@
 - _id: sangreal-npc-ghiberti
   name: 'Father Ghiberti'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-ghiberti.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np06.webp
   prototypeToken:
     texture:
       src: modules/neon-relic-mission-sangreal/assets/art/npc-ghiberti.webp
@@ -271,7 +271,7 @@
 - _id: sangreal-npc-mercier
   name: 'Jean-Paul Mercier'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-mercier.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np07.webp
   prototypeToken:
     texture:
       src: modules/neon-relic-mission-sangreal/assets/art/npc-mercier.webp
@@ -311,7 +311,7 @@
 - _id: sangreal-npc-entita-operative
   name: "L'Entità Sanitization Operative"
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-entita-operative.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np08.webp
   prototypeToken:
     texture:
       src: modules/neon-relic-mission-sangreal/assets/art/npc-entita-operative.webp
@@ -355,7 +355,7 @@
 - _id: sangreal-npc-basarab-operative
   name: 'Basarab Retrieval Operative'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-operative.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np09.webp
   prototypeToken:
     texture:
       src: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-operative.webp
@@ -425,7 +425,7 @@
 - _id: sangreal-npc-basarab-elder
   name: 'Basarab Elder'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-elder.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np10.webp
   prototypeToken:
     texture:
       src: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-elder.webp
@@ -473,7 +473,7 @@
 - _id: sangreal-npc-gendarme-officer
   name: 'Vatican Gendarme Duty Officer'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-gendarme-officer.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np11.webp
   prototypeToken:
     texture:
       src: modules/neon-relic-mission-sangreal/assets/art/npc-gendarme-officer.webp
@@ -513,7 +513,7 @@
 - _id: sangreal-npc-logistics-officer
   name: 'Covenant Logistics Officer'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-logistics-officer.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np12.webp
   prototypeToken:
     texture:
       src: modules/neon-relic-mission-sangreal/assets/art/npc-logistics-officer.webp
@@ -591,7 +591,7 @@
 - _id: sangreal-npc-turin-intermediary
   name: 'The Turin Intermediary'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-turin-intermediary.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np14.webp
   prototypeToken:
     texture:
       src: modules/neon-relic-mission-sangreal/assets/art/npc-turin-intermediary.webp
@@ -631,7 +631,7 @@
 - _id: sangreal-npc-watcher
   name: 'The Grey Watcher'
   type: npc
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-watcher.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np15.webp
   prototypeToken:
     texture:
       src: modules/neon-relic-mission-sangreal/assets/art/npc-watcher.webp

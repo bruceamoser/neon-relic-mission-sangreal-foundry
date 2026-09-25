@@ -2,7 +2,7 @@
 
 Foundry VTT v14 content module for **Neon Relic** — *Mission: Sangreal*.
 
-A stolen Vatican attaché carrying the Twelve Phials of Gethsemane is brokered across Western Europe while an embedded double agent steers the Covenant toward a manufactured vampire outbreak. This module ships the complete investigation: DA case brief and player dossier, 14-day case board, information web (61 linked information cards), sixteen illustrated NPC cards, location and faction dossiers, relics with VC-16 containment sheets and field kit, four journals (including the day-by-day DA Walkthrough and player handouts), roll tables, and a landing scene.
+A stolen Vatican attaché carrying the Twelve Phials of Gethsemane is brokered across Western Europe while an embedded double agent steers the Covenant toward a manufactured vampire outbreak. This module ships the complete investigation: DA case brief and player dossier, 14-day case board, information web (77 linked information cards), sixteen illustrated NPC cards, location and faction dossiers, relics with VC-16 containment sheets and field kit, four journals (including the day-by-day DA Walkthrough and player handouts), roll tables, and a landing scene.
 
 ## Requirements
 
@@ -28,7 +28,7 @@ The module is built exclusively for the *Neon Relic* system. If it is enabled in
 | Content | Details |
 | --- | --- |
 | Briefs & board | DA Case Brief (VC-17), Player Dossier, Case Board (14-day countdown, 2 faction tracks + 7 off-camera person tracks, case-journey relic milestones), Information Web |
-| Information cards | 61 cards total — I1–I45 intel with art, found-at / known-by cross-links, reveal state, and DA notes covering retrieval, image reading, and hidden clues — plus **N1–N16 cast cards**: player-showable NPC dossiers whose portraits carry the same easter eggs, ready for the Examine Photo viewer |
+| Information cards | 77 cards total — I1–I45 intel with art, found-at / known-by cross-links, reveal state, and DA notes covering retrieval, image reading, and hidden clues — plus **P1–P16 photographic evidence** (the superseded portraits, kept as the photographs themselves: the tells, eggs and pairings) and **N1–N16 cast cards**: player-showable NPC dossiers whose clean portraits are ready for the Examine Photo viewer. A separate *NPC Portraits* pack carries the plain introduction portraits |
 | NPCs | Corvi, Claudia Vane, Hausmann, Dr. Graf, Sabbatini, Ghiberti, and more — 16 illustrated actors |
 | Sites | Seven location dossiers (Vault IX, Corvi's quarters, UBS Geneva, Sonnenberg clinic, Lingotto works, San Nazzaro retreat, CDF palace) and two faction dossiers (the Holy Alliance, the Talamasca) |
 | Relics | The attaché, the Lodestone of St. Jude, the Veil of Veronica's Thread — each with a VC-16 containment sheet — plus field kit (revolver, Beretta 70, UV floodlight, phosphorus flare) |

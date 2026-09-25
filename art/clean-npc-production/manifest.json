@@ -1,0 +1,226 @@
+{
+  "status": "READY_FOR_REVIEW",
+  "generation_mode": "built-in ImageGen",
+  "encoding": "WebP q85; native pixels, no resize",
+  "assets": [
+    {
+      "id": "NP01",
+      "npc": "sangreal-npc-corvi",
+      "gm_name": "Monsignor Matteo Corvi",
+      "player_title": "Monsignor Matteo Corvi",
+      "status": "READY_FOR_REVIEW",
+      "path": "assets/art/portraits-clean/np01.webp",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 87626,
+      "sha256": "cf8c7d1dae6d8821f33237bb3fd0d252fb8afa8343e66b7167d998114456430e",
+      "prompt": "Use case: identity-preserve. Create one clean player-facing NPC portrait using ONLY the specified reference person's likeness. Preserve facial identity, age, hair and ordinary clothing. Portrait 4:5, head and shoulders, full top of head, face unobscured and square-token crop friendly. Neutral softly blurred warm grey wall, natural soft window light, restrained realistic 1987 color film photograph, subtle grain, no damaged photo border. Hands below frame. No text, documents, cases, straps, equipment, badges, insignia, weapons, emblems, other people, location clues or supernatural signs. Normal human eyes with visible irises and sclera. Calm natural expression. First reference: Corvi, the grey-stubbled older cleric with glasses. Retain black clerical collar and subtle red piping; remove leather strap, case and all desk objects."
+    },
+    {
+      "id": "NP02",
+      "npc": "sangreal-npc-vane",
+      "gm_name": "Sister Claudia Vane",
+      "player_title": "Sister Claudia Vane",
+      "status": "READY_FOR_REVIEW",
+      "path": "assets/art/portraits-clean/np02.webp",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 65284,
+      "sha256": "3d9e23f9f19e5eb16e79da89a2eb91c3a3108e37333b0cb9e871cb6aaca6aa09",
+      "prompt": "Use case: identity-preserve. Create one clean player-facing NPC portrait using ONLY the specified reference person's likeness. Preserve facial identity, age, hair and ordinary clothing. Portrait 4:5, head and shoulders, full top of head, face unobscured and square-token crop friendly. Neutral softly blurred warm grey wall, natural soft window light, restrained realistic 1987 color film photograph, subtle grain, no damaged photo border. Hands below frame. No text, documents, cases, straps, equipment, badges, insignia, weapons, emblems, other people, location clues or supernatural signs. Normal human eyes with visible irises and sclera. Calm natural expression. First reference: Sister Claudia, woman in black veil. Retain plain veil and grey high neckline; no folio, rosary, jewelry or hand scar visible."
+    },
+    {
+      "id": "NP03",
+      "npc": "sangreal-npc-sabbatini",
+      "gm_name": "Cardinal Enrico Sabbatini",
+      "player_title": "Cardinal Enrico Sabbatini",
+      "status": "READY_FOR_REVIEW",
+      "path": "assets/art/portraits-clean/np03.webp",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 61318,
+      "sha256": "228d4b324d573ea45016050fe811249bcaa318fc9d08dff9afc1dfbdee946ba0",
+      "prompt": "Use case: identity-preserve. Create one clean player-facing NPC portrait using ONLY the specified reference person's likeness. Preserve facial identity, age, hair and ordinary clothing. Portrait 4:5, head and shoulders, full top of head, face unobscured and square-token crop friendly. Neutral softly blurred warm grey wall, natural soft window light, restrained realistic 1987 color film photograph, subtle grain, no damaged photo border. Hands below frame. No text, documents, cases, straps, equipment, badges, insignia, weapons, emblems, other people, location clues or supernatural signs. Normal human eyes with visible irises and sclera. Calm natural expression. First reference: Cardinal Sabbatini, older heavy-jawed cleric. Retain black clerical dress with scarlet piping; crop above jewelry, no rings, cross or paperwork."
+    },
+    {
+      "id": "NP04",
+      "npc": "sangreal-npc-graf",
+      "gm_name": "Dr. Elizabeth Graf",
+      "player_title": "Dr. Elizabeth Graf",
+      "status": "READY_FOR_REVIEW",
+      "path": "assets/art/portraits-clean/np04.webp",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 75946,
+      "sha256": "ff6ab45c6e43e9450bf9b011d651e270aa2ba3430a6f261c747a8d226d3d8f64",
+      "prompt": "Use case: identity-preserve. Create one clean player-facing NPC portrait using ONLY the specified reference person's likeness. Preserve facial identity, age, hair and ordinary clothing. Portrait 4:5, head and shoulders, full top of head, face unobscured and square-token crop friendly. Neutral softly blurred warm grey wall, natural soft window light, restrained realistic 1987 color film photograph, subtle grain, no damaged photo border. Hands below frame. No text, documents, cases, straps, equipment, badges, insignia, weapons, emblems, other people, location clues or supernatural signs. Normal human eyes with visible irises and sclera. Calm natural expression. Reference: Dr Graf, blonde woman with reading glasses on her head. White coat over blue scrubs, composed everyday professional expression, no slide box, medical equipment, injury or panic."
+    },
+    {
+      "id": "NP05",
+      "npc": "sangreal-npc-hausmann",
+      "gm_name": "Kurt Hausmann (The Feral Banker)",
+      "player_title": "Kurt Hausmann",
+      "status": "READY_FOR_REVIEW",
+      "path": "assets/art/portraits-clean/np05.webp",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 110008,
+      "sha256": "44238bb66b392ab74fce7692ccebe7d8cdc82d76c815894c267dd410f39eb4fc",
+      "prompt": "Use case: identity-preserve. Create one clean player-facing NPC portrait using ONLY the specified reference person's likeness. Preserve facial identity, age, hair and ordinary clothing. Portrait 4:5, head and shoulders, full top of head, face unobscured and square-token crop friendly. Neutral softly blurred warm grey wall, natural soft window light, restrained realistic 1987 color film photograph, subtle grain, no damaged photo border. Hands below frame. No text, documents, cases, straps, equipment, badges, insignia, weapons, emblems, other people, location clues or supernatural signs. Normal human eyes with visible irises and sclera. Calm natural expression. Reference is pre-treatment Kurt Hausmann intake photograph. Preserve this man's exact facial identity, thinning grey hair, age 62 and natural blue-grey irises, normal small pupils and white sclera. Dress him in a clean expensive charcoal business suit, white shirt and restrained silk tie. Ordinary seated professional portrait before treatment; no hospital gown, medical context, board, watch, injuries, blood, burns, black eyes or supernatural transformation. Retain age lines, natural healthy skin texture."
+    },
+    {
+      "id": "NP06",
+      "npc": "sangreal-npc-ghiberti",
+      "gm_name": "Father Ghiberti",
+      "player_title": "Father Ghiberti",
+      "status": "READY_FOR_REVIEW",
+      "path": "assets/art/portraits-clean/np06.webp",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 81190,
+      "sha256": "4641562568ad77b0698a0d8808bdabad10dd0bbf009ec1bb53dd54341bf46cb9",
+      "prompt": "Use case: identity-preserve. Create one clean player-facing NPC portrait using ONLY the specified reference person's likeness. Preserve facial identity, age, hair and ordinary clothing. Portrait 4:5, head and shoulders, full top of head, face unobscured and square-token crop friendly. Neutral softly blurred warm grey wall, natural soft window light, restrained realistic 1987 color film photograph, subtle grain, no damaged photo border. Hands below frame. No text, documents, cases, straps, equipment, badges, insignia, weapons, emblems, other people, location clues or supernatural signs. Normal human eyes with visible irises and sclera. Calm natural expression. First reference: thin older priest with round wire glasses, retain his face and black clerical dress and taped spectacle hinge. No folder or archival background."
+    },
+    {
+      "id": "NP07",
+      "npc": "sangreal-npc-mercier",
+      "gm_name": "Jean-Paul Mercier",
+      "player_title": "Jean-Paul Mercier",
+      "status": "READY_FOR_REVIEW",
+      "path": "assets/art/portraits-clean/np07.webp",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 91460,
+      "sha256": "153ed78305e357b276c5554618e8c9d664323c9136507f6e9d903362991ce649",
+      "prompt": "Use case: identity-preserve. Create one clean player-facing NPC portrait using ONLY the specified reference person's likeness. Preserve facial identity, age, hair and ordinary clothing. Portrait 4:5, head and shoulders, full top of head, face unobscured and square-token crop friendly. Neutral softly blurred warm grey wall, natural soft window light, restrained realistic 1987 color film photograph, subtle grain, no damaged photo border. Hands below frame. No text, documents, cases, straps, equipment, badges, insignia, weapons, emblems, other people, location clues or supernatural signs. Normal human eyes with visible irises and sclera. Calm natural expression. First reference: receding-haired bank clerk in charcoal three-piece suit. Retain exact face and suit and dark tie; remove pocket slip completely, no paper or bank logo."
+    },
+    {
+      "id": "NP08",
+      "npc": "sangreal-npc-entita-operative",
+      "gm_name": "L'Entit\u00e0 Sanitization Operative",
+      "player_title": "Man in a Grey Overcoat",
+      "status": "READY_FOR_REVIEW",
+      "path": "assets/art/portraits-clean/np08.webp",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 144456,
+      "sha256": "275109555f59c1c316837b11a29fc7a6e5495205e88a34ebcc7f839a8181ce85",
+      "prompt": "Use case: identity-preserve. Create one clean player-facing NPC portrait using ONLY the specified reference person's likeness. Preserve facial identity, age, hair and ordinary clothing. Portrait 4:5, head and shoulders, full top of head, face unobscured and square-token crop friendly. Neutral softly blurred warm grey wall, natural soft window light, restrained realistic 1987 color film photograph, subtle grain, no damaged photo border. Hands below frame. No text, documents, cases, straps, equipment, badges, insignia, weapons, emblems, other people, location clues or supernatural signs. Normal human eyes with visible irises and sclera. Calm natural expression. First reference: short dark-haired square-jawed man in grey wool overcoat. Keep face and coat, plain brown scarf under closed coat, remove ALL tactical vest webbing, grenade, gun, gloves and equipment."
+    },
+    {
+      "id": "NP09",
+      "npc": "sangreal-npc-basarab-operative",
+      "gm_name": "Basarab Retrieval Operative",
+      "player_title": "Dark-haired Visitor",
+      "status": "READY_FOR_REVIEW",
+      "path": "assets/art/portraits-clean/np09.webp",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 79718,
+      "sha256": "9216c00d58175e7d03e4033e6f0dd368bfe3f378340eeb4250a8ab3404586ff4",
+      "prompt": "Use case: identity-preserve. Create one clean player-facing NPC portrait using ONLY the specified reference person's likeness. Preserve facial identity, age, hair and ordinary clothing. Portrait 4:5, head and shoulders, full top of head, face unobscured and square-token crop friendly. Neutral softly blurred warm grey wall, natural soft window light, restrained realistic 1987 color film photograph, subtle grain, no damaged photo border. Hands below frame. No text, documents, cases, straps, equipment, badges, insignia, weapons, emblems, other people, location clues or supernatural signs. Normal human eyes with visible irises and sclera. Calm natural expression. First reference: lean androgynous person with collar-length wavy black hair and sharp cheekbones. Exact facial likeness and black wool coat, but ordinary living-human olive skin and normal brown irises, no red catchlights, fangs, corpse pallor or predatory expression."
+    },
+    {
+      "id": "NP10",
+      "npc": "sangreal-npc-basarab-elder",
+      "gm_name": "Basarab Elder",
+      "player_title": "Silver-haired Gentleman",
+      "status": "READY_FOR_REVIEW",
+      "path": "assets/art/portraits-clean/np10.webp",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 95626,
+      "sha256": "079af865b8773501bd29ebc5175186a3fb29b51e4a515d5240353e88e37629ad",
+      "prompt": "Use case: identity-preserve. Create one clean player-facing NPC portrait using ONLY the specified reference person's likeness. Preserve facial identity, age, hair and ordinary clothing. Portrait 4:5, head and shoulders, full top of head, face unobscured and square-token crop friendly. Neutral softly blurred warm grey wall, natural soft window light, restrained realistic 1987 color film photograph, subtle grain, no damaged photo border. Hands below frame. No text, documents, cases, straps, equipment, badges, insignia, weapons, emblems, other people, location clues or supernatural signs. Normal human eyes with visible irises and sclera. Calm natural expression. First reference: older aquiline-nosed silver-haired gentleman in black wool coat. Preserve exact facial identity and apparent late-60s age. Ordinary living human skin and normal grey-green eyes. Mild natural expression. No ring, crest, candle, crypt, fangs or supernatural traits."
+    },
+    {
+      "id": "NP11",
+      "npc": "sangreal-npc-gendarme-officer",
+      "gm_name": "Vatican Gendarme Duty Officer",
+      "player_title": "Vatican Gendarme Duty Officer",
+      "status": "READY_FOR_REVIEW",
+      "path": "assets/art/portraits-clean/np11.webp",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 78038,
+      "sha256": "5fb1a886bf33ef64fde6ecf2e737c12daa3ebe78b833ee296a90bd0f4c07340e",
+      "prompt": "Use case: identity-preserve. Create one clean player-facing NPC portrait using ONLY the specified reference person's likeness. Preserve facial identity, age, hair and ordinary clothing. Portrait 4:5, head and shoulders, full top of head, face unobscured and square-token crop friendly. Neutral softly blurred warm grey wall, natural soft window light, restrained realistic 1987 color film photograph, subtle grain, no damaged photo border. Hands below frame. No text, documents, cases, straps, equipment, badges, insignia, weapons, emblems, other people, location clues or supernatural signs. Normal human eyes with visible irises and sclera. Calm natural expression. First reference: weary middle-aged officer in navy uniform. Preserve facial identity. Bareheaded to show face, simple navy uniform jacket white shirt and black tie, no cap, insignia, lettering, clipboard chain, keys, logbook or gloves."
+    },
+    {
+      "id": "NP12",
+      "npc": "sangreal-npc-logistics-officer",
+      "gm_name": "Covenant Logistics Officer",
+      "player_title": "Covenant Logistics Officer",
+      "status": "READY_FOR_REVIEW",
+      "path": "assets/art/portraits-clean/np12.webp",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 101592,
+      "sha256": "2923e1e51b6de64c5cab82347dfb505aa67edb45a237d4e5d0f73804d6c57627",
+      "prompt": "Use case: identity-preserve. Create one clean player-facing NPC portrait using ONLY the specified reference person's likeness. Preserve facial identity, age, hair and ordinary clothing. Portrait 4:5, head and shoulders, full top of head, face unobscured and square-token crop friendly. Neutral softly blurred warm grey wall, natural soft window light, restrained realistic 1987 color film photograph, subtle grain, no damaged photo border. Hands below frame. No text, documents, cases, straps, equipment, badges, insignia, weapons, emblems, other people, location clues or supernatural signs. Normal human eyes with visible irises and sclera. Calm natural expression. Reference: practical grey short-haired middle-aged woman in olive field jacket over dark turtleneck. Preserve exact face, hair, and clothing. No clipboard, thermos, maps, crates or gear."
+    },
+    {
+      "id": "NP13",
+      "npc": "sangreal-npc-wayfinder-analyst",
+      "gm_name": "Wayfinder Remote-Sensing Analyst",
+      "player_title": "Wayfinder Remote-Sensing Analyst",
+      "status": "BLOCKED_IMAGEGEN_SAFETY"
+    },
+    {
+      "id": "NP14",
+      "npc": "sangreal-npc-turin-intermediary",
+      "gm_name": "The Turin Intermediary",
+      "player_title": "The Intermediary",
+      "status": "READY_FOR_REVIEW",
+      "path": "assets/art/portraits-clean/np14.webp",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 144016,
+      "sha256": "aab66879fa17ce9aee9fd0d87d10c8fa31f48eeb776945fcbf8baab6c604a584",
+      "prompt": "Use case: identity-preserve. Create one clean player-facing NPC portrait using ONLY the specified reference person's likeness. Preserve facial identity, age, hair and ordinary clothing. Portrait 4:5, head and shoulders, full top of head, face unobscured and square-token crop friendly. Neutral softly blurred warm grey wall, natural soft window light, restrained realistic 1987 color film photograph, subtle grain, no damaged photo border. Hands below frame. No text, documents, cases, straps, equipment, badges, insignia, weapons, emblems, other people, location clues or supernatural signs. Normal human eyes with visible irises and sclera. Calm natural expression. First reference: older man in camel wool overcoat with salt-and-pepper swept-back hair and burgundy patterned scarf. Preserve his visible profile, late-50s age and clothing. Portrait in a strong three-quarter profile, head turned slightly away, visible eye and cheek but not full frontal because this man avoids head-on photographs. No smoking, hand, cufflink, crest, cars, factory or signage."
+    },
+    {
+      "id": "NP15",
+      "npc": "sangreal-npc-watcher",
+      "gm_name": "The Grey Watcher",
+      "player_title": "Man in a Grey Raincoat",
+      "status": "READY_FOR_REVIEW",
+      "path": "assets/art/portraits-clean/np15.webp",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 73128,
+      "sha256": "6e76bdc2c2eedd8f2fc2aaf23f07c561db27753c825b7fa2d9318d8806cd3453",
+      "prompt": "Use case: identity-preserve. Create one clean player-facing NPC portrait using ONLY the specified reference person's likeness. Preserve facial identity, age, hair and ordinary clothing. Portrait 4:5, head and shoulders, full top of head, face unobscured and square-token crop friendly. Neutral softly blurred warm grey wall, natural soft window light, restrained realistic 1987 color film photograph, subtle grain, no damaged photo border. Hands below frame. No text, documents, cases, straps, equipment, badges, insignia, weapons, emblems, other people, location clues or supernatural signs. Normal human eyes with visible irises and sclera. Calm natural expression. Reference: unremarkable middle-aged balding man in grey raincoat, white shirt and muted tie. Preserve exact face and hair. Look up naturally toward camera. No newspaper, ring, eye symbol, camera, cafes, surveillance context or identifying props."
+    }
+  ],
+  "runtime_bytes": 1289406,
+  "excluded": "Feral Ghouls is a mob, not an individual; original encounter artwork retained."
+}

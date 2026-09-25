@@ -150,6 +150,7 @@ const INSTALL_PLAN = [
   { pack: 'sangreal-briefs', folder: 'Briefs & Board' },
   { pack: 'sangreal-npcs', folder: 'NPCs' },
   { pack: 'sangreal-clues', folder: 'Clues' },
+  { pack: 'sangreal-portraits', folder: 'NPC Portraits' },
   { pack: 'sangreal-sites', folder: 'Sites' },
   { pack: 'sangreal-relics', folder: 'Relics' },
   { pack: 'sangreal-sfx', folder: 'Sound Effects' },
@@ -319,7 +320,10 @@ async function installContent() {
         if (existing) {
           // Overwrite in place, keeping the pack ID and any world-side
           // additions the update does not touch (diff: false = no deletions).
-          const update = doc.documentName === 'Scene' ? prepareSceneUpdate(existing, data, sceneStats) : data;
+          const update = doc.documentName === 'Scene' ? prepareSceneUpdate(existing, data, sceneStats) : { ...data };
+          // Permissions belong to the world, not the pack: a GM who has granted
+          // players access to a document must not lose it on every re-import.
+          delete update.ownership;
           await existing.update(update, { diff: false });
           updated++;
         } else {

@@ -1432,7 +1432,7 @@
 - _id: sangreal-ic46
   name: 'N1 — Monsignor Matteo Corvi'
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-corvi.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np01.webp
   system:
     cardId: N-1
     cardType: supportingIntel
@@ -1473,7 +1473,7 @@
 - _id: sangreal-ic47
   name: 'N2 — Sister Claudia Vane'
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-vane.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np02.webp
   system:
     cardId: N-2
     cardType: supportingIntel
@@ -1511,7 +1511,7 @@
 - _id: sangreal-ic48
   name: 'N3 — Cardinal Enrico Sabbatini'
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-sabbatini.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np03.webp
   system:
     cardId: N-3
     cardType: supportingIntel
@@ -1547,7 +1547,7 @@
 - _id: sangreal-ic49
   name: 'N4 — Dr. Elizabeth Graf'
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-graf.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np04.webp
   system:
     cardId: N-4
     cardType: supportingIntel
@@ -1582,7 +1582,7 @@
 - _id: sangreal-ic50
   name: 'N5 — Kurt Hausmann'
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np05.webp
   system:
     cardId: N-5
     cardType: supportingIntel
@@ -1621,7 +1621,7 @@
 - _id: sangreal-ic51
   name: 'N6 — Father Ghiberti'
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-ghiberti.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np06.webp
   system:
     cardId: N-6
     cardType: supportingIntel
@@ -1657,7 +1657,7 @@
 - _id: sangreal-ic52
   name: 'N7 — Jean-Paul Mercier'
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-mercier.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np07.webp
   system:
     cardId: N-7
     cardType: supportingIntel
@@ -1694,7 +1694,7 @@
 - _id: sangreal-ic53
   name: 'N8 — The Operative in Grey'
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-entita-operative.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np08.webp
   system:
     cardId: N-8
     cardType: supportingIntel
@@ -1731,7 +1731,7 @@
 - _id: sangreal-ic54
   name: 'N9 — The Retrieval Pack Operative'
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-operative.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np09.webp
   system:
     cardId: N-9
     cardType: supportingIntel
@@ -1801,7 +1801,7 @@
 - _id: sangreal-ic56
   name: 'N11 — Unidentified Male, Unaged'
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-elder.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np10.webp
   system:
     cardId: N-11
     cardType: supportingIntel
@@ -1837,9 +1837,9 @@
     npcUuids: []
 
 - _id: sangreal-ic57
-  name: 'N12 — Vatican Gendarme Duty Officer'
+  name: 'N12 — Gerard, Vatican Gendarme Duty Officer'
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-gendarme-officer.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np11.webp
   system:
     cardId: N-12
     cardType: supportingIntel
@@ -1874,9 +1874,9 @@
     npcUuids: []
 
 - _id: sangreal-ic58
-  name: 'N13 — Covenant Logistics Officer'
+  name: 'N13 — Petra, Covenant Logistics Officer'
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-logistics-officer.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np12.webp
   system:
     cardId: N-13
     cardType: supportingIntel
@@ -1911,7 +1911,7 @@
     npcUuids: []
 
 - _id: sangreal-ic59
-  name: 'N14 — Wayfinder Remote-Sensing Analyst'
+  name: 'N14 — Stephan, Wayfinder Remote-Sensing Analyst'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/npc-wayfinder-analyst.webp
   system:
@@ -1951,7 +1951,7 @@
 - _id: sangreal-ic60
   name: 'N15 — The Turin Intermediary'
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-turin-intermediary.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np14.webp
   system:
     cardId: N-15
     cardType: supportingIntel
@@ -1985,7 +1985,7 @@
 - _id: sangreal-ic61
   name: 'N16 — The Grey Watcher'
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/npc-watcher.webp
+  img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np15.webp
   system:
     cardId: N-16
     cardType: supportingIntel
@@ -2020,3 +2020,197 @@
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
+
+# Photographic evidence — the superseded NPC portraits.
+# These are the photographs themselves: every clue that used to sit in the cast
+# card's portrait now lives here, as evidence the cell finds or takes. The cast
+# cards carry clean portraits; these carry the tells.
+- _id: sangreal-ph01
+  name: 'P1 — Corvi, Archive, Night'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-corvi.webp
+  system:
+    cardId: 'P-1'
+    cardType: supportingIntel
+    content: 'A 35 mm frame taken at night in the baroque archive: Corvi at the desk, fountain pen in hand, leather-bound volumes stacked around him, a single desk lamp burning warm against cold shadow. He has the face of a man who has read something he cannot unread. A locked attaché case sits at the edge of the frame.'
+    daNotes: '<p><strong>Retrieval.</strong> When the cell first treats Corvi as more than a name on a duty roster — the L2 desk effects, Ghiberti''s story, the L5 booth.</p><p><strong>Reading the image.</strong> Warm tungsten against cold shadow; paper and leather everywhere; his collar dark with sweat at the throat.</p><p><strong>Clues &amp; easter eggs.</strong> On the desk, face down, a photograph with its corner turned up — the 1962 archive frame (I22). The attaché case is not the case: it is the one that never left his study.</p><p><strong>DA truth.</strong> This is the photograph the Covenant files Corvi under: a scholar photographed the night he stopped sleeping, four days before he opened the plinth.</p>'
+    npcSlugs: [sangreal-npc-corvi]
+    locationSlugs: [sangreal-l2]
+
+- _id: sangreal-ph02
+  name: 'P2 — Vane, Her Effects'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-vane.webp
+  system:
+    cardId: 'P-2'
+    cardType: supportingIntel
+    content: 'An inventory photograph of a dead woman''s possessions laid on a trestle: grey habit, black veil, wooden rosary, a breviary with the spine broken in the same place twice.'
+    daNotes: '<p><strong>Retrieval.</strong> At L6, when the cell lays out her effects — never while suspicion is still playable.</p><p><strong>Reading the image.</strong> Flat evidence light; everything squared to the trestle edge; nothing in the frame is hers except the habit.</p><p><strong>Clues &amp; easter eggs.</strong> One rosary bead is not a bead: it is a brass needle holder with a threaded cap — the Thread''s sheath, and she wore it to the end. The breviary breaks open at the Office of the Dead.</p><p><strong>DA truth.</strong> She carried the one tool that could hold the relic and still died unarmed. The DA should let the players notice the needle themselves.</p>'
+    npcSlugs: [sangreal-npc-vane]
+    locationSlugs: [sangreal-l6]
+
+- _id: sangreal-ph03
+  name: 'P3 — Sabbatini, Council Antechamber'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-sabbatini.webp
+  system:
+    cardId: 'P-3'
+    cardType: supportingIntel
+    content: 'A telephoto frame through the antechamber: Sabbatini behind a desk in green lamplight, one hand spread flat over a dossier as if the hand were part of the filing.'
+    daNotes: '<p><strong>Retrieval.</strong> The L7 accounting scene — photographed in person, or caught as the target of approach surveillance (I41).</p><p><strong>Reading the image.</strong> Marble and walnut; the lamp''s green pool of light; two rings, no crest.</p><p><strong>Clues &amp; easter eggs.</strong> The dossier under his hand is stamped REGISTRY 16 — AMSTERDAM and half-covered. Amsterdam is not on any itinerary the cell has seen.</p><p><strong>DA truth.</strong> He is not hiding the file from the room. He is keeping it inside the reach of his hand, which is what a man does with something he may have to destroy.</p>'
+    npcSlugs: [sangreal-npc-sabbatini]
+    locationSlugs: [sangreal-l7]
+
+- _id: sangreal-ph04
+  name: 'P4 — Graf, Ward Corridor'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-graf.webp
+  system:
+    cardId: 'P-4'
+    cardType: supportingIntel
+    content: 'Ward light the colour of wet paper: Dr. Graf in the open doorway of the treatment wing, coat pocket bulging, glasses pushed up into her hair, a moment from deciding something.'
+    daNotes: '<p><strong>Retrieval.</strong> At L4, the moment the cell earns her trust — or the DA''s own reference frame for the actor.</p><p><strong>Reading the image.</strong> Nothing in the picture is clinical except the light; her hands are empty and her pocket is not.</p><p><strong>Clues &amp; easter eggs.</strong> The slide box is in the coat pocket; its label, in her handwriting, reads 09-H MARROW (I9).</p><p><strong>DA truth.</strong> The label is the confession: she catalogued the graft under his initials and kept the slides. Bought with mercy, not with pressure.</p>'
+    npcSlugs: [sangreal-npc-graf]
+    locationSlugs: [sangreal-l4]
+
+- _id: sangreal-ph05
+  name: 'P5 — 09-H, Ward 3, After'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann.webp
+  system:
+    cardId: 'P-5'
+    cardType: supportingIntel
+    content: 'A clinical portrait in which nothing has been edited: a man in a hospital shirt in flat ward light, hollowed out, hands folded, staring at the photographer as if the photographer were the last item on a list.'
+    daNotes: '<p><strong>Retrieval.</strong> Only after the cell has seen the intake file (I27) or the ward tape (I30) — the horror is in the pairing, not the picture.</p><p><strong>Reading the image.</strong> Flat light, no shadow under the chair; the shirt still has the laundry crease in the sleeve.</p><p><strong>Clues &amp; easter eggs.</strong> He still wears his gold wristwatch. It is the same watch as the admission photograph (I27) and the same watch on the thing on the ceiling (N10).</p><p><strong>DA truth.</strong> The pairing is the whole False Revelation: this man was a patient, and the ward''s predator is what the treatment made of him.</p>'
+    npcSlugs: [sangreal-npc-hausmann]
+    locationSlugs: [sangreal-l4]
+
+- _id: sangreal-ph06
+  name: 'P6 — Ghiberti, Archive Aisle'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-ghiberti.webp
+  system:
+    cardId: 'P-6'
+    cardType: supportingIntel
+    content: 'Fluorescent light on a thin older priest standing in the stacks of the Vatican Archive, spectacle hinge taped, card drawers labelled MS-Vat-Heb behind him. He has been interrupted mid-thought and is deciding what not to say.'
+    daNotes: '<p><strong>Retrieval.</strong> Introduced at L1 the first time the cell needs anything from the Archives.</p><p><strong>Reading the image.</strong> Man and institutional furniture in the same frame; his cassock is the only soft line in it.</p><p><strong>Clues &amp; easter eggs.</strong> At his feet, half under the drawer stack, a torn index card corner — the suppressed index entry (I36). He has not noticed he is standing on it.</p><p><strong>DA truth.</strong> A frightened archivist is more useful than a cooperative one: he knows exactly which drawer he does not want opened.</p>'
+    npcSlugs: [sangreal-npc-ghiberti]
+    locationSlugs: [sangreal-l1]
+
+- _id: sangreal-ph07
+  name: 'P7 — Mercier, Above the Vault Hall'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-mercier.webp
+  system:
+    cardId: 'P-7'
+    cardType: supportingIntel
+    content: 'Marble and brass: Mercier leaning into the mezzanine rail above the vault hall, three-piece suit, ironed shirt, the faint shine of a man who does his own laundry because nobody else touches it.'
+    daNotes: '<p><strong>Retrieval.</strong> At L3 when the cell works the bank — the counter scene or his interrogation.</p><p><strong>Reading the image.</strong> Clients below him out of focus; he is the only person in the frame looking at a door rather than a customer.</p><p><strong>Clues &amp; easter eggs.</strong> A carbon copy is slipping out of his pocket: UBS 4409-C — the safe-deposit box whose records hold the escrow (I6).</p><p><strong>DA truth.</strong> He is not the villain of the Geneva thread; he is the man who keeps the paper, and the paper is what will convict the Church.</p>'
+    npcSlugs: [sangreal-npc-mercier]
+    locationSlugs: [sangreal-l3]
+
+- _id: sangreal-ph08
+  name: 'P8 — Man in the Grey Overcoat, Street'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-entita-operative.webp
+  system:
+    cardId: 'P-8'
+    cardType: supportingIntel
+    content: 'Street light on dark wool: a short, square-jawed man photographed mid-stride in a grey overcoat, collar closed, hands in pockets, entirely unbothered by being in the frame.'
+    daNotes: '<p><strong>Retrieval.</strong> Best introduced as the background figure in the 1987 team photograph (I42); this frame promotes him from someone in the background to a face the players can fear.</p><p><strong>Reading the image.</strong> Rain-slick pavement; no reflection under him; the overcoat is cut for equipment and worn closed.</p><p><strong>Clues &amp; easter eggs.</strong> A phosphorus grenade cylinder is clipped under the coat, riding at his hip like a torch. Nothing about his posture is a walking posture.</p><p><strong>DA truth.</strong> L''Entità does not retrieve; it sanitizes. The cylinder is for the room, not for the players.</p>'
+    npcSlugs: [sangreal-npc-entita-operative]
+    locationSlugs: [sangreal-l5]
+
+- _id: sangreal-ph09
+  name: 'P9 — Visitor, Roadside, Night'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-operative.webp
+  system:
+    cardId: 'P-9'
+    cardType: supportingIntel
+    content: 'Roadside sodium light and muddied plates: a lean figure with collar-length black hair standing beside a lorry, photographed with the shutter open a beat too long, so the stillness reads as a decision not to breathe.'
+    daNotes: '<p><strong>Retrieval.</strong> After the slaughter — this frame is part of what the cell learns about who did it.</p><p><strong>Reading the image.</strong> The lorry''s plates are unreadable by design; the road behind is empty in a way a road rarely is.</p><p><strong>Clues &amp; easter eggs.</strong> Two fingers of the right glove are missing, and the hand beneath is slightly wrong — the nail beds do not line up with the fingers.</p><p><strong>DA truth.</strong> The retrieval pack is not the killer; it is the collector. Show the hand only to a cell that asks.</p>'
+    npcSlugs: [sangreal-npc-basarab-operative]
+    locationSlugs: [sangreal-l6]
+
+- _id: sangreal-ph10
+  name: 'P10 — Ward 3, 02:40, Frame 88'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-feral-ghoul.webp
+  system:
+    cardId: 'P-10'
+    cardType: supportingIntel
+    content: 'One working strip light in an IR-lit corridor and a shape in it that the eye keeps trying to correct, photographed from the far end with the camera held level by someone who was already leaving.'
+    daNotes: '<p><strong>Retrieval.</strong> Absolutely not before the ward tape (I30). This frame is the payoff of the False Revelation, not its setup.</p><p><strong>Reading the image.</strong> Geometry that is wrong in a way players feel before they can name; the corridor''s perspective line runs behind the shape instead of into it.</p><p><strong>Clues &amp; easter eggs.</strong> At its wrist, fluttering, a toe tag: SONNENBERG — UNCLAIMED. Nothing else in the frame is out of place.</p><p><strong>DA truth.</strong> Unclaimed is the point. The clinic that killed him could not put a name on him either.</p>'
+    npcSlugs: [sangreal-mob-feralghouls]
+    locationSlugs: [sangreal-l4]
+
+- _id: sangreal-ph11
+  name: 'P11 — Gerard, Gate House, 04:02'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-gendarme-officer.webp
+  system:
+    cardId: 'P-11'
+    cardType: supportingIntel
+    content: 'Fluorescent gate-house light: a duty officer in a pressing-creased uniform photographed side-on at his desk, ledger squared precisely to the desk edge, coffee gone cold two hours ago.'
+    daNotes: '<p><strong>Retrieval.</strong> At L1, when the cell reviews the night of the theft with him.</p><p><strong>Reading the image.</strong> Two pens, one inkwell, no personal effects in frame; his cap is out of shot because he is on duty indoors.</p><p><strong>Clues &amp; easter eggs.</strong> The ledgers gate the whole picture: the second entry on the night of the theft is timed 04:02 and initialled in a hand that is not his (I18).</p><p><strong>DA truth.</strong> He is not lying. He is a man whose log has an entry he cannot explain and who has decided to be extremely precise about everything else.</p>'
+    npcSlugs: [sangreal-npc-gendarme-officer]
+    locationSlugs: [sangreal-l1]
+
+- _id: sangreal-ph12
+  name: 'P12 — Petra, HQ Map Table'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-logistics-officer.webp
+  system:
+    cardId: 'P-12'
+    cardType: supportingIntel
+    content: 'Lamplight on paper: a grey-haired officer in an olive field jacket leaning over a hand-drawn map with travel manifests pinned around it, mid-sentence, a pencil held like a knife.'
+    daNotes: '<p><strong>Retrieval.</strong> An HQ colour frame — use it between sessions, in any HQ scene, and in the debrief if the cell ever gets home.</p><p><strong>Reading the image.</strong> Paper is the subject of the picture; she is the only person in it.</p><p><strong>Clues &amp; easter eggs.</strong> Three cities are ringed on the map — Geneva, Zurich, Turin. The pin on Turin has been moved twice, and the older hole is still visible.</p><p><strong>DA truth.</strong> She is the Covenant''s logistics spine: she can hand the cell any missed clue as an in-world packet, in a voice that is not the DA''s.</p>'
+    npcSlugs: [sangreal-npc-logistics-officer]
+
+- _id: sangreal-ph13
+  name: 'P13 — Remote-Sensing Desk, 03:10'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-wayfinder-analyst.webp
+  system:
+    cardId: 'P-13'
+    cardType: supportingIntel
+    content: 'Instrument light on a pinned plot: an analyst at a desk of stacked printouts, headset around his neck, photographed from the side so the screens stay out of the frame.'
+    daNotes: '<p><strong>Retrieval.</strong> HQ scene — also the natural voice for HQ-packet intel, the card that lets the DA deliver a missed clue as an in-world person instead of a hand-wave.</p><p><strong>Reading the image.</strong> Instrument glow, no daylight; the plot behind him is pinned in three colours and none of them is a forecast.</p><p><strong>Clues &amp; easter eggs.</strong> The top printout reads VAULT IX — LAST STABLE READING. Someone has written a date in the margin and then written over it.</p><p><strong>DA truth.</strong> Stephan is the reason the Covenant knew the plinth moved before Rome did. The over-written margin is the day the readings stopped being stable.</p>'
+    npcSlugs: [sangreal-npc-wayfinder-analyst]
+
+- _id: sangreal-ph14
+  name: 'P14 — Intermediary, Terrace, Mid-Morning'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-turin-intermediary.webp
+  system:
+    cardId: 'P-14'
+    cardType: supportingIntel
+    content: 'Mid-morning light on a café terrace in a city that suits him: a heavy-set man in a grey trench coat, one hand around a cup, the waiter arriving before he has asked for anything.'
+    daNotes: '<p><strong>Retrieval.</strong> At L5 — surveillance first, then face to face if the cell flushes him.</p><p><strong>Reading the image.</strong> He looks at the street, not the door; his coat is buttoned in a city where nobody buttons a coat indoors.</p><p><strong>Clues &amp; easter eggs.</strong> A crest is stamped into his cufflink — the Basarab dragon in a wolf''s posture, tiny, and he keeps that cuff turned away from the road.</p><p><strong>DA truth.</strong> He is the dynasty''s buying arm in Turin: professional, punctual, and entirely uninterested in the relic''s meaning.</p>'
+    npcSlugs: [sangreal-npc-turin-intermediary]
+    locationSlugs: [sangreal-l5]
+
+- _id: sangreal-ph15
+  name: 'P15 — The Watcher, Park Bench, Midday'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-watcher.webp
+  system:
+    cardId: 'P-15'
+    cardType: supportingIntel
+    content: 'A 300 mm frame across a park: a man on a bench with a folded newspaper, overcoat collar down in good weather, photographed the way surveillance photographers shoot — slightly too much pavement in the foreground.'
+    daNotes: '<p><strong>Retrieval.</strong> The reveal frame for the Watcher — show it once the players have found him in two or more other photographs (I18, I23, I26, I31).</p><p><strong>Reading the image.</strong> He is the only person in the park whose paper is folded to a column rather than a page.</p><p><strong>Clues &amp; easter eggs.</strong> The signet ring is the only distinguishing feature in the frame: eye inside ouroboros (I5). After two sightings, the players own him.</p><p><strong>DA truth.</strong> He has been photographed watching three cities. The dossier should feel like the Covenant finally catching up, not like a twist.</p>'
+    npcSlugs: [sangreal-npc-watcher]
+    locationSlugs: [sangreal-l5]
+
+- _id: sangreal-ph16
+  name: 'P16 — Tarmac, 01:15, Long Coat'
+  type: informationCard
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-elder.webp
+  system:
+    cardId: 'P-16'
+    cardType: supportingIntel
+    content: 'Rain on tarmac: an old man in a long black coat photographed with his collar high, face half-turned to the lens, entirely calm about the fact that a camera is pointed at him.'
+    daNotes: '<p><strong>Retrieval.</strong> The final frame of the mission — pairs with the tarmac photograph (I39); show when the cell reaches the apron.</p><p><strong>Reading the image.</strong> Under the modern coat collar, a fur lining cut three centuries out of date; boyar''s clothing under modern cloth.</p><p><strong>Clues &amp; easter eggs.</strong> A dragon-wolf signet ring, worn smooth. He is not hurrying, and nothing in the frame is running.</p><p><strong>DA truth.</strong> The dynasty arrives in person at the end. The photo is the cliff-hanger: they were never dealing with Corvi, only with his customer.</p>'
+    npcSlugs: [sangreal-npc-basarab-elder]
+    locationSlugs: [sangreal-l6]
