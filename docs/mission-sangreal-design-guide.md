@@ -288,7 +288,7 @@ The Talamasca track begins at 12 countdown squares, advancing as Sister Claudia 
 * Player-Facing Text: The mahogany card catalog drawer in the Archivio Segreto. The index card for shelf-mark "MS-Vat-Heb-418" has been excised with a scalpel. In its place sits a red charge card inscribed in Latin cursive: "Extractum per Breve Apostolicum – Anno Domini 1582 – Ad Capsam XII-SANG-00."  
 * Director Notes: Connects Corvi’s historical research to the attaché's contents ("XII-SANG"), proving the theft was premeditated1.
 
-### **Card I4: The Polybius Vulgate Cipher**
+### **Card I4: The Numerals on Rag Paper**
 
 * Classification: Supporting Intel (Cryptographic Artifact)1  
 * Source Node: Location L2 (Corvi's Quarters)1  
@@ -297,7 +297,7 @@ The Talamasca track begins at 12 countdown squares, advancing as Sister Claudia 
 * Player-Facing Text: A slip of 17th-century rag paper hidden within a 1592 Clementine Vulgate Bible on Corvi’s desk, resting at the Gospel of John, Chapter 6\. The paper contains Latin numerals arranged in coordinate pairs: II-II I-V III-III I-V IV-V I-I / IV-V I-II IV-III / II-III I-I IV-V IV-III III-II I-I III-III III-III / I-IV I-IV II-V II-IV / I-III.  
 * Director Notes: Decodes via a 5x5 Latin alphabet Polybius Square (merging I/J and U/V) into: "GENEVA / UBS / HAUSMANN / 4409 / C". Unlocks Location L3 and identifies Kurt Hausmann1.
 
-### **Card I5: The Watcher’s Hallmark**
+### **Card I5: Embossed Stamp, Map Casing**
 
 * Classification: Supporting Intel (Semiotic Forensics)1  
 * Source Node: Location L1 (Carried by Sister Claudia)1  
@@ -315,7 +315,7 @@ The Talamasca track begins at 12 countdown squares, advancing as Sister Claudia 
 * Player-Facing Text: A carbon-leaf escrow receipt from locker 4409-C at Union de Banques Suisses, confirming a telegraphic transfer of 500,000 Swiss Francs from "Kurt Hausmann, Sonnenberg Privatklinik, Zurich" to an ecclesiastical escrow account in Vaduz. The transaction memo reads: "Acquisition of Primary Specimen (1 of 12\) – Experimental Oncology Protocol."  
 * Director Notes: Confirms the sale of the first phial and unlocks Location L4 (Privatklinik Sonnenberg, Zurich)1.
 
-### **Card I7: Patient File 09-Hausmann**
+### **Card I7: Patient File 09-H**
 
 * Classification: Supporting Intel (The False Revelation)1  
 * Source Node: Locations L3 (Geneva) and L4 (Zurich)1  
@@ -360,7 +360,7 @@ The Talamasca track begins at 12 countdown squares, advancing as Sister Claudia 
 * Player-Facing Text: The phials actively hunger for mortal trauma. Within 100 meters, individuals suffering from anemia, terminal illness, or lacerations experience an intense psychic compulsion to open a phial and drink. The proximity of the case accelerates cellular decay in injured subjects to provoke this consumption.  
 * Director Notes: Explains Hausmann’s rapid decline and imposes stress penalties on wounded investigators1.
 
-### **Card I12: The Ebionite Palimpsest**
+### **Card I12: The Palimpsest Leaf, Codex**
 
 * Classification: Supporting Intel (Theological Text)1  
 * Source Node: Location L5 (Turin Lingotto Assembly)1  
@@ -405,7 +405,7 @@ The Talamasca track begins at 12 countdown squares, advancing as Sister Claudia 
 * Player-Facing Text: Latin containment protocol: The phials must remain in absolute darkness, wrapped in unbleached flax linens soaked in wine vinegar, gall, and myrrh, sealed in lead-antimony foil below 4°C. Direct sunlight causes the fluid to boil and combust into white ash.  
 * Director Notes: Mechanical instructions for safe transport without triggering explosive fracture1.
 
-### **Card I17: The Basarab Extortion File**
+### **Card I17: The Dispatch Box, Microfiche**
 
 * Classification: Supporting Intel (Geopolitical Dossier)1  
 * Source Node: Location L7 (CDF Offices / Claudia's Quarters)1  

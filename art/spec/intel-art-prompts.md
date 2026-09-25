@@ -222,7 +222,7 @@ Shows: the octagonal vault chamber; the melted copper induction cradle on its bl
 Eggs: a glitter of sulfurous residue inside the copper slag; the empty mooring plinth is darker than the surrounding granite — scorched from beneath.
 Prompt: `35mm evidence photograph of a subterranean octagonal vault, melted copper induction coils on a black granite altar, scorch marks on ancient Roman brick, condensation on lead-sheeted walls, evidence ruler and marker card in frame, harsh on-camera flash into darkness, cold blue-green cast, film grain.`
 
-**R04 · `intel/i19-plinth-sign-macro.webp` · 3:2** — *New card I-19: "The Name Below the Plinth"*
+**R04 · `intel/i19-plinth-sign-macro.webp` · 3:2** — *New card I-19: "The Plinth Detail, Brass Plate"*
 Shows: extreme close-up of the tarnished brass sign bolted below the empty plinth — one word, `SANGREAL` — with screw holes and green verdigris.
 Eggs: the plinth face is scratched by a case-shaped outline; beneath the sign's lower screw, a scrap of lead-antimony foil is trapped — the case that sat here had been opened *in situ* before the theft.
 Prompt: `Extreme close-up photograph of a small tarnished brass plaque with one word stamped in capitals — SANGREAL — fixed below an empty rectangular stone plinth in a dark vault, verdigris around the screw holes, a scrap of grey metal foil trapped under one screw, a faint case-shaped scratch outline on the stone, harsh flash, deep shadow, dust, film grain.`
@@ -232,12 +232,12 @@ Shows: the mahogany catalog drawer in the Archivio Segreto; one index card excis
 Eggs: the excised stub shows the shelf-mark `MS-Vat-Heb-418`; the red card reads `Extractum per Breve Apostolicum — Anno Domini 1582 — Ad Capsam XII-SANG-00` (composite this text); dust has settled on the surrounding cards but not on the red one — it was placed recently.
 Prompt: `Top-down photograph of an open mahogany card-catalog drawer in a Vatican archive, one index card removed leaving a clean scalpel-cut stub, in its place a single red card; surrounding cards dusty, faint overhead archive lamp, aged paper textures, shallow depth of field, film grain; leave the red card's centre clean for composited Latin text.`
 
-**R06 · `intel/i04-corvi-desk-blotter.webp` · 3:2** — *Extend I-4 (The Polybius Vulgate Cipher)*
+**R06 · `intel/i04-corvi-desk-blotter.webp` · 3:2** — *Extend I-4 (The Numerals on Rag Paper)*
 Shows: Corvi's desk — a 1592 Clementine Vulgate open at John 6 with a slip of rag paper tucked in; a leather desk-blotter mirror-writing impressions beneath raking light.
 Eggs: (1) the rag slip shows the Polybius numeral grid (IV-I I-V III-II …); (2) the blotter's mirror-writing shows `GENEVA` and `4409` reversed; (3) a train ticket corner pokes from under the blotter — Roma Termini.
 Prompt: `35mm photograph of a scholar's desk in a baroque apartment at night, a 1592 Vulgate Bible open at the Gospel of John, a slip of 17th century rag paper with a grid of Roman numerals, a leather desk blotter under raking lamp light showing reversed ink impressions, a torn train ticket edge under the blotter, warm tungsten light, deep shadows, film grain.`
 
-**R07 · `intel/i20-corvi-safe-drilled.webp` · 3:2** — *New card I-20: "The Clean Drill"*
+**R07 · `intel/i20-corvi-safe-drilled.webp` · 3:2** — *New card I-20: "Safe Dial, Drilled"*
 Shows: the open wall safe behind the Saint Sebastian painting, combination dial drilled precisely at the spindle; drawers searched but nothing taken.
 Eggs: the drill swarf is fine and bright — a professional tool, not a panic job; a second set of scuff marks on the skirting shows someone knelt here recently and recently again; a woman's compact mirror left under the desk edge (Vane searched here before the cell did).
 Prompt: `35mm flash photograph of an open wall safe hidden behind a painting of Saint Sebastian in a baroque library, the combination dial drilled cleanly at the spindle, fine metal swarf on the shelf, drawers pulled open and searched, scuff marks on the parquet, a small ladies' compact mirror half-shadowed under the desk, harsh flash, deep shadows, film grain.`
@@ -252,7 +252,7 @@ Shows: B/W archival photo — a much younger Corvi beside an older prelate at th
 Eggs: the older prelate wears the ouroboros-eye ring (the lineage of watchers inside the Vatican); on the table between them lies a folder marked `XII-SANG`; someone has drawn a red X over the prelate's face since.
 Prompt: `archival black-and-white photograph, 1962, two priests at a card catalog in the Vatican Secret Archives — a young gaunt scholar and an older prelate with a signet ring, a folder with faded lettering on the table between them, press grain, vignette, emulsion scratches, a red grease-pencil X drawn over the older man's face decades later.`
 
-**R10 · `intel/i05-map-casing-hallmark.webp` · 3:2** — *Extend I-5 (The Watcher's Hallmark)*
+**R10 · `intel/i05-map-casing-hallmark.webp` · 3:2** — *Extend I-5 (Embossed Stamp, Map Casing)*
 Shows: Claudia's diocesan road map of Northern Italy partially unrolled, leather casing below; the embossed stamp pressed into the hide: open eye within an ouroboros, tiny initials `T.O.W.`
 Eggs: the map has three locations circled faintly in pencil that match the operational clock: Geneva, Zurich, Turin; the casing stitching hides a second, fainter impression — the stamp has been used before.
 Prompt: `Top-down photograph of a diocesan road map of Northern Italy, partially unrolled beside its worn leather casing, an embossed stamp pressed into the hide showing an open eye inside a serpent biting its own tail with tiny initials T.O.W., faint pencil circles on the map around Geneva, Zurich and Turin, warm desk lamp, shallow depth of field, film grain.`
@@ -343,7 +343,7 @@ Shows: the flooded assembly hall CCTV — Corvi crossing the floor with the atta
 Eggs: (1) a hairline crack in the case's deadbolt, dressed with fresh tape — the case has been under stress; (2) oil drum stencils behind him read in faded Fiat livery; (3) the puddles reflect only the lights, not Corvi's shadow — a subtle, deniable occult tell (DA's choice when to reveal).
 Prompt: `CCTV still of a vast abandoned car factory assembly hall, rain pouring through broken skylights into dark puddles, a hunched monsignor in a black cassock crossing the floor carrying a steel attaché case with taped hardware, rusted Fiat-era machinery and oil drums, burned-in camera label "6", 16mm black-and-white grain, high contrast, motion blur on the figure.`
 
-**T03 · `intel/i12-palimpsest-uv.webp` · 3:2** — *Extend I-12 (The Ebionite Palimpsest)*
+**T03 · `intel/i12-palimpsest-uv.webp` · 3:2** — *Extend I-12 (The Palimpsest Leaf, Codex)*
 Shows: Corvi's workbench under an ultraviolet inspection lamp: the codex page beneath a sheet of glass, his notebook open beside it.
 Eggs: (1) under UV, a second script shows through beneath the first — the palimpsest; (2) his notebook margin carries a single Latin line — `sanguis remedium, non sacramentum` (blood is remedy, not sacrament); (3) a spent matchbook from the Hotel Bristol, Geneva — his trail, pinned down.
 Prompt: `35mm photograph of a makeshift conservation bench under ultraviolet inspection light, an ancient parchment codex page pressed under glass showing faint older script beneath the visible text, an open ruled notebook beside it with dark handwriting, glass slides and cotton gloves, deep violet UV glow with warm flashlight fill, dust motes, film grain.`
@@ -404,7 +404,7 @@ Prompt: `Top-down evidence photograph of a woman's effects laid out in a neat gr
 
 ### Act VI — Vatican (L7 CDF offices) & wrap
 
-**V01 · `intel/i17-sabbatini-memo.webp` · 3:2** — *Extend I-17 (The Basarab Extortion File)*
+**V01 · `intel/i17-sabbatini-memo.webp` · 3:2** — *Extend I-17 (The Dispatch Box, Microfiche)*
 Shows: the tin dispatch box open on a convent floorboard: microfiche rolls, typewritten Vatican memos, Sabbatini's memo on top under a paperweight.
 Eggs: (1) the memo line — `We hold the Gethsemane vessels as an iron nail driven into their heads…` (composite); (2) a microfiche strip held to the light shows the Basarab crest beside a land registry; (3) the box lid's underside bears the ouroboros-eye burned into the tin — someone else has read this file.
 Prompt: `35mm flash photograph of an open tin dispatch box on a convent floorboard revealing microfiche rolls and typewritten Vatican memos, top memo weighted by a glass paperweight, one microfiche strip held up to the lamplight showing a land registry and a small heraldic crest, the box lid's underside faintly scorched with a symbol, deep shadows, dust, film grain; leave the top memo clean for composited text.`

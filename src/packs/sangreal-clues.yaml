@@ -101,7 +101,7 @@
     npcUuids: []
 
 - _id: sangreal-ic04
-  name: 'I4 — The Polybius Vulgate Cipher'
+  name: 'I4 — Numerals on Rag Paper'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/intel/i04-corvi-desk-blotter.webp
   system:
@@ -131,7 +131,7 @@
     npcUuids: []
 
 - _id: sangreal-ic05
-  name: "I5 — The Watcher's Hallmark"
+  name: "I5 — Embossed Stamp, Map Casing"
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/intel/i05-map-casing-hallmark.webp
   system:
@@ -197,7 +197,7 @@
     npcUuids: []
 
 - _id: sangreal-ic07
-  name: 'I7 — Patient File 09-Hausmann'
+  name: 'I7 — Patient File 09-H'
   type: informationCard
   system:
     cardId: I-7
@@ -361,7 +361,7 @@
     npcUuids: []
 
 - _id: sangreal-ic12
-  name: 'I12 — The Ebionite Palimpsest'
+  name: 'I12 — Palimpsest Leaf, Codex'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/intel/i12-palimpsest-uv.webp
   system:
@@ -528,7 +528,7 @@
     npcUuids: []
 
 - _id: sangreal-ic17
-  name: 'I17 — The Basarab Extortion File'
+  name: 'I17 — Dispatch Box, Microfiche'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/intel/i17-sabbatini-memo.webp
   system:
@@ -594,7 +594,7 @@
     npcUuids: []
 
 - _id: sangreal-ic19
-  name: 'I19 — The Name Below the Plinth'
+  name: 'I19 — Plinth Detail, Brass Plate'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/intel/i19-plinth-sign-macro.webp
   system:
@@ -624,7 +624,7 @@
     npcUuids: []
 
 - _id: sangreal-ic20
-  name: 'I20 — The Clean Drill'
+  name: 'I20 — Safe Dial, Drilled'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/intel/i20-corvi-safe-drilled.webp
   system:
@@ -1764,7 +1764,7 @@
     npcUuids: []
 
 - _id: sangreal-ic55
-  name: 'N10 — The Feral Ghoul'
+  name: 'N10 — Unidentified Subject, Ward 3'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/npc-feral-ghoul.webp
   system:
@@ -1799,7 +1799,7 @@
     npcUuids: []
 
 - _id: sangreal-ic56
-  name: 'N11 — The Basarab Elder'
+  name: 'N11 — Unidentified Male, Unaged'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-elder.webp
   system:

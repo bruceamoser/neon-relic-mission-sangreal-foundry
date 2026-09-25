@@ -1685,7 +1685,7 @@ assets:
       reviewer: Codex final visual QA
       final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R03-attempt-001-final.yaml
 - id: R04
-  name: The Name Below the Plinth
+  name: The Plinth Detail, Brass Plate
   category: intel
   act: Rome
   optional: false
@@ -1696,7 +1696,7 @@ assets:
   medium: evidence_35mm
   source_section: §5 / Rome / R04
   source_line: 225
-  source_excerpt: '**R04 · `intel/i19-plinth-sign-macro.webp` · 3:2** — *New card I-19: "The Name Below the Plinth"*
+  source_excerpt: '**R04 · `intel/i19-plinth-sign-macro.webp` · 3:2** — *New card I-19: "The Plinth Detail, Brass Plate"*
 
     Shows: extreme close-up of the tarnished brass sign bolted below the empty plinth — one word, `SANGREAL` — with
     screw holes and green verdigris.
@@ -1860,7 +1860,7 @@ assets:
       reviewer: Codex visual inspection
       final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R05-attempt-001-final.yaml
 - id: R06
-  name: The Polybius Vulgate Cipher
+  name: The Numerals on Rag Paper
   category: intel
   act: Rome
   optional: false
@@ -1871,7 +1871,7 @@ assets:
   medium: evidence_35mm
   source_section: §5 / Rome / R06
   source_line: 235
-  source_excerpt: '**R06 · `intel/i04-corvi-desk-blotter.webp` · 3:2** — *Extend I-4 (The Polybius Vulgate Cipher)*
+  source_excerpt: '**R06 · `intel/i04-corvi-desk-blotter.webp` · 3:2** — *Extend I-4 (The Numerals on Rag Paper)*
 
     Shows: Corvi''s desk — a 1592 Clementine Vulgate open at John 6 with a slip of rag paper tucked in; a leather
     desk-blotter mirror-writing impressions beneath raking light.
@@ -2006,7 +2006,7 @@ assets:
       final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R06-corrected-cipher-20260918.yaml
       revision: R06-corrected-cipher-20260918
 - id: R07
-  name: The Clean Drill
+  name: Safe Dial, Drilled
   category: intel
   act: Rome
   optional: false
@@ -2017,7 +2017,7 @@ assets:
   medium: evidence_35mm
   source_section: §5 / Rome / R07
   source_line: 240
-  source_excerpt: '**R07 · `intel/i20-corvi-safe-drilled.webp` · 3:2** — *New card I-20: "The Clean Drill"*
+  source_excerpt: '**R07 · `intel/i20-corvi-safe-drilled.webp` · 3:2** — *New card I-20: "Safe Dial, Drilled"*
 
     Shows: the open wall safe behind the Saint Sebastian painting, combination dial drilled precisely at the spindle;
     drawers searched but nothing taken.
@@ -2297,7 +2297,7 @@ assets:
       reviewer: Codex visual inspection
       final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/R09-attempt-002-final.yaml
 - id: R10
-  name: The Watcher's Hallmark
+  name: Embossed Stamp, Map Casing
   category: intel
   act: Rome
   optional: false
@@ -4227,7 +4227,7 @@ assets:
       reviewer: Codex final visual QA
       final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/T02-attempt-003-final.yaml
 - id: T03
-  name: The Ebionite Palimpsest
+  name: The Palimpsest Leaf, Codex
   category: intel
   act: Turin
   optional: false
@@ -4238,7 +4238,7 @@ assets:
   medium: evidence_35mm
   source_section: §5 / Turin / T03
   source_line: 346
-  source_excerpt: '**T03 · `intel/i12-palimpsest-uv.webp` · 3:2** — *Extend I-12 (The Ebionite Palimpsest)*
+  source_excerpt: '**T03 · `intel/i12-palimpsest-uv.webp` · 3:2** — *Extend I-12 (The Palimpsest Leaf, Codex)*
 
     Shows: Corvi''s workbench under an ultraviolet inspection lamp: the codex page beneath a sheet of glass, his
     notebook open beside it.
@@ -5255,7 +5255,7 @@ assets:
       reviewer: Codex final visual QA
       final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/N07-attempt-002-final.yaml
 - id: V01
-  name: The Basarab Extortion File
+  name: The Dispatch Box, Microfiche
   category: intel
   act: Vatican
   optional: false
@@ -5266,7 +5266,7 @@ assets:
   medium: evidence_35mm
   source_section: §5 / Vatican / V01
   source_line: 407
-  source_excerpt: '**V01 · `intel/i17-sabbatini-memo.webp` · 3:2** — *Extend I-17 (The Basarab Extortion File)*
+  source_excerpt: '**V01 · `intel/i17-sabbatini-memo.webp` · 3:2** — *Extend I-17 (The Dispatch Box, Microfiche)*
 
     Shows: the tin dispatch box open on a convent floorboard: microfiche rolls, typewritten Vatican memos, Sabbatini''s
     memo on top under a paperweight.
