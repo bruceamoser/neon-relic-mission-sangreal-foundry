@@ -33,6 +33,7 @@ const EXPECTED_DOCS = {
   'sangreal-npcs': 16,
   'sangreal-clues': 77,
   'sangreal-portraits': 14,
+  'sangreal-investigator-photos': 24,
   'sangreal-sites': 9,
   'sangreal-relics': 10,
   'sangreal-tables': 1,
@@ -46,7 +47,7 @@ const EXPECTED_CHILDREN = {
   'sangreal-scenes': { prefix: '!scenes.levels!', count: 27 },
   'sangreal-sfx': { prefix: '!playlists.sounds!', count: 25 },
   'sangreal-tables': { prefix: '!tables.results!', count: 4 },
-  'sangreal-journals': { prefix: '!journal.pages!', count: 28 },
+  'sangreal-journals': { prefix: '!journal.pages!', count: 29 },
 };
 
 /** Cross-reference UUID array fields produced from authoring slug fields. */

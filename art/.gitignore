@@ -7,3 +7,6 @@ delivery/
 work/integration-stage/
 scene-production/masters/
 scene-production/work/
+# 24 native PNG masters (59 MB) — the delivered q85 WebPs live in src/assets;
+# the manifest records every master hash for verification.
+player-photo-production/masters/

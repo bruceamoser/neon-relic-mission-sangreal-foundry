@@ -151,6 +151,7 @@ const INSTALL_PLAN = [
   { pack: 'sangreal-npcs', folder: 'NPCs' },
   { pack: 'sangreal-clues', folder: 'Clues' },
   { pack: 'sangreal-portraits', folder: 'NPC Portraits' },
+  { pack: 'sangreal-investigator-photos', folder: 'Investigator Photos' },
   { pack: 'sangreal-sites', folder: 'Sites' },
   { pack: 'sangreal-relics', folder: 'Relics' },
   { pack: 'sangreal-sfx', folder: 'Sound Effects' },
