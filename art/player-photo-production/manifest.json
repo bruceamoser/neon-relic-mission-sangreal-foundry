@@ -1,6 +1,6 @@
 [
   {
-    "id": "P01",
+    "id": "C1",
     "loc": "L1",
     "title": "Gate and wet paving",
     "kind": "mundane",
@@ -22,7 +22,7 @@
     }
   },
   {
-    "id": "P02",
+    "id": "C2",
     "loc": "L1",
     "title": "Refrigeration pipes",
     "kind": "mundane",
@@ -44,7 +44,7 @@
     }
   },
   {
-    "id": "P03",
+    "id": "C3",
     "loc": "L1",
     "title": "Damaged copper coil",
     "kind": "observation",
@@ -66,7 +66,7 @@
     }
   },
   {
-    "id": "P04",
+    "id": "C4",
     "loc": "L2",
     "title": "Shelves beside the window",
     "kind": "mundane",
@@ -88,7 +88,7 @@
     }
   },
   {
-    "id": "P05",
+    "id": "C5",
     "loc": "L2",
     "title": "Open desk drawers",
     "kind": "observation",
@@ -110,7 +110,7 @@
     }
   },
   {
-    "id": "P06",
+    "id": "C6",
     "loc": "L2",
     "title": "Drilled safe lock",
     "kind": "observation",
@@ -132,7 +132,7 @@
     }
   },
   {
-    "id": "P07",
+    "id": "C7",
     "loc": "L3",
     "title": "Bank waiting area",
     "kind": "mundane",
@@ -154,7 +154,7 @@
     }
   },
   {
-    "id": "P08",
+    "id": "C8",
     "loc": "L3",
     "title": "Vault door",
     "kind": "mundane",
@@ -176,7 +176,7 @@
     }
   },
   {
-    "id": "P09",
+    "id": "C9",
     "loc": "L3",
     "title": "Mercier at the counter",
     "kind": "mundane",
@@ -198,7 +198,7 @@
     }
   },
   {
-    "id": "P10",
+    "id": "C10",
     "loc": "L4",
     "title": "Covered ward window",
     "kind": "observation",
@@ -220,7 +220,7 @@
     }
   },
   {
-    "id": "P11",
+    "id": "C11",
     "loc": "L4",
     "title": "Broken fluorescent fitting",
     "kind": "observation",
@@ -242,7 +242,7 @@
     }
   },
   {
-    "id": "P12",
+    "id": "C12",
     "loc": "L4",
     "title": "Utility trolley",
     "kind": "mundane",
@@ -264,7 +264,7 @@
     }
   },
   {
-    "id": "P13",
+    "id": "C13",
     "loc": "L5",
     "title": "Rain beneath a skylight",
     "kind": "mundane",
@@ -286,7 +286,7 @@
     }
   },
   {
-    "id": "P14",
+    "id": "C14",
     "loc": "L5",
     "title": "Concrete vehicle ramp",
     "kind": "mundane",
@@ -308,7 +308,7 @@
     }
   },
   {
-    "id": "P15",
+    "id": "C15",
     "loc": "L5",
     "title": "Supervisor booth from below",
     "kind": "observation",
@@ -330,7 +330,7 @@
     }
   },
   {
-    "id": "P16",
+    "id": "C16",
     "loc": "L6",
     "title": "Torn gate hinge",
     "kind": "observation",
@@ -352,7 +352,7 @@
     }
   },
   {
-    "id": "P17",
+    "id": "C17",
     "loc": "L6",
     "title": "Moat and brickwork",
     "kind": "mundane",
@@ -374,7 +374,7 @@
     }
   },
   {
-    "id": "P18",
+    "id": "C18",
     "loc": "L6",
     "title": "Kerosene lantern",
     "kind": "mundane",
@@ -396,7 +396,7 @@
     }
   },
   {
-    "id": "P19",
+    "id": "C19",
     "loc": "AIR",
     "title": "Empty hangar interior",
     "kind": "observation",
@@ -418,7 +418,7 @@
     }
   },
   {
-    "id": "P20",
+    "id": "C20",
     "loc": "AIR",
     "title": "Fuel hose on the apron",
     "kind": "mundane",
@@ -444,7 +444,7 @@
     }
   },
   {
-    "id": "P21",
+    "id": "C21",
     "loc": "L7",
     "title": "Council table lamps",
     "kind": "mundane",
@@ -466,7 +466,7 @@
     }
   },
   {
-    "id": "P22",
+    "id": "C22",
     "loc": "L1",
     "title": "Ghiberti in the passage",
     "kind": "mundane",
@@ -488,7 +488,7 @@
     }
   },
   {
-    "id": "P23",
+    "id": "C23",
     "loc": "L4",
     "title": "Graf by the doorway",
     "kind": "mundane",
@@ -510,7 +510,7 @@
     }
   },
   {
-    "id": "P24",
+    "id": "C24",
     "loc": "L1",
     "title": "Claudia at the lift",
     "kind": "mundane",
