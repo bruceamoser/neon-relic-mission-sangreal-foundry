@@ -169,14 +169,26 @@ const ROOT_FOLDER_NAME = 'Mission: Sangreal';
  * Foundry registers compendium packs at server start, so a pack added by a
  * module update does not exist in `game.packs` until Foundry is restarted — the
  * installer used to skip such a pack silently.
- * @returns {{plan: Array<{pack: string, folder: string|null}>, missing: string[]}}
+ *
+ * There are two distinct failure modes, and they need different advice:
+ * - `missing`: the loaded module data declares the pack but the server has not
+ *   registered it → the server needs a restart.
+ * - `absent`: the installer expects the pack but the loaded module data does not
+ *   declare it at all → this world is running an OLDER module build (the files
+ *   on disk may already be newer), so the module must be updated and the server
+ *   restarted. Skipping these silently is what made a new pack look "missing".
+ * @returns {{plan: Array<{pack: string, folder: string|null}>, missing: string[], absent: string[]}}
  */
 function buildInstallPlan() {
   const declared = new Map([...(game.modules.get(MODULE_ID)?.packs ?? [])].map((p) => [p.name, p]));
   const plan = [];
   const planned = new Set();
+  const absent = [];
   for (const entry of INSTALL_PLAN) {
-    if (!declared.has(entry.pack)) continue;
+    if (!declared.has(entry.pack)) {
+      absent.push(entry.pack);
+      continue;
+    }
     plan.push({ pack: entry.pack, folder: entry.folder });
     planned.add(entry.pack);
   }
@@ -185,7 +197,23 @@ function buildInstallPlan() {
     plan.push({ pack: name, folder: meta.type === 'Scene' ? null : (meta.label ?? name) });
   }
   const missing = [...declared.keys()].filter((name) => !game.packs.get(`${MODULE_ID}.${name}`));
-  return { plan, missing };
+  return { plan, missing, absent };
+}
+
+/**
+ * Read the version of the module files on disk, which may be newer than the
+ * module data this server loaded at launch.
+ * @returns {Promise<string|null>}
+ */
+async function moduleFileVersion() {
+  try {
+    const response = await fetch(`modules/${MODULE_ID}/module.json`);
+    if (!response.ok) return null;
+    const manifest = await response.json();
+    return manifest.version ?? null;
+  } catch {
+    return null;
+  }
 }
 
 /**
@@ -277,7 +305,28 @@ async function installContent() {
   let failed = 0;
   const sceneStats = { repaired: 0 };
 
-  const { plan, missing } = buildInstallPlan();
+  const { plan, missing, absent } = buildInstallPlan();
+  const loadedVersion = game.modules.get(MODULE_ID)?.version ?? 'unknown';
+  const fileVersion = await moduleFileVersion();
+  if (absent.length) {
+    ui.notifications.warn(
+      `Mission: Sangreal — this world is running module build ${loadedVersion}, which does not contain: ${absent.join(', ')}. ` +
+        'Update the module, then restart the server (not just the world) and run the installer again.',
+      { permanent: true },
+    );
+    console.warn(`${MODULE_ID} | installer: packs the loaded module build does not declare`, {
+      loadedVersion,
+      fileVersion,
+      absent,
+    });
+  } else if (fileVersion && fileVersion !== loadedVersion) {
+    ui.notifications.warn(
+      `Mission: Sangreal — the installed files are version ${fileVersion} but this server loaded ${loadedVersion}. ` +
+        'Restart the server to pick up the new packs, then run the installer again.',
+      { permanent: true },
+    );
+    console.warn(`${MODULE_ID} | installer: module files newer than loaded data`, { fileVersion, loadedVersion });
+  }
   if (missing.length) {
     ui.notifications.warn(
       `Mission: Sangreal — this build added ${missing.length} new pack(s) that Foundry has not loaded yet: ${missing.join(', ')}. ` +
@@ -355,7 +404,9 @@ async function installContent() {
     sceneStats.repaired ? `, ${sceneStats.repaired} scenes repaired` : ''
   }${failed ? `, ${failed} failed` : ''}${
     missing.length ? `, ${missing.length} pack(s) awaiting a Foundry restart` : ''
-  }).`;
+  }${absent.length ? `, ${absent.length} pack(s) missing from module build ${loadedVersion}` : ''}${
+    !absent.length && fileVersion && fileVersion !== loadedVersion ? `, restart needed (files ${fileVersion})` : ''
+  }) — module build ${loadedVersion}, ${plan.length} pack(s) imported.`;
   console.log(`${MODULE_ID} | installer: ${summary}`);
   if (failed) {
     ui.notifications.error(`${failed} document(s) failed to install — see the console for details.`);
@@ -377,11 +428,12 @@ class SangrealInstaller extends foundry.applications.api.DialogV2 {
       <ul>
         <li>Documents already in this world with matching IDs are <strong>overwritten</strong> with the current pack versions.</li>
         <li>New documents are added, keeping their pack IDs.</li>
-        <li>Content is organised into a <strong>Mission: Sangreal</strong> folder with per-category subfolders (Briefs &amp; Board, NPCs, Clues, Sites, Relics) — existing documents are moved there too.</li>
+        <li>Content is organised into a <strong>Mission: Sangreal</strong> folder with per-category subfolders (Briefs &amp; Board, NPCs, Clues, NPC Portraits, Investigator Photos, Sites, Relics, Sound Effects) — existing documents are moved there too.</li>
         <li>The module <strong>landing scene</strong> is imported, and activated automatically when the world has no active scene.</li>
         <li>Safe to re-run after module updates — no duplicates are created.</li>
+        <li>A pack added by a new module version is only imported after the <strong>server</strong> has been restarted; the report names any pack it cannot see.</li>
       </ul>
-      <p>Content: briefs, case board, NPCs, clues, sites, relics, tables, journals, and 27 scenes (landing, 16 atmosphere views, 10 maps).</p>`,
+      <p>Content: briefs, case board, NPCs, clues, NPC portraits, investigator photos, sites, relics, tables, journals, and 27 scenes (landing, 16 atmosphere views, 10 maps).</p>`,
     buttons: [
       {
         action: 'install',
