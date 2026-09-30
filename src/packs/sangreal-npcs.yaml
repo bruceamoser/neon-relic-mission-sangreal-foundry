@@ -176,7 +176,7 @@
       - sangreal
     secret: 'She kept one slide — the only surviving sample of the vector outside the phials.'
     goal: 'Burn her research, then disappear with her family before the clinic''s owners find her.'
-    positiveResult: 'Calmed and rescued: I7, I9, I10 — and a witness who can testify to the False Revelation.'
+    positiveResult: 'Calmed and rescued: I07, I09, I10 — and a witness who can testify to the False Revelation.'
     negativeResult: 'Panics and destroys the histopathology log; the vector remains unproven.'
 
 - _id: sangreal-npc-hausmann
@@ -244,7 +244,7 @@
       before it reaches his desk.</p>
       <h3>Social Mechanics</h3>
       <p>Anxious / Cooperative (Difficulty 2). Reassurance and respect for the archive
-      open him up; pressure makes him hide behind procedure. He is the doorway to I1, I3,
+      open him up; pressure makes him hide behind procedure. He is the doorway to I01, I03,
       and I16 — and to the fact that Corvi requested the Lodestone's index card nine days
       before the breach.</p>
       <h3>Combat Profile</h3>
@@ -265,7 +265,7 @@
       - sangreal
     secret: 'The vault register has two pages missing — removed before the theft, not after.'
     goal: 'Survive the inquiry without being blamed for the breach.'
-    positiveResult: 'Speaks freely: I1 and I3, and permission for a supervised vault inspection.'
+    positiveResult: 'Speaks freely: I01 and I03, and permission for a supervised vault inspection.'
     negativeResult: 'Retreats into procedure; the register is "under review" for the rest of the case.'
 
 - _id: sangreal-npc-mercier
@@ -305,7 +305,7 @@
       - sangreal
     secret: 'He kept a carbon of the transfer memo — the only copy outside the bank archive.'
     goal: 'Keep his job, his pension, and his kneecaps.'
-    positiveResult: 'Yields I6 and booth 4409-C access; unlocks the Zurich corridor.'
+    positiveResult: 'Yields I06 and booth 4409-C access; unlocks the Zurich corridor.'
     negativeResult: 'Calls bank security; the locker is resealed under judicial order.'
 
 - _id: sangreal-npc-entita-operative

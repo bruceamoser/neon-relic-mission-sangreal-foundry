@@ -163,6 +163,24 @@ const INSTALL_PLAN = [
 const ROOT_FOLDER_NAME = 'Mission: Sangreal';
 
 /**
+ * Per-pack folder routing by card-id prefix.
+ *
+ * The clue and cast cards ship in one compendium pack, but they are different
+ * kinds of document at the table, so they are filed separately in the world:
+ * clues (I…), cast cards (N…), photographic evidence (F…). Documents that match
+ * no route fall back to the pack's folder in `INSTALL_PLAN`. Re-running the
+ * installer moves already-imported documents into their routed folder.
+ * @type {Record<string, Array<{match: RegExp, folder: string}>>}
+ */
+const PACK_FOLDER_ROUTES = {
+  'sangreal-clues': [
+    { match: /^N\d/, folder: 'Cast Cards' },
+    { match: /^F\d/, folder: 'Photographic Evidence' },
+    { match: /^I\d/, folder: 'Clues' },
+  ],
+};
+
+/**
  * Build the import plan from the manifest, then report any declared pack this
  * server has not registered yet.
  *
@@ -343,11 +361,25 @@ async function installContent() {
       continue;
     }
 
-    // Resolve the destination folder structure for this pack's collection
-    let folderId = null;
+    // Resolve the destination folder for this pack — and, when the pack carries
+    // several card families, per document. Folder lookups are cached per pack.
+    let rootId = null;
+    const folderCache = new Map();
+    const routes = PACK_FOLDER_ROUTES[packName] ?? [];
+    const folderFor = async (doc) => {
+      const routed = routes.find((r) => r.match.test(doc.system?.cardId ?? ''))?.folder;
+      const name = routed ?? subfolderName;
+      const key = name ?? '';
+      if (!folderCache.has(key)) {
+        folderCache.set(
+          key,
+          name ? await ensureFolder(name, pack.metadata.type, rootId) : rootId,
+        );
+      }
+      return folderCache.get(key);
+    };
     try {
-      const rootId = await ensureFolder(ROOT_FOLDER_NAME, pack.metadata.type);
-      folderId = subfolderName ? await ensureFolder(subfolderName, pack.metadata.type, rootId) : rootId;
+      rootId = await ensureFolder(ROOT_FOLDER_NAME, pack.metadata.type);
     } catch (err) {
       console.warn(`${MODULE_ID} | installer: folder setup failed for ${packName}`, err);
     }
@@ -363,7 +395,12 @@ async function installContent() {
 
     for (const doc of docs) {
       const data = doc.toObject();
-      if (folderId) data.folder = folderId;
+      try {
+        const folderId = rootId === null ? null : await folderFor(doc);
+        if (folderId) data.folder = folderId;
+      } catch (err) {
+        console.warn(`${MODULE_ID} | installer: could not file ${doc.name}`, err);
+      }
       const collection = game.collections.get(doc.documentName);
       const existing = collection?.get(doc.id);
       try {
@@ -428,7 +465,7 @@ class SangrealInstaller extends foundry.applications.api.DialogV2 {
       <ul>
         <li>Documents already in this world with matching IDs are <strong>overwritten</strong> with the current pack versions.</li>
         <li>New documents are added, keeping their pack IDs.</li>
-        <li>Content is organised into a <strong>Mission: Sangreal</strong> folder with per-category subfolders (Briefs &amp; Board, NPCs, Clues, NPC Portraits, Investigator Photos, Sites, Relics, Sound Effects) — existing documents are moved there too.</li>
+        <li>Content is organised into a <strong>Mission: Sangreal</strong> folder with per-category subfolders (Briefs &amp; Board, NPCs, Clues, Cast Cards, Photographic Evidence, NPC Portraits, Investigator Photos, Sites, Relics, Sound Effects) — existing documents are moved there too.</li>
         <li>The module <strong>landing scene</strong> is imported, and activated automatically when the world has no active scene.</li>
         <li>Safe to re-run after module updates — no duplicates are created.</li>
         <li>A pack added by a new module version is only imported after the <strong>server</strong> has been restarted; the report names any pack it cannot see.</li>

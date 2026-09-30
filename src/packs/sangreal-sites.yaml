@@ -28,13 +28,13 @@
       keeper of the vault register. Sister Claudia Vane — helpful liaison, present by
       treaty right.</p>
       <p><strong>Available information.</strong> Physical inspection of the altar yields
-      I1. Examining the security consoles yields I2. Searching the archival catalog
-      reveals I3. Observing Claudia's gear yields I5.</p>
+      I01. Examining the security consoles yields I02. Searching the archival catalog
+      reveals I03. Observing Claudia's gear yields I05.</p>
       <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.e5iULuABev6xj4n0]{TM01 — Hydraulic lift vestibule and descent}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.fk4iveJh9oz2DMDa]{TM02 — Vault IX arrival}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.FyPnU7Tmzk9RJebD]{BM01 — Vault and lift vestibule}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p>With Claudia's escort, the cell walks the vault floor legitimately: the melted
-      induction cradle (I1), the security console tape (I2), the excised catalog card
-      (I3), and the first glimpse of the Watcher's hallmark (I5) are all recoverable
+      induction cradle (I01), the security console tape (I02), the excised catalog card
+      (I03), and the first glimpse of the Watcher's hallmark (I05) are all recoverable
       without alerting Curial security.</p>
     negativeResult: >
       <p>Accessing the vault without alerting Curial security requires successful
@@ -69,13 +69,13 @@
       <p><strong>Dramatis personae.</strong> Two Vatican gendarmes guard the corridor;
       they admit the team only under Sister Claudia's diplomatic escort.</p>
       <p><strong>Available information.</strong> Searching the Clementine Vulgate yields
-      I4. Inspecting the safe yields I16. Blotter impressions on the desk provide a
-      duplicate of I2.</p>
+      I04. Inspecting the safe yields I16. Blotter impressions on the desk provide a
+      duplicate of I02.</p>
       <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.1xPFy0jFa4uqHScD]{TM03 — Corvi quarters arrival}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.KpUAj1DanbE4NuOW]{BM02 — Apartment and guarded corridor}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
-      <p>A patient search (Research undertaking) finds the Polybius cipher slip (I4), the
+      <p>A patient search (Research undertaking) finds the Polybius cipher slip (I04), the
       containment protocol notes (I16), and the agent's own copy of the surveillance
-      timeline (duplicate I2). Corvi's handwriting on the desk blotter is legible under
+      timeline (duplicate I02). Corvi's handwriting on the desk blotter is legible under
       raking light.</p>
     negativeResult: >
       <p>Spending more than 1 shift here without silencing the guards alerts the Holy
@@ -99,7 +99,7 @@
     informationCardSlugs: [sangreal-ic06, sangreal-ic07, sangreal-ic08, sangreal-ic23, sangreal-ic24, sangreal-ic25, sangreal-ic26]
     npcSlugs: [sangreal-npc-mercier]
     availability: clue
-    availabilityCondition: 'Requires the EC 30 boarding pass (I2) or the decoded Polybius cipher (I4).'
+    availabilityCondition: 'Requires the EC 30 boarding pass (I02) or the decoded Polybius cipher (I04).'
     description: >
       <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-bank-arrival.webp" alt="Geneva bank exterior" style="width:100%;height:auto"></p>
       <p><strong>Architectural forensics.</strong> A neoclassical banking house on the
@@ -110,11 +110,11 @@
       immaculate suit, visibly anxious. He has read the transaction memos and wants very
       much not to have.</p>
       <p><strong>Available information.</strong> Interrogating or bribing Mercier yields
-      I6. Searching booth 4409-C records yields I7 and I8.</p>
+      I06. Searching booth 4409-C records yields I07 and I08.</p>
       <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.WYkoHrGfng0UZ3lZ]{TM04 — Geneva bank exterior}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.w9Gp844xc19nFp0a]{TM05 — Private viewing room}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.b2nGfJTzx9PeMk09]{BM03 — Bank vault level}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
-      <p>Mercier surrenders the escrow slip under pressure or payment (I6). The booth
-      records hand over the clinical file reference (I7) and the wiretap reel log (I8).
+      <p>Mercier surrenders the escrow slip under pressure or payment (I06). The booth
+      records hand over the clinical file reference (I07) and the wiretap reel log (I08).
       The Geneva corridor opens: Zurich is now on the board.</p>
     negativeResult: >
       <p>Hostile action or triggering the silent bank alarms summons Swiss police within
@@ -140,7 +140,7 @@
     informationCardSlugs: [sangreal-ic07, sangreal-ic09, sangreal-ic10, sangreal-ic11, sangreal-ic27, sangreal-ic28, sangreal-ic29, sangreal-ic30, sangreal-ic31, sangreal-ic32]
     npcSlugs: [sangreal-npc-graf, sangreal-npc-hausmann]
     availability: clue
-    availabilityCondition: 'Requires the escrow transfer slip (I6) or the clinical file (I7).'
+    availabilityCondition: 'Requires the escrow transfer slip (I06) or the clinical file (I07).'
     description: >
       <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-clinic-arrival.webp" alt="Sonnenberg forest approach" style="width:100%;height:auto"></p>
       <p><strong>Architectural forensics.</strong> A modernist clinical facility of white
@@ -151,12 +151,12 @@
       <p><strong>Dramatis personae.</strong> Dr. Elizabeth Graf — traumatized
       pathologist hiding in a surgical theater, determined to destroy her own research.
       Kurt Hausmann — The Feral Banker, stalking the ceiling conduits above the ward.</p>
-      <p><strong>Available information.</strong> Rescuing Dr. Graf yields I7, I9, and
+      <p><strong>Available information.</strong> Rescuing Dr. Graf yields I07, I09, and
       I10. Searching the laboratory freezers yields I11.</p>
       <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.kr4nu0sVNfrcGAJq]{TM06 — Sonnenberg forest approach}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.1HRljmcL11d0CPLS]{TM07 — Blacked-out third-floor ward}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jP9jheucndZOEHLE]{TM08 — Surgical theatre refuge}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jpOPWYTG4Yqt6hk4]{BM04 — Ward, theatre and lab}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p>Calming Graf (first aid, light discipline, or psychiatric intervention) secures
-      the full medical sequence: patient file (I7), histopathology log (I9), and the CT1
+      the full medical sequence: patient file (I07), histopathology log (I09), and the CT1
       vector mechanics (I10). The lab freezers give up the resonance field records (I11).
       This is where the False Revelation is meant to land.</p>
     negativeResult: >
@@ -184,7 +184,7 @@
     informationCardSlugs: [sangreal-ic10, sangreal-ic11, sangreal-ic12, sangreal-ic33, sangreal-ic34, sangreal-ic35, sangreal-ic36, sangreal-ic37]
     npcSlugs: [sangreal-npc-corvi, sangreal-npc-vane]
     availability: clue
-    availabilityCondition: 'Requires the wiretap tape (I8).'
+    availabilityCondition: 'Requires the wiretap tape (I08).'
     description: >
       <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-factory-arrival.webp" alt="Lingotto assembly hall" style="width:100%;height:auto"></p>
       <p><strong>Architectural forensics.</strong> Giacomo Mattè-Trucco's industrial

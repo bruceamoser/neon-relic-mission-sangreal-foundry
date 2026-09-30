@@ -174,7 +174,11 @@ async function audit() {
   ).join('\n');
 
   const coverage = [];
-  for (let i = 1; i <= 17; i++) coverage.push([`card I-${i}`, `cardId: I-${i}`]);
+  // Card ids are zero-padded so plain alphabetical sorting works (I01…I45).
+  for (let i = 1; i <= 45; i++) {
+    const id = `I-${String(i).padStart(2, '0')}`;
+    coverage.push([`card ${id}`, `cardId: ${id}`]);
+  }
   for (let i = 1; i <= 7; i++) coverage.push([`location L${i}`, `locationId: L${i}`]);
   coverage.push(['org O1', 'organizationId: O1'], ['org O2', 'organizationId: O2']);
   // Relic milestones M1–M5 fire on days 10, 8, 6, 4, 2; day 1 is the terminal window.

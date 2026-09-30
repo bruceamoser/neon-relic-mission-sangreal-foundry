@@ -320,7 +320,7 @@
     relicImage: modules/neon-relic-mission-sangreal/assets/art/relic-lodestone.svg
     daNotes: >
       <p>The breach tool and the proof of premeditation. The residue in the vault's copper
-      conduits (I1) is the strongest physical evidence in the Rome cluster — let careful
+      conduits (I01) is the strongest physical evidence in the Rome cluster — let careful
       players earn it. If the cell recovers the Lodestone itself, it becomes a tactical
       answer to electronic security for the rest of the case.</p>
     caseId: SANGREAL-87-091

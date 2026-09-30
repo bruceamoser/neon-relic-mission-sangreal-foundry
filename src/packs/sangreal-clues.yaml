@@ -1,14 +1,19 @@
 # Mission: Sangreal — Information Cards (Item pack)
-# Items: informationCard (I1–I17)
+# Three card families ship in this pack; the Content Installer files them into
+# separate world folders by card-id prefix (see PACK_FOLDER_ROUTES in main.mjs):
+#   I01–I45  clues, evidence and containment truths   -> Clues
+#   N01–N16  cast cards (player-showable dossiers)    -> Cast Cards
+#   F01–F16  photographic evidence (frames)           -> Photographic Evidence
+# Card ids are zero-padded so alphabetical order is numeric order.
 # Source: docs/mission-sangreal-design-guide.md §6
 ---
 
 - _id: sangreal-ic01
-  name: 'I1 — The Burnt Electromagnet Relay'
+  name: 'I01 — The Burnt Electromagnet Relay'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/intel/i01-vault-altar-forensic.webp
   system:
-    cardId: I-1
+    cardId: I-01
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l1]
     knownBySlugs: [sangreal-npc-ghiberti]
@@ -36,11 +41,11 @@
     npcUuids: []
 
 - _id: sangreal-ic02
-  name: 'I2 — CCTV Reel #87-04'
+  name: 'I02 — CCTV Reel #87-04'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/intel/i02-cctv-porta-santanna-0314.webp
   system:
-    cardId: I-2
+    cardId: I-02
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l1, sangreal-l2]
     npcSlugs: [sangreal-npc-vane]
@@ -68,11 +73,11 @@
     npcUuids: []
 
 - _id: sangreal-ic03
-  name: 'I3 — The Excised Codex Register'
+  name: 'I03 — The Excised Codex Register'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/intel/i03-register-excised-card.webp
   system:
-    cardId: I-3
+    cardId: I-03
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l1]
     knownBySlugs: [sangreal-npc-ghiberti]
@@ -101,11 +106,11 @@
     npcUuids: []
 
 - _id: sangreal-ic04
-  name: 'I4 — Numerals on Rag Paper'
+  name: 'I04 — Numerals on Rag Paper'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/intel/i04-corvi-desk-blotter.webp
   system:
-    cardId: I-4
+    cardId: I-04
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l2]
     content: >
@@ -131,11 +136,11 @@
     npcUuids: []
 
 - _id: sangreal-ic05
-  name: "I5 — Embossed Stamp, Map Casing"
+  name: "I05 — Embossed Stamp, Map Casing"
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/intel/i05-map-casing-hallmark.webp
   system:
-    cardId: I-5
+    cardId: I-05
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l1]
     knownBySlugs: [sangreal-npc-vane]
@@ -164,11 +169,11 @@
     npcUuids: []
 
 - _id: sangreal-ic06
-  name: 'I6 — The Escrow Transfer Slip'
+  name: 'I06 — The Escrow Transfer Slip'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/intel/i06-escrow-slip-carbon.webp
   system:
-    cardId: I-6
+    cardId: I-06
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l3]
     knownBySlugs: [sangreal-npc-mercier]
@@ -197,10 +202,10 @@
     npcUuids: []
 
 - _id: sangreal-ic07
-  name: 'I7 — Patient File 09-H'
+  name: 'I07 — Patient File 09-H'
   type: informationCard
   system:
-    cardId: I-7
+    cardId: I-07
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l3, sangreal-l4]
     knownBySlugs: [sangreal-npc-graf]
@@ -221,22 +226,22 @@
       and <strong>I28</strong> (photophobia test).</p>
       <p><strong>Clues &amp; easter eggs.</strong> The intake photo's gold wristwatch and the
       clinic logo are the thread-ends: the watch reappears on the feral predator, and the
-      logo reappears on the letterhead of the escrow slip (I6). The same institution banked
+      logo reappears on the letterhead of the escrow slip (I06). The same institution banked
       the money that injected him.</p>
       <p><strong>DA truth.</strong> <strong>The False Twist.</strong> Drives players to
       conclude Jesus was the First Vampire, and communion transmits an unholy condition.
-      Let them believe it — the histopathology in I9 and the Ebionite text in I12 are the
+      Let them believe it — the histopathology in I09 and the Ebionite text in I12 are the
       way back out.</p>
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
 
 - _id: sangreal-ic08
-  name: 'I8 — The Swiss PTT Intercept Tape'
+  name: 'I08 — The Swiss PTT Intercept Tape'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/intel/i08-wiretap-reel.webp
   system:
-    cardId: I-8
+    cardId: I-08
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l3, sangreal-l4]
     content: >
@@ -255,7 +260,7 @@
       Swiss PTT switchboard desk, a typed transcript page clipped beneath a pencil, Bakelite
       handsets and cabling behind.</p>
       <p><strong>Clues &amp; easter eggs.</strong> A second tape box carries the same neat
-      hand as the red charge card in I3 — someone was copying calls long before the
+      hand as the red charge card in I03 — someone was copying calls long before the
       Covenant arrived. The transcript's final line circles a Turin extension number.</p>
       <p><strong>DA truth.</strong> Unlocks Location L5 (Lingotto Fiat Assembly Complex,
       Turin) and confirms Corvi still controls eleven phials. The "cultured voice" belongs
@@ -265,11 +270,11 @@
     npcUuids: []
 
 - _id: sangreal-ic09
-  name: 'I9 — Histopathology Log: Marrow Graft'
+  name: 'I09 — Histopathology Log: Marrow Graft'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/intel/i09-histology-polaroid.webp
   system:
-    cardId: I-9
+    cardId: I-09
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l4]
     knownBySlugs: [sangreal-npc-graf]
@@ -390,7 +395,7 @@
       down.</p>
       <p><strong>DA truth.</strong> The final theological revelation: Christ was an immune
       progenitor who synthesized a cure for the vampire parasite. Once the cell reads this
-      alongside I9, the Paradigm Inversion lands for good.</p>
+      alongside I09, the Paradigm Inversion lands for good.</p>
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -584,7 +589,7 @@
       figure descending, one hand on the rail catching the light, the face lost to shadow,
       the burned-in clock at 04:02.</p>
       <p><strong>Clues &amp; easter eggs.</strong> On the hand, a signet ring carries an
-      eye-in-ouroboros device — the Watcher (I5, I22, P7). The lift indicator shows the
+      eye-in-ouroboros device — the Watcher (I05, I22, P7). The lift indicator shows the
       platform called from below: someone was already inside the vault when Corvi left.
       The 04:02 time matches the pencil line the Watcher later adds at Novara (P7M3).</p>
       <p><strong>DA truth.</strong> The breach had a second visitor nobody logged — the
@@ -638,13 +643,13 @@
     hqFallback: 10
     daNotes: >
       <p><strong>Retrieval.</strong> At L2, inspecting the safe during the room search —
-      pair this with I4 (blotter) as the room's two findings.</p>
+      pair this with I04 (blotter) as the room's two findings.</p>
       <p><strong>Reading the image.</strong> A flash photograph of an open safe in a
       baroque study: a drilled dial, fine metal swarf on the shelf, carpet scuffs at the
       skirting, a compact mirror just out of the room's light.</p>
       <p><strong>Clues &amp; easter eggs.</strong> The drill swarf is fine and bright — a
       professional at work, not a panic job. The scuff marks show the kneeling position
-      was used twice, weeks apart. The compact belongs to Claudia (I5): she searched this
+      was used twice, weeks apart. The compact belongs to Claudia (I05): she searched this
       room before the Covenant ever arrived — and told nobody what she found.</p>
       <p><strong>DA truth.</strong> Claudia was working the apartment independently. Her
       progress reports (I14) and this quiet search are the first cracks in her cover.</p>
@@ -672,7 +677,7 @@
       a gaunt clergyman in flat frontal flash, typewritten fields, an ink border stamp,
       a handwritten marginal note in a second hand.</p>
       <p><strong>Clues &amp; easter eggs.</strong> The Chiasso stamp is timed two hours
-      after the gate film (I2) — he traveled hard and fast. <em>Accompagné</em> means the
+      after the gate film (I02) — he traveled hard and fast. <em>Accompagné</em> means the
       border guards logged a companion the reports all omit. The passport photo comes from
       the same session as the 1962 archive photograph (I22) — same tie, thirty years apart.</p>
       <p><strong>DA truth.</strong> Corvi was not alone crossing into Switzerland. The
@@ -703,8 +708,8 @@
       catalog cabinets, a folder marked with faded lettering between them, the older man's
       face marked out in red grease pencil.</p>
       <p><strong>Clues &amp; easter eggs.</strong> The older prelate wears the
-      ouroboros-eye ring (I5) — the Order has been inside the Vatican since before Corvi
-      could read Latin. The folder between them is labelled XII-SANG (I3). The red X is
+      ouroboros-eye ring (I05) — the Order has been inside the Vatican since before Corvi
+      could read Latin. The folder between them is labelled XII-SANG (I03). The red X is
       recent: someone alive today wanted this face forgotten.</p>
       <p><strong>DA truth.</strong> Corvi's mentor was tied to the same suppressed index
       that cataloged the Lodestone and the phials. The theft's lineage runs thirty years
@@ -766,7 +771,7 @@
       <p><strong>Clues &amp; easter eggs.</strong> The vault-access stamp marks exactly why
       the Talamasca (or whoever paid) chose Mercier: the only clerk with both access and
       debt. The carbon edge shows CHF 500,000 and 4409-C — he photographed the transfer
-      himself and kept a copy (I6).</p>
+      himself and kept a copy (I06).</p>
       <p><strong>DA truth.</strong> Mercier is more compromised — and more useful — than he
       admits. Play his fear of the missing carbon as the lever that yields I25.</p>
     foundAtUuids: []
@@ -798,7 +803,7 @@
       Beneath the correction fluid, Vane, C. signed in at 02:10 the night the case moved:
       Claudia visited the vault in person, and Mercier was paid to erase it.</p>
       <p><strong>DA truth.</strong> This is the smoking-gun evidence of Claudia's
-      operational independence — the point at which <em>finding</em> I5's hallmark becomes
+      operational independence — the point at which <em>finding</em> I05's hallmark becomes
       <em>proving</em> it.</p>
     foundAtUuids: []
     knownByUuids: []
@@ -821,13 +826,13 @@
     daNotes: >
       <p><strong>Retrieval.</strong> At L3, from the "unattributed" surveillance prints in
       the bank's parcel room (or purchased from the Turin Intermediary); corroborates the
-      EC 30 pass (I2).</p>
+      EC 30 pass (I02).</p>
       <p><strong>Reading the image.</strong> A long-lens station photograph with steam and
       haze; a prelate boarding with a steel case; a porter's trolley labelled VATICAN
       COURIER; a grey figure three carriages back.</p>
       <p><strong>Clues &amp; easter eggs.</strong> The Watcher is present again — same
       raincoat, same newspaper (I18, I23, P7). The destination board reads EC 30 ROMULUS,
-      matching the pass in I2. The porter's label means the case traveled with diplomatic
+      matching the pass in I02. The porter's label means the case traveled with diplomatic
       cover — someone inside the Vatican arranged it.</p>
       <p><strong>DA truth.</strong> Two tails, not one: the Talamasca watched the case
       from Rome onward, and the Vatican flagged it as courier cargo. The Covenant arrived
@@ -860,7 +865,7 @@
       <p><strong>Clues &amp; easter eggs.</strong> The gold watch reappears on the feral
       predator's wrist in the AFTER portrait — it is the visual argument that the thing on
       the ceiling was once a man. The clinic logo matches the letterhead of the escrow slip
-      (I6): the same institution banked the money that transformed him.</p>
+      (I06): the same institution banked the money that transformed him.</p>
       <p><strong>DA truth.</strong> Anchor the False Revelation here: the cell should see
       this photograph before they see what he became. Contrast is the horror.</p>
     foundAtUuids: []
@@ -915,12 +920,12 @@
     hqFallback: 6
     daNotes: >
       <p><strong>Retrieval.</strong> At L4, in Graf's study files (she may need calming
-      first — see I7).</p>
+      first — see I07).</p>
       <p><strong>Reading the image.</strong> A top-down photograph of a typed trial chart
       page: carbon type, two signatures, a coffee ring, a room number scrawled at an angle.</p>
       <p><strong>Clues &amp; easter eggs.</strong> The sponsor's Vaduz trust account is the
-      same account as the escrow in I6 — the money that bought the phial also paid the
-      clinic. The room number 3.14 rhymes with the vault's 03:14 timestamp (I2): a quiet
+      same account as the escrow in I06 — the money that bought the phial also paid the
+      clinic. The room number 3.14 rhymes with the vault's 03:14 timestamp (I02): a quiet
       numeric refrain the DA can echo elsewhere.</p>
       <p><strong>DA truth.</strong> The paper trail linking Rome's money, a Swiss clinic,
       and the first phial — the documented chain of custody for the vector's first human
@@ -1018,7 +1023,7 @@
       somebody in the Church was prepared for exactly this accident. The log's time, 07:12,
       is twenty minutes after sunrise.</p>
       <p><strong>DA truth.</strong> CT3 in physical form — and proof that Rome's protocol
-      followed the phials. This card is the bridge between the medical sequence (I7–I11)
+      followed the phials. This card is the bridge between the medical sequence (I07–I11)
       and the containment truths (I16).</p>
     foundAtUuids: []
     knownByUuids: []
@@ -1077,7 +1082,7 @@
       <p><strong>Clues &amp; easter eggs.</strong> The taped deadbolt means the case has
       been forced or dropped — its integrity is degrading toward the fracture table. In the
       puddles, the lights reflect but Corvi casts no shadow: a deniable, single-frame
-      occult tell the DA may or may not reveal (it contradicts I1's altar — the case's
+      occult tell the DA may or may not reveal (it contradicts I01's altar — the case's
       active state has changed).</p>
       <p><strong>DA truth.</strong> For the players who have started to suspect the relic's
       behavior: here is the first photographic anomaly <em>after</em> the seal was cut at
@@ -1103,12 +1108,12 @@
     hqFallback: 5
     daNotes: >
       <p><strong>Retrieval.</strong> At L2 in the desk effects, or at L5 in his kit — both
-      part of the paper trail (pair with I3's excised register).</p>
+      part of the paper trail (pair with I03's excised register).</p>
       <p><strong>Reading the image.</strong> A flat archival photograph of an aged
       parchment: formal Latin script, an imperfectly repaired seal, pencilled marginal
       notes, and a modern shelf-mark stamped in the corner.</p>
       <p><strong>Clues &amp; easter eggs.</strong> The shelf-mark ties this brief to the
-      excised card in I3 — the same record the Vatican tried to erase. The cracked seal
+      excised card in I03 — the same record the Vatican tried to erase. The cracked seal
       repaired with wax means the capsule was opened after sealing: the 1582 custodians
       broke protocol, and someone repaired the seal to hide it. The marginalia name the
       capsule XII-SANG-00: the case's institutional identity for four centuries.</p>
@@ -1144,7 +1149,7 @@
       whole plan in five words: the Lodestone was known — and filed — as the one thing that
       disables the vault's electromagnets. The order came from the Prefect's office: the
       theft's occult tool was issued from inside the building it robbed.</p>
-      <p><strong>DA truth.</strong> The Lodestone's index card links the breach (I1) to the
+      <p><strong>DA truth.</strong> The Lodestone's index card links the breach (I01) to the
       Congregation (I17) — the current Prefect's fingerprints are on the weapon, whether
       or not he commissioned the crime.</p>
     foundAtUuids: []
@@ -1259,7 +1264,7 @@
       <p><strong>Reading the image.</strong> A top-down evidence grid: the tools of a
       scholar-spy, arranged with the same precision she kept in life.</p>
       <p><strong>Clues &amp; easter eggs.</strong> The Talamasca card is the last nail:
-      after I5, I14 and I25, it is incontrovertible. The toll stub is time-stamped ninety
+      after I05, I14 and I25, it is incontrovertible. The toll stub is time-stamped ninety
       minutes before death — she drove straight here from Turin. A ring of grey animal
       hair is wound around the Beretta's trigger guard: something checked her weapon
       before she could reach it.</p>
@@ -1351,7 +1356,7 @@
     hqFallback: 10
     daNotes: >
       <p><strong>Retrieval.</strong> At L1, requires Ghiberti's help with the archival
-      index (same scene as I3/I36).</p>
+      index (same scene as I03/I36).</p>
       <p><strong>Reading the image.</strong> A high-contrast workshop photograph: gloved
       hands, foil, clamps, a waiting plaque, a pinned order — the bureaucratic normality
       of building a prison for something they refuse to describe.</p>
@@ -1386,7 +1391,7 @@
       <p><strong>Reading the image.</strong> A wet-concrete photograph of a battered crate
       with layered markings: new stencil over old, a chalk tally, ties nobody has cut.</p>
       <p><strong>Clues &amp; easter eggs.</strong> The chalk tally 10/12 means two phials
-      were already unaccounted for before the aircraft left Europe — one sold (I6), one
+      were already unaccounted for before the aircraft left Europe — one sold (I06), one
       broken (I13). The fresh stencil carries the Basarab crest; beneath it, ghosted
       through the paint, an older mark reads VATICAN MUSEUMS — STOREROOM 9: the crate
       that carries the cure out of Italy was itself Vatican property.</p>
@@ -1426,15 +1431,15 @@
     npcUuids: []
 
 # ─────────────────────────────────────────────────────────────
-#  Cast Cards (N1–N16) — player-facing NPC dossiers with portraits
+#  Cast Cards (N01–N16) — player-facing NPC dossiers with portraits
 # ─────────────────────────────────────────────────────────────
 
 - _id: sangreal-ic46
-  name: 'N1 — Monsignor Matteo Corvi'
+  name: 'N01 — Monsignor Matteo Corvi'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np01.webp
   system:
-    cardId: N-1
+    cardId: N-01
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l2, sangreal-l5]
     knownBySlugs: [sangreal-npc-ghiberti]
@@ -1471,11 +1476,11 @@
     npcUuids: []
 
 - _id: sangreal-ic47
-  name: 'N2 — Sister Claudia Vane'
+  name: 'N02 — Sister Claudia Vane'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np02.webp
   system:
-    cardId: N-2
+    cardId: N-02
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l2, sangreal-l5, sangreal-l6]
     npcSlugs: [sangreal-npc-vane]
@@ -1509,11 +1514,11 @@
     npcUuids: []
 
 - _id: sangreal-ic48
-  name: 'N3 — Cardinal Enrico Sabbatini'
+  name: 'N03 — Cardinal Enrico Sabbatini'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np03.webp
   system:
-    cardId: N-3
+    cardId: N-03
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l7]
     npcSlugs: [sangreal-npc-sabbatini]
@@ -1545,11 +1550,11 @@
     npcUuids: []
 
 - _id: sangreal-ic49
-  name: 'N4 — Dr. Elizabeth Graf'
+  name: 'N04 — Dr. Elizabeth Graf'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np04.webp
   system:
-    cardId: N-4
+    cardId: N-04
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l4]
     npcSlugs: [sangreal-npc-graf]
@@ -1570,7 +1575,7 @@
       who has spent three nights deciding.</p>
       <p><strong>Clues &amp; easter eggs.</strong> The slide box on her desk is
       labelled <em>09-H MARROW</em> in her own handwriting — the histopathology
-      she filed under a dead trial code and kept hidden (I9, I27). One slide is
+      she filed under a dead trial code and kept hidden (I09, I27). One slide is
       missing from the box: it lives inside her coat.</p>
       <p><strong>DA truth.</strong> O1M4 marks her for liquidation. The players
       choose whether she testifies, runs, or burns with the ward. Her slides are
@@ -1580,11 +1585,11 @@
     npcUuids: []
 
 - _id: sangreal-ic50
-  name: 'N5 — Kurt Hausmann'
+  name: 'N05 — Kurt Hausmann'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np05.webp
   system:
-    cardId: N-5
+    cardId: N-05
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l4]
     npcSlugs: [sangreal-npc-hausmann]
@@ -1619,11 +1624,11 @@
     npcUuids: []
 
 - _id: sangreal-ic51
-  name: 'N6 — Father Ghiberti'
+  name: 'N06 — Father Ghiberti'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np06.webp
   system:
-    cardId: N-6
+    cardId: N-06
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l1, sangreal-l2]
     npcSlugs: [sangreal-npc-ghiberti]
@@ -1655,11 +1660,11 @@
     npcUuids: []
 
 - _id: sangreal-ic52
-  name: 'N7 — Jean-Paul Mercier'
+  name: 'N07 — Jean-Paul Mercier'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np07.webp
   system:
-    cardId: N-7
+    cardId: N-07
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l3]
     npcSlugs: [sangreal-npc-mercier]
@@ -1692,11 +1697,11 @@
     npcUuids: []
 
 - _id: sangreal-ic53
-  name: 'N8 — The Operative in Grey'
+  name: 'N08 — The Operative in Grey'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np08.webp
   system:
-    cardId: N-8
+    cardId: N-08
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l7]
     npcSlugs: [sangreal-npc-entita-operative]
@@ -1729,11 +1734,11 @@
     npcUuids: []
 
 - _id: sangreal-ic54
-  name: 'N9 — The Retrieval Pack Operative'
+  name: 'N09 — The Retrieval Pack Operative'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np09.webp
   system:
-    cardId: N-9
+    cardId: N-09
     cardType: supportingIntel
     foundAtSlugs: [sangreal-l6]
     npcSlugs: [sangreal-npc-basarab-operative]
@@ -2009,7 +2014,7 @@
       a man billing by the hour.</p>
       <p><strong>Clues &amp; easter eggs.</strong> The signet ring on his
       little finger is the only distinguishing feature he allows himself —
-      an eye worked inside an ouroboros (I5, I18, I22): the Talamasca's mark,
+      an eye worked inside an ouroboros (I05, I18, I22): the Talamasca's mark,
       worn by the one agent who never needed to hide it. The Ouroboros Order
       has been inside this case since before the cell got the file.</p>
       <p><strong>DA truth.</strong> He is the Talamasca's Grey Watcher: keeps
@@ -2026,11 +2031,11 @@
 # card's portrait now lives here, as evidence the cell finds or takes. The cast
 # cards carry clean portraits; these carry the tells.
 - _id: sangreal-ph01
-  name: 'F1 — Night Desk, Archive'
+  name: 'F01 — Night Desk, Archive'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/npc-corvi.webp
   system:
-    cardId: 'F-1'
+    cardId: 'F-01'
     cardType: supportingIntel
     content: 'A single desk lamp against a cold dark room: a middle-aged man in black seated among stacked leather-bound volumes, fountain pen in hand, a locked attaché case just inside the edge of the frame. He has the face of a man who has read something he cannot unread.'
     daNotes: '<p><strong>Retrieval.</strong> Days 12–11, working his rooms and the desk effects (L2) — not the booth. This is the night he stopped sleeping, four days before the plinth was opened.</p><p><strong>Reading the image.</strong> One warm lamp, everything else cold shadow; paper and leather in stacks; his collar dark with sweat at the throat.</p><p><strong>Clues &amp; easter eggs.</strong> Face down on the desk, a photograph with its corner turned up — the 1962 archive frame (I22). The attaché case at the frame edge is not the case that left the vault.</p><p><strong>DA truth.</strong> This is the frame the Covenant files him under: a scholar photographed the night he stopped sleeping, four days before he opened the plinth.</p>'
@@ -2038,11 +2043,11 @@
     foundAtSlugs: [sangreal-l2]
 
 - _id: sangreal-ph02
-  name: 'F2 — Vault Corridor, Nun'
+  name: 'F02 — Vault Corridor, Nun'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/npc-vane.webp
   system:
-    cardId: 'F-2'
+    cardId: 'F-02'
     cardType: supportingIntel
     content: 'Strip-lit stone under a vaulted passage: a nun in black habit over a grey under-layer stands perfectly still, both hands folded over a scuffed leather folio, eyes on the lens a fraction too long. An iron grille sits at the left edge of the frame; a carved figure waits further down the passage.'
     daNotes: '<p><strong>Retrieval.</strong> Days 12–11, when the cell first treats her as an actor rather than an escort — the vault thread. I25 supplies the corroboration: a struck-through VANE, C. at 02:10.</p><p><strong>Reading the image.</strong> Cold fluorescent overhead, wet flagstones, heavy vignette; she does not look away and her hands are still.</p><p><strong>Clues &amp; easter eggs.</strong> The rosary at her belt: one wooden bead has been replaced with an empty metal needle holder. The folio is the size and weight of a vault logging book, not a breviary.</p><p><strong>DA truth.</strong> She was inside the vault alone, before the Covenant arrived, carrying the tool of an order that kills with a needle. Her independence is proven here and the ledger only dates it.</p>'
@@ -2050,11 +2055,11 @@
     foundAtSlugs: [sangreal-l6]
 
 - _id: sangreal-ph03
-  name: 'F3 — Council Desk, Green Lamp'
+  name: 'F03 — Council Desk, Green Lamp'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/npc-sabbatini.webp
   system:
-    cardId: 'F-3'
+    cardId: 'F-03'
     cardType: supportingIntel
     content: 'Green lamplight in walnut panelling: a man behind a desk, one hand spread flat over a dossier as if the hand were part of the filing, painted ceiling out of focus above him. He is photographed from standing height, across the desk.'
     daNotes: '<p><strong>Retrieval.</strong> Epilogue — the L7 accounting scene, photographed in person, or caught as the target of approach surveillance (I41).</p><p><strong>Reading the image.</strong> The lamp throws one green pool across the desk; marble and walnut; two rings, no crest.</p><p><strong>Clues &amp; easter eggs.</strong> The dossier under his hand is stamped REGISTRY 16 — AMSTERDAM, and the hand covers half of it. Amsterdam appears on no itinerary the cell has seen.</p><p><strong>DA truth.</strong> He is not hiding the file from the room. He keeps it inside reach of his hand, which is what a man does with something he may have to destroy.</p>'
@@ -2062,11 +2067,11 @@
     foundAtSlugs: [sangreal-l7]
 
 - _id: sangreal-ph04
-  name: 'F4 — Ward Corridor, Torchlight'
+  name: 'F04 — Ward Corridor, Torchlight'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/npc-graf.webp
   system:
-    cardId: 'F-4'
+    cardId: 'F-04'
     cardType: supportingIntel
     content: 'Hard torchlight from the side in a blacked-out ward: a woman in a lab coat stands among smashed fluorescent tubes, a slide box held against her chest, half-turned toward the light. Everything outside the beam is deep shadow.'
     daNotes: '<p><strong>Retrieval.</strong> At L4, the moment the cell earns her trust — or later, when the slides are the only thing of hers left.</p><p><strong>Reading the image.</strong> Shattered tubes, taped windows, no ambient light at all; glasses pushed up into her hair and both hands steady on the box.</p><p><strong>Clues &amp; easter eggs.</strong> The slide box is labelled 09-H MARROW in her own handwriting — the patient code from the intake photograph (I27). She is not destroying the work; she is carrying it.</p><p><strong>DA truth.</strong> The terror in the frame is not the thing overhead. It is the decision she has already made about her own research.</p>'
@@ -2074,11 +2079,11 @@
     foundAtSlugs: [sangreal-l4]
 
 - _id: sangreal-ph05
-  name: 'F5 — Corner of a Dark Room'
+  name: 'F05 — Corner of a Dark Room'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann.webp
   system:
-    cardId: 'F-5'
+    cardId: 'F-05'
     cardType: supportingIntel
     content: 'A sliver of light under a door is the only source: a man crouched in the corner of a dark room, head tilted, listening, in the ruin of a tailored suit. His skin reads grey in what little light there is.'
     daNotes: '<p><strong>Retrieval.</strong> After the intake photograph (I27) or the ward tape (I30) — never before. The horror is the pairing, not the picture.</p><p><strong>Reading the image.</strong> No fill light, no flash; the room is clinically clean and he is not; he is posed as if mid-listen rather than mid-attack.</p><p><strong>Clues &amp; easter eggs.</strong> He still wears the gold wristwatch from the intake photograph — the visual argument that the thing in the corridor was once this man.</p><p><strong>DA truth.</strong> He is not a patient who escaped. He is what the protocol produces, and he is listening for the next dose.</p>'
@@ -2086,23 +2091,23 @@
     foundAtSlugs: [sangreal-l4]
 
 - _id: sangreal-ph06
-  name: 'F6 — Card Catalogue, Archive'
+  name: 'F06 — Card Catalogue, Archive'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/npc-ghiberti.webp
   system:
-    cardId: 'F-6'
+    cardId: 'F-06'
     cardType: supportingIntel
     content: 'An archival lamp over mahogany card catalogues: a thin older priest stands in the stacks with one drawer open beside him, a spectacle hinge taped, caught mid-thought, about to close the drawer.'
-    daNotes: '<p><strong>Retrieval.</strong> Days 14–13 — introduced at L1 the first time the cell needs anything from the Archives.</p><p><strong>Reading the image.</strong> Dust in the lamp beam, ranks of labelled drawers, an interrupted gesture: the hand is on the drawer, not on the card.</p><p><strong>Clues &amp; easter eggs.</strong> A torn index-card corner lies on the floor at his feet; the shelf-mark fragment on it matches the excised stub in I3.</p><p><strong>DA truth.</strong> He pulled the card before anyone told him to. Whatever he knows, he decided it was worth the risk of being seen deciding.</p>'
+    daNotes: '<p><strong>Retrieval.</strong> Days 14–13 — introduced at L1 the first time the cell needs anything from the Archives.</p><p><strong>Reading the image.</strong> Dust in the lamp beam, ranks of labelled drawers, an interrupted gesture: the hand is on the drawer, not on the card.</p><p><strong>Clues &amp; easter eggs.</strong> A torn index-card corner lies on the floor at his feet; the shelf-mark fragment on it matches the excised stub in I03.</p><p><strong>DA truth.</strong> He pulled the card before anyone told him to. Whatever he knows, he decided it was worth the risk of being seen deciding.</p>'
     npcSlugs: [sangreal-npc-ghiberti]
     foundAtSlugs: [sangreal-l1]
 
 - _id: sangreal-ph07
-  name: 'F7 — Viewing Booth, Bank'
+  name: 'F07 — Viewing Booth, Bank'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/npc-mercier.webp
   system:
-    cardId: 'F-7'
+    cardId: 'F-07'
     cardType: supportingIntel
     content: 'A wood-panelled room the size of a cupboard: a man in a three-piece suit sits with bank documents squared in front of him under one warm lamp, professionally pleasant and sweating slightly. A carbon copy is sliding out of his jacket pocket.'
     daNotes: '<p><strong>Retrieval.</strong> Days 12–11, at L3 when the cell works the bank — the counter scene or his interrogation.</p><p><strong>Reading the image.</strong> Brass lamp, no window, documents aligned to the table edge; his hands stay flat and open on the page.</p><p><strong>Clues &amp; easter eggs.</strong> The carbon slipping from his pocket reads UBS 4409-C — the box number on the ledger page (I25). He photographed the transfer himself and kept a copy.</p><p><strong>DA truth.</strong> The copy is his insurance, and it is what he is actually afraid of. The cell is only the second thing in the room he cannot afford.</p>'
@@ -2110,11 +2115,11 @@
     foundAtSlugs: [sangreal-l3]
 
 - _id: sangreal-ph08
-  name: 'F8 — Vatican Corridor, Night'
+  name: 'F08 — Vatican Corridor, Night'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/npc-entita-operative.webp
   system:
-    cardId: 'F-8'
+    cardId: 'F-08'
     cardType: supportingIntel
     content: 'A night corridor of dressed stone and dim sconces: a short, square-jawed man in a grey overcoat stands with both hands clasped in front of him, one side of his face in darkness, expression absolutely bland. He is not walking anywhere.'
     daNotes: '<p><strong>Retrieval.</strong> Any day after the group photograph (I42) surfaces — this promotes him from someone in the background to a face the cell can fear.</p><p><strong>Reading the image.</strong> One sconce, one side of the face; the coat is new and off-the-peg; he stands as if waiting for a door to open.</p><p><strong>Clues &amp; easter eggs.</strong> A phosphorus canister is clipped under the coat — the same cylinder carried by the third man in I42.</p><p><strong>DA truth.</strong> The people who clean these scenes have a face and a procurement chain, and both of them run through the Vatican.</p>'
@@ -2122,11 +2127,11 @@
     foundAtSlugs: [sangreal-l5]
 
 - _id: sangreal-ph09
-  name: 'F9 — Refectory, Candlelight'
+  name: 'F09 — Refectory, Candlelight'
   type: informationCard
   img: modules/neon-relic-mission-sangreal/assets/art/npc-basarab-operative.webp
   system:
-    cardId: 'F-9'
+    cardId: 'F-09'
     cardType: supportingIntel
     content: 'One candle in a long dark room: a lean man with collar-length black hair stands far too still beside it, one gloved hand at his side. The flame is the only light in the frame and he is not hurrying.'
     daNotes: '<p><strong>Retrieval.</strong> Days 2–1, with the forensics — I38 is the pairing. This frame is part of what the cell learns about who did the killing.</p><p><strong>Reading the image.</strong> A single flame, the edge of a long table, no other source; he stands beside the light rather than in it.</p><p><strong>Clues &amp; easter eggs.</strong> Two fingers of the right glove are missing and the hand beneath them is wrong — the same injury as the calcified metacarpals recovered from the dining-hall table (I13, I38).</p><p><strong>DA truth.</strong> The pack takes its own casualties and keeps working. The damage in this case runs in both directions, and only one side photographs it.</p>'
