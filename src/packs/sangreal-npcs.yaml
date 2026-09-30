@@ -13,6 +13,11 @@
   system:
     tier: 2
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> Unshaven, three days in the same coat, fever-flushed, praying in Latin under his breath; the closed case within arm's reach.</p>
+      <p><strong>Wants.</strong> To be found by the right people and to explain himself to somebody who understands the theology — and to bury the phials where no institution can reach them.</p>
+      <p><strong>Will not.</strong> Yield to authority alone. Anything that sounds like the Holy Alliance and he destroys his notebook and runs deeper into the works.</p>
+      <p><strong>Knows.</strong> The whole truth of the blood: the Ebionite fragments, the translation, what the twelve phials are, and why the Church built a prison rather than a reliquary. He lectures for an hour if the cell sounds like custodians rather than enforcers — every fact the walkthrough calls the paradigm inversion comes out of his mouth.</p>
       <h3>Psychological Profile</h3>
       <p>An ecclesiastical historian consumed by religious dread. Translating the Ebionite
       fragments revealed that the Eucharist was a biological deterrent rather than
@@ -57,6 +62,11 @@
   system:
     tier: 3
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> Black habit over a grey under-layer, scuffed leather folio held in both hands, completely still, never surprised.</p>
+      <p><strong>Wants.</strong> The case in her hands, and the cell used up getting it there.</p>
+      <p><strong>Will not.</strong> Touch the case in front of witnesses, be separated from it, or fight to win — she fights only to escape with it.</p>
+      <p><strong>Knows.</strong> Her own orders and the Talamasca's position, sincerely believed. She answers questions about Church procedure instantly and questions about the theft half a beat late, and she never says her handler's name — if the cell mentions Amsterdam in front of Corvi she interrupts, compliments the research and changes the subject.</p>
       <h3>Psychological Profile</h3>
       <p>Outwardly a devout scholar of early Christian art; inwardly an intelligence
       asset trained by the Talamasca Motherhouse in Amsterdam. She believes the phials
@@ -104,6 +114,11 @@
   system:
     tier: 3
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> A statesman in his own building: heavy, immaculate, at his desk with a dossier in front of him already stamped REGISTRY 16 — AMSTERDAM.</p>
+      <p><strong>Wants.</strong> The phials back, the breach unrecorded, and the cure retained as an institutional deterrent.</p>
+      <p><strong>Will not.</strong> Apologise, admit the Church banked the sale, or discuss the 1582 order in front of a witness.</p>
+      <p><strong>Knows.</strong> Everything the cell has just learned, and more — including that his file on the Talamasca is further along than theirs. He gives it up freely once indisputable forensic proof is on his desk; before that, his register is imperious and hostile (Difficulty 4).</p>
       <h3>Psychological Profile</h3>
       <p>A ruthless ecclesiastical statesman shaped by Cold War intelligence operations.
       He treats the vampire dynasties as a biological reality held in check through
@@ -148,6 +163,11 @@
   system:
     tier: 1
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> No sleep, glasses pushed up into her hair, a slide box held against her chest like a shield, and a box of matches she keeps moving further from the slides.</p>
+      <p><strong>Wants.</strong> Her research destroyed and her family out of the country.</p>
+      <p><strong>Will not.</strong> Leave without her slides — she will burn them rather than hand them over — and she lies once: that she has only the slides in her hands.</p>
+      <p><strong>Knows.</strong> The batch numbers, the sponsor account, the six-shift conversion window, and the composition of the quiescence kit on her bench. She is the only NPC who will say the word <em>cure</em> before the Lingotto, and only if the histopathology is already on the table.</p>
       <h3>Psychological Profile</h3>
       <p>Chief Pathologist at Privatklinik Sonnenberg. She administered the injection to
       Hausmann believing it was an unlicensed gene-therapy protocol funded by an overseas
@@ -189,6 +209,11 @@
   system:
     tier: 4
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> An expensive suit that no longer fits, in a room with the lights killed; still lucid, radiant, and wrong — and he has not slept since the injection.</p>
+      <p><strong>Wants.</strong> To understand exactly what was done to him — and then, later, to eat.</p>
+      <p><strong>Will not.</strong> Leave the ward, or admit what he has begun to want at night. Press him on it and he answers with perfect courtesy and moves to the far side of the room.</p>
+      <p><strong>Knows.</strong> That a Church account arranged the injection, that the man who paid brought the case himself and would not open it, and that the tumours were gone in two days. He volunteers all of it; he cannot explain where the protocol came from.</p>
       <h3>Psychological Profile</h3>
       <p>Formerly an elderly Swiss private banker suffering from terminal lymphoma.
       Ingesting the blood cured his cancer within forty-eight hours, but his ordinary
@@ -237,6 +262,11 @@
   system:
     tier: 1
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> Small and precise, cassock and lanyard, reading glasses always to hand; thirty-one years in the same archive.</p>
+      <p><strong>Wants.</strong> The breach recorded as a curatorial failure rather than a doctrinal one — and the cell to leave with the file instead of coming back for it.</p>
+      <p><strong>Will not.</strong> Open the 1582 brief, name the Prefect, or say the word Sangreal aloud in the stacks. Press him on any of those and he simply stops answering.</p>
+      <p><strong>Knows.</strong> That the register card was pulled by hand, that a workshop won a contract in 1964 to build a sealed container for shelf-mark XII-SANG, and that somebody has been re-reading the 1582 file this year. All three for the vault evidence and a written admission.</p>
       <h3>Psychological Profile</h3>
       <p>Nervous Curial archivist and keeper of the Vault IX register. Precise to the
       point of ritual, and currently terrified: he knows the register was doctored in the
@@ -278,6 +308,11 @@
   system:
     tier: 1
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> A wood-panelled viewing booth, three-piece suit, ironed shirt, warm lamp — and a sheen of sweat he cannot control.</p>
+      <p><strong>Wants.</strong> The transaction buried, and his own name out of it.</p>
+      <p><strong>Will not.</strong> Admit that he erased a ledger line at the buyer's request. Threats of violence close him entirely and trip the alarm beneath the counter.</p>
+      <p><strong>Knows.</strong> The account that paid, box 4409-C, the date — and that a nun came in alone afterwards and asked for the same box. He sells the escrow carbon for money, gives up the ledger only under real pressure, and lies once: that he never saw the woman.</p>
       <h3>Psychological Profile</h3>
       <p>Senior vault clerk at Union de Banques Suisses, Geneva. Immaculate suit, manicured
       hands, and the specific pallor of a man who has read transaction memos he was never
@@ -318,6 +353,11 @@
   system:
     tier: 4
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> Plainclothes over issue boots, no insignia, no expression; one of three working the same room with practised crossfire discipline.</p>
+      <p><strong>Wants.</strong> Recovery or destruction of the phials, and no trace that the Vatican was involved.</p>
+      <p><strong>Will not.</strong> Be talked down, or leave witnesses. They are not here to arrest anyone.</p>
+      <p><strong>Knows.</strong> That Vault IX held a biological deterrent rather than a relic, and that the cell was commissioned by the Church itself. Give the cell one warning in impeccable German before the first grenade — the sanctimony is the point.</p>
       <h3>Psychological Profile</h3>
       <p>Plainclothes Swiss Guard commando, detailed to <em>L'Entità</em> for operations
       the Vatican will never acknowledge. Professional, silent, clinical. Calls the
@@ -362,6 +402,11 @@
   system:
     tier: 4
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> Perfectly still, courteous, dressed a century out of date; it moves on vertical surfaces without sound and looks at mortals the way old money looks at furniture.</p>
+      <p><strong>Wants.</strong> The vessels, and no witnesses left who can describe them.</p>
+      <p><strong>Will not.</strong> Touch phial blood with bare hands, or be hurried. It has waited four centuries for this errand and will not spend itself cheaply.</p>
+      <p><strong>Knows.</strong> That the cure is final death and that the pack has already paid two fingers for the proof; that ten of the twelve are accounted for; that the crate carrying them out of Italy is Church property. It says almost none of this — but every word of it is true and it does not bother to lie.</p>
       <h3>Psychological Profile</h3>
       <p>An ancient vampire of the Basarab retrieval pack — not feral, not starving, and
       entirely certain of its own superiority. It speaks three dead languages and treats
@@ -410,6 +455,11 @@
     bestPool: 6
     templateNPC: 'Feral Ghoul'
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> Grey skin, no blink, mouths. Three of them, moving on the ceiling.</p>
+      <p><strong>Wants.</strong> Plasma. Nothing else.</p>
+      <p><strong>Will not.</strong> Be reasoned with, be bought, or be diverted. They avoid light, and they do not stop.</p>
+      <p><strong>Knows.</strong> Nothing. There is no interrogation here, no bargain and no tell — this is the cure's price made flesh, and its only use at the table is as consequence.</p>
       <p><strong>Origin.</strong> When a phial fractures in darkness (Phial Fracture
       table, result 5), dead tissue within Short range reanimates. The husks last 1d6
       hours — long enough to be someone's problem — and move in twitching, jointless
@@ -432,6 +482,11 @@
   system:
     tier: 4
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> An old man in a long black coat with the collar up and a fur collar under it three centuries out of date, a dragon-wolf signet ring worn smooth — entirely calm about being photographed.</p>
+      <p><strong>Wants.</strong> Ten phials aboard the aircraft. Nothing else in this country interests him.</p>
+      <p><strong>Will not.</strong> Fight over the crate. If the cell intervenes he lets the aircraft go and leaves on foot, and Mission 2 becomes about him instead.</p>
+      <p><strong>Knows.</strong> That ten vessels are in the crate and two are missing; that the cure kills his own people on contact; that he has been buying the stuff in Europe for two years. He says none of it. He answers a direct question politely, in Romanian-accented French, with a true sentence that reveals nothing — looking straight into the lens while he does it.</p>
       <h3>Psychological Profile</h3>
       <p>The retrieval pack's leader, and the reason the Novara strike was over in
       minutes. Ancient, patient, physically overwhelming — it has outlived dynasties and
@@ -480,6 +535,11 @@
   system:
     tier: 1
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> A tired sergeant of the gate detail, twelve years on the same stool two metres from the logbook; sidearm never drawn inside the cemetery in living memory.</p>
+      <p><strong>Wants.</strong> His shift to end without him becoming the story.</p>
+      <p><strong>Will not.</strong> Hand the logbook over, or be ranked, threatened, or told the inquiry is aimed at the gate detail. Any of those closes him for the rest of the case.</p>
+      <p><strong>Knows.</strong> Who signed in and out of the cemetery that night, and that the lift ran twice. He reads the log aloud to anyone who offers a cigarette and asks plainly — respect for the log succeeds automatically.</p>
       <h3>Psychological Profile</h3>
       <p>Sergeant of the Campo Santo Teutonico gate detail — twelve years on the same
       stool, two metres from the logbook. He is not corrupt; he is tired. The night of
@@ -520,6 +580,11 @@
   system:
     tier: 1
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> Olive field jacket, a map table, crates packed and stacked behind her; unshakeable and slightly overworked.</p>
+      <p><strong>Wants.</strong> A clear request packet and a straight answer about the case's risk level.</p>
+      <p><strong>Will not.</strong> Be vague with. Vagueness gets her default answer: a two-shift delay and a lecture on requisition discipline.</p>
+      <p><strong>Knows.</strong> Every delivery, vehicle and safehouse in the Italian–Swiss corridor — and, if asked the right question, that the escort detail on this case was attached by the Congregation over HQ's own objection. She says that once, and only if the cell asks why a nun was sent.</p>
       <h3>Psychological Profile</h3>
       <p>Region 04 desk officer — safehouses, vehicles, courier manifests, and a room
       full of maps. Unshakeable, overworked, allergic to drama. She has moved agents
@@ -559,6 +624,11 @@
   system:
     tier: 1
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> Printouts, headphones, and a remote-sensing room that smells of warm paper; exact, patient, and slightly offended by imprecision.</p>
+      <p><strong>Wants.</strong> A specified question. He considers inference a form of lying.</p>
+      <p><strong>Will not.</strong> Speculate. Ask him what a reading "means" and he will tell you what it measured, and nothing else.</p>
+      <p><strong>Knows.</strong> The instrument timings — including that the vault was disturbed twice that night, hours apart. He confirms it independently to any cell that asks whether the vault was disturbed twice, and he will show his own printouts while he does it.</p>
       <h3>Psychological Profile</h3>
       <p>A signals-room lifer who reads magnetometers the way other men read newspapers.
       Precise, dry, and quietly appalled by what the Vault IX readings keep telling him.
@@ -598,6 +668,11 @@
   system:
     tier: 3
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> Immaculate, late fifties, never photographed head-on, a good coat and a cigar; a dragon crest on the cufflink he does not know anyone recognises.</p>
+      <p><strong>Wants.</strong> To own the remaining eleven vessels, or to profit from whoever does.</p>
+      <p><strong>Will not.</strong> Be threatened. He has never raised his voice in his life and he does not fight — he sells, and then he leaves.</p>
+      <p><strong>Knows.</strong> The Lingotto meeting, the purchase price, and the "remaining eleven" inventory. He has already sold the Novara rendezvous address once today and keeps the rest for the next buyer. Only hard proof of the Basarab involvement cracks the mask.</p>
       <h3>Psychological Profile</h3>
       <p>Immaculate, late fifties, never photographed head-on. The "cultured voice" on
       the PTT intercept: collector, broker, and — as of this case — a man who has already
@@ -638,6 +713,11 @@
   system:
     tier: 2
     description: >
+      <h3>At the table</h3>
+      <p><strong>Look.</strong> A middle-aged man in a grey raincoat with a folded newspaper and a small leather bag — the sort of man a porter forgets inside a minute.</p>
+      <p><strong>Wants.</strong> One photograph of the case changing hands, and a buyer for it.</p>
+      <p><strong>Will not.</strong> Approach the cell, be cornered in a corridor, or be caught in the room when it happens. He steps off at Lausanne if threatened.</p>
+      <p><strong>Knows.</strong> Who has bought his negatives and when — one buyer a religious order operating out of Amsterdam, the other paid in Bucharest gold. He does not lie; if paid he sells that in full, and then walks.</p>
       <h3>Psychological Profile</h3>
       <p>There is nothing memorable about him. That is the entire skill. He reads
       newspapers in the rooms where the case changes hands, rides the same carriages,
@@ -652,7 +732,7 @@
       it happens.</p>
       <h3>Director Notes</h3>
       <p>The Watcher is the case's recurring easter egg: he appears in the background of
-      the intel photographs (G01, G05, Z06, and any street scene the cell photographs).
+      the intel photographs (the F-series photographs, the I18 descent frames, and any street scene the cell shoots).
       Reward players who notice him with a real advantage — he has the only independent
       photographic record of the case, including the 04:02 descent (I18).</p>
     attributes:

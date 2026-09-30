@@ -14,8 +14,8 @@
     availability: open
     availabilityCondition: ''
     description: >
-      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-lift-descent.webp" alt="Hydraulic lift vestibule and descent" style="width:100%;height:auto"></p>
-      <p><strong>Architectural forensics.</strong> Located forty feet beneath the Campo
+      <p><strong>Read aloud.</strong> <em>The lift takes forty feet of rock in one drop and stops with a hydraulic sigh. When the doors open the cold arrives before the light: two degrees, wet stone, and under the ozone something older that smells of incense and dried blood. The room is octagonal, brick faced in lead, refrigeration lines sweating down the walls. On the black granite altar sits an induction cradle of melted copper and eleven velvet moorings. The twelfth is an empty ring in the dust. Under the plinth, a tarnished brass plate reads one word: <strong>SANGREAL</strong>.</em></p>
+      <p><strong>The place.</strong> Located forty feet beneath the Campo
       Santo Teutonico, reached via a private hydraulic lift concealed behind the Longinus
       Crossing Pier inside St. Peter's Basilica. The vault is an octagonal chamber of
       ancient Roman brick faced with modern lead sheeting, cooled to 2°C by industrial
@@ -24,12 +24,20 @@
       mooring plinth — the attaché's cradle — a tarnished brass sign reads one word:
       <strong>SANGREAL</strong>. The chamber smells of ozone, cold
       incense, and dried blood.</p>
-      <p><strong>Dramatis personae.</strong> Father Ghiberti — nervous Curial archivist,
-      keeper of the vault register. Sister Claudia Vane — helpful liaison, present by
-      treaty right.</p>
-      <p><strong>Available information.</strong> Physical inspection of the altar yields
-      I01. Examining the security consoles yields I02. Searching the archival catalog
-      reveals I03. Observing Claudia's gear yields I05.</p>
+      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-lift-descent.webp" alt="Hydraulic lift vestibule and descent" style="width:100%;height:auto"></p>
+      <p><strong>Who is here.</strong></p>
+      <ul>
+      <li><strong>Father Ghiberti</strong> — small and precise, cassock and lanyard, reading glasses on a cord. <em>Wants</em> the breach recorded as a curatorial failure and the vault back under seal; <em>will not</em> open the 1582 brief, name the Prefect, or say the word Sangreal aloud in the stacks — press him and he simply stops answering. <em>Knows:</em> the register card was pulled by hand, a workshop won a contract in 1964 to build a sealed container for shelf-mark XII-SANG, and somebody has been re-reading the 1582 file this year. He trades all three for the vault evidence and a written admission that this was a curatorial failure.</li>
+      <li><strong>Sister Claudia Vane</strong> — black habit over a grey under-layer, scuffed leather folio held in both hands, completely still, never surprised. <em>Wants</em> to stay attached to the cell and to be the one holding the access log; <em>will not</em> touch the case or leave the cell alone in the vault on the first visit. <em>Knows:</em> the official inventory and the liturgical calendar, which she recites perfectly — answers questions about the Church instantly and questions about the theft half a beat late. She can recite the manifest but not the contents, and that ignorance is true.</li>
+      </ul>
+      <p><strong>What is here.</strong></p>
+      <ul>
+      <li>I01 — The Burnt Electromagnet Relay: sulfurous residue baked into slag, scorching on the underside of the plinth. Proves the vault was coaxed open from below, not forced. <em>Gate:</em> none — it is lying on the altar.</li>
+      <li>I19 — Plinth Detail, Brass Plate: the plaque and a case-shaped scratch outline in the granite. Proves the case was seated and removed many times. <em>Gate:</em> <em>Investigate (WIT) Difficulty 1</em> to notice the outline.</li>
+      <li>I02 — CCTV Reel #87-04 and I18 — Second Descent: the corridor reel and the log of the 04:02 descent. Held in the gate house, not the vault. <em>Gate:</em> the duty officer's cooperation (see L1's own gate in the walkthrough); the Day 12 HQ packet delivers both if the cell stalls.</li>
+      <li>I03 — The Excised Codex Register and I43 — The Case, 1964: the pulled register card and the workshop photograph, with the pinned order <em>XII phials — Gethsemane lot — destroyed if opened</em>. <em>Gate:</em> Ghiberti's help with the archival index, 1 shift; free once the cell shows him the vault evidence.</li>
+      <li>I05 — Embossed Stamp, Map Casing: three cities ringed in pencil — Geneva, Zurich, Turin — before the cell had a case file. <em>Gate:</em> must be earned in play; there is no HQ fallback.</li>
+      </ul>
       <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.e5iULuABev6xj4n0]{TM01 — Hydraulic lift vestibule and descent}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.fk4iveJh9oz2DMDa]{TM02 — Vault IX arrival}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.FyPnU7Tmzk9RJebD]{BM01 — Vault and lift vestibule}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p>With Claudia's escort, the cell walks the vault floor legitimately: the melted
@@ -60,17 +68,26 @@
     availability: open
     availabilityCondition: ''
     description: >
-      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-quarters-arrival.webp" alt="Corvi quarters arrival" style="width:100%;height:auto"></p>
-      <p><strong>Architectural forensics.</strong> A baroque third-floor apartment in the
+      <p><strong>Read aloud.</strong> <em>The apartment is baroque, dusty and wrong: thousands of leather spines, every drawer pulled open and put back by somebody who searched it like a scholar rather than a burglar. Nothing is missing. Behind the Saint Sebastian there is a wall safe, and the safe has been drilled through the spindle with a jeweller's patience.</em></p>
+      <p><strong>The place.</strong> A baroque third-floor apartment in the
       Palace of the Holy Office. Thousands of leather-bound patristic volumes line the
       walls. Drawers have been pulled out and searched with academic precision — nothing
       taken, everything displaced. Behind an oil painting of Saint Sebastian sits an open
       wall safe, its mechanical combination lock drilled cleanly.</p>
-      <p><strong>Dramatis personae.</strong> Two Vatican gendarmes guard the corridor;
-      they admit the team only under Sister Claudia's diplomatic escort.</p>
-      <p><strong>Available information.</strong> Searching the Clementine Vulgate yields
-      I04. Inspecting the safe yields I16. Blotter impressions on the desk provide a
-      duplicate of I02.</p>
+      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-quarters-arrival.webp" alt="Corvi quarters arrival" style="width:100%;height:auto"></p>
+      <p><strong>Who is here.</strong></p>
+      <ul>
+      <li><strong>Two Vatican gendarmes</strong> — bored, correct, and not curious; they admit the cell only under Sister Claudia's escort and will log the visit either way. <em>Want</em> their shift to end without an incident. <em>Will not</em> admit anyone without papers, however senior.</li>
+      <li><strong>Nobody else.</strong> Corvi has been gone since the theft and the searcher came and went weeks ago. <em>You decide</em> who turned the drawers over — the evidence points at a professional who took nothing, which is not how a thief works.</li>
+      </ul>
+      <p><strong>What is here.</strong></p>
+      <ul>
+      <li>I04 — Numerals on Rag Paper: sheet music and a blotter whose mirror-writing reads GENEVA and 4409. Proves Corvi had worked out the destination before he fled. <em>Gate:</em> on the desk, free; reading the cipher is <em>Lore (WIT) Difficulty 2</em>, and the card stands as evidence either way.</li>
+      <li>I16 — The Quiescence Formula (CT3): the mechanical recipe for moving or neutralising the blood — linen, gall, vinegar, myrrh, absolute darkness. <em>Gate:</em> the kit, or the Council Chamber in the epilogue.</li>
+      <li>I20 — Safe Dial, Drilled: bright swarf at the spindle, carpet scuffs showing somebody knelt in the same spot twice, weeks apart. Proves the professional — and that Claudia searched this room before the Covenant arrived. <em>Gate:</em> a patient search, an hour of work, no roll.</li>
+      <li>I21 — Diplomatic Passport: a second hand has written <em>accompagné</em> in the margin. Proves he crossed at Chiasso with a companion the reports omit. <em>Gate:</em> the desk effects; no roll if the room is searched patiently.</li>
+      <li>I22 — The Archive, 1962: two men in cassocks at a card catalogue, a red grease-pencil X across the older man's face, the folder labelled XII-SANG. Proves the case is a 1962 project with a face somebody wanted forgotten. <em>Gate:</em> it is in the drawer.</li>
+      </ul>
       <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.1xPFy0jFa4uqHScD]{TM03 — Corvi quarters arrival}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.KpUAj1DanbE4NuOW]{BM02 — Apartment and guarded corridor}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p>A patient search (Research undertaking) finds the Polybius cipher slip (I04), the
@@ -101,16 +118,24 @@
     availability: clue
     availabilityCondition: 'Requires the EC 30 boarding pass (I02) or the decoded Polybius cipher (I04).'
     description: >
-      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-bank-arrival.webp" alt="Geneva bank exterior" style="width:100%;height:auto"></p>
-      <p><strong>Architectural forensics.</strong> A neoclassical banking house on the
+      <p><strong>Read aloud.</strong> <em>Grey alpine granite, brass fittings, rain coming off the steps. Inside, the lobby runs on marble and quiet money: a night counter, three private viewing booths, and a vault somewhere below with a door three feet thick. Nobody in the building is a cultist. That is what makes it work.</em></p>
+      <p><strong>The place.</strong> A neoclassical banking house on the
       Rue du Rhône, clad in gray alpine granite. The subterranean vault features
       three-foot-thick chrome doors and private wood-paneled viewing booths where
       high-net-worth clients transact business anonymously.</p>
-      <p><strong>Dramatis personae.</strong> Jean-Paul Mercier — senior vault clerk,
-      immaculate suit, visibly anxious. He has read the transaction memos and wants very
-      much not to have.</p>
-      <p><strong>Available information.</strong> Interrogating or bribing Mercier yields
-      I06. Searching booth 4409-C records yields I07 and I08.</p>
+      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-bank-arrival.webp" alt="Geneva bank exterior" style="width:100%;height:auto"></p>
+      <p><strong>Who is here.</strong></p>
+      <ul>
+      <li><strong>Jean-Paul Mercier</strong> — wood-panelled booth, three-piece suit, ironed shirt, warm lamp, slight sweat; professionally pleasant and privately terrified. <em>Wants</em> the transaction buried and his own name out of it; <em>will not</em> admit that he erased a ledger line at the buyer's request, and threats of violence close him and trip the alarm beneath the counter. <em>Knows:</em> the account that paid, the box number, the date, and that a nun came in alone afterwards and asked for the same box. He sells the escrow carbon for money and gives up the ledger only under real pressure — and he lies once, claiming he never saw the woman.</li>
+      </ul>
+      <p><strong>What is here.</strong></p>
+      <ul>
+      <li>I06 — The Escrow Transfer Slip: CHF 500,000 from <em>Kurt Hausmann — Sonnenberg Privatklinik, Zurich</em> into an ecclesiastical escrow account in Vaduz, memo <em>Acquisition of Primary Specimen (1 of 12)</em>. <em>Gate:</em> Mercier under payment or pressure — <em>Manipulate (EMP) or Command (EMP) Difficulty 2</em>.</li>
+      <li>I23 — Night Deposit and I24 — Bank Staff Record: the lobby camera frame of the night deposit, and the record showing why the buyer chose a clerk with both vault access and a debt. <em>Gate:</em> the security office (Mercier's cooperation, a bribe, or a discreet visit arranged through Petra) and personnel records (<em>Manipulate (EMP) Difficulty 2</em> or <em>Tech (WIT) Difficulty 2</em>).</li>
+      <li>I25 — The Ledger Page: the middle entry struck through with correction fluid; beneath it <em>VANE, C.</em> at 02:10. Proves Claudia entered the vault alone and Mercier was paid to erase it. <em>Gate:</em> vault access — Mercier's cooperation, or a night visit through the Geneva corridor.</li>
+      <li>I07 — Patient File 09-H and I08 — The Swiss PTT Intercept Tape: Hausmann's clinical dossier and the wiretap of a payphone call ordering eleven vessels brought to the Lingotto works. <em>Gate:</em> the booth records; the PTT tape from the bank mail.</li>
+      <li>I26 — The 06:40 to Geneva: the long-lens platform photograph, misfiled in the bank's parcel room — a priest with the attaché, and a man in a grey raincoat at the far end of the platform. <em>Gate:</em> the unattributed surveillance prints in the parcel room, or bought from the Intermediary later.</li>
+      </ul>
       <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.WYkoHrGfng0UZ3lZ]{TM04 — Geneva bank exterior}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.w9Gp844xc19nFp0a]{TM05 — Private viewing room}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.b2nGfJTzx9PeMk09]{BM03 — Bank vault level}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p>Mercier surrenders the escrow slip under pressure or payment (I06). The booth
@@ -142,17 +167,27 @@
     availability: clue
     availabilityCondition: 'Requires the escrow transfer slip (I06) or the clinical file (I07).'
     description: >
-      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-clinic-arrival.webp" alt="Sonnenberg forest approach" style="width:100%;height:auto"></p>
-      <p><strong>Architectural forensics.</strong> A modernist clinical facility of white
+      <p><strong>Read aloud.</strong> <em>White concrete and glass between the trees, and one floor of it gone wrong: the third-storey windows taped over in black polyethylene, width-matched strips, neat — the work of somebody who knew what was coming. Inside the ward the tubes are smashed and the air is thick with bleach and something older. Nothing moves. Then something shifts in the ceiling conduit above you.</em></p>
+      <p><strong>The place.</strong> A modernist clinical facility of white
       concrete and glass in the forests of the Zurichberg. The third-floor experimental
       oncology ward is blacked out: windows are taped with heavy black polyethylene
       sheeting, and fluorescent lights are smashed. The air smells of bleach, decaying
       flesh, and fresh blood.</p>
-      <p><strong>Dramatis personae.</strong> Dr. Elizabeth Graf — traumatized
-      pathologist hiding in a surgical theater, determined to destroy her own research.
-      Kurt Hausmann — The Feral Banker, stalking the ceiling conduits above the ward.</p>
-      <p><strong>Available information.</strong> Rescuing Dr. Graf yields I07, I09, and
-      I10. Searching the laboratory freezers yields I11.</p>
+      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-clinic-arrival.webp" alt="Sonnenberg forest approach" style="width:100%;height:auto"></p>
+      <p><strong>Who is here.</strong></p>
+      <ul>
+      <li><strong>Dr. Elizabeth Graf</strong> — no sleep, glasses pushed up into her hair, a slide box held against her chest like a shield, matches she keeps moving further from the slides. <em>Wants</em> the work destroyed and her family out of the country; <em>will not</em> leave without her slides and will burn them rather than hand them over; she lies once — that she has only the slides in her hands. <em>Knows:</em> the batch numbers, the sponsor account, the six-shift window, and the composition of the quiescence kit on her bench. She is the only NPC who will say the word <em>cure</em> before the Lingotto, and only if the histopathology is already on the table.</li>
+      <li><strong>Kurt Hausmann</strong> — an expensive suit that no longer fits, in a room with the lights killed, still lucid, radiant and wrong. He has not slept since the injection and does not leave the ward. <em>Wants</em> to understand what was done to him and will talk about it freely; <em>will not</em> admit what he has begun to want at night — press him and he answers with perfect courtesy and moves to the far side of the room. <em>Knows:</em> that a Church account arranged the injection, that the man who paid brought the case himself and would not open it.</li>
+      <li><strong>The night staff</strong> — a duty nurse, a porter, a records clerk. Ordinary people on a shift. <em>Know</em> who is on three, who signs for deliveries, and that Graf has been sleeping in her office; they volunteer all of it for a polite question. Lean on them and they call the day manager, and the cell loses a shift of access.</li>
+      </ul>
+      <p><strong>What is here.</strong></p>
+      <ul>
+      <li>I27 — Intake Photograph, 09-H: a gaunt elderly man with an identification board and a gold wristwatch still on his wrist. Pair it with F05 — the horror is the pairing, never the picture alone. <em>Gate:</em> the ward wall (free) or the records room (<em>Tech (WIT) Difficulty 2</em>).</li>
+      <li>I09 — Histopathology Log: Marrow Graft, I28 — Photophobia Test 02:40, I12 — Palimpsest Leaf: the medical and documentary proof. Filaments in no known tissue, annotated <em>foreign graft — not infection</em>; burns outlining a strip light's footprint; Corvi's own margin line, <em>sanguis remedium, non sacramentum</em>. <em>Gate:</em> Graf's cooperation — hold I12 until the table has seen I09.</li>
+      <li>I29 — The Injection Log and I30 — Ward 3, Corridor Camera: the sponsor's Vaduz trust account, and the ceiling silhouette at the top of the frame with the spill trail stopping under a service duct at 02:40. Proves a real institution paid, and that the thing on the third floor is not human violence. <em>Gate:</em> first aid and light discipline for Graf; <em>Tech (WIT) Difficulty 2</em> or the night porter's keys for the tape.</li>
+      <li>I10 — The Vector Mechanics (CT1) and I11 — The Resonance Field (CT2): the six-shift conversion window, and blood bags spoiled by proximity. <em>Gate:</em> the lab material, 1 shift; the freezer chart is <em>Tech (WIT) Difficulty 2</em> but the card is theirs by Day 4 either way.</li>
+      <li>I31 — Sonnenberg, Observed and I32 — Daylight Test: Combustion: the perimeter photographs of both factions watching the clinic, and white ash in the fume hood identical to the fingers that end the case. <em>Gate:</em> the night shift, 1 shift; the pathology lab, 1 shift, no roll.</li>
+      </ul>
       <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.kr4nu0sVNfrcGAJq]{TM06 — Sonnenberg forest approach}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.1HRljmcL11d0CPLS]{TM07 — Blacked-out third-floor ward}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jP9jheucndZOEHLE]{TM08 — Surgical theatre refuge}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jpOPWYTG4Yqt6hk4]{BM04 — Ward, theatre and lab}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p>Calming Graf (first aid, light discipline, or psychiatric intervention) secures
@@ -186,18 +221,26 @@
     availability: clue
     availabilityCondition: 'Requires the wiretap tape (I08).'
     description: >
-      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-factory-arrival.webp" alt="Lingotto assembly hall" style="width:100%;height:auto"></p>
-      <p><strong>Architectural forensics.</strong> Giacomo Mattè-Trucco's industrial
+      <p><strong>Read aloud.</strong> <em>Four hundred metres of concrete and iron and broken glass, rain coming through the skylights in ropes. The assembly lines are dead and the spiral ramp curves away into the dark. High up on the far side, one glass box is lit. Inside it a man in a priest's coat has been praying out loud for two days and has stopped being sure anyone is listening.</em></p>
+      <p><strong>The place.</strong> Giacomo Mattè-Trucco's industrial
       plant, stretching a third of a mile with concrete spiral ramps and a rooftop test
       track. Rain cascades through broken skylights into abandoned assembly halls.
       Monsignor Corvi has barricaded himself in an overhead glass supervisor's booth
       fifty feet above the factory floor, holding the steel attaché case.</p>
-      <p><strong>Dramatis personae.</strong> Monsignor Matteo Corvi — exhausted,
-      feverish, at the end of his flight. Sister Claudia Vane — to Corvi's back,
-      diplomatically, exactly where she wants to be.</p>
-      <p><strong>Available information.</strong> Peaceful negotiation with Corvi yields
-      I10, I11, and I12. Securing the attaché grants physical possession of the primary
-      relic.</p>
+      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-factory-arrival.webp" alt="Lingotto assembly hall" style="width:100%;height:auto"></p>
+      <p><strong>Who is here.</strong></p>
+      <ul>
+      <li><strong>Monsignor Matteo Corvi</strong> — unshaven, three days in the same coat, feverish from sleeping beside the case, praying in Latin. <em>Wants</em> to be found by the right people and to explain himself to somebody who will understand the theology; <em>will not</em> be moved by authority alone — anything that sounds like the Holy Alliance and he destroys his notebook and runs deeper into the works. <em>Knows:</em> the Ebionite fragments, the translation, what the twelve phials are, and why the Church built a prison rather than a reliquary. Every fact this case calls the paradigm inversion comes out of his mouth if the cell sounds like custodians rather than enforcers.</li>
+      <li><strong>Sister Claudia Vane</strong> — at Corvi's back, diplomatic, precisely where she wants to be, arguing hard for moving on tonight. <em>Wants</em> the case in her hands and the cell used up getting it there; <em>will not</em> touch the case in front of witnesses, be separated from it, or fight to win — only to escape with it. <em>Knows:</em> her own orders and the Talamasca's position, and sincerely believes the phials hold a plague. She never says her handler's name — and if the cell mentions Amsterdam in front of Corvi she interrupts, compliments the research and changes the subject. That is the most visible thing she does all case.</li>
+      <li><strong>The Turin Intermediary</strong> — a heavy-set broker in a good coat with a cigar, never facing a camera. <em>Wants</em> money and a train out; <em>will not</em> be moved by threats. <em>Knows:</em> who is buying, roughly how many, what they arrived on, and that they asked for the phials rather than the case. He does not know they are not human and does not care.</li>
+      </ul>
+      <p><strong>What is here.</strong></p>
+      <ul>
+      <li>I30/I34-type vault material, I10 and I11 if missed in Zurich: the vector mechanics and the resonance records. <em>Gate:</em> the Day 5 and Day 4 packets, or Corvi's own papers.</li>
+      <li>I34 — Assembly Hall, Camera 6: the case's deadbolt taped over — a field repair on a cracked latch — and Corvi casting no shadow in the puddles. <em>Gate:</em> the control room, 1 shift.</li>
+      <li>I37 — The Empty Needle: a split rosary bead with a clean deliberate cut and ochre fibres inside. The best early-warning prop in the case — a cell that finds it here can pre-empt the betrayal entirely. <em>Gate:</em> searching Claudia's kit while it is unattended — <em>Sneak (AGI) Difficulty 2</em>; she notices a clumsy attempt and repacks it out of reach.</li>
+      <li>I12 — Palimpsest Leaf, Codex, I33 — Lingotto, Rooftop, Rain, I35 — Breve Apostolicum, 1582 and I36 — Suppressed Index Card: Corvi's translation, the frame the cell can take themselves from the test track, and the two Roman documents if they were missed. <em>Gate:</em> Corvi's surrender, a camera and a vantage point, and the Day 5 packet respectively.</li>
+      </ul>
       <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.n61lTAaEdGfuCmPZ]{TM09 — Lingotto assembly hall}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.eu4Vy9WBx8iGce1d]{TM10 — Lingotto rooftop in rain}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jqBp0bbZpuYJAVE1]{BM05 — Assembly floor}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.gAxI1cJhYftPzFGK]{BM06 — Supervisor booth and catwalk}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p>Corvi talks: the vector mechanics (I10), the resonance field (I11), and his own
@@ -232,16 +275,27 @@
     availability: clue
     availabilityCondition: 'Requires tracking Claudia — toll stubs, teleprinter logs, or Corvi''s papers.'
     description: >
-      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-abbey-arrival.webp" alt="Breached abbey approach" style="width:100%;height:auto"></p>
-      <p><strong>Architectural forensics.</strong> An eleventh-century fortified brick
+      <p><strong>Read aloud.</strong> <em>Lantern light on a long table, and on the table, laid out with the care of someone who has set a table before, is the woman who has been standing at your side since Rome. Nothing has been taken from her except time. The room smells of kerosene and the only sound in the abbey is the wind going through a gate that has been torn out of the wall from the outside.</em></p>
+      <p><strong>The place.</strong> An eleventh-century fortified brick
       abbey along the Sesia river plains near Novara. The perimeter features defensive
       moats and brick walls. The heavy oak carriage doors have been broken inward, their
       iron hinges torn from the masonry. A single kerosene lantern illuminates the
       stone-flagged dining hall.</p>
-      <p><strong>Dramatis personae.</strong> Sister Claudia Vane — corpse, pinned to the
-      dining table. Her killers are already airborne.</p>
-      <p><strong>Available information.</strong> Autopsy of Claudia yields I13. Searching
-      her satchel yields I14. Checking the telegraph desk yields I15.</p>
+      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-abbey-arrival.webp" alt="Breached abbey approach" style="width:100%;height:auto"></p>
+      <p><strong>Who is here.</strong></p>
+      <ul>
+      <li><strong>Sister Claudia Vane, dead on the table.</strong> Two severed metacarpals reduced to white calcified ash, one still showing a legible whorl ridge; an unused second wine glass at the head of the table. She was waiting for somebody who was not the pack. The players get to decide what she is buried as — Talamasca operative, Covenant liaison, or a woman whose handwriting never trembled. Give them the argument without commentary.</li>
+      <li><strong>The local priest</strong> — frightened, cooperative, useless as a fighter, on the road with his bicycle and three parishioners who never blink. <em>Knows:</em> the pack's arrival hour by hour — the vehicles, the language, the fact that they came in through the gate rather than over it. He volunteers all of it to anyone who treats him as a person rather than a source.</li>
+      <li><strong>Nobody else living.</strong> The breach came from the pack's side of the wall, hours ago, and no one has come out — including the abbey's own people, whose lamps went out one at a time.</li>
+      </ul>
+      <p><strong>What is here.</strong></p>
+      <ul>
+      <li>I13 — The Novara Slaughter: the autopsy, with the calcified fingers, the broken phial soaked into the tiles, and the second glass. Proves the cure destroys a vampire on contact. <em>Gate:</em> 1 shift of forensic work, <em>Investigate (WIT) or Heal Physical (WIT) Difficulty 2</em>; the card lands on Day 2 either way.</li>
+      <li>I40 — Her Effects, Laid Out and I14 — Telex Dispatch: Registry 16: her order, her route, the grey animal hair on the Beretta's trigger guard, and the order to fly the specimen out. <em>Gate:</em> 1 shift with the satchel; the telex from the satchel or the telegraph desk, free.</li>
+      <li>I15 — Flight Clearance: YR-BAS: Basarab Holdings S.A. (Bucharest), departure 01:15, with a cancelled form beneath it proving the flight waited. <em>Gate:</em> the telegraph desk, free.</li>
+      <li>I38 — Two Fingers, Calcified and I39 — Tarmac, 01:15: the pack's own casualty — bone aged a century in seconds, a melted ring carrying the Basarab dragon crest — and the one photograph that ends the mission. <em>Gate:</em> 1 shift of full forensic work; be at the fence with a camera for the tarmac, and taking the photograph spends the window.</li>
+      <li>I44 — Consignment Markings and I45 — Airfield Briefing Sheet: the chalk tally reading 10/12, a ghosted <em>VATICAN MUSEUMS — STOREROOM 9</em> under the fresh stencil, and a crossed-out decoy aircraft. <em>Gate:</em> the service hangar and the dispatch desk, free; the Wayfinder packet delivers I45 on Day 1 if the cell never gets there.</li>
+      </ul>
       <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.EzLXgHrD8SOahA0Z]{TM11 — Breached abbey approach}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.URoAcs3MRSAqrakE]{TM12 — Abbey dining hall threshold}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.5UwVLTp8ofRAjQ9W]{BM07 — Abbey gate and courtyard}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.9wHAIjutxJqKmHqB]{BM08 — Abbey dining hall and cloister}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p>Full forensics: the slaughter scene (I13), the Registry 16 telex (I14), and the
@@ -273,16 +327,22 @@
     availability: contact
     availabilityCondition: 'Requires confronting Cardinal Sabbatini with evidence from L6 (corpse, telex, flight manifest).'
     description: >
-      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-council.webp" alt="Council chamber" style="width:100%;height:auto"></p>
-      <p><strong>Architectural forensics.</strong> The headquarters of the Inquisition,
+      <p><strong>Read aloud.</strong> <em>Green carpet, benches, busts, and the particular quiet of a waiting room outside a Prefect's door. Beyond it the Council Chamber: an oval table, Renaissance frescoes of heresy defeated, walnut panelling, and banker's lamps over dossiers. There is a file on the desk that is not yours and is further along than yours.</em></p>
+      <p><strong>The place.</strong> The headquarters of the Inquisition,
       situated outside the southern colonnade of St. Peter's. The Council Chamber features
       Renaissance ceiling frescoes depicting the defeat of heresy, walnut paneling, and
       green banker lamps illuminating classified dossiers.</p>
-      <p><strong>Dramatis personae.</strong> Cardinal Enrico Sabbatini — Prefect, and no
-      longer pretending otherwise. Father Ghiberti — summoned, terrified, useful.</p>
-      <p><strong>Available information.</strong> Confronting Sabbatini with Claudia's
-      corpse, the telex, and the flight manifest unlocks the containment protocols (I16).
-      Searching Claudia's convent room yields I17.</p>
+      <p><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-council.webp" alt="Council chamber" style="width:100%;height:auto"></p>
+      <p><strong>Who is here.</strong></p>
+      <ul>
+      <li><strong>Cardinal Enrico Sabbatini</strong> — a statesman in his own building, at his desk, no longer pretending otherwise. <em>Wants</em> the phials back, the story suppressed, and the cure retained as an institutional deterrent; treats the Covenant as a tool to be hired and discarded. <em>Will not</em> apologise, admit the Church banked the sale, or discuss the 1582 order in front of a witness. <em>Knows:</em> everything the cell has just learned and more, including that his own file on the Talamasca is further along than theirs. His register is imperious and hostile — <em>Difficulty 4</em> — and drops to cynical cooperation the moment indisputable forensic proof lands on the table.</li>
+      <li><strong>Father Ghiberti</strong> — summoned, terrified, useful. <em>Wants</em> to have written the curatorial failure down before anybody else does; <em>will not</em> contradict his Prefect in the room. <em>Knows:</em> the container's provenance and the 1962 file, which is what makes him worth protecting.</li>
+      </ul>
+      <p><strong>What is here.</strong></p>
+      <ul>
+      <li>I16 — The Quiescence Formula (CT3) and I41 — The Green Lamp: the containment recipe, and the surveillance frame of the Council Chamber with the dossier stamped REGISTRY 16 — AMSTERDAM. Proves Rome has been reading the same file all along, and that the sanitization squad is already in the antechamber. <em>Gate:</em> confronting Sabbatini with the corpse, the telex and the manifest; the HQ packet for I41.</li>
+      <li>I17 — Dispatch Box, Microfiche and I42 — L'Entità Team, 1987: the Prefect's own argument, and the squad photograph — SCV 47 at the kerb, an issue Vatican gendarme wristwatch, a phosphorus canister on the third man's belt. <em>Gate:</em> the despatch box in the chamber; the Day 1 packet or recovered prints for I42.</li>
+      </ul>
       <section class="sangreal-scene-links"><h3>Scene backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.c2expM3HLZD9xsBD]{TM14 — Council chamber}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.72tNLODObuOLLVyV]{TM15 — Claudia convent room}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.ODBMpIkV30orwoGM]{BM10 — Council chamber and antechamber}</li></ul><p>GM: import the scene, then view or activate it when appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
     positiveResult: >
       <p><strong>Operational Resolution.</strong> Sabbatini admits the Church's historic
@@ -348,6 +408,23 @@
       <p>Unconditional recovery of the Twelve Phials, total public suppression of the
       breach, and retention of the cure as an institutional deterrent. The Covenant is a
       tool to be hired, manipulated, and discarded if it uncovers the truth.</p>
+      <h3>Behaviour toward the cell</h3>
+      <p>Politely invisible until the cell becomes a liability. L'Entità does not obstruct an
+      investigation it commissioned — it shadows it, files on it, and removes evidence it considers
+      institutional. The cell's contact is clerical, courteous and always a rank above them. The moment
+      the cell looks like it might learn what the cure is, the register changes from support to
+      containment, and the squad in the antechamber is the last stage of that curve.</p>
+      <h3>What gives them away</h3>
+      <p>Vatican plates where there should be none (SCV 47), a gendarme wristwatch on a plainclothes
+      operative, sanitation crews that arrive before the police, and paperwork that predates the
+      incident. A cell that photographs vehicles and keeps gate logs can see the pattern two days
+      before it is aimed at them.</p>
+      <h3>What they know</h3>
+      <p>That Vault IX held a biological deterrent rather than a relic; that the deterrent was banked
+      and brokered through an ecclesiastical escrow in Vaduz; and that Sabbatini's own dossier on
+      Registry 16 is further along than the cell's. They do <em>not</em> know that Claudia is the
+      Talamasca's until very late — and admitting it is the single most expensive sentence Sabbatini
+      can be made to say.</p>
     npcUuids: []
     locationUuids: []
 
@@ -397,5 +474,23 @@
       <p>Interception of the Twelve Phials via double agent, extraction to Eastern Europe,
       and permanent industrial incineration of the cure. Protect the bloodline — at any
       cost to mortal lives.</p>
+      <h3>Behaviour toward the cell</h3>
+      <p>Helpful, warm, and entirely transactional. Registry 16's mortal field officers genuinely
+      believe the Order is a scholarly body, so the cell meets courteous researchers offering leads
+      they cannot use and asking questions that map the Covenant's route. Claudia is the only asset in
+      the field, and she is run as an ally: she shares the Church's paperwork, argues for speed,
+      and only breaks cover at the Lingotto when the case is isolated.</p>
+      <h3>What gives them away</h3>
+      <p>The stillness — never surprised, only delayed; answers about Church procedure that arrive
+      instantly and answers about the theft that arrive half a beat late. Beyond that: a witness no
+      report mentions (a nun's veil in the corridor frame), a ledger line erased with correction
+      fluid, an embossed stamp on a map casing, and a telex order perforated by an Amsterdam machine.
+      A cell that keeps every document it touches can read the whole conspiracy off paper alone.</p>
+      <h3>What they know</h3>
+      <p>That the cure burns their bloodlines to ash on contact — the pack has already paid two fingers
+      for the proof. That the Covenant is being used as muscle. That Amsterdam is reading every packet
+      the Covenant sends, and that the rendezvous at San Nazzaro is a trap the cell has been walking
+      toward since Geneva. They do not know that the cell has the histopathology, and if they did,
+      Claudia would kill the cell's case rather than abandon it.</p>
     npcUuids: []
     locationUuids: []

@@ -12,70 +12,93 @@
       text:
         content: |
           <h2>Mission: Sangreal</h2>
-          <p><strong>Operation File SANGREAL-87-091 — Region 04 (Western Europe / Italian-Swiss Corridor)</strong></p>
-          <p>A stolen Vatican attaché case. Twelve phials of arterial blood that should not exist. Seven operational nodes across Rome, Geneva, Zurich, Turin, and Novara — and two institutions that want the contents for opposite reasons.</p>
-          <p><strong>This module contains:</strong></p>
-          <ul>
-            <li>Case Briefs: the DA master reference (VC-17) and the player dossier (VC-18).</li>
-            <li>Cast &amp; Antagonists: ten NPC stat blocks plus a mob profile.</li>
-            <li>Information Cards: seventeen clues, evidence items, and containment truths.</li>
-            <li>Locations &amp; Factions: seven node locations and two organization countdown tracks.</li>
-            <li>Relics &amp; Equipment: three relics (artifact profiles + VC-16 sheets) and four mission kit items.</li>
-            <li>Relic Tables: the phial fracture table (d6).</li>
-            <li>Mission Journals: this orientation, the player handouts, and the Mission 2 bridge.</li>
-          </ul>
-          <p><strong>⚠ DA eyes only.</strong> This journal, the DA brief, the VC-16 relic sheets, and the organization items contain spoilers for both twists. Do not share them with players.</p>
+          <p><strong>Operation File SANGREAL-87-091 — Region 04 (Western Europe / Italian–Swiss Corridor)</strong></p>
+          <p>A stolen Vatican attaché case. Twelve phials of arterial blood that should not exist. Seven operational nodes across Rome, Geneva, Zurich, Turin and Novara — and two institutions that want the contents for opposite reasons.</p>
+          <p><strong>Read this first.</strong> The <em>DA Walkthrough</em> journal opens with <strong>The Case — DA Background</strong>: the whole truth of the mission in one place — what the blood really is, who wants what, the four facts the players must assemble, the fixed dates, and the five habits the rest of the material assumes. Read that page once before Day 14, then run act by act from the walkthrough and never open the background page at the table.</p>
+          <p><strong>⚠ DA eyes only.</strong> This journal, the DA Case Brief, the DA Walkthrough, the VC-16 relic sheets, the organization items and the cast actor sheets contain spoilers for both twists. Every DA-only pack is locked to the GM. Do not share them with players.</p>
+          <h3>What ships in the module</h3>
+          <table>
+          <thead><tr><th>Layer</th><th>Contents</th></tr></thead>
+          <tbody>
+          <tr><td>Case Briefs</td><td>DA Case Brief (VC-17) — the master reference; Player Dossier (VC-18); the 14-day Case Board; the Information Web</td></tr>
+          <tr><td>Information Cards</td><td><strong>77 cards in three families:</strong> I01–I45 clues, evidence and containment truths; N01–N16 cast dossiers; F01–F16 photographic evidence. Filed in their own world folders, with the 14 plain NPC Portraits in a pack of their own</td></tr>
+          <tr><td>Investigator Photos</td><td>C01–C24 optional snapshots the players may take themselves — 16 mundane photographs and 8 visible observations</td></tr>
+          <tr><td>Sites</td><td>Seven location dossiers (L1–L7) and two faction dossiers (O1–O2), each with read-aloud text, a who-is-here block and its own escalation notes</td></tr>
+          <tr><td>Cast</td><td>15 actor sheets plus one mob — each with an <em>At the table</em> block: look, wants, will not, and what they know</td></tr>
+          <tr><td>Relics</td><td>The attaché, the Lodestone of St. Jude, the Veil of Veronica's Thread — with VC-16 containment sheets — plus field kit</td></tr>
+          <tr><td>Scenes</td><td>27 backgrounds: the landing page, 16 theater-of-the-mind views, 10 gridless battle maps</td></tr>
+          <tr><td>Sound</td><td>A 25-track playlist of ambience beds, props and stings, cued beat by beat in the walkthrough</td></tr>
+          <tr><td>Journals</td><td>This orientation, the player handouts, the Mission 2 bridge, and the <strong>DA Walkthrough</strong> — 14 pages, one act at a time</td></tr>
+          </tbody>
+          </table>
     - name: 'How to Run'
       type: text
       text:
         content: |
           <h2>How to Run</h2>
+          <p><strong>This is a script, not a story, and the DA is never the last to know.</strong> The truth of the case is written down in full on the <em>The Case — DA Background</em> page at the head of the DA Walkthrough. Read it once. After that you will always know what is really going on while the players work out a fraction of it — and you will never have to protect a riddle from the table.</p>
+          <h3>Five habits this case assumes</h3>
+          <ul>
+          <li><strong>Say the plain thing.</strong> If the cell asks a question any competent investigator would ask, answer it with the fact. The gates buy <em>detail</em>, not the existence of a clue.</li>
+          <li><strong>Describe, then stop.</strong> Each act carries one read-aloud passage written to be spoken verbatim; everything else is yours to paraphrase, and silence is a tool.</li>
+          <li><strong>Play the NPCs as people with jobs.</strong> Mercier is a clerk with a debt, Gerard is a sergeant on a stool, Graf is a pathologist with a mortgage. The mundane register is what makes the pack frightening when it finally arrives.</li>
+          <li><strong>Reward cleverness before complicating it.</strong> When the players do something smart, let it work, then make the consequences interesting.</li>
+          <li><strong>Protect the twist, and only the twist.</strong> Never let an NPC say the word <em>cure</em> before the parley at the Lingotto.</li>
+          </ul>
           <h3>The clock</h3>
-          <p>Fourteen days, four shifts each (Morning, Day, Evening, Night) — fifty-six shifts from opening to catastrophe. The board counts down: Day 14 starts the case, Day 1 is the terminal window. Relic milestones fire when the last quadrant of their keyed day is filled; the full schedule lives in the DA Case Brief.</p>
+          <p>Fourteen days, four shifts each (Morning, Day, Evening, Night) — fifty-six shifts from opening to catastrophe. The board counts down: Day 14 starts the case, Day 1 is the terminal window. Relic milestones fire when the last quadrant of their keyed day is filled; the full schedule is in the DA Case Brief, and each act page repeats its own milestones under <em>While the cell works</em>.</p>
           <h3>The two-stage twist</h3>
           <ol>
-            <li><strong>False Revelation (Zurich):</strong> Hausmann is a walking hunger. Let the players conclude that communion was an unholy feast and Christ was the First Vampire.</li>
-            <li><strong>Paradigm Inversion (Turin / Novara):</strong> the histopathology (I09), the Ebionite palimpsest (I12), and the ash-crumbled fingers at Novara prove the blood is a cure — and its hunters are the ones afraid of it.</li>
+          <li><strong>False Revelation (Zurich):</strong> Hausmann is a walking hunger. Let the players conclude that communion was an unholy feast and Christ was the First Vampire. Nothing in the clinic contradicts them, and nothing should.</li>
+          <li><strong>Paradigm Inversion (Turin / Novara):</strong> the histopathology (I09), the palimpsest leaf (I12) and the ash-crumpled fingers at Novara prove the blood is a cure — and that its hunters are the ones afraid of it. Hold the palimpsest until the histopathology has landed.</li>
           </ol>
           <h3>Faction tracks</h3>
-          <p>O1 (Holy Alliance, 10 squares) and O2 (Talamasca, 12 squares) both advance on triggers listed in their organization items. Their milestone text explains what changes in the world; advance them openly, describe them atmospherically.</p>
-          <h3>Pacing</h3>
-          <p>Every Information Card carries a headquarters fallback day. When the cell stalls, a Covenant packet delivers the fallback at the listed day. The case should reach Zurich by Day 8–6 and Turin by Day 5–4 if the pressure is working.</p>
+          <p>O1 (Holy Alliance, 10 squares) and O2 (Talamasca, 12 squares) advance on the triggers listed on their organization items. Their milestone text says what changes in the world; advance them openly and describe them atmospherically — never as numbers.</p>
+          <h3>Pacing and fallbacks</h3>
+          <p>Every Information Card carries a headquarters fallback day. When the cell stalls, a Covenant packet delivers the card at that day. The case should reach Zurich by Day 8–6 and Turin by Day 5–4 if the pressure is working. A cell that arrives late pays in shifts and position, never in a missing clue.</p>
           <h3>Optional photographs</h3>
-          <p>The case also ships twenty-four optional investigator snapshots — ordinary photographs and visible observations the players may take themselves. The walkthrough marks them with <strong>If the investigators take photographs:</strong> cues at the beats where the subject is reachable; none of them is required, and none adds a clue. The full list, with its mundane/observation classification, is the <em>Investigator Photos — GM Index</em> page at the end of this walkthrough.</p>
+          <p>The case also ships twenty-four optional investigator snapshots — ordinary photographs and visible observations the players may take themselves. The walkthrough marks them where the subject is reachable; none is required and none adds a clue. The classified list is the <em>Investigator Photos — GM Index</em> page at the back of the walkthrough.</p>
     - name: 'Compendium Map'
       type: text
       text:
         content: |
           <h2>Compendium Map</h2>
+          <p>Eleven packs, 187 documents. Running the Content Installer files the cards into tidy world folders automatically — a single pack can present as several folders.</p>
           <table>
-            <tr><th>Pack</th><th>Contents</th><th>Recommended import order</th></tr>
-            <tr><td>Case Briefs</td><td>DA Case Brief, Player Case Brief</td><td>1</td></tr>
-            <tr><td>Locations &amp; Factions</td><td>L1–L7, O1–O2</td><td>2</td></tr>
-            <tr><td>Cast &amp; Antagonists</td><td>NPCs, mobs</td><td>3</td></tr>
-            <tr><td>Information Cards</td><td>I01–I17</td><td>4</td></tr>
-            <tr><td>Relics &amp; Equipment</td><td>Artifacts, VC-16 sheets, kit</td><td>5</td></tr>
-            <tr><td>Relic Tables</td><td>Phial fracture (d6)</td><td>6</td></tr>
-            <tr><td>Mission Scenes</td><td>Landing, 16 atmosphere scenes, 10 maps</td><td>8</td></tr>
-          <tr><td>Mission Journals</td><td>Start Here, Handouts, Mission 2 bridge</td><td>7</td></tr>
+          <thead><tr><th>Web folder</th><th>Source pack</th><th>Contents</th></tr></thead>
+          <tbody>
+          <tr><td>Briefs &amp; Board</td><td>Case Briefs</td><td>DA Case Brief (VC-17), Player Dossier (VC-18), Case Board, Information Web</td></tr>
+          <tr><td>Clues</td><td>Information Cards</td><td><strong>I01–I45</strong> — evidence, documents and containment truths</td></tr>
+          <tr><td>Cast Cards</td><td>Information Cards</td><td><strong>N01–N16</strong> — the player-showable NPC dossiers</td></tr>
+          <tr><td>Photographic Evidence</td><td>Information Cards</td><td><strong>F01–F16</strong> — the photographs themselves, with their tells and pairings</td></tr>
+          <tr><td>NPC Portraits</td><td>NPC Portraits</td><td>14 plain introduction portraits</td></tr>
+          <tr><td>Investigator Photos</td><td>Investigator Photos</td><td><strong>C01–C24</strong> — the optional snapshots the players take</td></tr>
+          <tr><td>NPCs</td><td>Cast &amp; Antagonists</td><td>15 actor sheets plus the feral ghoul mob</td></tr>
+          <tr><td>Sites</td><td>Locations &amp; Factions</td><td>L1–L7 and O1–O2</td></tr>
+          <tr><td>Relics</td><td>Relics &amp; Equipment</td><td>Artifacts, VC-16 relic sheets, mission kit</td></tr>
+          <tr><td>Sound Effects</td><td>Sound Effects</td><td>The 25-track Sangreal Sound Effects playlist</td></tr>
+          <tr><td>Tables / Journals / Scenes</td><td>Relic Tables, Mission Journals, Mission Scenes</td><td>The fracture table, four journals, and 27 scenes (landing page, 16 atmosphere views, 10 tactical maps)</td></tr>
+          </tbody>
           </table>
-          <p>Items link to each other through the drop-zones on their sheets (NPCs to organizations and locations, info cards to locations). Pre-linked UUIDs ship in a later polish pass; drag-drop works immediately.</p>
+          <p><strong>Card codes are for your eyes.</strong> Players see a card and its name — never a code, and never a filename. Codes are zero-padded so folders sort in the order the case is meant to be found (<em>I01, I02, I03…</em>, not <em>I1, I10, I2</em>).</p>
+          <p>Documents are cross-linked: cards link to the location they are found at and the NPC they belong to, NPCs link to their organizations and locations, and both the Information Web and the walkthrough's own links resolve to the world copies after import.</p>
     - name: 'Setup Checklist'
       type: text
       text:
         content: |
           <h2>Setup Checklist</h2>
           <ul>
-            <li>Run the module Content Installer to import/update all eleven packs — clues, cast cards and photographic evidence land in their own folders — including the 27 scenes. See Scene Art — GM Index.</li>
-            <li>Set the case clock to Day 14, Shift 1 — Morning.</li>
-            <li>Start the cell at L1 (Vault IX) with Sister Claudia Vane attached; both L1 and L2 are open starting nodes.</li>
-            <li>Corvi is already in Geneva with the attaché; I02/I04 unlock L3 when earned.</li>
-            <li>Keep the fracture table open in a chat tab — any Gear Die 1 while handling the case earns a roll.</li>
-            <li>Track O1/O2 countdowns on the organization items (or on paper) as the DA brief milestones fire.</li>
-            <li>Between sessions: no resets needed; the clock persists. After the case, reset per-case-file talents via the system's session tools.</li>
+          <li>Run the module <strong>Content Installer</strong> to import or update all eleven packs — clues, cast cards, photographic evidence, portraits and investigator snapshots land in their own folders, along with the 27 scenes and the sound playlist. Then open the <strong>Compendium Map</strong> page to see where everything landed.</li>
+          <li>Read <strong>The Case — DA Background</strong> once (first page of the DA Walkthrough), then read only the act you are about to run. Each act is written to be run cold.</li>
+          <li>Set the case clock to <strong>Day 14, Shift 1 — Morning</strong>, and open the case board with the room.</li>
+          <li>Start the cell at <strong>L1 (Vault IX)</strong> with Sister Claudia Vane attached; both L1 and L2 are open starting nodes.</li>
+          <li>Corvi is already in Geneva with the attaché; I02/I04 unlock L3 when earned.</li>
+          <li>Keep the fracture table open in a chat tab — any Gear Die 1 while handling the case earns a roll.</li>
+          <li>Track the O1/O2 countdowns on the organization items or on paper as the DA brief milestones fire.</li>
+          <li>Keep the two fixed facts straight from the first session: the theft had <strong>two</strong> people in it, and the escort was never the Church's. Every later contradiction resolves against those two sentences.</li>
+          <li>Between sessions: no resets needed, the clock persists. After the case, reset per-case-file talents with the system's session tools.</li>
           </ul>
           <p><em>Mission 2: Recover the Sangreal begins at the Novara-Cameri tarmac. See the bridge journal.</em></p>
-
     - name: 'Scene Art — GM Index'
       type: text
       text:
