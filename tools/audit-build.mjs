@@ -47,7 +47,7 @@ const EXPECTED_CHILDREN = {
   'sangreal-scenes': { prefix: '!scenes.levels!', count: 27 },
   'sangreal-sfx': { prefix: '!playlists.sounds!', count: 25 },
   'sangreal-tables': { prefix: '!tables.results!', count: 4 },
-  'sangreal-journals': { prefix: '!journal.pages!', count: 29 },
+  'sangreal-journals': { prefix: '!journal.pages!', count: 30 },
 };
 
 /** Cross-reference UUID array fields produced from authoring slug fields. */
