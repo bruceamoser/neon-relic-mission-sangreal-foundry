@@ -33,7 +33,7 @@
       <p><strong>What is here.</strong></p>
       <ul>
       <li>I01 — The Burnt Electromagnet Relay: sulfurous residue baked into slag, scorching on the underside of the plinth. Proves the vault was coaxed open from below, not forced. <em>Gate:</em> none — it is lying on the altar.</li>
-      <li>I19 — Plinth Detail, Brass Plate: the plaque and a case-shaped scratch outline in the granite. Proves the case was seated and removed many times. <em>Gate:</em> <em>Investigate (WIT) Difficulty 1</em> to notice the outline.</li>
+      <li>I19 — Plinth Detail, Brass Plate: the plaque and a case-shaped scratch outline in the granite. Proves the case was seated and removed many times. <em>Gate:</em> <em>Investigate (WIT) Difficulty 1</em> to notice the outline. The word on the plate reads as <em>San Greal</em> to anyone who sees it — the Grail — and the room is arranged to encourage that reading. Play every refusal to describe the contents straight, without irony.</li>
       <li>I02 — CCTV Reel #87-04 and I18 — Second Descent: the corridor reel and the log of the 04:02 descent. Held in the gate house, not the vault. <em>Gate:</em> the duty officer's cooperation (see L1's own gate in the walkthrough); the Day 12 HQ packet delivers both if the cell stalls.</li>
       <li>I03 — The Excised Codex Register and I43 — The Case, 1964: the pulled register card and the workshop photograph, with the pinned order <em>XII phials — Gethsemane lot — destroyed if opened</em>. <em>Gate:</em> Ghiberti's help with the archival index, 1 shift; free once the cell shows him the vault evidence.</li>
       <li>I05 — Embossed Stamp, Map Casing: three cities ringed in pencil — Geneva, Zurich, Turin — before the cell had a case file. <em>Gate:</em> must be earned in play; there is no HQ fallback.</li>
@@ -405,9 +405,7 @@
       to sanitize the operation.</li>
       </ul>
       <h3>Strategic Goal</h3>
-      <p>Unconditional recovery of the Twelve Phials, total public suppression of the
-      breach, and retention of the cure as an institutional deterrent. The Covenant is a
-      tool to be hired, manipulated, and discarded if it uncovers the truth.</p>
+      <p>Unconditional recovery of the Twelve Phials, total public suppression of the breach, and retention of the cure as an institutional deterrent. <strong>Behind that:</strong> an undiluted bloodline restored would end the accommodation that has kept the peace for two centuries — the Church cannot exterminate the dynasties, and the dynasties can no longer renew themselves except through this fluid. Sabbatini holds the phials not to use them but to make sure nobody else does, and he is right about what they would do in the wrong hands. The Covenant is a tool to be hired, manipulated, and discarded if it uncovers the truth.</p>
       <h3>Behaviour toward the cell</h3>
       <p>Politely invisible until the cell becomes a liability. L'Entità does not obstruct an
       investigation it commissioned — it shadows it, files on it, and removes evidence it considers
@@ -471,9 +469,7 @@
       turned against their bloodlines, and takes the case to the airstrip.</li>
       </ul>
       <h3>Strategic Goal</h3>
-      <p>Interception of the Twelve Phials via double agent, extraction to Eastern Europe,
-      and permanent industrial incineration of the cure. Protect the bloodline — at any
-      cost to mortal lives.</p>
+      <p>Interception of the Twelve Phials via double agent, extraction to Eastern Europe, and permanent industrial incineration of the cure. <strong>Behind that:</strong> Registry 16's hidden elders are ancient vampire bloodlines, and they have known since 1582 what this fluid does to their tissue. Their fear is not of a weapon but of a medicine — the Church using the cure to unmake them, which is exactly what the histopathology proves the fluid can do. They also know that pure blood restores what four centuries of dilution has cost them, which is why the order is <em>incinerate</em> and not <em>keep</em>: the dynasties are not of one mind, and the elders would rather the cure be ash than in the hands of anyone who might use it. Protect the bloodline — at any cost to mortal lives.</p>
       <h3>Behaviour toward the cell</h3>
       <p>Helpful, warm, and entirely transactional. Registry 16's mortal field officers genuinely
       believe the Order is a scholarly body, so the cell meets courteous researchers offering leads
