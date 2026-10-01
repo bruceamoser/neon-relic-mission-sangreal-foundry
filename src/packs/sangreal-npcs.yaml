@@ -1,10 +1,7 @@
-# Mission: Sangreal — Cast & Antagonists (Actor pack)
-# Actors: npc, mob
-# Source: docs/mission-sangreal-design-guide.md §8
+# Revised cohesive mission — 2026-09-30. Preserve prior-session continuity.
 ---
-
 - _id: sangreal-npc-corvi
-  name: 'Monsignor Matteo Corvi'
+  name: Monsignor Matteo Corvi
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np01.webp
   prototypeToken:
@@ -13,25 +10,16 @@
   system:
     tier: 2
     description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> Unshaven, three days in the same coat, fever-flushed, praying in Latin under his breath; the closed case within arm's reach.</p>
-      <p><strong>Wants.</strong> To be found by the right people and to explain himself to somebody who understands the theology — and to bury the phials where no institution can reach them.</p>
-      <p><strong>Will not.</strong> Yield to authority alone. Anything that sounds like the Holy Alliance and he destroys his notebook and runs deeper into the works.</p>
-      <p><strong>Knows.</strong> The whole truth of the blood: the Ebionite fragments, the translation, what the twelve phials are, and why the Church built a prison rather than a reliquary. He owns the word as well — <em>San Greal</em> is the Grail everyone knows, <em>Sang real</em> is royal blood, one space moved — and he will say so flatly, without drama, the first time anyone asks him what the case is called. He lectures for an hour if the cell sounds like custodians rather than enforcers — every fact the walkthrough calls the paradigm inversion comes out of his mouth.</p>
-      <h3>Psychological Profile</h3>
-      <p>An ecclesiastical historian consumed by religious dread. Translating the Ebionite
-      fragments revealed that the Eucharist was a biological deterrent rather than
-      spiritual grace. He stole the case to prevent its weaponization — and is wracked by
-      hematological fevers from sleeping near it, convinced he has triggered the end of
-      days.</p>
-      <h3>Social Mechanics</h3>
-      <p>Guarded (Difficulty 2). Hostile approaches or claims of representing the Holy
-      Alliance cause him to destroy his notes. Demonstrating independent custodial
-      credentials and citing Ebionite theology shifts his disposition to Open (+1),
-      prompting him to surrender his research and the attaché.</p>
-      <h3>Combat Profile</h3>
-      <p>Non-combatant. Carries an antique .32 caliber revolver with five rounds,
-      suffering a -2 penalty on all firearms checks.</p>
+      <h3>At the table</h3><p><strong>Look.</strong> A tired archivist in a worn coat; checks that the case
+      latch has caught before answering.</p><p><strong>Wants.</strong> Prevent institutional deployment and
+      find independent custody he can trust.</p><p><strong>Knows.</strong> He minimizes how early he made the
+      bargain, then admits it when shown the escrow. He knows the historical purge claim, the handling
+      protocol, and the human disaster if it has occurred.</p><blockquote><p>“I wanted a good use to excuse
+      the theft.”</p></blockquote><h3>When the cell changes the situation</h3><p>A credible non-deployment
+      agreement, recorded inventory, and witnesses persuade him. He can surrender the case
+      alive.</p><p>Threats make him withdraw or demand safeguards. He does not automatically destroy every
+      route to the truth.</p><h3>Existing combat profile</h3> <p>Non-combatant. Carries an antique .32 caliber
+      revolver with five rounds, suffering a -2 penalty on all firearms checks.</p>
     attributes:
       str: 2
       agi: 2
@@ -47,13 +35,18 @@
     corruptionStage: 2
     tags:
       - sangreal
-    secret: 'He knows the blood is a cure, not a sacrament — and that both institutions would kill to control it.'
-    goal: 'Bury the phials where no institution can ever reach them.'
-    positiveResult: 'Talks: I10, I11, I12. Surrenders the steel attaché.'
-    negativeResult: 'Destroys his notebook and flees deeper into the Lingotto works.'
-
+    secret: >-
+      He authorized a speculative human treatment in return for conditional funding. Fear does not excuse it.
+      He did not foresee the outcome but did know the evidence was inadequate.
+    goal: Prevent institutional deployment and find independent custody he can trust.
+    positiveResult: >-
+      A credible non-deployment agreement, recorded inventory, and witnesses persuade him. He can surrender
+      the case alive.
+    negativeResult: >-
+      Threats make him withdraw or demand safeguards. He does not automatically destroy every route to the
+      truth.
 - _id: sangreal-npc-vane
-  name: 'Sister Claudia Vane'
+  name: Sister Claudia Vane
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np02.webp
   prototypeToken:
@@ -62,26 +55,17 @@
   system:
     tier: 3
     description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> Black habit over a grey under-layer, scuffed leather folio held in both hands, completely still, never surprised.</p>
-      <p><strong>Wants.</strong> The case in her hands, and the cell used up getting it there.</p>
-      <p><strong>Will not.</strong> Touch the case in front of witnesses, be separated from it, or fight to win — she fights only to escape with it.</p>
-      <p><strong>Knows.</strong> Her own orders and the Talamasca's position, sincerely believed. She answers questions about Church procedure instantly and questions about the theft half a beat late, and she never says her handler's name — if the cell mentions Amsterdam in front of Corvi she interrupts, compliments the research and changes the subject.</p>
-      <h3>Psychological Profile</h3>
-      <p>Outwardly a devout scholar of early Christian art; inwardly an intelligence
-      asset trained by the Talamasca Motherhouse in Amsterdam. She believes the phials
-      contain a demonic plague that must be destroyed to safeguard humanity. She views the
-      Covenant cell as expendable muscle to locate Corvi — before extracting the case for
-      incineration.</p>
-      <h3>Social Mechanics</h3>
-      <p>Deceptive / Professional. Handles border guards and ecclesiastical authorities
-      with diplomatic poise. Divers inquiries toward mundane criminal syndicates or rogue
-      Soviet laboratories to obscure preternatural activity. Her tells are stillness, not
-      nerves — she is never surprised, only delayed.</p>
-      <h3>Combat Profile</h3>
-      <p>Trained in defensive hand-to-hand combat (AGI 3, brawl 2). Carries The Veil of
-      Veronica's Thread and a concealed Beretta 70. Will not fight to win — only to
-      escape with the case.</p>
+      <h3>At the table</h3><p><strong>Look.</strong> Practical, attentive liaison; remembers who has not eaten
+      and obtains the papers the cell needs.</p><p><strong>Wants.</strong> Destroy what she believes will
+      cause renewed predation; initially trusts Registry 16 to do it.</p><p><strong>Knows.</strong> She knows
+      her route and orders, not the whole vector. She rationalizes “protect the bloodline” as a containment
+      code until independent evidence makes that untenable.</p><blockquote><p>“Tell me who will stop them
+      opening it again.”</p></blockquote><h3>When the cell changes the situation</h3><p>Proof of her handlers’
+      interests plus a credible containment alternative can turn her. Capturing her prevents the scripted
+      theft; search can secure her Thread.</p><p>She attempts escape only with opportunity, a usable relic,
+      access to the case, and a route. Her survival or death is resolved in play.</p><h3>Existing combat
+      profile</h3> <p>Trained in defensive hand-to-hand combat (AGI 3, brawl 2). Carries The Veil of
+      Veronica's Thread and a concealed Beretta 70. Will not fight to win — only to escape with the case.</p>
     attributes:
       str: 2
       agi: 3
@@ -99,13 +83,18 @@
     corruptionStage: 1
     tags:
       - sangreal
-    secret: 'Deep-cover operative of Talamasca Registry 16 — and her Order''s hidden elders are vampires.'
-    goal: 'Deliver the steel attaché to the Novara airstrip for transport and incineration.'
-    positiveResult: 'Believed, trusted, and followed — until the Thread snaps.'
-    negativeResult: 'Exposed early: she burns her cover, then the case, then the bridges.'
-
+    secret: >-
+      A Registry 16 operative who does not know her hidden superiors are vampire elders. Her earlier apartment
+      search and Geneva inquiry predate the current liaison assignment.
+    goal: Destroy what she believes will cause renewed predation; initially trusts Registry 16 to do it.
+    positiveResult: >-
+      Proof of her handlers’ interests plus a credible containment alternative can turn her. Capturing her
+      prevents the scripted theft; search can secure her Thread.
+    negativeResult: >-
+      She attempts escape only with opportunity, a usable relic, access to the case, and a route. Her survival
+      or death is resolved in play.
 - _id: sangreal-npc-sabbatini
-  name: 'Cardinal Enrico Sabbatini'
+  name: Cardinal Enrico Sabbatini
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np03.webp
   prototypeToken:
@@ -114,24 +103,18 @@
   system:
     tier: 3
     description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> A statesman in his own building: heavy, immaculate, at his desk with a dossier in front of him already stamped REGISTRY 16 — AMSTERDAM.</p>
-      <p><strong>Wants.</strong> The phials back, the breach unrecorded, and the cure retained as an institutional deterrent.</p>
-      <p><strong>Will not.</strong> Apologise, admit the Church banked the sale, or discuss the 1582 order in front of a witness.</p>
-      <p><strong>Knows.</strong> Everything the cell has just learned, and more — including that his file on the Talamasca is further along than theirs. He gives it up freely once indisputable forensic proof is on his desk; before that, his register is imperious and hostile (Difficulty 4).</p>
-      <h3>Psychological Profile</h3>
-      <p>A ruthless ecclesiastical statesman shaped by Cold War intelligence operations.
-      He treats the vampire dynasties as a biological reality held in check through
-      deterrence. He views the Covenant as an external tool to be hired, manipulated, and
-      discarded if it uncovers the truth.</p>
-      <h3>Social Mechanics</h3>
-      <p>Imperious / Hostile (Difficulty 4). Treats investigators with condescending
-      authority until confronted with undeniable forensic proof of the Talamasca
-      infiltration and Claudia's death — at which point he pivots to cynical cooperation
-      and the Concordat Requisition.</p>
-      <h3>Combat Profile</h3>
-      <p>Non-combatant. Protected by a personal security detail of three plainclothes
-      Swiss Guard officers equipped with submachine guns and phosphorus munitions.</p>
+      <h3>At the table</h3><p><strong>Look.</strong> Immaculate senior cleric; asks for the vessel count
+      before he opens the report.</p><p><strong>Wants.</strong> Prevent a rebirth of potent vampire lines
+      while retaining influence over the existing accommodation.</p><p><strong>Knows.</strong> He knows the
+      dilution bargain and historical deterrent policy. A Registry dossier does not mean he already knows
+      Claudia is the mole.</p><blockquote><p>“One undivided dose can undo the arithmetic that made peace
+      possible.”</p></blockquote><h3>When the cell changes the situation</h3><p>Specific evidence and a
+      workable custody plan obtain handling information, protection, oversight, or a signed requisition. He
+      can cooperate before any death.</p><p>He restricts access or mobilizes recovery officers. Lethal
+      suppression is a contingent hardline decision, with warning and a chance to countermand it, not an
+      automatic reward for learning the truth.</p><h3>Existing combat profile</h3> <p>Non-combatant. Protected
+      by a personal security detail of three plainclothes Swiss Guard officers equipped with submachine guns
+      and phosphorus munitions.</p>
     attributes:
       str: 2
       agi: 2
@@ -148,13 +131,19 @@
     corruptionStage: 0
     tags:
       - sangreal
-    secret: 'The Vatican has blackmailed the vampire houses for centuries — the cure is the leash.'
-    goal: 'Retain the deterrent, or ensure no one else can ever hold it.'
-    positiveResult: 'Signs the Concordat Requisition Order: diplomatic cover, weapons clearances, funding.'
-    negativeResult: 'Disposes of the Covenant as a loose end and calls in the sanitization squad.'
-
+    secret: >-
+      The Church holds a reserve that could be used as a purge. He keeps contingency options open but did not
+      authorize Corvi’s theft or Hausmann’s injection. His unqualified safety guarantee was knowingly
+      misleading.
+    goal: Prevent a rebirth of potent vampire lines while retaining influence over the existing accommodation.
+    positiveResult: >-
+      Specific evidence and a workable custody plan obtain handling information, protection, oversight, or a
+      signed requisition. He can cooperate before any death.
+    negativeResult: >-
+      He restricts access or mobilizes recovery officers. Lethal suppression is a contingent hardline
+      decision, with warning and a chance to countermand it, not an automatic reward for learning the truth.
 - _id: sangreal-npc-graf
-  name: 'Dr. Elizabeth Graf'
+  name: Dr. Elizabeth Graf
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np04.webp
   prototypeToken:
@@ -163,22 +152,16 @@
   system:
     tier: 1
     description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> No sleep, glasses pushed up into her hair, a slide box held against her chest like a shield, and a box of matches she keeps moving further from the slides.</p>
-      <p><strong>Wants.</strong> Her research destroyed and her family out of the country.</p>
-      <p><strong>Will not.</strong> Leave without her slides — she will burn them rather than hand them over — and she lies once: that she has only the slides in her hands.</p>
-      <p><strong>Knows.</strong> The batch numbers, the sponsor account, the six-shift conversion window, and the composition of the quiescence kit on her bench. She is the only NPC who will say the word <em>cure</em> before the Lingotto, and only if the histopathology is already on the table.</p>
-      <h3>Psychological Profile</h3>
-      <p>Chief Pathologist at Privatklinik Sonnenberg. She administered the injection to
-      Hausmann believing it was an unlicensed gene-therapy protocol funded by an overseas
-      trust. She is traumatized, barricaded in an operating theater, and determined to
-      destroy her own research before it kills anyone else.</p>
-      <h3>Social Mechanics</h3>
-      <p>Hysterical / Panicked (Difficulty 2). Shifting her disposition to Open requires
-      first-aid treatment, light discipline, or calming psychiatric intervention — in that
-      order of practicality. She will not leave without her slides.</p>
-      <h3>Combat Profile</h3>
-      <p>Non-combatant. Threatens to burn the lab records if cornered; she means it.</p>
+      <h3>At the table</h3><p><strong>Look.</strong> Exhausted physician holding a slide box; first asks who
+      will move the remaining staff.</p><p><strong>Wants.</strong> Protect survivors and keep an accountable
+      medical record without enabling another experiment.</p><p><strong>Knows.</strong> She can document the
+      human outcome and hypothesize the mechanism. She cannot prove ancient theology or guarantee a safe
+      reversal.</p><blockquote><p>“It proves what happened to this patient. I will not sign anything
+      else.”</p></blockquote><h3>When the cell changes the situation</h3><p>Concrete evacuation and
+      independent custody of her record earn cooperation. She may keep a backup slide, but she does not demand
+      that every useful record be burned.</p><p>She hides or seeks another protector. A successful rescue
+      prevents her later death in a scheduled raid.</p><h3>Existing combat profile</h3> <p>Non-combatant.
+      Threatens to burn the lab records if cornered; she means it.</p>
     attributes:
       str: 2
       agi: 2
@@ -194,13 +177,16 @@
     corruptionStage: 0
     tags:
       - sangreal
-    secret: 'She kept one slide — the only surviving sample of the vector outside the phials.'
-    goal: 'Burn her research, then disappear with her family before the clinic''s owners find her.'
-    positiveResult: 'Calmed and rescued: I07, I09, I10 — and a witness who can testify to the False Revelation.'
-    negativeResult: 'Panics and destroys the histopathology log; the vector remains unproven.'
-
+    secret: >-
+      She administered an inadequately supported treatment. Corvi’s consent and a custodial protocol were not
+      clinical validation; she knew that.
+    goal: Protect survivors and keep an accountable medical record without enabling another experiment.
+    positiveResult: >-
+      Concrete evacuation and independent custody of her record earn cooperation. She may keep a backup slide,
+      but she does not demand that every useful record be burned.
+    negativeResult: She hides or seeks another protector. A successful rescue prevents her later death in a scheduled raid.
 - _id: sangreal-npc-hausmann
-  name: 'Kurt Hausmann (The Feral Banker)'
+  name: Kurt Hausmann (The Feral Banker)
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np05.webp
   prototypeToken:
@@ -208,29 +194,20 @@
       src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np05.webp
   system:
     tier: 4
-    description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> An expensive suit that no longer fits, in a room with the lights killed; still lucid, radiant, and wrong — and he has not slept since the injection.</p>
-      <p><strong>Wants.</strong> To understand exactly what was done to him — and then, later, to eat.</p>
-      <p><strong>Will not.</strong> Leave the ward, or admit what he has begun to want at night. Press him on it and he answers with perfect courtesy and moves to the far side of the room.</p>
-      <p><strong>Knows.</strong> That a Church account arranged the injection, that the man who paid brought the case himself and would not open it, and that the tumours were gone in two days. He volunteers all of it; he cannot explain where the protocol came from.</p>
-      <h3>Psychological Profile</h3>
-      <p>Formerly an elderly Swiss private banker suffering from terminal lymphoma.
-      Ingesting the blood cured his cancer within forty-eight hours, but his ordinary
-      marrow could not regulate the progenitor counter-agent. The resulting mutation
-      destroyed his higher reasoning, leaving a feral predator driven by hematological
-      hunger and photophobic agony.</p>
-      <h3>Tactical Profile</h3>
-      <p>STR 5, AGI 4, WIT 2, EMP 1; Armor Rating 2 (mutated somatic tissue — ballistic
-      weapons inflict half damage unless targeting the brainstem). <strong>Blood
-      Frenzy</strong> grants +2 dice on close-combat attacks against wounded targets.
-      Direct sunlight or focused ultraviolet light inflicts 2 unsoakable Physical Damage
-      per round. Fear Rating 2.</p>
-      <h3>Director Notes</h3>
-      <p>He hunts from the shadows and speaks in fragments of banking German. He is the
-      False Revelation made flesh — the walking proof that the blood creates predators
-      when the body cannot process it. Killing him is a mercy the cell will not believe
-      until the histopathology slides.</p>
+    description: >-
+      <h3>At the table</h3><p><strong>Look.</strong> Use the intake appearance before treatment; worsening
+      cold, dilation and light sensitivity develop afterward.</p><p><strong>Wants.</strong> At first, survive
+      his cancer. After treatment, obtain help and resist a growing hunger while lucidity
+      lasts.</p><p><strong>Knows.</strong> He knows who promised a treatment and the people who administered
+      it. He is not a lore lecturer.</p><blockquote><p>“The pain stopped. I thought that meant it
+      worked.”</p></blockquote><h3>When the cell changes the situation</h3><p>An early cell can prevent the
+      injection. Later, sound isolation can preserve him and protect staff; no established cure for his new
+      state is promised.</p><p>Use the existing feral statistics when conversion and encounter conditions
+      warrant them. Escape and casualties follow actual containment failures, not a page
+      title.</p><h3>Existing combat profile</h3> <p>STR 5, AGI 4, WIT 2, EMP 1; Armor Rating 2 (mutated
+      somatic tissue — ballistic weapons inflict half damage unless targeting the brainstem). <strong>Blood
+      Frenzy</strong> grants +2 dice on close-combat attacks against wounded targets. Direct sunlight or
+      focused ultraviolet light inflicts 2 unsoakable Physical Damage per round. Fear Rating 2.</p>
     attributes:
       str: 5
       agi: 4
@@ -247,13 +224,18 @@
     corruptionStage: 3
     tags:
       - sangreal
-    secret: 'His altered marrow is itself a vector — any blood contact spreads CT1.'
-    goal: 'Feed. Hide from the light. Feed again.'
-    positiveResult: 'Subdued or destroyed: the Sonnenberg ward is secured and the medical sequence recovered.'
-    negativeResult: 'Escapes into the Zurichberg forest — a new predator loose above a city of four hundred thousand.'
-
+    secret: He bought a chance at life, not knowingly a vampire transformation. His payment was conditional escrow.
+    goal: >-
+      At first, survive his cancer. After treatment, obtain help and resist a growing hunger while lucidity
+      lasts.
+    positiveResult: >-
+      An early cell can prevent the injection. Later, sound isolation can preserve him and protect staff; no
+      established cure for his new state is promised.
+    negativeResult: >-
+      Use the existing feral statistics when conversion and encounter conditions warrant them. Escape and
+      casualties follow actual containment failures, not a page title.
 - _id: sangreal-npc-ghiberti
-  name: 'Father Ghiberti'
+  name: Father Ghiberti
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np06.webp
   prototypeToken:
@@ -262,23 +244,16 @@
   system:
     tier: 1
     description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> Small and precise, cassock and lanyard, reading glasses always to hand; thirty-one years in the same archive.</p>
-      <p><strong>Wants.</strong> The breach recorded as a curatorial failure rather than a doctrinal one — and the cell to leave with the file instead of coming back for it.</p>
-      <p><strong>Will not.</strong> Open the 1582 brief, name the Prefect, or say the word Sangreal aloud in the stacks. Press him on any of those and he simply stops answering.</p>
-      <p><strong>Knows.</strong> That the register card was pulled by hand, that a workshop won a contract in 1964 to build a sealed container for shelf-mark XII-SANG, and that somebody has been re-reading the 1582 file this year. All three for the vault evidence and a written admission.</p>
-      <h3>Psychological Profile</h3>
-      <p>Nervous Curial archivist and keeper of the Vault IX register. Precise to the
-      point of ritual, and currently terrified: he knows the register was doctored in the
-      weeks before the theft and cannot prove by whom. He wants this inquiry to end
-      before it reaches his desk.</p>
-      <h3>Social Mechanics</h3>
-      <p>Anxious / Cooperative (Difficulty 2). Reassurance and respect for the archive
-      open him up; pressure makes him hide behind procedure. He is the doorway to I01, I03,
-      and I16 — and to the fact that Corvi requested the Lodestone's index card nine days
-      before the breach.</p>
-      <h3>Combat Profile</h3>
-      <p>Non-combatant. Will not fight. Will absolutely relock a door behind himself.</p>
+      <h3>At the table</h3><p><strong>Look.</strong> Precise archivist; signs copies and worries about
+      originals.</p><p><strong>Wants.</strong> Preserve the archive and avoid becoming a convenient
+      scapegoat.</p><p><strong>Knows.</strong> He can supply inventory, indexing conventions, handling
+      records, and custodial history. He does not know who every indistinct silhouette
+      is.</p><blockquote><p>“I can tell you how it was kept. They never thought I needed to know
+      why.”</p></blockquote><h3>When the cell changes the situation</h3><p>Respect for originals and a
+      recorded request opens the research trail. He can provide the decimal cipher key and safe-handling
+      documentation.</p><p>He seeks written authority or a supervisor rather than becoming unavailable for the
+      rest of the mission.</p><h3>Existing combat profile</h3> <p>Non-combatant. Will not fight. Will
+      absolutely relock a door behind himself.</p>
     attributes:
       str: 2
       agi: 2
@@ -293,13 +268,16 @@
     corruptionStage: 0
     tags:
       - sangreal
-    secret: 'The vault register has two pages missing — removed before the theft, not after.'
-    goal: 'Survive the inquiry without being blamed for the breach.'
-    positiveResult: 'Speaks freely: I01 and I03, and permission for a supervised vault inspection.'
-    negativeResult: 'Retreats into procedure; the register is "under review" for the rest of the case.'
-
+    secret: >-
+      He knows records were removed and that Corvi could access the Lodestone entry; he does not know all
+      biological or political secrets.
+    goal: Preserve the archive and avoid becoming a convenient scapegoat.
+    positiveResult: >-
+      Respect for originals and a recorded request opens the research trail. He can provide the decimal cipher
+      key and safe-handling documentation.
+    negativeResult: He seeks written authority or a supervisor rather than becoming unavailable for the rest of the mission.
 - _id: sangreal-npc-mercier
-  name: 'Jean-Paul Mercier'
+  name: Jean-Paul Mercier
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np07.webp
   prototypeToken:
@@ -308,21 +286,14 @@
   system:
     tier: 1
     description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> A wood-panelled viewing booth, three-piece suit, ironed shirt, warm lamp — and a sheen of sweat he cannot control.</p>
-      <p><strong>Wants.</strong> The transaction buried, and his own name out of it.</p>
-      <p><strong>Will not.</strong> Admit that he erased a ledger line at the buyer's request. Threats of violence close him entirely and trip the alarm beneath the counter.</p>
-      <p><strong>Knows.</strong> The account that paid, box 4409-C, the date — and that a nun came in alone afterwards and asked for the same box. He sells the escrow carbon for money, gives up the ledger only under real pressure, and lies once: that he never saw the woman.</p>
-      <h3>Psychological Profile</h3>
-      <p>Senior vault clerk at Union de Banques Suisses, Geneva. Immaculate suit, manicured
-      hands, and the specific pallor of a man who has read transaction memos he was never
-      supposed to understand. He has a family, a mortgage on the Rue du Rhône, and no
-      appetite for martyrdom on behalf of clients he despises.</p>
-      <h3>Social Mechanics</h3>
-      <p>Anxious / Bribable (Difficulty 2). Money works; so does a credible threat of
-      Swiss banking regulators. Violence closes him completely — and trips the silent
-      alarm under his desk.</p>
-      <h3>Combat Profile</h3>
+      <h3>At the table</h3><p><strong>Look.</strong> Immaculate clerk whose first concern is whether his name
+      enters the report.</p><p><strong>Wants.</strong> Keep his job and avoid taking sole blame for a powerful
+      client’s transaction.</p><p><strong>Knows.</strong> The escrow terms, Hausmann’s clinic, box 4409-C, and
+      Vane’s earlier visit. Her visit occurred before the current liaison assignment.</p><blockquote><p>“I
+      could tell you who signed. I could not tell you what was in the glass.”</p></blockquote><h3>When the
+      cell changes the situation</h3><p>Protection, counsel, payment, or credible regulatory pressure yields
+      authenticated records and the clinic lead.</p><p>Violence brings security and formal delay. Other bank
+      records or clinic contact keep the investigation moving.</p><h3>Existing combat profile</h3>
       <p>Non-combatant. One punch will produce a lawsuit, not a fight.</p>
     attributes:
       str: 1
@@ -338,13 +309,18 @@
     corruptionStage: 0
     tags:
       - sangreal
-    secret: 'He kept a carbon of the transfer memo — the only copy outside the bank archive.'
-    goal: 'Keep his job, his pension, and his kneecaps.'
-    positiveResult: 'Yields I06 and booth 4409-C access; unlocks the Zurich corridor.'
-    negativeResult: 'Calls bank security; the locker is resealed under judicial order.'
-
+    secret: >-
+      He took a fee to alter an access entry and kept a carbon as insurance. He did not know the specimen’s
+      nature.
+    goal: Keep his job and avoid taking sole blame for a powerful client’s transaction.
+    positiveResult: >-
+      Protection, counsel, payment, or credible regulatory pressure yields authenticated records and the
+      clinic lead.
+    negativeResult: >-
+      Violence brings security and formal delay. Other bank records or clinic contact keep the investigation
+      moving.
 - _id: sangreal-npc-entita-operative
-  name: "L'Entità Sanitization Operative"
+  name: L'Entità Sanitization Operative
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np08.webp
   prototypeToken:
@@ -352,25 +328,17 @@
       src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np08.webp
   system:
     tier: 4
-    description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> Plainclothes over issue boots, no insignia, no expression; one of three working the same room with practised crossfire discipline.</p>
-      <p><strong>Wants.</strong> Recovery or destruction of the phials, and no trace that the Vatican was involved.</p>
-      <p><strong>Will not.</strong> Be talked down, or leave witnesses. They are not here to arrest anyone.</p>
-      <p><strong>Knows.</strong> That Vault IX held a biological deterrent rather than a relic, and that the cell was commissioned by the Church itself. Give the cell one warning in impeccable German before the first grenade — the sanctimony is the point.</p>
-      <h3>Psychological Profile</h3>
-      <p>Plainclothes Swiss Guard commando, detailed to <em>L'Entità</em> for operations
-      the Vatican will never acknowledge. Professional, silent, clinical. Calls the
-      Covenant cell "the consultants" and treats their deaths as administrative
-      housekeeping.</p>
-      <h3>Combat Profile</h3>
-      <p>Equipped with a compact submachine gun, phosphorus grenades, and concealed
-      body armor (AR 2). Operates in a three-officer team with practiced crossfire
-      discipline. They are not here to arrest anyone.</p>
-      <h3>Director Notes</h3>
-      <p>Deploys at O1 Milestone 3 (Holy Crusade). The sanctimony is the point: they
-      believe they are protecting the world from the truth. Give the cell one warning
-      — in impeccable German — before the first grenade.</p>
+    description: >-
+      <h3>At the table</h3><p><strong>Look.</strong> Ordinary coat over service equipment; scans exits and
+      asks how many doses have been administered.</p><p><strong>Wants.</strong> Recover dangerous material and
+      prevent further recipients under the current orders.</p><p><strong>Knows.</strong> He knows procurement
+      and command contacts; no automatic knowledge of the Order’s inner leadership.</p><blockquote><p>“How
+      many doses left this building?”</p></blockquote><h3>When the cell changes the situation</h3><p>A
+      verified stand-down, shared quarantine, superior order, or credible external witness can halt or
+      redirect him.</p><p>An actual lethal order or immediate exposure threat can produce violence. Give
+      warning and apply normal encounter rules; he is not immune to negotiation.</p><h3>Existing combat
+      profile</h3> <p>Equipped with a compact submachine gun, phosphorus grenades, and concealed body armor
+      (AR 2). Operates in a three-officer team with practiced crossfire discipline. Their use of force follows the current orders and the situation.</p>
     attributes:
       str: 3
       agi: 4
@@ -387,13 +355,16 @@
     corruptionStage: 0
     tags:
       - sangreal
-    secret: 'Under orders to sanitize any witnesses — including clergy.'
-    goal: 'Recover or destroy the phials. Leave no trace that the Vatican was involved.'
-    positiveResult: 'Repelled: the squad withdraws to report the cell to L''Entità as a confirmed liability.'
-    negativeResult: 'The cell is captured, debriefed, and quietly discredited.'
-
+    secret: His command may order suppression, but rank-and-file knowledge is limited to the containment mission.
+    goal: Recover dangerous material and prevent further recipients under the current orders.
+    positiveResult: >-
+      A verified stand-down, shared quarantine, superior order, or credible external witness can halt or
+      redirect him.
+    negativeResult: >-
+      An actual lethal order or immediate exposure threat can produce violence. Give warning and apply normal
+      encounter rules; he is not immune to negotiation.
 - _id: sangreal-npc-basarab-operative
-  name: 'Basarab Retrieval Operative'
+  name: Basarab Retrieval Operative
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np09.webp
   prototypeToken:
@@ -401,26 +372,19 @@
       src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np09.webp
   system:
     tier: 4
-    description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> Perfectly still, courteous, dressed a century out of date; it moves on vertical surfaces without sound and looks at mortals the way old money looks at furniture.</p>
-      <p><strong>Wants.</strong> The vessels, and no witnesses left who can describe them.</p>
-      <p><strong>Will not.</strong> Touch phial blood with bare hands, or be hurried. It has waited four centuries for this errand and will not spend itself cheaply.</p>
-      <p><strong>Knows.</strong> That the cure is final death and that the pack has already paid two fingers for the proof; that ten of the twelve are accounted for; that the crate carrying them out of Italy is Church property. It says almost none of this — but every word of it is true and it does not bother to lie.</p>
-      <h3>Psychological Profile</h3>
-      <p>An ancient vampire of the Basarab retrieval pack — not feral, not starving, and
-      entirely certain of its own superiority. It speaks three dead languages and treats
-      mortals the way old money treats furniture. It has waited four centuries for a
-      reason to visit Italy; this is the errand that finally mattered.</p>
-      <h3>Tactical Profile</h3>
-      <p>Controlled predator: STR 4, AGI 4, WIT 4, EMP 2; Armor Rating 2 (half damage
-      from ballistics unless the brainstem is targeted); Fear Rating 3. Moves silently on
-      vertical surfaces. Suffers no agitation in darkness and no resistance to fire.</p>
-      <h3>The One Fear</h3>
-      <p><strong>CT1.</strong> Contact with phial blood is final death — necrotic stasis
-      breaks and centuries of senescence arrive in seconds, leaving calcified ash. This
-      is why the pack executes Claudia and takes the case by hand at a distance, and why
-      one operative's dropped guard at Novara left two fingers on the tiles.</p>
+    description: >-
+      <h3>At the table</h3><p><strong>Look.</strong> Controlled, still, careful about distance from the
+      container; uses barriers around glass.</p><p><strong>Wants.</strong> Keep the reserve from being
+      administered to the house and move it toward controlled destruction.</p><p><strong>Knows.</strong> Knows
+      the extraction task and danger of direct exposure; does not know all events that have not yet
+      happened.</p><blockquote><p>“Do not open it. Tell us who has ordered you to open
+      it.”</p></blockquote><h3>When the cell changes the situation</h3><p>A credible neutral holding
+      arrangement may buy time; a defeated operative can be captured or routed.</p><p>Violence follows
+      contested custody. Resolve exposure with the artifact; no automatic survivor with missing fingers exists
+      just because a photograph shows one.</p><h3>Existing combat profile</h3> <p>Controlled predator: STR 4,
+      AGI 4, WIT 4, EMP 2; Armor Rating 2 (half damage from ballistics unless the brainstem is targeted); Fear
+      Rating 3. Moves silently on vertical surfaces. Suffers no agitation in darkness and no resistance to
+      fire.</p>
     attributes:
       str: 4
       agi: 4
@@ -437,13 +401,16 @@
     corruptionStage: 3
     tags:
       - sangreal
-    secret: 'The cure is the only thing their bloodline has ever feared — and they will incinerate it to stay unafraid.'
-    goal: 'Take the vessels to the Carpathian facility and burn the cure.'
-    positiveResult: 'Killed or turned: the Novara timeline breaks — Mission 2 becomes a recovery instead of a chase.'
-    negativeResult: 'Reaches the aircraft. Ten phials leave Italy and the campaign detonates.'
-
+    secret: >-
+      The same blood that creates potent new human predators can strip existing vampires of their arrested
+      aging.
+    goal: Keep the reserve from being administered to the house and move it toward controlled destruction.
+    positiveResult: A credible neutral holding arrangement may buy time; a defeated operative can be captured or routed.
+    negativeResult: >-
+      Violence follows contested custody. Resolve exposure with the artifact; no automatic survivor with
+      missing fingers exists just because a photograph shows one.
 - _id: sangreal-mob-feralghouls
-  name: 'Feral Ghouls'
+  name: Feral Ghouls
   type: mob
   img: modules/neon-relic-mission-sangreal/assets/art/npc-feral-ghoul.webp
   prototypeToken:
@@ -453,27 +420,15 @@
     memberCount: 3
     memberHP: 3
     bestPool: 6
-    templateNPC: 'Feral Ghoul'
-    description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> Grey skin, no blink, mouths. Three of them, moving on the ceiling.</p>
-      <p><strong>Wants.</strong> Plasma. Nothing else.</p>
-      <p><strong>Will not.</strong> Be reasoned with, be bought, or be diverted. They avoid light, and they do not stop.</p>
-      <p><strong>Knows.</strong> Nothing. There is no interrogation here, no bargain and no tell — this is the cure's price made flesh, and its only use at the table is as consequence.</p>
-      <p><strong>Origin.</strong> When a phial fractures in darkness (Phial Fracture
-      table, result 5), dead tissue within Short range reanimates. The husks last 1d6
-      hours — long enough to be someone's problem — and move in twitching, jointless
-      lunges toward warmth and blood.</p>
-      <p><strong>Behavior.</strong> Mindless, predatory, and attracted to open wounds.
-      They do not flee fire, but they recoil from the phosphorus-bright light that killed
-      them once already: focused UV and direct sunlight scorch them at the same rate as
-      the vector's living cousins (2 unsoakable Physical per round).</p>
-      <p><strong>Mob rules.</strong> Treat the pack as a single shared-pool opponent
-      (3 members, Best Pool 6, +2 bonus dice). Every member destroyed reduces the pool;
-      the last one standing still lunges.</p>
-
+    templateNPC: Feral Ghoul
+    description: >-
+      <h3>Conditional consequence</h3><p>Use this mob only when the established dark-rupture result reanimates
+      dead tissue within Short range. It is not an inevitable clinic encounter and not a normal consequence of
+      standing near an intact case. The husks last 1d6 hours. Keep the authored member count, member HP, and
+      pool. They seek warmth and blood; describe the people they once were without making violence the only
+      way to recover a clue.</p>
 - _id: sangreal-npc-basarab-elder
-  name: 'Basarab Elder'
+  name: Basarab Elder
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np10.webp
   prototypeToken:
@@ -481,28 +436,18 @@
       src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np10.webp
   system:
     tier: 4
-    description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> An old man in a long black coat with the collar up and a fur collar under it three centuries out of date, a dragon-wolf signet ring worn smooth — entirely calm about being photographed.</p>
-      <p><strong>Wants.</strong> Ten phials aboard the aircraft. Nothing else in this country interests him.</p>
-      <p><strong>Will not.</strong> Fight over the crate. If the cell intervenes he lets the aircraft go and leaves on foot, and Mission 2 becomes about him instead.</p>
-      <p><strong>Knows.</strong> That ten vessels are in the crate and two are missing; that the cure kills his own people on contact; that he has been buying the stuff in Europe for two years. He says none of it. He answers a direct question politely, in Romanian-accented French, with a true sentence that reveals nothing — looking straight into the lens while he does it.</p>
-      <h3>Psychological Profile</h3>
-      <p>The retrieval pack's leader, and the reason the Novara strike was over in
-      minutes. Ancient, patient, physically overwhelming — it has outlived dynasties and
-      treats the Covenant as a curiosity it may inspect once the cure is ash. It does not
-      monologue; it does not need to.</p>
-      <h3>Tactical Profile</h3>
-      <p>STR 5, AGI 4, WIT 5, EMP 3; Armor Rating 3 (half damage from ballistics unless
-      the brainstem is targeted); Fear Rating 3. Moves unscented and silent. Direct
-      sunlight inflicts 3 unsoakable Physical per round; it will never be caught in it
-      willingly.</p>
-      <h3>The Cure</h3>
-      <p><strong>CT1 is the elder's only exit.</strong> A single drop of phial blood in
-      an open wound ends it: Endure Difficulty 5, and on failure centuries of senescence
-      arrive at once, leaving calcified ash and a settlement's worth of questions. It
-      knows this. It will not touch the vessels — which is exactly why Mission 2 depends
-      on the agents finding a way to make it.</p>
+    description: >-
+      <h3>At the table</h3><p><strong>Look.</strong> A courteous old man who watches hands near the case more
+      closely than weapons.</p><p><strong>Wants.</strong> Destroy the potential instrument of forced mortality
+      and preserve the house’s survival.</p><p><strong>Knows.</strong> Knows the accommodation, the dilution
+      limit, and historical fear of the purge. He does not need to remember a crucifixion to know he is
+      threatened.</p><blockquote><p>“What word will you use when you make us take
+      it?”</p></blockquote><h3>When the cell changes the situation</h3><p>A credible agreement can delay him;
+      sound tactics can stop the extraction. He can be defeated under the existing rules.</p><p>If he escapes
+      with actual cargo, follow that inventory. He does not cause an unrelated new lineage merely by reaching
+      Romania.</p><h3>Existing combat profile</h3> <p>STR 5, AGI 4, WIT 5, EMP 3; Armor Rating 3 (half damage
+      from ballistics unless the brainstem is targeted); Fear Rating 3. Moves unscented and silent. Direct
+      sunlight inflicts 3 unsoakable Physical per round; it will never be caught in it willingly.</p>
     attributes:
       str: 5
       agi: 4
@@ -520,13 +465,18 @@
     corruptionStage: 3
     tags:
       - sangreal
-    secret: 'It remembers the crucifixion as a business dispute — and the cure as a debt it intends to burn.'
-    goal: 'Deliver ten intact phials to the Carpathian furnace and end the only threat to its line.'
-    positiveResult: 'Destroyed or cured: the Basarab line loses its head and Mission 2 becomes salvage.'
-    negativeResult: 'It reaches the Carpathians unopposed — and the feral lineage erupts across Northern Italy.'
-
+    secret: >-
+      He reads the Covenant recovery as possible preparation for deployment. That suspicion is not proof of
+      the Church’s current intent.
+    goal: Destroy the potential instrument of forced mortality and preserve the house’s survival.
+    positiveResult: >-
+      A credible agreement can delay him; sound tactics can stop the extraction. He can be defeated under the
+      existing rules.
+    negativeResult: >-
+      If he escapes with actual cargo, follow that inventory. He does not cause an unrelated new lineage
+      merely by reaching Romania.
 - _id: sangreal-npc-gendarme-officer
-  name: 'Gerard, Vatican Gendarme Duty Officer'
+  name: Gerard, Vatican Gendarme Duty Officer
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np11.webp
   prototypeToken:
@@ -535,22 +485,15 @@
   system:
     tier: 1
     description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> A tired sergeant of the gate detail, twelve years on the same stool two metres from the logbook; sidearm never drawn inside the cemetery in living memory.</p>
-      <p><strong>Wants.</strong> His shift to end without him becoming the story.</p>
-      <p><strong>Will not.</strong> Hand the logbook over, or be ranked, threatened, or told the inquiry is aimed at the gate detail. Any of those closes him for the rest of the case.</p>
-      <p><strong>Knows.</strong> Who signed in and out of the cemetery that night, and that the lift ran twice. He reads the log aloud to anyone who offers a cigarette and asks plainly — respect for the log succeeds automatically.</p>
-      <h3>Psychological Profile</h3>
-      <p>Sergeant of the Campo Santo Teutonico gate detail — twelve years on the same
-      stool, two metres from the logbook. He is not corrupt; he is tired. The night of
-      the theft is the first night in years when something did not fit the log.</p>
-      <h3>Social Mechanics</h3>
-      <p>Guarded / Procedure-bound (Difficulty 2). Respect for the log, an offered
-      cigarette, and a promise that the inquiry is aimed at the thieves — not the guard —
-      open him. Rank-pulling and threats close him for the rest of the case.</p>
-      <h3>Combat Profile</h3>
-      <p>Non-combatant in practice. Sidearm on the belt, never drawn inside the cemetery
-      in living memory.</p>
+      <h3>At the table</h3><p><strong>Look.</strong> Tired Vatican duty officer; squares the ledger before
+      speaking.</p><p><strong>Wants.</strong> Finish the inquiry without becoming its
+      scapegoat.</p><p><strong>Knows.</strong> Gate entries and procedures, not the contents of the case. The
+      03:14 departure frame and 04:02 later descent are distinct records.</p><blockquote><p>“Tell me which
+      entry you need copied.”</p></blockquote><h3>When the cell changes the situation</h3><p>A proper request
+      or reassurance produces a copy or clarification of existing evidence.</p><p>He requests supervision if
+      threatened; no retroactive change makes his earlier truthful answer a lie.</p><h3>Existing combat
+      profile</h3> <p>Non-combatant in practice. Sidearm on the belt, never drawn inside the cemetery in
+      living memory.</p>
     attributes:
       str: 2
       agi: 2
@@ -565,13 +508,14 @@
     corruptionStage: 0
     tags:
       - sangreal
-    secret: 'He logged a second entry at 04:02 — a figure in a raincoat with no name — and said nothing. The last guard who reported an irregularity was reassigned to the warehouse apostolate.'
-    goal: 'Finish the shift, keep the log tidy, avoid becoming the story.'
-    positiveResult: 'Shows the gate log: two descents that night — Corvi at 03:14, an unnamed visitor at 04:02.'
-    negativeResult: 'Repeats only the official version and points the cell at the Swiss Guard archive like everyone else does.'
-
+    secret: >-
+      Use exactly the testimony already established at this table. Unplayed default: he noticed a discrepancy
+      around the second lift event and fears the consequences of reporting it.
+    goal: Finish the inquiry without becoming its scapegoat.
+    positiveResult: A proper request or reassurance produces a copy or clarification of existing evidence.
+    negativeResult: He requests supervision if threatened; no retroactive change makes his earlier truthful answer a lie.
 - _id: sangreal-npc-logistics-officer
-  name: 'Petra, Covenant Logistics Officer'
+  name: Petra, Covenant Logistics Officer
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np12.webp
   prototypeToken:
@@ -580,21 +524,14 @@
   system:
     tier: 1
     description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> Olive field jacket, a map table, crates packed and stacked behind her; unshakeable and slightly overworked.</p>
-      <p><strong>Wants.</strong> A clear request packet and a straight answer about the case's risk level.</p>
-      <p><strong>Will not.</strong> Be vague with. Vagueness gets her default answer: a two-shift delay and a lecture on requisition discipline.</p>
-      <p><strong>Knows.</strong> Every delivery, vehicle and safehouse in the Italian–Swiss corridor — and, if asked the right question, that the escort detail on this case was attached by the Congregation over HQ's own objection. She says that once, and only if the cell asks why a nun was sent.</p>
-      <h3>Psychological Profile</h3>
-      <p>Region 04 desk officer — safehouses, vehicles, courier manifests, and a room
-      full of maps. Unshakeable, overworked, allergic to drama. She has moved agents
-      through two coups and one conclave and considers this case merely "busy".</p>
-      <h3>Social Mechanics</h3>
-      <p>Cooperative / Practical (Difficulty 1). A clear request packet and a straight
-      answer about the case's risk level get results. Vagueness gets her default answer:
-      a two-shift delay and a lecture on requisition discipline.</p>
-      <h3>Combat Profile</h3>
-      <p>Non-combatant. The thermos is not a metaphor.</p>
+      <h3>At the table</h3><p><strong>Look.</strong> Practical desk officer with a map, a telephone, and three
+      pending requests.</p><p><strong>Wants.</strong> Keep the agents and their witnesses alive while knowing
+      what hazard she is moving.</p><p><strong>Knows.</strong> Routes, contacts, and equipment. She does not
+      know unrecovered crime-scene facts.</p><blockquote><p>“People, cargo, destination. Tell me those and I
+      can help.”</p></blockquote><h3>When the cell changes the situation</h3><p>A clear request yields
+      transport, protective storage, witness relocation, or a trusted communication route.</p><p>Incomplete
+      requests cause a specific clarification or delay, not punitive bureaucracy for its own
+      sake.</p><h3>Existing combat profile</h3> <p>Non-combatant. The thermos is not a metaphor.</p>
     attributes:
       str: 2
       agi: 2
@@ -609,13 +546,14 @@
     corruptionStage: 0
     tags:
       - sangreal
-    secret: 'One of her trusted Geneva couriers is a Talamasca stringer who believes he is working for a historical foundation.'
-    goal: 'Keep the corridor moving and every agent accounted for on paper.'
-    positiveResult: 'Expedites one request packet (gear, vehicle swap, or safehouse) in record time.'
-    negativeResult: 'The request "goes to committee" — arriving two shifts later than promised.'
-
+    secret: A compromised courier is possible, not automatic betrayal by all of HQ.
+    goal: Keep the agents and their witnesses alive while knowing what hazard she is moving.
+    positiveResult: >-
+      A clear request yields transport, protective storage, witness relocation, or a trusted communication
+      route.
+    negativeResult: Incomplete requests cause a specific clarification or delay, not punitive bureaucracy for its own sake.
 - _id: sangreal-npc-wayfinder-analyst
-  name: 'Stephan, Wayfinder Remote-Sensing Analyst'
+  name: Stephan, Wayfinder Remote-Sensing Analyst
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/npc-wayfinder-analyst.webp
   prototypeToken:
@@ -624,21 +562,16 @@
   system:
     tier: 1
     description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> Printouts, headphones, and a remote-sensing room that smells of warm paper; exact, patient, and slightly offended by imprecision.</p>
-      <p><strong>Wants.</strong> A specified question. He considers inference a form of lying.</p>
-      <p><strong>Will not.</strong> Speculate. Ask him what a reading "means" and he will tell you what it measured, and nothing else.</p>
-      <p><strong>Knows.</strong> The instrument timings — including that the vault was disturbed twice that night, hours apart. He confirms it independently to any cell that asks whether the vault was disturbed twice, and he will show his own printouts while he does it.</p>
-      <h3>Psychological Profile</h3>
-      <p>A signals-room lifer who reads magnetometers the way other men read newspapers.
-      Precise, dry, and quietly appalled by what the Vault IX readings keep telling him.
-      He does not leave his room; there is no need to.</p>
-      <h3>Social Mechanics</h3>
-      <p>Cooperative / Technical (Difficulty 2). Ask the right question — "was there more
-      than one descent that night?" — and he answers it. Ask for "everything" and he sends
-      sixty pages and a reading list.</p>
-      <h3>Combat Profile</h3>
-      <p>Non-combatant. Owns no weapon and would be a hazard with one.</p>
+      <h3>At the table</h3><p><strong>Look.</strong> Patient analyst surrounded by printouts; distinguishes a
+      measurement from an interpretation.</p><p><strong>Wants.</strong> Give the team useful verified
+      information without pretending to omniscience.</p><p><strong>Knows.</strong> Telemetry, requested record
+      searches, and source limitations. He can compare timestamps and seek tower status after receiving a
+      lead.</p><blockquote><p>“That is what the instrument recorded. Here is what it cannot tell
+      us.”</p></blockquote><h3>When the cell changes the situation</h3><p>Provides a sourced answer and
+      estimated turnaround; flags the difference between a flight plan and actual
+      departure.</p><p>Insufficient data yields a specific next request. He cannot supply a future corpse
+      photo as an HQ fallback.</p><h3>Existing combat profile</h3> <p>Non-combatant. Owns no weapon and would
+      be a hazard with one.</p>
     attributes:
       str: 1
       agi: 2
@@ -653,13 +586,18 @@
     corruptionStage: 0
     tags:
       - sangreal
-    secret: 'The last stable Vault IX reading shows two descents that night — and a second magnetic signature that is neither the Lodestone nor the case.'
-    goal: 'Understand the anomaly without ever standing near it.'
-    positiveResult: 'Confirms the 04:02 descent and flags the unidentified second signature (the Watcher''s device).'
-    negativeResult: 'Buries the cell in telemetry, interference plots, and a per-diem form they will never get signed.'
-
+    secret: >-
+      The anomalous second reading needs corroboration; its device identity is not established by a chart
+      alone.
+    goal: Give the team useful verified information without pretending to omniscience.
+    positiveResult: >-
+      Provides a sourced answer and estimated turnaround; flags the difference between a flight plan and
+      actual departure.
+    negativeResult: >-
+      Insufficient data yields a specific next request. He cannot supply a future corpse photo as an HQ
+      fallback.
 - _id: sangreal-npc-turin-intermediary
-  name: 'The Turin Intermediary'
+  name: The Turin Intermediary
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np14.webp
   prototypeToken:
@@ -668,21 +606,14 @@
   system:
     tier: 3
     description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> Immaculate, late fifties, never photographed head-on, a good coat and a cigar; a dragon crest on the cufflink he does not know anyone recognises.</p>
-      <p><strong>Wants.</strong> To own the remaining eleven vessels, or to profit from whoever does.</p>
-      <p><strong>Will not.</strong> Be threatened. He has never raised his voice in his life and he does not fight — he sells, and then he leaves.</p>
-      <p><strong>Knows.</strong> The Lingotto meeting, the purchase price, and the "remaining eleven" inventory. He has already sold the Novara rendezvous address once today and keeps the rest for the next buyer. Only hard proof of the Basarab involvement cracks the mask.</p>
-      <h3>Psychological Profile</h3>
-      <p>Immaculate, late fifties, never photographed head-on. The "cultured voice" on
-      the PTT intercept: collector, broker, and — as of this case — a man who has already
-      promised the same briefcase to two buyers, one of whom does not haggle. He treats
-      the Covenant as potential inventory. He has never raised his voice in his life.</p>
-      <h3>Social Mechanics</h3>
-      <p>Deceptive / Commercial (Difficulty 3). He buys and sells real information
-      (meeting times, the Lingotto floor plan) and lies by omission as a matter of
-      hygiene. Only hard proof of the Basarab involvement cracks the mask.</p>
-      <h3>Combat Profile</h3>
+      <h3>At the table</h3><p><strong>Look.</strong> Well-dressed mortal broker; discusses danger as if it
+      were a fee dispute.</p><p><strong>Wants.</strong> Profit, settle an undelivered promise, and avoid
+      becoming the clients’ loose end.</p><p><strong>Knows.</strong> Knows the house’s fear of imposed
+      treatment, the current meeting, and a logistics contact. He is not an immortal or a clinical
+      expert.</p><blockquote><p>“Do you leave a loaded gun with a man who calls your existence an
+      illness?”</p></blockquote><h3>When the cell changes the situation</h3><p>Credible protection or proof
+      the clients will silence him buys Novara or airfield information.</p><p>He flees or demands more,
+      leaving phone, bank and vehicle records as alternate routes.</p><h3>Existing combat profile</h3>
       <p>Non-combatant; two bodyguards wait outside every room he is in.</p>
     attributes:
       str: 2
@@ -698,13 +629,14 @@
     corruptionStage: 0
     tags:
       - sangreal
-    secret: 'He sold the Novara rendezvous to the Basarab pack six weeks before the slaughter — the dragon crest on his cufflink was theirs.'
-    goal: 'Own the remaining eleven vessels, or profit from whoever does.'
-    positiveResult: 'Names the Lingotto meeting and the purchase price; leaks the "remaining eleven" inventory.'
-    negativeResult: 'Vanishes to Milan; the case loses its only mortal thread to the Novara rendezvous.'
-
+    secret: >-
+      He promised a second purchase but Corvi refused it. No second vessel left the case in Turin. He sells
+      the rendezvous once he learns it, not six weeks before it exists.
+    goal: Profit, settle an undelivered promise, and avoid becoming the clients’ loose end.
+    positiveResult: Credible protection or proof the clients will silence him buys Novara or airfield information.
+    negativeResult: He flees or demands more, leaving phone, bank and vehicle records as alternate routes.
 - _id: sangreal-npc-watcher
-  name: 'The Grey Watcher'
+  name: The Grey Watcher
   type: npc
   img: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np15.webp
   prototypeToken:
@@ -712,29 +644,15 @@
       src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np15.webp
   system:
     tier: 2
-    description: >
-      <h3>At the table</h3>
-      <p><strong>Look.</strong> A middle-aged man in a grey raincoat with a folded newspaper and a small leather bag — the sort of man a porter forgets inside a minute.</p>
-      <p><strong>Wants.</strong> One photograph of the case changing hands, and a buyer for it.</p>
-      <p><strong>Will not.</strong> Approach the cell, be cornered in a corridor, or be caught in the room when it happens. He steps off at Lausanne if threatened.</p>
-      <p><strong>Knows.</strong> Who has bought his negatives and when — one buyer a religious order operating out of Amsterdam, the other paid in Bucharest gold. He does not lie; if paid he sells that in full, and then walks.</p>
-      <h3>Psychological Profile</h3>
-      <p>There is nothing memorable about him. That is the entire skill. He reads
-      newspapers in the rooms where the case changes hands, rides the same carriages,
-      parks one street over, and writes all of it down. He is Talamasca — older than
-      Registry 16, quieter than Claudia, and on no organizational chart.</p>
-      <h3>Social Mechanics</h3>
-      <p>Unreadable / Evasive (Difficulty 4). He does not lie; he simply is not the person
-      the cell is looking for, and says so with perfect politeness. Cornered with evidence,
-      he trades one verifiable fact and walks.</p>
-      <h3>Combat Profile</h3>
-      <p>Non-combatant. Four decades of fieldwork survived by never being in the room when
-      it happens.</p>
-      <h3>Director Notes</h3>
-      <p>The Watcher is the case's recurring easter egg: he appears in the background of
-      the intel photographs (the F-series photographs, the I18 descent frames, and any street scene the cell shoots).
-      Reward players who notice him with a real advantage — he has the only independent
-      photographic record of the case, including the 04:02 descent (I18).</p>
+    description: >-
+      <h3>At the table</h3><p><strong>Look.</strong> Unremarkable man in a raincoat with a camera and a folded
+      newspaper.</p><p><strong>Wants.</strong> Sell verifiable observations and remain outside the
+      violence.</p><p><strong>Knows.</strong> His own observations, acquired camera copies, and buyers—not
+      every event on the board.</p><blockquote><p>“I can tell you where it went. What you make of that is your
+      work.”</p></blockquote><h3>When the cell changes the situation</h3><p>A transaction or credible leverage
+      yields one authenticated image or movement record.</p><p>He leaves. Do not insert him into the C-series
+      ordinary photos or every image the players take.</p><h3>Existing combat profile</h3> <p>Non-combatant.
+      Four decades of fieldwork survived by never being in the room when it happens.</p>
     attributes:
       str: 2
       agi: 3
@@ -750,7 +668,9 @@
     corruptionStage: 0
     tags:
       - sangreal
-    secret: 'He kept the only independent photographic record of the case — ten years of negatives, including the vault''s second descent.'
-    goal: 'Observe. Record. Remain a footnote.'
-    positiveResult: 'If caught, leaves a plain card — "We watch, and we are always there." — and one useful, verifiable fact.'
-    negativeResult: 'Continues to appear in every surveillance photograph the cell takes, smiling very slightly.'
+    secret: >-
+      An independent observer with Order contacts entered after the theft to confirm its success. He is not a
+      required co-thief.
+    goal: Sell verifiable observations and remain outside the violence.
+    positiveResult: A transaction or credible leverage yields one authenticated image or movement record.
+    negativeResult: He leaves. Do not insert him into the C-series ordinary photos or every image the players take.

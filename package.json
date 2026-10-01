@@ -1,8 +1,8 @@
 {
   "name": "neon-relic-mission-sangreal",
-  "version": "1.14.0",
+  "version": "1.15.0",
   "type": "module",
-  "description": "Foundry VTT v14 content module for Neon Relic — Mission: Sangreal",
+  "description": "Foundry VTT v14 content module for Neon Relic \u2014 Mission: Sangreal",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bruceamoser/neon-relic-mission-sangreal-foundry.git"
@@ -33,7 +33,9 @@
     "art:qa": "python3 tools/art/pipeline.py qa",
     "art:integrate": "python3 tools/art/pipeline.py integration-plan",
     "art:test": "python3 -m unittest discover -s tools/art -p 'test_*.py'",
-    "scenes:verify": "node tools/verify-scene-integration.mjs"
+    "scenes:verify": "node tools/verify-scene-integration.mjs",
+    "mission:verify": "node tools/verify-mission-content.mjs",
+    "test:progress": "node --test tools/test-preserve-progress.mjs"
   },
   "devDependencies": {
     "classic-level": "^3.0.0",

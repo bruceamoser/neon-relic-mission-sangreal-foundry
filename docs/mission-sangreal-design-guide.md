@@ -1,3 +1,5 @@
+> Historical design draft. Superseded for active play by the 30 September 2026 rewrite in `src/packs/sangreal-journals.yaml`. See [rewrite handoff](mission-rewrite-handoff.md). Its fixed outcomes, phial counts, and old cipher explanation are not current canon.
+
 # **Structural Analysis and Case Guide: Mission Sangreal for Project Neon Relic**
 
 ## **1\. Theoretical Architecture of the Conspiratorial Investigative Mystery**

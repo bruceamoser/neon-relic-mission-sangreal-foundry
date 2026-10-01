@@ -1,10 +1,7 @@
-# Mission: Sangreal — Relics & Equipment (Item pack)
-# Items: artifact, relicSheet, weapon, gear
-# Source: docs/mission-sangreal-design-guide.md §4, §7–§8
+# Revised cohesive mission — 2026-09-30. Preserve prior-session continuity.
 ---
-
 - _id: sangreal-relic-phials
-  name: 'The Twelve Phials of Gethsemane'
+  name: The Twelve Phials of Gethsemane
   type: artifact
   img: modules/neon-relic-mission-sangreal/assets/art/relic-phials.webp
   system:
@@ -14,42 +11,39 @@
       current: d20
       starting: d20
     activationCondition: >
-      Introduction into open tissue or mucous membranes (CT1). The vector activates on
-      contact — ingestion, injection, or blood-to-wound exposure. Handling an unsealed
-      phial without protection is a containment breach.
+      Introduction into open tissue or mucous membranes (CT1). The vector activates on contact — ingestion,
+      injection, or blood-to-wound exposure. Handling an unsealed phial without protection is a containment
+      breach.
     effect: >
-      <p><strong>Human ingestion.</strong> The subject gains +3 STR, +3 AGI, +2 Armor
-      Rating, severe photophobia (2 Physical Damage per round in direct sunlight), and an
-      insatiable hunger for living human blood (Willpower/Discipline checks required to
-      resist attacking wounded targets).</p>
-      <p><strong>Vampiric ingestion.</strong> The subject must pass an Endure check against
-      Difficulty 5. Failure triggers rapid biological decay — physical cells age centuries
-      in seconds, reducing the body to calcified ash in three combat rounds. Success purges
-      all supernatural traits, leaving a dying mortal subject suffering systemic organ
-      failure.</p>
+      <p><strong>Human ingestion.</strong> The subject gains +3 STR, +3 AGI, +2 Armor Rating, severe
+      photophobia (2 Physical Damage per round in direct sunlight), and an insatiable hunger for living human
+      blood (Willpower/Discipline checks required to resist attacking wounded targets).</p>
+      <p><strong>Vampiric ingestion.</strong> The subject must pass an Endure check against Difficulty 5.
+      Failure triggers rapid biological decay — physical cells age centuries in seconds, reducing the body to
+      calcified ash in three combat rounds. Success purges all supernatural traits, leaving a dying mortal
+      subject suffering systemic organ failure.</p>
     fractureCondition: >
-      On a Gear Die 1 while handling the case under stress, roll the
-      <em>Phial Fracture (d6)</em> table in the Relic Tables pack.
+      On a Gear Die 1 while handling the case under stress, roll the <em>Phial Fracture (d6)</em> table in the
+      Relic Tables pack.
     emission:
       type: pulse
-      radius: '100 m'
-      trigger: 'Proximity to wounded, anemic, or terminally ill individuals'
+      radius: 100 m
+      trigger: Proximity to wounded, anemic, or terminally ill individuals
       corruptionAmount: 1
       isSuppressed: false
     containmentProfile:
-      type: 'Sovereign Bio-Vector'
+      type: Sovereign Bio-Vector
       isContained: false
       truths:
-        triggerCondition: >
-          CT1 — Contact with open tissue or mucous membranes. Uninfected humans convert
-          within six shifts (24 hours); active vampires burn to ash in minutes.
+        triggerCondition: >-
+          CT1 — Open tissue or mucous membranes. Humans convert over 24 elapsed hours. Vampires resolve Endure
+          Difficulty 5: failure means ash in three rounds; success means mortality with organ failure.
         appetite: >
-          CT2 — Within 100 meters, unshielded phials psychically pull the sick and wounded
-          toward consumption while accelerating their cellular decay.
+          CT2 — Within 100 meters, unshielded phials psychically pull the sick and wounded toward consumption
+          while accelerating their cellular decay.
         quiescenceCondition: >
-          CT3 — Absolute darkness, lead-antimony foil below 4°C, wrapped in unbleached
-          linen soaked in gall, wine vinegar, and myrrh. Daylight causes the fluid to boil
-          and combust into white ash.
+          CT3 — Absolute darkness, lead-antimony foil below 4°C, wrapped in unbleached linen soaked in gall,
+          wine vinegar, and myrrh. Daylight causes the fluid to boil and combust into white ash.
     activePressure: false
     decay:
       value: 0
@@ -57,77 +51,71 @@
     replicable: false
     loreIdentified: false
     description: >
-      <p>A 1964 brushed-steel diplomatic attaché case lined with lead-antimony foil and
-      secured by dual mechanical combination deadbolts. The interior holds a molded blue
-      velvet rack of twelve cylindrical, thick-walled Roman glass phials, each sealed with
-      imperial red beeswax and inscribed with cursive Aramaic characters. Every phial holds
-      50 ml of dark, un-coagulated arterial blood.</p>
-      <p>The craftsmanship is late Roman; the contents are not. The fluid has never
-      coagulated, never cooled below body temperature, and never stopped reacting to the
-      living.</p>
-
+      <p>A 1964 brushed-steel diplomatic attaché case lined with lead-antimony foil and secured by dual
+      mechanical combination deadbolts. The interior holds a molded blue velvet rack of twelve cylindrical,
+      thick-walled Roman glass phials, each sealed with imperial red beeswax and inscribed with cursive
+      Aramaic characters. Every phial holds 50 ml of dark, un-coagulated arterial blood.</p> <p>The
+      craftsmanship is late Roman; the contents are not. The fluid has never coagulated, remained reactive
+      even while held below 4°C, and never stopped reacting to the living.</p>
 - _id: sangreal-vc16-phials
-  name: 'VC-16 — Twelve Phials of Gethsemane'
+  name: VC-16 — Twelve Phials of Gethsemane
   type: relicSheet
   system:
-    relicName: 'The Twelve Phials of Gethsemane'
+    relicName: The Twelve Phials of Gethsemane
     tier: 3
     category: object
-    riskTag: 'Sovereign Bio-Vector'
+    riskTag: Sovereign Bio-Vector
     corruptionCost: 3
     artifactDie: d20
-    emissionType: 'Pulse — 100 m hematological field'
+    emissionType: Pulse — 100 m hematological field
     mundaneAppearance: >
-      A locked 1964 steel attaché case. Heavy for its size. Warm to the touch near the
-      hinges. The brass combination dials carry no manufacturer's mark.
+      A locked 1964 steel attaché case. Heavy for its size. Warm to the touch near the hinges. The brass
+      combination dials carry no manufacturer's mark.
     surfaceRead: >
-      <p><strong>Orthodox exterior.</strong> A 1964 steel diplomatic attaché held in
-      Vatican custody. The Holy See refuses to describe its contents; the only detail
-      on record is a tarnished brass sign reading SANGREAL, recovered from below the
-      case's electromagnetic mooring plinth. Diplomatic property, sealed under
-      pontifical treaty, and certified as generating zero bio-contamination and zero
-      occult hazard.</p>
-    operationalRead: >
-      <p><strong>Forensic anomaly.</strong> The blood is un-coagulated after nearly two
-      millennia and reads as oxygenated arterial fluid. The case lining is lead-antimony,
-      not leather or felt. Photographic analysis of the theft shows the case casts an
-      opaque, pitch-black shadow. Around the sick and wounded, the phials exert a
-      measurable psychic pull and accelerate cellular decay.</p>
+      <p><strong>Orthodox exterior.</strong> A 1964 steel diplomatic attaché held in Vatican custody. The Holy
+      See refuses to describe its contents; the only detail on record is a tarnished brass sign reading
+      SANGREAL, recovered from below the case's electromagnetic mooring plinth. Diplomatic property, sealed
+      under pontifical treaty, and certified as generating zero bio-contamination and zero occult hazard.</p>
+    operationalRead: >-
+      <p>A shielded container holds reactive arterial fluid. Clinical records document a human transformation
+      after administration. Unshielded material affects the sick and wounded. A photograph’s dark shadow
+      cannot establish the lining composition; the workshop records and physical construction do.</p>
     coldArchiveRead: >
-      <p><strong>Subversive synthesis.</strong> The suppressed index of the Secret Archives
-      does not catalog the phials as relics of devotion. Vault IX held them as an
-      instrument of deterrence: the bloodline of an immune carrier whose biology unmakes
-      the curse others call immortality. Rome never venerated the Sangreal. It stockpiled
-      it.</p>
-    activationCondition: >
-      Contact with open tissue or mucous membranes. The vector does not negotiate: it
-      rewrites what it touches. Ingestion by an uninfected human forces mutagenic
-      conversion within six shifts; ingestion by an active vampire breaks necrotic stasis
-      and ages the body to ash in minutes (Endure Difficulty 5 negates, leaving a dying
-      mortal).
+      <p><strong>Subversive synthesis.</strong> The suppressed index of the Secret Archives does not catalog
+      the phials as relics of devotion. Vault IX held them as an instrument of deterrence: the bloodline of an
+      immune carrier whose biology unmakes the curse others call immortality. Rome never venerated the
+      Sangreal. It stockpiled it.</p>
+    activationCondition: >-
+      Open tissue or mucous-membrane exposure. Humans convert over 24 elapsed hours (four case-board shifts).
+      Existing vampires make Endure Difficulty 5: failure reduces them to ash in three combat rounds; success
+      purges supernatural traits but leaves a mortal with systemic organ failure.
     mechanicalEffect: >
-      <p>See the artifact item <strong>The Twelve Phials of Gethsemane</strong> for the
-      full mechanical profile: +3 STR / +3 AGI / +2 AR and blood-hunger for converted
-      humans; fatal senescence for vampires. Exposure to direct sunlight destroys a phial's
-      contents (white ash) — and ruptures the glass catastrophically.</p>
+      <p>See the artifact item <strong>The Twelve Phials of Gethsemane</strong> for the full mechanical
+      profile: +3 STR / +3 AGI / +2 AR and blood-hunger for converted humans; fatal senescence for vampires.
+      Exposure to direct sunlight destroys a phial's contents (white ash) — and ruptures the glass
+      catastrophically.</p>
     fractureCondition: >
-      Fracture on Gear Die 1s while the case is handled under pressure — roll the
-      <em>Phial Fracture (d6)</em> table: hairline stress, vapor leak, catastrophic
-      rupture, or resonance detonation.
+      Fracture on Gear Die 1s while the case is handled under pressure — roll the <em>Phial Fracture (d6)</em>
+      table: hairline stress, vapor leak, catastrophic rupture, or resonance detonation.
     containmentProfile: >
-      Keep sealed in darkness, wrapped in gall/vinegar/myrrh-soaked linen, inside
-      lead-antimony foil below 4°C. Never open in daylight. Never handle unshielded near
-      the injured. If a phial breaks: clear the area, suppress sunlight, and expect
-      reanimation in the dark.
+      Keep sealed in darkness, wrapped in gall/vinegar/myrrh-soaked linen, inside lead-antimony foil below
+      4°C. Never open in daylight. Never handle unshielded near the injured. If a phial breaks: clear the
+      area, suppress sunlight, and expect reanimation in the dark.
     containmentTruths:
       - id: CT1
-        description: 'Contact with open tissue or mucous membranes converts humans within six shifts and destroys vampires in minutes.'
+        description: >-
+          Contact with open tissue or mucous membranes converts humans within 24 hours and destroys vampires
+          in minutes.
         checked: false
       - id: CT2
-        description: 'Within 100 m, unshielded phials psychically pull the sick toward consumption and accelerate their decay.'
+        description: >-
+          Within 100 m, unshielded phials psychically pull the sick toward consumption and accelerate their
+          decay.
         checked: false
       - id: CT3
-        description: 'Absolute darkness, lead-antimony foil below 4°C, unbleached linen soaked in gall, wine vinegar, and myrrh. Daylight burns it to ash.'
+        description: >-
+          Absolute darkness, lead-antimony foil below 4°C, unbleached linen soaked in gall, wine vinegar, and
+          myrrh. Daylight burns it to ash.
         checked: false
       - id: ''
         description: ''
@@ -145,18 +133,17 @@
         description: ''
         checked: false
     relicImage: modules/neon-relic-mission-sangreal/assets/art/relic-phials.svg
-    daNotes: >
-      <p>The case's centerpiece and the campaign's moral fulcrum. Rome calls it a
-      deterrent; Amsterdam calls it an execution order; the truth is that it is a cure no
-      one dares use. Guard the pacing: the relic should feel seductive to the desperate and
-      monstrous to the principled. The fracture table is the pressure valve for every
-      careless handoff.</p>
+    daNotes: >-
+      <p>Pure source blood can create potent human predators outside the existing diluted lines, which
+      motivates Church containment. Existing vampires instead face a purge, which motivates the elders’
+      incineration order. Preserve the artifact’s recipient-specific mechanics. Cure is a contested political
+      term, not a promise of safe recovery. See the revised walkthrough for evidence thresholds and the actual
+      custody ledger.</p>
     caseId: SANGREAL-87-091
-    description: >
+    description: |
       <p>VC-16 relic sheet for the mission's central artifact. DA eyes only.</p>
-
 - _id: sangreal-relic-lodestone
-  name: 'The Lodestone of St. Jude'
+  name: The Lodestone of St. Jude
   type: artifact
   img: modules/neon-relic-mission-sangreal/assets/art/relic-lodestone.webp
   system:
@@ -166,35 +153,33 @@
       current: d6
       starting: d6
     activationCondition: >
-      The user coats the stone in saliva and fresh arterial blood — inflicting 1 STR
-      damage or 1 Stress — while reciting an apostolic prayer.
+      The user coats the stone in saliva and fresh arterial blood — inflicting 1 STR damage or 1 Stress —
+      while reciting an apostolic prayer.
     effect: >
-      <p>Generates a 5-meter <em>Null-Induction Sphere</em> for 60 seconds. All
-      electronic potential, electromagnetic attraction, and battery discharge cease
-      entirely; industrial electromagnets fail, alarm circuits burn out, and tape
-      recorders go silent. Mechanical locks remain mechanical.</p>
+      <p>Generates a 5-meter <em>Null-Induction Sphere</em> for 60 seconds. All electronic potential,
+      electromagnetic attraction, and battery discharge cease entirely; industrial electromagnets fail, alarm
+      circuits burn out, and tape recorders go silent. Mechanical locks remain mechanical.</p>
     fractureCondition: >
-      Fracture on Gear Die 1s while active — the sphere collapses in a burst of static
-      and the stone crumbles to magnetite sand.
+      Fracture on Gear Die 1s while active — the sphere collapses in a burst of static and the stone crumbles
+      to magnetite sand.
     emission:
       type: burst
-      radius: '5 m'
-      trigger: 'Activation'
+      radius: 5 m
+      trigger: Activation
       corruptionAmount: 0
       isSuppressed: false
     containmentProfile:
-      type: 'Minor Relic'
+      type: Minor Relic
       isContained: true
       truths:
         triggerCondition: >
-          Activation requires blood and recitation; the Sphere suppresses electromagnetic
-          phenomena within 5 meters for 60 seconds.
-        appetite: >
-          The stone draws warmth from the hand that holds it; repeated use leaves fingers
-          numb and blood cold.
+          Activation requires blood and recitation; the Sphere suppresses electromagnetic phenomena within 5
+          meters for 60 seconds.
+        appetite: |
+          The stone draws warmth from the hand that holds it; repeated use leaves fingers numb and blood cold.
         quiescenceCondition: >
-          Wrapped in silk and stored away from ferrous metals. It will drag loose keys,
-          pins, and wire toward itself in a pocket.
+          Wrapped in silk and stored away from ferrous metals. It will drag loose keys, pins, and wire toward
+          itself in a pocket.
     activePressure: false
     decay:
       value: 0
@@ -202,12 +187,11 @@
     replicable: false
     loreIdentified: false
     description: >
-      <p>A thumb-sized nodule of natural magnetite banded with tarnished first-century
-      Judaean silver wire. The wire is hand-twisted, not cast — the work of a provincial
-      silversmith, and older than any workshop mark it once carried.</p>
-
+      <p>A thumb-sized nodule of natural magnetite banded with tarnished first-century Judaean silver wire.
+      The wire is hand-twisted, not cast — the work of a provincial silversmith, and older than any workshop
+      mark it once carried.</p>
 - _id: sangreal-relic-veronica
-  name: "The Veil of Veronica's Thread"
+  name: The Veil of Veronica's Thread
   type: artifact
   img: modules/neon-relic-mission-sangreal/assets/art/relic-veronica.webp
   system:
@@ -217,33 +201,31 @@
       current: d4
       starting: d4
     activationCondition: >
-      Snap the thread between thumb and forefinger while whispering the Latin
-      <em>Nunc Dimittis</em>. The thread is single-use; it burns to white ash on
-      activation.
+      Snap the thread between thumb and forefinger while whispering the Latin <em>Nunc Dimittis</em>. The
+      thread is single-use; it burns to white ash on activation.
     effect: >
-      <p>Produces an instantaneous blinding flash of phosphorus light (Endure check or
-      suffer flash-blindness for 2 rounds) accompanied by a 5-minute temporal and sensory
-      displacement. The user vanishes from sight, sound, and electronic surveillance,
-      leaving zero scent trails or physical tracks.</p>
+      <p>Produces an instantaneous blinding flash of phosphorus light (Endure check or suffer flash-blindness
+      for 2 rounds) accompanied by a 5-minute temporal and sensory displacement. The user vanishes from sight,
+      sound, and electronic surveillance, leaving zero scent trails or physical tracks.</p>
     fractureCondition: >
-      Fracture on Gear Die 1s — the flash consumes the thread without displacing the
-      user, marking their last position in light-dazzled long exposure.
+      Fracture on Gear Die 1s — the flash consumes the thread without displacing the user, marking their last
+      position in light-dazzled long exposure.
     emission:
       type: burst
-      radius: 'Line of sight'
-      trigger: 'Thread snapped'
+      radius: Line of sight
+      trigger: Thread snapped
       corruptionAmount: 0
       isSuppressed: false
     containmentProfile:
-      type: 'Single-Use Relic'
+      type: Single-Use Relic
       isContained: true
       truths:
         triggerCondition: >
-          Single activation: snap + whisper. Effect lasts five minutes before the user
-          snaps back into sensory reality.
-        appetite: >
+          Single activation: snap + whisper. Effect lasts five minutes before the user snaps back into sensory
+          reality.
+        appetite: |
           The thread smells faintly of sweat and grave cloth each time it is examined.
-        quiescenceCondition: >
+        quiescenceCondition: |
           One use only. After burning, nothing remains but white ash and a needle.
     activePressure: false
     decay:
@@ -252,55 +234,55 @@
     replicable: false
     loreIdentified: false
     description: >
-      <p>A three-inch frayed linen thread dyed pale ochre, threaded through an unadorned
-      silver sewing needle. Coiled small, it would pass for a repair no one ever
-      bothered to finish.</p>
-
+      <p>A three-inch frayed linen thread dyed pale ochre, threaded through an unadorned silver sewing needle.
+      Coiled small, it would pass for a repair no one ever bothered to finish.</p>
 - _id: sangreal-vc16-lodestone
-  name: 'VC-16 — Lodestone of St. Jude'
+  name: VC-16 — Lodestone of St. Jude
   type: relicSheet
   system:
-    relicName: 'The Lodestone of St. Jude'
+    relicName: The Lodestone of St. Jude
     tier: 1
     category: object
-    riskTag: 'Minor Relic'
+    riskTag: Minor Relic
     corruptionCost: 1
     artifactDie: d6
-    emissionType: 'Burst — 5 m null-induction sphere'
-    mundaneAppearance: 'A thumb-sized black stone on a loop of tarnished silver wire. Easy to mistake for a fishing weight or a coin purse charm.'
+    emissionType: Burst — 5 m null-induction sphere
+    mundaneAppearance: >-
+      A thumb-sized black stone on a loop of tarnished silver wire. Easy to mistake for a fishing weight or a
+      coin purse charm.
     surfaceRead: >
-      <p>A pilgrim's curio — magnetite and silver wire, first-century Judaean work. Of
-      interest to antiquarians, not to physicists.</p>
+      <p>A pilgrim's curio — magnetite and silver wire, first-century Judaean work. Of interest to
+      antiquarians, not to physicists.</p>
     operationalRead: >
-      <p>Forensic residue at Vault IX links it to the breach: copper induction coils
-      melted from the inside out under total magnetic saturation, with sulfur, lapis
-      lazuli, and crystalline Judaean silver vitrified in the slag.</p>
+      <p>Forensic residue at Vault IX links it to the breach: copper induction coils melted from the inside
+      out under total magnetic saturation, with sulfur, lapis lazuli, and crystalline Judaean silver vitrified
+      in the slag.</p>
     coldArchiveRead: >
-      <p>The Secret Archives' suppressed index lists the Lodestone as a "mooring key" —
-      the only object authorized to approach Vault IX's electromagnetic plinth. Corvi
-      requested the index card for it nine days before the theft.</p>
+      <p>The Secret Archives' suppressed index lists the Lodestone as a "mooring key" — the only object
+      authorized to approach Vault IX's electromagnetic plinth. Corvi requested the index card for it nine
+      days before the theft.</p>
     activationCondition: >
-      Blood and prayer. The user takes 1 STR damage or 1 Stress to coat the stone, then
-      recites. The sphere lasts 60 seconds.
+      Blood and prayer. The user takes 1 STR damage or 1 Stress to coat the stone, then recites. The sphere
+      lasts 60 seconds.
     mechanicalEffect: >
-      <p>All electronic potential, electromagnetic attraction, and battery discharge cease
-      inside 5 meters. Industrial electromagnets fail, alarm circuits burn out, tape
-      recorders go silent, radios die. Mechanical systems are unaffected.</p>
+      <p>All electronic potential, electromagnetic attraction, and battery discharge cease inside 5 meters.
+      Industrial electromagnets fail, alarm circuits burn out, tape recorders go silent, radios die.
+      Mechanical systems are unaffected.</p>
     fractureCondition: >
-      Rolling a Gear Die 1 while the sphere is active collapses it in a burst of static;
-      the stone crumbles to magnetite sand.
+      Rolling a Gear Die 1 while the sphere is active collapses it in a burst of static; the stone crumbles to
+      magnetite sand.
     containmentProfile: >
-      Wrap in silk; keep away from ferrous metals, magnetic media, and pacemaker wearers.
-      It will pull at keys, pins, and wire through cloth.
+      Wrap in silk; keep away from ferrous metals, magnetic media, and pacemaker wearers. It will pull at
+      keys, pins, and wire through cloth.
     containmentTruths:
       - id: CT1
-        description: 'Requires blood (1 STR or 1 Stress) and an apostolic prayer to activate.'
+        description: Requires blood (1 STR or 1 Stress) and an apostolic prayer to activate.
         checked: false
       - id: CT2
-        description: 'The stone draws warmth from the holder; repeated use numbs the fingers.'
+        description: The stone draws warmth from the holder; repeated use numbs the fingers.
         checked: false
       - id: CT3
-        description: 'Stored in silk, away from ferrous metals — otherwise it drags loose hardware toward itself.'
+        description: Stored in silk, away from ferrous metals — otherwise it drags loose hardware toward itself.
         checked: false
       - id: ''
         description: ''
@@ -319,61 +301,58 @@
         checked: false
     relicImage: modules/neon-relic-mission-sangreal/assets/art/relic-lodestone.svg
     daNotes: >
-      <p>The breach tool and the proof of premeditation. The residue in the vault's copper
-      conduits (I01) is the strongest physical evidence in the Rome cluster — let careful
-      players earn it. If the cell recovers the Lodestone itself, it becomes a tactical
-      answer to electronic security for the rest of the case.</p>
+      <p>The breach tool and the proof of premeditation. The residue in the vault's copper conduits (I01) is
+      the strongest physical evidence in the Rome cluster — let careful players earn it. If the cell recovers
+      the Lodestone itself, it becomes a tactical answer to electronic security for the rest of the case.</p>
     caseId: SANGREAL-87-091
-    description: >
+    description: |
       <p>VC-16 relic sheet for the vault-breach artifact. DA eyes only.</p>
-
 - _id: sangreal-vc16-veronica
-  name: "VC-16 — The Veil of Veronica's Thread"
+  name: VC-16 — The Veil of Veronica's Thread
   type: relicSheet
   system:
-    relicName: "The Veil of Veronica's Thread"
+    relicName: The Veil of Veronica's Thread
     tier: 1
     category: object
-    riskTag: 'Single-Use Relic'
+    riskTag: Single-Use Relic
     corruptionCost: 1
     artifactDie: d4
-    emissionType: 'Burst — phosphorus flash + 5-minute displacement'
-    mundaneAppearance: 'A frayed ochre thread on an unadorned silver needle, tucked inside wooden rosary beads like an unfinished repair.'
+    emissionType: Burst — phosphorus flash + 5-minute displacement
+    mundaneAppearance: >-
+      A frayed ochre thread on an unadorned silver needle, tucked inside wooden rosary beads like an
+      unfinished repair.
     surfaceRead: >
-      <p>A sewing repair. Utterly unremarkable, even under inspection by someone who does
-      not know to look inside the beads.</p>
+      <p>A sewing repair. Utterly unremarkable, even under inspection by someone who does not know to look
+      inside the beads.</p>
     operationalRead: >
-      <p>Post-flash forensic sites show phosphorus residue with no accelerant, no heat
-      bloom, and no tracks leaving the point of disappearance. Tape and film near an
-      activation read as blank or fully overexposed.</p>
+      <p>Post-flash forensic sites show phosphorus residue with no accelerant, no heat bloom, and no tracks
+      leaving the point of disappearance. Tape and film near an activation read as blank or fully
+      overexposed.</p>
     coldArchiveRead: >
-      <p>Listed in the suppressed index as a "Veronica type" single-use displacement
-      device — cloister-made, originally for extracting confessors from hostile
-      jurisdictions. The Talamasca has acquired three in eighty years. This is the
-      fourth.</p>
-    activationCondition: >
-      Snap the thread while whispering <em>Nunc Dimittis</em>. Single use; burns to white
-      ash.
+      <p>Listed in the suppressed index as a "Veronica type" single-use displacement device — cloister-made,
+      originally for extracting confessors from hostile jurisdictions. The Talamasca has acquired three in
+      eighty years. This is the fourth.</p>
+    activationCondition: |
+      Snap the thread while whispering <em>Nunc Dimittis</em>. Single use; burns to white ash.
     mechanicalEffect: >
-      <p>Instant phosphorus flash — everyone with line of sight must pass an Endure check
-      or suffer flash-blindness for 2 rounds. The user vanishes from sight, sound, and
-      electronic surveillance for 5 minutes, leaving no scent or tracks. They reappear
-      wherever they stopped walking.</p>
+      <p>Instant phosphorus flash — everyone with line of sight must pass an Endure check or suffer
+      flash-blindness for 2 rounds. The user vanishes from sight, sound, and electronic surveillance for 5
+      minutes, leaving no scent or tracks. They reappear wherever they stopped walking.</p>
     fractureCondition: >
-      Gear Die 1 — the flash fires but the displacement fails. The user is blind, marked,
-      and standing exactly where they were.
+      Gear Die 1 — the flash fires but the displacement fails. The user is blind, marked, and standing exactly
+      where they were.
     containmentProfile: >
-      Handle only when ready to burn it. There is no way to test the thread without
-      consuming it, and no way to track a displaced user once it is spent.
+      Handle only when ready to burn it. There is no way to test the thread without consuming it, and no way
+      to track a displaced user once it is spent.
     containmentTruths:
       - id: CT1
         description: 'Single activation: snap and whisper. The thread burns to ash.'
         checked: false
       - id: CT2
-        description: 'The thread smells of sweat and grave cloth; prolonged handling distresses animals.'
+        description: The thread smells of sweat and grave cloth; prolonged handling distresses animals.
         checked: false
       - id: CT3
-        description: 'No recovery after use. The needle remains; the thread is gone.'
+        description: No recovery after use. The needle remains; the thread is gone.
         checked: false
       - id: ''
         description: ''
@@ -392,22 +371,20 @@
         checked: false
     relicImage: modules/neon-relic-mission-sangreal/assets/art/relic-veronica.svg
     daNotes: >
-      <p>Claudia's escape hatch and the engine of the Turin betrayal. When it fires at L5,
-      the cell loses the case and their transport line — play the five minutes of absence
-      as a cold, quiet horror rather than a chase. The thread does not fail Claudia; it
-      simply runs out at Novara, where the Basarab pack does not need to track her at all.
-      They were already waiting.</p>
+      <p>Claudia's escape hatch and the engine of the Turin betrayal. When it fires at L5, the cell loses the
+      case and their transport line — play the five minutes of absence as a cold, quiet horror rather than a
+      chase. The thread does not fail Claudia; it simply runs out at Novara, where the Basarab pack does not
+      need to track her at all. They were already waiting.</p>
     caseId: SANGREAL-87-091
-    description: >
+    description: |
       <p>VC-16 relic sheet for the Talamasca extraction device. DA eyes only.</p>
-
 - _id: sangreal-kit-revolver32
-  name: 'Revolver (.32)'
+  name: Revolver (.32)
   type: weapon
   system:
     description: >
-      Monsignor Corvi's antique five-round revolver, kept loaded with .32 rounds older
-      than most of his students. Reliable as a machine; heavy in a scholar's hands.
+      Monsignor Corvi's antique five-round revolver, kept loaded with .32 rounds older than most of his
+      students. Reliable as a machine; heavy in a scholar's hands.
     damage: 1
     range: short
     skill: firearms
@@ -423,16 +400,14 @@
       starting: d6
     traits:
       reliable: true
-
 - _id: sangreal-kit-beretta70
-  name: 'Beretta 70'
+  name: Beretta 70
   type: weapon
   system:
     description: >
-      Compact Italian semi-automatic in .32 ACP, eight-round magazine, carried
-      concealed in a rosary-brown shoulder rig. Sister Claudia's sidearm is clean,
-      well-oiled, and has never been fired inside church property — that anyone can
-      prove.
+      Compact Italian semi-automatic in .32 ACP, eight-round magazine, carried concealed in a rosary-brown
+      shoulder rig. Sister Claudia's sidearm is clean, well-oiled, and has never been fired inside church
+      property — that anyone can prove.
     damage: 2
     range: short
     skill: firearms
@@ -448,16 +423,14 @@
       starting: d8
     traits:
       reliable: true
-
 - _id: sangreal-kit-uvfloodlight
-  name: 'Ultraviolet Floodlight'
+  name: Ultraviolet Floodlight
   type: gear
   system:
     description: >
-      Industrial portable UV flood lamp on a folding stand — the kind used to cure
-      printing inks and inspect hotel carpets. Casts a hard blue-white wash that
-      scorches photosensitive predators and leaves afterimages on undeveloped film.
-      Heavy, loud to start, and thirsty for D-cell batteries.
+      Industrial portable UV flood lamp on a folding stand — the kind used to cure printing inks and inspect
+      hotel carpets. Casts a hard blue-white wash that scorches photosensitive predators and leaves
+      afterimages on undeveloped film. Heavy, loud to start, and thirsty for D-cell batteries.
     gearBonus:
       value: 1
       max: 1
@@ -466,16 +439,14 @@
     cl: 2
     skillBonus: investigate
     isBroken: false
-
 - _id: sangreal-kit-phosphorusflare
-  name: 'Phosphorus Flare'
+  name: Phosphorus Flare
   type: consumable
   system:
     description: >
-      Military-grade phosphorus flare. Burns sun-bright for one scene and leaves no
-      shadow worth hiding in — repels photophobic targets, or ruins everyone's night
-      vision indoors. Distinct from a standard signal flare: hotter, whiter, and far
-      less polite in enclosed spaces.
+      Military-grade phosphorus flare. Burns sun-bright for one scene and leaves no shadow worth hiding in —
+      repels photophobic targets, or ruins everyone's night vision indoors. Distinct from a standard signal
+      flare: hotter, whiter, and far less polite in enclosed spaces.
     consumableType: supply
     currentDie: d6
     startingDie: d6

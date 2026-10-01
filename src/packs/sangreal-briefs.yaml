@@ -1,295 +1,417 @@
-# Mission: Sangreal — Case Briefs (Item pack)
-# Items: daCaseBrief (VC-17), playerCaseBrief (VC-18)
-# Source: docs/mission-sangreal-design-guide.md §3
+# Revised cohesive mission — 2026-09-30. Preserve prior-session continuity.
 ---
-
 - _id: sangreal-da-brief
-  name: 'SANGREAL-87-091 — DA Case Brief'
+  name: SANGREAL-87-091 — DA Case Brief
   type: daCaseBrief
   system:
     caseId: SANGREAL-87-091
     caseName: 'Mission: Sangreal'
     relicTier: 3
-    region: 'Region 04 — Western Europe / Italian-Swiss Corridor'
-    mysteryStatement: >
-      <p>A stolen Vatican diplomatic attaché containing twelve sealed phials of progenitor
-      arterial fluid is being brokered across Western Europe under false clerical assurances
-      of zero biological risk, while an embedded double agent guides the Covenant cell toward
-      a manufactured vampire outbreak — obscuring the truth that the blood is an apex
-      biological vector capable of either creating feral predators or permanently purging
-      immortal bloodlines.</p>
-    realSituation: >
-      <p><strong>The truth in plain words.</strong> Twelve phials of blood were taken out of
-      circulation in 1582 and sealed in a lead case named <em>Sangreal</em> beneath St. Peter's. The
-      blood is not a relic and not a sacrament. It is a cure: a graft that rebuilds marrow and tissue
-      and keeps rebuilding them, in the dark, on a falling body temperature, with an appetite for
-      plasma that nothing sates. The Church's own histopathology calls it <em>foreign graft — not
-      infection</em>.</p>
-      <p><strong>Monsignor Matteo Corvi</strong>, Prefect of the Secret Archives, translated the
-      Ebionite fragments, understood what the blood was, and decided the Church should not keep it. On
-      Day 14 he disabled the vault's electromagnetic cradle with the <em>Lodestone of St. Jude</em>,
-      removed the case, and rode north — brokering one phial to a dying man in Zurich
-      (<strong>Kurt Hausmann</strong>) and one to a broker in Turin, to fund his road to an Alpine
-      monastery. He is not a thief in the ordinary sense: he is a man trying to bury a weapon, and he
-      never got the money.</p>
-      <p><strong>Cardinal Enrico Sabbatini</strong> engaged the Covenant to recover the case under
-      diplomatic secrecy and attached <strong>Sister Claudia Vane</strong> as liaison. Claudia is a
-      deep-cover asset of Registry 16, the covert arm of the Talamasca Motherhouse in Amsterdam, whose
-      hidden elders are ancient vampire bloodlines. Her orders are to use the Covenant to find Corvi,
-      take the case at the first isolated moment, and deliver it to a rendezvous at San Nazzaro for air
-      transit to the Carpathians, where the cure will be incinerated. She is running the cell as
-      muscle and she has been doing it since Rome.</p>
-      <p><strong>The misdirection, stated plainly.</strong> The players will spend ten days certain the
-      blood is a demonic plague, and the Zurich material will confirm that reading: Hausmann, cured of
-      end-stage cancer in forty-eight hours, becomes photophobic, hypothermic, sleepless and hungry for
-      plasma. Nothing in the clinic contradicts them.</p>
-      <p><strong>The truth behind it.</strong> The graft is real and the cure works; what the human body
-      cannot do is regulate it. The histopathology from Zurich, Corvi's own translation of the Gospel
-      of the Twelve, and the two fingers burned to white ash at Novara prove the other half: the same
-      fluid that converts a healthy person into a predatory carrier kills an active vampire on contact,
-      turning it to ash in minutes. <strong>That is the horror — the cure works, and the people hunting
-      it are the ones who are afraid of it.</strong> The hunters are not trying to seize a weapon. They
-      are racing to destroy the only substance on Earth that can unmake them.</p>
-      <p><strong>Why it matters to both institutions.</strong> Vampirism thins as it is transmitted, and four centuries of transmission have left the dynasties unable to make more of themselves at any worthwhile strength — which is why there has been no war in two hundred years. The Church cannot exterminate them; they cannot renew. The accommodation that results is unwritten and arithmetic: the Church does not hunt, the dynasties do not multiply, and both police their own. The phials are <em>pure</em> blood, and they are the one thing that breaks that arithmetic in either direction — a dynasty restored overnight, or a cure used on the dynasties themselves. The Church fears a rebirth; the dynasties fear an extermination; both fears are correct about the fluid and wrong about each other. That symmetry, not greed, is what kills Claudia at Novara.</p>
-      <p><strong>The name.</strong> The case is labelled <strong>Sangreal</strong>, and the word is a trap with two readings. <em>San Greal</em> — the Holy Grail — is the one the players will take, and the Church's refusal to describe the contents exists to encourage it; nobody should correct them. <em>Sang real</em> — royal blood — is the truth, and the case's own evidence re-parses it: twelve phials, a Gethsemane lot, a marrow graft in no known tissue, two calcified fingers, and Corvi's margin note <em>sanguis remedium, non sacramentum</em>. Spend the second reading once, at the Lingotto parley, and not before.</p>
-      <p><strong>How it ends.</strong> Claudia snaps <em>The Veil of Veronica's Thread</em> during the
-      handling at the Lingotto, blinds the cell, and escapes with the case. The cell tracks her to the
-      fortified retreat at San Nazzaro and finds her dead on the dining table — executed by the pack,
-      her metacarpals reduced to ash. Ten phials are already loading aboard a Cessna 421 at
-      Novara-Cameri; wheels-up at 01:15 closes the case and opens <em>Mission 2: Recover the
-      Sangreal</em>.</p>
+    region: Region 04 — Western Europe / Italian-Swiss Corridor
+    mysteryStatement: >-
+      <p>A stolen reserve of undiluted blood threatens a peace built on diluted vampire inheritance. The
+      Church fears new potent lines; the elders fear imposed mortality. The cell must find the blood,
+      establish what happened to its first recipient, and choose a custody that does not turn recovery into
+      deployment.</p>
+    realSituation: >-
+      <h3>The case in one paragraph</h3><p>The Vatican has lost twelve phials of undiluted blood. A fragile
+      accommodation with vampire houses depends on their inability to expand without thinning their own power.
+      The Church fears that this pure source could start new, potent lines outside that limit. The old houses
+      fear a different possibility: Rome might forcibly “cure” them, ending the condition that keeps centuries
+      of age at bay. Corvi steals the reserve to prevent its use as a weapon, then authorizes one reckless
+      treatment to finance an escape and prove that the blood can heal. Hausmann’s transformation destroys
+      that hope. Claudia, convinced she is preventing an outbreak, helps the investigators find Corvi while
+      secretly arranging to deliver the blood to elders who intend to burn the threat to
+      themselves.</p><h3>The name is the first invitation</h3><p><strong>San Greal:</strong> the expected Holy
+      Grail reading. Church custody, ritual language, secrecy, and a missing sacred object all support the
+      players’ assumption. Nobody needs to falsely confirm a cup. Sabbatini says “the entrusted contents”;
+      Ghiberti says “the custody”; Claudia says “what was sealed.” Let the players supply the
+      Grail.</p><p><strong>Sang Real:</strong> the blood reading—blood royal, treated by these custodians as
+      holy blood. This is the mission’s play on words, not a language exam. Use the user’s intended “holy
+      blood” sense as ecclesiastical meaning rather than claiming “real” literally translates as “holy.” A
+      player who spots blood on the first morning is correct and gets useful traction. Neither the narrator
+      nor a frightened NPC needs to withhold the word until a designated act.</p><blockquote><p>Corvi, if the
+      players have not already made the connection: “You put the break after the saint. Put it after the
+      blood. They let you look for a cup because a cup cannot breed.”</p></blockquote><h3>The peace is
+      practical, not benevolent</h3><p>The houses police uncontrolled feeding and unauthorized turning; the
+      Church refrains from a general hunt and conceals incidents it can contain. Ordinary people are not
+      parties to the bargain. Each new turning divides an already diminished inheritance: expansion now costs
+      a house strength it cannot readily replace. This arithmetic, more than friendship, makes coexistence
+      preferable to war. The phials threaten the arithmetic. A new human recipient can become a powerful
+      predator without drawing on an existing house’s depleted blood. Whether such a new line could be
+      stabilized and propagated is unproven; the demonstrated conversion is already enough to make the Church
+      fear a rebirth. Do not invent a safe way for elders to drink the source and become stronger: for an
+      existing vampire, the same fluid is a
+      purge.</p><table><thead><tr><th>Faction/person</th><th>Fear</th><th>What it does at the
+      table</th><th>What can change its conduct</th></tr></thead><tbody><tr><td>Sabbatini / Holy
+      Alliance</td><td>New potent predators make the current limits meaningless; a rival may force a general
+      war</td><td>Demands sealed custody, tracks recipients, restricts transit, pressures witnesses</td><td>A
+      credible joint containment plan, documented inventory, protection from public panic, independent
+      witnesses to any transfer</td></tr><tr><td>Registry 16 / Basarab elders</td><td>Rome can end their
+      condition by force; the theft looks like preparation for deployment</td><td>Uses mortal intermediaries,
+      orders incineration, keeps bare skin away from the blood</td><td>Verified destruction or supervised
+      neutral custody may buy a pause; no trust in Rome’s promise alone</td></tr><tr><td>Corvi</td><td>The
+      reserve becomes a weapon; then his own attempted healing creates the threat he fled</td><td>Leaves a
+      route to his research, lies about how certain he was, refuses an unaccountable return</td><td>Admit
+      Hausmann matters, preserve records, propose independent custody</td></tr><tr><td>Claudia</td><td>A
+      relapse into uncontrolled vampirism that her Order taught her to prevent</td><td>Opens doors, protects
+      civilians, secretly reports and prepares extraction</td><td>Proof her handlers serve the threatened
+      elders plus an alternative she can believe will contain the blood</td></tr><tr><td>Graf /
+      Hausmann</td><td>Responsibility for the experiment / imminent death</td><td>Graf seeks safety and
+      accountability; Hausmann first seeks help, then struggles with hunger</td><td>Specific protection and
+      medical caution, not a sermon about monstrosity</td></tr></tbody></table><h3>What the blood does: three
+      kinds of
+      evidence</h3><table><thead><tr><th>Status</th><th>Truth</th></tr></thead><tbody><tr><td>Established in
+      play by the clinic</td><td>One treated human loses his cancer and develops predatory physiology. This
+      does not establish the origin of a religion or the outcome for every possible
+      recipient.</td></tr><tr><td>Established by comparative evidence</td><td>The same vector attacks vampiric
+      stasis. I09 supplies the human mechanism; I12 is a historical claim; I38 or direct observation supplies
+      physical vampire evidence. Similar-looking ash alone is not a diagnosis.</td></tr><tr><td>Relic
+      mechanics for the DA</td><td>CT1 activates through open tissue or mucous membranes; human conversion
+      takes 24 elapsed hours. On the four-shift case board that is four shifts. Existing vampires use the
+      artifact’s Endure Difficulty 5 outcome: failure brings ash in three rounds; success leaves a mortal with
+      organ failure. CT2 operates within 100 m when unshielded. CT3 is darkness, lead-antimony, below 4°C,
+      treated linen. Preserve the existing artifact bonuses and fracture
+      table.</td></tr></tbody></table><p>The apocryphon attributes the source to Christ and speaks of unmaking
+      a curse. It is evidence of what its author believed, not a laboratory proof of divine biography. Let the
+      players debate theology. The operational discovery is sufficiently concrete: the danger depends on the
+      recipient. The elders call forced mortality a killing; the Church calls keeping the reserve deterrence.
+      Neither word settles the ethics.</p><h3>Before the investigators arrived</h3><ul><li>Months earlier,
+      Corvi translated the suppressed text and found memoranda contemplating coercive use of the reserve.
+      Sabbatini keeps contingency options open; he has not authorized the theft or the Swiss injection. Corvi
+      knows those are not the same thing and fears the distinction will not last.</li><li>Corvi approached
+      Hausmann’s representatives before the theft. The CHF 500,000 is a conditional escrow routed through a
+      dormant ecclesiastical trust Corvi can access—not proof the whole Church commissioned an experiment. He
+      promised one speculative treatment to buy protection and fund a remote refuge. It was a deliberate moral
+      failure, not an innocent accident.</li><li>Claudia’s Registry assignment predates the breach. She
+      searched Corvi’s room for the research during his absence and arranged a Geneva records inquiry. Her
+      current presence beside the cell does not require impossible simultaneous travel: the earlier bank visit
+      preceded her liaison assignment.</li><li>Corvi used the Lodestone to release the entire closed attaché.
+      The vault held a case cradle, not eleven exposed phials. The Grey Watcher entered later to record the
+      breach and confirm Corvi had succeeded; he did not help Corvi operate the cradle. Gerard’s actual
+      testimony at your table remains authoritative.</li></ul><h3>Custody ledger — count physical vessels, not
+      orders</h3><table><thead><tr><th>State</th><th>Intact vessels</th><th>Where the missing contents
+      went</th></tr></thead><tbody><tr><td>Vault / theft</td><td>12</td><td>None</td></tr><tr><td>Hausmann
+      treated</td><td>11</td><td>Phial 1 consumed in the treatment; Graf retained trace material on slides and
+      in test apparatus</td></tr><tr><td>Turin negotiation</td><td>11</td><td>The proposed second sale fails.
+      An offer or invoice is not delivery. Corvi refuses once Hausmann’s condition is
+      known</td></tr><tr><td>Unopposed Novara breach</td><td>10</td><td>One of those eleven breaks during the
+      struggle. Ten remain for the aircraft</td></tr><tr><td>After player intervention</td><td>Record the
+      actual count</td><td>Any prevented injection, spill, seizure, or recovered vessel changes the ledger and
+      supersedes a preprinted planned manifest</td></tr></tbody></table><p>Do not subtract another whole
+      vessel for Graf’s daylight test; it uses residue from the clinical sample. The default Turin daylight
+      scare is a threatened exposure or a failed latch, not a mandatory third lost phial. The 10/12 marking in
+      I44 is the default post-Novara inventory. If players prevent events, describe a corrected manifest
+      instead of presenting a contradictory photograph as current evidence.</p><h3>The default clock: what
+      happens only if nobody changes it</h3><table><thead><tr><th>Day remaining</th><th>Attempt /
+      condition</th><th>Useful signal</th></tr></thead><tbody><tr><td>14–13</td><td>Theft discovered; Corvi
+      crosses into Switzerland; cell begins inquiry</td><td>Already played in this campaign: preserve the
+      session record</td></tr><tr><td>11</td><td>Geneva escrow and onward travel</td><td>Bank can identify the
+      intended clinic even before treatment</td></tr><tr><td>10</td><td>Hausmann receives first phial if no
+      one intervenes</td><td>Graf can still be reached; an early cell can stop the
+      procedure</td></tr><tr><td>9–8</td><td>Conversion completes after 24 hours; ward crisis deepens; Corvi
+      heads to Turin</td><td>Calls for help, staff absences, intercept I08</td></tr><tr><td>7</td><td>Church
+      attempts restrictive transit measures</td><td>Petra warns of checks before they cost the cell
+      time</td></tr><tr><td>6</td><td>Broker attempts second purchase; Claudia receives extraction
+      permission</td><td>Corvi refuses the sale; an intercepted message exposes the
+      plan</td></tr><tr><td>4–3</td><td>Claudia attempts theft if free, equipped, and trusted; Church moves on
+      clinic if evidence remains</td><td>Rosary/vehicle/route preparations, visit from security, warning
+      call</td></tr><tr><td>2, late evening</td><td>If Claudia has delivered the case to the abbey, pack
+      attacks at about 23:45</td><td>Gate watch, broker information, a rendezvous message</td></tr><tr><td>1,
+      01:15</td><td>If cargo and aircraft are ready, planned flight departs</td><td>I15 is filed intent, not
+      immunity to intervention</td></tr></tbody></table><p>The 22:15 toll stub and approximately 23:45 attack
+      belong to the same final evening in the unattended branch. Claudia may have reached Novara earlier; that
+      stub records her last local road movement, not necessarily a direct drive from Turin. The aircraft
+      departs in the following early hours. Day boxes are planning markers; actual scene time controls a
+      chase. Do not trigger this sequence twice because both a person track and faction track mention it.</p>
     primaryObjective: >
-      <p>Locate and secure the 1964 steel attaché case and its contents intact before either
-      faction does — and prevent any phial from being opened or lost.</p>
+      <p>Locate and secure the 1964 steel attaché case and its contents intact before either faction does —
+      and prevent any phial from being opened or lost.</p>
     secondaryObjective: >
-      <p>Identify the individual who breached Vault IX and determine how its electromagnetic
-      mooring systems were bypassed. Establish, without tipping either faction, who the liaison
-      actually serves.</p>
-    containmentTrigger: >
-      <p><strong>CT1 — Trigger.</strong> Introduction into open tissue or mucous membranes.
-      Uninfected humans experience mutagenic fever and predatory conversion within six shifts
-      (24 hours). In active vampires, it halts necrotic stasis and triggers immediate cellular
-      aging, turning them to ash in minutes.</p>
+      <p>Identify the individual who breached Vault IX and determine how its electromagnetic mooring systems
+      were bypassed. Establish, without tipping either faction, who the liaison actually serves.</p>
+    containmentTrigger: >-
+      <p>CT1 — open tissue or mucous membranes; human conversion over 24 hours (four case-board shifts).
+      Vampire exposure resolves Endure Difficulty 5: failure brings ash in three rounds; success leaves a
+      mortal with organ failure.</p>
     containmentAppetite: >
-      <p><strong>CT2 — Appetite.</strong> Cellular desperation and systemic anemia. Within
-      100 meters, unshielded phials emit a psychic pull that accelerates organ failure and
-      hemorrhaging in sick individuals, compelling them to consume the fluid.</p>
+      <p><strong>CT2 — Appetite.</strong> Cellular desperation and systemic anemia. Within 100 meters,
+      unshielded phials emit a psychic pull that accelerates organ failure and hemorrhaging in sick
+      individuals, compelling them to consume the fluid.</p>
     containmentQuiescence: >
-      <p><strong>CT3 — Quiescence.</strong> Storage in darkness within lead-antimony foil below
-      4°C, wrapped in unbleached linen soaked in gall, wine vinegar, and myrrh. Exposure to
-      ambient daylight causes the fluid to violently boil and combust into white ash.</p>
-    keyActors: >
-      <table>
-      <thead><tr><th>Player</th><th>Wants</th><th>Will do</th></tr></thead>
-      <tbody>
-      <tr><td><strong>The Covenant (the cell's own HQ)</strong></td><td>The case recovered and the story
-      contained.</td><td>Fund, equip, delay, then blame. Sabbatini is running the recovery through the
-      Council as a political instrument, not a rescue.</td></tr>
-      <tr><td><strong>O1 — The Holy Alliance (L'Entità)</strong></td><td>Unconditional recovery, total
-      public suppression, and retention of the cure as an institutional deterrent.</td><td>Shadow the
-      cell, file on it, remove evidence it considers institutional, and sanitise the operation from the
-      antechamber if the cell learns too much.</td></tr>
-      <tr><td><strong>O2 — The Order of the Talamasca (Registry 16, Amsterdam)</strong></td><td>The
-      twelve phials destroyed, with the Order's hands on the fire.</td><td>Read the Covenant's mail,
-      run Claudia from Rome, green-light the theft at the Lingotto, and execute her rather than let the
-      cure escape.</td></tr>
-      <tr><td><strong>Monsignor Matteo Corvi</strong> — the thief</td><td>To bury the phials where no
-      institution can reach them, and to be understood.</td><td>Flee, hide, lecture, surrender to the
-      right credentials. Never fights; destroys his notes if the Holy Alliance is named.</td></tr>
-      <tr><td><strong>Sister Claudia Vane</strong> — the liaison</td><td>The phials burned, and the
-      Covenant used up getting them there.</td><td>Lie continuously, stay attached to the case, snap the
-      thread at the first isolated moment, then run — never fighting to win, only to escape with it.</td></tr>
-      <tr><td><strong>Kurt Hausmann</strong> — the first buyer</td><td>To understand what was done to
-      him, and then to eat.</td><td>Talk lucidly in the dark, refuse to leave the ward, and hunt the
-      Zurichberg after the break.</td></tr>
-      <tr><td><strong>Dr. Elizabeth Graf</strong> — the clinician</td><td>Her research destroyed and her
-      family out of the country.</td><td>Administer, record, hide one slide from the cell, burn the
-      rest, and lie once about it.</td></tr>
-      <tr><td><strong>Cardinal Enrico Sabbatini</strong> — Prefect of the Congregation</td><td>The cure
-      back in Church hands and the breach unrecorded.</td><td>Hire, use and discard the Covenant; sign
-      nothing until indisputable forensic proof is on his desk.</td></tr>
-      <tr><td><strong>The Basarab dynasty</strong> — the buyers</td><td>Ten vessels, flown out of Europe,
-      and no survivors who can describe them.</td><td>Buy quietly and often, break off rather than die,
-      and remember a face for Mission 2.</td></tr>
-      </tbody>
-      </table>
-    bestCaseResolution: >
-      <p>The cell recovers the attaché intact, contains or destroys the escaped vectors under
-      CT1–CT3, exposes the Talamasca infiltration, and forces the Holy Alliance into open
-      cooperation. The cure ends the case in Covenant custody — or neutralized — rather than in
-      the hands of either faction.</p>
-    worstCaseResolution: >
-      <p>The phials reach the tarmac. Ten intact vessels leave Italy for the Carpathians, where
-      an ancient bloodline incinerates the only substance capable of unmaking them. Feral
-      carriers multiply across Northern Italy, the Holy Alliance launches a sanitization
-      campaign, and the Covenant is left holding the blame for a fire it did not start.</p>
+      <p><strong>CT3 — Quiescence.</strong> Storage in darkness within lead-antimony foil below 4°C, wrapped
+      in unbleached linen soaked in gall, wine vinegar, and myrrh. Exposure to ambient daylight causes the
+      fluid to violently boil and combust into white ash.</p>
+    keyActors: >-
+      <table><thead><tr><th>Person</th><th>Wants</th><th>Pressure</th></tr></thead><tbody><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.jYtOR0NnK6FuEzcm]{Monsignor
+      Matteo Corvi}</td><td>Prevent institutional deployment and find independent custody he can
+      trust.</td><td>He authorized a speculative human treatment in return for conditional funding. Fear does
+      not excuse it. He did not foresee the outcome but did know the evidence was
+      inadequate.</td></tr><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.QEM4CX0Uk01DPPtA]{Sister
+      Claudia Vane}</td><td>Destroy what she believes will cause renewed predation; initially trusts Registry
+      16 to do it.</td><td>A Registry 16 operative who does not know her hidden superiors are vampire elders.
+      Her earlier apartment search and Geneva inquiry predate the current liaison
+      assignment.</td></tr><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.DYCyn68RrhPKakil]{Cardinal
+      Enrico Sabbatini}</td><td>Prevent a rebirth of potent vampire lines while retaining influence over the
+      existing accommodation.</td><td>The Church holds a reserve that could be used as a purge. He keeps
+      contingency options open but did not authorize Corvi’s theft or Hausmann’s injection. His unqualified
+      safety guarantee was knowingly
+      misleading.</td></tr><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.r5cnyNNmckVLRsOl]{Dr.
+      Elizabeth Graf}</td><td>Protect survivors and keep an accountable medical record without enabling
+      another experiment.</td><td>She administered an inadequately supported treatment. Corvi’s consent and a
+      custodial protocol were not clinical validation; she knew
+      that.</td></tr><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.nvLAec98ATgolJA9]{Kurt
+      Hausmann (The Feral Banker)}</td><td>At first, survive his cancer. After treatment, obtain help and
+      resist a growing hunger while lucidity lasts.</td><td>He bought a chance at life, not knowingly a
+      vampire transformation. His payment was conditional
+      escrow.</td></tr><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.qTZgbWUDP7brGEJy]{Father
+      Ghiberti}</td><td>Preserve the archive and avoid becoming a convenient scapegoat.</td><td>He knows
+      records were removed and that Corvi could access the Lodestone entry; he does not know all biological or
+      political
+      secrets.</td></tr><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.nlfuIXX32doYRfx1]{Jean-Paul
+      Mercier}</td><td>Keep his job and avoid taking sole blame for a powerful client’s
+      transaction.</td><td>He took a fee to alter an access entry and kept a carbon as insurance. He did not
+      know the specimen’s
+      nature.</td></tr><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.MSvYSUGNuV7gY3gV]{L'Entità
+      Sanitization Operative}</td><td>Recover dangerous material and prevent further recipients under the
+      current orders.</td><td>His command may order suppression, but rank-and-file knowledge is limited to the
+      containment
+      mission.</td></tr><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.n8SUrFbcVkjjrQfL]{Basarab
+      Retrieval Operative}</td><td>Keep the reserve from being administered to the house and move it toward
+      controlled destruction.</td><td>The same blood that creates potent new human predators can strip
+      existing vampires of their arrested
+      aging.</td></tr><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.HYJYzbCRpCQa8wXq]{Basarab
+      Elder}</td><td>Destroy the potential instrument of forced mortality and preserve the house’s
+      survival.</td><td>He reads the Covenant recovery as possible preparation for deployment. That suspicion
+      is not proof of the Church’s current
+      intent.</td></tr><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.ufJyCkCXfjy64nCx]{Gerard,
+      Vatican Gendarme Duty Officer}</td><td>Finish the inquiry without becoming its scapegoat.</td><td>Use
+      exactly the testimony already established at this table. Unplayed default: he noticed a discrepancy
+      around the second lift event and fears the consequences of reporting
+      it.</td></tr><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.KSQHMylSFbKjQa5e]{Petra,
+      Covenant Logistics Officer}</td><td>Keep the agents and their witnesses alive while knowing what hazard
+      she is moving.</td><td>A compromised courier is possible, not automatic betrayal by all of
+      HQ.</td></tr><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.8dF719tCFx9nbgMe]{Stephan,
+      Wayfinder Remote-Sensing Analyst}</td><td>Give the team useful verified information without pretending
+      to omniscience.</td><td>The anomalous second reading needs corroboration; its device identity is not
+      established by a chart
+      alone.</td></tr><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.1NyMTuAFNPtTOebK]{The
+      Turin Intermediary}</td><td>Profit, settle an undelivered promise, and avoid becoming the clients’ loose
+      end.</td><td>He promised a second purchase but Corvi refused it. No second vessel left the case in
+      Turin. He sells the rendezvous once he learns it, not six weeks before it
+      exists.</td></tr><tr><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.LfGdAgh5Bq1L2CjT]{The
+      Grey Watcher}</td><td>Sell verifiable observations and remain outside the violence.</td><td>An
+      independent observer with Order contacts entered after the theft to confirm its success. He is not a
+      required co-thief.</td></tr></tbody></table>
+    bestCaseResolution: >-
+      <p>Recover or verifiably account for the reserve, protect survivors, document wrongdoing, and negotiate
+      auditable non-deployment and containment. Prevented tragedies remain prevented. A plane need not leave
+      for the mission to succeed.</p>
+    worstCaseResolution: >-
+      <p>Uncontrolled human exposures, lost vessels, silenced witnesses, or a breakdown of the population
+      accommodation. Specify which harm occurred and who now has custody; do not force all harms into every
+      branch.</p>
     relicMilestones:
       - day: 10
-        description: 'M1 — The Zurich Hand-Off: the attaché surfaces in Zurich. Corvi cuts the seal in a Bahnhofstrasse bank vault and hands Kurt Hausmann the first phial — one vessel gone, and the case is open.'
+        description: >-
+          M1 — Proposed Zurich Treatment: if not prevented, Hausmann receives phial 1 at Sonnenberg; eleven
+          intact vessels remain. Record the actual administration time.
       - day: 8
-        description: 'M2 — The Case Leaves Zurich: Hausmann''s feral break seals the district; Corvi walks the attaché out of the city in the confusion. No custody signatures again until Turin.'
+        description: >-
+          M2 — Ward Crisis and Onward Travel: conversion completed 24 hours after administration; if
+          uncontrolled, the clinic deteriorates and Corvi heads for Turin. A prevented treatment or secured
+          patient changes this event.
       - day: 6
-        description: 'M3 — The Second Sale: the case opens on the Lingotto floor; the Turin intermediary buys the second phial. Two vessels gone, and strangers are handling it now.'
+        description: >-
+          M3 — Refused Second Sale: the broker offers for another phial; Corvi refuses after learning the
+          human outcome. Eleven remain. Claudia receives permission to attempt extraction, not guaranteed
+          success.
       - day: 4
-        description: 'M4 — The Daylight Breach: a droplet from the open case spills during handling and ignites in daylight; the Carabinieri flood the site. The case has been seen.'
+        description: >-
+          M4 — Contested Custody: Claudia attempts extraction only if free, equipped, able to reach the case
+          and a route. The cell can prevent or negotiate it. No mandatory daylight spill.
       - day: 2
-        description: 'M5 — The Novara Slaughter: the retrieval pack hits Claudia''s safehouse, forces the attaché, and walks out with ten phials. The case is spent; the cure is in vampire hands.'
+        description: >-
+          M5 — Conditional Novara Attack: if the case reaches the abbey and the pack finds it, an unopposed
+          late-night attack at about 23:45 breaks one of eleven; ten are removed. Intervention changes
+          casualties and count.
       - day: 1
-        description: 'M6 — The Empty Case: the phials are loaded aboard the Cessna 421 on the Novara tarmac. Wheels-up ends the operation and leaves the emptied case behind.'
-    daNotes: >
-      <h3>How to run this case</h3>
-      <p>Read this brief once. Then run from the walkthrough and never open this brief at the table —
-      the walkthrough repeats everything a DA needs in the moment, and this document is the reference
-      behind it.</p>
-      <ul>
-      <li><strong>Say the plain thing.</strong> You are never protecting a riddle from the players,
-      only from the characters' absence. If the cell asks a question any competent investigator would
-      ask, answer it with the fact. The gates in this case buy <em>detail</em>, not the existence of a
-      clue — and every card carries an HQ fallback day, so the case can be arrived at late but not
-      failed.</li>
-      <li><strong>Describe, then stop.</strong> The walkthrough supplies one read-aloud passage per act,
-      written to be spoken verbatim. Everything else is yours to paraphrase. Resistance to silence is
-      the commonest way a horror case goes flat.</li>
-      <li><strong>Play the NPCs as people with jobs.</strong> Nobody in this case is a cultist for its
-      own sake: Mercier is a clerk with a debt, Gerard is a sergeant on a stool, Graf is a pathologist
-      with a mortgage. The mundane register is what makes the supernatural land — and it is why the
-      pack, when it finally arrives, is frightening.</li>
-      <li><strong>Reward cleverness before you complicate it.</strong> When the players do something
-      smart, let it work, then make the consequences of it interesting. Never punish the table for
-      solving your case faster than you planned.</li>
-      <li><strong>Protect the two-stage twist, and only the twist.</strong> Zurich is the False
-      Revelation: let them conclude that communion was an unholy feast. Turin and Novara are the
-      inversion. Hold the palimpsest until the histopathology has landed, and never let an NPC say the
-      word <em>cure</em> before the parley at the Lingotto.</li>
-      <li><strong>You decide where the material is open.</strong> Where a dossier says <em>you
-      decide</em>, invent it, write it down, keep it consistent, and treat the version you invented as
-      canon from then on.</li>
-      </ul>
-      <h3>The peace, and the word</h3>
-      <p>Three motives, none of them greed: the Church fears a rebirth of an undiluted bloodline; the dynasties fear the fluid will be used to cure them; and the reason neither side will risk a war is the dilution that has quietly made coexistence cheaper than conflict. Hold both halves of the name in mind at every scene — the players believe they are chasing the Grail, and the Church is content to let them. Full text of both is on the walkthrough's <em>The Case — DA Background</em> page; use that at the table and this brief for reference.</p>
-      <h3>What the players must work out</h3>
-      <ol>
-      <li><strong>The theft was an inside job with two people in it</strong> (Days 14–13): Corvi took
-      the case out; somebody with an ouroboros ring went in behind him; a nun was forty metres back in
-      the corridor and no report mentions her.</li>
-      <li><strong>The case was bought before it was stolen</strong> (Days 12–9): a Church escrow
-      account, a Vaduz trust, a Zurich clinic and a dying man — arranged weeks ahead.</li>
-      <li><strong>The blood is a cure, and the cure kills the cure's hunters</strong> (Days 8–5):
-      histopathology, the calcified fingers, the daylight test, Corvi's margin note.</li>
-      <li><strong>The Covenant's own escort has been working for the Order the whole time</strong>
-      (Days 4–1): the ledger page, the embossed stamp, the telex dispatch, the snapped thread — all of
-      it on the table since Geneva for anyone who looked.</li>
-      </ol>
+        description: >-
+          M6 — Planned Departure: YR-BAS has a 01:15 slot after the final evening. It departs only if cargo,
+          aircraft, crew and clearance remain available. Interception can succeed.
+    daNotes: >-
+      <h3>Your next session starts here</h3><p><strong>Established continuity:</strong> the investigators
+      arrived at the Vatican, researched Vault IX, questioned Gerard, and slept in Vatican guest rooms. They
+      have not searched Corvi’s quarters. Those played scenes stand. Do not replay the arrival, erase their
+      notes, or announce discoveries they never made. Keep the current world case-board day and filled shifts;
+      this rewrite does not reset them.</p><h3>Five-minute preparation</h3><ul><li>Write down exactly what the
+      table already knows from Gerard and the vault. Treat everything else as undiscovered, even if an old
+      script said it was automatic.</li><li>Have
+      @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.5DoANlYa53w4faSv]{I04 — Numerals on Rag
+      Paper}, @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.EE4LDI5tCUb9YG9l]{I20 — Safe
+      Dial, Drilled}, @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.WNTzWxpF2S7xU230]{I35 —
+      Breve Apostolicum, 1582} and
+      @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.Hx9jKUQtU1Jmwh2O]{I36 — Suppressed
+      Index Card} ready for the apartment. Open
+      @UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.1xPFy0jFa4uqHScD]{TM03 — Corvi
+      quarters arrival} only when they arrive.</li><li>Keep Claudia helpful. Give her one genuinely useful
+      action before you give the players a reason to doubt her. Do not perform villainous stillness as a
+      tell.</li><li>Choose the current custody state from the ledger on the next page. If your existing clock
+      differs from the default route, move future NPC attempts forward coherently rather than retconning
+      yesterday.</li><li>Ask each player for one observation from yesterday and one question they intend to
+      answer today. Write their questions where you can see them.</li></ul><h3>Morning scene — coffee before
+      the inquiry</h3><blockquote><p>The bells arrive before the knock. Someone has left coffee outside your
+      door on a tray too small for all the cups. Beyond the guest-room shutters, the Vatican is already at
+      work: shoes in the passage, a cart over the paving, a voice asking for a signature. Yesterday there was
+      an empty space in a vault. This morning there is a key on the tray.</p></blockquote><p>Claudia brings
+      authorized access to Corvi’s quarters and offers to arrange transport once the cell has a destination.
+      This is a new offer, not a fact imposed on yesterday. If she has already been detained or excluded at
+      your table, Ghiberti brings the key instead. Gerard remains available for clarification through the duty
+      desk; do not add a new confession to his previous interview.</p><blockquote><p>Claudia: “His rooms are
+      still sealed. They will want a list of what you remove. Would you prefer me to keep it, or one of your
+      people?”</p></blockquote><p>Let them choose who controls the record. An agent who takes that job creates
+      a real obstacle to Claudia’s later concealment. If asked about the Grail, she answers, “They have not
+      given me permission to name what was kept there.” Her actual belief is that an old biological danger
+      must be destroyed; she does not yet know the elders’ nature.</p><p>A request for a safety clarification
+      reaches Sabbatini. His answer is cautious rather than a fresh supernatural reveal: “The assurance
+      applies to sealed custody. Recovery comes first.” This admission matters: the original unqualified
+      assurance was misleading. If pressed with a specific contradiction, he will arrange a private
+      conversation; use the Council chapter early rather than refusing until the epilogue.</p><h3>Give three
+      choices, not a destination order</h3><table><thead><tr><th>Choice</th><th>What it
+      accomplishes</th><th>DA response</th></tr></thead><tbody><tr><td>Search the quarters</td><td>Find
+      Corvi’s destination and why he left</td><td>Run the apartment chapter.</td></tr><tr><td>Return to
+      Gerard/Ghiberti or examine existing samples</td><td>Resolve a question from yesterday</td><td>Answer
+      from records and established testimony. This does not consume another whole shift for each
+      question.</td></tr><tr><td>Challenge the Church before leaving</td><td>Test the recovery mandate and
+      obtain safer handling instructions</td><td>Run an early Council conversation; preserve the unknown
+      contents until a witness or record actually reveals them.</td></tr></tbody></table><h3>How to run the
+      rest</h3><p>Each location below gives an arrival, a human problem, evidence with limits, likely
+      questions, consequences, and exits. The suggested day ranges are the unattended route, not appointments
+      the players must keep. Core evidence is found by a sensible search or a cooperative witness. Rolls
+      decide time, discretion, collateral damage, and access to guarded extras—not whether the campaign can
+      continue.</p><p>End each scene by asking “What does this make you want to do?” If the answer is unclear,
+      restate one concrete lead they possess. Do not read the solution aloud. A missed lead returns through a
+      credible source: a duplicate bank record, a returned laboratory call, or Corvi seeking contact—not an
+      omniscient parcel of every clue.</p><h3>Sharing and images</h3><p>This entire walkthrough is DA-only.
+      Read only the blockquotes aloud. Its pictures are selected views, not compulsory events. Share
+      individual scenes and cards deliberately. A body photograph must not appear if that person survived. Do
+      not share a tactical map merely to establish atmosphere. The scene and photograph appendices retain
+      every existing asset.</p><h3>Evidence discipline</h3><p>Use the revised Evidence appendix. Preserve the
+      player-approved I04 string and all prior-session testimony. Independent evidence can reveal the truth
+      early. The source clock is a default; do not reset the live world’s day or progress. Four operational
+      shifts make a day; use 24 elapsed hours, or four board shifts, for human conversion.</p>
     description: >
-      <p>Director's master reference for Operation File <strong>SANGREAL-87-091</strong>.
-      DA eyes only — contains both twists, both faction tracks, and the full milestone
-      schedule.</p>
-
+      <p>Director's master reference for Operation File <strong>SANGREAL-87-091</strong>. DA eyes only —
+      contains both twists, both faction tracks, and the full milestone schedule.</p>
 - _id: sangreal-player-brief
-  name: 'Operation File SANGREAL-87-091 — Player Dossier'
+  name: Operation File SANGREAL-87-091 — Player Dossier
   type: playerCaseBrief
   system:
     caseId: SANGREAL-87-091
     caseName: 'Mission: Sangreal'
-    region: 'Region 04 — Western Europe / Italian-Swiss Corridor'
+    region: Region 04 — Western Europe / Italian-Swiss Corridor
     classification: RESTRICTED
     situationSummary: >
-      <p>At 04:00 hours yesterday, the Holy Alliance — the diplomatic and security office
-      of the Holy See — requisitioned emergency Covenant field recovery aid under the terms
-      of the St. John Custodial Concordat.</p>
-      <p>Subterranean Vault IX, located beneath the Campo Santo Teutonico in Vatican City,
-      was breached. A customized brushed-steel diplomatic attaché case, manufactured in 1964
-      and reinforced with lead-antimony shielding, was removed.</p>
-      <p>The Holy See refuses to describe the contents of the attaché, and will provide no
-      further information. The single detail on record: a tarnished brass sign fixed below
-      the electromagnetic mooring plinth where the case was stored in Vault IX, reading one
-      word — <strong>SANGREAL</strong>. Church officials decline to explain it. The Holy See
-      guarantees the following:</p>
-      <ul>
-      <li>The artifact generates zero bio-contamination risk.</li>
-      <li>The artifact poses zero occult memetic or psychic radiation hazard.</li>
-      <li>The artifact must remain sealed; field testing or opening the container is
-      strictly prohibited under pontifical treaty.</li>
-      <li>Full legal and operational custody must be remanded to Church authorities
-      immediately upon recovery.</li>
-      </ul>
-    primaryObjective: >
-      <p><strong>Primary:</strong> Locate and secure the 1964 steel attaché case and its
-      contents intact.</p>
+      <p>At 04:00 hours yesterday, the Holy Alliance — the diplomatic and security office of the Holy See —
+      requisitioned emergency Covenant field recovery aid under the terms of the St. John Custodial
+      Concordat.</p> <p>Subterranean Vault IX, located beneath the Campo Santo Teutonico in Vatican City, was
+      breached. A customized brushed-steel diplomatic attaché case, manufactured in 1964 and reinforced with
+      lead-antimony shielding, was removed.</p> <p>The Holy See refuses to describe the contents of the
+      attaché, and will provide no further information. The single detail on record: a tarnished brass sign
+      fixed below the electromagnetic mooring plinth where the case was stored in Vault IX, reading one word —
+      <strong>SANGREAL</strong>. Church officials decline to explain it. The Holy See guarantees the
+      following:</p> <ul> <li>The artifact generates zero bio-contamination risk.</li> <li>The artifact poses
+      zero occult memetic or psychic radiation hazard.</li> <li>The artifact must remain sealed; field testing
+      or opening the container is strictly prohibited under pontifical treaty.</li> <li>Full legal and
+      operational custody must be remanded to Church authorities immediately upon recovery.</li> </ul>
+    primaryObjective: |
+      <p><strong>Primary:</strong> Locate and secure the 1964 steel attaché case and its contents intact.</p>
     secondaryObjective: >
-      <p><strong>Secondary:</strong> Identify the individual who breached Vault IX and
-      determine how its electromagnetic mooring systems were bypassed.</p>
+      <p><strong>Secondary:</strong> Identify the individual who breached Vault IX and determine how its
+      electromagnetic mooring systems were bypassed.</p>
     knownOrganizations: >
-      <p><strong>The Holy Alliance.</strong> The diplomatic and security office of the Holy
-      See. Your contracting authority for this operation; handles the case as a diplomatic
-      matter and expects discretion.</p>
+      <p><strong>The Holy Alliance.</strong> The diplomatic and security office of the Holy See. Your
+      contracting authority for this operation; handles the case as a diplomatic matter and expects
+      discretion.</p>
     initialContacts:
-      - name: 'Cardinal Enrico Sabbatini'
-        role: 'Contracting authority — Congregation for the Doctrine of the Faith'
-        knownInfo: 'Signed the emergency requisition. Your point of authority for the case; treats it as a diplomatic incident, not an occult one.'
-      - name: 'Sister Claudia Vane'
-        role: 'Ecclesiastical liaison'
-        knownInfo: 'Must accompany all inquiries on church property. Holds diplomatic transit papers, pontifical seals, and local banking clearances.'
-      - name: 'Father Ghiberti'
-        role: 'Curial archivist — Subterranean Vault IX'
-        knownInfo: 'Nervous, precise. Knows the vault inventory and its custodial history better than anyone alive.'
-      - name: 'Gerard, Vatican Gendarme Duty Officer'
-        role: 'Campo Santo Teutonico gate detail'
-        knownInfo: 'Controls access to the German Cemetery entrance and logs every descent to the vault level.'
-      - name: 'Petra, Covenant Logistics Officer'
-        role: 'Recovery Division — Region 04 desk'
-        knownInfo: 'Your supply line for field gear, vehicles, and safehouses across the Italian-Swiss corridor.'
-      - name: 'Stephan, Wayfinder Remote-Sensing Analyst'
-        role: 'Covenant HQ — monitoring wing'
-        knownInfo: 'Holds the last stable readings from Vault IX; can task follow-up analysis through a request packet.'
+      - name: Cardinal Enrico Sabbatini
+        role: Contracting authority — Congregation for the Doctrine of the Faith
+        knownInfo: >-
+          Signed the emergency requisition. Your point of authority for the case; treats it as a diplomatic
+          incident, not an occult one.
+      - name: Sister Claudia Vane
+        role: Ecclesiastical liaison
+        knownInfo: >-
+          Must accompany all inquiries on church property. Holds diplomatic transit papers, pontifical seals,
+          and local banking clearances.
+      - name: Father Ghiberti
+        role: Curial archivist — Subterranean Vault IX
+        knownInfo: Nervous, precise. Knows the vault inventory and its custodial history better than anyone alive.
+      - name: Gerard, Vatican Gendarme Duty Officer
+        role: Campo Santo Teutonico gate detail
+        knownInfo: Controls access to the German Cemetery entrance and logs every descent to the vault level.
+      - name: Petra, Covenant Logistics Officer
+        role: Recovery Division — Region 04 desk
+        knownInfo: Your supply line for field gear, vehicles, and safehouses across the Italian-Swiss corridor.
+      - name: Stephan, Wayfinder Remote-Sensing Analyst
+        role: Covenant HQ — monitoring wing
+        knownInfo: Holds the last stable readings from Vault IX; can task follow-up analysis through a request packet.
     startingLeads: >
-      <p><strong>Vault IX</strong> — the Campo Santo Teutonico entrance beneath St. Peter's.
-      <strong>Monsignor Corvi's private quarters</strong> — the Palazzo del Sant'Uffizio,
-      where the Prefect of the Secret Archives lived and worked.</p>
+      <p><strong>Vault IX</strong> — the Campo Santo Teutonico entrance beneath St. Peter's. <strong>Monsignor
+      Corvi's private quarters</strong> — the Palazzo del Sant'Uffizio, where the Prefect of the Secret
+      Archives lived and worked.</p>
     timelinePressure: >
-      <p>Secular authorities have not been alerted. The Covenant has a narrow operational
-      window before Italian Carabinieri and Swiss border guards detect irregular cross-border
-      travel.</p>
+      <p>Secular authorities have not been alerted. The Covenant has a narrow operational window before
+      Italian Carabinieri and Swiss border guards detect irregular cross-border travel.</p>
     constraints: >
-      <ul>
-      <li>Sister Claudia Vane must accompany the field cell during all inquiries conducted
-      within church properties and ecclesiastical jurisdictions.</li>
-      <li>The attaché must remain sealed — no field testing, no opening, under pontifical
-      treaty.</li>
-      <li>Custody of the attaché remands to Church authorities immediately upon recovery.</li>
-      <li>No secular law enforcement, international media, or hostile criminal syndicates
-      may obtain custody of the container.</li>
-      </ul>
+      <ul> <li>Sister Claudia Vane must accompany the field cell during all inquiries conducted within church
+      properties and ecclesiastical jurisdictions.</li> <li>The attaché must remain sealed — no field testing,
+      no opening, under pontifical treaty.</li> <li>Custody of the attaché remands to Church authorities
+      immediately upon recovery.</li> <li>No secular law enforcement, international media, or hostile criminal
+      syndicates may obtain custody of the container.</li> </ul>
     description: >
-      <p>Player-facing dossier for Operation File <strong>SANGREAL-87-091</strong>.
-      Issue to the cell at the start of the case. Contains no spoilers beyond the Holy
-      See's official guarantees.</p>
-
+      <p>Player-facing dossier for Operation File <strong>SANGREAL-87-091</strong>. Issue to the cell at the
+      start of the case. Contains no spoilers beyond the Holy See's official guarantees.</p>
 - _id: sangreal-case-board
-  name: 'SANGREAL-87-091 — Case Board'
+  name: SANGREAL-87-091 — Case Board
   type: caseBoard
   system:
     caseId: SANGREAL-87-091
     caseName: 'Mission: Sangreal'
-    region: 'Region 04 — Western Europe / Italian-Swiss Corridor'
+    region: Region 04 — Western Europe / Italian-Swiss Corridor
     currentDay: 14
     shiftsFilled: []
     relicMilestones:
       - day: 10
-        description: 'M1 — The Zurich Hand-Off: the attaché surfaces in Zurich. Corvi cuts the seal in a Bahnhofstrasse bank vault and hands Kurt Hausmann the first phial — one vessel gone, and the case is open.'
+        description: >-
+          M1 — Proposed Zurich Treatment: if not prevented, Hausmann receives phial 1 at Sonnenberg; eleven
+          intact vessels remain. Record the actual administration time.
       - day: 8
-        description: 'M2 — The Case Leaves Zurich: Hausmann''s feral break seals the district; Corvi walks the attaché out of the city in the confusion. No custody signatures again until Turin.'
+        description: >-
+          M2 — Ward Crisis and Onward Travel: conversion completed 24 hours after administration; if
+          uncontrolled, the clinic deteriorates and Corvi heads for Turin. A prevented treatment or secured
+          patient changes this event.
       - day: 6
-        description: 'M3 — The Second Sale: the case opens on the Lingotto floor; the Turin intermediary buys the second phial. Two vessels gone, and strangers are handling it now.'
+        description: >-
+          M3 — Refused Second Sale: the broker offers for another phial; Corvi refuses after learning the
+          human outcome. Eleven remain. Claudia receives permission to attempt extraction, not guaranteed
+          success.
       - day: 4
-        description: 'M4 — The Daylight Breach: a droplet from the open case spills during handling and ignites in daylight; the Carabinieri flood the site. The case has been seen.'
+        description: >-
+          M4 — Contested Custody: Claudia attempts extraction only if free, equipped, able to reach the case
+          and a route. The cell can prevent or negotiate it. No mandatory daylight spill.
       - day: 2
-        description: 'M5 — The Novara Slaughter: the retrieval pack hits Claudia''s safehouse, forces the attaché, and walks out with ten phials. The case is spent; the cure is in vampire hands.'
+        description: >-
+          M5 — Conditional Novara Attack: if the case reaches the abbey and the pack finds it, an unopposed
+          late-night attack at about 23:45 breaks one of eleven; ten are removed. Intervention changes
+          casualties and count.
       - day: 1
-        description: 'M6 — The Empty Case: the phials are loaded aboard the Cessna 421 on the Novara tarmac. Wheels-up ends the operation and leaves the emptied case behind.'
+        description: >-
+          M6 — Planned Departure: YR-BAS has a 01:15 slot after the final evening. It departs only if cargo,
+          aircraft, crew and clearance remain available. Interception can succeed.
     organizations:
       - id: O1
-        name: 'The Holy Alliance (L''Entità)'
+        name: The Holy Alliance (L'Entità)
         orgSlug: sangreal-org-alliance
         value: 0
         active: true
@@ -298,15 +420,21 @@
         milestones:
           - day: 7
             label: O1M1
-            description: 'Frontier Cloak — L''Entità locks the Swiss–Italian frontier. Crossings fall under paramilitary watch; overland travel takes forged papers or an extra shift.'
+            description: >-
+              Frontier scrutiny: if recovery risk persists, the Alliance pressures transit contacts. Warn
+              through Petra; verified clearance or another route can avoid delay.
           - day: 4
             label: O1M2
-            description: 'Sanitization Sweep — Vatican operatives scrub the Privatklinik Sonnenberg. Dr. Graf is marked for liquidation; unsecured oncology records burn.'
+            description: >-
+              Clinic recovery attempt: if staff or samples remain unsecured, operatives demand custody. A
+              rescue, stand-down, or quarantine agreement prevents the default escalation.
           - day: 1
             label: O1M3
-            description: 'Holy Crusade — Sabbatini decides the cell has seen too much. A plainclothes Swiss Guard squad armed with phosphorus grenades moves to sanitize the operation.'
+            description: >-
+              Custody ultimatum: hardliners may seek suppression; Sabbatini can authorize, halt, or negotiate.
+              Knowledge alone does not automatically cause an assassination.
       - id: O2
-        name: 'The Order of the Talamasca (Registry 16)'
+        name: The Order of the Talamasca (Registry 16)
         orgSlug: sangreal-org-talamasca
         value: 0
         active: true
@@ -315,18 +443,21 @@
         milestones:
           - day: 9
             label: O2M1
-            description: 'Signal Intercept — Amsterdam decrypts the Covenant''s Swiss PTT telex traffic and feeds Claudia their route.'
+            description: >-
+              Signal collection: compromised communications can reveal a route. Independent secure channels
+              deny this information.
           - day: 6
             label: O2M2
-            description: 'Extraction Green-Light — Claudia is cleared to steal the attaché the moment Corvi is isolated.'
+            description: >-
+              Extraction permission: Claudia may attempt seizure when opportunity exists. Captivity, lost
+              equipment, or changed allegiance blocks it.
           - day: 2
             label: O2M3
-            description: 'Elder Cleansing Strike — the retrieval pack finds the Novara safehouse and executes Claudia to keep the cure from their bloodlines.'
-      # ── Off-camera tracks — single persons acting as self-organizations ──
-      # These rows show what people are doing away from the table: movements,
-      # hand-offs, betrayals and deaths. Play cells as second-hand news.
+            description: >-
+              Pack mobilization: the elders act on the case’s known location. The default abbey attack
+              requires the case to be there.
       - id: P1
-        name: 'Monsignor Matteo Corvi'
+        name: Monsignor Matteo Corvi
         orgSlug: sangreal-npc-corvi
         value: 0
         active: true
@@ -335,18 +466,24 @@
         milestones:
           - day: 13
             label: P1M1
-            description: 'Crosses into Switzerland at Chiasso with the attaché and checks into a Geneva pension under his own name — a man who wants to be found by the right people.'
+            description: >-
+              Corvi crosses into Switzerland after the theft. Preserve any route or timing already established
+              in play.
           - day: 11
             label: P1M2
-            description: 'Signs locker 4409-C into escrow and rides the EC 30 to Zurich, first class, the case on his knees.'
+            description: Geneva escrow is recorded; Corvi goes to Sonnenberg with a conditional treatment agreement.
           - day: 8
             label: P1M3
-            description: 'Leaves Zurich the morning after Hausmann''s break and takes the coast road south; in Turin he buys a second deadbolt lock for the case.'
+            description: >-
+              After the clinical outcome, Corvi leaves for Turin seeking protection. If the cell reaches him
+              first, follow that custody instead.
           - day: 4
             label: P1M4
-            description: 'Barricades himself in the Lingotto supervisor''s booth, refuses food, and prays in Latin over the case — waiting to be found, but only by the right people.'
+            description: >-
+              If still free in Turin, he waits in the booth for a contact he can trust. He retains eleven
+              unless play changed the count.
       - id: P2
-        name: 'Sister Claudia Vane'
+        name: Sister Claudia Vane
         orgSlug: sangreal-npc-vane
         value: 0
         active: true
@@ -355,18 +492,26 @@
         milestones:
           - day: 12
             label: P2M1
-            description: 'Second progress packet to Amsterdam goes out in the Vatican diplomatic pouch. Observers note her handwriting has not trembled once in a year.'
+            description: >-
+              Claudia reports through her actual available channel; supervision or a secure communication plan
+              can limit what she sends.
           - day: 6
             label: P2M2
-            description: 'Green-light received from Registry 16. She repacks her kit in order — rosary, pistol, transit folio — and argues to move on Lingotto tonight.'
+            description: >-
+              If still an operative, she receives extraction permission and prepares transport. These
+              preparations are observable.
           - day: 4
             label: P2M3
-            description: 'Snaps the Veronica Thread on the factory floor during the fire and takes the case. By the time the flash clears she is out of the building and the cell''s transport is gone.'
+            description: >-
+              She attempts the Thread only if free, equipped, and able to reach the case. Resolve
+              interruption, effect, and pursuit in play.
           - day: 3
             label: P2M4
-            description: 'Drives to Novara alone and waits in the abbey for the airstrip rendezvous, composing one last message home.'
+            description: >-
+              If she escaped, she uses the Novara rendezvous. If captured or persuaded, her information can
+              instead set up an interception.
       - id: P3
-        name: 'Kurt Hausmann (The Feral Banker)'
+        name: Kurt Hausmann (The Feral Banker)
         orgSlug: sangreal-npc-hausmann
         value: 0
         active: true
@@ -375,15 +520,19 @@
         milestones:
           - day: 10
             label: P3M1
-            description: 'Receives the injection at Sonnenberg — the first phial of Gethsemane enters a mortal man at 02:00.'
+            description: If not prevented, treatment is administered at Sonnenberg. Record the exact time.
           - day: 8
             label: P3M2
-            description: 'Wakes changed: the tumors are gone, his core temperature is 28°C, and the third floor''s night staff are missing by morning. He stops using words.'
+            description: >-
+              Conversion completes 24 hours after treatment. The subsequent ward crisis depends on
+              containment; it is not automatic escape.
           - day: 5
             label: P3M3
-            description: 'Hunted into the Zurichberg forest edge — livestock missing, graves disturbed, and the hunter has learned to stay out of the light.'
+            description: >-
+              If he escaped, he seeks concealment and blood near the forest. A captured or protected Hausmann
+              remains where actual play placed him.
       - id: P4
-        name: 'Dr. Elizabeth Graf'
+        name: Dr. Elizabeth Graf
         orgSlug: sangreal-npc-graf
         value: 0
         active: true
@@ -392,15 +541,21 @@
         milestones:
           - day: 9
             label: P4M1
-            description: 'Files the histopathology under a dead trial code and hides one slide inside her coat. She is already afraid of who paid for the study.'
+            description: >-
+              After the treatment, Graf preserves slides and a clinical record while seeking protection for
+              staff.
           - day: 7
             label: P4M2
-            description: 'Sits with a box of matches and the research log for an hour — and puts the matches away. It would take the whole wing with it.'
+            description: >-
+              If unprotected, she considers destroying methods that could enable repetition; she prefers an
+              accountable safe custodian.
           - day: 4
             label: P4M3
-            description: 'Barricades herself in Theatre 2 with the slides when men in grey coats arrive to ''collect the study''. None of them introduce themselves.'
+            description: >-
+              A Church recovery team threatens any remaining unsecured clinic evidence. Earlier evacuation or
+              negotiation prevents a scheduled death.
       - id: P5
-        name: 'The Turin Intermediary'
+        name: The Turin Intermediary
         orgSlug: sangreal-npc-turin-intermediary
         value: 0
         active: true
@@ -409,18 +564,22 @@
         milestones:
           - day: 9
             label: P5M1
-            description: 'Takes the second buyer''s deposit by courier — the envelope bears a Wallachian dragon crest he chooses not to notice.'
+            description: >-
+              The broker takes a conditional deposit from Basarab interests and promises access, not a
+              completed transfer.
           - day: 6
             label: P5M2
-            description: 'Buys the second phial on the Lingotto floor and raises his offer to triple for the remaining eleven vessels.'
+            description: At Lingotto he proposes a second sale. Corvi refuses; eleven remain.
           - day: 3
             label: P5M3
-            description: 'Sells the Novara rendezvous address to the Basarab pack and takes the night train to Milan with his fee.'
+            description: >-
+              If he has learned the current rendezvous, he sells that information unless the cell protects or
+              intercepts him.
           - day: 1
             label: P5M4
-            description: 'Wires congratulations to Bucharest and closes the account. Profit, not pride, was always the point.'
+            description: If still free, he leaves with his fee. His records remain a route to the missing cargo, if any.
       - id: P6
-        name: 'The Basarab Retrieval Pack'
+        name: The Basarab Retrieval Pack
         orgSlug: sangreal-npc-basarab-elder
         value: 0
         active: true
@@ -429,18 +588,26 @@
         milestones:
           - day: 9
             label: P6M1
-            description: 'The pack enters Italy on a freight express and settles into the service tunnels beneath the Lingotto. They wait without moving.'
+            description: >-
+              The pack enters the corridor seeking the reserve. It needs observed movements or a contact to
+              find it.
           - day: 3
             label: P6M2
-            description: 'A priest in the Novara diocese reports three parishioners who never blink. By evening the abbey''s lamps go out one at a time.'
+            description: >-
+              An acquired rendezvous or exposed route allows it to approach. Warn through surveillance or
+              local activity where plausible.
           - day: 2
             label: P6M3
-            description: 'The strike takes minutes: ten phials change hands and the eleventh shatters — a single drop burns two of their fingers to white ash.'
+            description: >-
+              If the default abbey attack is unopposed, one phial breaks and ten leave. All casualties and
+              exposure outcomes follow the actual encounter.
           - day: 1
             label: P6M4
-            description: 'The consignments are loaded aboard YR-BAS. The Elder stands at the fence line and looks directly at the watchers.'
+            description: >-
+              If cargo reaches YR-BAS and no intervention stops it, it departs on the filed slot with the
+              actual count.
       - id: P7
-        name: 'The Grey Watcher'
+        name: The Grey Watcher
         orgSlug: sangreal-npc-watcher
         value: 0
         active: true
@@ -449,16 +616,98 @@
         milestones:
           - day: 13
             label: P7M1
-            description: 'A grey raincoat reads the same newspaper in three cities this week, always one carriage behind the case.'
+            description: >-
+              The Watcher follows verified movements and sells observations. He was the default later visitor
+              to the vault, not Corvi’s accomplice.
           - day: 10
             label: P7M2
-            description: 'Photographs the Bahnhofstrasse from a café across the road while the case changes hands; his negatives are the only ones nobody will ever find.'
+            description: >-
+              He records a handoff only if present and able to observe it. No impossible photo appears in an
+              HQ packet.
           - day: 2
             label: P7M3
-            description: 'Reaches Novara before the pack and leaves before the police, adding one pencil line to the gatehouse ledger: "second descent, 04:02."'
-
+            description: >-
+              He leaves a threatened scene or trades a fact for safety. He does not insert himself into
+              ordinary C-series photographs.
 - _id: sangreal-information-web
-  name: 'SANGREAL-87-091 — Information Web'
+  name: SANGREAL-87-091 — Information Web
   type: informationWeb
   system:
-    informationCardSlugs: [sangreal-ic01, sangreal-ic02, sangreal-ic03, sangreal-ic04, sangreal-ic05, sangreal-ic06, sangreal-ic07, sangreal-ic08, sangreal-ic09, sangreal-ic10, sangreal-ic11, sangreal-ic12, sangreal-ic13, sangreal-ic14, sangreal-ic15, sangreal-ic16, sangreal-ic17, sangreal-ic18, sangreal-ic19, sangreal-ic20, sangreal-ic21, sangreal-ic22, sangreal-ic23, sangreal-ic24, sangreal-ic25, sangreal-ic26, sangreal-ic27, sangreal-ic28, sangreal-ic29, sangreal-ic30, sangreal-ic31, sangreal-ic32, sangreal-ic33, sangreal-ic34, sangreal-ic35, sangreal-ic36, sangreal-ic37, sangreal-ic38, sangreal-ic39, sangreal-ic40, sangreal-ic41, sangreal-ic42, sangreal-ic43, sangreal-ic44, sangreal-ic45, sangreal-ic46, sangreal-ic47, sangreal-ic48, sangreal-ic49, sangreal-ic50, sangreal-ic51, sangreal-ic52, sangreal-ic53, sangreal-ic54, sangreal-ic55, sangreal-ic56, sangreal-ic57, sangreal-ic58, sangreal-ic59, sangreal-ic60, sangreal-ic61, sangreal-ph01, sangreal-ph02, sangreal-ph03, sangreal-ph04, sangreal-ph05, sangreal-ph06, sangreal-ph07, sangreal-ph08, sangreal-ph09, sangreal-ph10, sangreal-ph11, sangreal-ph12, sangreal-ph13, sangreal-ph14, sangreal-ph15, sangreal-ph16]
+    informationCardSlugs:
+      - sangreal-ic01
+      - sangreal-ic02
+      - sangreal-ic03
+      - sangreal-ic04
+      - sangreal-ic05
+      - sangreal-ic06
+      - sangreal-ic07
+      - sangreal-ic08
+      - sangreal-ic09
+      - sangreal-ic10
+      - sangreal-ic11
+      - sangreal-ic12
+      - sangreal-ic13
+      - sangreal-ic14
+      - sangreal-ic15
+      - sangreal-ic16
+      - sangreal-ic17
+      - sangreal-ic18
+      - sangreal-ic19
+      - sangreal-ic20
+      - sangreal-ic21
+      - sangreal-ic22
+      - sangreal-ic23
+      - sangreal-ic24
+      - sangreal-ic25
+      - sangreal-ic26
+      - sangreal-ic27
+      - sangreal-ic28
+      - sangreal-ic29
+      - sangreal-ic30
+      - sangreal-ic31
+      - sangreal-ic32
+      - sangreal-ic33
+      - sangreal-ic34
+      - sangreal-ic35
+      - sangreal-ic36
+      - sangreal-ic37
+      - sangreal-ic38
+      - sangreal-ic39
+      - sangreal-ic40
+      - sangreal-ic41
+      - sangreal-ic42
+      - sangreal-ic43
+      - sangreal-ic44
+      - sangreal-ic45
+      - sangreal-ic46
+      - sangreal-ic47
+      - sangreal-ic48
+      - sangreal-ic49
+      - sangreal-ic50
+      - sangreal-ic51
+      - sangreal-ic52
+      - sangreal-ic53
+      - sangreal-ic54
+      - sangreal-ic55
+      - sangreal-ic56
+      - sangreal-ic57
+      - sangreal-ic58
+      - sangreal-ic59
+      - sangreal-ic60
+      - sangreal-ic61
+      - sangreal-ph01
+      - sangreal-ph02
+      - sangreal-ph03
+      - sangreal-ph04
+      - sangreal-ph05
+      - sangreal-ph06
+      - sangreal-ph07
+      - sangreal-ph08
+      - sangreal-ph09
+      - sangreal-ph10
+      - sangreal-ph11
+      - sangreal-ph12
+      - sangreal-ph13
+      - sangreal-ph14
+      - sangreal-ph15
+      - sangreal-ph16
