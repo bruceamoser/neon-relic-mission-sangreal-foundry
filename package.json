@@ -1,8 +1,8 @@
 {
   "name": "neon-relic-mission-sangreal",
-  "version": "1.15.0",
+  "version": "1.16.0",
   "type": "module",
-  "description": "Foundry VTT v14 content module for Neon Relic \u2014 Mission: Sangreal",
+  "description": "Foundry VTT v14 content module for Neon Relic — Mission: Sangreal",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bruceamoser/neon-relic-mission-sangreal-foundry.git"
