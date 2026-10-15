@@ -2,7 +2,7 @@ schema_version: 1
 source:
   canonical: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/docs/intel-art-prompts.md
   snapshot: art/spec/intel-art-prompts.md
-  sha256: 130d07a70422ebcf92a9d2a8fad519065d9f6d56c9d87704bcd2fbd3a27b010f
+  sha256: 159df0ef330dea39fd19f859f116a6030c9f8102ebf965c48c74c629cb96851d
 module_repository: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry
 supported_statuses:
 - PENDING
@@ -1696,7 +1696,8 @@ assets:
   medium: evidence_35mm
   source_section: §5 / Rome / R04
   source_line: 225
-  source_excerpt: '**R04 · `intel/i19-plinth-sign-macro.webp` · 3:2** — *New card I-19: "The Plinth Detail, Brass Plate"*
+  source_excerpt: '**R04 · `intel/i19-plinth-sign-macro.webp` · 3:2** — *New card I-19: "The Plinth Detail, Brass
+    Plate"*
 
     Shows: extreme close-up of the tarnished brass sign bolted below the empty plinth — one word, `SANGREAL` — with
     screw holes and green verdigris.
@@ -2391,8 +2392,8 @@ assets:
   act: Geneva
   optional: false
   output:
-    filename: i23-ubs-lobby-cctv.webp
-    path: src/assets/art/intel/i23-ubs-lobby-cctv.webp
+    filename: i23-ubs-lobby-cctv-v2.webp
+    path: src/assets/art/intel/i23-ubs-lobby-cctv-v2.webp
   aspect_ratio: '4:3'
   medium: cctv_16mm
   source_section: §5 / Geneva / G01
@@ -2439,29 +2440,26 @@ assets:
   - ouroboros-eye
   - grey-lancia-scv47
   eggs:
-  - id: G01-E1
-    requirement: in the marble reflection a grey raincoated man sits in the waiting chairs, newspaper on his knee
-      — the Watcher
+  - id: G01-geneva-session-20261015-E1
+    requirement: 22:41 remains visible in the lower-left timestamp.
     mandatory: true
     composite_text: false
-  - id: G01-E2
-    requirement: the case on the counter sits on a bank cloth that Mercier has positioned precisely — he knows what
-      it is worth
+  - id: G01-geneva-session-20261015-E2
+    requirement: The clock minute hand points just past 8 and the hour hand between 10 and 11, consistent with nighttime
+      22:41.
     mandatory: true
     composite_text: false
-  - id: G01-E3
-    requirement: a wall calendar reads 17 September 1987.
-    mandatory: true
-    composite_text: true
-  - id: G01-E4
-    requirement: 'Recurring Egg-A: grey Lancia Flavia 2000, white Vatican plates SCV 47, arriving cameo.'
+  - id: G01-geneva-session-20261015-E3
+    requirement: The fixed calendar has been removed; the bank recording log now supplies the campaign date.
     mandatory: true
     composite_text: false
-  exact_text:
+  - id: G01-geneva-session-20261015-E4
+    requirement: Corvi, Mercier, the case, newspaper reader, car, lobby and monochrome surveillance appearance remain
+      coherent.
+    mandatory: true
+    composite_text: false
+  exact_text: &id001
   - '22:41'
-  - 17 September 1987
-  - SANGREAL
-  - SCV 47
   text_requirements_unresolved: []
   notes:
   - Recurring Egg-A adds the arriving grey Lancia beyond the local prompt. Egg-E mentions calendar timestamps while
@@ -2470,7 +2468,7 @@ assets:
     mode: new_card
     card_id: I-23
     item_id: sangreal-ic23
-  status: APPROVED
+  status: INTEGRATED
   generation:
     attempts: 1
     approved_attempt: 1
@@ -2480,35 +2478,119 @@ assets:
   qa:
     status: APPROVED
     notes:
-    - Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
-      wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
-      label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
-    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
-    report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G01-attempt-001-final.yaml
-    image_sha256: aed92107c6c216fc1d6bf3eb53ddd49fb49807d1158ea0f5295fcc67bd839648
+    - 22:41 remains visible in the lower-left timestamp.
+    - The clock minute hand points just past 8 and the hour hand between 10 and 11, consistent with nighttime 22:41.
+    - The fixed calendar has been removed; the bank recording log now supplies the campaign date.
+    - Corvi, Mercier, the case, newspaper reader, car, lobby and monochrome surveillance appearance remain coherent.
+    report: art/qa/G01-geneva-session-20261015-final.json
+    image_sha256: 72f30d80e0a823add5b074d39e5ed269131c3c125f31fb655d16f0ebbaf43dfd
     final_pass: true
   lock:
-    sha256: aed92107c6c216fc1d6bf3eb53ddd49fb49807d1158ea0f5295fcc67bd839648
-    approved_at: '2026-09-17T12:46:59.186672+00:00'
-    reviewer: Codex visual inspection
-    final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G01-attempt-001-final.yaml
-    encoding: WebP quality 85, original dimensions
+    sha256: 72f30d80e0a823add5b074d39e5ed269131c3c125f31fb655d16f0ebbaf43dfd
+    approved_at: '2026-10-15T18:07:34.711629+00:00'
+    reviewer: Codex final visual QA
+    final_qa: art/qa/G01-geneva-session-20261015-final.json
+    revision: geneva-session-20261015
+    encoding: Lossless WebP, original generated dimensions; pixel equality verified
   lossless_master:
-    path: art/lossless-masters/assets/art/intel/i23-ubs-lobby-cctv.webp
-    sha256: 38c7efe983e53ea71191f21281358b99afdce2683e6918a2ee4ee025ec499152
-    previous_lock:
-      sha256: 38c7efe983e53ea71191f21281358b99afdce2683e6918a2ee4ee025ec499152
+    path: art/composite/revisions/G01-geneva-session-20261015.webp
+    sha256: 72f30d80e0a823add5b074d39e5ed269131c3c125f31fb655d16f0ebbaf43dfd
+  approved_history:
+  - output:
+      filename: i23-ubs-lobby-cctv.webp
+      path: src/assets/art/intel/i23-ubs-lobby-cctv.webp
+    lock:
+      sha256: aed92107c6c216fc1d6bf3eb53ddd49fb49807d1158ea0f5295fcc67bd839648
       approved_at: '2026-09-17T12:46:59.186672+00:00'
       reviewer: Codex visual inspection
       final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G01-attempt-001-final.yaml
+      encoding: WebP quality 85, original dimensions
+    qa:
+      status: APPROVED
+      notes:
+      - Final bank CCTV image inspected at original resolution. Corvi, Mercier, the Watcher, Sangreal case, Lancia,
+        wet-floor reflection, clock, and period surveillance treatment remain coherent. Timestamp, calendar, case
+        label, and vehicle plate sit within the photographed surfaces and inherit monochrome grain.
+      - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
+      report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G01-attempt-001-final.yaml
+      image_sha256: aed92107c6c216fc1d6bf3eb53ddd49fb49807d1158ea0f5295fcc67bd839648
+      final_pass: true
+    generation:
+      attempts: 1
+      approved_attempt: 1
+      prompt_file: art/prompts/G01.md
+      working_image: art/composite/G01-attempt-001.webp
+      working_sha256: 38c7efe983e53ea71191f21281358b99afdce2683e6918a2ee4ee025ec499152
+    lossless_master:
+      path: art/lossless-masters/assets/art/intel/i23-ubs-lobby-cctv.webp
+      sha256: 38c7efe983e53ea71191f21281358b99afdce2683e6918a2ee4ee025ec499152
+      previous_lock:
+        sha256: 38c7efe983e53ea71191f21281358b99afdce2683e6918a2ee4ee025ec499152
+        approved_at: '2026-09-17T12:46:59.186672+00:00'
+        reviewer: Codex visual inspection
+        final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G01-attempt-001-final.yaml
+    eggs:
+    - id: G01-E1
+      requirement: in the marble reflection a grey raincoated man sits in the waiting chairs, newspaper on his knee
+        — the Watcher
+      mandatory: true
+      composite_text: false
+    - id: G01-E2
+      requirement: the case on the counter sits on a bank cloth that Mercier has positioned precisely — he knows
+        what it is worth
+      mandatory: true
+      composite_text: false
+    - id: G01-E3
+      requirement: a wall calendar reads 17 September 1987.
+      mandatory: true
+      composite_text: true
+    - id: G01-E4
+      requirement: 'Recurring Egg-A: grey Lancia Flavia 2000, white Vatican plates SCV 47, arriving cameo.'
+      mandatory: true
+      composite_text: false
+    exact_text:
+    - '22:41'
+    - 17 September 1987
+    - SANGREAL
+    - SCV 47
+    image: art/work/approved-history/G01/geneva-session-20261015-previous.webp
+    superseded_at: '2026-10-15T18:07:34.711629+00:00'
+    reason: User-authorized current-session evidence revision; original bytes retained.
+  revisions:
+  - id: geneva-session-20261015
+    status: INTEGRATED
+    image: art/composite/revisions/G01-geneva-session-20261015.webp
+    shipping_image: src/assets/art/intel/i23-ubs-lobby-cctv-v2.webp
+    sha256: 72f30d80e0a823add5b074d39e5ed269131c3c125f31fb655d16f0ebbaf43dfd
+    provenance: art/composite/revisions/G01-geneva-session-20261015.json
+    qa_report: art/qa/G01-geneva-session-20261015-final.json
+    visual_qa: APPROVED
+    human_review: NOT_REQUESTED
+    reviewer: Codex visual inspection
+    authorization: please review the evidence pictures and update them if needed I feel some of them are stale or
+      missing information described
+    integrated_at: '2026-10-15T18:07:34.711629+00:00'
+  active_revision: geneva-session-20261015
+  source_resolutions:
+  - asset: G01
+    reviewer: Codex implementing user-requested revision
+    evidence: please review the evidence pictures and update them if needed I feel some of them are stale or missing
+      information described
+    instructions: For active revision geneva-session-20261015, the current Geneva walkthrough and attached revision
+      prompt supersede conflicting legacy image details. 22:41 remains visible in the lower-left timestamp. The
+      clock minute hand points just past 8 and the hour hand between 10 and 11, consistent with nighttime 22:41.
+      The fixed calendar has been removed; the bank recording log now supplies the campaign date. Corvi, Mercier,
+      the case, newspaper reader, car, lobby and monochrome surveillance appearance remain coherent.
+    exact_text_additions: *id001
+    recorded_at: '2026-10-15T18:07:34.711629+00:00'
 - id: G02
   name: Bank Staff Record
   category: intel
   act: Geneva
   optional: false
   output:
-    filename: i24-mercier-staff-id.webp
-    path: src/assets/art/intel/i24-mercier-staff-id.webp
+    filename: i24-mercier-staff-id-v2.webp
+    path: src/assets/art/intel/i24-mercier-staff-id-v2.webp
   aspect_ratio: '4:5'
   medium: passport_id
   source_section: §5 / Geneva / G02
@@ -2537,26 +2619,39 @@ assets:
   - npc-mercier
   continuity_elements: []
   eggs:
-  - id: G02-E1
-    requirement: 'on the blotter beside it, the carbon of a telegraphic transfer half-visible: `CHF 500,000` and
-      `4409-C`'
+  - id: G02-geneva-session-20261015-E1
+    requirement: MERCIER, JEAN-PAUL, GUICHET DE NUIT, BANQUE PRIVEE and GENEVE are legible in completed fields.
     mandatory: true
-    composite_text: true
-  - id: G02-E2
-    requirement: the ID is stamped `AUTORISÉ — COFFRES` — his access is exactly why he was approached.
+    composite_text: false
+  - id: G02-geneva-session-20261015-E2
+    requirement: AUTORISÉ — COFFRES remains visible. The adjacent telegram labels 4409-C as a reference and retains
+      CHF 500,000.
     mandatory: true
-    composite_text: true
-  exact_text:
-  - CHF 500,000
-  - 4409-C
+    composite_text: false
+  - id: G02-geneva-session-20261015-E3
+    requirement: No invented employment date or staff number is added.
+    mandatory: true
+    composite_text: false
+  - id: G02-geneva-session-20261015-E4
+    requirement: Mercier’s facial identity, portrait crop, fingerprint, paper and desk setting remain consistent.
+    mandatory: true
+    composite_text: false
+  exact_text: &id002
+  - MERCIER
+  - JEAN-PAUL
+  - GUICHET DE NUIT
+  - BANQUE PRIVEE
+  - GENEVE
   - AUTORISÉ — COFFRES
+  - 4409-C
+  - CHF 500,000
   text_requirements_unresolved: []
   notes: []
   integration:
     mode: new_card
     card_id: I-24
     item_id: sangreal-ic24
-  status: APPROVED
+  status: INTEGRATED
   generation:
     attempts: 1
     approved_attempt: 1
@@ -2566,35 +2661,111 @@ assets:
   qa:
     status: APPROVED
     notes:
-    - Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS paperwork,
-      carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes with
-      broken carbon-transfer edges and variable density.
-    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
-    report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G02-attempt-001-final.yaml
-    image_sha256: 70932c50896228fb54a3057f118f7b1c76477af097823f7e397ec3d8a302ecf8
+    - MERCIER, JEAN-PAUL, GUICHET DE NUIT, BANQUE PRIVEE and GENEVE are legible in completed fields.
+    - AUTORISÉ — COFFRES remains visible. The adjacent telegram labels 4409-C as a reference and retains CHF 500,000.
+    - No invented employment date or staff number is added.
+    - Mercier’s facial identity, portrait crop, fingerprint, paper and desk setting remain consistent.
+    report: art/qa/G02-geneva-session-20261015-final.json
+    image_sha256: e5a07ee0ee4d9362489eb7aa8ca027b0e9d17942c2304155285e388236140a61
     final_pass: true
   lock:
-    sha256: 70932c50896228fb54a3057f118f7b1c76477af097823f7e397ec3d8a302ecf8
-    approved_at: '2026-09-17T12:47:00.129794+00:00'
-    reviewer: Codex visual inspection
-    final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G02-attempt-001-final.yaml
-    encoding: WebP quality 85, original dimensions
+    sha256: e5a07ee0ee4d9362489eb7aa8ca027b0e9d17942c2304155285e388236140a61
+    approved_at: '2026-10-15T18:07:34.711629+00:00'
+    reviewer: Codex final visual QA
+    final_qa: art/qa/G02-geneva-session-20261015-final.json
+    revision: geneva-session-20261015
+    encoding: Lossless WebP, original generated dimensions; pixel equality verified
   lossless_master:
-    path: art/lossless-masters/assets/art/intel/i24-mercier-staff-id.webp
-    sha256: b31ec4b3997a7a175d5d3a01335cf3106aa39367d95c8d6d814df471df0195f9
-    previous_lock:
-      sha256: b31ec4b3997a7a175d5d3a01335cf3106aa39367d95c8d6d814df471df0195f9
+    path: art/composite/revisions/G02-geneva-session-20261015.webp
+    sha256: e5a07ee0ee4d9362489eb7aa8ca027b0e9d17942c2304155285e388236140a61
+  revisions:
+  - id: geneva-session-20261015
+    status: INTEGRATED
+    image: art/composite/revisions/G02-geneva-session-20261015.webp
+    visual_qa: APPROVED
+    human_review: NOT_REQUESTED
+    authorization: please review the evidence pictures and update them if needed I feel some of them are stale or
+      missing information described
+    prompt_file: art/prompts/G02-geneva-session-20261015.txt
+    source_sha256: 70932c50896228fb54a3057f118f7b1c76477af097823f7e397ec3d8a302ecf8
+    shipping_image: src/assets/art/intel/i24-mercier-staff-id-v2.webp
+    sha256: e5a07ee0ee4d9362489eb7aa8ca027b0e9d17942c2304155285e388236140a61
+    provenance: art/composite/revisions/G02-geneva-session-20261015.json
+    qa_report: art/qa/G02-geneva-session-20261015-final.json
+    reviewer: Codex visual inspection
+    integrated_at: '2026-10-15T18:07:34.711629+00:00'
+  approved_history:
+  - output:
+      filename: i24-mercier-staff-id.webp
+      path: src/assets/art/intel/i24-mercier-staff-id.webp
+    lock:
+      sha256: 70932c50896228fb54a3057f118f7b1c76477af097823f7e397ec3d8a302ecf8
       approved_at: '2026-09-17T12:47:00.129794+00:00'
       reviewer: Codex visual inspection
       final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G02-attempt-001-final.yaml
+      encoding: WebP quality 85, original dimensions
+    qa:
+      status: APPROVED
+      notes:
+      - Final employee-record still inspected at original resolution. Mercier portrait, thumbprint, aged UBS paperwork,
+        carbon telegram copy, and desk materials remain integrated. Added lettering follows the paper planes with
+        broken carbon-transfer edges and variable density.
+      - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
+      report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G02-attempt-001-final.yaml
+      image_sha256: 70932c50896228fb54a3057f118f7b1c76477af097823f7e397ec3d8a302ecf8
+      final_pass: true
+    generation:
+      attempts: 1
+      approved_attempt: 1
+      prompt_file: art/prompts/G02.md
+      working_image: art/composite/G02-attempt-001.webp
+      working_sha256: b31ec4b3997a7a175d5d3a01335cf3106aa39367d95c8d6d814df471df0195f9
+    lossless_master:
+      path: art/lossless-masters/assets/art/intel/i24-mercier-staff-id.webp
+      sha256: b31ec4b3997a7a175d5d3a01335cf3106aa39367d95c8d6d814df471df0195f9
+      previous_lock:
+        sha256: b31ec4b3997a7a175d5d3a01335cf3106aa39367d95c8d6d814df471df0195f9
+        approved_at: '2026-09-17T12:47:00.129794+00:00'
+        reviewer: Codex visual inspection
+        final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G02-attempt-001-final.yaml
+    eggs:
+    - id: G02-E1
+      requirement: 'on the blotter beside it, the carbon of a telegraphic transfer half-visible: `CHF 500,000` and
+        `4409-C`'
+      mandatory: true
+      composite_text: true
+    - id: G02-E2
+      requirement: the ID is stamped `AUTORISÉ — COFFRES` — his access is exactly why he was approached.
+      mandatory: true
+      composite_text: true
+    exact_text:
+    - CHF 500,000
+    - 4409-C
+    - AUTORISÉ — COFFRES
+    image: art/work/approved-history/G02/geneva-session-20261015-previous.webp
+    superseded_at: '2026-10-15T18:07:34.711629+00:00'
+    reason: User-authorized current-session evidence revision; original bytes retained.
+  active_revision: geneva-session-20261015
+  source_resolutions:
+  - asset: G02
+    reviewer: Codex implementing user-requested revision
+    evidence: please review the evidence pictures and update them if needed I feel some of them are stale or missing
+      information described
+    instructions: For active revision geneva-session-20261015, the current Geneva walkthrough and attached revision
+      prompt supersede conflicting legacy image details. MERCIER, JEAN-PAUL, GUICHET DE NUIT, BANQUE PRIVEE and
+      GENEVE are legible in completed fields. AUTORISÉ — COFFRES remains visible. The adjacent telegram labels 4409-C
+      as a reference and retains CHF 500,000. No invented employment date or staff number is added. Mercier’s facial
+      identity, portrait crop, fingerprint, paper and desk setting remain consistent.
+    exact_text_additions: *id002
+    recorded_at: '2026-10-15T18:07:34.711629+00:00'
 - id: G03
   name: The Escrow Transfer Slip
   category: intel
   act: Geneva
   optional: false
   output:
-    filename: i06-escrow-slip-carbon.webp
-    path: src/assets/art/intel/i06-escrow-slip-carbon.webp
+    filename: i06-escrow-slip-carbon-v2.webp
+    path: src/assets/art/intel/i06-escrow-slip-carbon-v2.webp
   aspect_ratio: '3:4'
   medium: photocopy_carbon
   source_section: §5 / Geneva / G03
@@ -2629,27 +2800,36 @@ assets:
   - ubs-key-tag
   - sonnenberg-logo
   eggs:
-  - id: G03-E1
-    requirement: the memo line reads `Acquisition of Primary Specimen (1 of 12) — Experimental Oncology Protocol`
-      (composite this text)
-    mandatory: true
-    composite_text: true
-  - id: G03-E2
-    requirement: a pencilled clerk's tick beside `1 of 12` — he noticed the number
-    mandatory: true
-    composite_text: true
-  - id: G03-E3
-    requirement: the carbon is slightly folded at the corner where it was kept in a jacket.
+  - id: G03-geneva-session-20261015-E1
+    requirement: Paying principal KURT HAUSMANN and supplier MONSIGNOR MATTEO CORVI are readable.
     mandatory: true
     composite_text: false
-  exact_text:
+  - id: G03-geneva-session-20261015-E2
+    requirement: Sonnenberg Privatklinik, Zurich, reference 4409-C, CHF 500,000 and Vaduz escrow are correct.
+    mandatory: true
+    composite_text: false
+  - id: G03-geneva-session-20261015-E3
+    requirement: The one-of-twelve oncology memo and conditional-release language are visible; the receipt expressly
+      does not certify treatment.
+    mandatory: true
+    composite_text: false
+  - id: G03-geneva-session-20261015-E4
+    requirement: Folded paper corner, pencil tick, clinic logo, perspective and period desk setting are retained.
+    mandatory: true
+    composite_text: false
+  exact_text: &id003
+  - KURT HAUSMANN
+  - MONSIGNOR MATTEO CORVI
+  - Sonnenberg Privatklinik, Zurich
   - 4409-C
-  - Acquisition of Primary Specimen (1 of 12) — Experimental Oncology Protocol
   - CHF 500,000
-  - Sonnenberg Privatklinik
-  - Vaduz
-  - Union de Banques Suisses
   - Ecclesiastical escrow account
+  - Vaduz
+  - Acquisition of Primary Specimen
+  - (1 of 12)
+  - Experimental Oncology Protocol
+  - Release subject to acknowledgment of receipt.
+  - This receipt does not certify treatment.
   text_requirements_unresolved: []
   notes:
   - Exact destination field label taken from source Shows line, to distinguish the Vaduz escrow destination from
@@ -2658,7 +2838,7 @@ assets:
     mode: existing_card
     card_id: I-6
     item_id: sangreal-ic06
-  status: APPROVED
+  status: INTEGRATED
   generation:
     attempts: 2
     approved_attempt: 2
@@ -2668,17 +2848,21 @@ assets:
   qa:
     status: APPROVED
     notes:
-    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
-    report: art/qa/G03-text-v2-final.yaml
-    image_sha256: d797dac66365d95bc8f4364cb7c809f704399226753943a194daed480f8f16ea
+    - Paying principal KURT HAUSMANN and supplier MONSIGNOR MATTEO CORVI are readable.
+    - Sonnenberg Privatklinik, Zurich, reference 4409-C, CHF 500,000 and Vaduz escrow are correct.
+    - The one-of-twelve oncology memo and conditional-release language are visible; the receipt expressly does not
+      certify treatment.
+    - Folded paper corner, pencil tick, clinic logo, perspective and period desk setting are retained.
+    report: art/qa/G03-geneva-session-20261015-final.json
+    image_sha256: 9f97f407aa49007348100ef8c0343cd4dbbb175830f3dad12181454f4d0fb122
     final_pass: true
   lock:
-    sha256: d797dac66365d95bc8f4364cb7c809f704399226753943a194daed480f8f16ea
-    approved_at: '2026-09-16T18:59:18.387521+00:00'
-    reviewer: Bruce
-    final_qa: art/qa/G03-text-v2-final.yaml
-    revision: text-v2
-    encoding: WebP quality 85, original dimensions
+    sha256: 9f97f407aa49007348100ef8c0343cd4dbbb175830f3dad12181454f4d0fb122
+    approved_at: '2026-10-15T18:07:34.711629+00:00'
+    reviewer: Codex final visual QA
+    final_qa: art/qa/G03-geneva-session-20261015-final.json
+    revision: geneva-session-20261015
+    encoding: Lossless WebP, original generated dimensions; pixel equality verified
   revisions:
   - id: text-v2
     status: APPROVED
@@ -2691,6 +2875,21 @@ assets:
     reviewer: Bruce
     evidence: reviewed and approved, continue
     promoted_at: '2026-09-16T18:59:18.387516+00:00'
+  - id: geneva-session-20261015
+    status: INTEGRATED
+    image: art/composite/revisions/G03-geneva-session-20261015.webp
+    visual_qa: APPROVED
+    human_review: NOT_REQUESTED
+    authorization: please review the evidence pictures and update them if needed I feel some of them are stale or
+      missing information described
+    prompt_file: art/prompts/G03-geneva-session-20261015.txt
+    source_sha256: d797dac66365d95bc8f4364cb7c809f704399226753943a194daed480f8f16ea
+    shipping_image: src/assets/art/intel/i06-escrow-slip-carbon-v2.webp
+    sha256: 9f97f407aa49007348100ef8c0343cd4dbbb175830f3dad12181454f4d0fb122
+    provenance: art/composite/revisions/G03-geneva-session-20261015.json
+    qa_report: art/qa/G03-geneva-session-20261015-final.json
+    reviewer: Codex visual inspection
+    integrated_at: '2026-10-15T18:07:34.711629+00:00'
   approved_history:
   - image: art/work/approved-history/G03/before-text-v2.webp
     lock:
@@ -2705,23 +2904,88 @@ assets:
       image_sha256: b8b66a01ff389ef54c2f70c6624feaf0f92f622cab3af46803df1fd6e8d8a4df
       final_pass: true
     superseded_at: '2026-09-16T18:59:18.386021+00:00'
-  lossless_master:
-    path: art/lossless-masters/assets/art/intel/i06-escrow-slip-carbon.webp
-    sha256: f54d6b339a3627ad76dd70f92632d2c241baff2f95223b2b0bea7ba908c92129
-    previous_lock:
-      sha256: f54d6b339a3627ad76dd70f92632d2c241baff2f95223b2b0bea7ba908c92129
+  - output:
+      filename: i06-escrow-slip-carbon.webp
+      path: src/assets/art/intel/i06-escrow-slip-carbon.webp
+    lock:
+      sha256: d797dac66365d95bc8f4364cb7c809f704399226753943a194daed480f8f16ea
       approved_at: '2026-09-16T18:59:18.387521+00:00'
       reviewer: Bruce
       final_qa: art/qa/G03-text-v2-final.yaml
       revision: text-v2
+      encoding: WebP quality 85, original dimensions
+    qa:
+      status: APPROVED
+      notes:
+      - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
+      report: art/qa/G03-text-v2-final.yaml
+      image_sha256: d797dac66365d95bc8f4364cb7c809f704399226753943a194daed480f8f16ea
+      final_pass: true
+    generation:
+      attempts: 2
+      approved_attempt: 2
+      prompt_file: art/prompts/G03.md
+      working_image: art/composite/revisions/G03-text-v2.webp
+      working_sha256: f54d6b339a3627ad76dd70f92632d2c241baff2f95223b2b0bea7ba908c92129
+    lossless_master:
+      path: art/lossless-masters/assets/art/intel/i06-escrow-slip-carbon.webp
+      sha256: f54d6b339a3627ad76dd70f92632d2c241baff2f95223b2b0bea7ba908c92129
+      previous_lock:
+        sha256: f54d6b339a3627ad76dd70f92632d2c241baff2f95223b2b0bea7ba908c92129
+        approved_at: '2026-09-16T18:59:18.387521+00:00'
+        reviewer: Bruce
+        final_qa: art/qa/G03-text-v2-final.yaml
+        revision: text-v2
+    eggs:
+    - id: G03-E1
+      requirement: the memo line reads `Acquisition of Primary Specimen (1 of 12) — Experimental Oncology Protocol`
+        (composite this text)
+      mandatory: true
+      composite_text: true
+    - id: G03-E2
+      requirement: a pencilled clerk's tick beside `1 of 12` — he noticed the number
+      mandatory: true
+      composite_text: true
+    - id: G03-E3
+      requirement: the carbon is slightly folded at the corner where it was kept in a jacket.
+      mandatory: true
+      composite_text: false
+    exact_text:
+    - 4409-C
+    - Acquisition of Primary Specimen (1 of 12) — Experimental Oncology Protocol
+    - CHF 500,000
+    - Sonnenberg Privatklinik
+    - Vaduz
+    - Union de Banques Suisses
+    - Ecclesiastical escrow account
+    image: art/work/approved-history/G03/geneva-session-20261015-previous.webp
+    superseded_at: '2026-10-15T18:07:34.711629+00:00'
+    reason: User-authorized current-session evidence revision; original bytes retained.
+  lossless_master:
+    path: art/composite/revisions/G03-geneva-session-20261015.webp
+    sha256: 9f97f407aa49007348100ef8c0343cd4dbbb175830f3dad12181454f4d0fb122
+  active_revision: geneva-session-20261015
+  source_resolutions:
+  - asset: G03
+    reviewer: Codex implementing user-requested revision
+    evidence: please review the evidence pictures and update them if needed I feel some of them are stale or missing
+      information described
+    instructions: For active revision geneva-session-20261015, the current Geneva walkthrough and attached revision
+      prompt supersede conflicting legacy image details. Paying principal KURT HAUSMANN and supplier MONSIGNOR MATTEO
+      CORVI are readable. Sonnenberg Privatklinik, Zurich, reference 4409-C, CHF 500,000 and Vaduz escrow are correct.
+      The one-of-twelve oncology memo and conditional-release language are visible; the receipt expressly does not
+      certify treatment. Folded paper corner, pencil tick, clinic logo, perspective and period desk setting are
+      retained.
+    exact_text_additions: *id003
+    recorded_at: '2026-10-15T18:07:34.711629+00:00'
 - id: G04
-  name: The Ledger Page
+  name: Geneva Escrow Request Register
   category: intel
   act: Geneva
   optional: false
   output:
-    filename: i25-locker-ledger-4409c.webp
-    path: src/assets/art/intel/i25-locker-ledger-4409c.webp
+    filename: i25-escrow-request-register-v3.webp
+    path: src/assets/art/intel/i25-escrow-request-register-v3.webp
   aspect_ratio: '3:4'
   medium: photocopy_carbon
   source_section: §5 / Geneva / G04
@@ -2751,24 +3015,31 @@ assets:
   continuity_elements:
   - ubs-key-tag
   eggs:
-  - id: G04-E1
-    requirement: 'three access entries — two by `K. HAUSMANN`, one struck through with correction fluid, a different
-      name faintly showing beneath: `VANE, C.` (composite)'
+  - id: G04-sonnenberg-session-20261015-0
+    requirement: GENÈVE, DOSSIER 4409-C and double-circled 4409 are readable.
     mandatory: true
-    composite_text: true
-  - id: G04-E2
-    requirement: the times show an access at 02:10 on the night the case moved
+    composite_text: false
+  - id: G04-sonnenberg-session-20261015-1
+    requirement: Rows show K. HAUSMANN / Instructions, SERVICE FIDUCIAIRE / Conditions de versement, M. CORVI /
+      Signature, each J.P.M.
     mandatory: true
-    composite_text: true
-  - id: G04-E3
-    requirement: the page number `4409` in the corner is circled twice.
+    composite_text: false
+  - id: G04-sonnenberg-session-20261015-2
+    requirement: No Vane name, correction tape, erased entry or loose original inquiry note remains.
     mandatory: true
-    composite_text: true
-  exact_text:
+    composite_text: false
+  - id: G04-sonnenberg-session-20261015-3
+    requirement: No date or time is introduced; the file is corroboration of escrow parties.
+    mandatory: true
+    composite_text: false
+  exact_text: &id004
+  - GENÈVE
+  - DOSSIER 4409-C
   - K. HAUSMANN
-  - VANE, C.
-  - '4409'
-  - 02:10
+  - SERVICE FIDUCIAIRE
+  - Conditions de versement
+  - M. CORVI
+  - J.P.M.
   text_requirements_unresolved: []
   notes:
   - Exact numeric clue is listed in exact_text; defer its Egg check to final composite QA.
@@ -2776,7 +3047,7 @@ assets:
     mode: new_card
     card_id: I-25
     item_id: sangreal-ic25
-  status: APPROVED
+  status: INTEGRATED
   generation:
     attempts: 1
     approved_attempt: 1
@@ -2786,35 +3057,216 @@ assets:
   qa:
     status: APPROVED
     notes:
-    - Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
-      4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
-      The handwriting is irregular and the correction fluid remains visually dominant.
-    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
-    report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G04-attempt-001-final.yaml
-    image_sha256: fd185a9e12ff9dc77121dcdd05af486a4f114cc6f7c737d7ac24e0cd4b7af555
+    - GENÈVE, DOSSIER 4409-C and double-circled 4409 are readable.
+    - Rows show K. HAUSMANN / Instructions, SERVICE FIDUCIAIRE / Conditions de versement, M. CORVI / Signature,
+      each J.P.M.
+    - No Vane name, correction tape, erased entry or loose original inquiry note remains.
+    - No date or time is introduced; the file is corroboration of escrow parties.
+    report: art/qa/G04-sonnenberg-session-20261015-final.json
+    image_sha256: 73965e811c3769726321d1aa5dcb9211374f037dcbf02a55251fafe0582e396e
     final_pass: true
   lock:
-    sha256: fd185a9e12ff9dc77121dcdd05af486a4f114cc6f7c737d7ac24e0cd4b7af555
-    approved_at: '2026-09-17T12:47:00.974327+00:00'
+    sha256: 73965e811c3769726321d1aa5dcb9211374f037dcbf02a55251fafe0582e396e
+    approved_at: '2026-10-15T19:39:24.389266+00:00'
     reviewer: Codex visual inspection
-    final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G04-attempt-001-final.yaml
-    encoding: WebP quality 85, original dimensions
+    final_qa: art/qa/G04-sonnenberg-session-20261015-final.json
+    revision: sonnenberg-session-20261015
   lossless_master:
-    path: art/lossless-masters/assets/art/intel/i25-locker-ledger-4409c.webp
-    sha256: 261f382835007e6d58a654669894f5840f0aa4a428aa99afba8e971d0de7457d
-    previous_lock:
-      sha256: 261f382835007e6d58a654669894f5840f0aa4a428aa99afba8e971d0de7457d
+    path: art/composite/revisions/G04-sonnenberg-session-20261015.webp
+    sha256: 73965e811c3769726321d1aa5dcb9211374f037dcbf02a55251fafe0582e396e
+  revisions:
+  - id: geneva-session-20261015
+    status: INTEGRATED
+    image: art/composite/revisions/G04-geneva-session-20261015.webp
+    visual_qa: APPROVED
+    human_review: NOT_REQUESTED
+    authorization: please review the evidence pictures and update them if needed I feel some of them are stale or
+      missing information described
+    prompt_file: art/prompts/G04-geneva-session-20261015.txt
+    source_sha256: fd185a9e12ff9dc77121dcdd05af486a4f114cc6f7c737d7ac24e0cd4b7af555
+    shipping_image: src/assets/art/intel/i25-locker-ledger-4409c-v2.webp
+    sha256: 47249cd5ea1b22266bf6edab8b3250684db4b87b0e86657a88cfb2badd14d02d
+    provenance: art/composite/revisions/G04-geneva-session-20261015.json
+    qa_report: art/qa/G04-geneva-session-20261015-final.json
+    reviewer: Codex visual inspection
+    integrated_at: '2026-10-15T18:07:34.711629+00:00'
+  - id: sonnenberg-session-20261015
+    status: INTEGRATED
+    image: art/composite/revisions/G04-sonnenberg-session-20261015.webp
+    shipping_image: src/assets/art/intel/i25-escrow-request-register-v3.webp
+    sha256: 73965e811c3769726321d1aa5dcb9211374f037dcbf02a55251fafe0582e396e
+    qa_report: art/qa/G04-sonnenberg-session-20261015-final.json
+    provenance: art/composite/revisions/G04-sonnenberg-session-20261015.json
+    visual_qa: APPROVED
+    reviewer: Codex visual inspection
+    human_review: NOT_REQUESTED
+    integrated_at: '2026-10-15T19:39:24.389266+00:00'
+  approved_history:
+  - output:
+      filename: i25-locker-ledger-4409c.webp
+      path: src/assets/art/intel/i25-locker-ledger-4409c.webp
+    lock:
+      sha256: fd185a9e12ff9dc77121dcdd05af486a4f114cc6f7c737d7ac24e0cd4b7af555
       approved_at: '2026-09-17T12:47:00.974327+00:00'
       reviewer: Codex visual inspection
       final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G04-attempt-001-final.yaml
+      encoding: WebP quality 85, original dimensions
+    qa:
+      status: APPROVED
+      notes:
+      - Final safe-deposit ledger inspected at original resolution. The page is aged, handled, and period-correct.
+        4409 remains double-circled; two K. HAUSMANN entries precede a partially corrected VANE, C. entry at 02:10.
+        The handwriting is irregular and the correction fluid remains visually dominant.
+      - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
+      report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G04-attempt-001-final.yaml
+      image_sha256: fd185a9e12ff9dc77121dcdd05af486a4f114cc6f7c737d7ac24e0cd4b7af555
+      final_pass: true
+    generation:
+      attempts: 1
+      approved_attempt: 1
+      prompt_file: art/prompts/G04.md
+      working_image: art/composite/G04-attempt-001.webp
+      working_sha256: 261f382835007e6d58a654669894f5840f0aa4a428aa99afba8e971d0de7457d
+    lossless_master:
+      path: art/lossless-masters/assets/art/intel/i25-locker-ledger-4409c.webp
+      sha256: 261f382835007e6d58a654669894f5840f0aa4a428aa99afba8e971d0de7457d
+      previous_lock:
+        sha256: 261f382835007e6d58a654669894f5840f0aa4a428aa99afba8e971d0de7457d
+        approved_at: '2026-09-17T12:47:00.974327+00:00'
+        reviewer: Codex visual inspection
+        final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G04-attempt-001-final.yaml
+    eggs:
+    - id: G04-E1
+      requirement: 'three access entries — two by `K. HAUSMANN`, one struck through with correction fluid, a different
+        name faintly showing beneath: `VANE, C.` (composite)'
+      mandatory: true
+      composite_text: true
+    - id: G04-E2
+      requirement: the times show an access at 02:10 on the night the case moved
+      mandatory: true
+      composite_text: true
+    - id: G04-E3
+      requirement: the page number `4409` in the corner is circled twice.
+      mandatory: true
+      composite_text: true
+    exact_text:
+    - K. HAUSMANN
+    - VANE, C.
+    - '4409'
+    - 02:10
+    image: art/work/approved-history/G04/geneva-session-20261015-previous.webp
+    superseded_at: '2026-10-15T18:07:34.711629+00:00'
+    reason: User-authorized current-session evidence revision; original bytes retained.
+  - output:
+      filename: i25-locker-ledger-4409c-v2.webp
+      path: src/assets/art/intel/i25-locker-ledger-4409c-v2.webp
+    lock:
+      sha256: 47249cd5ea1b22266bf6edab8b3250684db4b87b0e86657a88cfb2badd14d02d
+      approved_at: '2026-10-15T18:07:34.711629+00:00'
+      reviewer: Codex final visual QA
+      final_qa: art/qa/G04-geneva-session-20261015-final.json
+      revision: geneva-session-20261015
+      encoding: Lossless WebP, original generated dimensions; pixel equality verified
+    qa:
+      status: APPROVED
+      notes:
+      - Geneva request-register heading, dossier 4409-C and double-circled 4409 are readable.
+      - The three rows identify Hausmann instructions, Vane consultation and Corvi signature, each with J.P.M.
+      - The original physical note clearly names Claudia Vane, K. Hausmann, Dossier Corvi and J.-P. Mercier.
+      - A correction strip crosses Vane’s entry, but the name remains readable. The final prose explicitly treats
+        this as imperfect concealment, not an unreadable-name puzzle.
+      - No Zurich address or 02:10 date/time claim remains. The note is a physical paper on the ledger; show only
+        when both documents are obtained.
+      report: art/qa/G04-geneva-session-20261015-final.json
+      image_sha256: 47249cd5ea1b22266bf6edab8b3250684db4b87b0e86657a88cfb2badd14d02d
+      final_pass: true
+    lossless_master:
+      path: art/composite/revisions/G04-geneva-session-20261015.webp
+      sha256: 47249cd5ea1b22266bf6edab8b3250684db4b87b0e86657a88cfb2badd14d02d
+    eggs:
+    - id: G04-geneva-session-20261015-E1
+      requirement: Geneva request-register heading, dossier 4409-C and double-circled 4409 are readable.
+      mandatory: true
+      composite_text: false
+    - id: G04-geneva-session-20261015-E2
+      requirement: The three rows identify Hausmann instructions, Vane consultation and Corvi signature, each with
+        J.P.M.
+      mandatory: true
+      composite_text: false
+    - id: G04-geneva-session-20261015-E3
+      requirement: The original physical note clearly names Claudia Vane, K. Hausmann, Dossier Corvi and J.-P. Mercier.
+      mandatory: true
+      composite_text: false
+    - id: G04-geneva-session-20261015-E4
+      requirement: A correction strip crosses Vane’s entry, but the name remains readable. The final prose explicitly
+        treats this as imperfect concealment, not an unreadable-name puzzle.
+      mandatory: true
+      composite_text: false
+    - id: G04-geneva-session-20261015-E5
+      requirement: No Zurich address or 02:10 date/time claim remains. The note is a physical paper on the ledger;
+        show only when both documents are obtained.
+      mandatory: true
+      composite_text: false
+    exact_text:
+    - Union de Banques Suisses
+    - REGISTRE DES DEMANDES
+    - DOSSIER 4409-C
+    - K. HAUSMANN
+    - VANE, C.
+    - M. CORVI
+    - J.P.M.
+    - NOTE ORIGINALE
+    - Claudia Vane
+    - K. Hausmann
+    - Dossier Corvi
+    - J.-P. Mercier
+    active_revision: geneva-session-20261015
+    superseded_at: '2026-10-15T19:39:24.389266+00:00'
+    reason: User requests that Geneva not telegraph Claudia’s late twist; prior Vane inquiry image withdrawn from
+      current cards.
+  active_revision: sonnenberg-session-20261015
+  source_resolutions:
+  - asset: G04
+    reviewer: Codex implementing user-requested revision
+    evidence: please review the evidence pictures and update them if needed I feel some of them are stale or missing
+      information described
+    instructions: For active revision geneva-session-20261015, the current Geneva walkthrough and attached revision
+      prompt supersede conflicting legacy image details. Geneva request-register heading, dossier 4409-C and double-circled
+      4409 are readable. The three rows identify Hausmann instructions, Vane consultation and Corvi signature, each
+      with J.P.M. The original physical note clearly names Claudia Vane, K. Hausmann, Dossier Corvi and J.-P. Mercier.
+      A correction strip crosses Vane’s entry, but the name remains readable. The final prose explicitly treats
+      this as imperfect concealment, not an unreadable-name puzzle. No Zurich address or 02:10 date/time claim remains.
+      The note is a physical paper on the ledger; show only when both documents are obtained.
+    exact_text_additions:
+    - Union de Banques Suisses
+    - REGISTRE DES DEMANDES
+    - DOSSIER 4409-C
+    - K. HAUSMANN
+    - VANE, C.
+    - M. CORVI
+    - J.P.M.
+    - NOTE ORIGINALE
+    - Claudia Vane
+    - K. Hausmann
+    - Dossier Corvi
+    - J.-P. Mercier
+    recorded_at: '2026-10-15T18:07:34.711629+00:00'
+  - asset: G04
+    reviewer: Codex implementing explicit user revision
+    recorded_at: '2026-10-15T19:39:24.389266+00:00'
+    evidence: 'User: do not draw suspicion to Claudia; she volunteers a preliminary Rome telephone inquiry on the
+      train.'
+    instructions: Active sonnenberg-session-20261015 replaces prior Vane/correction/original-note requirements.
+      Current ledger has Hausmann, trust office and Corvi only. Old images remain historical, not active clue references.
+    exact_text_additions: *id004
 - id: G05
-  name: The 06:40 to Geneva
+  name: Corvi at Cornavin
   category: intel
   act: Geneva
   optional: false
   output:
-    filename: i26-cornavin-platform.webp
-    path: src/assets/art/intel/i26-cornavin-platform.webp
+    filename: i26-cornavin-platform-v2.webp
+    path: src/assets/art/intel/i26-cornavin-platform-v2.webp
   aspect_ratio: '3:2'
   medium: telephoto_stakeout
   source_section: §5 / Geneva / G05
@@ -2857,29 +3309,35 @@ assets:
   - ouroboros-eye
   - green-railway-pass
   eggs:
-  - id: G05-E1
-    requirement: a figure a carriage behind in a grey raincoat, same newspaper
+  - id: G05-geneva-session-20261015-E1
+    requirement: ZÜRICH HB is legible on the destination board; Genève-Cornavin remains visible.
     mandatory: true
     composite_text: false
-  - id: G05-E2
-    requirement: the carriage board reads `EC 30 ROMULUS`
+  - id: G05-geneva-session-20261015-E2
+    requirement: Carriage 2 and VATICAN COURIER remain visible. No fabricated departure time or train number is
+      added.
     mandatory: true
-    composite_text: true
-  - id: G05-E3
-    requirement: a porter's trolley carries a pasteboard label `VATICAN COURIER`.
+    composite_text: false
+  - id: G05-geneva-session-20261015-E3
+    requirement: Corvi, the metal case, newspaper reader, trolley, station setting and framing remain consistent.
     mandatory: true
-    composite_text: true
-  exact_text:
-  - EC 30 ROMULUS
+    composite_text: false
+  - id: G05-geneva-session-20261015-E4
+    requirement: This corroborates the rail destination, not arrival at Sonnenberg; the card preserves that limit.
+    mandatory: true
+    composite_text: false
+  exact_text: &id005
+  - ZÜRICH HB
+  - Genève-Cornavin
   - VATICAN COURIER
-  - SANGREAL
+  - '2'
   text_requirements_unresolved: []
   notes: []
   integration:
     mode: new_card
     card_id: I-26
     item_id: sangreal-ic26
-  status: APPROVED
+  status: INTEGRATED
   generation:
     attempts: 1
     approved_attempt: 1
@@ -2889,27 +3347,106 @@ assets:
   qa:
     status: APPROVED
     notes:
-    - Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal case
-      while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling stock
-      remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
-    - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
-    report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G05-attempt-001-final.yaml
-    image_sha256: 62a39b2771a9fa9dfdaabb315484721ea74a9b798efa672339a22071a7ed74ab
+    - ZÜRICH HB is legible on the destination board; Genève-Cornavin remains visible.
+    - Carriage 2 and VATICAN COURIER remain visible. No fabricated departure time or train number is added.
+    - Corvi, the metal case, newspaper reader, trolley, station setting and framing remain consistent.
+    - This corroborates the rail destination, not arrival at Sonnenberg; the card preserves that limit.
+    report: art/qa/G05-geneva-session-20261015-final.json
+    image_sha256: 20dffa677c8db3fc19cd6cd233c33e5ae270a5e4781dcdef3d2adb4554d4cc73
     final_pass: true
   lock:
-    sha256: 62a39b2771a9fa9dfdaabb315484721ea74a9b798efa672339a22071a7ed74ab
-    approved_at: '2026-09-17T12:47:01.915446+00:00'
-    reviewer: Codex visual inspection
-    final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G05-attempt-001-final.yaml
-    encoding: WebP quality 85, original dimensions
+    sha256: 20dffa677c8db3fc19cd6cd233c33e5ae270a5e4781dcdef3d2adb4554d4cc73
+    approved_at: '2026-10-15T18:07:34.711629+00:00'
+    reviewer: Codex final visual QA
+    final_qa: art/qa/G05-geneva-session-20261015-final.json
+    revision: geneva-session-20261015
+    encoding: Lossless WebP, original generated dimensions; pixel equality verified
   lossless_master:
-    path: art/lossless-masters/assets/art/intel/i26-cornavin-platform.webp
-    sha256: 686e43166208dbc7eff9d1ef0e8ef18c5f837379031655458503568c3c60ddec
-    previous_lock:
-      sha256: 686e43166208dbc7eff9d1ef0e8ef18c5f837379031655458503568c3c60ddec
+    path: art/composite/revisions/G05-geneva-session-20261015.webp
+    sha256: 20dffa677c8db3fc19cd6cd233c33e5ae270a5e4781dcdef3d2adb4554d4cc73
+  revisions:
+  - id: geneva-session-20261015
+    status: INTEGRATED
+    image: art/composite/revisions/G05-geneva-session-20261015.webp
+    visual_qa: APPROVED
+    human_review: NOT_REQUESTED
+    authorization: please review the evidence pictures and update them if needed I feel some of them are stale or
+      missing information described
+    prompt_file: art/prompts/G05-geneva-session-20261015.txt
+    source_sha256: 62a39b2771a9fa9dfdaabb315484721ea74a9b798efa672339a22071a7ed74ab
+    shipping_image: src/assets/art/intel/i26-cornavin-platform-v2.webp
+    sha256: 20dffa677c8db3fc19cd6cd233c33e5ae270a5e4781dcdef3d2adb4554d4cc73
+    provenance: art/composite/revisions/G05-geneva-session-20261015.json
+    qa_report: art/qa/G05-geneva-session-20261015-final.json
+    reviewer: Codex visual inspection
+    integrated_at: '2026-10-15T18:07:34.711629+00:00'
+  approved_history:
+  - output:
+      filename: i26-cornavin-platform.webp
+      path: src/assets/art/intel/i26-cornavin-platform.webp
+    lock:
+      sha256: 62a39b2771a9fa9dfdaabb315484721ea74a9b798efa672339a22071a7ed74ab
       approved_at: '2026-09-17T12:47:01.915446+00:00'
       reviewer: Codex visual inspection
       final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G05-attempt-001-final.yaml
+      encoding: WebP quality 85, original dimensions
+    qa:
+      status: APPROVED
+      notes:
+      - Final Genève-Cornavin platform image inspected at original resolution. Corvi boards with the Sangreal case
+        while the Watcher trails behind a newspaper. Steam, rain, reflections, platform furniture, and rolling stock
+        remain coherent. Board, trolley card, and case plaque lettering follow their host planes and weathering.
+      - Delivery re-encoded at WebP q85 without resizing; lossless master archived separately.
+      report: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G05-attempt-001-final.yaml
+      image_sha256: 62a39b2771a9fa9dfdaabb315484721ea74a9b798efa672339a22071a7ed74ab
+      final_pass: true
+    generation:
+      attempts: 1
+      approved_attempt: 1
+      prompt_file: art/prompts/G05.md
+      working_image: art/composite/G05-attempt-001.webp
+      working_sha256: 686e43166208dbc7eff9d1ef0e8ef18c5f837379031655458503568c3c60ddec
+    lossless_master:
+      path: art/lossless-masters/assets/art/intel/i26-cornavin-platform.webp
+      sha256: 686e43166208dbc7eff9d1ef0e8ef18c5f837379031655458503568c3c60ddec
+      previous_lock:
+        sha256: 686e43166208dbc7eff9d1ef0e8ef18c5f837379031655458503568c3c60ddec
+        approved_at: '2026-09-17T12:47:01.915446+00:00'
+        reviewer: Codex visual inspection
+        final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/G05-attempt-001-final.yaml
+    eggs:
+    - id: G05-E1
+      requirement: a figure a carriage behind in a grey raincoat, same newspaper
+      mandatory: true
+      composite_text: false
+    - id: G05-E2
+      requirement: the carriage board reads `EC 30 ROMULUS`
+      mandatory: true
+      composite_text: true
+    - id: G05-E3
+      requirement: a porter's trolley carries a pasteboard label `VATICAN COURIER`.
+      mandatory: true
+      composite_text: true
+    exact_text:
+    - EC 30 ROMULUS
+    - VATICAN COURIER
+    - SANGREAL
+    image: art/work/approved-history/G05/geneva-session-20261015-previous.webp
+    superseded_at: '2026-10-15T18:07:34.711629+00:00'
+    reason: User-authorized current-session evidence revision; original bytes retained.
+  active_revision: geneva-session-20261015
+  source_resolutions:
+  - asset: G05
+    reviewer: Codex implementing user-requested revision
+    evidence: please review the evidence pictures and update them if needed I feel some of them are stale or missing
+      information described
+    instructions: For active revision geneva-session-20261015, the current Geneva walkthrough and attached revision
+      prompt supersede conflicting legacy image details. ZÜRICH HB is legible on the destination board; Genève-Cornavin
+      remains visible. Carriage 2 and VATICAN COURIER remain visible. No fabricated departure time or train number
+      is added. Corvi, the metal case, newspaper reader, trolley, station setting and framing remain consistent.
+      This corroborates the rail destination, not arrival at Sonnenberg; the card preserves that limit.
+    exact_text_additions: *id005
+    recorded_at: '2026-10-15T18:07:34.711629+00:00'
 - id: G06
   name: The Swiss PTT Intercept Tape
   category: intel
@@ -6515,10 +7052,19 @@ assets:
     approved_at: '2026-09-16T16:56:52.260356+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/ref-sonnenberg-logo-attempt-001-final.yaml
-updated_at: '2026-09-18T16:41:22.786427+00:00'
+updated_at: '2026-10-15T19:39:24.389266+00:00'
 review_feedback:
 - at: '2026-09-16T17:56:35.485305+00:00'
   reviewer: Bruce
   evidence: I reviewed the images, the only call out I have is that the text placement in the images seems to pristine
     and out of place, otherwise the images look good
   interpretation: Photographic style accepted in principle; revised text convention awaits review.
+source_reconciliations:
+- at: '2026-10-15T17:52:34.776215+00:00'
+  reviewer: Codex source inspection
+  prior_recorded_sha256: 130d07a70422ebcf92a9d2a8fad519065d9f6d56c9d87704bcd2fbd3a27b010f
+  current_matching_snapshot_and_canonical_sha256: 159df0ef330dea39fd19f859f116a6030c9f8102ebf965c48c74c629cb96851d
+  reason: Canonical and snapshot match. Inspection of all 72 extracted source records found the source-excerpt change
+    to the R10 title (Embossed Stamp, Map Casing). Existing separately resolved exact text, eggs, locks, and production
+    history are preserved. Current Geneva revision follows the user-requested rewritten session, with separate revision
+    prompts and records.

@@ -1,0 +1,26 @@
+{
+  "asset": "G01",
+  "revision": "geneva-session-20261015",
+  "status": "PASS",
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-10-15T18:05:47.529888+00:00",
+  "image": "/mnt/disk4/GPT-Projects/Neon-Relic-Sangreal/mission-rewrite/evidence-art-revision/generated/i23-ubs-lobby-cctv-v2.webp",
+  "image_sha256": "72f30d80e0a823add5b074d39e5ed269131c3c125f31fb655d16f0ebbaf43dfd",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "method": "Inspected generated result, then inspected final lossless WebP; RGB pixel equality with generated PNG verified. No manual image compositing.",
+  "observed_evidence": [
+    "22:41 remains visible in the lower-left timestamp.",
+    "The clock minute hand points just past 8 and the hour hand between 10 and 11, consistent with nighttime 22:41.",
+    "The fixed calendar has been removed; the bank recording log now supplies the campaign date.",
+    "Corvi, Mercier, the case, newspaper reader, car, lobby and monochrome surveillance appearance remain coherent."
+  ],
+  "exact_text_checked": [
+    "22:41"
+  ],
+  "tool": "built-in image_gen",
+  "human_review": "not requested or claimed",
+  "prompt": "/mnt/disk4/GPT-Projects/Neon-Relic-Sangreal/mission-rewrite/evidence-art-revision/prompts/G01.txt"
+}

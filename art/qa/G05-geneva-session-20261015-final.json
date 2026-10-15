@@ -1,0 +1,29 @@
+{
+  "asset": "G05",
+  "revision": "geneva-session-20261015",
+  "status": "PASS",
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-10-15T18:05:47.529888+00:00",
+  "image": "/mnt/disk4/GPT-Projects/Neon-Relic-Sangreal/mission-rewrite/evidence-art-revision/generated/i26-cornavin-platform-v2.webp",
+  "image_sha256": "20dffa677c8db3fc19cd6cd233c33e5ae270a5e4781dcdef3d2adb4554d4cc73",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "method": "Inspected generated result, then inspected final lossless WebP; RGB pixel equality with generated PNG verified. No manual image compositing.",
+  "observed_evidence": [
+    "ZÜRICH HB is legible on the destination board; Genève-Cornavin remains visible.",
+    "Carriage 2 and VATICAN COURIER remain visible. No fabricated departure time or train number is added.",
+    "Corvi, the metal case, newspaper reader, trolley, station setting and framing remain consistent.",
+    "This corroborates the rail destination, not arrival at Sonnenberg; the card preserves that limit."
+  ],
+  "exact_text_checked": [
+    "ZÜRICH HB",
+    "Genève-Cornavin",
+    "VATICAN COURIER",
+    "2"
+  ],
+  "tool": "built-in image_gen",
+  "human_review": "not requested or claimed",
+  "prompt": "/mnt/disk4/GPT-Projects/Neon-Relic-Sangreal/mission-rewrite/evidence-art-revision/prompts/G05.txt"
+}

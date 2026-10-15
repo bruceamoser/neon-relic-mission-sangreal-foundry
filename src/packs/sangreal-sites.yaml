@@ -81,6 +81,9 @@
       - sangreal-ic22
       - sangreal-ic35
       - sangreal-ic36
+      - sangreal-session-i46
+      - sangreal-session-i47
+      - sangreal-session-i56
     availability: open
     availabilityCondition: Available now through authorized access, a request to Ghiberti, or a player-devised approach.
     description: >-
@@ -135,6 +138,10 @@
       - sangreal-ic24
       - sangreal-ic25
       - sangreal-ic26
+      - sangreal-session-i47
+      - sangreal-session-i48
+      - sangreal-session-i49
+      - sangreal-session-i56
     npcSlugs:
       - sangreal-npc-mercier
     availability: clue
@@ -154,10 +161,10 @@
       Deposit}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.TqsNZiq5wWnCyrO1]{I24
       — Bank Staff
       Record}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.NvsqxXBP29kM6SVV]{I25 —
-      The Ledger
-      Page}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.SI5TGjifT8qC6Epu]{I26 —
-      The 06:40 to
-      Geneva}</li></ul><h3>People</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.nlfuIXX32doYRfx1]{Jean-Paul
+      Geneva Escrow Request
+      Register}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.SI5TGjifT8qC6Epu]{I26
+      — Corvi at
+      Cornavin}</li></ul><h3>People</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.nlfuIXX32doYRfx1]{Jean-Paul
       Mercier}</li></ul><section class="sangreal-scene-links"><h3>Scene
       backgrounds</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.WYkoHrGfng0UZ3lZ]{TM04
       — Geneva bank
@@ -165,7 +172,15 @@
       — Private viewing
       room}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.b2nGfJTzx9PeMk09]{BM03
       — Bank vault level}</li></ul><p>GM: import the scene, then view or activate it when appropriate.
-      Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
+      Gridless; adjust token scale for your table. Maps expose room layouts.</p></section><h3>Getting in and
+      getting the lead</h3><p>Reception routes a verified inquiry about Corvi’s recent visit to Jean-Paul
+      Mercier. Petra’s introduction or reference 4409-C speeds identification but is not access authority.
+      Mercier needs a concrete safeguard for his statement; the trust officer can instead authorize a limited
+      transaction confirmation. I06 visibly names the clinic, Hausmann and Corvi; its accompanying statement
+      authenticates their roles. Mercier arranged the onward train and clinic pickup. The case left with
+      Corvi; the bank holds paperwork.</p><p>I25 is the unaltered Geneva escrow request register. Claudia
+      openly supplies I56 about her preliminary telephone inquiry from Rome; there is no concealed visit.
+      Useful Petra calls become I47–I49 fax records.</p>
     positiveResult: >-
       <p>The cell obtains the location’s core observation and a concrete next lead through a sensible search,
       cooperation, or another credible approach. Record changes to people, custody, and knowledge.</p>
@@ -199,13 +214,20 @@
       - sangreal-ic30
       - sangreal-ic31
       - sangreal-ic32
+      - sangreal-session-i49
+      - sangreal-session-i50
+      - sangreal-session-i51
+      - sangreal-session-i52
+      - sangreal-session-i53
+      - sangreal-session-i54
+      - sangreal-session-i55
     npcSlugs:
       - sangreal-npc-graf
       - sangreal-npc-hausmann
     availability: clue
     availabilityCondition: >-
-      Reachable through the escrow, named patient, or clinical contact. State changes with actual treatment
-      timing.
+      The Geneva escrow and Graf callback lead here after the injection; reception and clinical records
+      connect Corvi to his Turin contact.
     description: >-
       <figure><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-clinic-arrival.webp"
       alt="TM06 — Sonnenberg forest approach" style="width:100%;height:auto"><figcaption>TM06 — Sonnenberg
@@ -250,7 +272,21 @@
       — Surgical theatre
       refuge}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jpOPWYTG4Yqt6hk4]{BM04
       — Ward, theatre and lab}</li></ul><p>GM: import the scene, then view or activate it when appropriate.
-      Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
+      Gridless; adjust token scale for your table. Maps expose room layouts.</p></section><h3>What Petra can
+      establish before arrival</h3><p>A private inpatient clinic outside Zurich on a wooded hillside, offering
+      oncology care, laboratory support and a small surgical theatre. Its public listing and prospectus
+      provide the switchboard, approach and visitor arrangements. Ask for Dr. Elizabeth Graf about the
+      preparation supplied for Kurt Hausmann. Petra can arrange a verified supplier-safety introduction, a
+      train to Zurich and a car to the main reception. Clinical doors remain controlled.</p><p>The bank
+      establishes Corvi’s intended visit with the case. A clinic callback confirms whether he is expected,
+      present or departed. Carry forward any agreed treatment hold. Patient records, current ward conditions
+      and Corvi’s onward contacts require a clinical witness or actual access.</p><h3>Current session and
+      onward route</h3><p>Arrive after the injection and completed twenty-four-hour conversion. Graf reveals
+      the reserve was twelve vessels of blood; Hausmann makes the human effect visible. I50 movement extract,
+      I51 treatment statement and I52 forwarding message connect the clinic to Corvi’s departure. Call the
+      broker for I53, obtain a patient/witness handover I54 and return by car to Zurich HB for rail toward
+      Turin. An authenticated authority call I55 establishes organized vampires; Claudia’s allegiance is not
+      revealed here.</p>
     positiveResult: >-
       <p>The cell obtains the location’s core observation and a concrete next lead through a sensible search,
       cooperation, or another credible approach. Record changes to people, custody, and knowledge.</p>
@@ -280,6 +316,7 @@
       - sangreal-ic34
       - sangreal-ic35
       - sangreal-ic37
+      - sangreal-session-i53
     npcSlugs:
       - sangreal-npc-corvi
       - sangreal-npc-vane
@@ -324,7 +361,10 @@
       — Assembly
       floor}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.gAxI1cJhYftPzFGK]{BM06
       — Supervisor booth and catwalk}</li></ul><p>GM: import the scene, then view or activate it when
-      appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section>
+      appropriate. Gridless; adjust token scale for your table. Maps expose room layouts.</p></section><p>The
+      current approach is the Lingotto freight-office entrance, extension 418, and a supervisor’s-booth
+      appointment established through I52/I53. Preserve negotiated alternatives and Corvi’s actual location.
+      I08 is optional corroboration, not a required magical HQ intercept.</p>
     positiveResult: >-
       <p>The cell obtains the location’s core observation and a concrete next lead through a sensible search,
       cooperation, or another credible approach. Record changes to people, custody, and knowledge.</p>

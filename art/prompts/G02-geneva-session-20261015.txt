@@ -1,0 +1,13 @@
+Use case: text-localization
+Asset type: photographic tabletop RPG evidence handout, Swiss bank employee record in 1987.
+Image 1 is the edit target. Edit the personnel-card fields on this existing photograph. Preserve Mercier's exact face and portrait, age, receding hair, clothing, thumbprint, paperclip, aged card, leather desk, lamp, pen, adjoining pink telegram, lighting, perspective and film grain. Exactly one portrait 4:5 photograph, no panels, no graphic overlay, short edge at least 1024 pixels.
+
+Replace the currently empty identity/service form below the portrait with five clean aligned rows in natural period typewriter ink, large and fully legible. These are the only fields needed; remove the old empty Matricule and Date d'entrée fields instead of inventing values. Text verbatim:
+"Nom : MERCIER"
+"Prenom : JEAN-PAUL"
+"Fonction : GUICHET DE NUIT"
+"Service : BANQUE PRIVEE"
+"Agence : GENEVE"
+
+Preserve the large existing access stamp exactly: "AUTORISÉ — COFFRES".
+On the half-visible adjacent telegram keep "CHF 500,000" and "4409-C" legible, but put 4409-C beside a label "REFERENCE", not a beneficiary label. Do not invent a beneficiary, medical facts, employment date, staff number, secret affiliation or additional transaction details. The card remains a worn photographed document, not a newly rendered ID design. No change to the portrait identity. No watermark.

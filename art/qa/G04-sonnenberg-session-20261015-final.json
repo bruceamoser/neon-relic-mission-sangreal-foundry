@@ -1,0 +1,14 @@
+{
+  "asset": "G04",
+  "status": "PASS",
+  "image_sha256": "73965e811c3769726321d1aa5dcb9211374f037dcbf02a55251fafe0582e396e",
+  "reviewer": "Codex visual inspection",
+  "human_review": "NOT_CLAIMED",
+  "findings": [
+    "GEN\u00c8VE, DOSSIER 4409-C and double-circled 4409 are readable.",
+    "Rows show K. HAUSMANN / Instructions, SERVICE FIDUCIAIRE / Conditions de versement, M. CORVI / Signature, each J.P.M.",
+    "No Vane name, correction tape, erased entry or loose original inquiry note remains.",
+    "No date or time is introduced; the file is corroboration of escrow parties."
+  ],
+  "final_pass": true
+}

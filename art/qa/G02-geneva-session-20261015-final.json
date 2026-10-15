@@ -1,0 +1,33 @@
+{
+  "asset": "G02",
+  "revision": "geneva-session-20261015",
+  "status": "PASS",
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-10-15T18:05:47.529888+00:00",
+  "image": "/mnt/disk4/GPT-Projects/Neon-Relic-Sangreal/mission-rewrite/evidence-art-revision/generated/i24-mercier-staff-id-v2.webp",
+  "image_sha256": "e5a07ee0ee4d9362489eb7aa8ca027b0e9d17942c2304155285e388236140a61",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "method": "Inspected generated result, then inspected final lossless WebP; RGB pixel equality with generated PNG verified. No manual image compositing.",
+  "observed_evidence": [
+    "MERCIER, JEAN-PAUL, GUICHET DE NUIT, BANQUE PRIVEE and GENEVE are legible in completed fields.",
+    "AUTORISÉ — COFFRES remains visible. The adjacent telegram labels 4409-C as a reference and retains CHF 500,000.",
+    "No invented employment date or staff number is added.",
+    "Mercier’s facial identity, portrait crop, fingerprint, paper and desk setting remain consistent."
+  ],
+  "exact_text_checked": [
+    "MERCIER",
+    "JEAN-PAUL",
+    "GUICHET DE NUIT",
+    "BANQUE PRIVEE",
+    "GENEVE",
+    "AUTORISÉ — COFFRES",
+    "4409-C",
+    "CHF 500,000"
+  ],
+  "tool": "built-in image_gen",
+  "human_review": "not requested or claimed",
+  "prompt": "/mnt/disk4/GPT-Projects/Neon-Relic-Sangreal/mission-rewrite/evidence-art-revision/prompts/G02.txt"
+}

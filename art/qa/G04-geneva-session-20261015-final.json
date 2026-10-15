@@ -1,0 +1,38 @@
+{
+  "asset": "G04",
+  "revision": "geneva-session-20261015",
+  "status": "PASS",
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-10-15T18:05:47.529888+00:00",
+  "image": "/mnt/disk4/GPT-Projects/Neon-Relic-Sangreal/mission-rewrite/evidence-art-revision/generated/i25-locker-ledger-4409c-v2.webp",
+  "image_sha256": "47249cd5ea1b22266bf6edab8b3250684db4b87b0e86657a88cfb2badd14d02d",
+  "dimensions": [
+    1086,
+    1448
+  ],
+  "method": "Inspected generated result, then inspected final lossless WebP; RGB pixel equality with generated PNG verified. No manual image compositing.",
+  "observed_evidence": [
+    "Geneva request-register heading, dossier 4409-C and double-circled 4409 are readable.",
+    "The three rows identify Hausmann instructions, Vane consultation and Corvi signature, each with J.P.M.",
+    "The original physical note clearly names Claudia Vane, K. Hausmann, Dossier Corvi and J.-P. Mercier.",
+    "A correction strip crosses Vane’s entry, but the name remains readable. The final prose explicitly treats this as imperfect concealment, not an unreadable-name puzzle.",
+    "No Zurich address or 02:10 date/time claim remains. The note is a physical paper on the ledger; show only when both documents are obtained."
+  ],
+  "exact_text_checked": [
+    "Union de Banques Suisses",
+    "REGISTRE DES DEMANDES",
+    "DOSSIER 4409-C",
+    "K. HAUSMANN",
+    "VANE, C.",
+    "M. CORVI",
+    "J.P.M.",
+    "NOTE ORIGINALE",
+    "Claudia Vane",
+    "K. Hausmann",
+    "Dossier Corvi",
+    "J.-P. Mercier"
+  ],
+  "tool": "built-in image_gen",
+  "human_review": "not requested or claimed",
+  "prompt": "/mnt/disk4/GPT-Projects/Neon-Relic-Sangreal/mission-rewrite/evidence-art-revision/prompts/G04.txt"
+}

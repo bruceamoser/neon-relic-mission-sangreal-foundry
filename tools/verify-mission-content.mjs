@@ -34,6 +34,9 @@ const number=decoded.slice(17,21).split('').map(c=>'1234567890'['ABCDEFGHIK'.ind
 assert.equal(number,'4409');
 const briefs=await load('briefs');assert.deepEqual(briefs.find(d=>d.type==='daCaseBrief').system.relicMilestones,briefs.find(d=>d.type==='caseBoard').system.relicMilestones);
 const photos=await load('investigator-photos');assert.equal(photos.length,24);assert.equal(new Set(photos.map(d=>d.system.cardId)).size,24);
-const journals=await load('journals'),walk=journals.find(d=>d._id==='sangreal-journal-walkthrough');assert.equal(walk.pages.length,14);assert(walk.pages[0].text.content.includes('They have not searched Corvi'));
+const journals=await load('journals'),walk=journals.find(d=>d._id==='sangreal-journal-walkthrough');assert.equal(walk.pages.length,14);assert(walk.pages[0].text.content.includes('The investigators have left Rome and boarded the train'));
+assert(walk.pages[3].text.content.includes('Scene 2 — Mercier’s problem'));
+assert(walk.pages[3].text.content.includes('What Petra can provide about Sonnenberg'));
+assert(walk.pages[3].text.content.includes('Stop this segment here.'));
 assert(walk.pages[6].text.content.includes('refused'));assert(walk.pages[8].text.content.includes('Intervene'));
 console.log(`PASS: ${refs} inline module links and ${media} media references resolve; cipher yields GENEUA / UBS / HAUSMANN / DDKI / C → GENEVA / UBS / HAUSMANN / 4409 / C; matching clocks and 24 photo cards.`);

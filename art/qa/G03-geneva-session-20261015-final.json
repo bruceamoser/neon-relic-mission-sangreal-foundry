@@ -1,0 +1,37 @@
+{
+  "asset": "G03",
+  "revision": "geneva-session-20261015",
+  "status": "PASS",
+  "reviewer": "Codex visual inspection",
+  "reviewed_at": "2026-10-15T18:05:47.529888+00:00",
+  "image": "/mnt/disk4/GPT-Projects/Neon-Relic-Sangreal/mission-rewrite/evidence-art-revision/generated/i06-escrow-slip-carbon-v2.webp",
+  "image_sha256": "9f97f407aa49007348100ef8c0343cd4dbbb175830f3dad12181454f4d0fb122",
+  "dimensions": [
+    1086,
+    1448
+  ],
+  "method": "Inspected generated result, then inspected final lossless WebP; RGB pixel equality with generated PNG verified. No manual image compositing.",
+  "observed_evidence": [
+    "Paying principal KURT HAUSMANN and supplier MONSIGNOR MATTEO CORVI are readable.",
+    "Sonnenberg Privatklinik, Zurich, reference 4409-C, CHF 500,000 and Vaduz escrow are correct.",
+    "The one-of-twelve oncology memo and conditional-release language are visible; the receipt expressly does not certify treatment.",
+    "Folded paper corner, pencil tick, clinic logo, perspective and period desk setting are retained."
+  ],
+  "exact_text_checked": [
+    "KURT HAUSMANN",
+    "MONSIGNOR MATTEO CORVI",
+    "Sonnenberg Privatklinik, Zurich",
+    "4409-C",
+    "CHF 500,000",
+    "Ecclesiastical escrow account",
+    "Vaduz",
+    "Acquisition of Primary Specimen",
+    "(1 of 12)",
+    "Experimental Oncology Protocol",
+    "Release subject to acknowledgment of receipt.",
+    "This receipt does not certify treatment."
+  ],
+  "tool": "built-in image_gen",
+  "human_review": "not requested or claimed",
+  "prompt": "/mnt/disk4/GPT-Projects/Neon-Relic-Sangreal/mission-rewrite/evidence-art-revision/prompts/G03.txt"
+}

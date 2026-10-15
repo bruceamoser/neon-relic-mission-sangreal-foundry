@@ -1,0 +1,5 @@
+Use case: precise-object-edit
+Asset type: 1987 rail-surveillance photograph for a tabletop RPG.
+Image 1 is the edit target. Make one very localized correction: replace the words "EC 30 ROMULUS" on the rectangular hanging departure board with the large exact destination "ZÜRICH HB". The board is a period physical station departure board. No departure time or train number is to be added. The new wording should be clearly readable but share the existing faded analog lighting and perspective.
+
+Keep EVERYTHING else unchanged: Corvi's exact face, spectacles, cassock and boarding pose, both hands and the metal Sangreal case; the reader in the grey raincoat; the wet station, trolley with "VATICAN COURIER" card; the "Genève-Cornavin" station sign; the carriage marked 2; foreground window edge, grain, color, depth and framing. Do not add Sonnenberg signage at a railway station, a patient, another person, new case, or any other evidence. Preserve the single landscape 3:2 photograph at a short edge of at least 1024 pixels. No montage, no panels, no watermark.

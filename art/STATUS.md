@@ -1,13 +1,13 @@
 # Mission: Sangreal Art Status
 
-Updated: 2026-09-18T16:41:22.786427+00:00
+Updated: 2026-10-15T19:39:24.389266+00:00
 
 Total production jobs: 72. Source-requested images: 62. Internal references: 10.
 NPC portraits: 16 (Watcher optional). Optional relics: 3. Intel: 43.
 Existing-card replacements: 14. New-card images: 28. Additional I-13 detail: 1.
 Exact-text/compositing jobs: 52 (includes unresolved wording).
 
-APPROVED: 72
+APPROVED: 67, INTEGRATED: 5
 
 No generation or QA result is inferred from a prompt. READY authorizes job preparation only.
 
@@ -66,23 +66,23 @@ No generation or QA result is inferred from a prompt. READY authorizes job prepa
 | R01 | CCTV Reel #87-04 | APPROVED | 4 | no |
 | R02 | Second Descent | APPROVED | 1 | no |
 | R03 | The Burnt Electromagnet Relay | APPROVED | 1 | no |
-| R04 | The Name Below the Plinth | APPROVED | 1 | no |
+| R04 | The Plinth Detail, Brass Plate | APPROVED | 1 | no |
 | R05 | The Excised Codex Register | APPROVED | 1 | no |
-| R06 | The Polybius Vulgate Cipher | APPROVED | 1 | no |
-| R07 | The Clean Drill | APPROVED | 1 | no |
+| R06 | The Numerals on Rag Paper | APPROVED | 1 | no |
+| R07 | Safe Dial, Drilled | APPROVED | 1 | no |
 | R08 | Diplomatic Passport | APPROVED | 1 | no |
 | R09 | The Archive, 1962 | APPROVED | 2 | no |
-| R10 | The Watcher's Hallmark | APPROVED | 1 | no |
+| R10 | Embossed Stamp, Map Casing | APPROVED | 1 | no |
 
 ## Geneva
 
 | ID | Asset | Status | Attempts | Optional |
 |---|---|---|---:|---|
-| G01 | Night Deposit | APPROVED | 1 | no |
-| G02 | Bank Staff Record | APPROVED | 1 | no |
-| G03 | The Escrow Transfer Slip | APPROVED | 2 | no |
-| G04 | The Ledger Page | APPROVED | 1 | no |
-| G05 | The 06:40 to Geneva | APPROVED | 1 | no |
+| G01 | Night Deposit | INTEGRATED | 1 | no |
+| G02 | Bank Staff Record | INTEGRATED | 1 | no |
+| G03 | The Escrow Transfer Slip | INTEGRATED | 2 | no |
+| G04 | Geneva Escrow Request Register | INTEGRATED | 1 | no |
+| G05 | Corvi at Cornavin | INTEGRATED | 1 | no |
 | G06 | The Swiss PTT Intercept Tape | APPROVED | 3 | no |
 
 ## Zurich
@@ -104,7 +104,7 @@ No generation or QA result is inferred from a prompt. READY authorizes job prepa
 |---|---|---|---:|---|
 | T01 | Lingotto, Rooftop, Rain | APPROVED | 1 | no |
 | T02 | Assembly Hall Camera 6 | APPROVED | 3 | no |
-| T03 | The Ebionite Palimpsest | APPROVED | 1 | no |
+| T03 | The Palimpsest Leaf, Codex | APPROVED | 1 | no |
 | T04 | Breve Apostolicum, 1582 | APPROVED | 1 | no |
 | T05 | Suppressed Index Card | APPROVED | 1 | no |
 | T06 | The Empty Needle | APPROVED | 1 | no |
@@ -125,7 +125,7 @@ No generation or QA result is inferred from a prompt. READY authorizes job prepa
 
 | ID | Asset | Status | Attempts | Optional |
 |---|---|---|---:|---|
-| V01 | The Basarab Extortion File | APPROVED | 1 | no |
+| V01 | The Dispatch Box, Microfiche | APPROVED | 1 | no |
 | V02 | The Green Lamp | APPROVED | 1 | no |
 | V03 | L'Entità Team, Surveillance Frame | APPROVED | 2 | no |
 | V04 | The Case, 1964 | APPROVED | 1 | no |
@@ -137,7 +137,13 @@ No generation or QA result is inferred from a prompt. READY authorizes job prepa
 - **npc-corvi / text-v2**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/npc-corvi-text-v2.webp). Approved original preserved.
 - **R06 / hand-incised-v2**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/R06-hand-incised-v2.webp). Approved original preserved.
 - **R06 / R06-corrected-cipher-20260918**: visual QA APPROVED; human review NOT_REVIEWED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/R06-corrected-cipher-20260918.webp). Approved original preserved.
+- **G01 / geneva-session-20261015**: visual QA APPROVED; human review NOT_REQUESTED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/G01-geneva-session-20261015.webp). Approved original preserved.
+- **G02 / geneva-session-20261015**: visual QA APPROVED; human review NOT_REQUESTED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/G02-geneva-session-20261015.webp). Approved original preserved.
 - **G03 / text-v2**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/G03-text-v2.webp). Approved original preserved.
+- **G03 / geneva-session-20261015**: visual QA APPROVED; human review NOT_REQUESTED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/G03-geneva-session-20261015.webp). Approved original preserved.
+- **G04 / geneva-session-20261015**: visual QA APPROVED; human review NOT_REQUESTED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/G04-geneva-session-20261015.webp). Approved original preserved.
+- **G04 / sonnenberg-session-20261015**: visual QA APPROVED; human review NOT_REQUESTED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/G04-sonnenberg-session-20261015.webp). Approved original preserved.
+- **G05 / geneva-session-20261015**: visual QA APPROVED; human review NOT_REQUESTED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/G05-geneva-session-20261015.webp). Approved original preserved.
 - **Z01 / zurich-second-pass**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/zurich-second-pass/Z01.webp). Approved original preserved.
 - **Z02 / zurich-second-pass**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/zurich-second-pass/Z02.webp). Approved original preserved.
 - **Z03 / text-v2**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/Z03-text-v2.webp). Approved original preserved.

@@ -54,7 +54,7 @@
       src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np02.webp
   system:
     tier: 3
-    description: >
+    description: >-
       <h3>At the table</h3><p><strong>Look.</strong> Practical, attentive liaison; remembers who has not eaten
       and obtains the papers the cell needs.</p><p><strong>Wants.</strong> Destroy what she believes will
       cause renewed predation; initially trusts Registry 16 to do it.</p><p><strong>Knows.</strong> She knows
@@ -66,6 +66,13 @@
       access to the case, and a route. Her survival or death is resolved in play.</p><h3>Existing combat
       profile</h3> <p>Trained in defensive hand-to-hand combat (AGI 3, brawl 2). Carries The Veil of
       Veronica's Thread and a concealed Beretta 70. Will not fight to win — only to escape with the case.</p>
+      <h3>Train, Geneva and Sonnenberg</h3><p>Volunteer I56 on the train: she noticed the UBS/Hausmann
+      reference in Corvi’s office papers and called the desk from Rome before boarding. She shares her
+      complete limited result without being challenged; Mercier confirms it. This was her own initiative, not
+      a Church instruction or prior knowledge of the injection. She translates, obtains appointments and helps
+      staff. Her covert interest remains in DA knowledge; no erased bank signature, suspicious look or
+      unexplained absence telegraphs it. The later Registry 16 evidence and actual extraction attempt carry
+      the twist.</p>
     attributes:
       str: 2
       agi: 3
@@ -151,7 +158,7 @@
       src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np04.webp
   system:
     tier: 1
-    description: >
+    description: >-
       <h3>At the table</h3><p><strong>Look.</strong> Exhausted physician holding a slide box; first asks who
       will move the remaining staff.</p><p><strong>Wants.</strong> Protect survivors and keep an accountable
       medical record without enabling another experiment.</p><p><strong>Knows.</strong> She can document the
@@ -161,7 +168,12 @@
       independent custody of her record earn cooperation. She may keep a backup slide, but she does not demand
       that every useful record be burned.</p><p>She hides or seeks another protector. A successful rescue
       prevents her later death in a scheduled raid.</p><h3>Existing combat profile</h3> <p>Non-combatant.
-      Threatens to burn the lab records if cornered; she means it.</p>
+      Threatens to burn the lab records if cornered; she means it.</p> <h3>Current Sonnenberg
+      session</h3><p>She has already administered one phial and witnessed the changed Hausmann. She saw twelve
+      phials of blood inside Corvi’s case, accepted one and saw him retain eleven. I51 dates and signs this
+      account; I29’s photographed patient/time fields are blank. Reception’s I50 and I52 establish Corvi’s
+      departure and onward contact independently of her survival. She provides the treatment facts even if the
+      cell declines rescue; original clinical material requires accountable custody.</p>
     attributes:
       str: 2
       agi: 2
@@ -285,16 +297,20 @@
       src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np07.webp
   system:
     tier: 1
-    description: >
-      <h3>At the table</h3><p><strong>Look.</strong> Immaculate clerk whose first concern is whether his name
-      enters the report.</p><p><strong>Wants.</strong> Keep his job and avoid taking sole blame for a powerful
-      client’s transaction.</p><p><strong>Knows.</strong> The escrow terms, Hausmann’s clinic, box 4409-C, and
-      Vane’s earlier visit. Her visit occurred before the current liaison assignment.</p><blockquote><p>“I
-      could tell you who signed. I could not tell you what was in the glass.”</p></blockquote><h3>When the
-      cell changes the situation</h3><p>Protection, counsel, payment, or credible regulatory pressure yields
-      authenticated records and the clinic lead.</p><p>Violence brings security and formal delay. Other bank
-      records or clinic contact keep the investigation moving.</p><h3>Existing combat profile</h3>
-      <p>Non-combatant. One punch will produce a lawsuit, not a fight.</p>
+    description: >-
+      <h3>At the table</h3><p>A cautious clerk worried that his initials will bear sole blame for an
+      inadequately reviewed transaction. He knows the escrow, Hausmann, Sonnenberg, Graf’s contact and Corvi’s
+      rail/car request. He saw the closed case, never its contents.</p><h3>His bargain</h3><p>Verify the
+      inquiry, arrange an independent duplicate of his voluntary account and access to counsel. A concrete
+      safeguard wins cooperation without a roll; bluff or pressure uses Manipulate Difficulty 2. Failure adds
+      formal verification and delay; the trust officer’s limited-disclosure route remains
+      available.</p><blockquote><p>“Record that I supplied the carbon voluntarily. Then I will tell you who
+      paid and where the priest asked me to send him.”</p></blockquote><p>Release I06 with the signed bank
+      statement, his booking testimony, and I25 on request. Security prints require the manager’s release. If
+      asked about Claudia, corroborate the preliminary telephone inquiry she already disclosed on the train:
+      no records or medical details were released. There was no physical Geneva visit or concealed
+      entry.</p><h3>Existing combat profile</h3><p>Non-combatant. Violence brings bank security and an
+      incident report.</p>
     attributes:
       str: 1
       agi: 2
@@ -310,15 +326,16 @@
     tags:
       - sangreal
     secret: >-
-      He took a fee to alter an access entry and kept a carbon as insurance. He did not know the specimen’s
-      nature.
+      He expedited an inadequately explained transaction under Corvi’s signing authority and retained a carbon
+      for his own protection. He took no fee from Claudia and concealed no visit. He did not know the
+      specimen’s nature.
     goal: Keep his job and avoid taking sole blame for a powerful client’s transaction.
     positiveResult: >-
-      Protection, counsel, payment, or credible regulatory pressure yields authenticated records and the
-      clinic lead.
+      A verified inquiry and concrete witness safeguard produce I06, its authenticated statement and the
+      witnessed onward booking. Optional private records follow specific requests.
     negativeResult: >-
-      Violence brings security and formal delay. Other bank records or clinic contact keep the investigation
-      moving.
+      He asks for counsel or the manager. Petra can arrange a limited transaction confirmation from the trust
+      officer; the delay and scrutiny are real, while the clinic lead remains obtainable.
 - _id: sangreal-npc-entita-operative
   name: L'Entità Sanitization Operative
   type: npc
@@ -523,7 +540,7 @@
       src: modules/neon-relic-mission-sangreal/assets/art/portraits-clean/np12.webp
   system:
     tier: 1
-    description: >
+    description: >-
       <h3>At the table</h3><p><strong>Look.</strong> Practical desk officer with a map, a telephone, and three
       pending requests.</p><p><strong>Wants.</strong> Keep the agents and their witnesses alive while knowing
       what hazard she is moving.</p><p><strong>Knows.</strong> Routes, contacts, and equipment. She does not
@@ -531,7 +548,22 @@
       can help.”</p></blockquote><h3>When the cell changes the situation</h3><p>A clear request yields
       transport, protective storage, witness relocation, or a trusted communication route.</p><p>Incomplete
       requests cause a specific clarification or delay, not punitive bureaucracy for its own
-      sake.</p><h3>Existing combat profile</h3> <p>Non-combatant. The thermos is not a metaphor.</p>
+      sake.</p><h3>Existing combat profile</h3> <p>Non-combatant. The thermos is not a metaphor.</p><h3>Geneva
+      and Sonnenberg requests</h3><p>On the train journey she can route a missing-custodian inquiry through
+      the UBS switchboard and the ecclesiastical trust officer. Require a real callback point: station
+      telephone, hotel desk or an already established secure radio. She does not confer vault
+      access.</p><p>Once Sonnenberg is named, a broad clinic-background request yields its public listing and
+      approach, oncology/inpatient services, Graf’s professional contact, visitor arrangements and transport
+      to Zurich with a car onward. Allow about twenty minutes for directory research and a planning-scene
+      callback for an introduction. She can hold witness-statement duplicates and arrange counsel or
+      relocation for Mercier.</p><p>Her sources are the prospectus, directory, driver and named callbacks. She
+      cannot supply private charts, current patient or Corvi status, exact phial counts or supernatural
+      handling knowledge without the appropriate evidence. The Geneva walkthrough contains the complete
+      request/answer table.</p><h3>Durable field records</h3><p>After useful calls, supply the appropriate
+      I47–I55 written summary to an agreed fax desk or collection point. State the actual speaker, answer,
+      uncertainty and next action; routine appointments and care plans are worth preserving too. Update a
+      dated card when a callback changes its status. She never claims a source she did not reach or sends a
+      later vampire disclosure in an earlier packet.</p>
     attributes:
       str: 2
       agi: 2

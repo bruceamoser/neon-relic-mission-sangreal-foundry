@@ -137,17 +137,18 @@
       <h3>Source and timing</h3><p>Claudia’s map casing / actual observation. Use only if the event or record
       exists in the current branch.</p><h3>Job in the case</h3><p>Optional: affiliation. A reused Order stamp
       and marked cities suggest prior preparation; they do not prove vampire allegiance.</p><h3>What to do
-      next</h3><p>Compare the earlier bank visit I25 or ask about her employer.</p><p>A purposeful examination
-      finds the core observation; rolls determine time, discretion, or additional detail. The image’s
-      decorative details are not extra mandatory clues. An HQ fallback needs a named source and cannot supply
-      events that have not happened.</p>
+      next</h3><p>Reserve affiliation comparisons for later earned evidence. Do not spotlight the stamp as a
+      reason to distrust the helpful liaison during Geneva or Sonnenberg.</p><p>A purposeful examination finds
+      the core observation; rolls determine time, discretion, or additional detail. The image’s decorative
+      details are not extra mandatory clues. An HQ fallback needs a named source and cannot supply events that
+      have not happened.</p>
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
 - _id: sangreal-ic06
   name: I06 — The Escrow Transfer Slip
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/intel/i06-escrow-slip-carbon.webp
+  img: "modules/neon-relic-mission-sangreal/assets/art/intel/i06-escrow-slip-carbon-v2.webp"
   system:
     cardId: I-06
     cardType: supportingIntel
@@ -157,20 +158,34 @@
       - sangreal-npc-mercier
     npcSlugs:
       - sangreal-npc-mercier
-    content: >
-      <p>A carbon-leaf escrow receipt for a numbered deposit box: a telegraphic transfer of 500,000 Swiss
-      francs received into an ecclesiastical escrow account in Vaduz. The remitter line reads <em>Kurt
-      Hausmann — Sonnenberg Privatklinik, Zurich</em>; the memo line reads <em>Acquisition of Primary Specimen
-      (1 of 12) — Experimental Oncology Protocol.</em></p>
+    content: >-
+      <h3>The photographed carbon</h3><p>A Union de Banques Suisses escrow receipt from Geneva, reference
+      4409-C. It names KURT HAUSMANN as paying principal, Sonnenberg Privatklinik, Zurich as treatment
+      location, and MONSIGNOR MATTEO CORVI as supplier. CHF 500,000 is lodged into an Ecclesiastical escrow
+      account in Vaduz. The memo reads “Acquisition of Primary Specimen (1 of 12) — Experimental Oncology
+      Protocol.” A pencil tick marks the quantity.</p><p>The conditions read “Release subject to
+      acknowledgment of receipt” and “This receipt does not certify treatment.”</p><h3>Accompanying bank
+      statement</h3><p>A separate extract from the transaction instruction sheet, authenticated by the clerk
+      or duty manager:</p><blockquote><p>Transaction reference 4409-C. Paying principal: Kurt Hausmann.
+      Treatment location: Sonnenberg Privatklinik, Zurich. Supplier and authorized representative of the
+      receiving ecclesiastical trust: Monsignor Matteo Corvi. Amount lodged: CHF 500,000. Purpose: acquisition
+      of one primary specimen from a group of twelve for an experimental oncology treatment. Release of escrow
+      requires acknowledgment of receipt under the treatment agreement. This confirmation records the
+      agreement and deposited funds; it does not certify medical administration.</p></blockquote>
     hqFallback: 9
     daNotes: >-
-      <h3>Source and timing</h3><p>L3 / authenticated escrow carbon. Use only if the event or record exists in
-      the current branch.</p><h3>Job in the case</h3><p>Core: recipient. CHF 500,000 conditional payment
-      identifies Hausmann and Sonnenberg. Corvi’s access to an ecclesiastical trust is not Church
-      authorization of treatment.</p><h3>What to do next</h3><p>Call the clinic; determine whether the
-      proposed treatment has occurred.</p><p>A purposeful examination finds the core observation; rolls
-      determine time, discretion, or additional detail. The image’s decorative details are not extra mandatory
-      clues. An HQ fallback needs a named source and cannot supply events that have not happened.</p>
+      <h3>How it is obtained</h3><p>Mercier releases the carbon and statement once the cell establishes its
+      purpose and arranges a concrete safeguard for his testimony. Alternatively the trust’s authorized
+      officer requests its own transaction confirmation through the duty manager. A box number or recovered
+      key is an identifier, not account authority.</p><h3>What it establishes</h3><p>The revised image
+      explicitly names Hausmann, Corvi, Sonnenberg and the terms. The accompanying statement authenticates the
+      same parties against the instruction sheet. They establish the bargain, not completed administration or
+      general Church authorization.</p><h3>Next question</h3><p>Ask where Corvi went. Mercier’s signed
+      account: “Corvi asked me to arrange the train to Zurich and telephone Sonnenberg for a car to meet him
+      there. He said he needed to speak to Doctor Graf before anything was used. I made that call. He left
+      with the metal case; the papers stayed here.”</p><p>The desk message book corroborates a booking/pickup
+      request. Only a clinic source can confirm arrival or continued presence. Call Graf or ask Petra to
+      arrange that contact. This testimony is separate from the receipt image.</p>
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -215,21 +230,21 @@
     foundAtSlugs:
       - sangreal-l3
       - sangreal-l4
-    content: >
-      <p>A reel-to-reel tape of a wiretapped payphone call, the transcript written on the reel box. One voice:
-      <em>"The Zurich test was an abomination! Hausmann has lost all humanity; he screams for marrow in the
-      dark! You assured me the blood brought redemption, not this hellish thirst!"</em> The second voice
-      answers, calm and cultured: <em>"Bring the remaining eleven vessels across the border to the Lingotto
-      works in Turin. My house will pay triple. Do not let Rome's butchers reach you."</em></p>
+    content: >-
+      <p>A reel-to-reel tape of a wiretapped payphone call, a typed transcript on a clipboard beside the reel
+      box. One voice: <em>"The Zurich test was an abomination! Hausmann has lost all humanity; he screams for
+      marrow in the dark! You assured me the blood brought redemption, not this hellish thirst!"</em> The
+      second voice answers, calm and cultured: <em>"Bring the remaining eleven vessels across the border to
+      the Lingotto works in Turin. My house will pay triple. Do not let Rome's butchers reach you."</em></p>
     hqFallback: 7
     daNotes: >-
-      <h3>Source and timing</h3><p>PTT intercept / source verified. Use only if the event or record exists in
-      the current branch.</p><h3>Job in the case</h3><p>Core: Turin route. After the first treatment, Corvi’s
-      call names Lingotto and eleven vessels. A buyer’s offer is not a completed second transfer.</p><h3>What
-      to do next</h3><p>Contact the broker or go to L5; adapt or omit if players prevented treatment.</p><p>A
-      purposeful examination finds the core observation; rolls determine time, discretion, or additional
-      detail. The image’s decorative details are not extra mandatory clues. An HQ fallback needs a named
-      source and cannot supply events that have not happened.</p>
+      <p>Optional corroboration only: a named monitoring source must actually have recorded Corvi’s payphone
+      call after the first administration and knowledge of severe deterioration. A retrospective request
+      cannot create a recording. Petra can retrieve an existing excerpt by an established liaison and deliver
+      a transcript to a real fax point; the reel needs a courier. The photograph quotes only the broker’s
+      eleven-vessel offer and marks Torino, extension 418; the opening complaint comes from the accompanying
+      audio/transcript. Primary route is I50 movement extract → I52 forwarding message → I53 live callback. No
+      recording is required to find Turin.</p>
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -246,12 +261,12 @@
       - sangreal-npc-graf
     npcSlugs:
       - sangreal-npc-graf
-    content: >
-      <p>Histopathology notes and microscopic polaroids, in a clinician's hand: <em>The introduced fluid did
-      not merge with the subject's cellular biology. The foreign haematological vector attacked the existing
-      bone marrow like an invasive graft, forcing an instantaneous genetic re-sequencing of somatic tissue
-      into a predatory physiology. This fluid is not an infection; it is a universal biological vector
-      carrying an un-mutated progenitor strain that ordinary human biology cannot safely regulate.</em></p>
+    content: >-
+      <p>A microscopic photograph is annotated “foreign graft — not infection.” In accompanying notes, Graf
+      describes abnormal marrow changes after the administered preparation and proposes an invasive
+      replacement process. “The timing and the slides suggest that the introduced material is driving the
+      change. This is a working explanation of one patient, not proof of its origin or a demonstrated
+      reversal.”</p>
     hqFallback: 6
     daNotes: >-
       <h3>Source and timing</h3><p>L4 / Graf’s slides and notes. Use only if the event or record exists in the
@@ -301,7 +316,7 @@
 - _id: sangreal-ic11
   name: I11 — The Resonance Field (CT2)
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/intel/i11-resonance-freezer.webp
+  img: ""
   system:
     cardId: I-11
     cardType: containmentTruth
@@ -324,7 +339,11 @@
       merely by proximity.</p><h3>What to do next</h3><p>Apply shielding and separate injured people from the
       uncontained source.</p><p>A purposeful examination finds the core observation; rolls determine time,
       discretion, or additional detail. The image’s decorative details are not extra mandatory clues. An HQ
-      fallback needs a named source and cannot supply events that have not happened.</p>
+      fallback needs a named source and cannot supply events that have not happened.</p><p>Textual synthesis
+      only. The former freezer image is not an inventory photograph and has been removed from this card
+      because its apparently intact bottle conflicts with the consumed first phial. Graf can report local
+      observations without knowing the exact 100 m radius; share the complete CT2 text only once supported by
+      the case’s corroborated observations or records.</p>
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -636,7 +655,7 @@
 - _id: sangreal-ic23
   name: I23 — Night Deposit
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/intel/i23-ubs-lobby-cctv.webp
+  img: "modules/neon-relic-mission-sangreal/assets/art/intel/i23-ubs-lobby-cctv-v2.webp"
   system:
     cardId: I-23
     cardType: supportingIntel
@@ -644,25 +663,27 @@
       - sangreal-l3
     knownBySlugs:
       - sangreal-npc-mercier
-    content: >
-      <p>A bank lobby surveillance frame, time-stamp 22:41: a priest at the night counter with a locked case,
-      a clerk attending him across the marble. The case rests on a bank cloth laid precisely beneath it.</p>
+    content: >-
+      <p>A monochrome bank-surveillance print marked 22:41. A priest holds a closed metal case at the counter
+      while a clerk attends him. A newspaper reader sits behind him; a car is visible outside the glass
+      entrance. The wall clock agrees with the nighttime timestamp. No calendar date is visible in the
+      frame.</p>
     hqFallback: 9
     daNotes: >-
-      <h3>Source and timing</h3><p>L3 / bank security. Use only if the event or record exists in the current
-      branch.</p><h3>Job in the case</h3><p>Support: custody. A case was brought to the counter at the
-      recorded time. Observers in frame are leads, not identified conspirators without
-      corroboration.</p><h3>What to do next</h3><p>Compare the ledger and receipt.</p><p>A purposeful
-      examination finds the core observation; rolls determine time, discretion, or additional detail. The
-      image’s decorative details are not extra mandatory clues. An HQ fallback needs a named source and cannot
-      supply events that have not happened.</p>
+      <h3>Access and timing</h3><p>The duty manager can release the retained still after the cell establishes
+      the transaction inquiry and specifically requests it. Mercier identifies himself and Corvi; the bank’s
+      dated recording log supplies the day from the actual campaign chronology. The frame itself supplies
+      22:41 only.</p><h3>What it proves</h3><p>Corvi brought the closed case to the counter. It does not prove
+      he left the case in a vault, show the contents or identify the observer’s affiliation. Mercier supplies
+      the subsequent departure with the case. This is optional corroboration, not automatic access to all
+      surveillance records.</p>
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
 - _id: sangreal-ic24
   name: I24 — Bank Staff Record
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/intel/i24-mercier-staff-id.webp
+  img: "modules/neon-relic-mission-sangreal/assets/art/intel/i24-mercier-staff-id-v2.webp"
   system:
     cardId: I-24
     cardType: supportingIntel
@@ -670,26 +691,26 @@
       - sangreal-l3
     knownBySlugs:
       - sangreal-npc-mercier
-    content: >
-      <p>The employee record card of Jean-Paul Mercier, photographed on a desk blotter: identification
-      portrait, thumbprint, typed service fields, and an access stamp reading <em>AUTORISÉ — COFFRES.</em>
-      Half out of frame beneath the card lies the carbon of a telegraphic transfer.</p>
+    content: >-
+      <p>A photographed personnel card shows a portrait and fingerprint. Its typed fields read “Nom :
+      MERCIER”, “Prenom : JEAN-PAUL”, “Fonction : GUICHET DE NUIT”, “Service : BANQUE PRIVEE” and “Agence :
+      GENEVE”: Jean-Paul Mercier, night desk, private banking, Geneva. The stamp reads “AUTORISÉ — COFFRES.”
+      The adjoining transfer form shows reference 4409-C and CHF 500,000.</p>
     hqFallback: 8
     daNotes: >-
-      <h3>Source and timing</h3><p>L3 / bank personnel file. Use only if the event or record exists in the
-      current branch.</p><h3>Job in the case</h3><p>Support: source credibility. Mercier had vault access and
-      retained a carbon. Neither a thumbprint nor a nervous portrait proves knowledge of the
-      contents.</p><h3>What to do next</h3><p>Offer a safe interview and request I25.</p><p>A purposeful
-      examination finds the core observation; rolls determine time, discretion, or additional detail. The
-      image’s decorative details are not extra mandatory clues. An HQ fallback needs a named source and cannot
-      supply events that have not happened.</p>
+      <h3>Access</h3><p>Mercier may show his retained staff-card photograph during the protected interview.
+      The duty manager can authenticate it and confirm his vault access. The cell has no automatic right to
+      browse personnel files.</p><h3>Inference</h3><p>The completed identity and duty fields corroborate who
+      handled the transaction. Neither the stamp nor the partial transfer establishes knowledge of the
+      specimen’s nature. No employment date or invented service history is printed. Obtain I06 for the actual
+      bargain.</p>
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
 - _id: sangreal-ic25
-  name: I25 — The Ledger Page
+  name: "I25 — Geneva Escrow Request Register"
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/intel/i25-locker-ledger-4409c.webp
+  img: "modules/neon-relic-mission-sangreal/assets/art/intel/i25-escrow-request-register-v3.webp"
   system:
     cardId: I-25
     cardType: supportingIntel
@@ -697,27 +718,25 @@
       - sangreal-l3
     knownBySlugs:
       - sangreal-npc-mercier
-    content: >
-      <p>The access ledger for a safe-deposit box, open at its current page: three entries in a neat clerical
-      hand, the middle one struck through with correction fluid. In the smear of the correction, lettering
-      remains faintly legible.</p>
+    content: >-
+      <p>A Geneva register headed “Union de Banques Suisses — GENÈVE — REGISTRE DES DEMANDES — DOSSIER
+      4409-C.” The number 4409 is circled twice. Three rows read K. HAUSMANN / Instructions; SERVICE
+      FIDUCIAIRE / Conditions de versement; M. CORVI / Signature. Each is initialed J.P.M. The rest of the
+      ruled page is blank.</p>
     hqFallback: 8
     daNotes: >-
-      <h3>Source and timing</h3><p>L3 / original ledger with carbon or testimony. Use only if the event or
-      record exists in the current branch.</p><h3>Job in the case</h3><p>Core: Claudia discrepancy. The
-      altered Vane entry records her separate pre-assignment inquiry. It exposes a lie about prior
-      involvement, not a simultaneous journey.</p><h3>What to do next</h3><p>Ask her directly; preserve the
-      record; restrict access if the cell chooses.</p><p>A purposeful examination finds the core observation;
-      rolls determine time, discretion, or additional detail. The image’s decorative details are not extra
-      mandatory clues. An HQ fallback needs a named source and cannot supply events that have not
-      happened.</p>
+      <p>Mercier or the manager supplies and authenticates the requested register. The trust-office row
+      records release-condition review. These are file contacts, not vault access. It corroborates the escrow
+      parties without proving an injection. The active image has no alteration or Vane entry. Claudia’s
+      separate preliminary telephone inquiry is openly volunteered in I56; do not revive the superseded
+      bribery/concealment story.</p>
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
 - _id: sangreal-ic26
-  name: I26 — The 06:40 to Geneva
+  name: "I26 — Corvi at Cornavin"
   type: informationCard
-  img: modules/neon-relic-mission-sangreal/assets/art/intel/i26-cornavin-platform.webp
+  img: "modules/neon-relic-mission-sangreal/assets/art/intel/i26-cornavin-platform-v2.webp"
   system:
     cardId: I-26
     cardType: supportingIntel
@@ -726,19 +745,21 @@
       - sangreal-l5
     npcSlugs:
       - sangreal-npc-watcher
-    content: >
-      <p>A long-lens photograph taken along a station platform: steam rising between carriages; a priest
-      climbing into a first-class coach with a steel attaché case; a porter's trolley further down; and near
-      the far end, a man in a grey raincoat with a folded newspaper.</p>
+    content: >-
+      <p>Corvi carries a metal attaché case while boarding beside a coach marked 2. The platform sign reads
+      “Genève-Cornavin” and the hanging departure board reads “ZÜRICH HB.” A loaded trolley marked “VATICAN
+      COURIER” stands nearby, with a newspaper reader behind it. The photograph places Corvi at the Geneva
+      platform beside a Zurich-bound service; it does not establish an exact departure time or arrival at a
+      clinic.</p>
     hqFallback: 7
     daNotes: >-
-      <h3>Source and timing</h3><p>Station surveillance / dated negative. Use only if the event or record
-      exists in the current branch.</p><h3>Job in the case</h3><p>Support: route. Corvi’s train and a
-      recurring observer corroborate movement. A distant watcher is not automatically
-      identifiable.</p><h3>What to do next</h3><p>Verify rail destination or identify the observer through
-      another source.</p><p>A purposeful examination finds the core observation; rolls determine time,
-      discretion, or additional detail. The image’s decorative details are not extra mandatory clues. An HQ
-      fallback needs a named source and cannot supply events that have not happened.</p>
+      <h3>Optional source</h3><p>A transport-security liaison can request the platform photographer’s print
+      and its provenance. It is not automatically in Mercier’s desk. Until that request returns, do not hand
+      it out; the bank’s booking testimony is sufficient to continue.</p><h3>Inference</h3><p>The revised
+      destination board corroborates the Geneva–Zurich rail leg. It does not prove a 06:40 departure,
+      first-class carriage, successful arrival at Sonnenberg or the observer’s allegiance. Mercier’s pickup
+      request links the rail journey to Sonnenberg; a clinic callback confirms whether Corvi is expected,
+      present or departed.</p>
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -786,11 +807,11 @@
     npcSlugs:
       - sangreal-npc-hausmann
       - sangreal-npc-graf
-    content: >
-      <p>A clinical documentation photograph taken under a fluorescent bank: the patient's face and forearm
-      carry fresh, patterned burns where the light fell; his pupils are fully dilated and do not react to the
-      camera flash. The light switch behind him has been taped over, and a taped batch label sits at his IV
-      site.</p>
+    content: >-
+      <p>A clinical photograph shows Hausmann with fresh patterned skin injury on his face and forearm,
+      greatly dilated pupils, a taped-over light switch and a tag reading XII-1/12 beside the IV site. The
+      accompanying clinical note records his light sensitivity. A still photograph cannot establish whether
+      his pupils reacted to a flash.</p>
     hqFallback: 6
     daNotes: >-
       <h3>Source and timing</h3><p>L4 / clinical documentation. Use only if the event or record exists in the
@@ -814,19 +835,17 @@
       - sangreal-l4
     knownBySlugs:
       - sangreal-npc-graf
-    content: >
-      <p>A single page from a trial chart: a typewritten drug line, a witness signature, initials in blue ink.
-      The drug line reads <em>PROGENITOR VECTOR — BATCH XII-1/12</em>; the sponsor line names a Zurich clinic
-      and a Vaduz trust account.</p>
+    content: >-
+      <p>A trial-chart page headed Sonnenberg Privatklinik, Zürich. Room 3.14 is written in ink. The
+      preparation line reads “PROGENITOR VECTOR — BATCH XII-1/12”; a sponsor line names the clinic and a Vaduz
+      trust account. A witness signature and the initial G appear below. The patient and administration
+      date/time fields visible in this photograph are blank.</p>
     hqFallback: 6
     daNotes: >-
-      <h3>Source and timing</h3><p>L4 / signed chart. Use only if the event or record exists in the current
-      branch.</p><h3>Job in the case</h3><p>Core: chain of custody. Batch XII-1/12 documents one released
-      phial and who administered it. Trace samples do not subtract another whole vessel.</p><h3>What to do
-      next</h3><p>Confront Corvi and the escrow arrangement; protect the chart and witnesses.</p><p>A
-      purposeful examination finds the core observation; rolls determine time, discretion, or additional
-      detail. The image’s decorative details are not extra mandatory clues. An HQ fallback needs a named
-      source and cannot supply events that have not happened.</p>
+      <p>Obtain the chart from Graf’s folder with I51, her separate signed treatment statement. That statement
+      identifies Kurt Hausmann/09-H, administration time, Graf’s responsibility, Corvi’s release of one phial
+      and eleven remaining at her last witnessed count. Do not ask players to read absent names or times from
+      the photograph. Trace residue and patient samples do not subtract a second vessel.</p>
     foundAtUuids: []
     knownByUuids: []
     npcUuids: []
@@ -839,9 +858,9 @@
     cardType: supportingIntel
     foundAtSlugs:
       - sangreal-l4
-    content: >
+    content: >-
       <p>A frame from a ward-corridor security camera: windows taped over with black polyethylene, fluorescent
-      tubes smashed, an overturned wheelchair and a kicked mop bucket — and at the top edge of the frame,
+      tubes smashed, a wheelchair against the wall and a kicked mop bucket — and at the top edge of the frame,
       something holding position against the ceiling.</p>
     hqFallback: 5
     daNotes: >-
@@ -866,10 +885,10 @@
       - sangreal-l4
     npcSlugs:
       - sangreal-npc-entita-operative
-    content: >
-      <p>A night telephoto of a low clinic building taken from a tree line: one floor's windows blacked out
-      with sheeting; on the access road below, a grey sixties sedan with white plates, wipers up. A
-      dash-mounted camera and thermos sit in the foreground.</p>
+    content: >-
+      <p>A nighttime view of the clinic from an observer’s car beside the trees. A band of windows is covered
+      with black sheeting. A grey sedan outside reception has the visible plate SCV 47. A camera and thermos
+      sit in the foreground.</p>
     hqFallback: 6
     daNotes: >-
       <h3>Source and timing</h3><p>L4 approach / actual surveillance. Use only if the event or record exists
@@ -1756,10 +1775,8 @@
       introduction use the clean NPC portrait; for a player-taken mundane snapshot use the C-series. No event
       is required to happen merely to produce this frame.</p><p><strong>Visible subject.</strong> Cold
       fluorescent overhead, wet flagstones, heavy vignette; she does not look away and her hands are
-      still.</p><p>Compare
-      @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.NvsqxXBP29kM6SVV]{I25 — The Ledger
-      Page}. Its inference limits apply. Matching clothing, jewellery, or paperwork corroborates identity or
-      access; it does not prove every claimed motive.</p>
+      still.</p><p>Use as a documentary image only after a matching photograph is obtained. It is not a cue to
+      distrust Claudia; I25 has no connection to a concealed visit.</p>
     npcSlugs:
       - sangreal-npc-vane
     foundAtSlugs:
@@ -1869,18 +1886,16 @@
     cardId: F-07
     cardType: supportingIntel
     content: >-
-      A wood-panelled room the size of a cupboard: a man in a three-piece suit sits with bank documents
-      squared in front of him under one warm lamp, professionally pleasant and sweating slightly. A carbon
-      copy is sliding out of his jacket pocket.
+      <p>Mercier sits holding papers at a desk in a wood-panelled bank interior. A brass lamp stands beside
+      him; UBS lettering is visible on glass behind him. A perforated reference slip marked UBS 4409-C
+      protrudes from his breast pocket.</p>
     daNotes: >-
-      <p>Optional documentary photograph. Establish who took it, when, and how the investigators obtain it
-      before sharing. Use only when the pictured subject and circumstances fit actual play. For a simple
-      introduction use the clean NPC portrait; for a player-taken mundane snapshot use the C-series. No event
-      is required to happen merely to produce this frame.</p><p><strong>Visible subject.</strong> Brass lamp,
-      no window, documents aligned to the table edge; his hands stay flat and open on the page.</p><p>Compare
-      @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.TqsNZiq5wWnCyrO1]{I24 — Bank Staff
-      Record}. Its inference limits apply. Matching clothing, jewellery, or paperwork corroborates identity or
-      access; it does not prove every claimed motive.</p>
+      <p>Optional documentary photograph. Share only if a photographer was present at a matching interview and
+      the investigators obtain the print. Use the clean portrait for introduction and C09 for an ordinary
+      player photograph at the counter.</p><p><strong>Visible subject.</strong> Mercier holds documents; the
+      pocket slip bears an account reference. The photograph does not establish a windowless booth, flat
+      hands, a confession or the contents of a concealed carbon. His testimony and authenticated documents
+      carry those conclusions.</p>
     npcSlugs:
       - sangreal-npc-mercier
     foundAtSlugs:
@@ -2071,7 +2086,7 @@
       is required to happen merely to produce this frame.</p><p><strong>Visible subject.</strong> Flat
       overcast light, an empty second cup, no eye contact, nothing about him that asks to be looked
       at.</p><p>Compare @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.SI5TGjifT8qC6Epu]{I26
-      — The 06:40 to Geneva}. Its inference limits apply. Matching clothing, jewellery, or paperwork
+      — Corvi at Cornavin}. Its inference limits apply. Matching clothing, jewellery, or paperwork
       corroborates identity or access; it does not prove every claimed motive.</p>
     npcSlugs:
       - sangreal-npc-watcher
@@ -2102,3 +2117,289 @@
       - sangreal-npc-basarab-elder
     foundAtSlugs:
       - sangreal-l6
+
+- _id: sangreal-session-i46
+  name: I46 — Corvi at Roma Termini
+  type: informationCard
+  system:
+    cardId: I-46
+    cardType: supportingIntel
+    foundAtSlugs:
+    - sangreal-l2
+    knownBySlugs:
+    - sangreal-npc-watcher
+    content: <p>A worn platform photograph. The station sign reads <strong>ROMA TERMINI</strong>; the departure
+      board reads <strong>GINEVRA / GENÈVE</strong>. Corvi boards with a closed metal attaché case. Behind him stands
+      a balding man in a grey raincoat reading an open newspaper. The image supplies no printed date or departure
+      time and does not show the case contents.</p>
+    hqFallback: 0
+    daNotes: '<p>This replaces the mistakenly shown Geneva photograph as the earlier Rome-to-Geneva evidence. Preserve
+      the players’ already-earned recognition of the newspaper reader: the Grey Watcher is present in this frame.
+      Use the original handout’s established provenance, or a railway-liaison print if newly obtained. Correct the
+      location as a DA presentation error, not an in-world forgery puzzle. I26 remains a separate later Geneva-to-Zurich
+      photograph, revealed only if obtained. The figure’s presence proves observation, not allegiance.</p>'
+  img: modules/neon-relic-mission-sangreal/assets/art/intel/corvi-roma-termini-geneva.webp
+- _id: sangreal-session-i47
+  name: I47 — Petra Fax — UBS Interview Contact
+  type: informationCard
+  system:
+    cardId: I-47
+    cardType: supportingIntel
+    foundAtSlugs:
+    - sangreal-l2
+    - sangreal-l3
+    knownBySlugs:
+    - sangreal-npc-logistics-officer
+    content: '<p><strong>COVENANT FIELD SUPPORT · SANGREAL-87-091</strong><br>Prepared by Petra, Region 04 desk.<br>Sent:
+      [date/time] · Receiving point: [agreed fax desk].</p><h3>Geneva bank switchboard / duty desk</h3><p><strong>Inquiry:</strong>
+      identify the employee who dealt with Monsignor Matteo Corvi and arrange a verified interview.</p><p><strong>Returned
+      answer:</strong> Jean-Paul Mercier handled the visit. Ask the private-banking reception for the duty manager
+      and the Mercier appointment under operation reference SANGREAL-87-091. Bring identification and the Corvi
+      material supporting the inquiry.</p><p><strong>Access:</strong> this introduction authorizes a conversation.
+      It does not authorize account disclosure or entry to a vault.</p><p><strong>Appointment/callback:</strong>
+      [confirmed place and time].</p>'
+    hqFallback: 0
+    daNotes: <p>Share only after the named inquiry has returned. Fill transmission fields from play. Read the useful
+      information by telephone first if needed, then send this written call summary to an actual agreed hotel, bank,
+      clinic or station-office fax with staff permission; no fax magically reaches a train compartment. If no fax
+      is available, arrange collection or a courier and keep delivery pending. This is a summary prepared from call
+      notes, not a claim of an audio recording. Keep one stable card and update the dated status after later callbacks;
+      distinguish reported facts from independent confirmation.</p>
+- _id: sangreal-session-i48
+  name: I48 — Petra Fax — Sonnenberg Contact and Route
+  type: informationCard
+  system:
+    cardId: I-48
+    cardType: supportingIntel
+    foundAtSlugs:
+    - sangreal-l3
+    knownBySlugs:
+    - sangreal-npc-logistics-officer
+    content: '<p><strong>COVENANT FIELD SUPPORT · SANGREAL-87-091</strong><br>Prepared by Petra, Region 04 desk.<br>Sent:
+      [date/time] · Receiving point: [agreed fax desk].</p><h3>Directory, clinic prospectus and visitor desk</h3><p><strong>Destination:</strong>
+      Privatklinik Sonnenberg, the private inpatient clinic on the wooded hillside outside Zurich. Oncology care,
+      consulting rooms, laboratory support and a small theatre.</p><p><strong>Contact:</strong> Dr. Elizabeth Graf,
+      through the clinic switchboard. State that the inquiry concerns the preparation supplied by Monsignor Corvi
+      for Kurt Hausmann.</p><p><strong>Route:</strong> Geneva-Cornavin to Zurich HB by rail; booked car or taxi
+      to main reception. The clinic has no railway platform.</p><p><strong>Entry:</strong> reception checks the
+      appointment and identification; staff control clinical doors. A service approach is not public access.</p><p><strong>Directory
+      address/switchboard and car booking:</strong> [details relayed to the receiving desk].<br><strong>Appointment
+      status:</strong> [requested / confirmed, with time].</p><p>Sources establish the location and contact; they
+      do not disclose private charts or the contents of Corvi’s case.</p>'
+    hqFallback: 0
+    daNotes: <p>Share only after the named inquiry has returned. Fill transmission fields from play. Read the useful
+      information by telephone first if needed, then send this written call summary to an actual agreed hotel, bank,
+      clinic or station-office fax with staff permission; no fax magically reaches a train compartment. If no fax
+      is available, arrange collection or a courier and keep delivery pending. This is a summary prepared from call
+      notes, not a claim of an audio recording. Keep one stable card and update the dated status after later callbacks;
+      distinguish reported facts from independent confirmation.</p>
+- _id: sangreal-session-i49
+  name: I49 — Petra Fax — Graf’s Returned Call
+  type: informationCard
+  system:
+    cardId: I-49
+    cardType: supportingIntel
+    foundAtSlugs:
+    - sangreal-l3
+    - sangreal-l4
+    knownBySlugs:
+    - sangreal-npc-logistics-officer
+    content: '<p><strong>COVENANT FIELD SUPPORT · SANGREAL-87-091</strong><br>Prepared by Petra, Region 04 desk.<br>Sent:
+      [date/time] · Receiving point: [agreed fax desk].</p><h3>Verified callback through Sonnenberg switchboard</h3><p><strong>Speaker:</strong>
+      Dr. Elizabeth Graf.</p><blockquote><p>“Corvi came here concerning Herr Hausmann. The preparation has already
+      been administered. Corvi has left. I need to speak to someone about what happened to the patient. Bring the
+      supplier papers, and ask reception for me.”</p></blockquote><p><strong>Safety message:</strong> no further
+      administration; maintain the precautions agreed with the clinic.</p><p><strong>Established:</strong> a clinical
+      witness confirms Corvi attended and departed, and treatment occurred.</p><p><strong>Still unconfirmed:</strong>
+      the preparation’s nature, the patient’s full condition and Corvi’s current whereabouts. Ask Graf in person
+      for her record and the forwarding contact.</p>'
+    hqFallback: 0
+    daNotes: <p>Share only after the named inquiry has returned. Fill transmission fields from play. Read the useful
+      information by telephone first if needed, then send this written call summary to an actual agreed hotel, bank,
+      clinic or station-office fax with staff permission; no fax magically reaches a train compartment. If no fax
+      is available, arrange collection or a courier and keep delivery pending. This is a summary prepared from call
+      notes, not a claim of an audio recording. Keep one stable card and update the dated status after later callbacks;
+      distinguish reported facts from independent confirmation.</p><p>Current-session default is after injection
+      and Corvi’s departure. If Graf did not answer, withhold this card; use a message-receipt update on I48. This
+      record does not reveal blood or vampires prematurely.</p>
+- _id: sangreal-session-i50
+  name: I50 — Sonnenberg reception movement extract
+  type: informationCard
+  system:
+    cardId: I-50
+    cardType: supportingIntel
+    foundAtSlugs:
+    - sangreal-l4
+    knownBySlugs:
+    - sangreal-npc-graf
+    content: '<p><strong>Supplier visit: Monsignor Matteo Corvi</strong><br>Appointment: Dr. Elizabeth Graf, concerning
+      Herr Kurt Hausmann.<br>Arrival: [actual arrival date and time].<br>Observed item: one closed metal attaché
+      case.<br>Current status: departed at [actual departure time].<br>Departure booking: car to Zürich Hauptbahnhof;
+      visitor carried the same case when leaving.<br>Onward contact: retained telephone message S3.<br>Extract checked
+      against the reception book by: [reception witness and date].</p>'
+    hqFallback: 0
+    daNotes: <p>Release during the named Sonnenberg scene after the source authenticates this record. Fill actual
+      dates, times, witness names and observed findings before sharing. This readable document is independent of
+      the evidence photographs. It is not secret text hidden in I29.</p>
+- _id: sangreal-session-i51
+  name: I51 — Graf’s treatment and custody statement
+  type: informationCard
+  system:
+    cardId: I-51
+    cardType: supportingIntel
+    foundAtSlugs:
+    - sangreal-l4
+    knownBySlugs:
+    - sangreal-npc-graf
+    content: <p><strong>Patient:</strong> Kurt Hausmann, file 09-H, room 3.14.<br><strong>Supplier:</strong> Monsignor
+      Matteo Corvi, who brought a closed metal case to Sonnenberg.<br><strong>Funding reference:</strong> the Hausmann
+      arrangement described in the supplied Geneva escrow papers; clinic sponsorship references the Vaduz trust.<br><strong>Procedure:</strong>
+      one phial of blood administered intravenously at [actual date and time].<br><strong>Preparation label:</strong>
+      PROGENITOR VECTOR — BATCH XII-1/12.<br><strong>Custody:</strong> Corvi released one vessel for this procedure
+      and retained the other eleven.<br><strong>Clinical material retained:</strong> patient samples and residue
+      from the used vessel and apparatus; no second intact phial retained.<br><strong>Outcome observed to date:</strong>
+      [only the findings that have occurred].<br><strong>Supplier’s last known position:</strong> departed with
+      case; reception holds his forwarding contact.<br>Elizabeth Graf — [signature, date and time].</p>
+    hqFallback: 0
+    daNotes: <p>Release during the named Sonnenberg scene after the source authenticates this record. Fill actual
+      dates, times, witness names and observed findings before sharing. This readable document is independent of
+      the evidence photographs. It is not secret text hidden in I29.</p>
+- _id: sangreal-session-i52
+  name: I52 — Telephone message retained at reception
+  type: informationCard
+  system:
+    cardId: I-52
+    cardType: supportingIntel
+    foundAtSlugs:
+    - sangreal-l4
+    knownBySlugs:
+    - sangreal-npc-graf
+    content: <p><strong>For:</strong> Dr. Elizabeth Graf.<br><strong>Regarding:</strong> Monsignor Corvi / Hausmann
+      follow-up.<br><strong>Forwarding contact left by Corvi:</strong> Lingotto freight-office switchboard, Torino;
+      ask for extension 418.<br><strong>Return call:</strong> a man identifying himself as Corvi’s intermediary
+      confirmed that contact and asked for a written account of the treatment’s outcome.<br><strong>Directions supplied
+      by caller:</strong> Lingotto works, Turin. Report to the leased freight-office entrance; ask for the supervisor’s
+      booth meeting. Call extension 418 to confirm the appointment.<br><strong>Corvi’s stated intention:</strong>
+      travel there with his case to seek protection.<br><strong>Received:</strong> [actual date/time]; copied by
+      [reception witness].</p>
+    hqFallback: 0
+    daNotes: <p>Release during the named Sonnenberg scene after the source authenticates this record. Fill actual
+      dates, times, witness names and observed findings before sharing. This readable document is independent of
+      the evidence photographs. It is not secret text hidden in I29.</p>
+- _id: sangreal-session-i53
+  name: I53 — Petra Fax — Lingotto Callback
+  type: informationCard
+  system:
+    cardId: I-53
+    cardType: supportingIntel
+    foundAtSlugs:
+    - sangreal-l4
+    - sangreal-l5
+    knownBySlugs:
+    - sangreal-npc-logistics-officer
+    content: '<p><strong>COVENANT FIELD SUPPORT · SANGREAL-87-091</strong><br>Prepared by Petra, Region 04 desk.<br>Sent:
+      [date/time] · Receiving point: [agreed fax desk].</p><h3>Lingotto freight-office switchboard, Turin · extension
+      418</h3><p><strong>Source:</strong> a man identifying himself as Corvi’s intermediary, reached through the
+      forwarding contact retained at Sonnenberg.</p><blockquote><p>“I can receive the doctor’s report. If this concerns
+      Corvi, tell me whether you bring protection or another claim on his property. Report to the leased freight-office
+      entrance at the Lingotto works. Ask for the supervisor’s booth meeting. Give extension 418 your arrival estimate.”</p></blockquote><p><strong>Reason
+      for the requested report:</strong> the caller wants to know what happened to Hausmann before proceeding with
+      a proposed further purchase.</p><p><strong>Meeting:</strong> [agreed window and caller’s current report on
+      Corvi].</p><p><strong>Not independently verified:</strong> Corvi’s arrival, the case’s current contents, or
+      the caller’s patron. An offer is not a completed sale.</p>'
+    hqFallback: 0
+    daNotes: <p>Share only after the named inquiry has returned. Fill transmission fields from play. Read the useful
+      information by telephone first if needed, then send this written call summary to an actual agreed hotel, bank,
+      clinic or station-office fax with staff permission; no fax magically reaches a train compartment. If no fax
+      is available, arrange collection or a courier and keep delivery pending. This is a summary prepared from call
+      notes, not a claim of an audio recording. Keep one stable card and update the dated status after later callbacks;
+      distinguish reported facts from independent confirmation.</p><p>Use after a cooperative callback. If players
+      made the call, Petra transcribes their supplied account and labels that source; she must not claim to have
+      heard a call she did not join. If the broker refused, update the returned-answer section to the actual refusal;
+      I52 still gives the destination.</p>
+- _id: sangreal-session-i54
+  name: I54 — Petra Fax — Clinic Handover and Rail Plan
+  type: informationCard
+  system:
+    cardId: I-54
+    cardType: supportingIntel
+    foundAtSlugs:
+    - sangreal-l4
+    knownBySlugs:
+    - sangreal-npc-logistics-officer
+    content: '<p><strong>COVENANT FIELD SUPPORT · SANGREAL-87-091</strong><br>Prepared by Petra, Region 04 desk.<br>Sent:
+      [date/time] · Receiving point: [agreed fax desk].</p><h3>Current arrangements</h3><p><strong>Patient care:</strong>
+      [named clinician/team, location, ETA or handover time].<br><strong>Graf and other witnesses:</strong> [agreed
+      protection, transport and callback].<br><strong>Clinical records:</strong> [original custodian and duplicate
+      custodian].<br><strong>Retained hazardous material:</strong> [responsible custodian and storage confirmed
+      from supplied instructions].</p><p><strong>Journey:</strong> car from Sonnenberg to Zurich HB; rail toward
+      Turin with [booked connections and departure/arrival]; onward pickup to Lingotto [confirmed arrangement].</p><p><strong>Open
+      items:</strong> [requests still pending; mark NONE only when all are settled].</p>'
+    hqFallback: 0
+    daNotes: <p>Share only after the named inquiry has returned. Fill transmission fields from play. Read the useful
+      information by telephone first if needed, then send this written call summary to an actual agreed hotel, bank,
+      clinic or station-office fax with staff permission; no fax magically reaches a train compartment. If no fax
+      is available, arrange collection or a courier and keep delivery pending. This is a summary prepared from call
+      notes, not a claim of an audio recording. Keep one stable card and update the dated status after later callbacks;
+      distinguish reported facts from independent confirmation.</p><p>This deliberately mundane card is the party’s
+      durable reference for commitments. Fill only confirmed arrangements; unresolved entries remain pending. It
+      does not summon personnel or equipment.</p>
+- _id: sangreal-session-i55
+  name: I55 — Authority Call — The Other Vampires
+  type: informationCard
+  system:
+    cardId: I-55
+    cardType: supportingIntel
+    foundAtSlugs:
+    - sangreal-l4
+    knownBySlugs:
+    - sangreal-npc-logistics-officer
+    content: '<p><strong>COVENANT FIELD SUPPORT · SANGREAL-87-091</strong><br>Record of verified call through Cardinal
+      Sabbatini’s established office.<br>Call/fax details: [date, participants and receiving point].</p><p><strong>Report
+      given:</strong> Graf’s eyewitness account of one phial administered at Sonnenberg and Hausmann’s subsequent
+      condition.</p><blockquote><p>“Corvi administered it to a man? We had no report of this transaction or this
+      treatment. Keep Hausmann alive and isolated if you can. There were vampires long before him. Some belong to
+      houses with which we maintain agreements. A new recipient outside those agreements is a matter for all of
+      us.”</p></blockquote><p><strong>On the stolen object:</strong> “The stolen object is the sealed reserve. Corvi
+      can tell you what he believes its origin to be.”</p><p><strong>On other interests:</strong> “The houses have
+      reason to fear its uncontrolled use. Expect people acting for them to seek it.”</p><p>This is Sabbatini’s
+      attributed statement. It confirms organized vampire interests and his account of Church ignorance of the experiment;
+      it does not identify the broker’s patron or prove the blood’s ancient origin.</p>'
+    hqFallback: 0
+    daNotes: <p>Share only after the named inquiry has returned. Fill transmission fields from play. Read the useful
+      information by telephone first if needed, then send this written call summary to an actual agreed hotel, bank,
+      clinic or station-office fax with staff permission; no fax magically reaches a train compartment. If no fax
+      is available, arrange collection or a courier and keep delivery pending. This is a summary prepared from call
+      notes, not a claim of an audio recording. Keep one stable card and update the dated status after later callbacks;
+      distinguish reported facts from independent confirmation.</p><p>Release only after the cell reports the clinic
+      evidence and actually makes this call. If they choose the Covenant specialist instead, replace the speaker
+      and text with the limited specialist response in the walkthrough; do not fabricate Sabbatini’s testimony.
+      Never place this in a pre-clinic packet.</p>
+- _id: sangreal-session-i56
+  name: I56 — Claudia’s Train Brief — Preliminary UBS Inquiry
+  type: informationCard
+  system:
+    cardId: I-56
+    cardType: supportingIntel
+    foundAtSlugs:
+    - sangreal-l2
+    - sangreal-l3
+    knownBySlugs:
+    - sangreal-npc-vane
+    content: <p><strong>Note supplied by Sister Claudia Vane aboard the Rome–Geneva train.</strong></p><blockquote><p>“There
+      is one call I should put into the file. While sorting the papers from Corvi’s office, I found the UBS reference
+      beside Hausmann’s name. Before we boarded, I telephoned the Geneva desk to check whether it was a live lead.
+      Mercier would not discuss the account, but he said a verified inquiry should come through his duty manager.
+      I was trying to get us past a closed door. Here are my notes.”</p></blockquote><p><strong>Source:</strong>
+      the actual UBS/Hausmann reference in the recovered office papers.<br><strong>Contact:</strong> Jean-Paul Mercier,
+      Geneva private-banking desk, through the duty manager.<br><strong>Result:</strong> interview route identified;
+      no account papers or medical details released.<br><strong>Next step:</strong> verify the appointment and supporting
+      documents through Petra or the bank desk.</p>
+    hqFallback: 0
+    daNotes: <p>Claudia volunteers this early in the train scene, before anyone confronts her. The consultation
+      was a preliminary telephone inquiry from Rome, after she saw the office papers and before boarding—not an
+      earlier physical Geneva visit. Her useful account is independently corroborated by Mercier. She has not acquired
+      the injection plan or acted on a Church instruction authorizing treatment. No erased signature, payment to
+      conceal her name or accusation accompanies it. Covert allegiance stays in DA notes until later earned evidence;
+      do not cue guilt while she speaks. Preserve any already played facts rather than silently inventing a contradictory
+      call.</p>

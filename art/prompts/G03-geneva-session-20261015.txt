@@ -1,0 +1,23 @@
+Use case: text-localization
+Asset type: photographic tabletop RPG evidence handout, 1987 Swiss bank escrow carbon.
+Image 1 is the edit target. Create exactly one revised standalone photograph of this same receipt on this same desk, not a montage or comparison. Preserve the aged cream carbon paper, restrained purple ink, perspective, folded upper corner, sun-and-mountain clinic logo, leather blotter, pen, warm light and analog grain. The existing document is missing crucial names. Redesign only the printed form layout within the sheet as needed to fit the following concise, highly legible carbon-typewriter text. Keep the whole document in frame, portrait 3:4, short edge at least 1024 pixels. Every clue must be large enough to read without guessing. Natural ink and paper texture, not modern digital labels or floating captions.
+
+Exact document wording, grouped into clean readable fields:
+"Union de Banques Suisses"
+"GENEVE"
+"ESCROW RECEIPT"
+"REFERENCE: 4409-C"
+"PAYING PRINCIPAL: KURT HAUSMANN"
+"TREATMENT LOCATION:"
+"Sonnenberg Privatklinik, Zurich"
+"SUPPLIER: MONSIGNOR MATTEO CORVI"
+"AMOUNT LODGED: CHF 500,000"
+"RECEIVING ACCOUNT:"
+"Ecclesiastical escrow account"
+"Vaduz"
+"MEMO: Acquisition of Primary Specimen"
+"(1 of 12) — Experimental Oncology Protocol"
+"Release subject to acknowledgment of receipt."
+"This receipt does not certify treatment."
+
+Preserve the small pencilled tick beside '(1 of 12)'. Do not add dates, signatures, account numbers, other names, a blood diagnosis, proof that treatment happened, or a reference to Turin. Do not change CHF 500,000 or 4409-C. This is one real document photographed on a desk; all words belong on its paper. Prioritize exact wording and readable clues over decorative wear. No blank name fields. No watermark.

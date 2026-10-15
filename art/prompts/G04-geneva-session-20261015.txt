@@ -1,0 +1,25 @@
+Use case: text-localization
+Asset type: one photographic RPG evidence still of a Geneva bank ledger and its retained original inquiry slip, 1987.
+Image 1 is the edit target. Preserve the overall top-down photograph, old open ruled ledger, cream paper, brass/wood desk objects, paperclip and warm photographic light. Revise the document text and place ONE small original carbon inquiry slip naturally on the empty lower half of the ledger. It is a real sheet lying on the ledger, not an inset, collage panel or UI. One portrait 3:4 image, short edge at least 1024 pixels.
+
+Replace the stale Zurich bank heading/address with the exact heading:
+"Union de Banques Suisses"
+"GENEVE — REGISTRE DES DEMANDES"
+"DOSSIER 4409-C"
+Keep a separately double-circled "4409" at the upper right.
+
+The ledger has three legible rows under columns "CONTACT", "OBJET", "AGENT". Do not use date or time columns. Handwritten entries in tidy period pen:
+Row 1: "K. HAUSMANN" | "Instructions" | "J.P.M."
+Row 2: "VANE, C." | "Consultation" | "J.P.M."
+Row 3: "M. CORVI" | "Signature" | "J.P.M."
+The name VANE, C. on row 2 is partly concealed by a thin patch of old white correction fluid, with a few letter remnants visible. Do not make the whole name depend on reading through paint; the original separate slip below reveals it clearly.
+
+Exact typed text on the separate small carbon slip, fully visible and readable:
+"NOTE ORIGINALE"
+"DOSSIER 4409-C"
+"Visiteur : Claudia Vane"
+"Pour : K. Hausmann"
+"Objet : Dossier Corvi"
+"Agent : J.-P. Mercier"
+
+All text belongs to these physical documents and follows their perspective. No Zurich address, no 02:10 timestamp, no invented calendar date, no extra names or fourth entry, no diagnosis, no vampires. Retain ordinary bank stamp and desk atmosphere. Readable evidentiary text takes priority over heavy grain. No modern typography or watermark.
