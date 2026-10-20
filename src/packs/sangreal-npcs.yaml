@@ -55,24 +55,30 @@
   system:
     tier: 3
     description: >-
-      <h3>At the table</h3><p><strong>Look.</strong> Practical, attentive liaison; remembers who has not eaten
-      and obtains the papers the cell needs.</p><p><strong>Wants.</strong> Destroy what she believes will
-      cause renewed predation; initially trusts Registry 16 to do it.</p><p><strong>Knows.</strong> She knows
-      her route and orders, not the whole vector. She rationalizes “protect the bloodline” as a containment
-      code until independent evidence makes that untenable.</p><blockquote><p>“Tell me who will stop them
-      opening it again.”</p></blockquote><h3>When the cell changes the situation</h3><p>Proof of her handlers’
-      interests plus a credible containment alternative can turn her. Capturing her prevents the scripted
-      theft; search can secure her Thread.</p><p>She attempts escape only with opportunity, a usable relic,
-      access to the case, and a route. Her survival or death is resolved in play.</p><h3>Existing combat
-      profile</h3> <p>Trained in defensive hand-to-hand combat (AGI 3, brawl 2). Carries The Veil of
-      Veronica's Thread and a concealed Beretta 70. Will not fight to win — only to escape with the case.</p>
-      <h3>Train, Geneva and Sonnenberg</h3><p>Volunteer I56 on the train: she noticed the UBS/Hausmann
-      reference in Corvi’s office papers and called the desk from Rome before boarding. She shares her
-      complete limited result without being challenged; Mercier confirms it. This was her own initiative, not
-      a Church instruction or prior knowledge of the injection. She translates, obtains appointments and helps
-      staff. Her covert interest remains in DA knowledge; no erased bank signature, suspicious look or
-      unexplained absence telegraphs it. The later Registry 16 evidence and actual extraction attempt carry
-      the twist.</p>
+      <h3>At the table</h3><p><strong>Look.</strong> Practical, attentive liaison; remembers who has not
+      eaten and obtains the papers the cell needs.</p><p><strong>Wants.</strong> Destroy what she
+      believes will cause renewed predation; initially trusts Registry 16 to do
+      it.</p><p><strong>Knows.</strong> She knows her route and orders, not the whole vector. She
+      rationalizes “protect the bloodline” as a containment code until independent evidence makes that
+      untenable.</p><blockquote><p>“Tell me who will stop them opening it
+      again.”</p></blockquote><h3>When the cell changes the situation</h3><p>Proof of her handlers’
+      interests plus a credible containment alternative can turn her. Capturing her prevents the
+      scripted theft; search can secure her Thread.</p><p>She attempts escape only with opportunity, a
+      usable relic, access to the case, and a route. Her survival or death is resolved in
+      play.</p><h3>Existing combat profile</h3> <p>Trained in defensive hand-to-hand combat (AGI 3,
+      brawl 2). Carries The Veil of Veronica's Thread and a concealed Beretta 70. Will not fight to win
+      — only to escape with the case.</p> <h3>Train, Geneva and Sonnenberg</h3><p>Volunteer I56 on the
+      train: she noticed the UBS/Hausmann reference in Corvi’s office papers and called the desk from
+      Rome before boarding. She shares her complete limited result without being challenged; Mercier
+      confirms it. This was her own initiative, not a Church instruction or prior knowledge of the
+      injection. She translates, obtains appointments and helps staff. Her covert interest remains in DA
+      knowledge; no erased bank signature, suspicious look or unexplained absence telegraphs it. The
+      later Registry 16 evidence and actual extraction attempt carry the twist.</p><h3>Sonnenberg
+      performance — DA only</h3><p>After the fight and Graf’s disclosure, deliver a convincing
+      breakdown: shaking hands, a failed prayer, “Sang real — royal blood,” then the blood of Christ and
+      the Eucharist’s terrifying new meaning. She urges recovery of the remaining blood to the Vatican.
+      Preserve her hidden allegiance and later betrayal; no knowing glances announce the performance.
+      Graf establishes the clinical facts, while Claudia voices the interpretation.</p>
     attributes:
       str: 2
       agi: 3
@@ -159,21 +165,26 @@
   system:
     tier: 1
     description: >-
-      <h3>At the table</h3><p><strong>Look.</strong> Exhausted physician holding a slide box; first asks who
-      will move the remaining staff.</p><p><strong>Wants.</strong> Protect survivors and keep an accountable
-      medical record without enabling another experiment.</p><p><strong>Knows.</strong> She can document the
-      human outcome and hypothesize the mechanism. She cannot prove ancient theology or guarantee a safe
-      reversal.</p><blockquote><p>“It proves what happened to this patient. I will not sign anything
-      else.”</p></blockquote><h3>When the cell changes the situation</h3><p>Concrete evacuation and
-      independent custody of her record earn cooperation. She may keep a backup slide, but she does not demand
-      that every useful record be burned.</p><p>She hides or seeks another protector. A successful rescue
-      prevents her later death in a scheduled raid.</p><h3>Existing combat profile</h3> <p>Non-combatant.
-      Threatens to burn the lab records if cornered; she means it.</p> <h3>Current Sonnenberg
-      session</h3><p>She has already administered one phial and witnessed the changed Hausmann. She saw twelve
-      phials of blood inside Corvi’s case, accepted one and saw him retain eleven. I51 dates and signs this
-      account; I29’s photographed patient/time fields are blank. Reception’s I50 and I52 establish Corvi’s
-      departure and onward contact independently of her survival. She provides the treatment facts even if the
-      cell declines rescue; original clinical material requires accountable custody.</p>
+      <h3>At the table</h3><p><strong>Look.</strong> Exhausted physician holding a slide box; first asks
+      who will move the remaining staff.</p><p><strong>Wants.</strong> Protect survivors and keep an
+      accountable medical record without enabling another experiment.</p><p><strong>Knows.</strong> She
+      can document the human outcome and hypothesize the mechanism. She cannot prove ancient theology or
+      guarantee a safe reversal.</p><blockquote><p>“It proves what happened to this patient. I will not
+      sign anything else.”</p></blockquote><h3>When the cell changes the situation</h3><p>Concrete
+      evacuation and independent custody of her record earn cooperation. She may keep a backup slide,
+      but she does not demand that every useful record be burned.</p><p>She hides or seeks another
+      protector. A successful rescue prevents her later death in a scheduled raid.</p><h3>Existing
+      combat profile</h3> <p>Non-combatant. Threatens to burn the lab records if cornered; she means
+      it.</p> <h3>Current Sonnenberg session</h3><p>She has already administered one phial and witnessed
+      the changed Hausmann. She saw twelve phials of blood inside Corvi’s case, accepted one and saw him
+      retain eleven. I51 dates and signs this account; I29’s photographed patient/time fields are blank.
+      Reception’s I50 and I52 establish Corvi’s departure and onward contact independently of her
+      survival. She provides the treatment facts even if the cell declines rescue; original clinical
+      material requires accountable custody.</p><h3>Revised arrival</h3><p>The default red alert finds
+      her upstairs, alive with deep claw wounds, beside a dead intern. Stabilize and move her before the
+      full interview. Her testimony follows the young-vampire battle: she administered blood, witnessed
+      initial cancer remission and subsequent transformation, and saw eleven phials leave with Corvi.
+      The reception message supplies Lingotto independently of her survival.</p>
     attributes:
       str: 2
       agi: 2
@@ -207,19 +218,25 @@
   system:
     tier: 4
     description: >-
-      <h3>At the table</h3><p><strong>Look.</strong> Use the intake appearance before treatment; worsening
-      cold, dilation and light sensitivity develop afterward.</p><p><strong>Wants.</strong> At first, survive
-      his cancer. After treatment, obtain help and resist a growing hunger while lucidity
-      lasts.</p><p><strong>Knows.</strong> He knows who promised a treatment and the people who administered
-      it. He is not a lore lecturer.</p><blockquote><p>“The pain stopped. I thought that meant it
-      worked.”</p></blockquote><h3>When the cell changes the situation</h3><p>An early cell can prevent the
-      injection. Later, sound isolation can preserve him and protect staff; no established cure for his new
-      state is promised.</p><p>Use the existing feral statistics when conversion and encounter conditions
-      warrant them. Escape and casualties follow actual containment failures, not a page
-      title.</p><h3>Existing combat profile</h3> <p>STR 5, AGI 4, WIT 2, EMP 1; Armor Rating 2 (mutated
-      somatic tissue — ballistic weapons inflict half damage unless targeting the brainstem). <strong>Blood
-      Frenzy</strong> grants +2 dice on close-combat attacks against wounded targets. Direct sunlight or
-      focused ultraviolet light inflicts 2 unsoakable Physical Damage per round. Fear Rating 2.</p>
+      <h3>At the table</h3><p><strong>Look.</strong> Use the intake appearance before treatment;
+      worsening cold, dilation and light sensitivity develop afterward.</p><p><strong>Wants.</strong> At
+      first, survive his cancer. After treatment, obtain help and resist a growing hunger while lucidity
+      lasts.</p><p><strong>Knows.</strong> He knows who promised a treatment and the people who
+      administered it. He is not a lore lecturer.</p><blockquote><p>“The pain stopped. I thought that
+      meant it worked.”</p></blockquote><h3>When the cell changes the situation</h3><p>An early cell can
+      prevent the injection. Later, sound isolation can preserve him and protect staff; no established
+      cure for his new state is promised.</p><p>Use the existing feral statistics when conversion and
+      encounter conditions warrant them. Escape and casualties follow actual containment failures, not a
+      page title.</p><h3>Existing combat profile</h3> <p>STR 5, AGI 4, WIT 2, EMP 1; Armor Rating 2
+      (mutated somatic tissue — ballistic weapons inflict half damage unless targeting the brainstem).
+      <strong>Blood Frenzy</strong> grants +2 dice on close-combat attacks against wounded targets.
+      Direct sunlight or focused ultraviolet light inflicts 2 unsoakable Physical Damage per round. Fear
+      Rating 2.</p><h3>Current-session ward battle</h3><p>Newly transformed after one phial; hide in the
+      flickering Ward Three corridor after clawing Graf and killing an intern. Use this existing combat
+      profile. When seriously hurt or denied access to victims, attempt the visible room 3.14 window
+      route into the night, using normal actions and allowing interception. Actual lethal damage kills
+      him. Ordinary fluorescent light is not focused UV. Do not add regeneration or automatic infection
+      from claws.</p>
     attributes:
       str: 5
       agi: 4

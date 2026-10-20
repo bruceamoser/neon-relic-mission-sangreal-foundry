@@ -2251,15 +2251,20 @@
     - sangreal-l4
     knownBySlugs:
     - sangreal-npc-graf
-    content: <p><strong>Patient:</strong> Kurt Hausmann, file 09-H, room 3.14.<br><strong>Supplier:</strong> Monsignor
-      Matteo Corvi, who brought a closed metal case to Sonnenberg.<br><strong>Funding reference:</strong> the Hausmann
-      arrangement described in the supplied Geneva escrow papers; clinic sponsorship references the Vaduz trust.<br><strong>Procedure:</strong>
-      one phial of blood administered intravenously at [actual date and time].<br><strong>Preparation label:</strong>
-      PROGENITOR VECTOR — BATCH XII-1/12.<br><strong>Custody:</strong> Corvi released one vessel for this procedure
-      and retained the other eleven.<br><strong>Clinical material retained:</strong> patient samples and residue
-      from the used vessel and apparatus; no second intact phial retained.<br><strong>Outcome observed to date:</strong>
-      [only the findings that have occurred].<br><strong>Supplier’s last known position:</strong> departed with
-      case; reception holds his forwarding contact.<br>Elizabeth Graf — [signature, date and time].</p>
+    content: >-
+      <p><strong>Patient:</strong> Kurt Hausmann, file 09-H, room 3.14.<br><strong>Supplier:</strong>
+      Monsignor Matteo Corvi, who brought a closed metal case to Sonnenberg.<br><strong>Funding
+      reference:</strong> the Hausmann arrangement described in the supplied Geneva escrow papers;
+      clinic sponsorship references the Vaduz trust.<br><strong>Procedure:</strong> one phial of blood
+      administered intravenously at [actual date and time].<br><strong>Preparation label:</strong>
+      PROGENITOR VECTOR — BATCH XII-1/12.<br><strong>Custody:</strong> Corvi released one vessel for
+      this procedure and retained the other eleven.<br><strong>Clinical material retained:</strong>
+      patient samples and residue from the used vessel and apparatus; no second intact phial
+      retained.<br><strong>Outcome observed to date:</strong> initial rapid remission of cancer
+      findings, followed by falling temperature, light injury, blood hunger and the witnessed ward
+      attack; [record actual injuries and Hausmann’s final disposition].<br><strong>Supplier’s last
+      known position:</strong> departed with case; reception holds his forwarding contact.<br>Elizabeth
+      Graf — [signature, date and time].</p>
     hqFallback: 0
     daNotes: <p>Release during the named Sonnenberg scene after the source authenticates this record. Fill actual
       dates, times, witness names and observed findings before sharing. This readable document is independent of
@@ -2403,3 +2408,114 @@
       conceal her name or accusation accompanies it. Covert allegiance stays in DA notes until later earned evidence;
       do not cue guilt while she speaks. Preserve any already played facts rather than silently inventing a contradictory
       call.</p>
+
+- _id: sangreal-session-i57
+  name: I57 — Petra Brief — Hausmann Background
+  type: informationCard
+  system:
+    cardId: I-57
+    cardType: supportingIntel
+    foundAtSlugs:
+      - sangreal-l3
+    knownBySlugs:
+      - sangreal-npc-logistics-officer
+    content: >-
+      <p><strong>Prepared by Petra · compiled [date/time].</strong></p><p><strong>Identity:</strong>
+      Kurt Hausmann, the financier named in the Geneva escrow supplied by the field team. Public
+      business references corroborate his identity; they do not disclose his medical
+      file.</p><p><strong>Reason for the inquiry:</strong> the supplied bank statement identifies
+      him as the intended recipient of a privately funded experimental treatment. This is the bank
+      witness’s account.</p><p><strong>Clinic check:</strong> [Graf callback received / still
+      pending]. If received, Graf confirms Hausmann is her patient and asks to meet concerning
+      Corvi’s supplied preparation. The full diagnosis, preparation and outcome await her
+      account.</p><p><strong>Next action:</strong> ask Dr. Elizabeth Graf at Sonnenberg reception;
+      bring the Geneva papers. No further treatment is authorized by this inquiry.</p>
+    hqFallback: 0
+    daNotes: >-
+      <p>Release at the agreed Zurich pickup, or after an actual earlier callback. Fill actual dates
+      and outcomes. Keep the DA walkthrough and hidden loyalties private. This text handout requires
+      no illustrative photograph.</p>
+- _id: sangreal-session-i58
+  name: I58 — Zurich Pickup — Sealed Clinic Brief
+  type: informationCard
+  system:
+    cardId: I-58
+    cardType: supportingIntel
+    foundAtSlugs:
+      - sangreal-l3
+    knownBySlugs:
+      - sangreal-npc-logistics-officer
+    content: >-
+      <p><strong>For the named Covenant field party · from Petra’s desk.</strong><br>Compiled:
+      [date/time]. Collected: Zurich HB, [agreed meeting point/time].<br>Car office / driver:
+      [confirmed booking details]. Booking reference: [reference already supplied to the
+      party].</p><p><strong>Destination:</strong> Privatklinik Sonnenberg, wooded hillside outside
+      Zurich; main reception. Ask to speak with Dr. Elizabeth Graf about Monsignor Corvi and Kurt
+      Hausmann. Show identification and the supplied
+      introduction.</p><p><strong>Enclosures:</strong> I48 clinic contact/route, I57 background
+      summary, and I49 only if Graf actually returned the call. Pending requests: [actual
+      status].</p><p>The dispatcher received Petra’s fax, sealed this copy and gave it to the booked
+      driver. Confirm any discrepancy by calling Petra from the station telephone before leaving.
+      The driver can identify the clinic approach; clinical questions belong to Graf.</p>
+    hqFallback: 0
+    daNotes: >-
+      <p>Release at the agreed Zurich pickup, or after an actual earlier callback. Fill actual dates
+      and outcomes. Keep the DA walkthrough and hidden loyalties private. This text handout requires
+      no illustrative photograph.</p>
+- _id: sangreal-session-i59
+  name: I59 — Ward Three — Incident Record
+  type: informationCard
+  system:
+    cardId: I-59
+    cardType: supportingIntel
+    foundAtSlugs:
+      - sangreal-l4
+    knownBySlugs:
+      - sangreal-npc-graf
+    content: >-
+      <p><strong>Sonnenberg · Ward Three · [actual date/time].</strong><br>Compiled by:
+      [investigator / clinic witness].</p><p>Reception’s red alert reported a disturbance on Graf’s
+      floor. Responders found Dr. Elizabeth Graf alive with deep claw wounds and a medical intern
+      dead in the corridor. The lights were flickering. The changed patient was identified as Kurt
+      Hausmann, file 09-H.</p><p><strong>Observed during the encounter:</strong> [actual movements,
+      attacks, injuries and response to weapons/light].<br><strong>Disposition:</strong> [killed /
+      escaped through room 3.14 exterior window toward the wooded slope /
+      contained].<br><strong>Witnesses and care:</strong> [survivors, treatment, responsible
+      clinician].</p><p>Separate direct observations from statements by others. A wound alone does
+      not establish transmission. Record any escaped patient’s last seen location and report it to
+      Petra.</p>
+    hqFallback: 0
+    daNotes: >-
+      <p>Release after the matching Sonnenberg event and witness debrief. Fill actual dates and
+      outcomes. Keep the DA walkthrough and hidden loyalties private. This text handout requires no
+      illustrative photograph.</p>
+- _id: sangreal-session-i60
+  name: I60 — Sonnenberg Debrief — Blood and the Remaining Case
+  type: informationCard
+  system:
+    cardId: I-60
+    cardType: supportingIntel
+    foundAtSlugs:
+      - sangreal-l4
+    knownBySlugs:
+      - sangreal-npc-graf
+    content: >-
+      <p><strong>Clinical source:</strong> Dr. Elizabeth Graf’s account and signed I51. Corvi opened
+      a case containing twelve sealed phials of blood. Graf administered one to Hausmann. His cancer
+      findings initially receded, then abnormal cold, light sensitivity, hunger and violent
+      transformation followed. Corvi retained eleven intact phials at Graf’s last witnessed
+      count.</p><p><strong>Interpretation voiced by Sister Claudia Vane:</strong> “Sang real — royal
+      blood. The blood of Christ.” She connected Hausmann’s transformation to the Eucharistic words
+      “Take and drink,” and concluded that Christ carried vampiric blood. This is her theological
+      interpretation of the evidence; Graf can establish the treatment outcome, not ancient
+      provenance.</p><p><strong>Pursuit:</strong> reception’s I50 records Corvi leaving with the
+      case for Zurich HB; I52 supplies the Lingotto freight-office contact in Turin, extension 418.
+      Confirm the current meeting through the callback.</p><p><strong>Proposed objective:</strong>
+      recover the remaining case unopened and return it to Vatican custody through the established
+      authority. Preserve the clinical records and agree accountable handling. Last witnessed
+      inventory is eleven, pending actual recovery and inspection.</p>
+    hqFallback: 0
+    daNotes: >-
+      <p>Release after the matching Sonnenberg event and witness debrief. Fill actual dates and
+      outcomes. Keep the DA walkthrough and hidden loyalties private. This text handout requires no
+      illustrative photograph.</p>

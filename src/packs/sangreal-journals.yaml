@@ -8,8 +8,14 @@
       type: text
       text:
         content: >-
-          <h2>Mission: Sangreal — Current Session</h2><p>DA-only. The investigators have left Rome and boarded
-          the train toward Geneva. They have evidence of Corvi’s route and suspect UBS. Open
+          <h2>Current session — Geneva completed</h2><p>The party is boarding Petra’s booked train to Zurich
+          after the bank investigation. Open
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-journals.JournalEntry.1jFv8DVo6EW0AEkG]{DA
+          Walkthrough}, first-page current-state note, then the Sonnenberg chapter. Petra’s sealed station
+          packet precedes the clinic alarm, young-vampire battle, Graf’s blood disclosure and Claudia’s
+          breakdown. Keep this journal private.</p><h3>Earlier session reference</h3><h2>Mission: Sangreal —
+          Current Session</h2><p>DA-only. The investigators have left Rome and boarded the train toward
+          Geneva. They have evidence of Corvi’s route and suspect UBS. Open
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-journals.JournalEntry.1jFv8DVo6EW0AEkG]{SANGREAL-87-091
           — DA Walkthrough}, begin with <em>Start Here — Aboard the Train to Geneva</em>, then run <em>The
           train out of Rome</em> in the Corvi’s Rooms and Geneva chapter. Preserve the live day, shifts,
@@ -375,67 +381,79 @@
       type: text
       text:
         content: >-
-          <h2>Start Here — Aboard the Train to Geneva</h2><p><strong>Resume the actual campaign here.</strong>
-          The investigators have left Rome and boarded the train. They have gathered evidence pointing to
-          Geneva and suspect UBS. Preserve their exact discoveries, the current date and filled shifts, and
-          Claudia’s actual standing with the party. Do not replay Rome or announce that they already know
-          Hausmann, the box number, or the clinic unless they earned those facts.</p><h3>Five-minute
-          preparation</h3><ol><li>Put the players’ existing evidence in front of you. Mark which of GENEVA,
-          UBS, HAUSMANN and 4409-C they have actually established. Their present Geneva/UBS lead is sufficient
-          to begin.</li><li>Open <strong>Corvi’s Rooms and Geneva — Follow the Bargain</strong> and jump to
-          <strong>The train out of Rome</strong>. The earlier apartment material is reference
-          only.</li><li>Use the current-session state: Hausmann has already received one phial before the
-          Geneva inquiry; conversion will have completed by clinic arrival. Corvi has left Sonnenberg with
-          eleven. The players learn those facts through sources, not a DA announcement. Warnings prevent
-          further use and improve patient care; the Church did not know of Corvi’s experiment.</li><li>Prepare
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.lOsCniEBTy2c974w]{I06 — The Escrow
-          Transfer Slip} and its separate bank statement, Mercier’s answers, and Petra’s Sonnenberg briefing.
-          These are the essential scene materials.
+          <h2>Resume Here — Geneva to Sonnenberg</h2><p><strong>Current table state, 20 October session
+          preparation:</strong> the investigators have completed the Geneva bank visit, obtained its clues,
+          spoken to Petra and asked about Sonnenberg and Hausmann. They are boarding the train Petra
+          arranged to Zurich. They still believe they are pursuing the Holy Grail. Open <strong>Sonnenberg —
+          A Patient Before a Monster</strong>, Scene 1. Do not replay Geneva or reveal the blood in Petra’s
+          briefing.</p><p>Prepare the driver’s sealed packet (I48/I49 as actually obtained, I57/I58), BM04,
+          the Hausmann actor and the alarm, corridor and glass cues. Sequence: station envelope → clinic
+          reception asks them to wait → red alert → wounded Graf, dead intern and young-vampire fight →
+          Graf’s treatment account → Claudia’s convincing breakdown → Corvi’s Lingotto lead and
+          sealed-recovery objective. Preserve the actual injuries, escape or death and all earlier
+          successful precautions.</p><h3>Earlier-session reference</h3><h2>Start Here — Aboard the Train to
+          Geneva</h2><p><strong>Resume the actual campaign here.</strong> The investigators have left Rome
+          and boarded the train. They have gathered evidence pointing to Geneva and suspect UBS. Preserve
+          their exact discoveries, the current date and filled shifts, and Claudia’s actual standing with
+          the party. Do not replay Rome or announce that they already know Hausmann, the box number, or the
+          clinic unless they earned those facts.</p><h3>Five-minute preparation</h3><ol><li>Put the players’
+          existing evidence in front of you. Mark which of GENEVA, UBS, HAUSMANN and 4409-C they have
+          actually established. Their present Geneva/UBS lead is sufficient to begin.</li><li>Open
+          <strong>Corvi’s Rooms and Geneva — Follow the Bargain</strong> and jump to <strong>The train out
+          of Rome</strong>. The earlier apartment material is reference only.</li><li>Use the
+          current-session state: Hausmann has already received one phial before the Geneva inquiry;
+          conversion will have completed by clinic arrival. Corvi has left Sonnenberg with eleven. The
+          players learn those facts through sources, not a DA announcement. Warnings prevent further use and
+          improve patient care; the Church did not know of Corvi’s experiment.</li><li>Prepare
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.lOsCniEBTy2c974w]{I06 — The
+          Escrow Transfer Slip} and its separate bank statement, Mercier’s answers, and Petra’s Sonnenberg
+          briefing. These are the essential scene materials.
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.6RWEHDPMeZJFj86J]{I23 — Night
           Deposit}–@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.SI5TGjifT8qC6Epu]{I26 —
-          Corvi at Cornavin} and F07 are optional corroboration. Do not hide a required name in an unreadable
-          picture.</li><li>Choose the cell’s next practical contact opportunity: a station telephone during a
-          stop, an already established secure radio, or a telephone on arrival at Cornavin. Give a clear
-          callback arrangement. No modern mobile-phone access is assumed.</li></ol><h3>The session in six
-          beats</h3><table><thead><tr><th>Beat</th><th>Players do</th><th>They leave
-          with</th></tr></thead><tbody><tr><td>1. Train from Rome</td><td>Compare the Rome evidence, hear
-          Claudia’s volunteered telephone inquiry, and ask Petra to verify the Geneva contact.</td><td>A UBS
-          branch appointment or a precise desk to approach, and a way to ask HQ for help.</td></tr><tr><td>2.
-          Geneva reception</td><td>Give Corvi’s name and a concrete reason for the inquiry; ask for the clerk
-          who handled his visit.</td><td>Jean-Paul Mercier and a private conversation. A key or account number
-          helps identify a file; it is not access authority.</td></tr><tr><td>3. Mercier’s
-          problem</td><td>Explain their purpose and offer a verifiable safeguard for his testimony, or use the
-          trust’s formal request.</td><td>The escrow copy, the name Kurt Hausmann, and Sonnenberg
-          Privatklinik. No essential clue depends on winning one roll.</td></tr><tr><td>4. Follow the
-          transaction</td><td>Ask who supplied the specimen and where he went.</td><td>Mercier’s witnessed
-          booking account, followed by Graf’s returned call confirming that Corvi attended, treatment happened
-          and he departed. Give
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.jCO2OHblFeteicpl]{I49 — Petra Fax —
-          Graf’s Returned Call} only after that call succeeds.</td></tr><tr><td>5. Petra’s
-          briefing</td><td>Request clinic background, a contact, transport and appropriate support.</td><td>A
-          location, approach, Dr. Elizabeth Graf’s name, a medical-supplier introduction, and the limits of HQ
-          knowledge.</td></tr><tr><td>6. Departure</td><td>Choose the purpose of their clinic visit and
-          preserve the bank evidence.</td><td>Tickets from Geneva to Zurich, onward road transport to
-          Sonnenberg, and a specific next conversation.</td></tr></tbody></table><h3>The answers the DA must
-          keep straight</h3><p><strong>Hausmann:</strong> the paying patient at Sonnenberg, not the bank clerk
-          and not a physician. <strong>Corvi:</strong> the supplier who travels there with the case; the bank
-          proves his intended destination, while Graf’s actual callback or clinic records establish his
-          attendance and departure. A pending callback is still unconfirmed knowledge for the players.
-          <strong>Mercier:</strong> handled the paperwork, saw the closed case and arranged Corvi’s onward
-          journey; he never examined the specimen. <strong>Petra:</strong> can research a public clinic and
-          arrange contacts; she cannot remotely reveal an unrecovered medical chart.</p><p><strong>The bank
-          bargain:</strong> CHF 500,000 into an ecclesiastical escrow account in Vaduz, handled through UBS,
-          for one of twelve specimens and an experimental oncology treatment. The bank retains the documents.
-          Corvi leaves with the physical case. A file reference is not a statement that the Sangreal remains
-          in a bank vault.</p><h3>Image discipline for this
+          Corvi at Cornavin} and F07 are optional corroboration. Do not hide a required name in an
+          unreadable picture.</li><li>Choose the cell’s next practical contact opportunity: a station
+          telephone during a stop, an already established secure radio, or a telephone on arrival at
+          Cornavin. Give a clear callback arrangement. No modern mobile-phone access is
+          assumed.</li></ol><h3>The session in six beats</h3><table><thead><tr><th>Beat</th><th>Players
+          do</th><th>They leave with</th></tr></thead><tbody><tr><td>1. Train from Rome</td><td>Compare the
+          Rome evidence, hear Claudia’s volunteered telephone inquiry, and ask Petra to verify the Geneva
+          contact.</td><td>A UBS branch appointment or a precise desk to approach, and a way to ask HQ for
+          help.</td></tr><tr><td>2. Geneva reception</td><td>Give Corvi’s name and a concrete reason for the
+          inquiry; ask for the clerk who handled his visit.</td><td>Jean-Paul Mercier and a private
+          conversation. A key or account number helps identify a file; it is not access
+          authority.</td></tr><tr><td>3. Mercier’s problem</td><td>Explain their purpose and offer a
+          verifiable safeguard for his testimony, or use the trust’s formal request.</td><td>The escrow
+          copy, the name Kurt Hausmann, and Sonnenberg Privatklinik. No essential clue depends on winning
+          one roll.</td></tr><tr><td>4. Follow the transaction</td><td>Ask who supplied the specimen and
+          where he went.</td><td>Mercier’s witnessed booking account, followed by Graf’s returned call
+          confirming that Corvi attended, treatment happened and he departed. Give
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.jCO2OHblFeteicpl]{I49 — Petra Fax
+          — Graf’s Returned Call} only after that call succeeds.</td></tr><tr><td>5. Petra’s
+          briefing</td><td>Request clinic background, a contact, transport and appropriate
+          support.</td><td>A location, approach, Dr. Elizabeth Graf’s name, a medical-supplier introduction,
+          and the limits of HQ knowledge.</td></tr><tr><td>6. Departure</td><td>Choose the purpose of their
+          clinic visit and preserve the bank evidence.</td><td>Tickets from Geneva to Zurich, onward road
+          transport to Sonnenberg, and a specific next conversation.</td></tr></tbody></table><h3>The
+          answers the DA must keep straight</h3><p><strong>Hausmann:</strong> the paying patient at
+          Sonnenberg, not the bank clerk and not a physician. <strong>Corvi:</strong> the supplier who
+          travels there with the case; the bank proves his intended destination, while Graf’s actual
+          callback or clinic records establish his attendance and departure. A pending callback is still
+          unconfirmed knowledge for the players. <strong>Mercier:</strong> handled the paperwork, saw the
+          closed case and arranged Corvi’s onward journey; he never examined the specimen.
+          <strong>Petra:</strong> can research a public clinic and arrange contacts; she cannot remotely
+          reveal an unrecovered medical chart.</p><p><strong>The bank bargain:</strong> CHF 500,000 into an
+          ecclesiastical escrow account in Vaduz, handled through UBS, for one of twelve specimens and an
+          experimental oncology treatment. The bank retains the documents. Corvi leaves with the physical
+          case. A file reference is not a statement that the Sangreal remains in a bank vault.</p><h3>Image
+          discipline for this
           session</h3><p>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.lOsCniEBTy2c974w]{I06
           — The Escrow Transfer Slip} now visibly names Hausmann, Corvi and Sonnenberg alongside the escrow
           terms; the bank statement authenticates and explains them.
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.TqsNZiq5wWnCyrO1]{I24 — Bank Staff
-          Record} names Jean-Paul Mercier and his Geneva night-desk role.
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.TqsNZiq5wWnCyrO1]{I24 — Bank
+          Staff Record} names Jean-Paul Mercier and his Geneva night-desk role.
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.NvsqxXBP29kM6SVV]{I25 — Geneva
-          Escrow Request Register} shows the unaltered escrow request register with Hausmann, the trust office
-          and Corvi. Claudia’s preliminary telephone inquiry is openly explained in
+          Escrow Request Register} shows the unaltered escrow request register with Hausmann, the trust
+          office and Corvi. Claudia’s preliminary telephone inquiry is openly explained in
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.AHvJ7rboPnaNlsnN]{I56 — Claudia’s
           Train Brief — Preliminary UBS Inquiry} on the train.
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.SI5TGjifT8qC6Epu]{I26 — Corvi at
@@ -444,53 +462,54 @@
           time.</p><p>Share only earned player-facing card content or read-aloud passages. Keep this
           walkthrough and DA notes private.
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.6RWEHDPMeZJFj86J]{I23 — Night
-          Deposit} retains its 22:41 surveillance timestamp and a matching wall clock, with no fixed calendar
-          date. Supply the date from the bank’s authenticated record using the established campaign
+          Deposit} retains its 22:41 surveillance timestamp and a matching wall clock, with no fixed
+          calendar date. Supply the date from the bank’s authenticated record using the established campaign
           chronology. Nobody must solve a lettering defect to continue.</p><h3>Pacing and the stopping
           point</h3><p>Allow roughly 10–15 minutes for the train, 10 for the approach, 35–50 for Mercier and
           the records, and 15–25 for calls and departure. These are table-time guides. In-world time follows
           actual travel and substantial delays, not a separate shift for every question. Finish this segment
           as the Geneva–Zurich train leaves; the Sonnenberg ward encounter belongs to the next
-          chapter.</p><h3>Current-session direction</h3><p>Arrival at Sonnenberg is after the injection, with
-          the twenty-four-hour conversion complete. The party still expects the Grail; Graf reveals twelve
-          vessels of blood, Hausmann demonstrates the human consequence, and an authenticated authority call
-          establishes organized vampire interests. The Church did not know Corvi’s treatment plan. Claudia
-          remains helpful and trusted; her volunteered Rome telephone inquiry is not a clue to her covert
-          allegiance.</p><h3>Written clues after useful calls</h3><p>Whenever a call yields a useful fact,
-          contact, promise or lead, give a persistent clue card as a dated call summary or fax. Name the
-          speaker, source, question, actual answer, uncertainty and next action. Use an established receiving
-          desk and update the same card after later callbacks; retain the prior dated report when status
-          changes. Ordinary appointment and care arrangements deserve cards too. Do not auto-reveal the entire
-          packet or put DA secrets in player text.</p><p>Campaign packet by release scene:
+          chapter.</p><h3>Current-session direction</h3><p>Arrival at Sonnenberg is after the injection,
+          with the twenty-four-hour conversion complete. The party still expects the Grail; Graf reveals
+          twelve vessels of blood, Hausmann demonstrates the human consequence, and an authenticated
+          authority call establishes organized vampire interests. The Church did not know Corvi’s treatment
+          plan. Claudia remains helpful and trusted; her volunteered Rome telephone inquiry is not a clue to
+          her covert allegiance.</p><h3>Written clues after useful calls</h3><p>Whenever a call yields a
+          useful fact, contact, promise or lead, give a persistent clue card as a dated call summary or fax.
+          Name the speaker, source, question, actual answer, uncertainty and next action. Use an established
+          receiving desk and update the same card after later callbacks; retain the prior dated report when
+          status changes. Ordinary appointment and care arrangements deserve cards too. Do not auto-reveal
+          the entire packet or put DA secrets in player text.</p><p>Campaign packet by release scene:
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.K7J4ZglpZYcLZtlz]{I46 — Corvi at
           Roma Termini},
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.NYALXJz5OsFM9NiK]{I47 — Petra Fax —
-          UBS Interview Contact},
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.jkM2vcnrfoWRsfMI]{I48 — Petra Fax —
-          Sonnenberg Contact and Route},
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.jCO2OHblFeteicpl]{I49 — Petra Fax —
-          Graf’s Returned Call},
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.S4tdujDWKjlTTBAJ]{I50 — Sonnenberg
-          reception movement extract},
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.NYALXJz5OsFM9NiK]{I47 — Petra Fax
+          — UBS Interview Contact},
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.jkM2vcnrfoWRsfMI]{I48 — Petra Fax
+          — Sonnenberg Contact and Route},
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.jCO2OHblFeteicpl]{I49 — Petra Fax
+          — Graf’s Returned Call},
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.S4tdujDWKjlTTBAJ]{I50 —
+          Sonnenberg reception movement extract},
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.8SS0DFQjCYTpMvCF]{I51 — Graf’s
           treatment and custody statement},
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.hnuSDQF9W6V31IPm]{I52 — Telephone
           message retained at reception},
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.tBZisHd3TtN3q961]{I53 — Petra Fax —
-          Lingotto Callback},
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.SQSfCR6mxHrJY1Kt]{I54 — Petra Fax —
-          Clinic Handover and Rail Plan},
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.tBZisHd3TtN3q961]{I53 — Petra Fax
+          — Lingotto Callback},
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.SQSfCR6mxHrJY1Kt]{I54 — Petra Fax
+          — Clinic Handover and Rail Plan},
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.2Ai06nmzdOoBVUdV]{I55 — Authority
           Call — The Other Vampires},
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.AHvJ7rboPnaNlsnN]{I56 — Claudia’s
           Train Brief — Preliminary UBS Inquiry}. For this train/Geneva segment, use
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.K7J4ZglpZYcLZtlz]{I46 — Corvi at
-          Roma Termini}–@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.jCO2OHblFeteicpl]{I49
-          — Petra Fax — Graf’s Returned Call} and
+          Roma
+          Termini}–@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.jCO2OHblFeteicpl]{I49 —
+          Petra Fax — Graf’s Returned Call} and
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.AHvJ7rboPnaNlsnN]{I56 — Claudia’s
           Train Brief — Preliminary UBS Inquiry} alongside the existing bank cards.
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.S4tdujDWKjlTTBAJ]{I50 — Sonnenberg
-          reception movement
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.S4tdujDWKjlTTBAJ]{I50 —
+          Sonnenberg reception movement
           extract}–@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.2Ai06nmzdOoBVUdV]{I55 —
           Authority Call — The Other Vampires} belong to the later clinic/departure scenes; do not send them
           in the Geneva fax packet.</p>
@@ -1217,57 +1236,60 @@
       type: text
       text:
         content: >-
-          <h2>Sonnenberg — A Patient Before a Monster</h2> <p><strong>Start aboard the train from Geneva. End
-          this page when the cell knows what happened at the clinic and has Corvi’s onward contact.</strong>
-          The next page handles patient protection, the return to Zurich station and boarding toward Turin.
-          Sonnenberg is the fictional private clinic on a wooded hillside outside Zurich. The route is
-          <strong>Geneva → Zurich HB → car to Sonnenberg → car back to Zurich HB → rail toward Turin</strong>.
-          There is no separate Sonnenberg railway station in this mission.</p> <h3>DA preparation — this
-          session begins after the injection</h3> <p><strong>Use this campaign state:</strong> Corvi has
-          already delivered one phial of blood to Graf; she has injected Hausmann; Corvi has left with the
-          other eleven after seeing the deterioration. Set the administration before the cell’s first current
-          clinic call, with at least twenty-four elapsed hours completed by their arrival at Sonnenberg. Enter
-          the actual calendar date/time in the chart and use it consistently. Conversion takes twenty-four
-          elapsed hours, equivalent to four six-hour operational shifts. Do not impose extra delays on the
-          players to manufacture this starting state.</p> <p>The party still believes it is pursuing the Holy
-          Grail. On the train and at reception, say <em>case, stolen object, supplied preparation</em>. The
-          receipt’s “one of twelve” is an unanswered question. Reveal the contents through Graf’s eyewitness
-          account, then the consequence through Hausmann, then organized vampire involvement through an
-          authenticated Church response. Do not start with an out-of-character lecture that the Grail is
+          <h2>Sonnenberg — A Patient Before a Monster</h2> <p><strong>Start aboard the train from Geneva.
+          End this page when the cell knows what happened at the clinic and has Corvi’s onward
+          contact.</strong> The next page handles patient protection, the return to Zurich station and
+          boarding toward Turin. Sonnenberg is the fictional private clinic on a wooded hillside outside
+          Zurich. The route is <strong>Geneva → Zurich HB → car to Sonnenberg → car back to Zurich HB → rail
+          toward Turin</strong>. There is no separate Sonnenberg railway station in this mission.</p> <h3>DA
+          preparation — this session begins after the injection</h3> <p><strong>Use this campaign
+          state:</strong> Corvi has already delivered one phial of blood to Graf; she has injected Hausmann;
+          Corvi has left with the other eleven after seeing the deterioration. Set the administration before
+          the cell’s first current clinic call, with at least twenty-four elapsed hours completed by their
+          arrival at Sonnenberg. Enter the actual calendar date/time in the chart and use it consistently.
+          Conversion takes twenty-four elapsed hours, equivalent to four six-hour operational shifts. Do not
+          impose extra delays on the players to manufacture this starting state.</p> <p>The party still
+          believes it is pursuing the Holy Grail. On the train and at reception, say <em>case, stolen
+          object, supplied preparation</em>. The receipt’s “one of twelve” is an unanswered question. Run
+          the red alert and Hausmann encounter first. Only once the wing is safe does Graf reveal what was
+          in the case; Claudia then supplies the devastating sacred interpretation. The authenticated
+          authority call follows afterward. Do not start with an out-of-character lecture that the Grail is
           blood.</p> <p>A warning from Geneva now stops further use and improves patient precautions; it
           cannot undo the completed injection. Any already established patient protection remains effective.
-          Hausmann is changed, but escape, casualties and a violent confrontation are not inevitable. If
-          previous play actually established a prevented injection, reconcile that with the table openly
-          before using this revised setup; do not secretly reverse a successful action.</p> <p><strong>Prepare
-          three records.</strong> S1 is the reception movement extract; S2 is Graf’s signed treatment account;
-          S3 is the onward telephone message. Their complete player-facing text appears below. Fill the
-          bracketed dates and witness names from the actual campaign before sharing. These are separate
-          readable records, not writing hidden in a photograph. Put
+          The default encounter is a violent breach: Hausmann has clawed Graf and killed an intern. If
+          earlier play actually secured the ward, preserve that success and adapt the emergency rather than
+          reversing it. If previous play actually established a prevented injection, reconcile that with the
+          table openly before using this revised setup; do not secretly reverse a successful action.</p>
+          <p><strong>Prepare three records.</strong> S1 is the reception movement extract; S2 is Graf’s
+          signed treatment account; S3 is the onward telephone message. Their complete player-facing text
+          appears below. Fill the bracketed dates and witness names from the actual campaign before sharing.
+          These are separate readable records, not writing hidden in a photograph. Put
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.p51PQ2RP2raSDBHp]{I27 — Intake
           Photograph, 09-H},
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.VMoT17MWZ543rWHe]{I29 — The
           Injection Log} and
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.lOsCniEBTy2c974w]{I06 — The Escrow
-          Transfer Slip} beside S2. Keep
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.lOsCniEBTy2c974w]{I06 — The
+          Escrow Transfer Slip} beside S2. Keep
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.SilYzv6luOt5X6Am]{I07 — Patient
-          File 09-H}–@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.D18a1YRCEQu27KHw]{I09 —
-          Histopathology Log: Marrow Graft},
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.1dPSK2h5z6DX5Eab]{I28 — Photophobia
-          Test 02:40}, @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.QEO98GDqJtZlL08l]{I30
-          — Ward 3, Corridor Camera} and
+          File 09-H}–@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.D18a1YRCEQu27KHw]{I09
+          — Histopathology Log: Marrow Graft},
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.1dPSK2h5z6DX5Eab]{I28 —
+          Photophobia Test 02:40},
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.QEO98GDqJtZlL08l]{I30 — Ward 3,
+          Corridor Camera} and
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.F6S9nFRmRvOKLqLf]{I32 — Daylight
-          Test: Combustion} hidden until their sources are obtained; show a breach or daylight test only if it
-          occurred.</p> <p><strong>The causal chain:</strong> Hausmann paid for a speculative treatment →
+          Test: Combustion} hidden until their sources are obtained; show a breach or daylight test only if
+          it occurred.</p> <p><strong>The causal chain:</strong> Hausmann paid for a speculative treatment →
           Corvi delivered the preparation to Graf → Graf administered one phial → Hausmann deteriorated →
           Corvi sought protection through his Turin broker and took the remaining case → the clinic retained
-          his forwarding contact because Graf needed to report the patient’s condition. Players can establish
-          every arrow through a witness or document.</p> <p><strong>Persistent handouts:</strong>
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.jkM2vcnrfoWRsfMI]{I48 — Petra Fax —
-          Sonnenberg Contact and Route},
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.jCO2OHblFeteicpl]{I49 — Petra Fax —
-          Graf’s Returned Call},
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.S4tdujDWKjlTTBAJ]{I50 — Sonnenberg
-          reception movement extract},
+          his forwarding contact because Graf needed to report the patient’s condition. Players can
+          establish every arrow through a witness or document.</p> <p><strong>Persistent handouts:</strong>
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.jkM2vcnrfoWRsfMI]{I48 — Petra Fax
+          — Sonnenberg Contact and Route},
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.jCO2OHblFeteicpl]{I49 — Petra Fax
+          — Graf’s Returned Call},
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.S4tdujDWKjlTTBAJ]{I50 —
+          Sonnenberg reception movement extract},
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.8SS0DFQjCYTpMvCF]{I51 — Graf’s
           treatment and custody statement},
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.hnuSDQF9W6V31IPm]{I52 — Telephone
@@ -1281,24 +1303,25 @@
           src="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-rail-corridor.mp3"></audio> <a
           href="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-rail-corridor.mp3">Open sound</a>.
           Keep beds quiet; stings only when the described event occurs.</p> <blockquote><p>The bank envelope
-          rides between you on the compartment table. Its receipt names the patient and the clinic. Beyond the
-          window, the lake gives way to hills. Zurich is the rail connection; someone still has to get you up
-          the clinic road and through its front door.</p></blockquote> <p>Let the players compare the escrow
-          and Graf’s actual reply. State their immediate aim: <strong>meet Graf, establish whether Corvi
-          delivered the stolen material, and determine who or what needs protection.</strong> Do not recap
-          Rome unless they ask. Allow roughly four hours for this fictional rail leg and under an hour for the
-          road connection, honoring any timetable already used in Geneva.</p> <p>Petra’s itinerary names the
-          clinic, the Zurich station pickup and the agreed callback point. On arrival, the driver gives the
-          booking reference Petra supplied; the cell can verify it through her desk. If no car was arranged,
-          the station taxi rank can take them to the clinic’s public address. An absent introduction
-          complicates reception, not the geography.</p> <table><thead><tr><th>Request to Petra</th><th>Useful
-          answer or action</th><th>Limit</th></tr></thead><tbody> <tr><td>“Confirm the appointment and prevent
-          any further treatment.”</td><td>She calls the public switchboard and relays the named staff member’s
-          reply at Zurich station or the clinic desk. Graf confirms the injection already happened, stops any
-          repeat administration and records the safety warning.</td><td>No automatic telephone aboard the
-          train. Use an established radio or the agreed stop/arrival telephone.</td></tr> <tr><td>“What can we
-          bring?”</td><td>Gloves, eye protection, sealed evidence bags and first-aid supplies from available
-          stores; a car that can remain available for witnesses. If the cell already has
+          rides between you on the compartment table. Its receipt names the patient and the clinic. Beyond
+          the window, the lake gives way to hills. Zurich is the rail connection; someone still has to get
+          you up the clinic road and through its front door.</p></blockquote> <p>Let the players compare the
+          escrow and Graf’s actual reply. State their immediate aim: <strong>meet Graf, establish whether
+          Corvi delivered the stolen material, and determine who or what needs protection.</strong> Do not
+          recap Rome unless they ask. Allow roughly four hours for this fictional rail leg and under an hour
+          for the road connection, honoring any timetable already used in Geneva.</p> <p>Petra’s itinerary
+          names the clinic, the Zurich station pickup and the agreed callback point. On arrival, the driver
+          gives the booking reference Petra supplied; the cell can verify it through her desk. If no car was
+          arranged, the station taxi rank can take them to the clinic’s public address. An absent
+          introduction complicates reception, not the geography.</p> <table><thead><tr><th>Request to
+          Petra</th><th>Useful answer or action</th><th>Limit</th></tr></thead><tbody> <tr><td>“Confirm the
+          appointment and prevent any further treatment.”</td><td>She calls the public switchboard and
+          relays the named staff member’s reply at Zurich station or the clinic desk. Graf confirms the
+          injection already happened, stops any repeat administration and records the safety
+          warning.</td><td>No automatic telephone aboard the train. Use an established radio or the agreed
+          stop/arrival telephone.</td></tr> <tr><td>“What can we bring?”</td><td>Gloves, eye protection,
+          sealed evidence bags and first-aid supplies from available stores; a car that can remain available
+          for witnesses. If the cell already has
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.9NpgA6XbC6AKGYEY]{I16 — The
           Quiescence Formula (CT3)}, request the specified shielding and cold storage.</td><td>A normal
           medical cooler is not lead-antimony containment. Petra confirms what she can actually
@@ -1313,62 +1336,90 @@
           duplicates will reach Petra. Claudia helps translate, organize papers and obtain the appointment;
           play her as the useful liaison the party trusts. Her preliminary UBS call was openly explained on
           the Rome–Geneva train
-          (@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.AHvJ7rboPnaNlsnN]{I56 — Claudia’s
-          Train Brief — Preliminary UBS Inquiry}). A railway delay is only useful if it changes a decision;
-          the injection already happened before this journey.</p> <h3>Scene 2 — Reception: earn access with
-          the actual problem</h3><p><strong>DA assets:</strong>
+          (@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.AHvJ7rboPnaNlsnN]{I56 —
+          Claudia’s Train Brief — Preliminary UBS Inquiry}). A railway delay is only useful if it changes a
+          decision; the injection already happened before this journey.</p> <h4>Petra’s answer — a sealed
+          envelope at Zurich HB</h4><p><strong>Default delivery:</strong> Petra has arranged the train and
+          station car. While the party travels, her desk completes the inquiries, faxes a summary to the
+          contracted car office, and instructs its dispatcher to seal the printout for the named
+          investigators. The driver carries the envelope at Zurich HB and gives Petra’s previously agreed
+          booking reference; verify through the station telephone if needed. He knows the destination and
+          booking, not the medical contents. No mobile telephone or compartment fax is
+          assumed.</p><blockquote><p>The driver checks the name on his booking sheet, then offers a plain
+          envelope. “From the office that arranged your car. They said you were expecting answers. The
+          clinic is less than an hour from here.”</p></blockquote><p>Share I57 and I58 below, plus I48 and
+          I49 only if their inquiries actually returned. If the cell uses an established secure radio or
+          calls from a scheduled stop, Petra can read the same limited briefing earlier; the driver still
+          brings the durable copy. Date the packet at compilation and note any pending callback. It contains
+          no blood, vampire, ward-breach or private-chart
+          disclosure.</p><p><strong>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.30gAYHDHqRjKT8wR]{I57
+          — Petra Brief — Hausmann Background}:</strong> public business references identify Kurt Hausmann
+          as the financier named in the supplied escrow; bank testimony identifies him as the intended
+          treatment recipient. The clinic confirms his admission and Graf as the attending physician only
+          through its authorized callback. His prognosis and response remain private.
+          <strong>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.jfC3dEXDlEKob6xB]{I58 —
+          Zurich Pickup — Sealed Clinic Brief}:</strong> route, booking reference, Graf request, last
+          confirmed callback and collection instructions. These are source-attributed notes, not
+          intelligence obtained from unseen records.</p><h3>Scene 2 — Reception: earn access with the actual
+          problem</h3><p><strong>DA assets:</strong>
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.kr4nu0sVNfrcGAJq]{TM06 — Clinic
           approach} ·
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-sfx.Playlist.wxpL4Q4Ozfnvh71z]{Sound
           playlist}</p><p><strong>Exterior rain</strong> <audio controls preload="none"
           src="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-rain-street.mp3"></audio> <a
-          href="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-rain-street.mp3">Open sound</a>. Keep
-          beds quiet; stings only when the described event occurs.</p> <figure><img
+          href="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-rain-street.mp3">Open sound</a>.
+          Keep beds quiet; stings only when the described event occurs.</p> <figure><img
           src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-clinic-arrival.webp" alt="The
           road approach to Sonnenberg" style="width:100%;height:auto"><figcaption>Use the approach as
           atmosphere. Any visible damage or blackout belongs only to a branch in which it has
           happened.</figcaption></figure> <blockquote><p>The road climbs through wet trees to a discreet
           entrance. At reception, a woman has an appointment book open beside the telephone. “Your names,
           please. Are you here for Dr. Graf?” Behind her, the door to the clinical wing opens only when a
-          member of staff releases it.</p></blockquote> <p><strong>Reception’s job:</strong> protect patients
-          and get a credible safety concern to the physician. The receptionist checks the appointment or the
-          bank reference and calls Graf. A plain explanation works: “We are tracing material supplied by
-          Monsignor Corvi for Kurt Hausmann. It may be unsafe. We need the treating doctor.” Identification
-          plus the named supplier/patient and a verifiable document is sufficient for a consulting-room
-          interview. No social roll is required for ordinary competent cooperation.</p> <p>Without papers, the
-          desk offers to verify the cell through Petra’s known office or take a safety message to Graf.
-          Bluffing may require a roll; failure means a supervised meeting and verification delay, not
-          destruction of the lead. Loud demands for private charts bring the administrator into the room. The
-          players can still explain the danger.</p> <p><strong>Standard late arrival:</strong> Graf comes
-          downstairs with a nurse, carrying a slide box. She says: “Before we discuss your missing property, I
-          need to know whether you can help us with the man upstairs.” She confirms that Corvi visited and
-          left. She does not withhold his destination as payment for fighting Hausmann. Offer S1 immediately
-          once she authorizes the limited supplier inquiry; S3 is in the same reception folder, available when
-          the cell asks how to reach him.</p> <h4>Reception answers</h4> <table><thead><tr><th>Players
-          ask</th><th>Answer and source</th></tr></thead><tbody> <tr><td>“Was Corvi really here?”</td><td>The
-          receptionist identifies him from the name and, if available, a portrait. The visitor book records
-          his arrival for Graf and Hausmann. She saw him carrying the metal case. Give the completed S1
-          departure extract.</td></tr> <tr><td>“Where is Hausmann?”</td><td>Graf confirms patient 09-H in Ward
-          3 and explains the current access restriction. Reception does not release his full
-          diagnosis.</td></tr> <tr><td>“Did Corvi leave the case?”</td><td>In the departed branch, reception
-          saw him carry it into the station car. She cannot say how many vessels were inside. Graf supplies
-          the treatment accounting.</td></tr> <tr><td>“Which way did he go?”</td><td>The car booking was to
-          Zurich HB. His retained callback message names Lingotto in Turin. The driver can confirm the station
-          drop-off, not that he boarded a particular train.</td></tr> <tr><td>“Can we get the
-          records?”</td><td>Graf authorizes a limited copy for the supplier investigation. Reception retains
-          the visitor-book original; the copied extract identifies who made it. Full clinical access follows
-          Graf’s discussion and the cell’s safeguarding arrangements.</td></tr> </tbody></table> <div
-          class="handout"><h4>S1 — Sonnenberg reception movement extract</h4><p>Persistent clue card:
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.S4tdujDWKjlTTBAJ]{I50 — Sonnenberg
-          reception movement extract}.</p><p><strong>Supplier visit: Monsignor Matteo
+          member of staff releases it.</p></blockquote> <p><strong>Reception’s job:</strong> protect
+          patients and get a credible safety concern to the physician. The receptionist checks the
+          appointment or the bank reference and calls Graf. A plain explanation works: “We are tracing
+          material supplied by Monsignor Corvi for Kurt Hausmann. It may be unsafe. We need the treating
+          doctor.” Identification plus the named supplier/patient and a verifiable document is sufficient
+          for a consulting-room interview. No social roll is required for ordinary competent
+          cooperation.</p> <p>Without papers, the desk offers to verify the cell through Petra’s known
+          office or take a safety message to Graf. Bluffing may require a roll; failure means a supervised
+          meeting and verification delay, not destruction of the lead. Loud demands for private charts bring
+          the administrator into the room. The players can still explain the danger.</p> <p><strong>Default
+          arrival — red alert:</strong> the investigators state that they are here to speak with Dr. Graf.
+          Reception calls upstairs and asks them to wait. Before Graf can come down, the red alarm flashes
+          and the telephone erupts. The desk guard listens, then says: “Disturbance on Ward Three. That is
+          Dr. Graf’s floor.” He releases the clinical door and leads them toward the stairs; the lift can be
+          held by staff for evacuation. Ask who goes first and what they have ready. The guard knows there
+          is an assault, not what Hausmann has become.</p><p>Use the fire-alarm sound as the clinic’s
+          emergency alarm, then fade it under speech. Reception moves visitors away from the clinical wing
+          and calls emergency medical help. If the party refuses to go up, the response proceeds without
+          them; the records and onward lead remain obtainable after the emergency. Graf does not give her
+          full explanation downstairs before the fight.</p><h4>Reception answers</h4>
+          <table><thead><tr><th>Players ask</th><th>Answer and source</th></tr></thead><tbody> <tr><td>“Was
+          Corvi really here?”</td><td>The receptionist identifies him from the name and, if available, a
+          portrait. The visitor book records his arrival for Graf and Hausmann. She saw him carrying the
+          metal case. Give the completed S1 departure extract.</td></tr> <tr><td>“Where is
+          Hausmann?”</td><td>Graf confirms patient 09-H in Ward 3 and explains the current access
+          restriction. Reception does not release his full diagnosis.</td></tr> <tr><td>“Did Corvi leave the
+          case?”</td><td>In the departed branch, reception saw him carry it into the station car. She cannot
+          say how many vessels were inside. Graf supplies the treatment accounting.</td></tr> <tr><td>“Which
+          way did he go?”</td><td>The car booking was to Zurich HB. His retained callback message names
+          Lingotto in Turin. The driver can confirm the station drop-off, not that he boarded a particular
+          train.</td></tr> <tr><td>“Can we get the records?”</td><td>Graf authorizes a limited copy for the
+          supplier investigation. Reception retains the visitor-book original; the copied extract identifies
+          who made it. Full clinical access follows Graf’s discussion and the cell’s safeguarding
+          arrangements.</td></tr> </tbody></table> <div class="handout"><h4>S1 — Sonnenberg reception
+          movement extract</h4><p>Persistent clue card:
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.S4tdujDWKjlTTBAJ]{I50 —
+          Sonnenberg reception movement extract}.</p><p><strong>Supplier visit: Monsignor Matteo
           Corvi</strong><br>Appointment: Dr. Elizabeth Graf, concerning Herr Kurt Hausmann.<br>Arrival:
-          [actual arrival date and time].<br>Observed item: one closed metal attaché case.<br>Current status:
-          departed at [actual departure time].<br>Departure booking: car to Zürich Hauptbahnhof; visitor
-          carried the same case when leaving.<br>Onward contact: retained telephone message S3.<br>Extract
-          checked against the reception book by: [reception witness and date].</p></div> <p>Reception
-          authenticates this copy and the witnessed case departure. She does not know the contents; leave that
-          discovery to Graf.</p> <h3>Scene 3 — Graf’s first request: make the ward safe enough to
-          talk</h3><p><strong>DA assets:</strong>
+          [actual arrival date and time].<br>Observed item: one closed metal attaché case.<br>Current
+          status: departed at [actual departure time].<br>Departure booking: car to Zürich Hauptbahnhof;
+          visitor carried the same case when leaving.<br>Onward contact: retained telephone message
+          S3.<br>Extract checked against the reception book by: [reception witness and date].</p></div>
+          <p>Reception authenticates this copy and the witnessed case departure. She does not know the
+          contents; leave that discovery to Graf.</p> <h3>Scene 3 — Graf’s first request: make the ward safe
+          enough to talk</h3><p><strong>DA assets:</strong>
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jpOPWYTG4Yqt6hk4]{BM04 — Ward,
           theatre and lab} ·
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.nvLAec98ATgolJA9]{Kurt Hausmann
@@ -1377,139 +1428,179 @@
           playlist}</p><p><strong>Blacked-out ward ambience</strong> <audio controls preload="none"
           src="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-wind-sheeting.mp3"></audio> <a
           href="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-wind-sheeting.mp3">Open sound</a>.
-          Keep beds quiet; stings only when the described event occurs.</p> <p>Graf’s immediate problem gives
-          the cell something concrete to do. In the late branch, Hausmann is in room 3.14, the middle of the
-          three patient rooms along the north edge of BM04, behind its closed door. One frightened nurse is
-          sheltering in the southeast theatre; the other patients have been moved away from this wing. The
-          nurse has a cut forearm from broken glass. Graf has kept the corridor lights off and wants a
-          protected route out, a person watching his room door and a medical response called. The nurse is
-          alive unless earlier play established otherwise.</p> <blockquote><p>“He asks for help, then reacts
-          to the blood on her sleeve. We shut his room door. She is in the theatre, across the corridor and
-          toward the lift. I need her out without turning that corridor into a shooting
-          gallery.”</p></blockquote> <p><strong>Show the choices before resolving danger.</strong> Graf
-          identifies room 3.14, the southeast theatre and the northeast lift on BM04. The nurse can leave
-          through the theatre’s northeast corridor door and turn east toward the lift, moving away from
-          Hausmann’s room. A player can cover his door, another can escort her, and a third can call support.
-          This uses the visible corridor; there is no hidden bypass through a wall. The clinical map is
-          available because staff are guiding them now. They may instead leave the evacuation to staff,
-          contain the access points, or go directly to speak to Hausmann.</p> <p>With the east corridor clear,
-          a protected escort succeeds without a roll. If Hausmann has already breached his room into that
-          corridor, announce his position and the obstruction first; resolve stealth, diversion, restraint or
-          force using the normal system. A failed attempt costs separation, noise, injury risk or time as
-          appropriate. It does not automatically kill the nurse. Graf still gives the supplier information to
-          a party that declines the rescue; their decision changes staff trust and safety.</p> <p>If the
-          warning from Geneva already secured the ward, the nurse is safely outside and the east corridor is
-          clear. Reward that preparation. The scene becomes checking the precautions and speaking to the
-          patient; do not create a breach to force action.</p> <h4>Speak to Hausmann before treating him as an
-          obstacle</h4> <p>Graf introduces <strong>Kurt Hausmann, patient 09-H</strong>. Use
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.p51PQ2RP2raSDBHp]{I27 — Intake
-          Photograph, 09-H} as his intake baseline, then describe the changed man: the same watch and face,
-          unnaturally dilated pupils, cold skin, fresh light burns and an attention that fixes on the nurse’s
-          dressed wound. The change is visible even if the ward has been contained successfully. Do not
-          require a fight to establish it.</p> <blockquote><p>“The pain stopped. I thought that meant it
-          worked. Then the light began to hurt. Where is Corvi? He said he would explain.”</p></blockquote>
-          <p>During lucidity he identifies Corvi as the supplier and Graf as the physician. He expected cancer
-          treatment, not this hunger. He asks them to cover the light and move the injured nurse away because
-          he is afraid of what he wants to do. The unnatural abilities become observable if he moves against a
-          barrier or a threat; no one has to provoke him for proof.</p> <p>If the players say “vampire,” Graf
-          does not dismiss their recognition. “I have no ordinary diagnosis that accounts for this. He craves
-          blood, light burns him, and he is stronger than the dying man I admitted. The word fits what I am
-          seeing. I need help keeping him and everyone else alive.” This is their first direct evidence of
-          vampirism. It does not yet tell them who else is involved.</p> <p>If he becomes a threat after
-          conversion, use
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.nvLAec98ATgolJA9]{Hausmann’s
-          existing profile}. Warn with attention to the injured nurse, movement toward the exit and the sound
-          of a failing door before an attack. Isolation, negotiation during lucidity, retreat and evacuation
-          are legitimate solutions. No established cure reverses a newly converted human. Do not present UV or
-          sunlight as harmless restraint; the existing profile makes them damaging. Ordinary light sensitivity
-          is an observed symptom, not permission to invent extra damage rules.</p> <h3>Scene 4 — Graf’s
-          account: connect the payment to the treatment</h3><p><strong>DA assets:</strong>
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jP9jheucndZOEHLE]{TM08 — Theatre
-          refuge} · @UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.r5cnyNNmckVLRsOl]{Dr.
-          Elizabeth Graf} ·
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-sfx.Playlist.wxpL4Q4Ozfnvh71z]{Sound
+          Keep beds quiet; stings only when the described event occurs.</p> <h4>Ward Three — blood in the
+          flickering light</h4><p>Use BM04 for movement. TM07 shows the intact, empty corridor: it can
+          establish the wing before the alarm, but does not depict the bloody aftermath. During the reveal,
+          use BM04 with tokens and describe Graf, the intern, blood and flickering lights aloud. I30 is the
+          separately obtained breach record. Use the northwest stairwell or northeast lift according to the
+          party’s approach; both open onto the mapped corridor. Graf is against the corridor wall near the
+          southeast theatre, bleeding from deep claw marks across her shoulder and upper arm. A dead medical
+          intern lies farther along the hall between the theatre approach and room 3.14; blood streaks the
+          floor and wall. A surviving nurse has locked herself inside the theatre. Hausmann is in the dark
+          corridor near room 3.14, hiding above the normal sightline against a wall/ceiling junction. Mark
+          his actual position privately before initiative; he never teleports between
+          shadows.</p><blockquote><p>The light comes back for half a second. A white coat lies in the middle
+          of the corridor, one arm folded underneath it. There is blood on the wall above it. Dr. Graf
+          presses a sodden dressing against her shoulder. “Do not come closer. He is still here.” The tubes
+          buzz, fail, and something scrapes overhead.</p></blockquote><p><strong>Graf’s first words are
+          practical:</strong> “Hausmann. He attacked us. The young man is dead. Help me get her out.” She
+          can point to the theatre and his last seen position. Her wounds require immediate aid but she is
+          conscious and can be moved; do not make her survival depend on winning an undisclosed countdown.
+          The intern died before the party reached the floor. He carries no indispensable
+          clue.</p><p><strong>Playable cues:</strong> red alert <audio controls preload="none"
+          src="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-fire-alarm.mp3"></audio> · failing
+          power <audio controls preload="none"
+          src="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-power-down.mp3"></audio> · broken
+          window <audio controls preload="none"
+          src="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-glass-break.mp3"></audio>. Trigger
+          each only at its actual event; fade the alarm for dialogue.</p><h4>Run a young vampire, not an
+          invincible elder</h4><p>Use the existing Hausmann actor: STR 5, AGI 4, Brawl 4, Sneak 3, Force 3,
+          Armor 2, Fear 2. Blood Frenzy adds +2 dice against wounded targets. Ballistic weapons inflict half
+          damage unless targeting the brainstem under the system’s normal targeting rules. Direct sunlight
+          or focused UV inflicts 2 unsoakable Physical Damage each round. Resolve armor and damage using the
+          system; do not silently add regeneration, immunity, contagious claw wounds or a new infection
+          rule. Ordinary flickering fluorescent light provides visibility and discomfort, not UV damage. It
+          is night, so opening the curtains admits no sunlight.</p><p><strong>Before the first
+          strike:</strong> give the scrape and a glimpse of his shape; allow the system’s normal awareness,
+          fear and initiative procedures. Darkness affects perception by normal rules, without automatic
+          surprise. In the first exchange he drops toward the nearest exposed wounded person, including
+          Graf; an investigator who interposes becomes the immediate obstacle. He claws, grapples and tries
+          to get blood. Describe the first ineffective bullet or impossible burst of strength clearly so the
+          players can change tactics. He is newly transformed, frightened and ravenous; he has no elder
+          discipline or tactical omniscience.</p><p><strong>Useful actions:</strong> drag Graf into the
+          theatre and secure its door; cover the surviving nurse’s exit east toward the lift; illuminate a
+          specific hiding position; interpose a trolley as an obstacle; concentrate force; or fall back
+          behind a door while calling support. Use the visible BM04 doors and corridor. Do not require
+          vampire weapons the cell never had a chance to acquire. The guard has ordinary equipment and
+          follows their practical instructions; he does not solve the battle.</p><p><strong>Pressure and
+          exit:</strong> at the first serious wound, or when the party holds the corridor and denies access
+          to victims, Hausmann switches from feeding to flight. Telegraph his glance toward the exterior
+          window in room 3.14. He must cross the mapped corridor, enter that room, break its window and
+          climb/drop toward the wooded slope. Moving there and breaking glass use normal actions;
+          investigators may intercept, shoot, obstruct or pursue. Use the glass-break sting only when it
+          happens. If the map does not mark a window, identify this room’s exterior-wall window aloud before
+          play; it is an environmental feature, not a secret passage.</p><p><strong>End states:</strong> if
+          killed by resolved damage, he stays dead; if he reaches the window and gets clear, record an
+          escaped vampire, last sighting and a separate containment request to Petra. He leaves no automatic
+          ash pile. Do not force escape when the party blocks it or keep him alive after a legitimate kill.
+          A clever successful restraint is also honored. If the cell retreats, he seeks the night through
+          that same route rather than pursuing a compulsory total-party kill. Injuries carry forward;
+          stabilize the living before the explanation. No extra vampire arrives.</p><p>Share
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.6unFKeGTeIyiNa9Q]{I59 — Ward
+          Three — Incident Record} only after the participants’ observations are compiled. I30 is an
+          obtainable retained security frame after the breach, not a live omniscient view or a photo of
+          every casualty. If prior precautions prevented this attack, document that branch and retain a
+          contained encounter instead of manufacturing the dead intern.</p><h3>Scene 4 — Graf’s account:
+          connect the payment to the treatment</h3><p><strong>DA assets:</strong>
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jP9jheucndZOEHLE]{TM08 —
+          Theatre refuge} ·
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.r5cnyNNmckVLRsOl]{Dr. Elizabeth
+          Graf} · @UUID[Compendium.neon-relic-mission-sangreal.sangreal-sfx.Playlist.wxpL4Q4Ozfnvh71z]{Sound
           playlist}</p><p><strong>Powered clinical area hum</strong> <audio controls preload="none"
           src="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-corridor-hum.mp3"></audio> <a
           href="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-corridor-hum.mp3">Open sound</a>.
           Keep beds quiet; stings only when the described event occurs.</p> <p>Once there is a safe place to
-          speak, Graf opens the clinical folder in her office or the theatre refuge. She wants two assurances:
-          staff and patient will have a named care plan, and a duplicate record will survive outside the
-          clinic under an accountable custodian. “We will have Petra arrange medical support, leave a named
-          person covering the ward, and lodge a copy with the Covenant medical coordinator” is a concrete
-          answer. A verified callback makes the promise credible. She accepts another comparably practical
-          arrangement.</p> <blockquote><p>“Corvi opened the case in front of me. Twelve small vessels in
-          fitted recesses. No cup, no chalice. The one he handed me contained blood. Hausmann had paid for a
-          chance, and I wanted to believe we could give him one. The instructions told me how to preserve it.
-          They did not establish that it was safe to inject. I signed anyway.”</p></blockquote> <p>She
-          provides the essential treatment facts in conversation before negotiating custody of physical
-          slides. Show the existing
+          speak, Graf opens the clinical folder in her office or the theatre refuge. She wants two
+          assurances: staff and patient will have a named care plan, and a duplicate record will survive
+          outside the clinic under an accountable custodian. “We will have Petra arrange medical support,
+          leave a named person covering the ward, and lodge a copy with the Covenant medical coordinator” is
+          a concrete answer. A verified callback makes the promise credible. She accepts another comparably
+          practical arrangement.</p> <blockquote><p>“At first the pain stopped. His cancer findings receded
+          faster than anything I have seen. I thought we had saved him. Then his temperature fell. Light
+          injured his skin. He began asking for blood. Today he tore into us. Corvi opened the case in front
+          of me. Twelve small vessels in fitted recesses. No cup, no chalice. The one he handed me contained
+          blood. Hausmann had paid for a chance, and I wanted to believe we could give him one. The
+          instructions told me how to preserve it. They did not establish that it was safe to inject. I
+          signed anyway.”</p></blockquote> <p>She provides the essential treatment facts in conversation
+          before negotiating custody of physical slides. Show the existing
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.VMoT17MWZ543rWHe]{I29 — The
           Injection Log} chart, then give S2 as her separate, signed clarification. The photograph visibly
-          provides the batch, sponsor, room 3.14, witness signature and initial G; its patient and time boxes
-          are blank. It cannot, by itself, prove whose injection occurred when.</p> <div
+          provides the batch, sponsor, room 3.14, witness signature and initial G; its patient and time
+          boxes are blank. It cannot, by itself, prove whose injection occurred when.</p> <div
           class="handout"><h4>S2 — Graf’s treatment and custody statement</h4><p>Persistent clue card:
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.8SS0DFQjCYTpMvCF]{I51 — Graf’s
           treatment and custody statement}.</p><p><strong>Patient:</strong> Kurt Hausmann, file 09-H, room
           3.14.<br><strong>Supplier:</strong> Monsignor Matteo Corvi, who brought a closed metal case to
           Sonnenberg.<br><strong>Funding reference:</strong> the Hausmann arrangement described in the
           supplied Geneva escrow papers; clinic sponsorship references the Vaduz
-          trust.<br><strong>Procedure:</strong> one phial of blood administered intravenously at [actual date
-          and time].<br><strong>Preparation label:</strong> PROGENITOR VECTOR — BATCH
-          XII-1/12.<br><strong>Custody:</strong> Corvi released one vessel for this procedure and retained the
-          other eleven.<br><strong>Clinical material retained:</strong> patient samples and residue from the
-          used vessel and apparatus; no second intact phial retained.<br><strong>Outcome observed to
+          trust.<br><strong>Procedure:</strong> one phial of blood administered intravenously at [actual
+          date and time].<br><strong>Preparation label:</strong> PROGENITOR VECTOR — BATCH
+          XII-1/12.<br><strong>Custody:</strong> Corvi released one vessel for this procedure and retained
+          the other eleven.<br><strong>Clinical material retained:</strong> patient samples and residue from
+          the used vessel and apparatus; no second intact phial retained.<br><strong>Outcome observed to
           date:</strong> [only the findings that have occurred].<br><strong>Supplier’s last known
           position:</strong> departed with case; reception holds his forwarding contact.<br>Elizabeth Graf —
           [signature, date and time].</p></div> <p>Graf personally saw the inventory when Corvi released one
-          vessel. She can testify to eleven remaining at that moment; she cannot guarantee he has not changed
-          it since departure. A later case inspection is the stronger current count. All slides, residue tests
-          and clinical samples come from the same first administration. They do not consume a second
-          phial.</p> <h4>The Grail assumption breaks here</h4><p>If the party asks “Where is the Grail?”, Graf
-          answers: “If you mean a vessel to drink from, I never saw one. I saw twelve sealed portions of
-          blood. Corvi called that the reserve. Ask him why Rome calls it Sangreal.” She shows the used vessel
-          and apparatus only under the acquired handling precautions, or their documented record if the
-          material has already been secured. The physical object they were chasing was a case of blood, and
-          its use made this man a vampire. That establishes the practical truth without declaring Christ’s
-          biography or the blood’s ultimate origin proved.</p><p>Claudia helps the patient and asks Graf to
-          preserve her account. She shares the party’s concern and supports a verified report to the
-          contracting authority. Do not add a knowing look, secret disappearance or uniquely informed
-          explanation that singles her out.</p><h4>Questions Graf can actually answer</h4>
-          <table><thead><tr><th>Question</th><th>Answer</th><th>Evidence or next
-          action</th></tr></thead><tbody> <tr><td>“Why was Corvi here?”</td><td>To supply blood for Hausmann’s
-          experimental treatment, whose funding was arranged through Geneva. Graf knowingly accepted
-          inadequate evidence of safety.</td><td>S1, S2,
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.lOsCniEBTy2c974w]{I06 — The Escrow
-          Transfer Slip} and
+          vessel. She can testify to eleven remaining at that moment; she cannot guarantee he has not
+          changed it since departure. A later case inspection is the stronger current count. All slides,
+          residue tests and clinical samples come from the same first administration. They do not consume a
+          second phial.</p> <h4>The Grail assumption breaks here</h4><p>If the party asks “Where is the
+          Grail?”, Graf answers: “If you mean a vessel to drink from, I never saw one. I saw twelve sealed
+          portions of blood. Corvi called that the reserve. Ask him why Rome calls it Sangreal.” She shows
+          the used vessel and apparatus only under the acquired handling precautions, or their documented
+          record if the material has already been secured. The physical object they were chasing was a case
+          of blood, and its use made this man a vampire. That establishes the practical truth without
+          declaring Christ’s biography or the blood’s ultimate origin proved.</p><p><h4>Claudia’s breakdown
+          — Sang real</h4><p>Let the table absorb Graf’s account before Claudia speaks. She sits abruptly,
+          misses the chair arm with one hand, and grips her rosary so tightly that the beads press into her
+          palm. Her voice almost fails on the familiar words. Play this as a convincing crisis of faith from
+          their trusted companion, without winks or suspicious emphasis.</p><blockquote><p>“No. We were
+          looking for a cup. San greal. But sang real… royal blood. His blood.” She looks toward the closed
+          ward door. “The blood of Christ. And that man became… Dear God. ‘This is my blood. Take and
+          drink.’ What have we been saying all these centuries?”</p></blockquote><p>She cannot finish the
+          prayer. Give the investigators space to comfort her, challenge the conclusion or say it
+          themselves: Christ carried vampiric blood; the Eucharist now sounds horrifyingly literal. Claudia
+          finally says, “Then we have to find the rest. Before anyone else opens it. We must take it home.”
+          She supports sealed recovery to the Vatican under the authority already employing the
+          cell.</p><p><strong>DA only:</strong> this is an excellent performance that directs their fear
+          toward recovering the reserve; her hidden loyalties and later choice remain private. Her claim is
+          the intended revelation the party now believes, not laboratory proof of Christ’s biology or a
+          premature disclosure of the later inversion. Do not call the wordplay a verified historical
+          etymology. Graf answers, “I can tell you what it did to Hausmann. I cannot tell you whose blood it
+          was.” If asked directly about Claudia’s sincerity, use normal social procedures and her
+          established knowledge; no automatic allegiance disclosure or immunity to scrutiny.</p><p>Give
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.RTpfAUySCSTXB4G0]{I60 —
+          Sonnenberg Debrief — Blood and the Remaining Case} after the discussion, clearly attributing
+          clinical facts to Graf and the sacred interpretation to Claudia. Graf then points to reception’s
+          retained Lingotto message: Corvi took the remaining eleven phials toward Turin. Recovering them
+          sealed and returning them to the Vatican is the immediate proposed mission; the cell may insist on
+          accountable custody and copies of the clinical record.</p></p><h4>Questions Graf can actually
+          answer</h4> <table><thead><tr><th>Question</th><th>Answer</th><th>Evidence or next
+          action</th></tr></thead><tbody> <tr><td>“Why was Corvi here?”</td><td>To supply blood for
+          Hausmann’s experimental treatment, whose funding was arranged through Geneva. Graf knowingly
+          accepted inadequate evidence of safety.</td><td>S1, S2,
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.lOsCniEBTy2c974w]{I06 — The
+          Escrow Transfer Slip} and
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.VMoT17MWZ543rWHe]{I29 — The
           Injection Log} connect visitor, patient, money and batch.</td></tr> <tr><td>“Did it
-          work?”</td><td>After treatment, the cancer findings rapidly improved while physiology deteriorated.
-          She dates each observation and relates it to the
+          work?”</td><td>After treatment, the cancer findings rapidly improved while physiology
+          deteriorated. She dates each observation and relates it to the
           injection.</td><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.SilYzv6luOt5X6Am]{I07
           — Patient File 09-H}’s existing entries,
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.p51PQ2RP2raSDBHp]{I27 — Intake
           Photograph, 09-H} baseline and
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.1dPSK2h5z6DX5Eab]{I28 — Photophobia
-          Test 02:40} only if the documented light injury occurred.</td></tr> <tr><td>“What is it
-          doing?”</td><td>Her slides suggest an invasive process replacing normal marrow. She calls it a
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.1dPSK2h5z6DX5Eab]{I28 —
+          Photophobia Test 02:40} only if the documented light injury occurred.</td></tr> <tr><td>“What is
+          it doing?”</td><td>Her slides suggest an invasive process replacing normal marrow. She calls it a
           foreign graft as a working description. She cannot identify its ancient origin from a
           microscope.</td><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.D18a1YRCEQu27KHw]{I09
-          — Histopathology Log: Marrow Graft} photograph and her accompanying analysis. Keep observed changes
-          distinct from her hypothesis.</td></tr> <tr><td>“Why did Corvi leave?”</td><td>The deterioration
-          frightened him. He said he needed someone who could protect the remaining case from Rome and took a
-          call to his Turin contact. Graf told him she needed a way to report Hausmann’s
-          condition.</td><td>She directs them to S3 at reception. Reception retained the contact for a medical
-          update.</td></tr> <tr><td>“Can we reverse it? What happens to a vampire?”</td><td>She has no
-          demonstrated reversal and no verified vampire recipient in this clinic. She will preserve findings
-          for specialist review.</td><td>The complete CT1 account requires Corvi’s historical material and
-          later exposure evidence. Do not hand over an omniscient diagnosis.</td></tr> <tr><td>“How do we
-          handle the remaining material?”</td><td>She retained the supplier’s storage instructions: darkness,
-          treated linen, lead-antimony shielding, below 4°C. This is a handling protocol, not proof of
-          treatment safety.</td><td>Give
+          — Histopathology Log: Marrow Graft} photograph and her accompanying analysis. Keep observed
+          changes distinct from her hypothesis.</td></tr> <tr><td>“Why did Corvi leave?”</td><td>The
+          deterioration frightened him. He said he needed someone who could protect the remaining case from
+          Rome and took a call to his Turin contact. Graf told him she needed a way to report Hausmann’s
+          condition.</td><td>She directs them to S3 at reception. Reception retained the contact for a
+          medical update.</td></tr> <tr><td>“Can we reverse it? What happens to a vampire?”</td><td>She has
+          no demonstrated reversal and no verified vampire recipient in this clinic. She will preserve
+          findings for specialist review.</td><td>The complete CT1 account requires Corvi’s historical
+          material and later exposure evidence. Do not hand over an omniscient diagnosis.</td></tr>
+          <tr><td>“How do we handle the remaining material?”</td><td>She retained the supplier’s storage
+          instructions: darkness, treated linen, lead-antimony shielding, below 4°C. This is a handling
+          protocol, not proof of treatment safety.</td><td>Give
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.9NpgA6XbC6AKGYEY]{I16 — The
           Quiescence Formula (CT3)} through Graf’s supplied instruction leaf. Petra can now request the
           specified kit.</td></tr> <tr><td>“Does it affect people nearby?”</td><td>Only if logged or
-          witnessed: sick people worsened or felt drawn toward the unshielded preparation; shielding ended the
-          episode. Graf cannot infer an exact radius from that observation.</td><td>Record the actual
+          witnessed: sick people worsened or felt drawn toward the unshielded preparation; shielding ended
+          the episode. Graf cannot infer an exact radius from that observation.</td><td>Record the actual
           observation. Reveal the full
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.dypD1aQAOBWpTyg0]{I11 — The
           Resonance Field (CT2)} synthesis only after corroboration; no nearby person is forced to
@@ -1518,10 +1609,10 @@
           establishes</th></tr></thead><tbody> <tr><td>Reception; limited release authorized by Graf or
           another responsible administrator</td><td>S1 visitor/car extract and S3 telephone message, if
           made</td><td>Corvi’s physical visit, actual departure with the case, station drop-off and onward
-          contact.</td></tr> <tr><td>Graf’s office; she opens the patient folder or an authorized investigator
-          searches
-          it</td><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.p51PQ2RP2raSDBHp]{I27 —
-          Intake Photograph, 09-H},
+          contact.</td></tr> <tr><td>Graf’s office; she opens the patient folder or an authorized
+          investigator searches
+          it</td><td>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.p51PQ2RP2raSDBHp]{I27
+          — Intake Photograph, 09-H},
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.VMoT17MWZ543rWHe]{I29 — The
           Injection Log} and S2; existing portions of
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.SilYzv6luOt5X6Am]{I07 — Patient
@@ -1552,12 +1643,13 @@
           private thoughts.</p> <h3>Scene 5 — The onward message: why Turin follows Sonnenberg</h3>
           <p><strong>Default departed branch:</strong> before leaving, Corvi used the gate payphone to call
           his Turin intermediary. He then gave reception a forwarding contact for Graf’s medical update.
-          Separately, the intermediary called the clinic switchboard, left extension 418 and directions for a
-          clinical courier, and asked that a written summary be sent with anyone following Corvi. Reception
-          retained the message with the car booking. These routine actions create S3; no secret recording is
-          needed.</p> <div class="handout"><h4>S3 — Telephone message retained at reception</h4><p>Persistent
-          clue card: @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.hnuSDQF9W6V31IPm]{I52 —
-          Telephone message retained at reception}.</p><p><strong>For:</strong> Dr. Elizabeth
+          Separately, the intermediary called the clinic switchboard, left extension 418 and directions for
+          a clinical courier, and asked that a written summary be sent with anyone following Corvi.
+          Reception retained the message with the car booking. These routine actions create S3; no secret
+          recording is needed.</p> <div class="handout"><h4>S3 — Telephone message retained at
+          reception</h4><p>Persistent clue card:
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.hnuSDQF9W6V31IPm]{I52 — Telephone
+          message retained at reception}.</p><p><strong>For:</strong> Dr. Elizabeth
           Graf.<br><strong>Regarding:</strong> Monsignor Corvi / Hausmann follow-up.<br><strong>Forwarding
           contact left by Corvi:</strong> Lingotto freight-office switchboard, Torino; ask for extension
           418.<br><strong>Return call:</strong> a man identifying himself as Corvi’s intermediary confirmed
@@ -1572,36 +1664,38 @@
           HB. A returned call on the next page tests whether the meeting is current.</p> <p><strong>Why the
           broker answers:</strong> he has promised his clients access to Corvi’s remaining reserve. He wants
           the medical report before committing more money, and thinks an approaching clinical courier or
-          recovery team may make the deal possible. He offers a meeting, not ownership of the phials. Corvi’s
-          later refusal of a second sale remains intact.</p> <p><strong>If Corvi is still here:</strong> S3
-          does not yet exist. He can disclose the contact in negotiation, or the cell can find his contact
-          slip during an actually authorized search. Confront him about custody now; use the questions from
-          the Lingotto chapter here if appropriate. If he surrenders the reserve, do not send the party to
-          Turin to recover it again. The broker becomes an optional lead into who wanted it.</p> <p><strong>If
-          the cell skips the ward:</strong> reception and Graf can give S1 and S3 without requiring combat.
-          State the unresolved patient emergency and arrange a separate medical response if requested.
-          Pursuing Corvi early is a meaningful choice; it does not erase Hausmann or magically resolve his
-          care.</p> <h3>Close the clinic investigation</h3> <p>Have the players distinguish three conclusions:
-          <strong>Corvi brought the case here; the clinic used one phial; the remaining case left toward a
-          reachable Turin contact and reception witnessed his departure.</strong> Ask what they want done for
-          Hausmann and Graf while they pursue it. Continue with <strong>Leaving Sonnenberg — Corvi’s Contact
-          and the Turin Train</strong> for the actual callback, handover and departure.</p> <p><strong>Scene
-          links:</strong>
+          recovery team may make the deal possible. He offers a meeting, not ownership of the phials.
+          Corvi’s later refusal of a second sale remains intact.</p> <p><strong>If Corvi is still
+          here:</strong> S3 does not yet exist. He can disclose the contact in negotiation, or the cell can
+          find his contact slip during an actually authorized search. Confront him about custody now; use
+          the questions from the Lingotto chapter here if appropriate. If he surrenders the reserve, do not
+          send the party to Turin to recover it again. The broker becomes an optional lead into who wanted
+          it.</p> <p><strong>If the cell skips the ward:</strong> reception and Graf can give S1 and S3
+          without requiring combat. State the unresolved patient emergency and arrange a separate medical
+          response if requested. Pursuing Corvi early is a meaningful choice; it does not erase Hausmann or
+          magically resolve his care.</p> <h3>Close the clinic investigation</h3> <p>Have the players
+          distinguish three conclusions: <strong>Corvi brought the case here; the clinic used one phial; the
+          remaining case left toward a reachable Turin contact and reception witnessed his
+          departure.</strong> Ask what they want done for Hausmann and Graf while they pursue it. Continue
+          with <strong>Leaving Sonnenberg — Corvi’s Contact and the Turin Train</strong> for the actual
+          callback, handover and departure.</p> <p><strong>Scene links:</strong>
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.JdEbI0D8H7Vju6im]{TM16 — Night
           train compartment};
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.kr4nu0sVNfrcGAJq]{TM06 —
           Sonnenberg approach};
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.1HRljmcL11d0CPLS]{TM07 —
           Blacked-out ward};
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jP9jheucndZOEHLE]{TM08 — Theatre
-          refuge}; @UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jpOPWYTG4Yqt6hk4]{BM04 —
-          Ward, theatre and lab}. Use damaged interiors only when their condition matches play.</p> <h3>Open
-          the earned evidence images</h3><p>Each card link above opens its reference text. Direct photographs:
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jP9jheucndZOEHLE]{TM08 —
+          Theatre refuge};
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jpOPWYTG4Yqt6hk4]{BM04 — Ward,
+          theatre and lab}. Use damaged interiors only when their condition matches play.</p> <h3>Open the
+          earned evidence images</h3><p>Each card link above opens its reference text. Direct photographs:
           <a href="modules/neon-relic-mission-sangreal/assets/art/intel/i27-hausmann-intake.webp">I27
           image</a> · <a
-          href="modules/neon-relic-mission-sangreal/assets/art/intel/i28-hausmann-burns.webp">I28 image</a> ·
-          <a href="modules/neon-relic-mission-sangreal/assets/art/intel/i29-injection-log.webp">I29 image</a>
-          · <a href="modules/neon-relic-mission-sangreal/assets/art/intel/i30-ward-hallway-cctv.webp">I30
+          href="modules/neon-relic-mission-sangreal/assets/art/intel/i28-hausmann-burns.webp">I28 image</a>
+          · <a href="modules/neon-relic-mission-sangreal/assets/art/intel/i29-injection-log.webp">I29
+          image</a> · <a
+          href="modules/neon-relic-mission-sangreal/assets/art/intel/i30-ward-hallway-cctv.webp">I30
           image</a> · <a
           href="modules/neon-relic-mission-sangreal/assets/art/intel/i31-sonnenberg-stakeout.webp">I31
           image</a> · <a
@@ -1611,9 +1705,10 @@
       type: text
       text:
         content: >-
-          <h2>Leaving Sonnenberg — Corvi’s Contact and the Turin Train</h2> <p><strong>Start with the clinic’s
-          actual outcome.</strong> For this session, Corvi has gone with eleven intact phials, Hausmann has
-          changed after the injection, and Graf can authenticate the clinical record. Keep actual containment
+          <h2>Leaving Sonnenberg — Corvi’s Contact and the Turin Train</h2> <p><strong>Start with the
+          clinic’s actual outcome.</strong> For this session, Corvi has gone with eleven intact phials,
+          Hausmann was killed, escaped through the ward window, or was contained according to the battle’s
+          actual outcome, and the injured Graf can authenticate the clinical record. Keep actual containment
           and injuries from the previous scenes. If the cell prevented treatment, detained Corvi, recovered
           the case or lost control of the ward, change those facts before running this page. The next
           destination must follow the case’s real location.</p> <h3>Scene 6 — Call the contact, secure a
@@ -1626,41 +1721,42 @@
           preload="none"
           src="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-telephone-ring.mp3"></audio> <a
           href="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-telephone-ring.mp3">Open sound</a>.
-          Keep beds quiet; stings only when the described event occurs.</p> <p>Use the clinic office telephone
-          with Graf’s consent, a public telephone, or Petra’s established callback channel. S3 provides a
-          named switchboard and extension; an operator or Petra’s directory contact can connect the fictional
-          Lingotto freight office. The number need not be guessed from a photograph. The cell decides whether
-          to give its real identity, present itself as Graf’s courier, ask Graf to speak first, or have Petra
-          make the inquiry.</p> <blockquote><p>The switchboard transfers the call. A man answers without
-          giving his name. “If this concerns the doctor’s report, I can receive it. If it concerns Monsignor
-          Corvi, tell me whether you bring protection or another claim on his property.”</p></blockquote>
-          <p>The intermediary wants the condition report and a way to complete his promised access to the
-          reserve. He is willing to meet a credible caller. Graf can identify the treatment and appointment;
-          the cell’s account of the Geneva bargain also establishes a real connection. Do not require them to
-          surrender originals, samples or the case to learn where the meeting is.</p>
-          <table><thead><tr><th>The players’ question or approach</th><th>The broker’s answer</th><th>What the
-          DA records</th></tr></thead><tbody> <tr><td>“Is Corvi there?”</td><td>If he has reached Turin: “He
-          has agreed to a private meeting here.” If still travelling: “He is expected. I have not seen him
-          yet.” He will carry a message to Corvi when physically able.</td><td>This is the broker’s report
-          until corroborated. Never claim arrival before the travel time permits it.</td></tr> <tr><td>“Where
-          do we meet?”</td><td>“Lingotto works, leased freight-office entrance. Extension 418 will have your
-          name. The supervisor’s booth, once you have been admitted.” He supplies local directions and asks
-          for their arrival estimate.</td><td>Enter the agreed meeting time and contact in the travel notes.
-          Petra can arrange a Turin station pickup to that entrance.</td></tr> <tr><td>“Why do you need the
-          report?”</td><td>“A great deal has been promised about what is in that case. I would prefer to hear
-          what actually happened.” He admits representing a buyer seeking another purchase if asked
-          directly.</td><td>An offer for a second vessel is not a completed sale. His patron’s identity
-          remains a further question.</td></tr> <tr><td>“We need Corvi alive and the case sealed.”</td><td>He
-          accepts a discussion under those terms. He asks the party to avoid bringing a conspicuous armed
-          Church delegation. They may counter with neutral witnesses and independent custody.</td><td>No
-          automatic surrender of weapons or evidence is required to continue. Negotiation sets the meeting
-          conditions.</td></tr> <tr><td>Threats or an exposed bluff</td><td>He ends the call or insists on a
-          supervised meeting. The switchboard contact and physical destination remain known.</td><td>Reduce
-          cooperation and prepare guards or surveillance consistent with his resources. Do not erase the
-          address.</td></tr> </tbody></table> <p><strong>A direct Corvi call is possible.</strong> If he is
-          present with the broker and willing, let him speak. He can confirm his location and explain his
-          fear. He may accept a neutral rendezvous or surrender arrangement instead of the supervisor’s booth.
-          Follow that agreement; the Lingotto conversation is portable. If the cell has already secured him at
+          Keep beds quiet; stings only when the described event occurs.</p> <p>Use the clinic office
+          telephone with Graf’s consent, a public telephone, or Petra’s established callback channel. S3
+          provides a named switchboard and extension; an operator or Petra’s directory contact can connect
+          the fictional Lingotto freight office. The number need not be guessed from a photograph. The cell
+          decides whether to give its real identity, present itself as Graf’s courier, ask Graf to speak
+          first, or have Petra make the inquiry.</p> <blockquote><p>The switchboard transfers the call. A
+          man answers without giving his name. “If this concerns the doctor’s report, I can receive it. If
+          it concerns Monsignor Corvi, tell me whether you bring protection or another claim on his
+          property.”</p></blockquote> <p>The intermediary wants the condition report and a way to complete
+          his promised access to the reserve. He is willing to meet a credible caller. Graf can identify the
+          treatment and appointment; the cell’s account of the Geneva bargain also establishes a real
+          connection. Do not require them to surrender originals, samples or the case to learn where the
+          meeting is.</p> <table><thead><tr><th>The players’ question or approach</th><th>The broker’s
+          answer</th><th>What the DA records</th></tr></thead><tbody> <tr><td>“Is Corvi there?”</td><td>If
+          he has reached Turin: “He has agreed to a private meeting here.” If still travelling: “He is
+          expected. I have not seen him yet.” He will carry a message to Corvi when physically
+          able.</td><td>This is the broker’s report until corroborated. Never claim arrival before the
+          travel time permits it.</td></tr> <tr><td>“Where do we meet?”</td><td>“Lingotto works, leased
+          freight-office entrance. Extension 418 will have your name. The supervisor’s booth, once you have
+          been admitted.” He supplies local directions and asks for their arrival estimate.</td><td>Enter
+          the agreed meeting time and contact in the travel notes. Petra can arrange a Turin station pickup
+          to that entrance.</td></tr> <tr><td>“Why do you need the report?”</td><td>“A great deal has been
+          promised about what is in that case. I would prefer to hear what actually happened.” He admits
+          representing a buyer seeking another purchase if asked directly.</td><td>An offer for a second
+          vessel is not a completed sale. His patron’s identity remains a further question.</td></tr>
+          <tr><td>“We need Corvi alive and the case sealed.”</td><td>He accepts a discussion under those
+          terms. He asks the party to avoid bringing a conspicuous armed Church delegation. They may counter
+          with neutral witnesses and independent custody.</td><td>No automatic surrender of weapons or
+          evidence is required to continue. Negotiation sets the meeting conditions.</td></tr>
+          <tr><td>Threats or an exposed bluff</td><td>He ends the call or insists on a supervised meeting.
+          The switchboard contact and physical destination remain known.</td><td>Reduce cooperation and
+          prepare guards or surveillance consistent with his resources. Do not erase the address.</td></tr>
+          </tbody></table> <p><strong>A direct Corvi call is possible.</strong> If he is present with the
+          broker and willing, let him speak. He can confirm his location and explain his fear. He may accept
+          a neutral rendezvous or surrender arrangement instead of the supervisor’s booth. Follow that
+          agreement; the Lingotto conversation is portable. If the cell has already secured him at
           Sonnenberg, this call is an inquiry into a prospective buyer, not a compulsory pursuit.</p>
           <h4>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.Uanb3MKR6vPcGHq5]{I08 — The
           Swiss PTT Intercept Tape} — Optional corroboration with a real source</h4> <p>The PTT recording is
@@ -1669,109 +1765,113 @@
           PTT Intercept Tape} only if the campaign has established a lawful/operationally authorized
           monitoring source that actually covered Corvi’s payphone call. The DA records who monitored which
           line, when, and how the retained copy reaches the cell. A request made after an unrecorded call
-          cannot create an old recording.</p> <p>If such a retained recording exists, the cell gives Petra the
-          clinic payphone location, Corvi’s departure window and the named operation/contact. Petra requests
-          the relevant excerpt through that liaison. A transcript can be read over a verified callback or
-          faxed to the clinic office with permission; a reel requires a courier. Give an ETA for that actual
-          retrieval, normally an hour or more in this fictional session. The cell can depart using S3 while
-          the copy follows to a named destination.</p> <p>The existing
+          cannot create an old recording.</p> <p>If such a retained recording exists, the cell gives Petra
+          the clinic payphone location, Corvi’s departure window and the named operation/contact. Petra
+          requests the relevant excerpt through that liaison. A transcript can be read over a verified
+          callback or faxed to the clinic office with permission; a reel requires a courier. Give an ETA for
+          that actual retrieval, normally an hour or more in this fictional session. The cell can depart
+          using S3 while the copy follows to a named destination.</p> <p>The existing
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.Uanb3MKR6vPcGHq5]{I08 — The Swiss
-          PTT Intercept Tape} image visibly quotes the broker’s offer for <em>eleven vessels</em> at Lingotto
-          and marks “Torino — int. 418.” Corvi’s opening complaint is on the supplied transcript/audio, not
-          visible in that picture. Use that version only after one phial was consumed and the severe human
-          outcome was known to Corvi. If those conditions are absent, withhold the image and historical
-          transcript; use the current live call. Emblems on the recording equipment do not identify an
-          additional faction.</p> <p>After the call, give
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.tBZisHd3TtN3q961]{I53 — Petra Fax —
-          Lingotto Callback} with the actual answer. A failed connection produces a pending update, not a
+          PTT Intercept Tape} image visibly quotes the broker’s offer for <em>eleven vessels</em> at
+          Lingotto and marks “Torino — int. 418.” Corvi’s opening complaint is on the supplied
+          transcript/audio, not visible in that picture. Use that version only after one phial was consumed
+          and the severe human outcome was known to Corvi. If those conditions are absent, withhold the
+          image and historical transcript; use the current live call. Emblems on the recording equipment do
+          not identify an additional faction.</p> <p>After the call, give
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.tBZisHd3TtN3q961]{I53 — Petra Fax
+          — Lingotto Callback} with the actual answer. A failed connection produces a pending update, not a
           fabricated successful transcript.</p><h3>Scene 7 — Leave a care plan, not an abandoned crisis</h3>
-          <p>Petra asks for three things: <strong>patient condition, people needing protection, and hazardous
-          material actually present</strong>. She contacts the Covenant medical coordinator, obtains a named
-          receiving clinician and gives the clinic an ETA. For a playable default, allow ninety minutes from a
-          complete request to a local response team reaching Sonnenberg, adjusted for established
-          availability. This is a fictional operational allowance. A request placed on the train can shorten
-          the remaining wait; the team still needs the updated hazard briefing.</p>
+          <p>Petra asks for three things: <strong>patient condition, people needing protection, and
+          hazardous material actually present</strong>. She contacts the Covenant medical coordinator,
+          obtains a named receiving clinician and gives the clinic an ETA. For a playable default, allow
+          ninety minutes from a complete request to a local response team reaching Sonnenberg, adjusted for
+          established availability. This is a fictional operational allowance. A request placed on the train
+          can shorten the remaining wait; the team still needs the updated hazard briefing.</p>
           <table><thead><tr><th>Loose end</th><th>Practical handover</th><th>If the party departs
-          earlier</th></tr></thead><tbody> <tr><td>Hausmann deteriorating or converted</td><td>Evacuate
-          bystanders from the wing; maintain observation, controlled access and light precautions; brief the
-          receiving team on actual capabilities and unknowns. If moving him is unsafe, the team takes over
-          containment in place.</td><td>Graf and staff must explicitly accept the interim plan. If they cannot
-          hold the situation, say so and let the party choose to stay, split, request more help or knowingly
-          leave the risk.</td></tr> <tr><td>Graf, nurse and other witnesses</td><td>Medical treatment for
-          injuries, a named protection contact and agreed transport. Graf can remain until the clinical
-          handover, then move to an arranged safe address.</td><td>Give Petra their actual location and
-          consent; keep a callback. A promise without a responsible person is still unresolved.</td></tr>
-          <tr><td>Records, slides and residue</td><td>Photocopy the signed statement, treatment chart and
-          onward message. Record which custodian holds originals. Graf packs any retained hazardous residue
-          using @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.9NpgA6XbC6AKGYEY]{I16 — The
+          earlier</th></tr></thead><tbody> <tr><td>Hausmann killed, escaped or contained</td><td>If dead,
+          secure the body as hazardous clinical evidence without further exposure. If escaped, report his
+          description, last route and victims to Petra for a specialist search; no patient transport is
+          booked for an absent man. If contained, evacuate bystanders and maintain controlled access and
+          light precautions; brief the receiving team on actual capabilities and unknowns. If moving him is
+          unsafe, the team takes over containment in place.</td><td>Graf and staff must explicitly accept
+          the interim plan. If they cannot hold the situation, say so and let the party choose to stay,
+          split, request more help or knowingly leave the risk.</td></tr> <tr><td>Graf, nurse and other
+          witnesses</td><td>Medical treatment for injuries, a named protection contact and agreed transport.
+          Graf can remain until the clinical handover, then move to an arranged safe address.</td><td>Give
+          Petra their actual location and consent; keep a callback. A promise without a responsible person
+          is still unresolved.</td></tr> <tr><td>Records, slides and residue</td><td>Photocopy the signed
+          statement, treatment chart and onward message. Record which custodian holds originals. Graf packs
+          any retained hazardous residue using
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.9NpgA6XbC6AKGYEY]{I16 — The
           Quiescence Formula (CT3)}; ordinary fixed slides are labeled separately.</td><td>A courier or
-          medical team can take custody later if a responsible person secures the material. The party does not
-          need to carry live residue on a passenger train to follow a lead.</td></tr> <tr><td>The full
-          reserve, if recovered here</td><td>Count only through a protected, authorized inspection; otherwise
-          preserve the seal and record the last witnessed count. Agree an accountable custody destination and
-          the required shielding/cooling.</td><td>Change the travel objective. Turin is an optional buyer
-          investigation; do not pretend Corvi still has the recovered case.</td></tr> </tbody></table>
-          <p><strong>If the ward breaks during the handover:</strong> warn with a failing barrier and
-          Hausmann’s actual movement. Resolve the rescue using the existing map and profile. He does not
-          teleport into the forest; an escape requires a route past the people and barriers in play. No ghoul
-          appears merely because someone was near the blood. A rupture that reaches dead tissue is a separate
-          event governed by the relic’s existing rules, not a default complication.</p> <h3>Establish the
-          other vampires — a verified authority call</h3> <p><strong>Run this discovery before departure even
-          if no Church recovery team comes.</strong> After Graf identifies the blood and Hausmann’s condition,
-          she asks the cell to notify its contracting authority: there is a living recipient and a dangerous
-          remaining reserve. Petra connects the established Sabbatini office through the known callback
-          procedure. Claudia assists with the introduction as part of her ordinary liaison work. The evidence
-          that vampires are organized comes from the authority, not from suspicious conduct by her.</p>
-          <blockquote><p>Sabbatini: “Corvi administered it to a man? We had no report of this transaction or
-          this treatment. Keep Hausmann alive and isolated if you can. There were vampires long before Herr
-          Hausmann. Some belong to houses with which we maintain agreements. What you have described creates a
-          new one outside those agreements. That is why I need the reserve recovered
-          unopened.”</p></blockquote> <p>Give answers to the obvious questions. <strong>“You knew?”</strong>
-          “We knew what was in our custody. We did not know Corvi had arranged a sale or a human treatment.”
-          <strong>“Is the Grail a cup?”</strong> “The stolen object is the sealed reserve. Corvi can tell you
-          what he believes its origin to be.” <strong>“Who else wants it?”</strong> “The houses have reason to
-          fear its uncontrolled use. Expect people acting for them to seek it.” He will confirm the existence
-          of organized vampire interests and ask for a clinical report; he does not give a proven history of
-          the blood, all exposure mechanics or a list of covert operatives.</p> <p>If the cell refuses Church
-          contact, Petra can route the authenticated clinical observations to a Covenant occult-medical duty
-          officer, who confirms from Covenant threat records that vampire communities predate this event and
-          that recognized houses act through intermediaries. This requires the specialist callback, not Petra
-          suddenly becoming an expert. If the party declines both contacts, the broker can explicitly
-          acknowledge that his patrons are one such house when asked why they fear the reserve; label that as
-          his claim until corroborated. Offer the discovery through these reachable people, without forcing a
-          call or disclosing Claudia’s allegiance.</p> <p><strong>What the players should now
-          understand:</strong> the case carries dangerous blood; it made Hausmann a vampire; established
-          vampires have interests in the same reserve; a broker offering refuge and another purchase is
-          therefore worth investigating. Which patron he serves, why the blood affects existing vampires
-          differently, and what Claudia will do remain later discoveries.</p> <p>After the verified authority
-          call, give @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.2Ai06nmzdOoBVUdV]{I55 —
-          Authority Call — The Other Vampires}. Its timing is after the clinical discovery; the earlier fax
-          packet contains no vampire disclosure.</p><h3>Optional pressure — the Church wants custody</h3>
-          <p>Use this only if the Alliance track or established surveillance supports a team arriving. It is
-          one negotiable pressure scene, not a second mandatory battle before the train. Telegraph the car or
-          the receptionist’s announcement while the medical handover is being arranged. The default demand is
-          custody of remaining clinical material, recipient names and Graf’s records.</p> <blockquote><p>“We
-          understand a recipient survived. We need the material secured and the names of anyone exposed. Who
-          is responsible for this ward?”</p></blockquote> <p>The team can verify its authority through
-          Sabbatini’s established office. The cell can negotiate joint custody, retain authenticated
-          duplicates, offer a sealed inventory and request an independent medical observer. If Church custody
-          is unacceptable, call Petra and Sabbatini with a specific alternative. Sabbatini can authorize a
-          stand-down or monitored quarantine. His concern is uncontrolled replication and the fragile
-          settlement, not an automatic order to murder everyone who knows the secret.</p>
+          medical team can take custody later if a responsible person secures the material. The party does
+          not need to carry live residue on a passenger train to follow a lead.</td></tr> <tr><td>The full
+          reserve, if recovered here</td><td>Count only through a protected, authorized inspection;
+          otherwise preserve the seal and record the last witnessed count. Agree an accountable custody
+          destination and the required shielding/cooling.</td><td>Change the travel objective. Turin is an
+          optional buyer investigation; do not pretend Corvi still has the recovered case.</td></tr>
+          </tbody></table> <p><strong>If the ward breaks during the handover:</strong> warn with a failing
+          barrier and Hausmann’s actual movement. Resolve the rescue using the existing map and profile. He
+          does not teleport into the forest; an escape requires a route past the people and barriers in
+          play. No ghoul appears merely because someone was near the blood. A rupture that reaches dead
+          tissue is a separate event governed by the relic’s existing rules, not a default complication.</p>
+          <h3>Establish the other vampires — a verified authority call</h3> <p><strong>Run this discovery
+          before departure even if no Church recovery team comes.</strong> After Graf identifies the blood
+          and Hausmann’s condition, she asks the cell to notify its contracting authority: there is a living
+          recipient and a dangerous remaining reserve. Petra connects the established Sabbatini office
+          through the known callback procedure. Claudia assists with the introduction as part of her
+          ordinary liaison work. The evidence that vampires are organized comes from the authority, not from
+          suspicious conduct by her.</p> <blockquote><p>Sabbatini: “Corvi administered it to a man? We had
+          no report of this transaction or this treatment. Keep Hausmann alive and isolated if you can.
+          There were vampires long before Herr Hausmann. Some belong to houses with which we maintain
+          agreements. What you have described creates a new one outside those agreements. That is why I need
+          the reserve recovered unopened.”</p></blockquote> <p>Give answers to the obvious questions.
+          <strong>“You knew?”</strong> “We knew what was in our custody. We did not know Corvi had arranged
+          a sale or a human treatment.” <strong>“Is the Grail a cup?”</strong> “The stolen object is the
+          sealed reserve. Corvi can tell you what he believes its origin to be.” <strong>“Who else wants
+          it?”</strong> “The houses have reason to fear its uncontrolled use. Expect people acting for them
+          to seek it.” He will confirm the existence of organized vampire interests and ask for a clinical
+          report; he does not give a proven history of the blood, all exposure mechanics or a list of covert
+          operatives.</p> <p>If the cell refuses Church contact, Petra can route the authenticated clinical
+          observations to a Covenant occult-medical duty officer, who confirms from Covenant threat records
+          that vampire communities predate this event and that recognized houses act through intermediaries.
+          This requires the specialist callback, not Petra suddenly becoming an expert. If the party
+          declines both contacts, the broker can explicitly acknowledge that his patrons are one such house
+          when asked why they fear the reserve; label that as his claim until corroborated. Offer the
+          discovery through these reachable people, without forcing a call or disclosing Claudia’s
+          allegiance.</p> <p><strong>What the players should now understand:</strong> the case carries
+          dangerous blood; it made Hausmann a vampire; established vampires have interests in the same
+          reserve; a broker offering refuge and another purchase is therefore worth investigating. Which
+          patron he serves, why the blood affects existing vampires differently, and what Claudia will do
+          remain later discoveries.</p> <p>After the verified authority call, give
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.2Ai06nmzdOoBVUdV]{I55 — Authority
+          Call — The Other Vampires}. Its timing is after the clinical discovery; the earlier fax packet
+          contains no vampire disclosure.</p><h3>Optional pressure — the Church wants custody</h3> <p>Use
+          this only if the Alliance track or established surveillance supports a team arriving. It is one
+          negotiable pressure scene, not a second mandatory battle before the train. Telegraph the car or
+          the receptionist’s announcement while the medical handover is being arranged. The default demand
+          is custody of remaining clinical material, recipient names and Graf’s records.</p>
+          <blockquote><p>“We understand a recipient survived. We need the material secured and the names of
+          anyone exposed. Who is responsible for this ward?”</p></blockquote> <p>The team can verify its
+          authority through Sabbatini’s established office. The cell can negotiate joint custody, retain
+          authenticated duplicates, offer a sealed inventory and request an independent medical observer. If
+          Church custody is unacceptable, call Petra and Sabbatini with a specific alternative. Sabbatini
+          can authorize a stand-down or monitored quarantine. His concern is uncontrolled replication and
+          the fragile settlement, not an automatic order to murder everyone who knows the secret.</p>
           <blockquote><p>Sabbatini, if directly asked why a surviving patient matters: “We have spent
           generations keeping the numbers steady. If one undivided dose creates another outside that
           agreement, we must know how many doses are still moving.”</p></blockquote> <p>This statement opens
           the political question. It does not prove a sacred origin or a cure. The broker’s fear of imposed
-          “treatment” and Corvi’s historical claims can be explored later. Do not deliver the whole cosmology
-          as a prerequisite to buying tickets.</p>
+          “treatment” and Corvi’s historical claims can be explored later. Do not deliver the whole
+          cosmology as a prerequisite to buying tickets.</p>
           <p>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.OvqUML75EHpXFQ0P]{I31 —
           Sonnenberg, Observed} shows a car with plate SCV 47 outside a blacked-out clinic; its camera and
           thermos are in the observer’s foreground. Show the photograph only if an established observer
           actually obtained and supplied it, and only when the blackout exists. Otherwise describe what the
           cell sees on the road. A plate warrants identification; it does not prove a murder order. The Grey
           Watcher is present only if his actual movements put him here. If caught, he can trade something he
-          observed, not the entire unseen case history.</p> <h3>Scene 8 — Return to Zurich HB and board toward
-          Turin</h3><p><strong>DA assets:</strong>
+          observed, not the entire unseen case history.</p> <h3>Scene 8 — Return to Zurich HB and board
+          toward Turin</h3><p><strong>DA assets:</strong>
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.JdEbI0D8H7Vju6im]{TM16 — Train
           compartment} ·
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-sfx.Playlist.wxpL4Q4Ozfnvh71z]{Sound
@@ -1779,55 +1879,56 @@
           src="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-rail-corridor.mp3"></audio> <a
           href="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-rail-corridor.mp3">Open sound</a>.
           Keep beds quiet; stings only when the described event occurs.</p> <p>When the party chooses to
-          pursue the lead, Petra books the next workable <strong>Zurich–Turin rail itinerary with any required
-          connections</strong> and a Turin station pickup if requested. The clinic car or another booked
-          vehicle returns them to Zurich HB. Do not invent a direct service or re-use the Rome–Geneva EC 30
-          ticket. Use the campaign timetable; reserve under an hour for the clinic-to-station road leg, then
-          state the actual selected departure, connections and arrival estimate before advancing time.</p>
-          <p>The intermediary confirms a meeting window that accommodates the agreed journey. If he can only
-          hold Corvi until a particular time, tell the players before they choose between care and pursuit;
-          they can call Corvi, negotiate a delay or change transport. Missing a connection changes time and
-          contact arrangements. It does not make the entire Lingotto lead vanish.</p> <p><strong>Petra’s
-          departure readback:</strong> “Car from the clinic to Zurich main station. Then your booked service
-          toward Turin, with the connections on the itinerary. Your contact is the Lingotto freight office,
-          extension 418, supervisor’s booth. I have [named person] responsible for the clinic and [named
-          person] holding your duplicate records. Tell me which part is still unconfirmed.”</p> <p>If frontier
-          scrutiny is already active, Petra warns of the specific document or custody problem before departure
-          and helps seek clearance or another route. Do not spring an unavoidable border seizure merely
-          because it is time for the next chapter. A cold shielded case or clinical sample needs its own
-          confirmed transport plan; it is not ordinary hand luggage by default.</p> <p>Give
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.SQSfCR6mxHrJY1Kt]{I54 — Petra Fax —
-          Clinic Handover and Rail Plan} as a dated record of the agreed handover and itinerary. This stays on
-          the case board so the players can check who holds each responsibility.</p><h4>Departure check — what
-          the players can now say</h4> <ul><li><strong>Why Sonnenberg mattered:</strong> it connects the paid
-          proposal in Geneva to a named patient, physician and actual treatment state.</li><li><strong>Where
-          Corvi went:</strong> S1 and the driver establish his departure with the case to Zurich HB; S3
-          establishes his intended Lingotto meeting; a live callback establishes whatever the broker or Corvi
-          can currently confirm.</li><li><strong>What remains:</strong> eleven intact phials at Graf’s last
-          witnessed count after one administration. Do not subtract trace samples or an unaccepted second
-          sale.</li><li><strong>Why Turin:</strong> the reachable intermediary can bring them to Corvi or
-          explain the proposed buyer, at a named meeting location with practical
-          directions.</li><li><strong>Who remains responsible:</strong> name the patient’s clinician, witness
-          protection contact and evidence custodian, or openly record what was left unresolved.</li></ul>
-          <blockquote><p>The clinic road falls away behind the car. At Zurich station, the driver hands over
-          the luggage and the platform instructions. Among your papers are a doctor’s signed account, the
-          record of a man leaving with a metal case, and a contact who has agreed to speak in Turin. When the
-          train moves, you know what you are following—and who is still waiting for help behind
-          you.</p></blockquote> <p><strong>Stop here, aboard the booked train toward Turin.</strong> Continue
-          with <strong>Lingotto — Hear Corvi, Decide Custody</strong> on arrival, carrying forward the agreed
-          meeting, Corvi’s actual location, the count and Claudia’s actual freedom of action. If custody was
-          settled at Sonnenberg, use the next chapter’s confrontation questions where that settlement occurs
-          and follow the remaining buyer lead only if the players choose it.</p> <h3>If the sequence
-          stalls</h3> <table><thead><tr><th>Problem</th><th>Available route forward</th><th>Consequence that
-          remains</th></tr></thead><tbody> <tr><td>Graf will not release originals</td><td>Take her account
-          and authenticated copies; reception’s S1/S3 still identify the movement and
-          contact.</td><td>Physical clinical evidence remains with its named custodian.</td></tr> <tr><td>Graf
-          is unavailable or dead through actual events</td><td>The duty clinician can interpret existing
-          charts; reception can authenticate its own records. No witness invents Graf’s unrecorded
-          thoughts.</td><td>Some causation or culpability remains uncertain; the destination does not depend
-          on her survival.</td></tr> <tr><td>The telephone message was destroyed</td><td>If she survives, the
-          receptionist recalls the forwarding contact she wrote; otherwise use Corvi’s contact slip if
-          actually recovered or a real retained
+          pursue the lead, Petra books the next workable <strong>Zurich–Turin rail itinerary with any
+          required connections</strong> and a Turin station pickup if requested. The clinic car or another
+          booked vehicle returns them to Zurich HB. Do not invent a direct service or re-use the Rome–Geneva
+          EC 30 ticket. Use the campaign timetable; reserve under an hour for the clinic-to-station road
+          leg, then state the actual selected departure, connections and arrival estimate before advancing
+          time.</p> <p>The intermediary confirms a meeting window that accommodates the agreed journey. If
+          he can only hold Corvi until a particular time, tell the players before they choose between care
+          and pursuit; they can call Corvi, negotiate a delay or change transport. Missing a connection
+          changes time and contact arrangements. It does not make the entire Lingotto lead vanish.</p>
+          <p><strong>Petra’s departure readback:</strong> “Car from the clinic to Zurich main station. Then
+          your booked service toward Turin, with the connections on the itinerary. Your contact is the
+          Lingotto freight office, extension 418, supervisor’s booth. I have [named person] responsible for
+          the clinic and [named person] holding your duplicate records. Tell me which part is still
+          unconfirmed.”</p> <p>If frontier scrutiny is already active, Petra warns of the specific document
+          or custody problem before departure and helps seek clearance or another route. Do not spring an
+          unavoidable border seizure merely because it is time for the next chapter. A cold shielded case or
+          clinical sample needs its own confirmed transport plan; it is not ordinary hand luggage by
+          default.</p> <p>Give
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.SQSfCR6mxHrJY1Kt]{I54 — Petra Fax
+          — Clinic Handover and Rail Plan} as a dated record of the agreed handover and itinerary. This
+          stays on the case board so the players can check who holds each responsibility.</p><h4>Departure
+          check — what the players can now say</h4> <ul><li><strong>Why Sonnenberg mattered:</strong> it
+          connects the paid proposal in Geneva to a named patient, physician and actual treatment
+          state.</li><li><strong>Where Corvi went:</strong> S1 and the driver establish his departure with
+          the case to Zurich HB; S3 establishes his intended Lingotto meeting; a live callback establishes
+          whatever the broker or Corvi can currently confirm.</li><li><strong>What remains:</strong> eleven
+          intact phials at Graf’s last witnessed count after one administration. Do not subtract trace
+          samples or an unaccepted second sale.</li><li><strong>Why Turin:</strong> the reachable
+          intermediary can bring them to Corvi or explain the proposed buyer, at a named meeting location
+          with practical directions.</li><li><strong>Who remains responsible:</strong> name the patient’s
+          clinician, witness protection contact and evidence custodian, or openly record what was left
+          unresolved.</li></ul> <blockquote><p>The clinic road falls away behind the car. At Zurich station,
+          the driver hands over the luggage and the platform instructions. Among your papers are a doctor’s
+          signed account, the record of a man leaving with a metal case, and a contact who has agreed to
+          speak in Turin. When the train moves, you know what you are following—and who is still waiting for
+          help behind you.</p></blockquote> <p><strong>Stop here, aboard the booked train toward
+          Turin.</strong> Continue with <strong>Lingotto — Hear Corvi, Decide Custody</strong> on arrival,
+          carrying forward the agreed meeting, Corvi’s actual location, the count and Claudia’s actual
+          freedom of action. If custody was settled at Sonnenberg, use the next chapter’s confrontation
+          questions where that settlement occurs and follow the remaining buyer lead only if the players
+          choose it.</p> <h3>If the sequence stalls</h3> <table><thead><tr><th>Problem</th><th>Available
+          route forward</th><th>Consequence that remains</th></tr></thead><tbody> <tr><td>Graf will not
+          release originals</td><td>Take her account and authenticated copies; reception’s S1/S3 still
+          identify the movement and contact.</td><td>Physical clinical evidence remains with its named
+          custodian.</td></tr> <tr><td>Graf is unavailable or dead through actual events</td><td>The duty
+          clinician can interpret existing charts; reception can authenticate its own records. No witness
+          invents Graf’s unrecorded thoughts.</td><td>Some causation or culpability remains uncertain; the
+          destination does not depend on her survival.</td></tr> <tr><td>The telephone message was
+          destroyed</td><td>If she survives, the receptionist recalls the forwarding contact she wrote;
+          otherwise use Corvi’s contact slip if actually recovered or a real retained
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.Uanb3MKR6vPcGHq5]{I08 — The Swiss
           PTT Intercept Tape} intercept. A driver supplies only the station, then Petra can pursue a travel
           inquiry with a stated delay.</td><td>If all sources have been lost, do not conjure a perfect fax.
@@ -1836,24 +1937,25 @@
           staff or observe, or ask Graf to send a limited clinical message inviting a callback.</td><td>The
           meeting is unconfirmed and the broker may be guarded.</td></tr> <tr><td>No PTT recording
           exists</td><td>Use S1, S3 and the live callback. They form the complete primary route.</td><td>No
-          quoted historical call or extra proof of the eleven-vessel offer.</td></tr> <tr><td>The party keeps
-          Corvi and the case at Sonnenberg</td><td>Resolve his explanation and custody here; use the broker
-          contact as a voluntary investigation into the intended buyer.</td><td>The campaign changes because
-          the recovery succeeded. No mandatory theft resets it.</td></tr> </tbody></table> <h3>DA pacing and
-          photograph checks</h3> <p>Allow about ten minutes for travel preparation, fifteen for reception,
-          twenty to forty for the ward choice, twenty for Graf’s evidence, and twenty to thirty for the
-          callback, care plan and departure. These are table-time guides, not additional clock costs. The
-          optional Church scene can replace another pressure scene; it need not lengthen every session.</p>
+          quoted historical call or extra proof of the eleven-vessel offer.</td></tr> <tr><td>The party
+          keeps Corvi and the case at Sonnenberg</td><td>Resolve his explanation and custody here; use the
+          broker contact as a voluntary investigation into the intended buyer.</td><td>The campaign changes
+          because the recovery succeeded. No mandatory theft resets it.</td></tr> </tbody></table> <h3>DA
+          pacing and photograph checks</h3> <p>Allow about ten minutes for travel preparation, fifteen for
+          reception, twenty to forty for the ward choice, twenty for Graf’s evidence, and twenty to thirty
+          for the callback, care plan and departure. These are table-time guides, not additional clock
+          costs. The optional Church scene can replace another pressure scene; it need not lengthen every
+          session.</p>
           <p>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.p51PQ2RP2raSDBHp]{I27 — Intake
           Photograph, 09-H} shows the intake baseline.
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.1dPSK2h5z6DX5Eab]{I28 — Photophobia
-          Test 02:40} shows the later patient and a XII-1/12 tag; a still image alone cannot prove pupil
-          response. @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.VMoT17MWZ543rWHe]{I29 —
-          The Injection Log} visibly leaves patient and time fields blank, so always pair it with the
-          separately signed S2.
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.QEO98GDqJtZlL08l]{I30 — Ward 3,
-          Corridor Camera} shows a ceiling figure, damaged lights and a wheelchair by the wall; do not call
-          the chair overturned or use its 02:40 timestamp as elapsed time since injection.
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.1dPSK2h5z6DX5Eab]{I28 —
+          Photophobia Test 02:40} shows the later patient and a XII-1/12 tag; a still image alone cannot
+          prove pupil response.
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.VMoT17MWZ543rWHe]{I29 — The
+          Injection Log} visibly leaves patient and time fields blank, so always pair it with the separately
+          signed S2. @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.QEO98GDqJtZlL08l]{I30
+          — Ward 3, Corridor Camera} shows a ceiling figure, damaged lights and a wheelchair by the wall; do
+          not call the chair overturned or use its 02:40 timestamp as elapsed time since injection.
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.F6S9nFRmRvOKLqLf]{I32 — Daylight
           Test: Combustion} shows the result of a residue test, not a second consumed vessel. The old
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.dypD1aQAOBWpTyg0]{I11 — The

@@ -38,5 +38,13 @@ const journals=await load('journals'),walk=journals.find(d=>d._id==='sangreal-jo
 assert(walk.pages[3].text.content.includes('Scene 2 — Mercier’s problem'));
 assert(walk.pages[3].text.content.includes('What Petra can provide about Sonnenberg'));
 assert(walk.pages[3].text.content.includes('Stop this segment here.'));
+const clinic=walk.pages[4].text.content;
+assert(clinic.includes('sealed envelope at Zurich HB'));
+assert(clinic.indexOf('Default arrival — red alert') < clinic.indexOf('Ward Three — blood'));
+assert(clinic.indexOf('Ward Three — blood') < clinic.indexOf('Scene 4 — Graf’s account'));
+assert(clinic.includes('Claudia’s breakdown — Sang real'));
+assert(clinic.includes('northwest stairwell or northeast lift'));
+for(const number of [57,58,59,60]) assert.equal(clues.filter(card=>card.system.cardId===`I-${number}`).length,1);
+for(const number of [57,58]) assert(!/vampir|blood of Christ|dead intern/i.test(clues.find(card=>card.system.cardId===`I-${number}`).system.content));
 assert(walk.pages[6].text.content.includes('refused'));assert(walk.pages[8].text.content.includes('Intervene'));
 console.log(`PASS: ${refs} inline module links and ${media} media references resolve; cipher yields GENEUA / UBS / HAUSMANN / DDKI / C → GENEVA / UBS / HAUSMANN / 4409 / C; matching clocks and 24 photo cards.`);

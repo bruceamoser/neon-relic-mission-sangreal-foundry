@@ -31,7 +31,7 @@ const SRC_PACKS = path.join(ROOT, 'src', 'packs');
 const EXPECTED_DOCS = {
   'sangreal-briefs': 4,
   'sangreal-npcs': 16,
-  'sangreal-clues': 88,
+  'sangreal-clues': 92,
   'sangreal-portraits': 14,
   'sangreal-investigator-photos': 24,
   'sangreal-sites': 9,

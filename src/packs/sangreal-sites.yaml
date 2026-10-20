@@ -221,6 +221,10 @@
       - sangreal-session-i53
       - sangreal-session-i54
       - sangreal-session-i55
+      - sangreal-session-i57
+      - sangreal-session-i58
+      - sangreal-session-i59
+      - sangreal-session-i60
     npcSlugs:
       - sangreal-npc-graf
       - sangreal-npc-hausmann
@@ -229,35 +233,36 @@
       The Geneva escrow and Graf callback lead here after the injection; reception and clinical records
       connect Corvi to his Turin contact.
     description: >-
-      <figure><img src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-clinic-arrival.webp"
-      alt="TM06 — Sonnenberg forest approach" style="width:100%;height:auto"><figcaption>TM06 — Sonnenberg
-      forest approach</figcaption></figure><h3>Situation</h3><p>Reachable through the escrow, named patient,
-      or clinical contact. State changes with actual treatment timing.</p><p>Run the <strong>Sonnenberg — A
+      <figure><img
+      src="modules/neon-relic-mission-sangreal/assets/art/scenes/totm/tm-clinic-arrival.webp" alt="TM06
+      — Sonnenberg forest approach" style="width:100%;height:auto"><figcaption>TM06 — Sonnenberg forest
+      approach</figcaption></figure><h3>Situation</h3><p>Reachable through the escrow, named patient, or
+      clinical contact. State changes with actual treatment timing.</p><p>Run the <strong>Sonnenberg — A
       Patient Before a Monster</strong> chapter in
       @UUID[Compendium.neon-relic-mission-sangreal.sangreal-journals.JournalEntry.1jFv8DVo6EW0AEkG]{SANGREAL-87-091
       — DA Walkthrough}. That chapter supplies the arrival, questions, choices, NPC responses, and
       exits.</p><h3>Evidence</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.SilYzv6luOt5X6Am]{I07
       — Patient File
-      09-H}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.Uanb3MKR6vPcGHq5]{I08 —
-      The Swiss PTT Intercept
-      Tape}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.D18a1YRCEQu27KHw]{I09 —
-      Histopathology Log: Marrow
-      Graft}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.FIvSwaxBVCP0etIQ]{I10 —
-      The Vector Mechanics
-      (CT1)}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.dypD1aQAOBWpTyg0]{I11 —
-      The Resonance Field
-      (CT2)}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.9NpgA6XbC6AKGYEY]{I16 —
-      The Quiescence Formula
-      (CT3)}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.p51PQ2RP2raSDBHp]{I27 —
-      Intake Photograph,
-      09-H}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.1dPSK2h5z6DX5Eab]{I28 —
-      Photophobia Test
-      02:40}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.VMoT17MWZ543rWHe]{I29 —
-      The Injection
-      Log}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.QEO98GDqJtZlL08l]{I30 —
-      Ward 3, Corridor
-      Camera}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.OvqUML75EHpXFQ0P]{I31 —
-      Sonnenberg,
+      09-H}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.Uanb3MKR6vPcGHq5]{I08
+      — The Swiss PTT Intercept
+      Tape}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.D18a1YRCEQu27KHw]{I09
+      — Histopathology Log: Marrow
+      Graft}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.FIvSwaxBVCP0etIQ]{I10
+      — The Vector Mechanics
+      (CT1)}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.dypD1aQAOBWpTyg0]{I11
+      — The Resonance Field
+      (CT2)}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.9NpgA6XbC6AKGYEY]{I16
+      — The Quiescence Formula
+      (CT3)}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.p51PQ2RP2raSDBHp]{I27
+      — Intake Photograph,
+      09-H}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.1dPSK2h5z6DX5Eab]{I28
+      — Photophobia Test
+      02:40}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.VMoT17MWZ543rWHe]{I29
+      — The Injection
+      Log}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.QEO98GDqJtZlL08l]{I30
+      — Ward 3, Corridor
+      Camera}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.OvqUML75EHpXFQ0P]{I31
+      — Sonnenberg,
       Observed}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.F6S9nFRmRvOKLqLf]{I32
       — Daylight Test:
       Combustion}</li></ul><h3>People</h3><ul><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.r5cnyNNmckVLRsOl]{Dr.
@@ -271,22 +276,29 @@
       ward}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jP9jheucndZOEHLE]{TM08
       — Surgical theatre
       refuge}</li><li>@UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jpOPWYTG4Yqt6hk4]{BM04
-      — Ward, theatre and lab}</li></ul><p>GM: import the scene, then view or activate it when appropriate.
-      Gridless; adjust token scale for your table. Maps expose room layouts.</p></section><h3>What Petra can
-      establish before arrival</h3><p>A private inpatient clinic outside Zurich on a wooded hillside, offering
-      oncology care, laboratory support and a small surgical theatre. Its public listing and prospectus
-      provide the switchboard, approach and visitor arrangements. Ask for Dr. Elizabeth Graf about the
-      preparation supplied for Kurt Hausmann. Petra can arrange a verified supplier-safety introduction, a
-      train to Zurich and a car to the main reception. Clinical doors remain controlled.</p><p>The bank
-      establishes Corvi’s intended visit with the case. A clinic callback confirms whether he is expected,
-      present or departed. Carry forward any agreed treatment hold. Patient records, current ward conditions
-      and Corvi’s onward contacts require a clinical witness or actual access.</p><h3>Current session and
-      onward route</h3><p>Arrive after the injection and completed twenty-four-hour conversion. Graf reveals
-      the reserve was twelve vessels of blood; Hausmann makes the human effect visible. I50 movement extract,
-      I51 treatment statement and I52 forwarding message connect the clinic to Corvi’s departure. Call the
-      broker for I53, obtain a patient/witness handover I54 and return by car to Zurich HB for rail toward
-      Turin. An authenticated authority call I55 establishes organized vampires; Claudia’s allegiance is not
-      revealed here.</p>
+      — Ward, theatre and lab}</li></ul><p>GM: import the scene, then view or activate it when
+      appropriate. Gridless; adjust token scale for your table. Maps expose room
+      layouts.</p></section><h3>What Petra can establish before arrival</h3><p>A private inpatient
+      clinic outside Zurich on a wooded hillside, offering oncology care, laboratory support and a small
+      surgical theatre. Its public listing and prospectus provide the switchboard, approach and visitor
+      arrangements. Ask for Dr. Elizabeth Graf about the preparation supplied for Kurt Hausmann. Petra
+      can arrange a verified supplier-safety introduction, a train to Zurich and a car to the main
+      reception. Clinical doors remain controlled.</p><p>The bank establishes Corvi’s intended visit
+      with the case. A clinic callback confirms whether he is expected, present or departed. Carry
+      forward any agreed treatment hold. Patient records, current ward conditions and Corvi’s onward
+      contacts require a clinical witness or actual access.</p><h3>Current session and onward
+      route</h3><p>Arrive after the injection and completed twenty-four-hour conversion. Graf reveals
+      the reserve was twelve vessels of blood; Hausmann makes the human effect visible. I50 movement
+      extract, I51 treatment statement and I52 forwarding message connect the clinic to Corvi’s
+      departure. Call the broker for I53, obtain a patient/witness handover I54 and return by car to
+      Zurich HB for rail toward Turin. An authenticated authority call I55 establishes organized
+      vampires; Claudia’s allegiance is not revealed here.</p><h3>Current session — red alert</h3><p>The
+      cell requests Dr. Graf at reception; the alarm reports a disturbance on her floor. Upstairs:
+      wounded Graf, a dead intern, flickering lights and Hausmann hiding in the corridor. Run the
+      existing actor on BM04; resolve death, window escape or successful containment. Graf’s explanation
+      and Claudia’s Sang real breakdown follow the fight. The Zurich driver’s sealed Petra packet
+      contains no vampire disclosure. I57–I60 preserve the background, delivery, incident and
+      debrief.</p>
     positiveResult: >-
       <p>The cell obtains the location’s core observation and a concrete next lead through a sensible search,
       cooperation, or another credible approach. Record changes to people, custody, and knowledge.</p>
