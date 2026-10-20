@@ -1,6 +1,6 @@
 # Mission: Sangreal Art Status
 
-Updated: 2026-10-15T19:39:24.389266+00:00
+Updated: 2026-10-20T16:49:23.614834+00:00
 
 Total production jobs: 72. Source-requested images: 62. Internal references: 10.
 NPC portraits: 16 (Watcher optional). Optional relics: 3. Intel: 43.
@@ -135,6 +135,7 @@ No generation or QA result is inferred from a prompt. READY authorizes job prepa
 ## Versioned revision history
 
 - **npc-corvi / text-v2**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/npc-corvi-text-v2.webp). Approved original preserved.
+- **npc-hausmann / vampire-combat-20261020**: visual QA APPROVED; human review NOT_REVIEWED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/src/assets/art/npc-hausmann-vampire.webp). Approved original preserved.
 - **R06 / hand-incised-v2**: visual QA APPROVED; human review APPROVED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/R06-hand-incised-v2.webp). Approved original preserved.
 - **R06 / R06-corrected-cipher-20260918**: visual QA APPROVED; human review NOT_REVIEWED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/R06-corrected-cipher-20260918.webp). Approved original preserved.
 - **G01 / geneva-session-20261015**: visual QA APPROVED; human review NOT_REQUESTED. [Review image](/mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/composite/revisions/G01-geneva-session-20261015.webp). Approved original preserved.

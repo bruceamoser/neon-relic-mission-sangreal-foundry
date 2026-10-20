@@ -1,0 +1,18 @@
+asset: npc-hausmann
+revision: vampire-combat-20261020
+reviewer: Codex visual inspection
+date: '2026-10-20'
+result: PASS
+human_review: NOT_REVIEWED
+image: src/assets/art/npc-hausmann-vampire.webp
+sha256: 8d9fa18a1d2a0f7415926e07e046a606cc984d09099b4d7bb608fdc10034079b
+dimensions: [1122, 1402]
+generation_tool: built-in image_gen
+observations:
+  identity: Same elderly gaunt face, broad forehead, receding patchy grey hair and facial lines as approved Hausmann and intake 09-H.
+  transformation: Black dilated pupils, grey mottled skin, two visible upper fangs, restrained dried blood at lips and on clawlike nails.
+  hands: Two plausible hands with five fingers each; natural bent gripping poses, no duplicated or fused digits.
+  continuity: Gold left wristwatch, dirty charcoal tailored suit, loosened tie and torn open white collar remain visible.
+  setting: One figure in an olive clinic corridor beneath fluorescent lighting; no modern devices, text, watermark, panels or extra figures.
+  crop: Face and both hands are readable in the portrait; face remains legible in a centered square token crop.
+  shipping: WebP quality 90 conversion inspected separately; original generated PNG retained and original approved Hausmann portrait unchanged.

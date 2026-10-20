@@ -1,0 +1,16 @@
+asset: npc-hausmann
+revision: vampire-combat-20261020
+attempt: 1
+operation: generate-variant
+started_at: '2026-10-20'
+model: built-in image_gen
+prompt_file: art/prompts/npc-hausmann-vampire-20261020.md
+references:
+  - src/assets/art/npc-hausmann.webp
+  - src/assets/art/intel/i27-hausmann-intake.webp
+output_image: /home/bruce/.codex/generated_images/01a159a8-a8b3-7b31-a661-26aa93430ade/exec-42a438fa-a211-4288-92af-e25b8b5fd4ed.png
+output_sha256: 299244d6db26945e384f8a40f2ab3459afd948109f6d5e69389d3e7cfcc581fd
+shipping_image: src/assets/art/npc-hausmann-vampire.webp
+shipping_sha256: 8d9fa18a1d2a0f7415926e07e046a606cc984d09099b4d7bb608fdc10034079b
+qa_result: APPROVED
+original_approved_asset_preserved: true

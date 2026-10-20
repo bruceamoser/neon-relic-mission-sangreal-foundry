@@ -37,6 +37,10 @@ The module is built exclusively for the *Neon Relic* system. If it is enabled in
 | Scene | 27 backgrounds — *Sangreal Landing* (landing-page behaviour) plus 16 theater-of-the-mind views and 10 gridless battle maps, each on a Foundry v14 Level; the **Scene Art — GM Index** page catalogues them |
 | Sound effects | **Sangreal Sound Effects** — a 25-track playlist (looping ambience beds, props and stings) cued beat-by-beat, with the **Sound Effects — Cue Sheet** page in the DA Walkthrough; licensing record ships in `assets/audio/CREDITS.md` |
 
+## Version 1.18.0
+
+Adds **Kurt Hausmann — Newly Made Vampire**, a distinct solo combat actor for five armed investigators, with claw and bite weapons, six ability items, and a new portrait. The DA walkthrough uses this profile for Ward Three. See the [combat reference](docs/hausmann-vampire-combat.md) for action timing and manual tracking, and [release notes](docs/release-1.18.0.md).
+
 ## Version 1.17.0
 
 The next session begins aboard Petra’s Geneva–Zurich train. The booked driver delivers her sealed briefing; Sonnenberg reception’s red alert leads to a young-vampire fight, Graf’s blood disclosure and Claudia’s Sang real breakdown. Four new cards (I57–I60) preserve the briefing, incident and recovery objective. See [release notes](docs/release-1.17.0.md).

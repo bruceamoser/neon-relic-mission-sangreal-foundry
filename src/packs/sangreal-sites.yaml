@@ -228,6 +228,7 @@
     npcSlugs:
       - sangreal-npc-graf
       - sangreal-npc-hausmann
+      - sangreal-npc-hausmann-vampire
     availability: clue
     availabilityCondition: >-
       The Geneva escrow and Graf callback lead here after the injection; reception and clinical records

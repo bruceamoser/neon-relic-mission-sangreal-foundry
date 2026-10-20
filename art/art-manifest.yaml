@@ -443,6 +443,18 @@ assets:
       approved_at: '2026-09-16T19:23:58.773335+00:00'
       reviewer: Codex visual inspection
       final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/npc-hausmann-attempt-002-final.yaml
+  revisions:
+  - id: vampire-combat-20261020
+    status: INTEGRATED
+    image: src/assets/art/npc-hausmann-vampire.webp
+    sha256: 8d9fa18a1d2a0f7415926e07e046a606cc984d09099b4d7bb608fdc10034079b
+    prompt_file: art/prompts/npc-hausmann-vampire-20261020.md
+    provenance: art/work/history/npc-hausmann-vampire-20261020.yaml
+    qa_report: art/qa/npc-hausmann-vampire-20261020.yaml
+    visual_qa: APPROVED
+    human_review: NOT_REVIEWED
+    reviewer: Codex
+    evidence: User requested a separate vampire combat NPC and image; original approved portrait preserved.
 - id: npc-basarab-elder
   name: npc-basarab-elder
   category: npc
@@ -7052,7 +7064,7 @@ assets:
     approved_at: '2026-09-16T16:56:52.260356+00:00'
     reviewer: Codex final visual QA
     final_qa: /mnt/disk4/repos/neon-relic-mission-sangreal-foundry/art/qa/ref-sonnenberg-logo-attempt-001-final.yaml
-updated_at: '2026-10-15T19:39:24.389266+00:00'
+updated_at: '2026-10-20T16:49:23.614834+00:00'
 review_feedback:
 - at: '2026-09-16T17:56:35.485305+00:00'
   reviewer: Bruce

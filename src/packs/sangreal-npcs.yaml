@@ -723,3 +723,237 @@
     goal: Sell verifiable observations and remain outside the violence.
     positiveResult: A transaction or credible leverage yields one authenticated image or movement record.
     negativeResult: He leaves. Do not insert him into the C-series ordinary photos or every image the players take.
+
+- _id: sangreal-npc-hausmann-vampire
+  name: Kurt Hausmann — Newly Made Vampire
+  type: npc
+  img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann-vampire.webp
+  prototypeToken:
+    name: Hausmann — Vampire
+    actorLink: false
+    disposition: -1
+    width: 1
+    height: 1
+    texture:
+      src: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann-vampire.webp
+    displayName: 20
+  system:
+    tier: 4
+    description: >-
+      <h2>Five-investigator combat profile</h2><p>Newly transformed Hausmann, gaunt grey skin, black
+      pupils, fangs, torn charcoal suit and gold left wristwatch. Place him in the actual dark Ward
+      Three corridor position before initiative. Graf is wounded; the intern is already dead. Use
+      this actor instead of the earlier Feral Banker for the default five-person
+      combat.</p><table><tr><th>STR</th><th>AGI</th><th>WIT</th><th>EMP</th><th>Armor</th><th>Fear</th></tr><tr><td>7</td><td>5</td><td>3</td><td>1</td><td>2</td><td>2
+      / 3 after feeding</td></tr></table><p><strong>Skills:</strong> Brawl 4, Force 4, Sneak 3,
+      Investigate 2. Initial Brawl pool 11, or 13 with Blood Frenzy. Reduce pools as current STR
+      falls. <strong>Damage:</strong> claws 2; bite 3, only with a grapple already held from an
+      earlier action and only on the main activation. Extra successes use normal stunts. No free
+      bite on a grapple.</p><h3>DA tracking</h3><p>NPC STR is a number, not an agent-style value/max
+      object. Reduce current STR from 7 by resolved Physical Damage. At 0 he is Broken, cannot
+      attack and loses his extra activation; finish/death follows normal rules. The current system
+      damage helper handles agents only, so adjust this NPC on the sheet manually. Embedded talents
+      list the complete manual encounter rules; they do not install automation. Select STR and
+      supply Brawl 4 in the roll dialog for attacks, plus the conditional +2 when
+      warranted.</p><h3>Ability reference</h3><h4>Blood Frenzy</h4><p>+2 Brawl dice against a target
+      currently carrying Physical Damage. Add once to claws, bite or grapple; no bonus for mere
+      bloodstains. Full-strength pool 13; otherwise current STR + Brawl 4 + 2.</p><h4>Unnatural
+      Tissue — Ballistic Resistance</h4><p>Resolve normal Armor 2, then halve remaining ballistic
+      Physical Damage, rounding up. A successful brainstem called shot under the normal targeting
+      procedure bypasses halving, not armor. No resistance to melee, fire or other damage types.
+      Manual adjudication.</p><h4>Feral Surge — Two Initiative Activations</h4><p>Solo encounter
+      rule for five armed investigators. Draw two initiative cards for this one actor. First
+      activation: normal action allowance. Second: one Slow Action only, for claws, grapple, shove,
+      disarm or movement up to one zone. No bite or extra Fast Action. At most two attacks per
+      round. Share all position, damage and conditions; restrictions affect both slots. No
+      activation while Broken. Record the second card manually if necessary; never add another
+      token.</p><h4>Wall-Crawler</h4><p>Move on solid walls and ceilings using normal movement
+      actions and distance. No free movement, disengagement, automatic concealment or teleportation.
+      Grapples and barriers still apply. Telegraph with scraping and an observable
+      position.</p><h4>Light Vulnerability</h4><p>Direct sunlight or focused UV causes 2 unsoakable
+      Physical Damage per round of actual exposure, once per round across both activations. Ordinary
+      fluorescent lamps and flashes cause no damage. No spontaneous daylight in the nighttime
+      encounter.</p><h4>Hunger, Fear and Flight</h4><p>Fear 2; escalate to 3 when the first bite
+      visibly feeds, using normal Fear timing rather than a new check every activation. Bite grants
+      no healing or automatic infection. At current STR 3 or lower, or with victims sealed away,
+      prioritize the room 3.14 window. Breaking glass and escape require actions and permit
+      interception. No regeneration or reconstitution.</p><h3>Tactics and
+      counterplay</h3><p>Telegraph the scrape and silhouette before normal awareness, Fear and
+      initiative. He targets exposed wounded people; investigators can interpose, move Graf into the
+      southeast theatre or deny his path. Firearms still work, particularly concentrated fire; melee
+      bypasses ballistic halving. Restraint, doors and bright illumination of his actual position
+      matter. Never invent UV equipment or claw-transmitted infection.</p><p>BM04 has northwest
+      stairs and a northeast lift. The middle north patient room is 3.14 with the exterior window.
+      Telegraph his escape intent, then spend actions reaching and breaking the window. An
+      intercepted escape fails. No hidden relocation, extra monster or revival. If fewer than five
+      cell members enter, omit Feral Surge before drawing initiative and record the chosen
+      version.</p>
+    attributes:
+      str: 7
+      agi: 5
+      wit: 3
+      emp: 1
+    skills:
+      brawl: 4
+      force: 4
+      sneak: 3
+      investigate: 2
+    armorRating: 2
+    fearRating: 2
+    escalatedFearRating: 3
+    corruptionStage: 3
+    disposition: 5
+    tags:
+      - sangreal
+      - vampire
+      - solo-combat
+    secret: Hausmann received one phial as cancer treatment. He did not consent to becoming a vampire.
+    goal: Feed while blood is exposed; escape into the night once hurt or denied victims.
+    positiveResult: >-
+      The cell kills or contains him, or denies his victims and forces an interceptable escape
+      attempt.
+    negativeResult: He injures exposed investigators and may escape through room 3.14 if the route is open.
+    dissolutionMethod: No regeneration or reconstitution. Resolve Broken and lethal injuries normally.
+  items:
+    - _id: rqXAAO6jHq4JbcHv
+      name: Raking Claws
+      type: weapon
+      img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann-vampire.webp
+      system:
+        damage: 2
+        range: engaged
+        skill: brawl
+        targetAttribute: str
+        gearBonus:
+          value: 0
+          max: 0
+        encumbrance: 0
+        worn: true
+        description: >-
+          <p>Slow Action; current STR + Brawl 4, plus Blood Frenzy if applicable. Engaged range.
+          Base Physical Damage 2. Maneuvers replace damage unless normal stunts explicitly allow
+          otherwise.</p>
+    - _id: fPfrOzsLDacwgtRY
+      name: Ravenous Bite
+      type: weapon
+      img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann-vampire.webp
+      system:
+        damage: 3
+        range: engaged
+        skill: brawl
+        targetAttribute: str
+        gearBonus:
+          value: 0
+          max: 0
+        encumbrance: 0
+        worn: true
+        description: >-
+          <p>Main activation Slow Action only. Requires a grapple already held from an earlier
+          action. Current STR + Brawl 4, plus Blood Frenzy if applicable. Base Physical Damage 3,
+          normal defense and armor. No healing, free grapple or automatic infection.</p>
+    - _id: 3Mj3gvSNrrlm8kMA
+      name: Blood Frenzy
+      type: talent
+      img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann-vampire.webp
+      system:
+        talentType: general
+        frequency: at-will
+        effect: >-
+          <p>+2 Brawl dice against a target currently carrying Physical Damage. Add once to claws,
+          bite or grapple; no bonus for mere bloodstains. Full-strength pool 13; otherwise current
+          STR + Brawl 4 + 2.</p>
+        description: >-
+          <p>+2 Brawl dice against a target currently carrying Physical Damage. Add once to claws,
+          bite or grapple; no bonus for mere bloodstains. Full-strength pool 13; otherwise current
+          STR + Brawl 4 + 2.</p>
+        corruptionCost: 0
+    - _id: 3UnHBQ0RJf7olQvG
+      name: Unnatural Tissue — Ballistic Resistance
+      type: talent
+      img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann-vampire.webp
+      system:
+        talentType: general
+        frequency: at-will
+        effect: >-
+          <p>Resolve normal Armor 2, then halve remaining ballistic Physical Damage, rounding up. A
+          successful brainstem called shot under the normal targeting procedure bypasses halving,
+          not armor. No resistance to melee, fire or other damage types. Manual adjudication.</p>
+        description: >-
+          <p>Resolve normal Armor 2, then halve remaining ballistic Physical Damage, rounding up. A
+          successful brainstem called shot under the normal targeting procedure bypasses halving,
+          not armor. No resistance to melee, fire or other damage types. Manual adjudication.</p>
+        corruptionCost: 0
+    - _id: Qbf39tPUaluHbJp7
+      name: Feral Surge — Two Initiative Activations
+      type: talent
+      img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann-vampire.webp
+      system:
+        talentType: general
+        frequency: at-will
+        effect: >-
+          <p>Solo encounter rule for five armed investigators. Draw two initiative cards for this
+          one actor. First activation: normal action allowance. Second: one Slow Action only, for
+          claws, grapple, shove, disarm or movement up to one zone. No bite or extra Fast Action. At
+          most two attacks per round. Share all position, damage and conditions; restrictions affect
+          both slots. No activation while Broken. Record the second card manually if necessary;
+          never add another token.</p>
+        description: >-
+          <p>Solo encounter rule for five armed investigators. Draw two initiative cards for this
+          one actor. First activation: normal action allowance. Second: one Slow Action only, for
+          claws, grapple, shove, disarm or movement up to one zone. No bite or extra Fast Action. At
+          most two attacks per round. Share all position, damage and conditions; restrictions affect
+          both slots. No activation while Broken. Record the second card manually if necessary;
+          never add another token.</p>
+        corruptionCost: 0
+    - _id: 23emqirWlRD6CONM
+      name: Wall-Crawler
+      type: talent
+      img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann-vampire.webp
+      system:
+        talentType: general
+        frequency: at-will
+        effect: >-
+          <p>Move on solid walls and ceilings using normal movement actions and distance. No free
+          movement, disengagement, automatic concealment or teleportation. Grapples and barriers
+          still apply. Telegraph with scraping and an observable position.</p>
+        description: >-
+          <p>Move on solid walls and ceilings using normal movement actions and distance. No free
+          movement, disengagement, automatic concealment or teleportation. Grapples and barriers
+          still apply. Telegraph with scraping and an observable position.</p>
+        corruptionCost: 0
+    - _id: ND2f7WvhuSjqbCgz
+      name: Light Vulnerability
+      type: talent
+      img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann-vampire.webp
+      system:
+        talentType: general
+        frequency: at-will
+        effect: >-
+          <p>Direct sunlight or focused UV causes 2 unsoakable Physical Damage per round of actual
+          exposure, once per round across both activations. Ordinary fluorescent lamps and flashes
+          cause no damage. No spontaneous daylight in the nighttime encounter.</p>
+        description: >-
+          <p>Direct sunlight or focused UV causes 2 unsoakable Physical Damage per round of actual
+          exposure, once per round across both activations. Ordinary fluorescent lamps and flashes
+          cause no damage. No spontaneous daylight in the nighttime encounter.</p>
+        corruptionCost: 0
+    - _id: I1EQa8gc9kmEiFrr
+      name: Hunger, Fear and Flight
+      type: talent
+      img: modules/neon-relic-mission-sangreal/assets/art/npc-hausmann-vampire.webp
+      system:
+        talentType: general
+        frequency: at-will
+        effect: >-
+          <p>Fear 2; escalate to 3 when the first bite visibly feeds, using normal Fear timing
+          rather than a new check every activation. Bite grants no healing or automatic infection.
+          At current STR 3 or lower, or with victims sealed away, prioritize the room 3.14 window.
+          Breaking glass and escape require actions and permit interception. No regeneration or
+          reconstitution.</p>
+        description: >-
+          <p>Fear 2; escalate to 3 when the first bite visibly feeds, using normal Fear timing
+          rather than a new check every activation. Bite grants no healing or automatic infection.
+          At current STR 3 or lower, or with victims sealed away, prioritize the room 3.14 window.
+          Breaking glass and escape require actions and permit interception. No regeneration or
+          reconstitution.</p>
+        corruptionCost: 0

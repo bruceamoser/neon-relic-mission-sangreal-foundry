@@ -1422,8 +1422,8 @@
           enough to talk</h3><p><strong>DA assets:</strong>
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-scenes.Scene.jpOPWYTG4Yqt6hk4]{BM04 — Ward,
           theatre and lab} ·
-          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.nvLAec98ATgolJA9]{Kurt Hausmann
-          (The Feral Banker)} ·
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.2DAKqq3wrekrwp9z]{Kurt Hausmann —
+          Newly Made Vampire} ·
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-sfx.Playlist.wxpL4Q4Ozfnvh71z]{Sound
           playlist}</p><p><strong>Blacked-out ward ambience</strong> <audio controls preload="none"
           src="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-wind-sheeting.mp3"></audio> <a
@@ -1454,38 +1454,47 @@
           window <audio controls preload="none"
           src="modules/neon-relic-mission-sangreal/assets/audio/sfx/sfx-glass-break.mp3"></audio>. Trigger
           each only at its actual event; fade the alarm for dialogue.</p><h4>Run a young vampire, not an
-          invincible elder</h4><p>Use the existing Hausmann actor: STR 5, AGI 4, Brawl 4, Sneak 3, Force 3,
-          Armor 2, Fear 2. Blood Frenzy adds +2 dice against wounded targets. Ballistic weapons inflict half
-          damage unless targeting the brainstem under the system’s normal targeting rules. Direct sunlight
-          or focused UV inflicts 2 unsoakable Physical Damage each round. Resolve armor and damage using the
-          system; do not silently add regeneration, immunity, contagious claw wounds or a new infection
-          rule. Ordinary flickering fluorescent light provides visibility and discomfort, not UV damage. It
-          is night, so opening the curtains admits no sunlight.</p><p><strong>Before the first
-          strike:</strong> give the scrape and a glimpse of his shape; allow the system’s normal awareness,
-          fear and initiative procedures. Darkness affects perception by normal rules, without automatic
-          surprise. In the first exchange he drops toward the nearest exposed wounded person, including
-          Graf; an investigator who interposes becomes the immediate obstacle. He claws, grapples and tries
-          to get blood. Describe the first ineffective bullet or impossible burst of strength clearly so the
-          players can change tactics. He is newly transformed, frightened and ravenous; he has no elder
-          discipline or tactical omniscience.</p><p><strong>Useful actions:</strong> drag Graf into the
-          theatre and secure its door; cover the surviving nurse’s exit east toward the lift; illuminate a
-          specific hiding position; interpose a trolley as an obstacle; concentrate force; or fall back
-          behind a door while calling support. Use the visible BM04 doors and corridor. Do not require
-          vampire weapons the cell never had a chance to acquire. The guard has ordinary equipment and
-          follows their practical instructions; he does not solve the battle.</p><p><strong>Pressure and
-          exit:</strong> at the first serious wound, or when the party holds the corridor and denies access
-          to victims, Hausmann switches from feeding to flight. Telegraph his glance toward the exterior
-          window in room 3.14. He must cross the mapped corridor, enter that room, break its window and
-          climb/drop toward the wooded slope. Moving there and breaking glass use normal actions;
-          investigators may intercept, shoot, obstruct or pursue. Use the glass-break sting only when it
-          happens. If the map does not mark a window, identify this room’s exterior-wall window aloud before
-          play; it is an environmental feature, not a secret passage.</p><p><strong>End states:</strong> if
-          killed by resolved damage, he stays dead; if he reaches the window and gets clear, record an
-          escaped vampire, last sighting and a separate containment request to Petra. He leaves no automatic
-          ash pile. Do not force escape when the party blocks it or keep him alive after a legitimate kill.
-          A clever successful restraint is also honored. If the cell retreats, he seeks the night through
-          that same route rather than pursuing a compulsory total-party kill. Injuries carry forward;
-          stabilize the living before the explanation. No extra vampire arrives.</p><p>Share
+          invincible elder</h4><p>Use
+          @UUID[Compendium.neon-relic-mission-sangreal.sangreal-npcs.Actor.2DAKqq3wrekrwp9z]{Kurt Hausmann —
+          Newly Made Vampire} for the five armed investigators: STR 7, AGI 5, WIT 3, EMP 1; Brawl 4, Sneak
+          3, Force 4, Investigate 2; Armor 2, Fear 2/3 after feeding. At full strength, Brawl is 11 dice, or
+          13 against a wounded target. Claws deal base Physical Damage 2; bite deals 3 only against a target
+          he already grappled on an earlier action. Resolve normal armor first, then halve remaining
+          ballistic damage, rounding up; a normal successful brainstem called shot bypasses halving. Focused
+          UV or sunlight inflicts 2 unsoakable Physical Damage once per round. Draw two initiative cards for
+          this solo profile: first activation is normal; second permits one Slow Action for claws, a
+          maneuver or movement up to one zone, never a bite or Fast Action. Shared conditions restrict both;
+          no more than two attacks per round. Track current STR manually from 7; recalculate pools as he
+          weakens, and at 0 he is Broken and cannot act. Full abilities and timing are on the actor sheet.
+          Resolve other rules using the system; do not silently add regeneration, immunity, contagious claw
+          wounds or a new infection rule. Ordinary flickering fluorescent light provides visibility and
+          discomfort, not UV damage. It is night, so opening the curtains admits no
+          sunlight.</p><p><strong>Before the first strike:</strong> give the scrape and a glimpse of his
+          shape; allow the system’s normal awareness, fear and initiative procedures. Darkness affects
+          perception by normal rules, without automatic surprise. In the first exchange he drops toward the
+          nearest exposed wounded person, including Graf; an investigator who interposes becomes the
+          immediate obstacle. He claws, grapples and tries to get blood. Describe the first ineffective
+          bullet or impossible burst of strength clearly so the players can change tactics. He is newly
+          transformed, frightened and ravenous; he has no elder discipline or tactical
+          omniscience.</p><p><strong>Useful actions:</strong> drag Graf into the theatre and secure its
+          door; cover the surviving nurse’s exit east toward the lift; illuminate a specific hiding
+          position; interpose a trolley as an obstacle; concentrate force; or fall back behind a door while
+          calling support. Use the visible BM04 doors and corridor. Do not require vampire weapons the cell
+          never had a chance to acquire. The guard has ordinary equipment and follows their practical
+          instructions; he does not solve the battle.</p><p><strong>Pressure and exit:</strong> at current
+          STR 3 or lower, or when the party holds the corridor and denies access to victims, Hausmann
+          switches from feeding to flight. Telegraph his glance toward the exterior window in room 3.14. He
+          must cross the mapped corridor, enter that room, break its window and climb/drop toward the wooded
+          slope. Moving there and breaking glass use normal actions; investigators may intercept, shoot,
+          obstruct or pursue. Use the glass-break sting only when it happens. If the map does not mark a
+          window, identify this room’s exterior-wall window aloud before play; it is an environmental
+          feature, not a secret passage.</p><p><strong>End states:</strong> if killed by resolved damage, he
+          stays dead; if he reaches the window and gets clear, record an escaped vampire, last sighting and
+          a separate containment request to Petra. He leaves no automatic ash pile. Do not force escape when
+          the party blocks it or keep him alive after a legitimate kill. A clever successful restraint is
+          also honored. If the cell retreats, he seeks the night through that same route rather than
+          pursuing a compulsory total-party kill. Injuries carry forward; stabilize the living before the
+          explanation. No extra vampire arrives.</p><p>Share
           @UUID[Compendium.neon-relic-mission-sangreal.sangreal-clues.Item.6unFKeGTeIyiNa9Q]{I59 — Ward
           Three — Incident Record} only after the participants’ observations are compiled. I30 is an
           obtainable retained security frame after the breach, not a live omniscient view or a photo of
