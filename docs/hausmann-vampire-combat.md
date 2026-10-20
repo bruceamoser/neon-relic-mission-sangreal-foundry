@@ -18,6 +18,10 @@ NPC attributes are scalar values in Neon Relic. Track Physical Damage by reducin
 
 The system's actor `applyDamage` helper currently handles agents only. Adjust this NPC's numeric STR on its sheet manually. Abilities, damage resistance and the extra activation are also DA-adjudicated; embedded weapons and talents provide the records, not automatic scripts.
 
+Use Neon Relic **0.12.1 or later**, which declares the NPC skill fields so Foundry retains their live values. After updating both system and mission, run the mission Content Installer to refresh the existing actor. Its identity and embedded-item IDs are unchanged.
+
+On the Combat tab, the claw and bite Roll buttons already include current STR and Brawl 4. Set **Modifier +2** for Blood Frenzy only against a physically wounded target; do not add Brawl again or use Gear Bonus. Starting pools are attacks 11 (13 with Frenzy), Force 11, Sneak 8 and Investigate 5. All four trained skills are rollable; the other ten skill ratings are explicitly zero. Each of the six special abilities displays its full rules and opens its item sheet. Their timing and damage effects remain manual.
+
 ## Attacks
 
 - **Raking claws:** Slow Action, Brawl, engaged range, base Physical Damage 2. Additional successes use the normal combat stunts. A grapple, shove or disarm uses the normal opposed maneuver instead of also dealing free claw damage.

@@ -53,6 +53,20 @@ assert.equal(vampire.items.filter(item=>item.type==='talent').length,6);
 assert.equal(new Set(vampire.items.map(item=>item._id)).size,8);
 assert(vampire.items.every(item=>/^[A-Za-z0-9]{16}$/.test(item._id)));
 assert.equal(vampire.prototypeToken.texture.src,vampire.img);
+const skillAttributes={force:'str',endure:'str',brawl:'str',firearms:'agi',deftHands:'agi',sneak:'agi',tech:'wit',investigate:'wit',lore:'wit',psychoanalyze:'emp',manipulate:'emp',command:'emp',healMental:'emp',healPhysical:'wit'};
+assert.deepEqual(Object.keys(vampire.system.skills).sort(),Object.keys(skillAttributes).sort());
+for(const value of Object.values(vampire.system.skills)) assert(Number.isInteger(value)&&value>=0&&value<=5);
+for(const [skill,pool] of Object.entries({brawl:11,force:11,sneak:8,investigate:5})) assert.equal(vampire.system.attributes[skillAttributes[skill]]+vampire.system.skills[skill],pool);
+for(const weapon of vampire.items.filter(item=>item.type==='weapon')){
+ assert.equal(weapon.system.skill,'brawl');
+ assert.equal(weapon.system.gearBonus.value,0);
+ assert.equal(weapon.system.isBroken,false);
+}
+const frenzy=vampire.items.find(item=>item.name==='Blood Frenzy');
+assert.equal(frenzy.system.conditionalModifier.skill,'brawl');
+assert.equal(frenzy.system.conditionalModifier.bonus,2);
+assert(vampire.items.filter(item=>item.type==='talent').every(item=>item.system.effect&&item.system.description));
+assert.equal(manifest.relationships.systems.find(system=>system.id==='neon-relic').compatibility.minimum,'0.12.1');
 assert(clinic.includes(`sangreal-npcs.Actor.${vampire._id}`));
 assert(walk.pages[6].text.content.includes('refused'));assert(walk.pages[8].text.content.includes('Intervene'));
 console.log(`PASS: ${refs} inline module links and ${media} media references resolve; cipher yields GENEUA / UBS / HAUSMANN / DDKI / C → GENEVA / UBS / HAUSMANN / 4409 / C; matching clocks and 24 photo cards.`);
